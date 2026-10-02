@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Citation graph · Co-Speech Gesture Atlas</title>
+<style>
+  :root { --bg: #fbfbf9; --fg: #1d1f23; --muted: #6b7280; --line: #d9dbe0; --panel: #ffffff; --edge: rgba(60, 70, 90, 0.10); --hi: #c2410c; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14161a; --fg: #e7e9ee; --muted: #9aa1ad; --line: #2c3038; --panel: #1c1f25; --edge: rgba(200, 210, 230, 0.08); --hi: #fb923c; }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg); font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header { padding: 12px 16px; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+  h1 { font-size: 16px; margin: 0; font-weight: 600; }
+  header p { margin: 0; color: var(--muted); flex: 1 1 260px; }
+  input[type=search] { padding: 6px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: var(--fg); min-width: 200px; font: inherit; }
+  main { position: relative; height: calc(100% - 62px); min-height: 360px; }
+  canvas { width: 100%; height: 100%; display: block; touch-action: none; cursor: grab; }
+  #info { position: absolute; left: 16px; bottom: 16px; max-width: min(460px, calc(100% - 32px)); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; display: none; }
+  #info b { display: block; margin-bottom: 2px; }
+  #info span { color: var(--muted); }
+  #legend { position: absolute; right: 16px; top: 12px; color: var(--muted); font-size: 12px; text-align: right; }
+  #bar { height: 8px; width: 160px; border-radius: 4px; margin: 4px 0 2px auto; }
+  a { color: inherit; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Co-Speech Gesture Atlas · citation graph</h1>
+  <p id="count">Loading…</p>
+  <input id="q" type="search" placeholder="Find a paper by title or id" aria-label="Find a paper">
+</header>
+<main>
+  <canvas id="c"></canvas>
+  <div id="legend">Colour: publication year<div id="bar"></div><span id="range"></span><br>Size: citations from papers in the atlas</div>
+  <div id="info"></div>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+(async function () {
+  const data = await fetch("citations.json").then(r => r.json());
+  const nodes = data.nodes.map(d => ({ ...d })), byId = new Map(nodes.map(n => [n.id, n]));
+  const links = data.edges.map(([s, t]) => ({ source: byId.get(s), target: byId.get(t) })).filter(l => l.source && l.target);
+  nodes.forEach(n => { n.inn = 0; n.out = 0; });
+  links.forEach(l => { l.target.inn++; l.source.out++; });
+  document.getElementById("count").textContent =
+    `${nodes.length} papers, ${links.length} citations between them. An arrow runs from the citing paper to the cited one. Drag to pan, scroll to zoom, hover or tap a node.`;
+
+  const years = d3.extent(nodes, n => n.year), color = d3.scaleSequential(d3.interpolateViridis).domain(years);
+  document.getElementById("bar").style.background = `linear-gradient(to right, ${d3.range(0, 1.01, 0.1).map(t => d3.interpolateViridis(t)).join(",")})`;
+  document.getElementById("range").textContent = `${years[0]} – ${years[1]}`;
+  const radius = n => 2.5 + Math.sqrt(n.inn) * 1.6;
+
+  const canvas = document.getElementById("c"), ctx = canvas.getContext("2d"), info = document.getElementById("info");
+  let W = 0, H = 0, transform = d3.zoomIdentity, focus = null, matches = null;
+  const css = name => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  function resize() {
+    const r = canvas.getBoundingClientRect(), dpr = window.devicePixelRatio || 1;
+    W = r.width; H = r.height; canvas.width = W * dpr; canvas.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0); draw();
+  }
+  // older papers to the left, newer to the right; the force layout does the rest
+  const x = d3.scaleLinear().domain(years).range([-900, 900]);
+  const sim = d3.forceSimulation(nodes)
+    .force("link", d3.forceLink(links).distance(40).strength(0.05))
+    .force("charge", d3.forceManyBody().strength(-28).distanceMax(420))
+    .force("x", d3.forceX(n => x(n.year)).strength(0.25))
+    .force("y", d3.forceY(0).strength(0.04))
+    .force("collide", d3.forceCollide(n => radius(n) + 1))
+    .on("tick", draw);
+
+  function draw() {
+    ctx.save(); ctx.clearRect(0, 0, W, H);
+    ctx.translate(W / 2 + transform.x, H / 2 + transform.y); ctx.scale(transform.k, transform.k);
+    const near = focus ? new Set([focus]) : null;
+    ctx.lineWidth = 0.6 / transform.k; ctx.strokeStyle = css("--edge"); ctx.beginPath();
+    for (const l of links) { if (focus && (l.source === focus || l.target === focus)) { near.add(l.source); near.add(l.target); continue; } ctx.moveTo(l.source.x, l.source.y); ctx.lineTo(l.target.x, l.target.y); }
+    ctx.stroke();
+    if (focus) {
+      ctx.lineWidth = 1.2 / transform.k; ctx.strokeStyle = css("--hi"); ctx.beginPath();
+      for (const l of links) if (l.source === focus || l.target === focus) { ctx.moveTo(l.source.x, l.source.y); ctx.lineTo(l.target.x, l.target.y); }
+      ctx.stroke();
+    }
+    for (const n of nodes) {
+      const dim = (near && !near.has(n)) || (matches && !matches.has(n));
+      ctx.globalAlpha = dim ? 0.18 : 1; ctx.fillStyle = color(n.year);
+      ctx.beginPath(); ctx.arc(n.x, n.y, radius(n), 0, 6.2832); ctx.fill();
+      if (n === focus || (matches && matches.has(n) && matches.size <= 12)) { ctx.lineWidth = 1.5 / transform.k; ctx.strokeStyle = css("--hi"); ctx.stroke(); }
+    }
+    ctx.globalAlpha = 1; ctx.restore();
+  }
+  function pick(event) {
+    const [px, py] = d3.pointer(event, canvas), gx = (px - W / 2 - transform.x) / transform.k, gy = (py - H / 2 - transform.y) / transform.k;
+    let best = null, bd = Infinity;
+    for (const n of nodes) { const d = Math.hypot(n.x - gx, n.y - gy) - radius(n); if (d < bd) { bd = d; best = n; } }
+    return bd < 8 / transform.k ? best : null;
+  }
+  function show(n) {
+    focus = n;
+    if (!n) { info.style.display = "none"; draw(); return; }
+    info.style.display = "block"; info.textContent = "";
+    const b = document.createElement("b"); b.textContent = n.title;
+    const s = document.createElement("span"); s.textContent = `${n.venue} ${n.year} · cited by ${n.inn} and cites ${n.out} papers in the atlas`;
+    info.append(b, s);
+    if (n.url) { const a = document.createElement("a"); a.href = n.url; a.textContent = " · open paper"; a.target = "_blank"; a.rel = "noopener"; info.append(a); }
+    draw();
+  }
+  canvas.addEventListener("mousemove", e => show(pick(e)));
+  canvas.addEventListener("click", e => show(pick(e)));
+  d3.select(canvas).call(d3.zoom().scaleExtent([0.1, 12]).on("zoom", e => { transform = e.transform; draw(); }));
+  document.getElementById("q").addEventListener("input", e => {
+    const q = e.target.value.trim().toLowerCase();
+    matches = q.length < 2 ? null : new Set(nodes.filter(n => n.title.toLowerCase().includes(q) || n.id.includes(q)));
+    draw();
+  });
+  window.addEventListener("resize", resize);
+  transform = d3.zoomIdentity.scale(0.45); d3.select(canvas).call(d3.zoom().transform, transform);
+  resize();
+})();
+</script>
+</body>
+</html>

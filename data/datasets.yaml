@@ -1,137 +1,218 @@
 # One record per dataset. Papers refer to these by `id` in their `datasets` field.
 # Field rules: docs/SCHEMA.md (enforced by schema/schema.json and scripts/validate.py).
 
-- id: trinity
-  name: Trinity Speech-Gesture Dataset
-  added: '2026-10-02'
-  verified: false
+- {id: trinity, added: '2026-10-02', verified: false, name: Trinity Speech-Gesture Dataset}
 
-- id: trinity2
-  name: Trinity Speech-Gesture Dataset II
-  added: '2026-10-02'
-  verified: false
+- {id: trinity2, added: '2026-10-02', verified: false, name: Trinity Speech-Gesture Dataset II}
 
-- id: ted-gesture
-  name: TED Gesture
-  added: '2026-10-02'
-  verified: false
+- {id: ted-gesture, added: '2026-10-02', verified: false, name: TED Gesture}
 
-- id: ted-expressive
-  name: TED Expressive
-  added: '2026-10-02'
-  verified: false
+- {id: ted-expressive, added: '2026-10-02', verified: false, name: TED Expressive}
 
-- id: speech2gesture
-  name: Speech2Gesture (speaker-specific gesture dataset)
-  added: '2026-10-02'
-  verified: false
+- {id: speech2gesture, added: '2026-10-02', verified: false, name: Speech2Gesture (speaker-specific gesture dataset)}
 
-- id: pats
-  name: PATS (Pose, Audio, Transcript, Style)
-  added: '2026-10-02'
-  verified: false
+- {id: pats, added: '2026-10-02', verified: false, name: 'PATS (Pose, Audio, Transcript, Style)'}
 
-- id: beat
-  name: BEAT
-  added: '2026-10-02'
-  verified: false
+- {id: beat, added: '2026-10-02', verified: false, name: BEAT}
 
-- id: beat2
-  name: BEAT2 (BEATX)
-  added: '2026-10-02'
-  verified: false
+- {id: beat2, added: '2026-10-02', verified: false, name: BEAT2 (BEATX)}
 
-- id: show
-  name: TalkSHOW dataset (SHOW)
-  added: '2026-10-02'
-  verified: false
+- {id: show, added: '2026-10-02', verified: false, name: TalkSHOW dataset (SHOW)}
 
-- id: zeggs
-  name: ZeroEGGS dataset (ZEGGS)
-  added: '2026-10-02'
-  verified: false
+- {id: zeggs, added: '2026-10-02', verified: false, name: ZeroEGGS dataset (ZEGGS)}
 
-- id: talking-with-hands
-  name: Talking With Hands 16.2M
-  added: '2026-10-02'
-  verified: false
+- {id: talking-with-hands, added: '2026-10-02', verified: false, name: Talking With Hands 16.2M}
 
-- id: genea-2020
-  name: GENEA Challenge 2020 data
-  added: '2026-10-02'
-  verified: false
+- {id: genea-2020, added: '2026-10-02', verified: false, name: GENEA Challenge 2020 data}
 
-- id: genea-2022
-  name: GENEA Challenge 2022 data
-  added: '2026-10-02'
-  verified: false
+- {id: genea-2022, added: '2026-10-02', verified: false, name: GENEA Challenge 2022 data}
 
-- id: genea-2023
-  name: GENEA Challenge 2023 data
-  added: '2026-10-02'
-  verified: false
+- {id: genea-2023, added: '2026-10-02', verified: false, name: GENEA Challenge 2023 data}
 
-- id: audio2photoreal
-  name: Audio2Photoreal conversations dataset
-  added: '2026-10-02'
-  verified: false
+- {id: audio2photoreal, added: '2026-10-02', verified: false, name: Audio2Photoreal conversations dataset}
 
-- id: dnd-group-gesture
-  name: DnD Group Gesture
-  added: '2026-10-02'
-  verified: false
+- {id: dnd-group-gesture, added: '2026-10-02', verified: false, name: DnD Group Gesture}
 
-- id: seamless-interaction
-  name: Seamless Interaction
-  added: '2026-10-02'
-  verified: false
+- {id: seamless-interaction, added: '2026-10-02', verified: false, name: Seamless Interaction}
 
-- id: saga
-  name: SaGA (Bielefeld Speech and Gesture Alignment corpus)
-  added: '2026-10-02'
-  verified: false
+- {id: saga, added: '2026-10-02', verified: false, name: SaGA (Bielefeld Speech and Gesture Alignment corpus)}
 
-- id: youtube-gesture
-  name: YouTube Gesture Dataset
-  added: '2026-10-02'
-  verified: false
+- {id: youtube-gesture, added: '2026-10-02', verified: false, name: YouTube Gesture Dataset}
 
-- id: aist-plus-plus
-  name: AIST++
-  added: '2026-10-02'
-  verified: false
+- {id: aist-plus-plus, added: '2026-10-02', verified: false, name: AIST++}
 
-- id: amass
-  name: AMASS
-  added: '2026-10-02'
-  verified: false
+- {id: amass, added: '2026-10-02', verified: false, name: AMASS}
 
-- id: humanml3d
-  name: HumanML3D
-  added: '2026-10-02'
-  verified: false
+- {id: humanml3d, added: '2026-10-02', verified: false, name: HumanML3D}
 
-- id: motion-x
-  name: Motion-X
-  added: '2026-10-02'
-  verified: false
+- {id: motion-x, added: '2026-10-02', verified: false, name: Motion-X}
 
-- id: cmu-panoptic
-  name: CMU Panoptic (Haggling)
-  added: '2026-10-02'
-  verified: false
+- {id: cmu-panoptic, added: '2026-10-02', verified: false, name: CMU Panoptic (Haggling)}
 
-- id: iemocap
-  name: IEMOCAP
-  added: '2026-10-02'
-  verified: false
+- {id: iemocap, added: '2026-10-02', verified: false, name: IEMOCAP}
 
-- id: vico
-  name: ViCo (listening head dataset)
-  added: '2026-10-02'
-  verified: false
+- {id: vico, added: '2026-10-02', verified: false, name: ViCo (listening head dataset)}
 
-- id: custom
-  name: Dataset collected by the authors and not named or released
+- {id: custom, added: '2026-10-02', verified: false, name: Dataset collected by the authors and not named or released}
+
+- {id: streamer, added: '2026-10-02', verified: false, name: Streamer}
+
+- id: embody3d
+  links: {}
   added: '2026-10-02'
   verified: false
+  name: Embody3D
+
+- id: sceneges
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: SceneGes
+
+- id: robogesture
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: RoboGesture dataset
+
+- id: ted4c-l
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: TED4C-L
+
+- id: semantix
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: Semantix
+
+- id: seg
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: SeG (semantic gesture dataset)
+
+- id: affectmocap
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: AffectMoCap
+
+- id: reactmotionnet
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: ReactMotionNet
+
+- id: embody-3d
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: Embody 3D
+
+- id: multi-tpc
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: Multi-TPC
+
+- id: ges-inter
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: GES-Inter
+
+- id: csg-405
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: CSG-405
+
+- id: mm-conv
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: MM-Conv
+
+- id: samp
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: SAMP (Stochastic Scene-Aware Motion Prediction) sitting dataset
+
+- {id: sig-chat, added: '2026-10-02', verified: false, name: SIG-Chat}
+
+- {id: interact, added: '2026-10-02', verified: false, name: InterAct}
+
+- id: cnas
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: CNAS (Chinese News Anchor Speech dataset)
+
+- {id: tfhp, added: '2026-10-02', verified: false, name: TFHP}
+
+- {id: celebv-hq, added: '2026-10-02', verified: false, name: CelebV-HQ}
+
+- {id: hdtf, added: '2026-10-02', verified: false, name: HDTF}
+
+- {id: avspeech, added: '2026-10-02', verified: false, name: AVSpeech}
+
+- id: wb-dh
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: Whole-Body Benchmark Dataset (WB-DH)
+
+- id: venus
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: VENUS
+
+- id: finedance
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: FineDance
+
+- id: ted-culture
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: TED-Culture Dataset
+
+- id: allo-ava
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: Allo-AVA
+
+- id: hoco
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: HoCo
+
+- {id: mentor, added: '2026-10-02', verified: false, name: MENTOR}
+
+- {id: talkinghead-1kh, added: '2026-10-02', verified: false, name: TalkingHead-1KH}
+
+- id: bige
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: BiGe dataset
+
+- id: ted-emotion
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: TED Emotion
+
+- id: mcgd
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: Multiple Culture Gesture Dataset (MCGD)

@@ -1,0 +1,2195 @@
+# Papers published in 2026. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: adeli2026puppeteer
+  title: 'Puppeteer: Object-Grounded Posture-Aware Co-Speech Gesture Generation'
+  authors: [Vida Adeli, Soroush Mehraban, Jacob Rommann, Harrison Sanborn, Cole Clifford, Babak Taati]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2609.00369'
+  links: {paper: 'https://arxiv.org/abs/2609.00369', project: 'https://puppeteer.pickford.ai/'}
+  input: [audio, text, seed-motion]
+  output: [full-body]
+  representation: [smpl-x]
+  approach: [vae, diffusion, autoregressive]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat2, embody3d, sceneges]
+  metrics: [fgd, beat-align, diversity, joint-error, other]
+  user_study: true
+  summary: Performs autoregressive latent diffusion in a causal VAE latent space, conditioned on speech, motion history, an initial posture and 3D object geometry, to generate object-grounded gestures.
+  notes: 'Also introduces the SceneGes synthetic dataset. Other metrics: object penetration depth (MeanPen, MaxPen) and delta beat consistency.'
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: agarwal2026emody
+  title: 'EMODY Flow: Emotion-Aware Audio-Driven Full-Body Motion Generation'
+  authors: [Harsh Agarwal, Xavier Alameda-Pineda, Olivier Perrotin]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2609.16011'
+  links: {paper: 'https://arxiv.org/abs/2609.16011', code: 'https://github.com/krag-harsh/EMODY-Flow'}
+  input: [audio, emotion]
+  output: [full-body, face]
+  representation: [smpl-x]
+  approach: [flow-matching]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat2]
+  languages: [en]
+  metrics: [fgd, beat-align, diversity, face-error]
+  user_study: false
+  summary: Flow-matching DiT generators for SMPL-X body pose and FLAME expressions, conditioned on audio embeddings from a frozen Qwen-3 Omni model and an emotion label, with an auxiliary emotion classifier during training.
+  notes: The paper is formatted for the JAV-CG '26 workshop; acceptance was not confirmed in the text read, so it is kept as a preprint. Zero-shot facial evaluation on TFHP.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: axyonov2026mavagen
+  title: 'MAVAGEN: Multimodal Avatar Generation Framework for Personalized Human–Computer Interaction'
+  authors: [Alexandr Axyonov, Elena Ryumina, Dmitry Ryumin, Alexey Karpov]
+  year: 2026
+  venue: MTI
+  type: journal
+  category: method
+  doi: 10.3390/mti10050055
+  links: {paper: 'https://doi.org/10.3390/mti10050055'}
+  input: [text, image]
+  output: [upper-body, hands, face]
+  metrics: [fid, fvd, image-quality, lip-sync, other]
+  summary: Generates upper-body avatar clips with synchronized facial expressions, hand gestures and speech from a short text, inferred emotion and a retrieved identity image.
+  notes: Also reports HKC, HKV, CSIM and emotion accuracy.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: boucher2026coaches
+  title: Embodied Gesture Synchronized Virtual Coaches Train Conversational Skills with Nonverbal Feedback in Online Training Platforms
+  authors: [Amandine Boucher, Daichi Okabe, Eliza Webster]
+  year: 2026
+  venue: IJCBS
+  type: journal
+  category: system
+  doi: 10.66238/ijcbs93
+  links: {paper: 'https://doi.org/10.66238/ijcbs93', open: 'https://ijcbs.org/index.php/IJCBS/article/download/93/106'}
+  input: [text, audio]
+  output: [upper-body, hands]
+  realtime: unreported
+  user_study: true
+  summary: Designs and evaluates virtual coaches for conversational skills training whose embodied gestures are synchronized with speech using data-driven co-speech gesture generation.
+  notes: No named gesture model, dataset or objective gesture metric; evaluation is a learner study comparing against coaches with randomly selected pre-recorded gestures.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: cai2026review
+  title: 'A Review of Data-Driven Co-Speech Gesture Generation: Methods, Datasets, and Challenges'
+  authors: [Xinzhi Cai, Yunqi Guo, Xinyue Xu, Di Chen]
+  year: 2026
+  venue: CVIDL
+  type: conference
+  category: survey
+  doi: 10.1109/cvidl70130.2026.11637684
+  links: {paper: 'https://doi.org/10.1109/cvidl70130.2026.11637684'}
+  summary: Reviews data-driven co-speech gesture generation methods from statistical and recurrent models to diffusion frameworks, compares benchmark datasets, and discusses open challenges.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: chen2026audience
+  title: Audience-Aware Co-speech Gesture Generation in Public Speaking via Anticipation Tokens
+  authors: [Huanyu Chen, Woan-Shiuan Chien, Chi-Chun Lee]
+  year: 2026
+  venue: ICASSP
+  type: conference
+  category: method
+  doi: 10.1109/icassp55912.2026.11462581
+  links: {paper: 'https://doi.org/10.1109/icassp55912.2026.11462581'}
+  input: [audio]
+  approach: [diffusion]
+  summary: Gesture generation framework for public speaking that adds pre-response tokens for expected audience reactions such as laughter, conditioned on speech representations.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: chen2026resinhr
+  title: Real-Time Synchronized Interaction Framework for Emotion-Aware Humanoid Robots
+  authors: [Yanrong Chen, Xihan Bian]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: system
+  arxiv: '2601.17287'
+  links: {paper: 'https://arxiv.org/abs/2601.17287', project: 'https://cyr1213.github.io/ReSIn-HR/'}
+  input: [audio, text, emotion]
+  output: [upper-body]
+  approach: [llm]
+  realtime: real-time
+  latency: 85 ms average execution latency (100 ms maximum) on a NAO robot
+  metrics: [accel-jerk, other]
+  user_study: true
+  summary: An LLM generates NAO robot gesture keyframe code from emotion and semantic cues with retrieved gesture examples, aligned to speech duration by dynamic time warping and checked against joint limits.
+  notes: Temporal Synchronization Accuracy is listed as other. Code release was planned but not available at publication.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: choi2026rvq
+  title: Generating Prosody-Aligned Gestures via Residual Vector Quantization With Uniform Regularization and Activity Loss
+  authors: [Hyoungki Choi, Hyeongseok Choi, Jinbeum Jang, Joonki Paik]
+  year: 2026
+  venue: IEEE Access
+  type: journal
+  category: method
+  doi: 10.1109/access.2026.3707129
+  links: {paper: 'https://doi.org/10.1109/access.2026.3707129'}
+  approach: [vq]
+  metrics: [fgd, diversity]
+  summary: Two-stage co-speech gesture generator that encodes motion with a residual vector quantization embedding network using uniform regularization and an activity loss, then maps speech to the codes with a gesture generator.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: deichler2026referential
+  title: A Benchmark for Scene-Aware Referential Gesture Generation
+  authors: [Anna Deichler, Rishabh Dabral, Fethiye Irmak Doğan, Anindita Ghosh, Jonas Beskow]
+  year: 2026
+  venue: DiVA
+  type: preprint
+  category: challenge
+  links: {paper: 'http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-382215'}
+  summary: Introduces the MM-Conv Referential Gesture Generation Challenge with a 3,000-clip pointing-annotated data release, a task formulation for speech-aligned spatially grounded gestures, and a spatio-temporal evaluation protocol.
+  notes: DiVA lists it as a manuscript submitted to the 1st Workshop on Human-Scene Interaction at ECCV 2026, where the challenge is to be held. Baseline is modular and based on OmniControl. Data from MM-Conv and SGS-HSI.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: deichler2026spatially
+  title: 'Spatially Grounded Communication in Embodied Agents : From Gesture Generation to Referential Understanding'
+  authors: [Anna Deichler]
+  year: 2026
+  venue: KTH
+  type: thesis
+  category: method
+  links: {paper: 'http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-382200'}
+  input: [audio]
+  approach: [flow-matching, other]
+  summary: Thesis on semantic and spatial co-speech gesture generation using contrastive speech-motion pretraining, reinforcement learning with adversarial motion priors for pointing, and flow matching, plus referential grounding datasets.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ding2026cospeech
+  title: 'Co-Speech with You: Training-Free Personalization of Robot Co-Speech Gestures'
+  authors: [Bosong Ding, Selma Ancel, Giacomo Spigler, Murat Kirtay]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2609.13876'
+  links: {paper: 'https://arxiv.org/abs/2609.13876'}
+  input: [audio, style]
+  output: [upper-body]
+  representation: [joints-3d]
+  approach: [diffusion]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [ted-expressive, beat, trinity, custom]
+  languages: [en]
+  metrics: [fgd, other]
+  user_study: false
+  summary: Personalizes the gesture style of a frozen audio-conditioned diffusion model by extracting a style embedding from about 10 seconds of enrollment motion, then retargets the motion to a NAO robot.
+  notes: Other metric is Style Recognition Accuracy (SRA). Generating a 34-frame window took 0.755 s on an RTX 4070. Also releases a Quest 3 capture app and a ten-participant dataset with controlled access.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: ding2026gestadapt
+  title: 'GestAdapt: Workspace-Conditioned Co-Speech Gesture Generation for Humanoid Robots'
+  authors: [Bosong Ding, Xianglin Zhang, Miao Xin, Murat Kirtay, Giacomo Spigler]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2609.38400'
+  links: {paper: 'https://arxiv.org/abs/2609.38400'}
+  input: [audio, seed-motion]
+  output: [upper-body, hands]
+  representation: [joints-3d]
+  approach: [diffusion]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat, show, ted-expressive, trinity, zeggs, streamer]
+  metrics: [fgd, beat-align, accel-jerk, workspace-violation]
+  user_study: true
+  summary: A diffusion transformer generates upper-body and hand motion from speech and recent motion, conditioned on a prescribed wrist workspace through cross-attention and guidance during sampling, with retargeting to robots.
+  notes: Trained on six combined corpora; evaluated on a Reachy2 humanoid.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: du2026reality
+  title: 'Reality Check: How Avatar and Face Representation Affect the Perceptual Evaluation of Synthesized Gestures'
+  authors: [Haoyang Du, Yinghan Xu, John Dingliana, Brian Keegan, Rachel McDonnell, Cathy Ennis]
+  year: 2026
+  venue: SIGGRAPH
+  type: conference
+  category: evaluation
+  doi: 10.1145/3799902.3811161
+  arxiv: '2605.06063'
+  links: {paper: 'https://doi.org/10.1145/3799902.3811161'}
+  input: [audio]
+  output: [full-body, hands]
+  setting: [monologue]
+  datasets: [beat2]
+  user_study: true
+  summary: Runs controlled perceptual studies comparing mocap and generated co-speech gestures across seven avatar renderings and face presentations to measure their effect on motion judgments.
+  notes: Generated motion from HoloGest, Semantic Gesticulator and GestureLSM; three experiments with 131, 180 and 164 participants.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: fu2026mambagesture2
+  title: 'MambaGesture2: Co-Speech Gesture Generation via Hierarchical Fusion and Spatiotemporal Aggregation'
+  authors: [Chencan Fu, Yabiao Wang, Haoyang He, Shuo Wang, Chengjie Wang, Ying Tai, Yong Liu, Jiangning Zhang]
+  year: 2026
+  venue: TMM
+  type: journal
+  category: method
+  doi: 10.1109/tmm.2026.3668541
+  links: {paper: 'https://doi.org/10.1109/tmm.2026.3668541', project: 'https://fcchit.github.io/mambagesture2'}
+  approach: [diffusion]
+  datasets: [beat2, show]
+  summary: A diffusion framework with a Mamba-based hierarchical U-Net denoiser, a multimodal fusion module, and multi-scale temporal and spatial-temporal aggregation modules.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: gamage2026rlanimate
+  title: 'Reinforcement Learning and Virtual Human Animation: A novel approach to data-driven animation, portraying dynamic, flexible human-like behaviours'
+  authors: [Vihanga Gamage]
+  year: 2026
+  venue: TU Dublin
+  type: thesis
+  category: method
+  doi: 10.21427/aw1h-3j07
+  links: {paper: 'https://doi.org/10.21427/aw1h-3j07', open: 'https://arrow.tudublin.ie/scschcomdis/286'}
+  input: [audio]
+  output: [upper-body]
+  representation: [joints-3d]
+  approach: [other]
+  user_study: true
+  summary: Model-based reinforcement learning framework (RLAnimate) with latent state space models that generates frame-by-frame upper-body behaviours including speech-driven beat gestures.
+  notes: Thesis; beat gesture generation from speech is the fourth research question, earlier ones cover waving and pointing.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: gao2026megaavatar
+  title: 'MegaAvatar: Controllable Talking Avatar Generation'
+  authors: [Junyao Gao, Sibo Liu, Weidong Zhang, Cairong Zhao, Jun Zhang]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2609.39273'
+  links: {paper: 'https://arxiv.org/abs/2609.39273', code: 'https://github.com/Jeoyal/MegaAvatar'}
+  input: [audio, image]
+  output: [full-body, face]
+  representation: [smpl-x, video-pixels]
+  approach: [diffusion, vq, flow-matching]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [custom]
+  metrics: []
+  user_study: false
+  summary: A video generation model built on Wan2.2-TI2V-5B is controlled by rendered SMPL-X body and head motion, with an audio-to-SMPL-X model predicting that motion from audio and a reference image.
+  notes: Trained on SpeakerVid-1M / SpeakerVid-400K talking-human videos; evaluation is qualitative only.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: ghanadtorshizi2026llm
+  title: A Comparative Study of Large Language Models for Gesture Selection in Virtual Agents
+  authors: [Parisa Ghanad Torshizi, Laura Birka Hensel, Ari Shapiro, Stacy Marsella]
+  year: 2026
+  venue: Research Square
+  type: preprint
+  category: evaluation
+  doi: 10.21203/rs.3.rs-8768097/v1
+  links: {paper: 'https://doi.org/10.21203/rs.3.rs-8768097/v1', open: 'https://www.researchsquare.com/article/rs-8768097/latest.pdf'}
+  input: [text]
+  approach: [llm]
+  summary: Compares prompting approaches and LLMs (GPT-4, Llama3, GPT-5.2) for selecting contextually appropriate co-speech gestures for utterances, weighing gesture quality against inference speed, and integrates the approach into a virtual agent.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: gjaci2026sicage
+  title: 'SICAGE: Speaker-Independent Culture-Aware Gesture Generation using TED4C-L Dataset'
+  authors: [Ariel Gjaci, Antonio Sgorbissa, Vittorio Murino]
+  year: 2026
+  venue: ECCV
+  type: conference
+  category: method
+  doi: 10.1007/978-3-032-37225-3_22
+  arxiv: '2606.30001'
+  links: {paper: 'https://doi.org/10.1007/978-3-032-37225-3_22', open: 'https://arxiv.org/abs/2606.30001', code: 'https://arielgjaci.com/sicage', project: 'https://arielgjaci.com/sicage'}
+  input: [audio, text, seed-motion]
+  output: [upper-body]
+  representation: [joints-3d]
+  approach: [vq, diffusion]
+  setting: [monologue]
+  realtime: real-time
+  latency: a 4-second motion sequence in under 14 ms
+  datasets: [ted4c-l]
+  languages: [hi, it, ja, tr]
+  metrics: [fgd, srgr, beat-align, l1-div, other]
+  user_study: true
+  summary: Learns speaker-independent cultural embeddings from audio and text via domain generalization and uses them to condition ALaDiT, a diffusion gesture generator over VQ motion tokens.
+  notes: 'Upper-body 3D keypoints (9) at 15 FPS. Other metric: cultural expressivity F1. Project page also hosts code and dataset; weights not stated.'
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: grondinverdon2026approche
+  title: Vers une approche interdisciplinaire fondée sur les données pour l’analyse multimodale et la modélisation computationnelle du geste co-verbal
+  authors: [Mickaëlla Grondin-Verdon]
+  year: 2026
+  venue: HAL
+  type: thesis
+  category: evaluation
+  doi: 10.70675/6c1affc9za506z41baz9807z7a2517c6a73a
+  links: {paper: 'https://hal.science/tel-05630737v1'}
+  datasets: [beat]
+  summary: Thesis re-annotating part of the BEAT corpus (reBeat-14), analysing STARGATE-generated gestures with movement criteria, and proposing automatic gesture annotation and a CNN-GRU segmentation model (COSMOS).
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: guichoux2026gelina
+  title: 'Gelina: Unified Speech and Gesture Synthesis via Interleaved Token Prediction'
+  authors: [Téo Guichoux, Théodor Lemerle, Shivam Mehta, Jonas Beskow, Gustav Eje Henter, Laure Soulier, Catherine Pelachaud, Nicolas Obin]
+  year: 2026
+  venue: ICASSP
+  type: conference
+  category: method
+  doi: 10.1109/icassp55912.2026.11464562
+  arxiv: '2510.12834'
+  links: {paper: 'https://doi.org/10.1109/icassp55912.2026.11464562', open: 'https://arxiv.org/abs/2510.12834'}
+  input: [text, audio]
+  output: [full-body]
+  representation: [smpl-x]
+  approach: [vq, autoregressive, flow-matching]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat2]
+  languages: [en]
+  metrics: [fgd, beat-align, l1-div, other]
+  user_study: true
+  summary: Jointly synthesizes speech and gestures from text with an autoregressive transformer over interleaved speech and RVQ gesture tokens, with a flow-matching gesture decoder; also supports gesture-only synthesis from speech.
+  notes: 'Fingers are not generated. Reports a real-time factor of 1.47 on an A5000 GPU. Other metrics: word error rate, neural MOS, speaker similarity.'
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: guo2026nerag
+  title: 'NeRAG: Neuro-Explicit Retrieval-Augmented Generation for Real-Time Interaction in Digital Humans'
+  authors: [Yutao Guo, Tianzhao Li, Xin Lyu, J Chen, Zhaohan Wang, Yurun Chen, Sirui Xiao, Yezi He, Hui Li, Fan Zhang]
+  year: 2026
+  venue: ACM
+  type: conference
+  category: method
+  doi: 10.1145/3805622.3810842
+  links: {paper: 'https://doi.org/10.1145/3805622.3810842'}
+  approach: [retrieval, hybrid]
+  realtime: real-time
+  latency: 120 FPS throughput, 150 ms end-to-end latency on consumer hardware
+  summary: A Transformer motion planner predicts semantic intent and a graph-based executor retrieves motion primitives, with executed state fed back to the planner, for low-latency co-speech gesture.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: han2026llm
+  title: A Preliminary Analysis of Situation and Personality in LLM-Generated Gesture Representations for Virtual Agents
+  authors: [Bin Han, Jonathan S. Gratch]
+  year: 2026
+  venue: ACM
+  type: conference
+  category: evaluation
+  doi: 10.1145/3806774.3832786
+  links: {paper: 'https://doi.org/10.1145/3806774.3832786'}
+  input: [text]
+  approach: [llm]
+  notes: Analyses textual gesture descriptions (gesture type, lexeme, Laban effort) generated by LLMs for different situations and Big Five personality conditions. Venue not stated in the available metadata.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: hanaizumi2026facecapges
+  title: 'FaceCapGes: Real-Time Frame-by-Frame Gesture Generation from Audio, Facial Capture, and Head Pose'
+  authors: [Jun Hanaizumi, Cheng Shang, Xubo Yang]
+  year: 2026
+  venue: Lecture Notes in Computer Science
+  type: conference
+  category: method
+  doi: 10.1007/978-3-032-22267-1_33
+  links: {paper: 'https://doi.org/10.1007/978-3-032-22267-1_33'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: hasan2026multimodal
+  title: A Multimodal Framework for Human-Multi-Agent Interaction
+  authors: [Shaid Hasan, Breenice Lee, Sujan Chandra Sarker, Tariq Iqbal]
+  year: 2026
+  venue: HRI
+  type: workshop
+  category: system
+  arxiv: '2603.23271'
+  links: {paper: 'https://arxiv.org/abs/2603.23271'}
+  input: [audio, video]
+  output: [upper-body, locomotion]
+  approach: [llm]
+  setting: [multi-party]
+  realtime: unreported
+  user_study: false
+  summary: Framework for multiple humanoid robots in which an LLM planner selects speech and parameterised gestures from an action library, with a central coordinator managing turn-taking.
+  notes: Accepted at the ACM/IEEE HRI 2026 Workshop (MAgicS-HRI). Evaluated only through representative interaction runs; the paper notes LLM and VLM delays affected interaction flow.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: he2026desformer
+  title: 'DESformer: Disentangling emotion and style for co-speech body-motion synthesis'
+  authors: [Zhitong He, Zixiang Lu, Ping Gao, Qiguang Miao, Yunan Li, Kun Xie, Junan Chen, Bujia Tian]
+  year: 2026
+  venue: Neurocomputing
+  type: journal
+  category: method
+  doi: 10.1016/j.neucom.2026.133544
+  links: {paper: 'https://doi.org/10.1016/j.neucom.2026.133544'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: hu2026dualtrack
+  title: 'DualTrack: Synchronized speech-gesture generation via symmetric coupling of pretrained priors'
+  authors: [Yuanzhuo Hu, Zehan Liu, Xiaoyi Qin, Ming Li]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2609.36624'
+  links: {paper: 'https://arxiv.org/abs/2609.36624', code: 'https://github.com/Yuanzhuo2021/DualTrack'}
+  input: [text, speaker-id]
+  output: [full-body, hands]
+  representation: [other]
+  approach: [vq, other]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat2]
+  languages: [en, es, zh, ja]
+  metrics: [fgd, beat-align, diversity, other]
+  user_study: true
+  summary: Jointly generates speech and body and finger motion from text by coupling pretrained speech and motion token generators that exchange information on a shared 12.5 Hz timeline.
+  notes: Other metrics are word and character error rate and speech naturalness scores. Training also used release910k and BONES-SEED.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: jiang2026smoothsync
+  title: 'SmoothSync: Dual-Stream Diffusion Transformers for Jitter-Robust Beat-Synchronized Gesture Generation from Quantized Audio'
+  authors: [Yujiao Jiang, Qingmin Liao, Zongqing Lu]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2601.04236'
+  links: {paper: 'https://arxiv.org/abs/2601.04236'}
+  input: [audio]
+  output: [full-body, hands, face]
+  representation: [smpl-x]
+  approach: [diffusion]
+  setting: [monologue]
+  realtime: real-time
+  latency: 160 FPS on a single RTX 4090 GPU
+  datasets: [beat2, show]
+  metrics: [fgd, beat-align, diversity, smooth-bc, other]
+  user_study: false
+  summary: Dual-stream diffusion transformer that fuses quantized audio tokens with motion features, with a jitter-suppression loss and probabilistic audio quantization for varied outputs.
+  notes: 'Other metrics: jitter and foot sliding. Code stated as to be released.'
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: jiang2026superstar
+  title: 'Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans'
+  authors: [Wentao Jiang, Youchen Xie, Haidi Fan, Yajing Chen, Xin Wang, Ye Shi, Jingya Wang]
+  year: 2026
+  venue: ACM MM
+  type: conference
+  category: method
+  arxiv: '2608.24909'
+  links: {paper: 'https://arxiv.org/abs/2608.24909', project: 'https://super-star-2026.github.io/'}
+  input: [audio, seed-motion]
+  output: [full-body, hands, face]
+  representation: [smpl-x]
+  approach: [autoregressive, vq]
+  setting: [monologue]
+  realtime: real-time
+  latency: 1.623 ms per generation step on JIYI
+  datasets: [beat2, custom]
+  metrics: [fgd, beat-align, l1-div]
+  user_study: true
+  summary: A causal multimodal autoregressive model predicts part-wise SMPL-X motion tokens online from streaming response speech and motion history, trained with synthesized dialogue data and user feedback.
+  notes: Custom dataset JIYI (about 6 hours, actors performing user-agent dialogues); latency also reported as a metric.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: jin2026sentiavatar
+  title: 'SentiAvatar: Towards Expressive and Interactive Digital Humans'
+  authors: [Chuhao Jin, Rui R. Zhang, Qingzhe Gao, Haoyu Shi, Dayu Wu, Yichen Jiang, Yihan Wu, Ruihua Song]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2604.02908'
+  links: {paper: 'https://arxiv.org/abs/2604.02908', project: 'https://sentiavatar.github.io'}
+  input: [text, audio]
+  output: [full-body, hands, face]
+  representation: [joints-3d]
+  approach: [vq, llm]
+  setting: [monologue]
+  realtime: real-time
+  latency: 0.3 s for about 6 s of output, with unlimited multi-turn streaming
+  datasets: [custom, beat2]
+  languages: [zh, en]
+  metrics: [fgd, fid, beat-align, diversity, other]
+  user_study: true
+  summary: Plan-then-infill model in which an LLM plans sparse motion-token keyframes from behavior labels and sparse audio tokens, and an audio-conditioned transformer fills in the frames, trained after pre-training on a large motion corpus.
+  notes: 'Also introduces SuSuInterActs (21K clips, 37 hours, optical mocap, Chinese dialogue, single character). Other metrics: R@K recall, Event Sync Distance. English evaluation on BEATv2.'
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: kato2026nodding
+  title: Real-time Generation of Listener Nodding via Prediction of Kinematic Parameters for Avatar Dialogue Systems
+  authors: [Kazushi Kato, Koji Inoue, Taiga Mori, Divesh Lala, Tatsuya Kawahara]
+  year: 2026
+  venue: ICMI
+  type: conference
+  category: method
+  doi: 10.1145/3776574.3831145
+  arxiv: '2607.12329'
+  links: {paper: 'https://arxiv.org/abs/2607.12329', code: 'https://github.com/MaAI-Kyoto/MaAI'}
+  weights: true
+  input: [audio, interlocutor]
+  output: [upper-body]
+  representation: [other]
+  approach: [hybrid]
+  setting: [dyadic]
+  realtime: real-time
+  latency: RTF 0.67 without ONNX and 0.57 with ONNX on laptop-class CPU
+  datasets: [custom]
+  languages: [ja]
+  metrics: [other]
+  user_study: true
+  summary: Predicts listener nodding timing and kinematic parameters (range, speed, repetitions, swing-up) from both speakers' audio with a VAP-style dyadic attention network, then renders the head nod by rule-based spline interpolation.
+  notes: Head nodding only. Trained on Japanese attentive-listening dialogues with the android ERICA (about 12 hours); objective metrics are F1 for timing and correlation/F1 for parameters. The batch metadata gives the first author as Kazuomi Kato; arXiv lists Kazushi Kato.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: koren2026cgm
+  title: 'Conversational Gesture Model (CGM): Extending Speaker‐Centric Audio‐Driven Motion Generation to Full Conversation Gestures'
+  authors: [T. Koren, Adi Rosenthal, Doron A. Friedman, Ariel Shamir]
+  year: 2026
+  venue: CGF
+  type: journal
+  category: method
+  doi: 10.1111/cgf.70412
+  links: {paper: 'https://doi.org/10.1111/cgf.70412'}
+  input: [audio, text, interlocutor]
+  setting: [dyadic]
+  summary: Cross-attention model that fuses interlocutor audio and text with the character's gesture encodings so one system generates both speaking and listening gestures.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: lee2026multitpc
+  title: 'Multi-TPC: A Multimodal Dataset for Three-Party Conversations with Speech, Motion, and Gaze'
+  authors: [Meng-Chen Lee, Zhigang Deng]
+  year: 2026
+  venue: Scientific Data
+  type: journal
+  category: dataset
+  doi: 10.1038/s41597-026-06819-x
+  links: {paper: 'https://doi.org/10.1038/s41597-026-06819-x', code: 'https://github.com/MCMartinLee/Multi-TPC'}
+  output: [full-body]
+  setting: [multi-party]
+  datasets: [multi-tpc]
+  languages: [en]
+  user_study: false
+  summary: A motion-capture dataset of three-party conversations with synchronized speech, full-body motion and gaze, with statistical analysis of gesture correlations.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: lee2026robot
+  title: Generating Natural and Expressive Robot Gestures through Iterative Reinforcement Learning with Human Feedback using LLMs
+  authors: [Chris Lee, Flora Salim, Benjamin Tag, Francisco Cruz]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: system
+  arxiv: '2606.18747'
+  links: {paper: 'https://arxiv.org/abs/2606.18747'}
+  input: [text]
+  output: [upper-body]
+  representation: [other]
+  approach: [llm]
+  realtime: unreported
+  datasets: [custom]
+  languages: [en]
+  metrics: []
+  user_study: true
+  summary: GPT-4.1 generates joint-level gesture code for the Pepper robot alongside its spoken reply, and is refined over five rounds of user feedback using preference finetuning and feedback-summary prompting.
+  notes: Gesture primitives are single-joint target angles with speed and delay. Evaluated with 50 custom phrases and Likert ratings from 250 online participants.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: li2026echog
+  title: 'ECHO-G: Embodied Co-speech Humanoid mOtion Generation'
+  authors: [Yizhao Li, Pusen Gao, Ming Wang, Shaojie Shen, Shuo Yang, Hao Xu]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2609.39575'
+  links: {paper: 'https://arxiv.org/abs/2609.39575', project: 'https://echo-g-project.github.io/'}
+  input: [audio, text]
+  output: [full-body, locomotion]
+  representation: [other]
+  approach: [flow-matching]
+  setting: [monologue]
+  realtime: real-time
+  latency: 5.96 ms per frame end-to-end on a Jetson AGX Orin
+  datasets: [beat2]
+  languages: [en]
+  metrics: [fgd, diversity, multimodality, beat-align, accel-jerk, other]
+  user_study: true
+  summary: Generates full-body humanoid robot motion directly in robot joint space from speech audio and timed transcripts with a rectified flow-matching diffusion transformer.
+  notes: Motion is a 39-dimensional per-frame robot representation for a Unitree G1. Introduces a BEAT2-derived robot-space dataset and benchmark. Other metrics are foot-ground error and contact sliding.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: li2026generation
+  title: 'Generation in Generation: Fluid Co-Speech Gesture Synthesis With Generative Continuous Quantization'
+  authors: [J Q Li, Yifan Zhao, Xiang Guo, Jia Li]
+  year: 2026
+  venue: TIP
+  type: journal
+  category: method
+  doi: 10.1109/tip.2026.3715321
+  links: {paper: 'https://doi.org/10.1109/tip.2026.3715321'}
+  input: [audio]
+  approach: [other]
+  realtime: real-time
+  latency: inference speed exceeding 4000 fps on the SHOW dataset
+  datasets: [show]
+  summary: Replaces probabilistic token sampling from discrete codebooks with generative continuous quantization units and a deterministic compositional weight generation step, with an audio-aware style encoder injected through AdaIN.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: li2026globaldiff
+  title: Mitigating Error Accumulation in Co-Speech Motion Generation via Global Rotation Diffusion and Multi-Level Constraints
+  authors: [Jianfang Li, Jianqiang Ren, Xiangyue Zhang, Jiaxu Zhang]
+  year: 2026
+  venue: AAAI
+  type: conference
+  category: method
+  doi: 10.1609/aaai.v40i15.38281
+  arxiv: '2511.10076'
+  links: {paper: 'https://ojs.aaai.org/index.php/AAAI/article/view/38281', code: 'https://github.com/Xiangyue-Zhang/GlobalDiff', project: 'https://xiangyuezhang.com/GlobalDiff/'}
+  weights: true
+  input: [audio, speaker-id, seed-motion]
+  output: [upper-body, hands, face]
+  representation: [smpl-x]
+  approach: [diffusion, flow-matching]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat2]
+  metrics: [fgd, diversity, beat-align, face-error]
+  user_study: true
+  summary: Generates co-speech motion as global joint rotations with a conditional flow matching transformer, regularized by joint, skeleton and temporal structure constraints.
+  notes: The AAAI comment line lists code and pretrained models at the GitHub repository.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: liang2026physdrift
+  title: 'PhysDrift: Bridging the Embodiment Gap in Humanoid Co-Speech Motion Generation'
+  authors: [Zhangzhao Liang, Xiaofen Xing, Mingyue Yang, Wenlve Zhou, Xiangmin Xu]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2606.19935'
+  links: {paper: 'https://arxiv.org/abs/2606.19935'}
+  input: [audio]
+  output: [full-body]
+  representation: [other]
+  approach: [other]
+  setting: [monologue]
+  realtime: real-time
+  latency: 2880 actions per second (APS)
+  datasets: [beat2]
+  metrics: [fmd, diversity, joint-error, accel-jerk, other]
+  user_study: false
+  summary: Predicts executable humanoid robot (Unitree G1) joint trajectories directly from speech with a one-step drift-field generator, trained on a robot-native dataset retargeted from human motion with a prosody-preserving IK procedure.
+  notes: Representation is robot joint space, not a human body model. Other metrics include alignment, joint violation, foot contact distance and skating velocity.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: lima2026smartavatar
+  title: 'Project SmartAvatar: A Human-Avatar Interface'
+  authors: [Renato Araujo Lima, Leonardo da Conceição Estevam, Marcos César da Rocha Seruffo]
+  year: 2026
+  venue: ACM
+  type: conference
+  category: system
+  doi: 10.1145/3788851.3815043
+  links: {paper: 'https://doi.org/10.1145/3788851.3815043'}
+  summary: A real-time embodied conversational agent that links an LLM, speech processing and Unity rendering through a JSON schema to produce synchronized speech, facial expressions, gestures and gaze.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: lin2026mira
+  title: 'MIRA: Real-Time Full-Duplex Human-Robot Interaction for Embodied Companions'
+  authors: [Lijian Lin, Ye Zhu, Fan Zhang, Yunfei Liu, Baofeng Li, Xianwen Zeng, Jianan Wang, Yu Li]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2609.24547'
+  links: {paper: 'https://arxiv.org/abs/2609.24547', project: 'https://gagajian.github.io/MIRA/'}
+  input: [audio, seed-motion]
+  output: [full-body]
+  representation: [other]
+  approach: [diffusion]
+  setting: [monologue]
+  realtime: real-time
+  latency: ROSCO inference 195 ms per step, real-time factor 0.390; co-speech motion dispatch 2.36 s after the user turn
+  datasets: [beat]
+  metrics: [beat-align, fid, other]
+  user_study: false
+  summary: A streaming prefix-conditioned diffusion transformer (ROSCO) generates robot joint motion from incoming audio, inside a full-duplex dialogue framework deployed on a humanoid robot.
+  notes: 'BEAT retargeted to the Astribot S1 robot; other metrics: self-collision rate.'
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: liu2026agenthands
+  title: 'AgentHands: Generating Interactive Hand Gestures for Spatially Grounded Agent Conversations in XR'
+  authors: [Ziyi Liu, David Li, Zhongyi Zhou, David Kim, Ruofei Du, Xun Qian]
+  year: 2026
+  venue: CHI
+  type: conference
+  category: system
+  doi: 10.1145/3772318.3790938
+  links: {paper: 'https://doi.org/10.1145/3772318.3790938'}
+  input: [text]
+  output: [hands]
+  approach: [llm]
+  user_study: true
+  summary: An LLM produces verbal responses with word-aligned gesture events that a parser converts into time-stamped hand poses and motions rendered as a hand agent in XR.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: liu2026gesturefar
+  title: 'GestureFAR: Streaming Co-Speech Gesture Generation with Flow Autoregression'
+  authors: [Pinxin Liu, Haiyang Liu, Jiahao Luo, Junhua Huang, Chunhao Zou, Luchuan Song]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2609.21576'
+  links: {paper: 'https://arxiv.org/abs/2609.21576', project: 'https://andypinxinliu.github.io/GestureFAR'}
+  input: [audio]
+  output: [full-body, hands]
+  representation: [smpl-x]
+  approach: [autoregressive, flow-matching]
+  setting: [monologue]
+  realtime: real-time
+  latency: 0.246 real-time factor on a MacBook Air; 9.3 ms per token for the one-step distilled model
+  datasets: [beat2, audio2photoreal]
+  metrics: [fgd, beat-align, l1-div]
+  user_study: true
+  summary: A causal transformer autoregresses over continuous motion latents with a per-token flow-matching head, distilled to a single step, to generate gestures from streaming speech.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: liu2026gesturefm
+  title: 'GestureFM: Compact Latent Flow Matching for Low-Latency Co-Speech Body-Motion Generation'
+  authors: [Jie Liu, Tianmei Sun, Zian Liu]
+  year: 2026
+  venue: Research Square
+  type: preprint
+  category: method
+  doi: 10.21203/rs.3.rs-10338817/v1
+  links: {paper: 'https://doi.org/10.21203/rs.3.rs-10338817/v1', open: 'https://www.researchsquare.com/article/rs-10338817/latest.pdf'}
+  input: [audio]
+  output: [full-body, locomotion]
+  representation: [smpl-x]
+  approach: [vae, flow-matching]
+  setting: [monologue]
+  realtime: real-time
+  latency: 22 ms first-chunk latency, RTF 0.022 (2 ODE steps)
+  datasets: [beat2]
+  metrics: [fgd, beat-align, joint-error]
+  user_study: false
+  summary: Compresses SMPL-X pose and translation into a causal VAE latent space and generates it with an audio-conditioned causal flow matching transformer in 1 s streaming chunks from Log-Mel features.
+  notes: Generates body pose and global translation only, no face; trained and evaluated on BEAT2 only; the paper states no perceptual study was done.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: liu2026mag
+  title: 'MAG: Multi-Modal Aligned Autoregressive Co-Speech Gesture Generation without Vector Quantization'
+  authors: [Binjie Liu, Lina Liu, Sanyi Zhang, Songen Gu, Yihao Zhi, Tianyi Zhu, Lei Yang, Long Ye]
+  year: 2026
+  venue: ICASSP
+  type: conference
+  category: method
+  doi: 10.1109/icassp55912.2026.11462575
+  arxiv: '2503.14040'
+  links: {paper: 'https://doi.org/10.1109/icassp55912.2026.11462575', open: 'https://arxiv.org/abs/2503.14040'}
+  input: [audio, text, speaker-id]
+  output: [full-body]
+  representation: [smpl-x]
+  approach: [vae, masked-modeling, autoregressive, diffusion]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat2, show]
+  metrics: [fgd, beat-align, diversity]
+  user_study: true
+  summary: Aligns motion with text and audio embeddings in a VAE, then generates continuous motion embeddings with a masked autoregressive model that uses a diffusion head instead of vector quantization.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: liu2026semconflow
+  title: 'SemConFlow: Semantic Grounding of Holistic Co-Speech Gesture Generation with Contrastive Flow-Matching'
+  authors: [Lanmiao Liu, Esam Ghaleb, Aslı Özyürek, Zerrin Yumak]
+  year: 2026
+  venue: LNCS
+  type: conference
+  category: method
+  doi: 10.1007/978-3-032-37232-1_29
+  arxiv: '2603.26553'
+  links: {paper: 'https://doi.org/10.1007/978-3-032-37232-1_29', open: 'https://arxiv.org/abs/2603.26553', project: 'https://marcos452.github.io/HoliticSemGes/'}
+  input: [audio, text]
+  output: [full-body, hands, face]
+  representation: [smpl-x]
+  approach: [vq, flow-matching]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat2, show]
+  metrics: [fgd, beat-align, diversity]
+  user_study: true
+  summary: Trains a contrastive flow-matching model on RVQ-VAE motion tokens, using mismatched audio-text pairs as negatives, to generate holistic gestures from audio and text.
+  notes: Venue given only as a Springer LNCS volume (conference name not seen).
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: lu2026dsfusion
+  title: Style-Disentangled Diffusion for Controllable and Identity-Generalized Speech-Driven Body Motion Generation
+  authors: [Zixiang Lu, Zhitong He, Zixuan Wang, Yunan Li, Qiguang Miao]
+  year: 2026
+  venue: ICASSP
+  type: conference
+  category: method
+  doi: 10.1109/icassp55912.2026.11462327
+  links: {paper: 'https://doi.org/10.1109/icassp55912.2026.11462327'}
+  input: [audio]
+  approach: [diffusion]
+  summary: DSfusion learns each speaker's personal style from a multi-ID dataset with a style disentanglement module and a motion refinement module to generate speech-driven body motion.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: lu2026holistic
+  title: Holistic co-speech motion generation via cross-gated attention and cross-limb interaction
+  authors: [Zixiang Lu, Zhixiang Sheng, Zhitong He, Ping Gao, Yunan Li, Qiguang Miao]
+  year: 2026
+  venue: ESWA
+  type: journal
+  category: method
+  doi: 10.1016/j.eswa.2026.132711
+  links: {paper: 'https://doi.org/10.1016/j.eswa.2026.132711'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: luo2026reactmotion
+  title: 'ReactMotion: Generating Reactive Listener Motions from Speaker Utterance'
+  authors: [Cheng Luo, Bizhu Wu, Bing Li, Jianfeng Ren, Ruibin Bai, Rong Qu, Linlin Shen, Bernard Ghanem]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2603.15083'
+  links: {paper: 'https://arxiv.org/abs/2603.15083', project: 'https://reactmotion.github.io'}
+  input: [text, audio, emotion]
+  output: [full-body]
+  approach: [vq]
+  setting: [dyadic]
+  realtime: unreported
+  datasets: [reactmotionnet, humanml3d]
+  metrics: [fid, diversity, other]
+  user_study: true
+  summary: Generates listener body motion from a speaker's transcript and/or audio with a T5-based sequence model over VQ motion tokens, trained with group-wise preference objectives on a new dataset of ranked listener motions.
+  notes: Introduces the ReactMotionNet dataset (151,328 speaker-listener pairs). Reactive appropriateness is measured with preference win rates and Gen@3 (listed as other).
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: lyu2026enhancing
+  title: Enhancing End-user Engagement in Human–Robot Interaction by Performing LLM-driven Expressive Behaviors
+  authors: [Shipeng Lyu, Fangyuan Wang, Weiwei Lin, Guodong Guo, David Navarro-Alarcón]
+  year: 2026
+  venue: THRI
+  type: journal
+  category: system
+  doi: 10.1145/3813107
+  links: {paper: 'https://doi.org/10.1145/3813107'}
+  approach: [llm]
+  user_study: true
+  summary: An LLM-based module infers intent from user dialog and produces speech and body-motion descriptions, which are retargeted to a 58-DoF humanoid robot.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ma2026motionomni
+  title: 'Motion-Omni: End-to-End Joint Speech and Full-Body Motion for Spoken Dialogue'
+  authors: [Chengqian Ma, Wei Tao, Haoyu Zhang, Yiwen Guo]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2609.04250'
+  links: {paper: 'https://arxiv.org/abs/2609.04250', code: 'https://github.com/step-out/Motion-Omni', project: 'https://step-out.github.io/Motion-Omni-Page/'}
+  input: [audio, text]
+  output: [face, hands, upper-body, full-body]
+  representation: [smpl-x]
+  approach: [vq, llm]
+  realtime: real-time
+  latency: RTF 0.78 (faster than real time)
+  datasets: [beat2, custom]
+  languages: [en]
+  metrics: [fgd, beat-align, diversity, lip-sync, face-error, other]
+  user_study: true
+  summary: A spoken dialogue LLM outputs speech and face, hand, upper- and lower-body motion tokens jointly from the hidden states that produce the speech, trained on pseudo-labelled speech-motion pairs.
+  notes: 'Releases SwDA-500 and an evaluation protocol for open-ended full-body spoken dialogue; BEAT2 is the training data of the motion teacher and baselines; other metrics: word error rate.'
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: ma2026multicharacter
+  title: Training-Free Multi-Character Audio-Driven Animation via Diffusion Transformer with Reward Feedback
+  authors: [Xingpei Ma, Shenneng Huang, Jiaran Cai, Yuansheng Guan, Shen Zheng, Hanfeng Zhao, Qiang Zhang, Shunsi Zhang]
+  year: 2026
+  venue: AAAI
+  type: conference
+  category: method
+  doi: 10.1609/aaai.v40i10.37725
+  links: {paper: 'https://ojs.aaai.org/index.php/AAAI/article/view/37725'}
+  input: [audio]
+  representation: [video-pixels]
+  approach: [diffusion]
+  summary: A diffusion-transformer framework for audio-driven talking video of arbitrary length, using LoRA training with position-shift inference, reward feedback for lip sync and body motion, and a training-free Mask CFG for multiple characters.
+  notes: Full-text PDF fetch timed out; fields read from the abstract on the AAAI page.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: montielvazquez2026iconic
+  title: Efficient Emotion-Aware Iconic Gesture Prediction for Robot Co-Speech
+  authors: [Edwin C. Montiel-Vazquez, Christian Arzate Cruz, Stefanos Gkikas, Thomas Kassiotis, Giorgos Giannakakis, Randy Gomez]
+  year: 2026
+  venue: EEITE
+  type: conference
+  category: method
+  doi: 10.1109/eeite69609.2026.11679713
+  arxiv: '2604.11417'
+  links: {paper: 'https://doi.org/10.1109/eeite69609.2026.11679713', open: 'https://arxiv.org/abs/2604.11417'}
+  input: [text, emotion]
+  approach: [regression]
+  setting: [monologue]
+  realtime: real-time
+  latency: 1.16 ms on GPU
+  datasets: [beat2]
+  metrics: [other]
+  user_study: false
+  summary: Predicts word-level placement and intensity of iconic gestures from text and an emotion label with a lightweight transformer.
+  notes: Predicts gesture placement and intensity rather than motion. Metrics are classification accuracy, F1 and RMSE against BEAT2 annotations.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: mughal2026miburi
+  title: 'MIBURI: Towards Expressive Interactive Gesture Synthesis'
+  authors: [M. Hamza Mughal, Rishabh Dabral, Vera Demberg, Christian Theobalt]
+  year: 2026
+  venue: CVPR
+  type: conference
+  category: method
+  arxiv: '2603.03282'
+  links: {paper: 'https://arxiv.org/abs/2603.03282', project: 'https://vcai.mpi-inf.mpg.de/projects/MIBURI/'}
+  input: [audio, text, speaker-id]
+  output: [full-body, hands, face]
+  representation: [smpl-x]
+  approach: [vq, autoregressive]
+  setting: [monologue]
+  realtime: real-time
+  latency: 36 ms per frame on an RTX 3090 including rendering
+  datasets: [beat2, embody3d]
+  metrics: [fgd, beat-align, l1-div, face-error, joint-error]
+  user_study: true
+  summary: Generates full-body gestures and facial expressions online from LLM-based speech-text embeddings, using body-part aware residual VQ codecs and a two-dimensional causal autoregressive transformer.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: nagy2026genea
+  title: 'The GENEA Challenge 2026: A Large-Scale Disentangled Evaluation of Speech-Driven Gesture Generation on the Seamless Interaction Dataset'
+  authors: [Rajmund Nagy, Silvia Arellano García, Hendric Voss, Mihail Tsakov, Taras Kucherenko, Youngwoo Yoon, Gustav Eje Henter]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: challenge
+  arxiv: '2608.10839'
+  links: {paper: 'https://arxiv.org/abs/2608.10839', project: 'https://genea-workshop.github.io/2026/challenge/'}
+  input: [audio, text, interlocutor]
+  output: [upper-body]
+  setting: [dyadic, monologue]
+  realtime: unreported
+  datasets: [seamless-interaction]
+  metrics: []
+  user_study: true
+  summary: Reports the fourth GENEA Challenge, a crowdsourced human evaluation of five speech-driven gesture systems trained on the Seamless Interaction dataset, with dyadic and semantic mismatching studies.
+  notes: The full text associates the challenge with the Interactive Social Avatars workshop at ECCV 2026; the record keeps the arXiv preprint.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: nagy2026reliable
+  title: 'Towards Reliable Human Evaluations in Gesture Generation: Insights from a Community-Driven State-of-the-Art Benchmark'
+  authors: [Rajmund Nagy, Hendric Voss, Thanh Hoang-Minh, Mihail Tsakov, Teodor Nikolov, Zeyi Zhang, Tenglong Ao, Sicheng Yang, Shaoli Huang, Yongkang Cheng, M. Hamza Mughal, Rishabh Dabral, Kiran Chhatre, Christian Theobalt, Libin Liu, Stefan Kopp, Rachel McDonnell, Michael Neff, Taras Kucherenko, Youngwoo Yoon, Gustav Eje Henter]
+  year: 2026
+  venue: CVPR
+  type: conference
+  category: evaluation
+  arxiv: '2511.01233'
+  links: {paper: 'https://arxiv.org/abs/2511.01233', project: 'https://genea-workshop.github.io/leaderboard/'}
+  setting: [monologue]
+  datasets: [beat2]
+  languages: [en]
+  user_study: true
+  summary: Reviews human evaluation practice in speech-driven 3D gesture generation and proposes a standardised protocol on BEAT2, used in a crowdsourced ranking of six models.
+  notes: Accepted to CVPR 2026 Findings Track. Releases synthetic motion, rendered stimuli and 16,000 pairwise votes.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: ng2026sarah
+  title: 'SARAH: Spatially Aware Real-time Agentic Humans'
+  authors: [Evonne Ng, Siwei Zhang, Zhang Chen, Michael Zollhoefer, Alexander Richard]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2602.18432'
+  links: {paper: 'https://arxiv.org/abs/2602.18432', project: 'https://evonneng.github.io/sarah/'}
+  input: [audio, interlocutor]
+  output: [full-body, locomotion]
+  representation: [joints-3d]
+  approach: [vae, flow-matching]
+  setting: [dyadic]
+  realtime: real-time
+  latency: over 300 FPS inference; 60 fps in live VR deployment with 4-frame chunks
+  datasets: [embody-3d]
+  metrics: [fgd, other]
+  user_study: false
+  summary: Causal transformer VAE with a latent flow-matching model that generates full-body conversational motion from dyadic audio and the user's position, with classifier-free-guided gaze control.
+  notes: 'Other metrics: FGD acceleration, foot sliding, wrist velocity variance, head angle alignment.'
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: ngo2026medical
+  title: Vision-Language System using Open-Source LLMs for Consent and Instruction Gestures in Medical Interpreter Robots
+  authors: [Thanh-Tung Ngo, Emma Murphy, Robert Ross]
+  year: 2026
+  venue: HRI
+  type: conference
+  category: system
+  doi: 10.1145/3776734.3794357
+  arxiv: '2603.05751'
+  links: {paper: 'https://doi.org/10.1145/3776734.3794357', open: 'https://arxiv.org/abs/2603.05751'}
+  input: [audio, video]
+  output: [upper-body]
+  representation: [other]
+  approach: [llm]
+  realtime: unreported
+  datasets: [custom]
+  languages: [en]
+  metrics: []
+  user_study: true
+  summary: Detects consent and instruction speech acts with a locally run LLM using few-shot prompting and triggers matching gestures on a Pepper medical interpreter robot.
+  notes: Venue read as HRI Companion '26 from the arXiv full text. Gesture representation is robot joint angles (12 joints).
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: nichols2026holistic
+  title: Holistic LLM-Based Expressive Behavior Generation for Robots
+  authors: [Eric Nichols, Miguel Mejia Tobar, Randy Gómez]
+  year: 2026
+  venue: ACM
+  type: conference
+  category: system
+  doi: 10.1145/3776734.3794507
+  links: {paper: 'https://doi.org/10.1145/3776734.3794507'}
+  input: [text]
+  approach: [llm]
+  user_study: true
+  summary: An LLM analyses robot dialog and generates synchronized timelines of facial expression, body language and vocal delivery for the tabletop robot Haru.
+  notes: Pilot study with N=23 compared against a heuristic baseline. Conference name not determined from the sources read.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: okadome2026backchannel
+  title: An Interaction Motion Generation Model Based on A Diffusion Model and Graph Attention for Back-Channel Behavior Synthesis
+  authors: [Yuya Okadome, Yutaka Nakamura]
+  year: 2026
+  venue: ACM
+  type: conference
+  category: method
+  doi: 10.1145/3776734.3794490
+  links: {paper: 'https://doi.org/10.1145/3776734.3794490'}
+  input: [interlocutor]
+  approach: [diffusion]
+  setting: [dyadic]
+  datasets: [custom]
+  metrics: [fid]
+  summary: A graph attention network mixes the two participants' behaviours inside a diffusion model to generate back-channel gestures such as nodding and body shifts in dyadic conversation.
+  notes: Venue is the ACM proceedings name, not confirmed (publisher page returned 403). Over 10 hours of dialogue data collected by the authors.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: paar2026duogesture
+  title: 'DuoGesture: Motion-Grounded Semantic Conditioning and Biomechanical Beat Priors for Co-Speech Gesture Generation'
+  authors: [Ferdinand Paar, Lanmiao Liu, Aslı Özyürek, Serge Thill, Esam Ghaleb]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2605.26236'
+  links: {paper: 'https://arxiv.org/abs/2605.26236', project: 'https://ferdinandpaar.github.io/DuoGesture/'}
+  input: [audio, speaker-id, seed-motion]
+  output: [full-body, hands, face]
+  representation: [joints-3d]
+  approach: [vq]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat2]
+  languages: [en]
+  metrics: [fgd, srgr, beat-align, diversity, face-error, other]
+  user_study: true
+  summary: Splits gesture synthesis into semantic and beat streams over region-wise quantized motion tokens, with a stochastic gate choosing between them and a biomechanical prior regularizing the beat stream.
+  notes: Semantic features come from a text-to-motion encoder (TMR). Other metric is relative log dimensionless jerk.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: palumbo2026abel
+  title: AI-Based Gesture Generation for Humanoid Robots from Speech Transcriptions
+  authors: [PAOLO PALUMBO]
+  year: 2026
+  venue: University of Pisa
+  type: thesis
+  category: method
+  links: {paper: 'https://etd.adm.unipi.it/theses/available/etd-05072026-144420/'}
+  input: [text]
+  approach: [vq]
+  summary: Generates co-speech gestures for a humanoid robot from text transcriptions using a discrete gesture vocabulary built with VQ-VAE and GRU or Transformer models with a latent-space Kalman filter.
+  notes: Full text is not viewable (embargoed); fields are read from the abstract only.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: pan2026relational
+  title: Communicating Object Relations through Robot Gestures
+  authors: [Xiang Pan, Malcolm Doering, Takayuki Kanda]
+  year: 2026
+  venue: HRI
+  type: conference
+  category: system
+  doi: 10.1145/3757279.3785554
+  links: {paper: 'https://doi.org/10.1145/3757279.3785554'}
+  input: [text]
+  approach: [llm]
+  user_study: true
+  summary: One LLM infers the object relation from utterance text and another adapts gestures from a co-speech gesture system to express it, mapped onto a dual-arm robot.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: peng2026dyadit
+  title: 'DyaDiT: A Multi-Modal Diffusion Transformer for Socially Favorable Dyadic Gesture Generation'
+  authors: [Yichen Peng, Jyun-Ting Song, Siyeol Jung, Ruofan Liu, Haiyang Liu, Xuangeng Chu, Ruicong Liu, Erwin Wu, Hideki Koike, Kris Kitani]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2602.23165'
+  links: {paper: 'https://arxiv.org/abs/2602.23165', project: 'https://puckikk1202.github.io/dyadit_hp/'}
+  input: [audio, interlocutor]
+  output: [upper-body, hands]
+  representation: [joints-3d]
+  approach: [vq, diffusion]
+  setting: [dyadic]
+  realtime: unreported
+  datasets: [seamless-interaction]
+  metrics: [beat-align, fgd, diversity]
+  user_study: true
+  summary: Generates one speaker's upper-body motion from both speakers' audio with a diffusion transformer, optionally conditioned on social-context tokens and the partner's gestures.
+  notes: Social context tokens are relationship type and personality scores.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: peng2026emopose
+  title: 'EmoPose: Vision-Language Model Guided Emotion-Aware Gesture Generation for Humanoid Robots'
+  authors: [Daojie Peng, Bingtao Wang, Fulong Ma, Wenjun Yue, Liang Zhang, Jun Ma]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: system
+  arxiv: '2609.23414'
+  links: {paper: 'https://arxiv.org/abs/2609.23414'}
+  input: [text, image]
+  output: [upper-body]
+  representation: [other]
+  approach: [hybrid, llm]
+  realtime: unreported
+  datasets: [custom]
+  languages: [en]
+  metrics: [joint-error]
+  user_study: false
+  summary: A vision-language model selects a gesture class, library variant, intensity and speech anchor from dialogue, and deterministic robot-side modules turn the plan into arm joint trajectories from a hand-authored motion library.
+  notes: Evaluated on the authors' EmoPose-Bench of 480 English utterances; also runs on a Unitree G1 robot. Motion is 14-DoF arm joint targets.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: pinyoanuntapong2026interactgesture
+  title: 'InteractGesture: Progressive Chunk Guidance for Continuous Streaming Co-Speech Gesture Control'
+  authors: [Ekkasit Pinyoanuntapong, Ajinkya Deogade, Paul Streli, Wenjing Zhang, Joanna Materzynska, Pu Wang, Vittorio Ferrari, Jie Shen]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2608.25734'
+  links: {paper: 'https://arxiv.org/abs/2608.25734', project: 'https://exitudio.github.io/interactgesture-page'}
+  input: [audio]
+  output: [full-body]
+  representation: [smpl-x]
+  approach: [vq, diffusion]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat2]
+  metrics: [fgd, beat-align, diversity, other]
+  user_study: false
+  summary: An inference-time method that backpropagates spatial joint-control gradients through an RVQ-VAE decoder into a diffusion sampler's latents, with a chunk-window strategy for streaming generation.
+  notes: Wraps a pretrained GestureLSM generator. The arXiv comment reads ECCV 2026 Workshop - Interactive Social Avatars. Spatial control errors (average control, location, trajectory error) are reported as additional metrics.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: qi2026coherent
+  title: 'Towards Coherent Co-speech Gesture Generation: Multimodal Approaches for Emotional, Generalized, and Interactive Modeling'
+  authors: [Xingqun Qi]
+  year: 2026
+  venue: HKUST
+  type: thesis
+  category: method
+  doi: 10.14711/thesis-hdl172486
+  links: {paper: 'https://doi.org/10.14711/thesis-hdl172486'}
+  approach: [diffusion]
+  summary: Thesis on 3D co-speech gesture generation covering emotional transitions, in-the-wild speech (CoCoGesture, GES-X) and two-person conversation (Co3Gesture, GES-Inter).
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: rajan2026interactalker
+  title: 'InteracTalker: Prompt-Based Human-Object Interaction with Co-Speech Gesture Generation'
+  authors: [Sreehari Rajan, Kunal Bhosikar, Charu Sharma]
+  year: 2026
+  venue: WACV
+  type: conference
+  category: method
+  doi: 10.1109/wacv61042.2026.00146
+  arxiv: '2512.12664'
+  links: {paper: 'https://doi.org/10.1109/wacv61042.2026.00146', open: 'https://arxiv.org/abs/2512.12664', project: 'https://sreeharirajan.github.io/projects/InteracTalker/'}
+  input: [text, audio]
+  output: [full-body]
+  representation: [smpl-x]
+  approach: [diffusion]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [humanml3d, beat2, samp]
+  metrics: [fgd, beat-align, diversity, other]
+  user_study: true
+  summary: Combines a frozen text-to-motion diffusion model with separate adaptation modules for object interaction and co-speech gesture, fused with adaptive reweighting of conditions during sampling.
+  notes: Also trained on SAMP with 3D-FRONT objects; the metric 'other' covers goal-reaching error and object penetration.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: rosenthal2026signature
+  title: 'SiGnature: Explicit Motion Diffusion for Stylized Semantic Gesture'
+  authors: [Adi Rosenthal, Tomer Koren, Nadav Shaked, Doron Friedman, Ariel Shamir]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2606.15889'
+  links: {paper: 'https://arxiv.org/abs/2606.15889'}
+  input: [audio, text, speaker-id]
+  output: [full-body, hands]
+  representation: [smpl-x]
+  approach: [diffusion]
+  setting: [monologue]
+  realtime: real-time
+  latency: 55 FPS at 1,000 diffusion steps; 2,802 FPS at 20 steps
+  datasets: [amass, beat2, seg]
+  metrics: [fgd, diversity, beat-align, accel-jerk, joint-error, other]
+  user_study: true
+  summary: Diffusion model in explicit joint-rotation space with a training-free mechanism that injects external semantic gesture sequences into the sampling process while keeping the speaker's style.
+  notes: 'Pretrained on AMASS and fine-tuned on BEAT2; facial expressions excluded. Other metrics: semantic accuracy, injection fidelity, cross-identity FGD. Authors say code and models will be released on publication.'
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: rosenthal2026signatureb
+  title: 'SiGnature: Explicit Motion Diffusion for Stylized Semantic Gesture Generation'
+  authors: [Adi Rosenthal, T. Koren, Nadav Shaked, Doron A. Friedman, Ariel Shamir]
+  year: 2026
+  venue: CGF
+  type: journal
+  category: method
+  doi: 10.1111/cgf.70557
+  links: {paper: 'https://doi.org/10.1111/cgf.70557', open: 'https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cgf.70557'}
+  representation: [joints-3d]
+  approach: [diffusion]
+  user_study: true
+  summary: Diffusion model in explicit joint-rotation space with a training-free inference step that injects external semantic gesture motion into active joints while keeping the target speaker's style.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: saleem2026livegesture
+  title: LiveGesture Streamable Co-Speech Gesture Generation Model
+  authors: [Muhammad Usama Saleem, Mayur Jagdishbhai Patel, Ekkasit Pinyoanuntapong, Zhongxing Qin, Li Yang, Hongfei Xue, Ahmed Helmy, Chen Chen, Pu Wang]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2604.10927'
+  links: {paper: 'https://arxiv.org/abs/2604.10927', project: 'https://m-usamasaleem.github.io/publication/LiveGesture/LiveGesture.html'}
+  input: [audio, text]
+  output: [full-body, hands, face]
+  representation: [smpl-x]
+  approach: [vq, autoregressive]
+  setting: [monologue]
+  realtime: real-time
+  latency: under 50 ms per 200 ms chunk; first-token latency 250 ms
+  datasets: [beat2]
+  metrics: [fgd, beat-align, l1-div, face-error]
+  user_study: true
+  summary: A streamable causal VQ motion tokenizer and hierarchical region-expert autoregressive transformers with a fusion module generate full-body gestures from live audio with zero look-ahead.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: sha2026gespolicy
+  title: '3DGesPolicy: Phoneme-Aware Holistic Co-Speech Gesture Generation Based on Action Control'
+  authors: [Xuanmeng Sha, Liyun Zhang, Tomohiro Mashita, Naoya Chiba, Yuki Uranishi]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2601.18451'
+  links: {paper: 'https://arxiv.org/abs/2601.18451'}
+  input: [audio]
+  output: [full-body, hands, face, locomotion]
+  representation: [joints-3d, smpl-x]
+  approach: [diffusion]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat2]
+  metrics: [fgd, diversity, joint-error, face-error]
+  user_study: true
+  summary: Generates holistic body and face motion as frame-to-frame actions with a diffusion policy, using a fusion module that aligns audio, phoneme and gesture features.
+  notes: Phoneme sequences are also given to the model alongside audio.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: song2026genactor
+  title: SGenerative-Model-Based Virtual Character Construction and Intelligent Performance Technologies for Film and Television
+  authors: [Yuqing Song]
+  year: 2026
+  venue: ACM
+  type: conference
+  category: method
+  doi: 10.1145/3806262.3806308
+  links: {paper: 'https://doi.org/10.1145/3806262.3806308'}
+  input: [text, audio]
+  output: [full-body, face]
+  user_study: true
+  summary: GenActor generates facial animation and full-body motion from text and audio conditioning, with a neural rendering backend and a closed-loop optimization for script-level intent.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: sun2026coshdit
+  title: 'Cosh-DiT: Co-Speech Gesture Video Synthesis via Hybrid Audio-Visual Diffusion Transformers'
+  authors: [Yasheng Sun, Zhiliang Xu, Hang Zhou, Jiazhi Guan, Quanwei Yang, Kaisiyuan Wang, Borong Liang, Yingying Li, Haocheng Feng, Jingdong Wang, Ziwei Liu, Koike Hideki]
+  year: 2026
+  venue: IJCV
+  type: journal
+  category: method
+  doi: 10.1007/s11263-026-02752-z
+  arxiv: '2503.09942'
+  links: {paper: 'https://doi.org/10.1007/s11263-026-02752-z', open: 'https://arxiv.org/abs/2503.09942', project: 'https://sunyasheng.github.io/projects/COSH-DIT'}
+  input: [audio, image]
+  output: [upper-body, hands, face]
+  representation: [keypoints-2d, smpl-x, video-pixels]
+  approach: [vq, diffusion]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [pats, custom]
+  metrics: [fid, fvd, image-quality, other]
+  user_study: true
+  summary: Generates gesture video in two stages, a discrete diffusion transformer maps audio to upper-body, face and hand motion codes and a continuous diffusion transformer renders video from that motion.
+  notes: Other metrics are identity similarity and keypoint confidence scores. Own test set cannot be released for privacy reasons.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: sun2026empathetic
+  title: Empathetic Motion Generation for Humanoid Educational Robots via Reasoning-Guided Vision--Language--Motion Diffusion Architecture
+  authors: [Fuze Sun, Lingyu Li, Lekan Dai, Xinyu Fan]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2603.18771'
+  links: {paper: 'https://arxiv.org/abs/2603.18771'}
+  input: [text, audio, video]
+  output: [upper-body, hands, face]
+  approach: [diffusion]
+  realtime: unreported
+  datasets: [beat]
+  metrics: [other]
+  user_study: false
+  summary: Estimates valence and arousal from text, visual and acoustic features, maps them to teaching acts, and conditions a diffusion motion generator on these acts for retargeting to a NAO robot.
+  notes: Evaluation uses motion statistics (amplitude, velocity, jerk, energy) and pairwise distance analysis. CMU-MOSEI is used to train the affect estimator.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: suresh2026semantic
+  title: 'Semantic Motion Anchors: Bridging Motion and Meaning in Co-Speech Gestures'
+  authors: [Varsha Suresh, Mohammad Mahdi Abootorabi, Mohamed Salman, M. Hamza Mughal, Christian Theobalt, Ashwin Ram, Jürgen Steimle, Vera Demberg]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2605.30608'
+  links: {paper: 'https://arxiv.org/abs/2605.30608'}
+  input: [text]
+  output: [upper-body, hands]
+  representation: [joints-3d]
+  approach: [retrieval]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat2, ted-expressive, semantix]
+  metrics: [retrieval-recall]
+  user_study: true
+  summary: Learns a shared text-gesture embedding for retrieval using contrastive supervision from natural-language descriptions of discretized body-hand motion primitives.
+  notes: Retrieval of gestures from text; the user study compares retrieval-augmented generation using the retrieved gestures.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: tran2026wavesync
+  title: 'WaveSync: Constrained Wavefront Optimization for Synchronized Co-Speech Gestures in Humanoid Robots'
+  authors: [Thang Tran Viet, Thanh Nguyen Canh, Gia Huy Uong, Phuc Van Dinh, Tan Viet Tuyen Nguyen, Xiem HoangVan, Nak Young Chong]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2606.16600'
+  links: {paper: 'https://arxiv.org/abs/2606.16600', code: 'https://github.com/pairs-lab/WaveSync'}
+  input: [text, audio]
+  output: [upper-body]
+  representation: [other]
+  approach: [llm, hybrid]
+  realtime: unreported
+  datasets: [custom]
+  languages: [en]
+  metrics: [accel-jerk, other]
+  user_study: true
+  summary: An LLM assigns per-word semantic importance, gesture trajectories are shaped with Dynamic Movement Primitives, and a wavefront optimization aligns gesture stroke peaks with speech emphasis on humanoid robots.
+  notes: Objective metrics are Phase Alignment Metric, Human-based Sync and joint jerk magnitude. Gestures come from an internal library of human demonstrations retargeted to the robot. Evaluated in PyBullet simulation.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: ukenova2026kazakh
+  title: 'Multimodal AI in education: an avatar-based intelligent learning system for the Kazakh language'
+  authors: [Аru Ukenova, Gulmira Bekmanova, Banu Yergesh, Sadok Ben Yahia, Mamyr Altaibek, Aizhan Nazyrova, Zhanar Lamasheva]
+  year: 2026
+  venue: Frontiers in Computer Science
+  type: journal
+  category: system
+  doi: 10.3389/fcomp.2026.1780150
+  links: {paper: 'https://doi.org/10.3389/fcomp.2026.1780150', open: 'https://public-pages-files-2025.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1780150/pdf', code: 'https://github.com/MMR000/Avatar_ENU'}
+  input: [text]
+  output: [full-body, face]
+  approach: [rule-based]
+  datasets: []
+  languages: [kk]
+  metrics: []
+  user_study: false
+  summary: Avatar-based Kazakh learning system that maps syntactic sentence roles and sentiment to predefined gesture and facial animation clips, combined with prosody-controlled TTS and Wav2Lip lip synchronization.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: voss2026context
+  title: More Than Just Natural. Contextually Relevant and Semantically Meaningful Gesture Generation
+  authors: [Hendric Voß]
+  year: 2026
+  venue: Bielefeld University
+  type: thesis
+  category: method
+  doi: 10.4119/unibi/3016358
+  links: {paper: 'https://doi.org/10.4119/unibi/3016358', open: 'https://nbn-resolving.org/urn:nbn:de:0070-pub-30163585'}
+  summary: A thesis proposing context-driven gesture generation, covering AQ-GT and AQ-GT-A for beat and annotation-guided gestures, the TF-JAX-IK inverse kinematics solver, and the ImaGGen semantic planning framework driven by visual input.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: voss2026imaggen
+  title: 'ImaGGen: Zero-Shot Generation of Co-Speech Semantic Gestures Grounded in Language and Image Input'
+  authors: [Hendric Voss, Stefan Kopp]
+  year: 2026
+  venue: TiiS
+  type: journal
+  category: method
+  doi: 10.1145/3845992
+  arxiv: '2510.17617'
+  links: {paper: 'https://doi.org/10.1145/3845992', open: 'https://arxiv.org/abs/2510.17617', project: 'https://review-anon-io.github.io/ImaGGen.github.io/'}
+  input: [text, image]
+  output: [upper-body, hands]
+  representation: [smpl-x]
+  approach: [hybrid, llm]
+  setting: [monologue]
+  realtime: unreported
+  datasets: []
+  languages: [en]
+  metrics: []
+  user_study: true
+  summary: A zero-shot pipeline that analyses an image, matches visual properties to spoken text with an LLM, and uses inverse kinematics to produce iconic and deictic gestures combined with beat gestures from EMAGE.
+  notes: Uses no training dataset. Project page link is the anonymised review URL given in the paper.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: vu2026streaming
+  title: Streaming Generation of Co-Speech Gestures via Accelerated Rolling Diffusion
+  authors: [Evgeniia Vu, Andrei Boiarov, Dmitry Vetrov]
+  year: 2026
+  venue: AAAI
+  type: conference
+  category: method
+  doi: 10.1609/aaai.v40i31.39807
+  arxiv: '2503.10488'
+  links: {paper: 'https://doi.org/10.1609/aaai.v40i31.39807', open: 'https://ojs.aaai.org/index.php/AAAI/article/download/39807/43768', code: 'https://github.com/andrewbo29/co-speech-gestures-rolling-diffusion'}
+  input: [audio, style, speaker-id]
+  output: [full-body]
+  representation: [joints-3d]
+  approach: [diffusion]
+  setting: [monologue]
+  realtime: real-time
+  latency: up to 200 FPS; 0.002 s per step with 4x acceleration on an NVIDIA A40
+  datasets: [zeggs, beat]
+  metrics: [other, diversity, joint-error]
+  user_study: true
+  summary: Extends rolling diffusion with structured progressive noise scheduling to turn existing diffusion gesture models into streaming generators, plus a ladder schedule that denoises several frames at once.
+  notes: 'Other metrics: Frechet distances on gesture and kinetic features (FDg, FDk) and their diversity variants.'
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: wan2026dynamic
+  title: 'Dynamic Multimodal Expression Generation for LLM-Driven Pedagogical Agents: From User Experience Perspective'
+  authors: [Ninghao Wan, Jiarun Song, Fuzheng Yang]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: system
+  arxiv: '2603.09536'
+  links: {paper: 'https://arxiv.org/abs/2603.09536'}
+  approach: [llm]
+  user_study: true
+  summary: Uses an LLM with semantically sensitive prompts to generate coordinated speech and gesture instructions for a VR pedagogical agent, evaluated with a subjective user experience study.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: wang2026conversational
+  title: Enhanced data techniques and optimization in conversational gesture generation
+  authors: [Xiang Wang, Yifeng Peng, Zhaoxiang Liu, Kai Wang, Shiguo Lian]
+  year: 2026
+  venue: CCF TPCI
+  type: journal
+  category: method
+  doi: 10.1007/s42486-025-00213-z
+  links: {paper: 'https://doi.org/10.1007/s42486-025-00213-z'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: wang2026ctrlcomo
+  title: 'CtrlCoMo: Controllable Co-speech Motion Generation with Gesture–Action Disentanglement'
+  authors: [Xinghan Wang, Ming Zhou, Yanbo Zheng, Youjiang Xu, Yuan Zhang, Mingyuan Gao, Nan Zhuang, Yadong Mu]
+  year: 2026
+  venue: Lecture Notes in Computer Science
+  type: conference
+  category: method
+  doi: 10.1007/978-3-032-37211-6_15
+  links: {paper: 'https://doi.org/10.1007/978-3-032-37211-6_15'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: wang2026holodiff
+  title: 'HoloDiff: Holistic Talking Human Animation Via Latent Diffusion'
+  authors: [Xinmu Wang, Fumi Honda, Xiang Gao, Junqi Huang, Wei Chen, Xianfeng David Gu]
+  year: 2026
+  venue: CAVW
+  type: journal
+  category: method
+  doi: 10.1002/cav.70173
+  links: {paper: 'https://doi.org/10.1002/cav.70173'}
+  input: [audio]
+  approach: [diffusion]
+  setting: [monologue]
+  datasets: [show]
+  summary: Encodes facial and body motion into a structured latent space and applies a speech-conditioned diffusion process in that latent space to generate holistic talking human animation.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: wang2026page
+  title: 'PAGE: Parts-Aware GuidancE for Co-Speech Gesture Portrait Video Generation'
+  authors: [Yabiao Wang, Jiafu Wu, Yicheng Xu, Teng Hu, Shengzhe Zhou, Yanxiao Sun, Jiangning Zhang, Ying Yu Tai, Yong Liu, Ming–Hsuan Yang]
+  year: 2026
+  venue: TCSVT
+  type: journal
+  category: method
+  doi: 10.1109/tcsvt.2026.3738661
+  links: {paper: 'https://doi.org/10.1109/tcsvt.2026.3738661'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: wang2026robogesture
+  title: 'RoboGesture: Real-Time Semantic-Aligned Co-speech Gestures Generation for Humanoid Interaction'
+  authors: [Zifan Wang, Ziang Ren, Pengyang Shi, Zirui Wang, Chenghuai Lin, Tianze Wang, Zekun Qi, Liangliang Zhao, He Wang, Li Yi]
+  year: 2026
+  venue: LNCS
+  type: conference
+  category: method
+  doi: 10.1007/978-3-032-37429-5_8
+  arxiv: '2608.28693'
+  links: {paper: 'https://doi.org/10.1007/978-3-032-37429-5_8', open: 'https://arxiv.org/abs/2608.28693', project: 'https://RoboGesture.github.io'}
+  input: [audio, seed-motion]
+  output: [upper-body, hands]
+  representation: [other]
+  approach: [diffusion, flow-matching]
+  setting: [monologue]
+  realtime: real-time
+  latency: about 120 FPS (0.25 s per 1-second chunk) for the generator, plus 5.6 ms per frame for the MPC safety filter
+  datasets: [beat, robogesture]
+  metrics: [fgd, beat-align, diversity, joint-error, other]
+  user_study: true
+  summary: Streams humanoid (Unitree G1) arm and hand motion from raw audio tokens with a diffusion transformer using conditional flow matching, with an MPC safety filter for collision-free execution.
+  notes: 'Representation is robot joint space. Other metric: collision rate. Also introduces the RoboGesture dataset and a SemanticBEAT test set. Published in a Springer Lecture Notes in Computer Science proceedings volume; the conference was not confirmed from the text read.'
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: wang2026synthesizing
+  title: Synthesizing Speech and Gesture for Embodied Conversational Agents
+  authors: [Siyang Wang]
+  year: 2026
+  venue: KTH
+  type: thesis
+  category: method
+  links: {paper: 'http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-388651'}
+  summary: Thesis on spontaneous text-to-speech, joint generation of speech and co-speech gesture in one Tacotron2-based model (ISG), and a layered evaluation protocol for conversational synthesis.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: wei2026mamba
+  title: Mamba-Enhanced Implicit Motion Learning for Audio-Driven Portrait Animation
+  authors: [Xuan Wei, Jiahui Chen, Kaiheng Li, Mingyu Shao, Qingqi Hong]
+  year: 2026
+  venue: ICME
+  type: conference
+  category: method
+  arxiv: '2606.03402'
+  links: {paper: 'https://arxiv.org/abs/2606.03402'}
+  input: [audio, image]
+  output: [face, hands, upper-body]
+  representation: [video-pixels]
+  approach: [diffusion, other]
+  setting: [monologue]
+  realtime: offline
+  latency: 1.515 s to generate 1 s of 25 fps video
+  datasets: [pats, custom]
+  metrics: [fid, fvd, image-quality, diversity, lip-sync, other]
+  user_study: false
+  summary: A two-stage method predicts implicit motion features from audio and a source image with a Mamba-enhanced diffusion model and then renders talking-head and co-speech gesture video.
+  notes: 'Also evaluated on CREMA-D, RAVDESS, HDTF, MEAD and CMLR; trained on a collected 380-hour dataset (DiverseHeads); other metrics: head pose error, temporal gesture distance.'
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: wei2026pedagogical
+  title: 'Grounding Pedagogical Intents in Embodied AI Teachers: A Human-Centered Framework for Designing and Evaluating Instructional Gestures'
+  authors: [Lai Wei, Sark Pangrui Xing, Kenny K. N. Chow, Stephen Jia Wang]
+  year: 2026
+  venue: IJHCI
+  type: journal
+  category: system
+  doi: 10.1080/10447318.2026.2664083
+  links: {paper: 'https://doi.org/10.1080/10447318.2026.2664083'}
+  summary: A four-stage design framework that turns pedagogical intent into co-speech gesture specifications for embodied teacher agents, transferring performed human motion to the agent via video-based pose estimation.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: wu2026flowmatching
+  title: Speech-Driven Gesture Generation via Conditional Flow Matching With Masked Training and Clamped Sampling
+  authors: [Bowen Wu, Carlos Toshinori Ishi, Takashi Minato, Hiroshi Ishiguro]
+  year: 2026
+  venue: RA-L
+  type: journal
+  category: method
+  doi: 10.1109/lra.2026.3700424
+  links: {paper: 'https://doi.org/10.1109/lra.2026.3700424'}
+  input: [audio]
+  approach: [flow-matching]
+  user_study: true
+  summary: Conditional flow matching model generating co-speech gestures from speech, with masked training for smooth transitions across segments and clamped sampling to enforce humanoid robot joint limits.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: xie2026recom
+  title: 'ReCoM: Realistic Co-Speech Motion Generation with Recurrent Embedded Transformer'
+  authors: [Yong Xie, Yunlian Sun, Hongwen Zhang, Yebin Liu, Jinhui Tang]
+  year: 2026
+  venue: ICASSP
+  type: conference
+  category: method
+  doi: 10.1109/icassp55912.2026.11464361
+  arxiv: '2503.21847'
+  links: {paper: 'https://doi.org/10.1109/icassp55912.2026.11464361', open: 'https://arxiv.org/abs/2503.21847', project: 'https://yong-xie-xy.github.io/ReCoM/'}
+  input: [audio, speaker-id]
+  output: [upper-body, hands, face]
+  representation: [smpl-x]
+  approach: [vq, other]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [show, beat2]
+  metrics: [fgd, joint-error, l1-div, beat-align]
+  user_study: true
+  summary: Predicts motion codebook indices from speech with a non-autoregressive Vision Transformer and refines the output through iterative reconstruction with classifier-free guidance and temporal smoothing.
+  notes: Venue taken from the DOI (ICASSP 2026) as listed by OpenAlex; the arXiv entry carries no venue comment. BEAT2 is used out-of-domain.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: xing2026semantics
+  title: 'When Semantics Matter: Reliability-Aware Semantic-Rhythm Control for Co-Speech Gesture Generation'
+  authors: [Zhirui Xing, Long Ye, Kaige Li, Ziyi Xu, Ming Meng]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2609.36685'
+  links: {paper: 'https://arxiv.org/abs/2609.36685'}
+  input: [text, audio, speaker-id]
+  output: [upper-body, hands]
+  approach: [vq]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat, ted-expressive]
+  metrics: [fgd, beat-align, diversity, srgr]
+  user_study: false
+  summary: Predicts discrete motion codes from speech and text, estimating the semantic contribution of text from the gap between a multimodal and an audio-only branch and adding noise-conditioned modulation for robustness.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: xu2026omnimotionx
+  title: 'OmniMotion-X: Versatile Multimodal Whole-Body Motion Generation'
+  authors: [Guowei Xu, Yuxuan Bian, Ailing Zeng, Zhuo Chen, Mingyi Shi, Shaoli Huang, Wen Li, Lixin Duan, Qiang Xu]
+  year: 2026
+  venue: CVPR
+  type: conference
+  category: method
+  arxiv: '2510.19789'
+  links: {paper: 'https://arxiv.org/abs/2510.19789', code: 'https://github.com/GuoweiXu368/OmniMocap-X'}
+  input: [text, audio, seed-motion]
+  output: [full-body, hands, face]
+  representation: [smpl-x]
+  approach: [autoregressive, diffusion]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat2]
+  metrics: [fid, face-error, diversity]
+  user_study: false
+  summary: Autoregressive diffusion transformer for whole-body SMPL-X motion from text, speech, music and reference motion, covering speech-to-gesture among other tasks.
+  notes: Accepted to CVPR 2026 Findings. Speech-to-gesture trained and evaluated on BEAT2; the model also covers text-to-motion and music-to-dance.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: xuan2026adaptivediffusemotion
+  title: 'AdaptiveDiffuseMotion: Adaptive Multi-Task Diffusion Model for Speech-Driven Holistic Motion Generation'
+  authors: [宣恩允, You Li, Ziwei Li, Mengmeng Yao, Renzhong Guo]
+  year: 2026
+  venue: ICASSP
+  type: conference
+  category: method
+  doi: 10.1109/icassp55912.2026.11463428
+  links: {paper: 'https://doi.org/10.1109/icassp55912.2026.11463428', project: 'https://symbolzzz.github.io/AdaptiveDiffuseMotion/'}
+  input: [audio]
+  output: [face]
+  approach: [diffusion]
+  user_study: true
+  summary: Diffusion model that generates facial expressions and gestures from speech, balancing the two tasks with uncertainty-based multi-task loss weighting.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: yang2026emogestor
+  title: 'Emo-gestor: 3D Co-speech Body Generation Based on Multimodal Emotion-Driven'
+  authors: [Qiyun Yang, Daowu Yang, Ruihui Li, Yunchuan Qin, Xu Zhou, Zhuo Tang]
+  year: 2026
+  venue: TCE
+  type: journal
+  category: method
+  doi: 10.1109/tce.2026.3697391
+  links: {paper: 'https://doi.org/10.1109/tce.2026.3697391'}
+  input: [audio, text, emotion]
+  output: [full-body]
+  approach: [diffusion]
+  summary: Encodes emotion features from audio, text and facial modalities into a unified embedding and conditions a Transformer-based diffusion model on it to generate emotionally consistent full-body co-speech gestures.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: yang2026socialhumanoid
+  title: 'SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation'
+  authors: [Chengqun Yang, Tengjie Zhu, Liang Xu, Fulong Liu, Guanzhu Ren, Yitong Xing, Xuefeng Lu, Fei Shi, Siyuan Fan, Weijie Dong, Yao Mu, Xiaokang Yang]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: system
+  arxiv: '2609.33311'
+  links: {paper: 'https://arxiv.org/abs/2609.33311', project: 'https://rex0191.github.io/SocialHumanoid/'}
+  input: [audio, emotion, seed-motion]
+  output: [full-body, hands]
+  representation: [smpl-x]
+  approach: [vq, flow-matching]
+  setting: [monologue]
+  realtime: real-time
+  latency: 0.0281 s per 128-frame window
+  datasets: [beat2, affectmocap]
+  metrics: [fgd, beat-align, diversity]
+  user_study: true
+  summary: One-step flow-based generator in a part-wise RVQ latent space produces affect-conditioned full-body motion windows from speech, which are retargeted online to a humanoid robot.
+  notes: Introduces AffectMoCap (4 h, two actors, with emotion labels); real-robot experiments reported.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: zhan2026umo
+  title: 'UMo: Unified Sparse Motion Modeling for Real-Time Co-Speech Avatars'
+  authors: [Xiaoyu Zhan, Xinyu Fu, Chenghao Yang, Xiaohong Zhang, Dongjie Fu, Pengcheng Fang, Tengjiao Sun, Xiaohao Cai, Hansung Kim, Yuanqi Li, Jie Guo, Yanwen Guo]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2605.14731'
+  links: {paper: 'https://arxiv.org/abs/2605.14731'}
+  input: [audio, text]
+  output: [full-body, hands, face]
+  approach: [vq, autoregressive, llm]
+  setting: [monologue]
+  realtime: real-time
+  latency: 44 FPS with 826 ms time to first frame on an NVIDIA A100
+  datasets: [beat2]
+  metrics: [fgd, beat-align, l1-div]
+  user_study: true
+  summary: Generates face, hand, upper-body and lower-body motion tokens from speech with a chunk-wise autoregressive model using a sparse mixture of experts and keyframe-based temporal sparsity.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: zhang2026asynfusion
+  title: 'AsynFusion: Towards Asynchronous Latent Consistency Models for Decoupled Whole-Body Audio-Driven Avatars'
+  authors: [Tianbao Zhang, Jian Zhao, Yuer Li, Zheng Zhu, Ping Hu, Zhaoxin Fan, Wenjun Wu, Xuelong Li]
+  year: 2026
+  venue: LNCS
+  type: conference
+  category: method
+  doi: 10.1007/978-981-95-5676-2_35
+  arxiv: '2505.15058'
+  links: {paper: 'https://doi.org/10.1007/978-981-95-5676-2_35', open: 'https://arxiv.org/abs/2505.15058'}
+  input: [audio, speaker-id]
+  output: [upper-body, face]
+  representation: [joints-3d, smpl-x]
+  approach: [diffusion]
+  setting: [monologue]
+  realtime: unreported
+  latency: 15.9 seconds per sequence
+  datasets: [beat, show]
+  metrics: [fmd, fgd, diversity, beat-align, other]
+  user_study: false
+  summary: A dual-branch diffusion transformer generates facial expressions and gestures in parallel from audio, with a cross-branch synchronization module and asynchronous latent consistency sampling.
+  notes: Published in a Lecture Notes in Computer Science volume; the conference name was not confirmed. The other metric is Fréchet Expression Distance.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: zhang2026granumamba
+  title: 'GranuMamba: A multi-granularity state space model for co-speech gesture generation'
+  authors: [Jiye Zhang, Gaolin Yang, Jinhan Xie, Yifan Ge, Xiuhua Jiang, Jiangbo Xu]
+  year: 2026
+  venue: ESWA
+  type: journal
+  category: method
+  doi: 10.1016/j.eswa.2026.133415
+  links: {paper: 'https://doi.org/10.1016/j.eswa.2026.133415'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: zhang2026personagesture
+  title: 'PersonaGesture: Single-Reference Co-Speech Gesture Personalization for Unseen Speakers'
+  authors: [Xiangyue Zhang, Yiyi Cai, Kunhang Li, Kaixing Yang, You Zhou, Zhengqing Li, Xuangeng Chu, Jiaxu Zhang, Haiyang Liu]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2605.06064'
+  links: {paper: 'https://arxiv.org/abs/2605.06064', project: 'https://xiangyue-zhang.github.io/PersonaGesture'}
+  input: [audio, style]
+  output: [full-body, hands]
+  approach: [diffusion]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat2, zeggs]
+  metrics: [fgd, beat-align, other]
+  user_study: true
+  summary: Personalizes gestures for an unseen speaker from one reference clip by injecting speaker-memory tokens into a latent diffusion denoiser and correcting latent channel statistics after generation.
+  notes: 'Other metrics: Style Feature Distance and ExtStyle Top-1 style identification accuracy. The arXiv versions 2 and 3 are marked withdrawn.'
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: zhang2026streamtalk
+  title: 'StreamTalk: Streaming Co-Speech Gesture Generation with Key-Pose Anchoring'
+  authors: [Xiangyue Zhang, Jianfang Li, Jiaxu Zhang, Kaixing Yang, Steven Hoi]
+  year: 2026
+  venue: ECCV
+  type: conference
+  category: method
+  doi: 10.1007/978-3-032-37595-7_32
+  arxiv: '2608.01643'
+  links: {paper: 'https://doi.org/10.1007/978-3-032-37595-7_32', open: 'https://arxiv.org/abs/2608.01643', project: 'https://xiangyue-zhang.github.io/StreamTalk/'}
+  input: [audio, speaker-id]
+  output: [full-body, hands]
+  representation: [smpl-x]
+  approach: [diffusion, retrieval]
+  setting: [monologue]
+  realtime: real-time
+  latency: 76 FPS on an NVIDIA V100
+  datasets: [beat2]
+  metrics: [fgd, beat-align, diversity]
+  user_study: true
+  summary: Closed-loop streaming generator that predicts a clip, retrieves a key tail pose from a speaker-specific database and refines the clip with it, using a part-aware DiT.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: zhang2026style
+  title: Co-Speech Holistic 3D Motion Generation with Style from Video
+  authors: [Yayu Zhang, Yu‐Hui Wen, Chenguang Li, Liping Jing, Jian Yu]
+  year: 2026
+  venue: Graphical Models
+  type: journal
+  category: method
+  doi: 10.1016/j.gmod.2026.101332
+  links: {paper: 'https://doi.org/10.1016/j.gmod.2026.101332', open: 'https://doi.org/10.2139/ssrn.6025969'}
+  input: [audio, video, style]
+  approach: [diffusion]
+  user_study: true
+  summary: Diffusion model for speech-driven holistic 3D gestures and expressions with style taken from reference video clips via a contrastive style encoder and a 2D-to-3D feature mapper.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: zhang2026survey
+  title: Recent Advances in Speech-Driven Gesture Generation
+  authors: [ZHANG Yayu, WEN Yuhui, ZHANG Xinyu, JING Liping]
+  year: 2026
+  venue: DOAJ
+  type: journal
+  category: survey
+  doi: 10.3778/j.issn.1673-9418.2505081
+  links: {paper: 'https://doaj.org/article/a0866c81e0cb4f1ab41fa53819f364b4'}
+  input: [audio]
+  approach: [gan, vae, diffusion]
+  summary: Survey of speech-driven gesture generation covering GAN, VAE and diffusion methods, controllability, face-and-gesture co-generation, datasets and metrics.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: zhang2026vibes
+  title: 'ViBES: A Conversational Agent with Behaviorally-Intelligent 3D Virtual Body'
+  authors: [Juze Zhang, Changan Chen, Xin Chen, Heng Yu, Tiange Xiang, Ali Sartaz Khan, Shrinidhi K. Lakshmikanth, Ehsan Adeli]
+  year: 2026
+  venue: CVPR
+  type: conference
+  category: method
+  arxiv: '2512.14234'
+  links: {paper: 'https://arxiv.org/abs/2512.14234', project: 'https://ai.stanford.edu/~juze/ViBES/'}
+  input: [text, audio, seed-motion]
+  output: [full-body, hands, face]
+  representation: [smpl-x]
+  approach: [autoregressive]
+  setting: [dyadic]
+  realtime: unreported
+  datasets: [beat2, humanml3d, tfhp, custom]
+  metrics: [fgd, beat-align, diversity, face-error, r-precision, fid]
+  user_study: false
+  summary: A speech-language-behavior model with modality-specific transformer experts that jointly generates speech, facial expression and body motion for multi-turn conversation.
+  notes: Evaluation uses automatic metrics and multimodal LLM judges. Training data is a consolidated Converse3D collection (about 1,000 hours) built from YouTube conversations, BEAT2, HumanML3D, Embody3D and TFHP.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: zhao2026dialogen
+  title: 'DialoGen: Towards Dialog Gesture Generation via Identity-Decoupled Style Guidance in Interactive Diffusion Model'
+  authors: [Weiyu Zhao, Chenyang Wang, Liangxiao Hu, Zonglin Li, Wei Yu, Shengping Zhang]
+  year: 2026
+  venue: AAAI
+  type: conference
+  category: method
+  doi: 10.1609/aaai.v40i16.38327
+  links: {paper: 'https://ojs.aaai.org/index.php/AAAI/article/view/38327'}
+  input: [audio]
+  approach: [diffusion]
+  setting: [dyadic]
+  summary: Generates gestures for both interlocutors of a dialog from conversational audio with an interactive dual-diffusion model and contrastive-learning-based identity-decoupled style guidance.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: zhao2026personagest
+  title: 'PersonaGest: Personalized Co-Speech Gesture Generation with Semantic-Guided Hierarchical Motion Representation'
+  authors: [Junchuan Zhao, Qifan Liang, Ye Wang]
+  year: 2026
+  venue: arXiv
+  type: preprint
+  category: method
+  arxiv: '2605.07252'
+  links: {paper: 'https://arxiv.org/abs/2605.07252', project: 'https://danny-nus.github.io/PersonaGest/'}
+  input: [audio, text, speaker-id, style]
+  output: [full-body, hands, face]
+  approach: [vq, masked-modeling]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat2]
+  metrics: [joint-error, fgd, diversity, beat-align, face-error, other]
+  user_study: true
+  summary: Generates personalized gestures in two stages, a semantic-guided residual VQ-VAE separating content from style, then a masked transformer for content tokens plus style residual transformers conditioned on a reference motion.
+  notes: 'Other metrics: LVD, FaceLVD and normalized beat constancy (NBC).'
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: zhou2026exges
+  title: 'ExGes: Expressive Human Motion Retrieval and Modulation for Audio-Driven Gesture Synthesis'
+  authors: [Xukun Zhou, Fengxin Li, Ming Chen, Yan Zhou, Pengfei Wan, Yeying Jin, Hongyuan Zhang, Hongyan Liu, Zhaoxin Fan, Jun Hui He, Xuelong Li]
+  year: 2026
+  venue: TVCG
+  type: journal
+  category: method
+  doi: 10.1109/tvcg.2026.3679469
+  arxiv: '2503.06499'
+  links: {paper: 'https://doi.org/10.1109/tvcg.2026.3679469', open: 'https://arxiv.org/abs/2503.06499'}
+  input: [audio]
+  output: [full-body]
+  approach: [retrieval, diffusion]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat2]
+  metrics: [fgd, beat-align, diversity, joint-error]
+  user_study: true
+  summary: A diffusion model for audio-driven gestures that retrieves reference poses from a motion library built from the training set and uses partial and stochastic masking for fine-grained control.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false

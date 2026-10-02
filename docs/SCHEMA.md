@@ -33,13 +33,13 @@ Fields marked **always** are required on every record. Fields marked **verified*
 | `weights` | | `true` or `false`: are trained weights released. Only with `links.code`. |
 | `input` | verified | List of `text`, `audio`, `speaker-id`, `style`, `emotion`, `seed-motion`, `image`, `video`, `interlocutor` |
 | `output` | verified | List of `upper-body`, `full-body`, `hands`, `face`, `locomotion` |
-| `representation` | verified | List of `keypoints-2d`, `joints-3d`, `smpl-x`, `video-pixels`, `other` |
+| `representation` | | List of `keypoints-2d`, `joints-3d` (a 3D skeleton, as joint positions or rotations, e.g. BVH), `smpl-x` (a parametric body model: SMPL, SMPL-X, FLAME, MANO), `video-pixels`, `other` |
 | `approach` | verified | List of `rule-based`, `retrieval`, `regression`, `vae`, `gan`, `normalizing-flow`, `vq`, `autoregressive`, `masked-modeling`, `diffusion`, `flow-matching`, `llm`, `hybrid`, `other` |
 | `setting` | verified | List of `monologue`, `dyadic`, `multi-party` |
 | `realtime` | verified | `real-time`, `offline` or `unreported`. Use `real-time` only when the paper reports a speed or latency figure. |
 | `latency` | | Free text as reported, e.g. `"45 fps on an RTX 3090"`. |
 | `datasets` | verified | List of ids from `data/datasets.yaml`. |
-| `languages` | verified | Spoken languages covered, ISO 639-1: `[en, ko]`. |
+| `languages` | | Spoken languages covered, ISO 639-1: `[en, ko]`. Only when the paper states them. |
 | `metrics` | verified | List of ids from `data/metrics.yaml`. |
 | `user_study` | verified | `true` or `false`: does the paper report a human evaluation. |
 | `summary` | verified | One plain sentence saying what the method does. 300 characters at most. |
@@ -55,6 +55,7 @@ At least one of `doi`, `arxiv` or `links.paper` must be present.
 - **`category`**: `method` proposes a generation model. `system` describes an integrated agent or application built on existing methods. `evaluation` studies metrics or evaluation practice.
 - **`output` and `representation`** answer different questions: which parts of the body move, and in what form the motion is produced. A model that renders video frames directly is `representation: [video-pixels]`.
 - **`approach`** lists every technique that matters to how the method generates motion. A VQ tokenizer with a diffusion prior is `[vq, diffusion]`. Use `hybrid` when learned and non-learned components are combined.
+- **`setting`** is `monologue` when the model animates one speaker from that speaker's own speech or text, with no input from a conversation partner. This may be read off the inputs and data even if the paper never uses the word.
 - **`interlocutor`** as an input means the model conditions on the other speaker's speech or motion.
 - **Preprint later published**: keep one record. Set `venue`, `type` and `year` to the published version, move the record to that year's file, and keep the `arxiv` identifier.
 

@@ -3,155 +3,123 @@
 # Field rules: docs/SCHEMA.md (enforced by schema/schema.json and scripts/validate.py).
 
 - id: fgd
-  name: Fréchet Gesture Distance
-  aka:
-  - FGD
   added: '2026-10-02'
   verified: false
+  name: Fréchet Gesture Distance
+  aka: [FGD]
 
 - id: fid
-  name: Fréchet Inception Distance (on motion or image features)
-  aka:
-  - FID
   added: '2026-10-02'
   verified: false
+  name: Fréchet Inception Distance (on motion or image features)
+  aka: [FID]
 
 - id: fvd
-  name: Fréchet Video Distance
-  aka:
-  - FVD
   added: '2026-10-02'
   verified: false
+  name: Fréchet Video Distance
+  aka: [FVD]
 
 - id: fmd
-  name: Fréchet Motion Distance
-  aka:
-  - FMD
   added: '2026-10-02'
   verified: false
+  name: Fréchet Motion Distance
+  aka: [FMD]
 
 - id: beat-align
-  name: Beat Alignment / Beat Consistency
-  aka:
-  - BeatAlign
-  - BA
-  - BC
-  - Beat Consistency Score
   added: '2026-10-02'
   verified: false
+  name: Beat Alignment / Beat Consistency
+  aka: [BeatAlign, BA, BC, Beat Consistency Score]
 
 - id: diversity
-  name: Diversity (average feature or pose distance between generated clips)
-  aka:
-  - Div
   added: '2026-10-02'
   verified: false
+  name: Diversity (average feature or pose distance between generated clips)
+  aka: [Div]
 
 - id: l1-div
-  name: L1 Diversity
-  aka:
-  - L1div
   added: '2026-10-02'
   verified: false
+  name: L1 Diversity
+  aka: [L1div]
 
 - id: multimodality
-  name: Multimodality (variation for the same input)
-  aka:
-  - MM
   added: '2026-10-02'
   verified: false
+  name: Multimodality (variation for the same input)
+  aka: [MM]
 
 - id: srgr
-  name: Semantic-Relevant Gesture Recall
-  aka:
-  - SRGR
   added: '2026-10-02'
   verified: false
+  name: Semantic-Relevant Gesture Recall
+  aka: [SRGR]
 
 - id: joint-error
-  name: Joint position or rotation error against ground truth
-  aka:
-  - MAE
-  - APE
-  - MPJPE
-  - L1
-  - MSE
   added: '2026-10-02'
   verified: false
+  name: Joint position or rotation error against ground truth
+  aka: [MAE, APE, MPJPE, L1, MSE]
 
 - id: pck
-  name: Percentage of Correct Keypoints
-  aka:
-  - PCK
   added: '2026-10-02'
   verified: false
+  name: Percentage of Correct Keypoints
+  aka: [PCK]
 
 - id: accel-jerk
-  name: Acceleration and jerk statistics
-  aka:
-  - MAJE
-  - MAD
-  - Jerk
   added: '2026-10-02'
   verified: false
+  name: Acceleration and jerk statistics
+  aka: [MAJE, MAD, Jerk]
 
 - id: velocity-hist
-  name: Velocity histogram distance (Hellinger distance)
-  aka:
-  - HD
   added: '2026-10-02'
   verified: false
+  name: Velocity histogram distance (Hellinger distance)
+  aka: [HD]
 
 - id: cca
-  name: Canonical Correlation Analysis against ground truth
-  aka:
-  - CCA
   added: '2026-10-02'
   verified: false
+  name: Canonical Correlation Analysis against ground truth
+  aka: [CCA]
 
 - id: face-error
-  name: Face vertex or blendshape error
-  aka:
-  - LVD
-  - MSE (face)
-  - vertex MSE
   added: '2026-10-02'
   verified: false
+  name: Face vertex or blendshape error
+  aka: [LVD, MSE (face), vertex MSE]
 
 - id: r-precision
-  name: Retrieval precision of motion from text or speech
-  aka:
-  - R-Precision
   added: '2026-10-02'
   verified: false
+  name: Retrieval precision of motion from text or speech
+  aka: [R-Precision]
 
 - id: image-quality
-  name: Frame-level image quality
-  aka:
-  - PSNR
-  - SSIM
-  - LPIPS
   added: '2026-10-02'
   verified: false
+  name: Frame-level image quality
+  aka: [PSNR, SSIM, LPIPS]
 
 - id: lip-sync
-  name: Lip synchronisation confidence or distance
-  aka:
-  - Sync-C
-  - Sync-D
-  - LSE-C
-  - LSE-D
   added: '2026-10-02'
   verified: false
+  name: Lip synchronisation confidence or distance
+  aka: [Sync-C, Sync-D, LSE-C, LSE-D]
 
 - id: gca
+  added: '2026-10-02'
+  verified: false
   name: Gesture Cluster Affinity
-  aka:
-  - GCA
-  added: '2026-10-02'
-  verified: false
+  aka: [GCA]
 
-- id: other
-  name: A metric not yet listed here; named in the paper record's notes
-  added: '2026-10-02'
-  verified: false
+- {id: other, added: '2026-10-02', verified: false, name: A metric not yet listed here; named in the paper record's notes}
+
+- {id: workspace-violation, added: '2026-10-02', verified: false, name: Workspace Violation}
+
+- {id: retrieval-recall, added: '2026-10-02', verified: false, name: 'Retrieval Recall@K (R@1, R@5, R@10)'}
+
+- {id: smooth-bc, added: '2026-10-02', verified: false, name: Smooth Beat Consistency (Smooth-BC)}

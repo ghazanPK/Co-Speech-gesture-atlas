@@ -191,8 +191,8 @@
           },
           "then": {
             "required": [
-              "input", "output", "representation", "approach", "setting",
-              "realtime", "datasets", "languages", "metrics", "user_study"
+              "input", "output", "approach", "setting",
+              "realtime", "datasets", "metrics", "user_study"
             ]
           }
         }

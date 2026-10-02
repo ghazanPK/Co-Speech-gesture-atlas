@@ -153,11 +153,11 @@ def main():
     }
     text = old = README.read_text(encoding="utf-8")
     for name, body in blocks.items():
-        pattern = re.compile(rf"(<!-- BEGIN:{name} -->\n).*?(\n<!-- END:{name} -->)", re.S)
+        pattern = re.compile(rf"(<!-- BEGIN:{name} -->\n).*?(<!-- END:{name} -->)", re.S)
         if not pattern.search(text):
             print(f"README.md has no {name} markers")
             return 1
-        text = pattern.sub(lambda m: m.group(1) + body + m.group(2), text)
+        text = pattern.sub(lambda m: m.group(1) + body + "\n" + m.group(2), text)
     if text == old:
         print("README.md is up to date.")
         return 0
