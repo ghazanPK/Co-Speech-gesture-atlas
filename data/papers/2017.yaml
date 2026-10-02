@@ -548,6 +548,20 @@
   verified: false
   area: psycholinguistics
 
+- id: fotedar2017information
+  title: An Information Theoretic Analysis of the Temporal Synchrony Between Head Gestures and Prosodic Patterns in Spontaneous Speech
+  authors: [Gaurav Fotedar, Prasanta Ghosh]
+  year: 2017
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.21437/interspeech.2017-999
+  links: {paper: 'https://doi.org/10.21437/interspeech.2017-999'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: frederiksen2017separating
   title: 'Separating viewpoint from mode of representation in iconic co-speech gestures: insights from Danish narratives'
   authors: [Anne Therese Frederiksen]
@@ -896,6 +910,20 @@
   verified: false
   area: clinical
 
+- id: kopp2017cognitive
+  title: 'Using cognitive models to understand multimodal processes: the case for speech and gesture production'
+  authors: [Stefan Kopp, Kirsten Bergmann]
+  year: 2017
+  venue: ACM eBooks
+  type: book
+  category: theory
+  doi: 10.1145/3015783.3015791
+  links: {paper: 'https://doi.org/10.1145/3015783.3015791'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: kopp2017computational
   title: Computational gesture research
   authors: [Stefan Kopp]
@@ -910,6 +938,19 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: kopp2017computationalb
+  title: 'Computational gesture research: Studying the functions of gesture in human-agent interaction'
+  authors: [Stefan Kopp]
+  year: 2017
+  venue: PUB – Publications at Bielefeld University (Bielefeld University)
+  type: book
+  category: theory
+  links: {paper: 'https://pub.uni-bielefeld.de/record/2908605'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
 
 - id: koschmann2017would
   title: Why would the discovery of gestures produced by signers jeopardize the experimental finding of gesture-speech mismatch?

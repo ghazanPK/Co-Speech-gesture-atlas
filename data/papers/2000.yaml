@@ -29,6 +29,20 @@
   verified: false
   area: education
 
+- id: badler2000gesture
+  title: 'To gesture or not to gesture: what is the question?'
+  authors: [Norm Badler, M. Costa, L. Zhao, Donghwan Chi]
+  year: 2000
+  venue: CGI
+  type: conference
+  category: method
+  doi: 10.1109/cgi.2000.852314
+  links: {paper: 'https://doi.org/10.1109/cgi.2000.852314', open: 'https://repository.upenn.edu/hms/5'}
+  summary: EMOTE applies parameterized Laban Effort and Shape qualities to movements to produce more natural synthetic gestures for animated characters.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: bavelas2000visible
   title: Visible Acts of Meaning
   authors: [Janet Beavin Bavelas, Nicole Chovil]
@@ -84,6 +98,21 @@
   checked: abstract
   verified: false
   area: development
+
+- id: cassell2000coordination
+  title: Coordination and context-dependence in the generation of embodied conversation
+  authors: [Justine Cassell, Matthew Stone, Hao Yan]
+  year: 2000
+  venue: INLG
+  type: conference
+  category: method
+  doi: 10.3115/1118253.1118277
+  links: {paper: 'https://doi.org/10.3115/1118253.1118277', open: 'https://dl.acm.org/doi/pdf/10.3115/1118253.1118277'}
+  approach: [rule-based]
+  summary: An embodied conversational agent plans each utterance by reasoning from a declarative grammar of gesture (discourse function, semantics, synchrony with speech) so speech and coverbal gesture realize several communicative goals together.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: church2000immediate
   title: Immediate Memory for Mismatched Speech and Representational Gesture Across Development
@@ -224,6 +253,20 @@
   verified: false
   area: social-interaction
 
+- id: guerin2000sales
+  title: Conversational Sales Assistants
+  authors: [Frank Guérin, Kaveh Kamyab, Yasmine Arafa, Ebrahim H. Mamdani]
+  year: 2000
+  venue: CEUR Workshop Proceedings
+  type: workshop
+  category: system
+  links: {paper: 'http://sunsite.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-46/frankkaveh.pdf'}
+  approach: [rule-based]
+  summary: A BDI-based embodied sales agent for a virtual marketplace that plans communicative acts and integrates its speech and gestures through a script language.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: iverson2000relation
   title: The Relation Between Gesture and Speech in Congenitally Blind and Sighted Language-Learners
   authors: [Jana Marie Iverson, Heather L. Tencer, Jill Lany, Susan Goldin‐Meadow]
@@ -265,6 +308,37 @@
   checked: abstract
   verified: false
   area: psycholinguistics
+
+- id: kopp2000knowledge
+  title: A knowledge-based approach for lifelike gesture animation
+  authors: [Stefan Kopp, Ipke Wachsmuth]
+  year: 2000
+  venue: ECAI
+  type: conference
+  category: method
+  links: {paper: 'https://pub.uni-bielefeld.de/record/2611273'}
+  approach: [rule-based]
+  summary: Automatically generates gesture animations for an articulated agent by planning the form and timing of gestures from a spatiotemporal feature representation and forming arm trajectories.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: kopp2000planning
+  title: 'Planning and motion control in lifelike gesture: a refined approach'
+  authors: [Stefan Kopp, Ipke Wachsmuth]
+  year: 2000
+  venue: CA
+  type: conference
+  category: method
+  doi: 10.1109/ca.2000.889051
+  links: {paper: 'https://doi.org/10.1109/ca.2000.889051'}
+  approach: [rule-based]
+  realtime: unreported
+  summary: Transforms spatiotemporal gesture specifications into an analog movement representation for animating a highly articulated anthropomorphic virtual agent, combining knowledge-based animation with trajectory formation.
+  notes: Year taken from the DOI (CA 2000); the candidate metadata lists 2002. Abstract does not mention speech.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: krauss2000lexical
   title: 'Lexical gestures and lexical access: a process model'
@@ -420,6 +494,22 @@
   verified: false
   area: psycholinguistics
 
+- id: noma2000presenter
+  title: Design of a virtual human presenter
+  authors: [Tsukasa Noma, L. Zhao, Norman I. Badler]
+  year: 2000
+  venue: CGA
+  type: journal
+  category: system
+  doi: 10.1109/38.851755
+  links: {paper: 'https://doi.org/10.1109/38.851755', open: 'https://kyutech.repo.nii.ac.jp/records/741'}
+  input: [text]
+  realtime: unreported
+  summary: A virtual human presenter built on the Jack agent system that takes speech text with embedded commands and acts in 3D animation synchronized with speech.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: ozyurek2000influence
   title: The influence of addressee location on spatial language and representational gestures of direction
   authors: [Aslı Özyürek]
@@ -447,3 +537,29 @@
   checked: metadata
   verified: false
   area: linguistics
+
+- id: ruiter2000production
+  title: The production of gesture and speech
+  authors: [Jan P. de Ruiter]
+  year: 2000
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/cbo9780511620850.018
+  links: {paper: 'https://doi.org/10.1017/cbo9780511620850.018'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: yan2000paired
+  title: Paired speech and gesture generation in embodied conversational agents
+  authors: [Hao Yan]
+  year: 2000
+  venue: MIT
+  type: thesis
+  category: method
+  links: {paper: 'http://hdl.handle.net/1721.1/70733'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false

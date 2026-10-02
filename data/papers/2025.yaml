@@ -1117,6 +1117,20 @@
   checked: abstract
   verified: false
 
+- id: gottschalk2025impact
+  title: The Impact of Gestures on the Perception of Creative Linguistic Constructions by Humans and Virtual Agents - Experiment 2
+  authors: ['Lisa ; https://orcid.org/0009-0007-8084-4439 Gottschalk']
+  year: 2025
+  venue: Open Science Framework
+  type: journal
+  category: theory
+  doi: 10.17605/osf.io/uw852
+  links: {paper: 'https://doi.org/10.17605/osf.io/uw852'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
 - id: grondinverdon2025evaluating
   title: 'Evaluating Automatic Hand-Gesture Generation Using Multimodal Corpus Annotations: The Benefits of a Multidisciplinary Approach'
   authors: [Mickaëlla Grondin-Verdon, Domitille Caillat, Louis Abel, Slim Ouni]
@@ -1310,6 +1324,20 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
+
+- id: hensel2025richlyb
+  title: A richly annotated dataset of in-context co-speech hand gestures across diverse speaker professions
+  authors: [Laura Birka Hensel, Stephanie Cheng, Stacy Marsella]
+  year: 2025
+  venue: Unknown venue
+  type: preprint
+  category: theory
+  doi: 10.31234/osf.io/2ep98_v2
+  links: {paper: 'https://doi.org/10.31234/osf.io/2ep98_v2'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: herbuela2025multimodal
   title: Multimodal Emotion Coupling via Speech-to-Facial and Bodily Gestures in Dyadic Interaction
@@ -2252,6 +2280,20 @@
   checked: metadata
   verified: false
   area: development
+
+- id: ozyurek2025insights
+  title: What Insights Human Cognition Can Offer to Enhance Computational Models of Multimodal Language Generation?
+  authors: [Aslı Özyürek]
+  year: 2025
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1145/3746268.3759438
+  links: {paper: 'https://doi.org/10.1145/3746268.3759438'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
 
 - id: paggio2025hand
   title: Do hand gestures increase perceived prominence in naturally produced utterances?

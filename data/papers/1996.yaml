@@ -142,6 +142,19 @@
   verified: false
   area: perception
 
+- id: lu1996humanlike
+  title: A human-like computer character user interface by creating communicational gestures
+  authors: [Shao-Ting Lu, Shujun Yoshizaka, Hitoshi Miyai]
+  year: 1996
+  venue: NEC Research & Development
+  type: journal
+  category: system
+  links: {paper: 'http://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=3179122'}
+  summary: A dialogue system with an anthropomorphic CG librarian whose body, head and hand motions are controlled from a database derived from analysing the behaviour of announcers, movie stars and puppets.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: nobe1996representation
   title: 'Representational gestures, cognitive rhythms, and acoustic aspects of speech: A network threshold model of gesture production'
   authors: [Sensho Nobe]

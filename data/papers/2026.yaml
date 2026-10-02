@@ -552,6 +552,20 @@
   verified: false
   area: linguistics
 
+- id: grimminger2026theoretical
+  title: Theoretical Aspects of Multimodal Processing
+  authors: [Angela Grimminger, Hendrik Buschmeier]
+  year: 2026
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.1007/978-981-96-5290-7_18
+  links: {paper: 'https://doi.org/10.1007/978-981-96-5290-7_18'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: grondinverdon2026approche
   title: Vers une approche interdisciplinaire fondée sur les données pour l’analyse multimodale et la modélisation computationnelle du geste co-verbal
   authors: [Mickaëlla Grondin-Verdon]
@@ -2441,6 +2455,19 @@
   checked: metadata
   verified: false
   area: psycholinguistics
+
+- id: wright2026perceiving
+  title: 'Perceiving an Avatar''s Epistemic Stance: A Parametric Reverse-Correlation Study of Visual Gestures'
+  authors: [Jussi Wright]
+  year: 2026
+  venue: Työväentutkimus Vuosikirja
+  type: journal
+  category: theory
+  links: {paper: 'http://hdl.handle.net/10138/638027'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
 
 - id: wu2026flowmatching
   title: Speech-Driven Gesture Generation via Conditional Flow Matching With Masked Training and Clamped Sampling

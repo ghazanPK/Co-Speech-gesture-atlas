@@ -896,6 +896,20 @@
   checked: metadata
   verified: false
 
+- id: lis2012influencing
+  title: Influencing gestural representation of eventualities
+  authors: [Magdalena Lis]
+  year: 2012
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1145/2388676.2388733
+  links: {paper: 'https://doi.org/10.1145/2388676.2388733'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: liszkowski2012prelinguistic
   title: A Prelinguistic Gestural Universal of Human Communication
   authors: [Ulf Liszkowski, Penny Brown, Tara C. Callaghan, Akira Takada, Connie De Vos]
@@ -1193,6 +1207,20 @@
   checked: abstract
   verified: false
   area: development
+
+- id: pfeiffer2012interaction
+  title: 'Interaction between Speech and Gesture: Strategies for Pointing to Distant Objects'
+  authors: [Thies Pfeiffer]
+  year: 2012
+  venue: Lecture notes in computer science
+  type: conference
+  category: theory
+  doi: 10.1007/978-3-642-34182-3_22
+  links: {paper: 'https://doi.org/10.1007/978-3-642-34182-3_22'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
 
 - id: pine2012giving
   title: 'Giving cognition a helping hand: The effect of congruent gestures on object name retrieval'

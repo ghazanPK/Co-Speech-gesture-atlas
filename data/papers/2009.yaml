@@ -70,6 +70,19 @@
   checked: metadata
   verified: false
 
+- id: bergmann2009iconic
+  title: 'Systematicity and Idiosyncrasy in Iconic Gesture Use: Empirical Analysis and Computational Modeling'
+  authors: [Kirsten Bergmann, Stefan Kopp]
+  year: 2009
+  venue: Gesture Workshop
+  type: conference
+  category: method
+  doi: 10.1007/978-3-642-12553-9_16
+  links: {paper: 'https://doi.org/10.1007/978-3-642-12553-9_16'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
 - id: bergmann2009increasing
   title: 'Increasing the expressiveness of virtual agents: autonomous generation of speech and gesture for spatial description tasks'
   authors: [Kirsten Bergmann, Stefan Kopp]
@@ -124,6 +137,19 @@
   checked: abstract
   verified: false
   area: cognition
+
+- id: cerekovic2009realactor
+  title: 'RealActor: Character Animation and Multimodal Behavior Realization System'
+  authors: [Aleksandra Čereković, Tomislav Pejša, Igor Sunday Pandzic]
+  year: 2009
+  venue: LNCS
+  type: conference
+  category: system
+  doi: 10.1007/978-3-642-04380-2_55
+  links: {paper: 'https://doi.org/10.1007/978-3-642-04380-2_55'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
 
 - id: chieffi2009deictic
   title: 'Deictic word and gesture production: Their interaction'
@@ -554,6 +580,20 @@
   verified: false
   area: development
 
+- id: kipp2009gesture
+  title: 'Gesture and emotion: Can basic gestural form features discriminate emotions?'
+  authors: [Michael Kipp, Jean‐Claude Martin]
+  year: 2009
+  venue: 2009 3rd International Conference on Affective Computing and Intelligent Interaction and Workshops
+  type: workshop
+  category: theory
+  doi: 10.1109/acii.2009.5349544
+  links: {paper: 'https://doi.org/10.1109/acii.2009.5349544'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
 - id: kita2009cross
   title: 'Cross-cultural variation of speech-accompanying gesture: A review'
   authors: [Sotaro Kita]
@@ -655,6 +695,49 @@
   checked: abstract
   verified: false
 
+- id: louwerse2009multimodal
+  title: The Multimodal Nature of Embodied Conversational Agents
+  authors: [Max Louwerse, Nick Benesh, Shinobu Watanabe, Bin Zhang, Patrick Jeuniaux, Divya Vargheese]
+  year: 2009
+  venue: CogSci
+  type: conference
+  category: system
+  links: {paper: 'https://escholarship.org/uc/item/6078d8kn'}
+  approach: [rule-based]
+  setting: [dyadic]
+  user_study: true
+  summary: A Map Task embodied conversational agent whose facial expressions, gaze and gestures are triggered per dialogue act from cross-recurrence patterns in a human dialogue corpus, evaluated with 24 participants via questionnaires and eye tracking.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: lucking2009factoring
+  title: On Factoring Out a Gesture Typology from the Bielefeld Speech-and-Gesture-Alignment Corpus (SAGA)
+  authors: [Andy Lücking, Kirsten Bergmann, Florian Hahn, Stefan Kopp, H. Rieser]
+  year: 2009
+  venue: Lecture notes in computer science
+  type: conference
+  category: theory
+  doi: 10.1007/978-3-642-12553-9_5
+  links: {paper: 'https://doi.org/10.1007/978-3-642-12553-9_5'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: luo2009augmenting
+  title: Augmenting Gesture Animation with Motion Capture Data to Provide Full-Body Engagement
+  authors: [Pengcheng Luo, Michael Kipp, Michael Neff]
+  year: 2009
+  venue: IVA
+  type: conference
+  category: method
+  doi: 10.1007/978-3-642-04380-2_44
+  links: {paper: 'https://doi.org/10.1007/978-3-642-04380-2_44'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
 - id: mittelberg2009chapter
   title: 'Chapter 14. Metonymy first, metaphor second: A cognitivesemiotic approach to multimodal figures of thought in co-speech gesture'
   authors: [Irene Mittelberg, Linda R. Waugh]
@@ -722,6 +805,20 @@
   checked: metadata
   verified: false
   area: linguistics
+
+- id: okuno2009route
+  title: Providing route directions
+  authors: [Yusuke Okuno, Takayuki Kanda, Michita Imai, Hiroshi Ishiguro, Norihiro Hagita]
+  year: 2009
+  venue: HRI
+  type: conference
+  category: method
+  doi: 10.1145/1514095.1514108
+  links: {paper: 'https://doi.org/10.1145/1514095.1514108'}
+  summary: A robot model that generates route directions by combining utterances, gestures and timing, with gestures designed for usefulness to the listener and timing modeled on how humans listen.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: ozcalskan2009differences
   title: Sex differences in language first appear in gesture
@@ -819,6 +916,19 @@
   checked: abstract
   verified: false
   area: development
+
+- id: salem2009meaningful
+  title: Towards Meaningful Robot Gesture
+  authors: [Maha Salem, Stefan Kopp, Ipke Wachsmuth, Frank Joublin]
+  year: 2009
+  venue: Cognitive Systems Monographs
+  type: book
+  category: method
+  doi: 10.1007/978-3-642-10403-9_18
+  links: {paper: 'https://doi.org/10.1007/978-3-642-10403-9_18'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
 
 - id: shumway2009communicative
   title: Communicative Acts of Children With Autism Spectrum Disorders in the Second Year of Life

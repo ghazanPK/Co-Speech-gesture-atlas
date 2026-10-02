@@ -2,6 +2,21 @@
 # The README tables are generated from these files. Field rules: docs/SCHEMA.md
 # (enforced by schema/schema.json and scripts/validate.py).
 
+- id: albrecht2006imitation
+  title: Gesture modeling and animation by imitation
+  authors: [Irene Albrecht, Michael Kipp, Michael Neff, Hans‐Peter Seidel]
+  year: 2006
+  venue: MPI Research Report
+  type: preprint
+  category: method
+  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0014-6979-2'}
+  input: [text]
+  output: [full-body]
+  summary: Builds a statistical model of a performer's gesturing style from annotated video, generates a gesture script for tagged input text, and renders it as kinematic or physically simulated full-body animation.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: alibali2006dont
   title: Don't Just Tell Them, Show Them! Teachers Can Intentionally Alter their Instructional Gestures
   authors: [Martha Wagner Alibali, Kristen N. Bieda, Autumn B. Hostetter, Eric Knuth, Mitchell J. Nathan]
@@ -69,6 +84,48 @@
   checked: abstract
   verified: false
   area: psycholinguistics
+
+- id: bergmann2006verbal
+  title: Verbal or Visual? How Information is Distributed across Speech and Gesture in Spatial Dialog
+  authors: [Kirsten von Bergmann, Stefan Kopp]
+  year: 2006
+  venue: publish.UP (University of Potsdam)
+  type: journal
+  category: theory
+  links: {paper: 'https://publishup.uni-potsdam.de/frontdoor/index/index/docId/951'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: buisine2006expressivity
+  title: Conception et évaluation d'un modèle d'expressivité pour les gestes des agents conversationnels
+  authors: [Stéphanie Buisine, Björn Hartmann, Maurizio Mancini, Catherine Pélachaud]
+  year: 2006
+  venue: Revue d'intelligence artificielle
+  type: journal
+  category: method
+  doi: 10.3166/ria.20.621-638
+  links: {paper: 'https://doi.org/10.3166/ria.20.621-638'}
+  user_study: true
+  summary: Behaviour synthesis model that generates expressive gestures for conversational agents using a small set of expressivity dimensions, evaluated in two user studies.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: chafai2006gesture
+  title: Gesture Expressivity Modulations in an ECA Application
+  authors: [Nicolas Ech Chafai, Catherine Pélachaud, Danielle Pelé, Gaspard Breton]
+  year: 2006
+  venue: Lecture notes in computer science
+  type: conference
+  category: method
+  doi: 10.1007/11821830_15
+  links: {paper: 'https://doi.org/10.1007/11821830_15'}
+  summary: Analyses how co-verbal gesture expressivity varies over time in a corpus of 2D animations and proposes a model of two types of modulation to animate an embodied conversational agent.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: cook2006gesture
   title: 'The Role of Gesture in Learning: Do Children Use Their Hands to Change Their Minds?'
@@ -237,6 +294,33 @@
   verified: false
   area: perception
 
+- id: hartmann2006implementing
+  title: Implementing Expressive Gesture Synthesis for Embodied Conversational Agents
+  authors: [Björn Hartmann, Maurizio Mancini, Catherine Pélachaud]
+  year: 2006
+  venue: Gesture Workshop
+  type: workshop
+  category: method
+  doi: 10.1007/11678816_22
+  links: {paper: 'https://doi.org/10.1007/11678816_22'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: heylen2006head
+  title: HEAD GESTURES, GAZE AND THE PRINCIPLES OF CONVERSATIONAL STRUCTURE
+  authors: [Dirk Heylen]
+  year: 2006
+  venue: International Journal of Humanoid Robotics
+  type: journal
+  category: theory
+  doi: 10.1142/s0219843606000746
+  links: {paper: 'https://doi.org/10.1142/s0219843606000746'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
 - id: holle2006dynamic
   title: 'Dynamic co-speech gestures may be used as disambiguation cues: ERP evidence'
   authors: [Henning Holle, Thomas C. Gunter]
@@ -291,6 +375,23 @@
   checked: abstract
   verified: false
   area: psycholinguistics
+
+- id: jin2006multimodal
+  title: Real Time Multimodal Interaction with Animated Virtual Human
+  authors: [Li Jin, Zhigang Wen]
+  year: 2006
+  venue: IV
+  type: conference
+  category: system
+  doi: 10.1109/iv.2006.88
+  links: {paper: 'https://doi.org/10.1109/iv.2006.88'}
+  input: [text]
+  approach: [hybrid]
+  realtime: unreported
+  summary: Animation framework for a virtual human that perceives its environment and the user's commands and responds with co-verbal gestures, posture and body motion by combining motion-captured data with parameterized actions generated in real time.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: jungheim2006learner
   title: Learner and native speaker perspectives on a culturally-specific Japanese refusal gesture
@@ -348,6 +449,19 @@
   verified: false
   area: social-interaction
 
+- id: kipp2006creativity
+  title: 'Creativity Meets Automation: Combining Nonverbal Action Authoring with Rules and Machine Learning'
+  authors: [Michael Kipp]
+  year: 2006
+  venue: LNCS
+  type: conference
+  category: method
+  doi: 10.1007/11821830_19
+  links: {paper: 'https://doi.org/10.1007/11821830_19'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
 - id: kita2006metaphor
   title: Metaphor explanation attenuates the right-hand preference for depictive co-speech gestures that imitate actions
   authors: [Sotaro Kita, Olivier de Condappa, Christine Möhr]
@@ -362,6 +476,32 @@
   verified: false
   area: neuroscience
 
+- id: kopp2006bml
+  title: 'Towards a Common Framework for Multimodal Generation: The Behavior Markup Language'
+  authors: [Stefan Kopp, Brigitte Krenn, Stacy Marsella, Andrew N. Marshall, Catherine Pélachaud, Hannes Pirker, Kristinn R. Þórisson, Hannes Högni Vilhjálmsson]
+  year: 2006
+  venue: IVA
+  type: conference
+  category: system
+  doi: 10.1007/11821830_17
+  links: {paper: 'https://doi.org/10.1007/11821830_17'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: kopp2006max
+  title: The virtual human Max – Modeling embodied conversation
+  authors: [Stefan Kopp, Christian Becker, Ipke Wachsmuth]
+  year: 2006
+  venue: Bielefeld University
+  type: conference
+  category: system
+  links: {paper: 'https://pub.uni-bielefeld.de/record/2634971'}
+  summary: Overview of the virtual human Max, an embodied agent for face-to-face conversation developed from a speech and gesture generation platform into receptionist, VR construction and museum guide applications.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: lascarides2006formal
   title: Formal Semantics for Iconic Gesture
   authors: [Alex Lascarides, Matthew Stone]
@@ -374,6 +514,38 @@
   checked: abstract
   verified: false
   area: linguistics
+
+- id: lee2006nonverbal
+  title: Nonverbal Behavior Generator for Embodied Conversational Agents
+  authors: [Jina Lee, Stacy Marsella]
+  year: 2006
+  venue: IVA
+  type: conference
+  category: method
+  doi: 10.1007/11821830_20
+  links: {paper: 'https://doi.org/10.1007/11821830_20'}
+  input: [text, emotion]
+  approach: [rule-based]
+  realtime: unreported
+  summary: Analyses the syntactic and semantic structure of the surface text and the agent's affective state and annotates the text with nonverbal behaviours using rules extracted from video clips of conversing people.
+  notes: Abstract states the system works in real time but gives no figure. Rules are user extensible.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: lessmann2006situated
+  title: Situated interaction with a virtual human - perception, action, and cognition
+  authors: [Nadine Leßmann, Stefan Kopp, Ipke Wachsmuth]
+  year: 2006
+  venue: Situated Communication
+  type: book
+  category: system
+  doi: 10.1515/9783110197747.287
+  links: {paper: 'https://doi.org/10.1515/9783110197747.287'}
+  summary: Describes the architecture of the virtual human Max, which combines speech, gaze, facial expression and gesture with assembly actions for mixed-initiative dialogue in a construction task.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: lopez2006development
   title: Co-development of child-mother gestures over the second and the third years
@@ -402,6 +574,21 @@
   checked: abstract
   verified: false
   area: clinical
+
+- id: martin2006multimodal
+  title: 'MULTIMODAL COMPLEX EMOTIONS: GESTURE EXPRESSIVITY AND BLENDED FACIAL EXPRESSIONS'
+  authors: [Jean‐Claude Martin, Radosław Niewiadomski, Laurence Y. Devillers, Stéphanie Buisine, Catherine Pélachaud]
+  year: 2006
+  venue: IJHR
+  type: journal
+  category: method
+  doi: 10.1142/s0219843606000825
+  links: {paper: 'https://doi.org/10.1142/s0219843606000825', open: 'https://hal.science/hal-00787584/document'}
+  datasets: [custom]
+  summary: Annotates a corpus of TV interviews at several levels and uses a copy-synthesis approach to drive an embodied conversational agent's multimodal behaviour, plus a model of blended facial expressions.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: matsumoto2006culture
   title: Culture and Nonverbal Behavior
@@ -557,6 +744,19 @@
   verified: false
   area: clinical
 
+- id: quek2006mental
+  title: 'Mental imagery, language and gesture: multimodal access to human communication'
+  authors: [Francis K. H. Quek]
+  year: 2006
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'https://crpit.com/confpapers/CRPITV57Quek.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: raymer2006gestureverbal
   title: Effects of gesture+verbal treatment for noun and verb retrieval in aphasia
   authors: [Anastasia M. Raymer, Floris F. Singletary, Amy D. Rodriguez, Maribel Ciampitti, Kenneth M. Heilman, Leslie J. Gonzalez Rothi]
@@ -639,6 +839,21 @@
   checked: abstract
   verified: false
   area: clinical
+
+- id: sargin2006combined
+  title: Combined Gesture-Speech Analysis and Speech Driven Gesture Synthesis
+  authors: [Mehmet Emre Sargin, Oya Aran, Alexey Anatolievich Karpov, Ferda Ofli, Yelena Yasinnik, S. Wilson, Engin Erzin, Y. Yemez, Ahmet Murat Tekalp]
+  year: 2006
+  venue: ICME
+  type: conference
+  category: method
+  doi: 10.1109/icme.2006.262663
+  links: {paper: 'https://doi.org/10.1109/icme.2006.262663'}
+  input: [audio]
+  summary: Models the co-occurrence of speech events (keywords, prosodic accents) and labelled head and hand gesture symbols, and uses the correlation to animate gestures of a talking avatar from speech.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: seyfeddinipur2006disfluency
   title: 'Disfluency: Interrupting speech and gesture'
@@ -723,6 +938,20 @@
   verified: false
   area: cognition
 
+- id: vankessel2006gestures
+  title: Gestures of a virtual guide
+  authors: [Marco van Kessel]
+  year: 2006
+  venue: University of Twente
+  type: thesis
+  category: system
+  links: {paper: 'http://hmi.ewi.utwente.nl/verslagen/afstudeer/KesselMarcovanFinalThesis.pdf'}
+  user_study: true
+  summary: Integrates existing dialogue, multimodal interface and agent software into a virtual guide that gives route descriptions in sentences and deictic pointing gestures.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: vermeerbergen2006sign
   title: Sign + Gesture = Speech + Gesture? Comparing aspects of simultaneity in Flemish Sign Language to instances of concurrent speech and gesture
   authors: [Myriam Vermeerbergen, Eline Demey]
@@ -803,3 +1032,16 @@
   checked: abstract
   verified: false
   area: psycholinguistics
+
+- id: zoric2006gesturing
+  title: Automated Gesturing for Embodied Agents
+  authors: [Goranka Zorić, Karlo Šmid, Igor Sunday Pandzic]
+  year: 2006
+  venue: Lecture Notes in Computer Science
+  type: conference
+  category: method
+  doi: 10.1007/11780496_42
+  links: {paper: 'https://doi.org/10.1007/11780496_42'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false

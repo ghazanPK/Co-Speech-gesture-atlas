@@ -171,6 +171,34 @@
   checked: abstract
   verified: false
 
+- id: bremner2015efficiency
+  title: Efficiency of speech and iconic gesture integration for robotic and human communicators - a direct comparison
+  authors: [Paul Bremner, Ute Leonards]
+  year: 2015
+  venue: IEEE International Conference on Robotics and Automation
+  type: conference
+  category: theory
+  doi: 10.1109/icra.2015.7139460
+  links: {paper: 'https://doi.org/10.1109/icra.2015.7139460'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: bremner2015speech
+  title: Speech and Gesture Emphasis Effects for Robotic and Human Communicators
+  authors: [Paul Bremner, Ute Leonards]
+  year: 2015
+  venue: IEEE/ACM International Conference on Human-Robot Interaction
+  type: conference
+  category: theory
+  doi: 10.1145/2696454.2696496
+  links: {paper: 'https://doi.org/10.1145/2696454.2696496'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
 - id: brown2015universal
   title: Universal Development and L1–L2 Convergence in Bilingual Construal of Manner in Speech and Gesture in Mandarin, Japanese, and English
   authors: [Amanda Brown]

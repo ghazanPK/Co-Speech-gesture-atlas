@@ -849,6 +849,17 @@
   verified: false
   area: cognition
 
+- id: lee2019talking
+  title: 'Talking With Hands 16.2M: A Large-Scale Dataset of Synchronized Body-Finger Motion and Audio for Conversational Motion Analysis and Synthesis'
+  year: 2019
+  venue: ICCV
+  type: conference
+  category: dataset
+  links: {paper: 'https://personalrobotics.cs.washington.edu/publications/lee2019handmotiondataset.pdf', code: 'https://github.com/facebookresearch/TalkingWithHands32M'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
 - id: liao2019gestures
   title: Gestures as Intrinsic Creativity Support
   authors: [Jingxian Liao, Hao‐Chuan Wang]
@@ -1015,6 +1026,20 @@
   verified: false
   area: linguistics
 
+- id: navarretta2019form
+  title: Form and Function of Hand Gestures for Interpretation and Generation
+  authors: [Costanza Navarretta]
+  year: 2019
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1109/coginfocom47531.2019.9089929
+  links: {paper: 'https://doi.org/10.1109/coginfocom47531.2019.9089929'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: nihei2019iconic
   title: Determining Iconic Gesture Forms based on Entity Image Representation
   authors: [Fumio Nihei, Yukiko Nakano, Ryuichiro Higashinaka, Ryo Ishii]
@@ -1029,6 +1054,20 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: nirme2019motion
+  title: Motion capture-based animated characters for the study of speech–gesture integration
+  authors: [Jens Nirme, Magnus Haake, Agneta Gulz, Marianne Gullberg]
+  year: 2019
+  venue: Behavior Research Methods
+  type: journal
+  category: theory
+  doi: 10.3758/s13428-019-01319-w
+  links: {paper: 'https://doi.org/10.3758/s13428-019-01319-w'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
 
 - id: ortega2019systematic
   title: 'Systematic mappings between semantic categories and types of iconic representations in the manual modality: A normed database of silent gesture'
@@ -1288,6 +1327,20 @@
   checked: abstract
   verified: false
 
+- id: saund2019multiple
+  title: Multiple metaphors in metaphoric gesturing
+  authors: [Carolyn Saund, Marion Roth, Mathieu Chollet, Stacy Marsella]
+  year: 2019
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1109/acii.2019.8925435
+  links: {paper: 'https://doi.org/10.1109/acii.2019.8925435'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: shansharhanovna2019nonverbal
   title: Nonverbal communication in the context of mental differences of communicants
   authors: [Berdalieva Ramilya Shansharhanovna]
@@ -1342,6 +1395,20 @@
   checked: abstract
   verified: false
   area: development
+
+- id: sowa2019cognitive
+  title: A Cognitive Model for the Representation and Processing of Shape-Related Gestures
+  authors: [Timo Sowa, Stefan Kopp]
+  year: 2019
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.4324/9781315782362-144
+  links: {paper: 'https://doi.org/10.4324/9781315782362-144'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: stefani2019language
   title: 'Language, Gesture, and Emotional Communication: An Embodied View of Social Interaction'

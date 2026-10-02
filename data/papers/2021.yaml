@@ -693,6 +693,20 @@
   checked: abstract
   verified: false
 
+- id: herrera2021colombian
+  title: The UAN Colombian co-speech gesture corpus
+  authors: [David A. Herrera, Sonia Rodríguez, Douglas Niño, Mercedes Pardo-Martínez, Verónica Giraldo]
+  year: 2021
+  venue: Language Resources and Evaluation
+  type: journal
+  category: theory
+  doi: 10.1007/s10579-021-09540-w
+  links: {paper: 'https://doi.org/10.1007/s10579-021-09540-w'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
 - id: hinterwimmer2021interaction
   title: On the Interaction of Gestural and Linguistic Perspective Taking
   authors: [Stefan Hinterwimmer, Umesh Patil, Cornelia Ebert]
@@ -993,6 +1007,20 @@
   added: '2026-10-03'
   checked: full-text
   verified: false
+
+- id: laparle2021tracking
+  title: Tracking Discourse Topics in Co-speech Gesture
+  authors: [Schuyler Laparle]
+  year: 2021
+  venue: Lecture notes in computer science
+  type: conference
+  category: theory
+  doi: 10.1007/978-3-030-77817-0_18
+  links: {paper: 'https://doi.org/10.1007/978-3-030-77817-0_18'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
 
 - id: lee2021crossmodal
   title: 'Crossmodal Clustered Contrastive Learning: Grounding of Spoken Language to Gesture'
@@ -1534,6 +1562,20 @@
   verified: false
   area: development
 
+- id: stogsdill2021pointless
+  title: Is it Pointless? Modeling and Evaluation of Category Transitions of Spatial Gestures
+  authors: [Adam Stogsdill, Grace A. Clark, Aly Ranucci, Thao Phung, Tom Williams]
+  year: 2021
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1145/3434074.3447199
+  links: {paper: 'https://doi.org/10.1145/3434074.3447199'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: sun2021manual
   title: Manual Gestures Modulate Early Neural Responses in Loudness Perception
   authors: [J. Sun, Ziqing Wang, Xing Tian]
@@ -1768,6 +1810,20 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
+
+- id: wang2021joint
+  title: 'It’s a Joint Effort: Understanding Speech and Gesture in Collaborative Tasks'
+  authors: [Isaac Wang, Pradyumna Narayana, Dhruva Patil, Rahul Bangar, Bruce A. Draper, Ross Beveridge, Jaime Ruiz]
+  year: 2021
+  venue: Lecture notes in computer science
+  type: conference
+  category: theory
+  doi: 10.1007/978-3-030-78465-2_13
+  links: {paper: 'https://doi.org/10.1007/978-3-030-78465-2_13'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction
 
 - id: wang2021nonverbal
   title: Examining the Use of Nonverbal Communication in Virtual Agents

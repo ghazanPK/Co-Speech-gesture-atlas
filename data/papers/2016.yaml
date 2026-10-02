@@ -190,6 +190,20 @@
   verified: false
   area: linguistics
 
+- id: cook2016hand
+  title: 'Hand Gesture and Mathematics Learning: Lessons From an Avatar'
+  authors: [Susan Wagner Cook, Howard Steven Friedman, Katherine Anne Duggan, Jian Cui, Voicu S. Popescu]
+  year: 2016
+  venue: Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1111/cogs.12344
+  links: {paper: 'https://doi.org/10.1111/cogs.12344'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
 - id: cooperrider2016spatial
   title: 'Spatial analogies pervade complex relational reasoning: Evidence from spontaneous gestures'
   authors: [Kensy Cooperrider, Dedre Gentner, Susan Goldin‐Meadow]

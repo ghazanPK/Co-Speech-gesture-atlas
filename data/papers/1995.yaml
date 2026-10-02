@@ -113,6 +113,19 @@
   verified: false
   area: perception
 
+- id: lu1995dialogue
+  title: A human-computer dialogue agent with body gestures, hand motion, and speech
+  authors: [Shan Lu, Shujun Yoshizaka, Toshiyuki Kamiya, Hitoshi Miyai]
+  year: 1995
+  venue: Advances in Human Factors/Ergonomics
+  type: book
+  category: system
+  doi: 10.1016/s0921-2647(06)80005-5
+  links: {paper: 'https://doi.org/10.1016/s0921-2647(06)80005-5'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
 - id: mundy1995nonverbal
   title: Nonverbal Communication and Early Language Acquisition in Children With Down Syndrome and in Normally Developing Children
   authors: [Peter Clive Mundy, Connie L. Kasari, Marian Sigman, Ellen Ruskin]

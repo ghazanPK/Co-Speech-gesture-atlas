@@ -85,6 +85,61 @@
   verified: false
   area: perception
 
+- id: cassell1999embodied
+  title: 'Embodied conversational agents: a new paradigm for the study of gesture and for human—computer interface'
+  authors: [Justine Cassell]
+  year: 1999
+  venue: Oxford University Press
+  type: book
+  category: system
+  doi: 10.1093/acprof:oso/9780198524519.003.0011
+  links: {paper: 'https://doi.org/10.1093/acprof:oso/9780198524519.003.0011'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: cassell1999embodiment
+  title: Embodiment in conversational interfaces
+  authors: [Justine Cassell, Timothy Bickmore, Mark Billinghurst, L. Campbell, K. Chang, Hannes Högni Vilhjálmsson, Hao Yan]
+  year: 1999
+  venue: CHI
+  type: conference
+  category: system
+  doi: 10.1145/302979.303150
+  links: {paper: 'https://doi.org/10.1145/302979.303150'}
+  summary: Describes the architecture of Rea, an embodied conversational agent with multimodal input understanding and output generation for social and task-oriented dialogue.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: cassell1999living
+  title: 'Living Hand to Mouth: Psychological Theories about Speech and Gesture in Interactive Dialogue Systems'
+  authors: [Justine Cassell, Matthew Stone]
+  year: 1999
+  venue: AAAI Fall Symposium
+  type: workshop
+  category: system
+  links: {paper: 'http://athos.rutgers.edu/~mdstone/pubs/aaaifs99.pdf'}
+  summary: Implements an interactive dialogue system whose speech and gesture are generated from a common conceptual source and tuned to the communicative context and intentions.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: cassell1999nod
+  title: 'The power of a nod and a glance: Envelope vs. emotional feedback in animated conversational agents'
+  authors: [Justine Cassell, Kristinn R. Þórisson]
+  year: 1999
+  venue: Applied Artificial Intelligence
+  type: journal
+  category: evaluation
+  doi: 10.1080/088395199117360
+  links: {paper: 'https://doi.org/10.1080/088395199117360'}
+  user_study: true
+  summary: A user experiment comparing three autonomous conversational humanoid agents that give content-only, content plus envelope (gaze, beat gesture, head movement) or content plus emotional feedback.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: cassell1999speech
   title: 'Speech-gesture mismatches: Evidence for one underlying representation of linguistic and nonlinguistic information'
   authors: [Justine Cassell, David M. McNeill, Karl-Erik McCullough]
@@ -281,6 +336,22 @@
   verified: false
   area: linguistics
 
+- id: lester1999deictic
+  title: 'Deictic believability: Coordinated gesture, locomotion, and speech in lifelike pedagogical agents'
+  authors: [James C. Lester, Jennifer L. Voerman, Stuart Towns, Charles B. Callaway]
+  year: 1999
+  venue: Applied Artificial Intelligence
+  type: journal
+  category: system
+  doi: 10.1080/088395199117324
+  links: {paper: 'https://doi.org/10.1080/088395199117324'}
+  user_study: true
+  summary: A deictic behavior planner uses a world model and the evolving explanation plan to select and coordinate locomotion, gesture and speech for a pedagogical animated agent.
+  notes: Evaluated with an informal focus group study; implemented in the agent COSMO.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: messing1999gesture
   title: Gesture, Speech, and Sign
   authors: [L. Messing, R. Campbell]
@@ -308,6 +379,20 @@
   checked: abstract
   verified: false
   area: development
+
+- id: rickel1999steve
+  title: 'Animated agents for procedural training in virtual reality: Perception, cognition, and motor control'
+  authors: [Jeff Rickel, W. Lewis Johnson]
+  year: 1999
+  venue: Applied Artificial Intelligence
+  type: journal
+  category: system
+  doi: 10.1080/088395199117315
+  links: {paper: 'https://doi.org/10.1080/088395199117315'}
+  summary: Describes the architecture of Steve, an animated agent whose motor control module drives voice, locomotion, gaze and gestures while teaching procedural tasks in a virtual world.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: thompson1999limits
   title: Some Limits on Encoding Visible Speech and Gestures Using a Dichotic Shadowing Task

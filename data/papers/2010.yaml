@@ -390,6 +390,19 @@
   verified: false
   area: linguistics
 
+- id: duncan2010multi
+  title: Multi-modal Analysis of Interactional Rapport in Three Language/Cultural Groups
+  authors: [Susan Duncan, Tizziana Baldenebro, Gina‐Anne Levow]
+  year: 2010
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'http://projects.ict.usc.edu/mhcd2010/hcd-duncan.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
 - id: elms2010gesture
   title: Gesture-to-Speech Mismatch in the Construction of Problem Solving Insight
   authors: [J.T.E. Elms]
@@ -1322,6 +1335,21 @@
   checked: abstract
   verified: false
   area: development
+
+- id: vanwelbergen2009elckerlyc
+  title: Elckerlyc - A BML Realizer for continuous, multimodal interaction with a Virtual Human
+  authors: [Herwin van Welbergen, Dennis Reidsma, Zsófia Ruttkay, Job Zwiers]
+  year: 2010
+  venue: JMUI
+  type: journal
+  category: system
+  doi: 10.1007/s12193-010-0051-3
+  links: {paper: 'https://doi.org/10.1007/s12193-010-0051-3', open: 'https://link.springer.com/content/pdf/10.1007/s12193-010-0051-3.pdf'}
+  approach: [hybrid]
+  summary: A modular BML realizer for generating multimodal verbal and nonverbal behavior of virtual humans, mixing procedural animation with physical simulation.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: vendrame2010mean
   title: '“I see what you mean”: Oral deaf individuals benefit from speaker''s gesturing'

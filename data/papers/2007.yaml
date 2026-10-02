@@ -56,6 +56,43 @@
   verified: false
   area: psycholinguistics
 
+- id: bennewitz2007fritz
+  title: Fritz - A Humanoid Communication Robot
+  authors: [Maren Bennewitz, Felix Faber, Dominik Joho, Sven Behnke]
+  year: 2007
+  venue: RO-MAN
+  type: conference
+  category: system
+  doi: 10.1109/roman.2007.4415240
+  links: {paper: 'https://doi.org/10.1109/roman.2007.4415240'}
+  output: [upper-body, face]
+  summary: A humanoid communication robot that interacts using speech, facial expressions, eye-gaze, arm gestures and pointing gestures, shifting attention between people.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: bennewitz2007fritzb
+  title: Intuitive Multimodal Interaction with Communication Robot Fritz
+  authors: [Maren Bennewitz, Felix Faber, Dominik Joho, Sven Behnke]
+  year: 2007
+  venue: Humanoid Robots, Human-like Machines (InTech)
+  type: book
+  category: system
+  doi: 10.5772/4826
+  links: {paper: 'https://doi.org/10.5772/4826', open: 'https://www.intechopen.com/citation-pdf-url/190'}
+  input: [text, audio]
+  output: [upper-body, face]
+  approach: [rule-based]
+  setting: [multi-party]
+  realtime: unreported
+  datasets: []
+  metrics: []
+  summary: A humanoid museum-guide robot performs predefined symbolic, batonic and pointing arm and head gestures with strokes synchronized to speech synthesis, shifts attention between several people, and shows emotion through facial expressions and speech.
+  notes: Evaluation is informal experience from public demonstrations; the questionnaire study reported was for the predecessor robot Alpha.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
 - id: braddock2007links
   title: 'Links between language, gesture, and motor skill : a longitudinal study of communication recovery in adults with Broca''s aphasia'
   authors: [Barbara A. Braddock]
@@ -69,6 +106,22 @@
   checked: abstract
   verified: false
   area: clinical
+
+- id: breitfuss2007automated
+  title: Automated generation of non-verbal behavior for virtual embodied characters
+  authors: [Werner Breitfuß, Helmut Prendinger, Mitsuru Ishizuka]
+  year: 2007
+  venue: ACM
+  type: conference
+  category: method
+  doi: 10.1145/1322192.1322247
+  links: {paper: 'https://doi.org/10.1145/1322192.1322247'}
+  input: [text]
+  setting: [dyadic]
+  summary: Adds eye gaze and conversational gestures to a text dialogue script between two virtual agents from linguistic and contextual analysis, outputting an MPML3D behaviour script.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: broaders2007making
   title: Making children gesture brings out implicit knowledge and leads to learning.
@@ -96,6 +149,21 @@
   checked: abstract
   verified: false
   area: linguistics
+
+- id: buisine2007cooperation
+  title: The effects of speech–gesture cooperation in animated agents’ behavior in multimedia presentations
+  authors: [Stéphanie Buisine, Jean‐Claude Martin]
+  year: 2007
+  venue: Interacting with Computers
+  type: journal
+  category: evaluation
+  doi: 10.1016/j.intcom.2007.04.002
+  links: {paper: 'https://doi.org/10.1016/j.intcom.2007.04.002', open: 'https://hal.science/hal-00786343v1/file/LCPI_IWC_2007_BUISINE.pdf'}
+  user_study: true
+  summary: Compares redundant, complementary and non-semantic speech-gesture cooperation strategies in animated agents in a user study measuring recall and subjective evaluation.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: capone2007tapping
   title: Tapping Toddlers' Evolving Semantic Representation via Gesture
@@ -330,6 +398,51 @@
   verified: false
   area: other
 
+- id: kim2007steward
+  title: Automatic Generation of Conversational Robot Gestures for Human-friendly Steward Robot
+  authors: [Heon-Hui Kim, Hyong-Euk Lee, Yong-Hwi Kim, Kwang‐Hyun Park, Z. Zenn Bien]
+  year: 2007
+  venue: RO-MAN
+  type: conference
+  category: method
+  doi: 10.1109/roman.2007.4415254
+  links: {paper: 'https://doi.org/10.1109/roman.2007.4415254'}
+  input: [text]
+  output: [upper-body]
+  approach: [rule-based]
+  languages: [ko]
+  summary: Generates robot head and arm gestures from Korean text input using mapping rules extracted from human conversation behaviour, with gesture selection and motion scheduling.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: kipp2007annotation
+  title: 'An annotation scheme for conversational gestures: how to economically capture timing and form'
+  authors: [Michael Kipp, Michael Neff, Irene Albrecht]
+  year: 2007
+  venue: Computers and the Humanities
+  type: journal
+  category: theory
+  doi: 10.1007/s10579-007-9053-5
+  links: {paper: 'https://doi.org/10.1007/s10579-007-9053-5'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: kipp2007gesture
+  title: 'Towards Natural Gesture Synthesis: Evaluating Gesture Units in a Data-Driven Approach to Gesture Synthesis'
+  authors: [Michael Kipp, Michael Neff, Kerstin H. Kipp, Irene Albrecht]
+  year: 2007
+  venue: IVA
+  type: conference
+  category: method
+  doi: 10.1007/978-3-540-74997-4_2
+  links: {paper: 'https://doi.org/10.1007/978-3-540-74997-4_2'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
 - id: kita2007generation
   title: 'Generation of co-speech gestures based on spatial imagery from the right-hemisphere: Evidence from split-brain patients'
   authors: [Sotaro Kita, Hedda Lausberg]
@@ -388,6 +501,32 @@
   checked: abstract
   verified: false
 
+- id: kopp2007architecture
+  title: Towards an Architecture for Aligned Speech and Gesture Production
+  authors: [Stefan Kopp, Kirsten Bergmann]
+  year: 2007
+  venue: IVA
+  type: conference
+  category: method
+  doi: 10.1007/978-3-540-74997-4_53
+  links: {paper: 'https://doi.org/10.1007/978-3-540-74997-4_53'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: kopp2007trading
+  title: 'Trading Spaces: How Humans and Humanoids Use Speech and Gesture to Give Directions'
+  authors: [Stefan Kopp, Paul A. Tepper, Kimberley Ferriman, Kristina Striegnitz, Justine Cassell]
+  year: 2007
+  venue: Wiley
+  type: book
+  category: method
+  doi: 10.1002/9780470512470.ch8
+  links: {paper: 'https://doi.org/10.1002/9780470512470.ch8'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
 - id: koschmann2007formulating
   title: Formulating the Triangle of Doom
   authors: [Timothy D. Koschmann, Curtis LeBaron, Charles Goodwin, Alan Zemel, Gary L. Dunnington]
@@ -443,6 +582,22 @@
   checked: abstract
   verified: false
   area: linguistics
+
+- id: lopez2007eca
+  title: Design and validation of ECA gestures to improve dialogue system robustness
+  authors: [Beatriz López, Álvaro Hernández, David Araujo Díaz, Rubén Fernández Pozo, Luis Hernández, Doroteo Torre]
+  year: 2007
+  venue: ACL
+  type: workshop
+  category: system
+  doi: 10.3115/1610065.1610074
+  links: {paper: 'https://doi.org/10.3115/1610065.1610074', open: 'http://dl.acm.org/ft_gateway.cfm?id=1610074&type=pdf'}
+  approach: [rule-based]
+  user_study: true
+  summary: Designs a repertoire of embodied conversational agent gestures tied to dialogue stages and validates with users that they understand and accept them.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: maricchiolo2007hand
   title: 'Hand gestures in speech: studies on their roles in social interaction'
@@ -527,6 +682,19 @@
   verified: false
   area: neuroscience
 
+- id: moralesrodriguez2007kinesics
+  title: 'Modèle d''interaction sociale pour des agents conversationnels animés : application à la rééducation de patients cérébro-lésés'
+  authors: [María Lucila Morales-Rodríguez]
+  year: 2007
+  venue: HAL
+  type: thesis
+  category: method
+  links: {paper: 'https://theses.hal.science/tel-00660114'}
+  summary: A behavioural model selects speech acts and attitude, and a kinesics model selects facial, posture and gesture expressions for a virtual character in virtual therapy.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: muller2007gestures
   title: Gestures in human and nonhuman primates
   authors: [F. Max Müller]
@@ -540,6 +708,21 @@
   checked: abstract
   verified: false
   area: other
+
+- id: nakano2007composite
+  title: Composite conversation gesture synthesis using layered planning
+  authors: [Atsushi Nakano, Junichi Hoshino]
+  year: 2007
+  venue: Systems and Computers in Japan
+  type: journal
+  category: method
+  doi: 10.1002/scj.20532
+  links: {paper: 'https://doi.org/10.1002/scj.20532'}
+  input: [text]
+  summary: Generates composite conversational gestures for a sentence by expanding likely gesture combinations as a tree and planning a motion sequence using networks for gesture continuity and linkage.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: nicoladis2007bilingualism
   title: The effect of bilingualism on the use of manual gestures
@@ -760,6 +943,19 @@
   verified: false
   area: clinical
 
+- id: strauss2007eric
+  title: Realtime Generation of Multimodal Affective Sports Commentary for Embodied Agents
+  authors: [M. Strauss, Wolfgang Wahlster, Michael Kipp]
+  year: 2007
+  venue: MPG.PuRe
+  type: thesis
+  category: system
+  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0027-D1A5-7'}
+  summary: ERIC is an agent framework that generates template-based real-time commentary and expresses affect through lexical choice, gestures and facial expressions.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: sunakawa2007adam
   title: 'Adam Kendon , Gesture: Visible action as utterance'
   authors: [Chiho Sunakawa]
@@ -782,6 +978,48 @@
   type: journal
   category: theory
   links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.399.4358'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: theune2007guide
+  title: 'The virtual guide: a direction giving embodied conversational agent'
+  authors: [Mariët Theune, Dennis H. W. Hofs, Marco van Kessel]
+  year: 2007
+  venue: Interspeech
+  type: conference
+  category: system
+  doi: 10.21437/interspeech.2007-598
+  links: {paper: 'https://doi.org/10.21437/interspeech.2007-598', open: 'https://research.utwente.nl/en/publications/2227363b-d1e3-4b9f-81c8-99ac83f3a6d3'}
+  summary: Presents an embodied conversational agent that gives directions in a 3D virtual environment, covering dialogue management, language generation and gesture generation.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: vilhjalmsson2007bml
+  title: 'The Behavior Markup Language: Recent Developments and Challenges'
+  authors: [Hannes Högni Vilhjálmsson, Nathan Cantelmo, Justine Cassell, Nicolas Ech Chafai, Michael Kipp, Stefan Kopp, Maurizio Mancini, Stacy Marsella, Andrew N. Marshall, Catherine Pélachaud, Zsofi Ruttkay, Kristinn R. Þórisson]
+  year: 2007
+  venue: IVA
+  type: conference
+  category: system
+  doi: 10.1007/978-3-540-74997-4_10
+  links: {paper: 'https://doi.org/10.1007/978-3-540-74997-4_10', open: 'https://research.utwente.nl/en/publications/ad10f522-6273-4500-b758-0814e59540e6'}
+  summary: Reports on the development of the Behavior Markup Language, part of the SAIBA framework for multimodal behavior generation, and reviews projects using it.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: vonbergmann2007coexpressivity
+  title: 'Co-expressivity of Speech and Gesture: Lessons for Models of Aligned Speech and Gesture Production'
+  authors: [Kirsten von Bergmann, Stefan Kopp]
+  year: 2007
+  venue: Bielefeld University PUB
+  type: conference
+  category: theory
+  links: {paper: 'https://pub.uni-bielefeld.de/record/1857843'}
+  summary: Discusses psycholinguistic and computational models of speech and gesture production and draws conclusions for designing production models for expressive virtual agents.
   added: '2026-10-03'
   checked: abstract
   verified: false

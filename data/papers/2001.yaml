@@ -30,6 +30,50 @@
   verified: false
   area: education
 
+- id: cassell2001beat
+  title: BEAT
+  authors: [Justine Cassell, Hannes Högni Vilhjálmsson, Timothy Bickmore]
+  year: 2001
+  venue: Life-like characters
+  type: book
+  category: method
+  doi: 10.1145/383259.383315
+  links: {paper: 'https://doi.org/10.1145/383259.383315'}
+  input: [text]
+  approach: [rule-based]
+  summary: Behavior Expression Animation Toolkit that takes typed text and assigns synchronized nonverbal behaviors using rules from linguistic and contextual analysis of the text, outputting to animation systems.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: cassell2001embodied
+  title: 'Embodied conversational agents: representation and intelligence in user interfaces'
+  authors: [Justine Cassell]
+  year: 2001
+  venue: AI Magazine
+  type: journal
+  category: system
+  doi: 10.1609/aimag.v22i4.1593
+  links: {paper: 'https://doi.org/10.1609/aimag.v22i4.1593'}
+  summary: Discusses representation and intelligence in an embodied conversational agent that conveys information through voice and hand gestures using a modality-independent internal representation.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: cassell2001nonverbal
+  title: Non-verbal cues for discourse structure
+  authors: [Justine Cassell, Yukiko Nakano, Timothy Bickmore, Candace L. Sidner, Charles Rich]
+  year: 2001
+  venue: ACL
+  type: conference
+  category: method
+  doi: 10.3115/1073012.1073028
+  links: {paper: 'https://doi.org/10.3115/1073012.1073028', open: 'https://dl.acm.org/doi/pdf/10.3115/1073012.1073028'}
+  summary: Predicts posture shifts of an embodied conversational agent from discourse and conversation state, based on an analysis of human monologues and dialogues, and implements them with Collagen.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: duncan2001expressivity
   title: 'Co-expressivity of Speech and Gesture: Manner of Motion in Spanish, English, and Chinese'
   authors: [Susan Duncan]
@@ -140,6 +184,19 @@
   checked: abstract
   verified: false
   area: development
+
+- id: kipp2001synthetic
+  title: From Human Gesture to Synthetic Action
+  authors: [Michael Kipp]
+  year: 2001
+  venue: Workshop
+  type: workshop
+  category: method
+  links: {paper: 'http://michaelkipp.de/publication/Kipp2001.pdf'}
+  summary: Analyses TV speakers' gestures with an annotation scheme to extract gesture repertoires and equivalence classes for use in a planned multimodal generation system for embodied agents.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: kita2001pointing
   title: Pointing left in Ghana
@@ -252,6 +309,22 @@
   verified: false
   area: neuroscience
 
+- id: schweitzer2001smartkom
+  title: Gesture-speech interaction in the SmartKom project
+  authors: [Antje Schweitzer]
+  year: 2001
+  venue: JASA
+  type: journal
+  category: system
+  doi: 10.1121/1.4777335
+  links: {paper: 'https://doi.org/10.1121/1.4777335'}
+  input: [text]
+  approach: [rule-based]
+  summary: Aligns synthesized speech with the stroke phase of pointing gestures of the SmartKom lifelike character by adjusting preparation and retraction phases, with gestures triggered by linguistic properties of the speech.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: seyfeddinipur2001gesture
   title: Gesture as an indicator of early error detection in self-monitoring of speech.
   authors: [Mandana Seyfeddinipur, Sotaro Kita]
@@ -277,6 +350,25 @@
   checked: abstract
   verified: false
   area: psycholinguistics
+
+- id: wachsmuth2001timing
+  title: Timing and Rhythm in Multimodal Communication for Conversational Agents
+  authors: [Ipke Wachsmuth]
+  year: 2001
+  venue: eScholarship
+  type: conference
+  category: system
+  links: {paper: 'https://escholarship.org/uc/item/91h8h0vn'}
+  input: [text]
+  output: [upper-body, hands]
+  representation: [joints-3d]
+  approach: [rule-based]
+  realtime: unreported
+  summary: Describes an articulated communicator that plans lifelike gesture animations from a gestuary and synchronizes gesture strokes with text-to-speech output.
+  notes: Venue is not stated in the text read; the paper is hosted on eScholarship.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: wang2001teachers
   title: Effects of Teachers' Verbal and Non-verbal Scaffolding on Everyday Classroom Performances of Students with Down Syndrome Effets du Soutien Verbal et Non Verbal des Enseignants sur les Performances Quotidiennes en Classe des E´le ¤ ves Trisomiques Efectos de 'Scaffolding' Verbal y No Verbal de los Profesores en las Actuaciones Cotidianas en las Clases de Estudiantes con el S´ L ndrome de Down
@@ -305,3 +397,17 @@
   checked: abstract
   verified: false
   area: cognition
+
+- id: zhao2001laban
+  title: Synthesis and acquisition of laban movement analysis qualitative parameters for communicative gestures
+  authors: [Liwei Zhao, Norman I. Badler]
+  year: 2001
+  venue: University of Pennsylvania
+  type: thesis
+  category: method
+  links: {paper: 'https://repository.upenn.edu/dissertations/AAI3015399', open: 'https://repository.upenn.edu/cgi/viewcontent.cgi?article=1118&context=cis_reports'}
+  approach: [rule-based]
+  summary: The EMOTE system procedurally synthesizes communicative gestures from key poses and timing plus Laban Effort and Shape qualities, and extracts these qualities from motion capture or video.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false

@@ -102,6 +102,19 @@
   verified: false
   area: education
 
+- id: bergmann2014emogest
+  title: 'EmoGest: Investigating the Impact of Emotions on Spontaneous Co-speech Gestures'
+  authors: [Kirsten von Bergmann, Ronald Böck, Petra Jaecks]
+  year: 2014
+  venue: PUB – Publications at Bielefeld University (Bielefeld University)
+  type: journal
+  category: theory
+  links: {paper: 'https://pub.uni-bielefeld.de/record/2665063'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
 - id: biau2014speakers
   title: Speaker's hand gestures modulate speech perception through phase resetting of ongoing neural oscillations
   authors: [Emmanuel Biau, Mireia Torralba Cuello, Lluís Fuentemilla, Ruth de Diego‐Balaguer, Salvador Soto‐Faraco]
@@ -636,6 +649,19 @@
   verified: false
   area: clinical
 
+- id: kirchhof2014desynchronized
+  title: Desynchronized speech-gesture signals still get the message across
+  authors: [Carolin Kirchhof]
+  year: 2014
+  venue: PUB – Publications at Bielefeld University (Bielefeld University)
+  type: journal
+  category: theory
+  links: {paper: 'https://pub.uni-bielefeld.de/record/2703804'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: perception
+
 - id: kong2014coding
   title: 'A Coding System with Independent Annotations of Gesture Forms and Functions During Verbal Communication: Development of a Database of Speech and GEsture (DoSaGE)'
   authors: [Anthony Pak‐Hin Kong, Sam‐Po Law, Connie Kwan, Christy Lai, Vivian Lam]
@@ -705,6 +731,19 @@
   verified: false
   area: psycholinguistics
 
+- id: lis2014classifying
+  title: Classifying the form of iconic hand gestures from the linguistic categorization of co-occurring verbs
+  authors: [Magdalena Lis, Costanza Navarretta]
+  year: 2014
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'https://www.ep.liu.se/ecp/101/005/ecp13101005.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: lucero2014beat
   title: Beat gestures facilitate speech production.
   authors: [Ché Lucero, Holly A. Zaharchuk, Daniel J. Casasanto]
@@ -731,6 +770,20 @@
   checked: abstract
   verified: false
   area: education
+
+- id: macedonia2014imitation
+  title: Imitation of a Pedagogical Agent’s Gestures Enhances Memory for Words in Second Language
+  authors: [M. Macedonia, Kirsten Bergmann, Friedrich Roithmayr]
+  year: 2014
+  venue: Science Journal of Education
+  type: journal
+  category: theory
+  doi: 10.11648/j.sjedu.20140205.15
+  links: {paper: 'https://doi.org/10.11648/j.sjedu.20140205.15'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
 
 - id: macedonia2014longterm
   title: Long‐Term Effects of Gestures on Memory for Foreign Language Words Trained in the Classroom
@@ -1085,6 +1138,20 @@
   verified: false
   area: clinical
 
+- id: prieto2014exploring
+  title: Exploring the contribution of prosody and gesture to the perception of focus using an animated agent☆
+  authors: [Pilar Prieto, Cecilia Puglesi, Joan Borràs-Comes, Ernesto Arroyo, Josep Blat]
+  year: 2014
+  venue: Journal of Phonetics
+  type: journal
+  category: theory
+  doi: 10.1016/j.wocn.2014.10.005
+  links: {paper: 'https://doi.org/10.1016/j.wocn.2014.10.005'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: perception
+
 - id: quintopozos2014signers
   title: Signers and Co‐speech Gesturers Adopt Similar Strategies for Portraying Viewpoint in Narratives
   authors: [David Gilbert Quinto-Pozos, Fey Parrill]
@@ -1153,6 +1220,19 @@
   checked: abstract
   verified: false
   area: clinical
+
+- id: sadeghipour2014learning
+  title: Learning a Motor Grammar of Iconic Gestures
+  authors: [Amir Sadeghipour, Stefan Kopp]
+  year: 2014
+  venue: PUB – Publications at Bielefeld University (Bielefeld University)
+  type: journal
+  category: theory
+  links: {paper: 'https://pub.uni-bielefeld.de/record/2676532'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: sandoval2014gestures
   title: '81. Gestures in native Northern America: Bimodal talk in Arapaho'

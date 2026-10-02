@@ -1872,6 +1872,20 @@
   checked: abstract
   verified: false
 
+- id: wei2023gestures
+  title: 'When Gestures and Words Synchronize: Exploring A Human Lecturer''s Multimodal Interaction for the Design of Embodied Pedagogical Agents'
+  authors: [Lai Wei, Kenny K. N. Chow]
+  year: 2023
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1145/3584931.3607010
+  links: {paper: 'https://doi.org/10.1145/3584931.3607010'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
 - id: windle2023uea
   title: UEA Digital Humans The UEA Digital Humans entry to the GENEA Challenge 2023
   year: 2023

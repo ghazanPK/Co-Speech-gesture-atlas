@@ -71,6 +71,36 @@
   verified: false
   area: clinical
 
+- id: cassell1998embodied
+  title: 'Embodied Conversation: Integrating Face and Gesture into Automatic Spoken Dialogue Systems'
+  authors: [Justine Cassell]
+  year: 1998
+  venue: MIT Media Lab
+  type: book
+  category: system
+  links: {paper: 'https://www.media.mit.edu/gnl/discint99/papers/cassell_toappear.pdf'}
+  output: [hands, face]
+  summary: Discusses the design of spoken dialogue systems whose agents speak and also produce facial, head and hand gesture behaviour, with a brief look at understanding nonverbal behaviour.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: cassell1998framework
+  title: A Framework for Gesture Generation and Interpretation
+  authors: [Justine Cassell]
+  year: 1998
+  venue: Computer Vision for Human-Machine Interaction
+  type: book
+  category: method
+  doi: 10.1017/cbo9780511569937.013
+  links: {paper: 'https://doi.org/10.1017/cbo9780511569937.013'}
+  output: [hands, face]
+  approach: [rule-based]
+  summary: A testbed program generates speech, hand gesture and facial expression from rules specifying what is expressed, how intent is distributed across modalities, and where gestures fall relative to speech.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: cienki1998metaphoric
   title: Metaphoric gestures and some of their relations to verbal metaphoric expressions
   authors: [A. Cienki, Jean-Pierre Koenig]
@@ -360,6 +390,19 @@
   verified: false
   area: development
 
+- id: rickel1998steve
+  title: Task-Oriented Dialogs with Animated Agents in Virtual Reality
+  authors: [Jeff Rickel, W. Lewis Johnson]
+  year: 1998
+  venue: AAAI Workshop
+  type: workshop
+  category: system
+  links: {paper: 'https://www.aaai.org/Papers/Workshops/1998/WS-98-09/WS98-09-014.pdf'}
+  summary: Describes how the animated tutoring agent Steve generates multimodal behaviour, including speech, gaze and gestures, in task-oriented dialogs in a virtual environment.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: roth1998decalages
   title: 'Decalages in Talk and Gesture: Visual and Verbal Semiotics of Ecology Lectures'
   authors: [Wolff‐Michael Roth, Gervase Michael Bowen]
@@ -387,6 +430,20 @@
   checked: metadata
   verified: false
   area: psycholinguistics
+
+- id: torres1998semantic
+  title: Producing semantically appropriate gestures in embodied language generation
+  authors: [Obed E. Torres]
+  year: 1998
+  venue: MIT
+  type: thesis
+  category: method
+  links: {paper: 'http://hdl.handle.net/1721.1/62627', open: 'https://dspace.mit.edu/bitstreams/c3c24bb6-7a36-47b7-9c77-49d6c57e4840/download'}
+  approach: [rule-based]
+  summary: Proposes hypotheses on distributing semantic information across speech and gesture and on realizing it in gestural forms, and builds a rule-based prototype to explore them.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: troisi1998nonverbal
   title: 'Non‐verbal behaviour deficits in schizophrenia: an ethological study of drug‐free patients'

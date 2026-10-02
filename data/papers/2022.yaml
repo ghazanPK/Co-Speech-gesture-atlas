@@ -1099,6 +1099,20 @@
   verified: false
   area: social-interaction
 
+- id: navarretta2022identifying
+  title: Identifying the Function of Hand Gestures from Their Form in Political Speech
+  authors: [Costanza Navarretta]
+  year: 2022
+  venue: Topics in intelligent engineering and informatics
+  type: book
+  category: theory
+  doi: 10.1007/978-3-031-10956-0_10
+  links: {paper: 'https://doi.org/10.1007/978-3-031-10956-0_10'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
 - id: nicoladis2022speech
   title: Co-speech gestures can interfere with learning foreign language words*
   authors: [Elena Nicoladis, Paula Marentette, Candace Lam]
@@ -1265,6 +1279,20 @@
   checked: abstract
   verified: false
   area: development
+
+- id: saund2022motion
+  title: 'Motion and Meaning: Data-Driven Analyses of The Relationship Between Gesture and Communicative Semantics'
+  authors: [Carolyn Saund, Haley Matuszak, Anna Weinstein, Stacy Marsella]
+  year: 2022
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1145/3527188.3561941
+  links: {paper: 'https://doi.org/10.1145/3527188.3561941'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: seppelfelt2022humanoidbot
   title: 'HumanoidBot: Full-Body Humanoid Chitchat System'

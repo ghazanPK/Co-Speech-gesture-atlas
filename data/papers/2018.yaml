@@ -1541,6 +1541,20 @@
   checked: abstract
   verified: false
 
+- id: so2018robot
+  title: Robot-based intervention may reduce delay in the production of intransitive gestures in Chinese-speaking preschoolers with autism spectrum disorder
+  authors: [Wing‐Chee So, Miranda Kit-Yi Wong, Wan-Yi Lam, Chun‐Ho Cheng, Jia-Hao Yang, Ying Huang, Phoebe Ng, Wai-Leung Wong, Chiu-Lok Ho, Elaine Kit Ling Yeung, Cheuk-Chi Lee]
+  year: 2018
+  venue: Molecular Autism
+  type: journal
+  category: theory
+  doi: 10.1186/s13229-018-0217-5
+  links: {paper: 'https://doi.org/10.1186/s13229-018-0217-5'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
 - id: soulaimani2018talk
   title: 'Talk, voice and gestures in reported speech: toward an integrated approach'
   authors: [Dris Soulaimani]

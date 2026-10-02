@@ -241,6 +241,20 @@
   verified: false
   area: perception
 
+- id: blomsma2020intrapersonal
+  title: Intrapersonal dependencies in multimodal behavior
+  authors: [Pieter A. Blomsma, Guido M. Linders, Julija Vaitonyté, Max M. Louwerse]
+  year: 2020
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1145/3383652.3423872
+  links: {paper: 'https://doi.org/10.1145/3383652.3423872'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
 - id: bosker2020beat
   title: Beat gestures influence which speech sounds you hear
   authors: [Hans Rutger Bosker, David Peeters]
@@ -928,6 +942,20 @@
   added: '2026-10-03'
   checked: metadata
   verified: false
+
+- id: krishnaswamy2020formal
+  title: A Formal Analysis of Multimodal Referring Strategies Under Common Ground
+  authors: [Nikhil Krishnaswamy, James D. Pustejovsky]
+  year: 2020
+  venue: arXiv (Cornell University)
+  type: preprint
+  category: theory
+  arxiv: '2003.07385'
+  links: {paper: 'https://arxiv.org/abs/2003.07385'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: kruzic2020facial
   title: Facial expressions contribute more than body movements to conversational outcomes in avatar-mediated virtual environments

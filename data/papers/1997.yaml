@@ -30,6 +30,32 @@
   verified: false
   area: social-interaction
 
+- id: beskow1997animation
+  title: Animation of Talking Agents
+  authors: [Jonas Beskow]
+  year: 1997
+  venue: AVSP
+  type: conference
+  category: method
+  links: {paper: 'https://www.diva-portal.org/smash/record.jsf?pid=diva2:318253'}
+  summary: An architecture for animating characters with lip-synchronised synthetic speech, facial expressions and body gestures in spoken dialogue systems.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: beskow1997olga
+  title: Olga - a Conversational Agent With Gestures
+  authors: [Jonas Beskow, Scott McGlashan]
+  year: 1997
+  venue: unpublished
+  type: preprint
+  category: system
+  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.3458'}
+  summary: An animated 3D human-like agent interface for information services that combines spoken dialogue, lip-synchronised synthetic speech and gesturing.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: blake1997communicative
   title: Are Communicative Gestures the Substrate of Language?
   authors: [Joanna Blake, Esther Olshansky, Grace Vitale, Silvana Macdonald]
@@ -240,6 +266,21 @@
   verified: false
   area: development
 
+- id: piesk1997animated
+  title: 'Animated interactive fiction: Storytelling by a conversational virtual actor'
+  authors: [Jens Piesk, Georg Trogemann]
+  year: 1997
+  venue: VSMM
+  type: conference
+  category: system
+  doi: 10.1109/vsmm.1997.622336
+  links: {paper: 'https://doi.org/10.1109/vsmm.1997.622336'}
+  input: [text]
+  summary: An interactive storytelling architecture in which a conversational 3D character synchronizes synthesized speech with facial movements, gesture and body posture, using findings from linguistics and psychology.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: stone1997nonverbal
   title: Nonverbal Communication in Two- and Three-Year-Old Children with Autism
   authors: [Wendy L. Stone, Opal Ousley, Paul J. Yoder, Kerry L. Hogan, Susan Hepburn]
@@ -253,3 +294,19 @@
   checked: metadata
   verified: false
   area: clinical
+
+- id: thorisson1997gandalf
+  title: Layered modular action control for communicative humanoids
+  authors: [Kristinn R. Þórisson]
+  year: 1997
+  venue: CA
+  type: conference
+  category: system
+  doi: 10.1109/ca.1997.601055
+  links: {paper: 'https://doi.org/10.1109/ca.1997.601055'}
+  realtime: unreported
+  user_study: true
+  summary: Describes an action composition and selection architecture for a real-time, full-duplex face-to-face humanoid (Gandalf) that produces speech, manual and facial gesture in dialogue with users.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false

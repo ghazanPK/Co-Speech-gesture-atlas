@@ -85,6 +85,22 @@
   verified: false
   area: neuroscience
 
+- id: bickmore2008document
+  title: THE ROLE OF GESTURE IN DOCUMENT EXPLANATION BY EMBODIED CONVERSATIONAL AGENTS
+  authors: [Timothy Bickmore, Laura M. Pfeifer, Langxuan Yin]
+  year: 2008
+  venue: IJSC
+  type: journal
+  category: system
+  doi: 10.1142/s1793351x08000348
+  links: {paper: 'https://doi.org/10.1142/s1793351x08000348'}
+  output: [hands]
+  summary: A preliminary computational model of document explanation in which an embodied conversational agent uses appropriately formed and located hand gestures, drawn from two studies of human explanations.
+  notes: Pilot evaluation study reported in the abstract.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: blake2008gestures
   title: Gestures accompanying speech in specifically language-impaired children and their timing with speech
   authors: [Joanna Blake, Debbie Myszczyszyn, Ariela Jokel, Neda Bebiroglu]
@@ -112,6 +128,22 @@
   checked: abstract
   verified: false
   area: development
+
+- id: breitfuss2008automatic
+  title: Automatic generation of gaze and gestures for dialogues between embodied conversational agents
+  authors: [Werner Breitfuß, Helmut Prendinger, Mitsuru Ishizuka]
+  year: 2008
+  venue: IJSC
+  type: journal
+  category: system
+  doi: 10.1142/s1793351x0800035x
+  links: {paper: 'https://doi.org/10.1142/s1793351x0800035x'}
+  input: [text]
+  user_study: true
+  summary: Adds eye gaze and conversational gesture behaviour to a dialogue script between two virtual agents by analysing linguistic and contextual information, and outputs an MPML3D script.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: brown2008bidirectional
   title: 'BIDIRECTIONAL CROSSLINGUISTIC INFLUENCE IN L1-L2 ENCODING OF MANNER IN SPEECH AND GESTURE: A Study of Japanese Speakers of English'
@@ -332,6 +364,19 @@
   verified: false
   area: cognition
 
+- id: demelo2008gesticulation
+  title: Modeling Gesticulation Expression in Virtual Humans
+  authors: [Celso M. de Melo, Ana Paiva]
+  year: 2008
+  venue: Studies in Computational Intelligence
+  type: book
+  category: method
+  doi: 10.1007/978-3-540-79868-2_5
+  links: {paper: 'https://doi.org/10.1007/978-3-540-79868-2_5'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
 - id: edwards2008gestures
   title: Gestures and conceptual integration in mathematical talk
   authors: [Laurie D. Edwards]
@@ -359,6 +404,19 @@
   checked: abstract
   verified: false
   area: neuroscience
+
+- id: giorgolo2008perception
+  title: Perception of 'speech-and-gesture 2 integration.
+  authors: [Gianluca Giorgolo, Frans A.J. Verstraten]
+  year: 2008
+  venue: AVSP ..
+  type: journal
+  category: theory
+  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.399.5269'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
 
 - id: goldinmeadow2008natural
   title: 'The natural order of events: How speakers of different languages represent events nonverbally'
@@ -456,6 +514,19 @@
   checked: metadata
   verified: false
   area: neuroscience
+
+- id: hofs2008virtual
+  title: Multimodal Interaction with a Virtual Guide
+  authors: [Dennis H. W. Hofs, Mariët Theune, H.J.A. op den Akker]
+  year: 2008
+  venue: BNAIC
+  type: conference
+  category: system
+  links: {paper: 'https://research.utwente.nl/en/publications/33f29040-8b9f-4fd3-b5f3-89390f90d8f4', open: 'https://ris.utwente.nl/ws/files/5320053/bnaic08-Hofs-Theune-Akker.pdf'}
+  summary: Demonstrates an embodied conversational agent that gives directions in a 3D environment, with multimodal dialogue management and language and gesture generation.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: holler2008communicating
   title: 'Communicating common ground: How mutually shared knowledge influences speech and gesture in a narrative task'
@@ -707,6 +778,36 @@
   verified: false
   area: development
 
+- id: narayanan2008multimodal
+  title: 'Multimodal analysis of expressive human communication: speech and gesture interplay'
+  authors: [Shrikanth Shri Narayanan, Carlos Busso]
+  year: 2008
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'http://dl.acm.org/citation.cfm?id=1559138'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: neff2008gesture
+  title: Gesture modeling and animation based on a probabilistic re-creation of speaker style
+  authors: [Michael Neff, Michael Kipp, Irene Albrecht, Hans-Peter Seidel]
+  year: 2008
+  venue: TOG
+  type: journal
+  category: method
+  doi: 10.1145/1330511.1330516
+  links: {paper: 'https://doi.org/10.1145/1330511.1330516'}
+  input: [text]
+  output: [full-body]
+  user_study: true
+  summary: Builds a statistical model of a performer's gesturing style from annotated video and uses it to generate a gesture script for input text, which an animation system turns into kinematic or physically simulated motion.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: nunez2008fresh
   title: 'A fresh look at the foundations of mathematics: Gesture and the psychological reality of conceptual metaphor'
   authors: [Rafael E. Núñez]
@@ -720,6 +821,21 @@
   checked: abstract
   verified: false
   area: cognition
+
+- id: opdenakker2008addressing
+  title: How Do I Address You? Modelling addressing behavior based on an analysis of a multi-modal corpora of conversational discourse
+  authors: [Rieks op den Akker, Mariët Theune]
+  year: 2008
+  venue: MOG
+  type: workshop
+  category: method
+  links: {paper: 'https://wwwhome.ewi.utwente.nl/~theune/PUBS/mog2008_addressing.pdf'}
+  setting: [multi-party]
+  summary: Outlines a model for generating multimodal verbal and non-verbal addressing behaviour, including addressing gestures, for conversational agents in multi-party interactions, based on corpus analysis.
+  notes: Venue and type inferred from the PDF file name only; not confirmed.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: ozcalskan2008gesture
   title: When gesture-speech combinations do and do not index linguistic change
@@ -819,6 +935,34 @@
   verified: false
   area: education
 
+- id: poggi2008iconicity
+  title: Iconicity in different types of gestures
+  authors: [Isabella Poggi]
+  year: 2008
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.8.1.05pog
+  links: {paper: 'https://doi.org/10.1075/gest.8.1.05pog'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: poggi2008persuasion
+  title: Persuasion and the expressivity of gestures in humans and machines
+  authors: [Isabella Poggi, Catherine Pélachaud]
+  year: 2008
+  venue: Oxford University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1093/acprof:oso/9780199231751.003.0017
+  links: {paper: 'https://doi.org/10.1093/acprof:oso/9780199231751.003.0017'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: rose2008semantic
   title: The effects of semantic and gesture treatments on verb retrieval and verb use in aphasia
   authors: [Miranda L. Rose, Grace Sussmilch]
@@ -902,6 +1046,20 @@
   checked: abstract
   verified: false
   area: education
+
+- id: sowa2008implementing
+  title: Implementing a non-modular theory of language production in an embodied conversational agent
+  authors: [Timo Sowa, Stefan Kopp, Susan Duncan, David M. McNeill, Ipke Wachsmuth]
+  year: 2008
+  venue: Oxford University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1093/acprof:oso/9780199231751.003.0018
+  links: {paper: 'https://doi.org/10.1093/acprof:oso/9780199231751.003.0018'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
 
 - id: sowden2008codevelopment
   title: The co‐development of speech and gesture in children with autism
@@ -1042,6 +1200,22 @@
   verified: false
   area: education
 
+- id: thiebaux2008smartbody
+  title: 'SmartBody: behavior realization for embodied conversational agents'
+  authors: [Marcus Thiébaux, Stacy Marsella, Andrew N. Marshall, Marcelo Kallmann]
+  year: 2008
+  venue: AAMAS
+  type: conference
+  category: system
+  doi: 10.5555/1402383.1402409
+  links: {paper: 'https://doi.org/10.5555/1402383.1402409', open: 'http://graphics.ucmerced.edu/publications/2008_AAMAS_Thiebaux.pdf'}
+  approach: [rule-based]
+  summary: An open source modular framework that animates embodied conversational agents in real time using hierarchically connected controllers such as keyframe interpolation, motion capture and procedural animation.
+  notes: Abstract does not state which gestures are generated; scope judged from the behaviour realizer description.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: tilsen2008evidence
   title: Evidence for interaction between speech rhythm and gesture.
   authors: [Sam Tilsen]
@@ -1056,6 +1230,20 @@
   verified: false
   area: psycholinguistics
 
+- id: treffner2008gestures
+  title: 'Gestures and Phases: The Dynamics of Speech-Hand Communication'
+  authors: [Paul Jaak Treffner, Mira Peter, Mark Kleidon]
+  year: 2008
+  venue: Ecological Psychology
+  type: journal
+  category: theory
+  doi: 10.1080/10407410701766643
+  links: {paper: 'https://doi.org/10.1080/10407410701766643'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
 - id: vendrame2008speech
   title: 'Co-speech gestures and discourse comprehension: a useful support for oral deaf people?'
   authors: [Mara Vendrame, Ilaria Cutica, Monica Bucciarelli]
@@ -1068,6 +1256,20 @@
   checked: metadata
   verified: false
   area: clinical
+
+- id: wachsmuth2008embodied
+  title: Embodied Communication in Humans and Machines
+  authors: [Ipke Wachsmuth, Günther Knoblich]
+  year: 2008
+  venue: Oxford University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1093/acprof:oso/9780199231751.001.0001
+  links: {paper: 'https://doi.org/10.1093/acprof:oso/9780199231751.001.0001'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
 
 - id: williams2008gesture
   title: Gesture as a conceptual mapping tool

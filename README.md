@@ -3,7 +3,7 @@
 A maintained, structured map of research on co-speech gesture generation: papers, datasets, metrics and code, with a comparison row per paper rather than a bare link.
 
 <!-- BEGIN:stats -->
-**710 papers on gesture generation** and **2121 on gesture theory** (1965–2026), 63 datasets, 22 metrics. 275 records were filled from the full text, 2171 from the abstract only (†), 385 from bibliographic metadata only (‡). 174 have been independently verified.
+**820 papers on gesture generation** and **2185 on gesture theory** (1965–2026), 63 datasets, 22 metrics. 281 records were filled from the full text, 2309 from the abstract only (†), 415 from bibliographic metadata only (‡). 174 have been independently verified.
 <!-- END:stats -->
 
 ## Contents
@@ -722,6 +722,7 @@ Methods and systems, newest first, ordered by venue within each year.
 | IROS | [Generating robot gesture using a virtual agent framework](https://doi.org/10.1109/iros.2010.5650572)† |  |  |  |  |  |
 | IROS | [Synchronized gesture and speech production for humanoid robots](https://doi.org/10.1109/iros.2010.5654322)† | text |  | rule-based |  |  |
 | IVA | [Generating Culture-Specific Gestures for Virtual Agent Dialogs](https://doi.org/10.1007/978-3-642-15892-6_34) · [open copy](https://vbn.aau.dk/ws/files/42310627/Endrass_et_al_2010_Generating_culture_specific_gesturs_for_virtual_agent_dialogs.pdf) | text | upper-body | rule-based | dyadic |  |
+| JMUI | [Elckerlyc - A BML Realizer for continuous, multimodal interaction with a Virtual Human](https://doi.org/10.1007/s12193-010-0051-3)† · [open copy](https://link.springer.com/content/pdf/10.1007/s12193-010-0051-3.pdf) |  |  | hybrid |  |  |
 | MTAP | [Multimodal behavior realization for embodied conversational agents](https://doi.org/10.1007/s11042-010-0530-2)‡ |  |  |  |  |  |
 | RO-MAN | [Towards an integrated model of speech and gesture production for multi-modal robot behavior](https://doi.org/10.1109/roman.2010.5598665)† |  |  |  |  |  |
 | TOG | [Gesture controllers](https://doi.org/10.1145/1778765.1778861)† | audio |  | retrieval |  |  |
@@ -731,8 +732,14 @@ Methods and systems, newest first, ordered by venue within each year.
 | Venue | Paper | Input | Output | Approach | Setting | Code |
 |---|---|---|---|---|---|---|
 | AAMAS | [Increasing the expressiveness of virtual agents: autonomous generation of speech and gesture for spatial description tasks](https://doi.org/10.65109/vtam7538)† · [open copy](https://www.ifaamas.org/Proceedings/aamas09/pdf/01_Full%20Papers/05a_11_62_FP_0551.pdf) |  |  |  |  |  |
+| Cognitive Systems Monographs | [Towards Meaningful Robot Gesture](https://doi.org/10.1007/978-3-642-10403-9_18)‡ |  |  |  |  |  |
+| CogSci | [The Multimodal Nature of Embodied Conversational Agents](https://escholarship.org/uc/item/6078d8kn) |  |  | rule-based | dyadic |  |
+| Gesture Workshop | [Systematicity and Idiosyncrasy in Iconic Gesture Use: Empirical Analysis and Computational Modeling](https://doi.org/10.1007/978-3-642-12553-9_16)‡ |  |  |  |  |  |
+| HRI | [Providing route directions](https://doi.org/10.1145/1514095.1514108)† |  |  |  |  |  |
+| IVA | [Augmenting Gesture Animation with Motion Capture Data to Provide Full-Body Engagement](https://doi.org/10.1007/978-3-642-04380-2_44)‡ |  |  |  |  |  |
 | IVA | [GNetIc – Using Bayesian Decision Networks for Iconic Gesture Generation](https://doi.org/10.1007/978-3-642-04380-2_12)‡ |  |  |  |  |  |
 | LNCS | [Automatic Generation of Non-verbal Behavior for Agents in Virtual Worlds: A System for Supporting Multimodal Conversations of Bots and Avatars](https://doi.org/10.1007/978-3-642-02774-1_17)‡ |  |  |  |  |  |
+| LNCS | [RealActor: Character Animation and Multimodal Behavior Realization System](https://doi.org/10.1007/978-3-642-04380-2_55)‡ |  |  |  |  |  |
 | Oxford University Press | [Knowledge Representation for Generating Locating Gestures in Route Directions](https://doi.org/10.1093/acprof:oso/9780199554201.003.0011)† |  |  |  |  |  |
 | RO-MAN | [Beat gesture generation rules for human-robot interaction](https://doi.org/10.1109/roman.2009.5326136)† · [open copy](https://uwe-repository.worktribe.com/output/11628114) |  |  | rule-based |  |  |
 | Speech Communication | [Studies on gesture expressivity for a virtual agent](https://doi.org/10.1016/j.specom.2008.04.009)† |  |  |  |  |  |
@@ -743,14 +750,178 @@ Methods and systems, newest first, ordered by venue within each year.
 
 | Venue | Paper | Input | Output | Approach | Setting | Code |
 |---|---|---|---|---|---|---|
+| AAMAS | [SmartBody: behavior realization for embodied conversational agents](https://doi.org/10.5555/1402383.1402409)† · [open copy](http://graphics.ucmerced.edu/publications/2008_AAMAS_Thiebaux.pdf) |  |  | rule-based |  |  |
 | Bielefeld University | [Multimodal Content Representation for Speech and Gesture Production](https://pub.uni-bielefeld.de/record/1857839)† |  |  |  |  |  |
+| BNAIC | [Multimodal Interaction with a Virtual Guide](https://research.utwente.nl/en/publications/33f29040-8b9f-4fd3-b5f3-89390f90d8f4)† · [open copy](https://ris.utwente.nl/ws/files/5320053/bnaic08-Hofs-Theune-Akker.pdf) |  |  |  |  |  |
+| IJSC | [Automatic generation of gaze and gestures for dialogues between embodied conversational agents](https://doi.org/10.1142/s1793351x0800035x)† | text |  |  |  |  |
 | IJSC | [MULTIMODAL COMMUNICATION FROM MULTIMODAL THINKING — TOWARDS AN INTEGRATED MODEL OF SPEECH AND GESTURE PRODUCTION](https://doi.org/10.1142/s1793351x08000361)† · [open copy](https://pub.uni-bielefeld.de/record/2001891) |  |  |  |  |  |
+| IJSC | [THE ROLE OF GESTURE IN DOCUMENT EXPLANATION BY EMBODIED CONVERSATIONAL AGENTS](https://doi.org/10.1142/s1793351x08000348)† |  | hands |  |  |  |
+| MOG | [How Do I Address You? Modelling addressing behavior based on an analysis of a multi-modal corpora of conversational discourse](https://wwwhome.ewi.utwente.nl/~theune/PUBS/mog2008_addressing.pdf)† |  |  |  | multi-party |  |
+| Studies in Computational Intelligence | [Modeling Gesticulation Expression in Virtual Humans](https://doi.org/10.1007/978-3-540-79868-2_5)‡ |  |  |  |  |  |
+| TOG | [Gesture modeling and animation based on a probabilistic re-creation of speaker style](https://doi.org/10.1145/1330511.1330516)† | text | full-body |  |  |  |
 
 ### 2007
 
 | Venue | Paper | Input | Output | Approach | Setting | Code |
 |---|---|---|---|---|---|---|
+| ACL | [Design and validation of ECA gestures to improve dialogue system robustness](https://doi.org/10.3115/1610065.1610074)† · [open copy](http://dl.acm.org/ft_gateway.cfm?id=1610074&type=pdf) |  |  | rule-based |  |  |
+| ACM | [Automated generation of non-verbal behavior for virtual embodied characters](https://doi.org/10.1145/1322192.1322247)† | text |  |  | dyadic |  |
+| HAL | [Modèle d'interaction sociale pour des agents conversationnels animés : application à la rééducation de patients cérébro-lésés](https://theses.hal.science/tel-00660114)† |  |  |  |  |  |
+| Humanoid Robots, Human-like Machines (InTech) | [Intuitive Multimodal Interaction with Communication Robot Fritz](https://doi.org/10.5772/4826) · [open copy](https://www.intechopen.com/citation-pdf-url/190) | text, audio | upper-body, face | rule-based | multi-party |  |
 | IJVR | [Affective Multimodal Control of Virtual Characters](https://doi.org/10.20870/ijvr.2007.6.4.3864)† · [open copy](https://ijvr.eu/article/download/3864/12090) |  | upper-body, face | rule-based |  |  |
+| Interspeech | [The virtual guide: a direction giving embodied conversational agent](https://doi.org/10.21437/interspeech.2007-598)† · [open copy](https://research.utwente.nl/en/publications/2227363b-d1e3-4b9f-81c8-99ac83f3a6d3) |  |  |  |  |  |
+| IVA | [The Behavior Markup Language: Recent Developments and Challenges](https://doi.org/10.1007/978-3-540-74997-4_10)† · [open copy](https://research.utwente.nl/en/publications/ad10f522-6273-4500-b758-0814e59540e6) |  |  |  |  |  |
+| IVA | [Towards an Architecture for Aligned Speech and Gesture Production](https://doi.org/10.1007/978-3-540-74997-4_53)‡ |  |  |  |  |  |
+| IVA | [Towards Natural Gesture Synthesis: Evaluating Gesture Units in a Data-Driven Approach to Gesture Synthesis](https://doi.org/10.1007/978-3-540-74997-4_2)‡ |  |  |  |  |  |
+| MPG.PuRe | [Realtime Generation of Multimodal Affective Sports Commentary for Embodied Agents](http://hdl.handle.net/11858/00-001M-0000-0027-D1A5-7)† |  |  |  |  |  |
+| RO-MAN | [Automatic Generation of Conversational Robot Gestures for Human-friendly Steward Robot](https://doi.org/10.1109/roman.2007.4415254)† | text | upper-body | rule-based |  |  |
+| RO-MAN | [Fritz - A Humanoid Communication Robot](https://doi.org/10.1109/roman.2007.4415240)† |  | upper-body, face |  |  |  |
+| Systems and Computers in Japan | [Composite conversation gesture synthesis using layered planning](https://doi.org/10.1002/scj.20532)† | text |  |  |  |  |
+| Wiley | [Trading Spaces: How Humans and Humanoids Use Speech and Gesture to Give Directions](https://doi.org/10.1002/9780470512470.ch8)‡ |  |  |  |  |  |
+
+### 2006
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| Bielefeld University | [The virtual human Max – Modeling embodied conversation](https://pub.uni-bielefeld.de/record/2634971)† |  |  |  |  |  |
+| Gesture Workshop | [Implementing Expressive Gesture Synthesis for Embodied Conversational Agents](https://doi.org/10.1007/11678816_22)‡ |  |  |  |  |  |
+| ICME | [Combined Gesture-Speech Analysis and Speech Driven Gesture Synthesis](https://doi.org/10.1109/icme.2006.262663)† | audio |  |  |  |  |
+| IJHR | [MULTIMODAL COMPLEX EMOTIONS: GESTURE EXPRESSIVITY AND BLENDED FACIAL EXPRESSIONS](https://doi.org/10.1142/s0219843606000825)† · [open copy](https://hal.science/hal-00787584/document) |  |  |  |  |  |
+| IV | [Real Time Multimodal Interaction with Animated Virtual Human](https://doi.org/10.1109/iv.2006.88)† | text |  | hybrid |  |  |
+| IVA | [Nonverbal Behavior Generator for Embodied Conversational Agents](https://doi.org/10.1007/11821830_20)† | text, emotion |  | rule-based |  |  |
+| IVA | [Towards a Common Framework for Multimodal Generation: The Behavior Markup Language](https://doi.org/10.1007/11821830_17)‡ |  |  |  |  |  |
+| Lecture Notes in Computer Science | [Automated Gesturing for Embodied Agents](https://doi.org/10.1007/11780496_42)‡ |  |  |  |  |  |
+| Lecture notes in computer science | [Gesture Expressivity Modulations in an ECA Application](https://doi.org/10.1007/11821830_15)† |  |  |  |  |  |
+| LNCS | [Creativity Meets Automation: Combining Nonverbal Action Authoring with Rules and Machine Learning](https://doi.org/10.1007/11821830_19)‡ |  |  |  |  |  |
+| MPI Research Report | [Gesture modeling and animation by imitation](http://hdl.handle.net/11858/00-001M-0000-0014-6979-2)† | text | full-body |  |  |  |
+| Revue d'intelligence artificielle | [Conception et évaluation d'un modèle d'expressivité pour les gestes des agents conversationnels](https://doi.org/10.3166/ria.20.621-638)† |  |  |  |  |  |
+| Situated Communication | [Situated interaction with a virtual human - perception, action, and cognition](https://doi.org/10.1515/9783110197747.287)† |  |  |  |  |  |
+| University of Twente | [Gestures of a virtual guide](http://hmi.ewi.utwente.nl/verslagen/afstudeer/KesselMarcovanFinalThesis.pdf)† |  |  |  |  |  |
+
+### 2005
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| ACM MM | [Multimodal expressive embodied conversational agents](https://doi.org/10.1145/1101149.1101301)† |  |  |  |  |  |
+| CAVW | [Design and evaluation of Elva: an embodied tour guide in an interactive virtual art gallery](https://doi.org/10.1002/cav.65)† |  |  |  |  |  |
+| ENLG | [Incremental Generation of Multimodal Deixis Referring to Objects](https://pub.uni-bielefeld.de/record/2610742)† |  |  |  |  |  |
+| eNTERFACE | [Combined Gesture-Speech Analysis and Synthesis](http://www.enterface.net/enterface05/docs/results/reports/project1.pdf)† | audio |  |  |  |  |
+| HICSS | [Augmenting Online Conversation through Automated Discourse Tagging](https://doi.org/10.1109/hicss.2005.109)† | text |  |  |  |  |
+| IDETC/CIE | [Web-Based Multimedia Lecture Delivery System With Text-to-Speech and Virtual Instructors](https://doi.org/10.1115/detc2005-84692)† | text |  |  |  |  |
+| IJHCS | [Variations in gesturing and speech by GESTYLE](https://doi.org/10.1016/j.ijhcs.2004.11.007)† | text, style | hands, face |  |  |  |
+| unknown | [Animating an interactive conversational character for an educational game system](https://doi.org/10.1145/1040830.1040872)† |  |  |  |  |  |
+| unknown | [Design and evaluation of expressive gesture synthesis for embodied conversational agents](https://doi.org/10.1145/1082473.1082640)† |  |  |  |  |  |
+| unknown | [Emotional Communicative Body Animation for Multiple Characters](https://dspace.library.uu.nl/handle/1874/31251)† |  |  | hybrid |  |  |
+
+### 2004
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| AAMAS | [Content in Context: Generating Language and Iconic Gestures without a Gestionary](https://pub.uni-bielefeld.de/record/1857798) · [open copy](http://www.justinecassell.com/publications/AAMAS04.Tepper%20et%20al.pdf) |  | hands | rule-based |  |  |
+| ACL | [Converting text into agent animations](https://doi.org/10.3115/1613984.1614023)† | text |  |  |  |  |
+| CAVW | [Synthesizing multimodal utterances for conversational agents](https://doi.org/10.1002/cav.6)† |  | hands, face |  |  |  |
+| ICMI | [Towards integrated microplanning of language and iconic gesture for multimodal output](https://doi.org/10.1145/1027933.1027952)† |  | hands |  |  |  |
+| IJHR | [A HUMANOID INTERACTION ROBOT FOR INFORMATION, NEGOTIATION AND ENTERTAINMENT USE](https://doi.org/10.1142/s0219843604000198)† |  |  |  |  |  |
+| INLG | [Situated generation of multimodal deixis in task-oriented dialogue](https://pub.uni-bielefeld.de/record/2611049) · [open copy](http://www.techfak.uni-bielefeld.de/ags/wbski/veroeffentlichungen/download/INLG04_abstract.pdf) | text | hands | rule-based | dyadic |  |
+| SCA | [Graceful Degradation of Hand Gestures](https://research.utwente.nl/en/publications/0e441751-9102-4a00-903f-11d2d750150a) · [open copy](https://ris.utwente.nl/ws/files/26331096/Graceful_Degradation_of_Hand_Gestures.pdf) | text | hands | rule-based |  |  |
+| TOG | [Speaking with hands](https://doi.org/10.1145/1015706.1015753)† |  |  |  |  |  |
+
+### 2003
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| AAMAS Workshop | [Evaluation of an Embodied Conversational Agent with Affective Behavior](https://www.vhml.org/workshops/AAMAS2003/papers/mori/mori.pdf)† |  |  |  |  |  |
+| ICCM | [A cognitively motivated architecture for an anthropomorphic artificial communicator](https://pub.uni-bielefeld.de/record/2611107)† |  |  |  |  |  |
+| JSAI | [Gestures Realization for Embodied Conversational Agents](https://ci.nii.ac.jp/naid/130004653274)‡ |  |  |  |  |  |
+| KI | [Max - A multimodal assistant in virtual reality construction](https://pub.uni-bielefeld.de/record/2001896)† |  |  |  |  |  |
+| KTH | [Feedback Gesture Generation for Embodied Conversational Agents](https://www.nada.kth.se/utbildning/grukth/exjobb/rapportlistor/2003/rapporter03/bergenstrahle_malin_03133.pdf)† |  |  |  |  |  |
+| Saarland University | [Gesture generation by imitation : from human behavior to computer character animation](https://doi.org/10.22028/d291-25852)† | text |  | hybrid |  |  |
+
+### 2002
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| Bielefeld PUB | [MURML: A Multimodal Utterance Representation Markup Language for Conversational Agents](https://pub.uni-bielefeld.de/record/1857788)† |  |  |  |  |  |
+| CA | [Formational parameters and adaptive prototype instantiation for MPEG-4 compliant gesture synthesis](https://doi.org/10.1109/ca.2002.1017516)† | text | upper-body, hands | rule-based |  |  |
+| CA | [Model-based animation of co-verbal gesture](https://doi.org/10.1109/ca.2002.1017547)† |  | upper-body, hands | rule-based |  |  |
+| EPFL Infoscience | [Avatar Markup Language](http://infoscience.epfl.ch/record/98942)† |  |  |  |  |  |
+| GW | [Lifelike Gesture Synthesis and Timing for Conversational Agents](https://doi.org/10.1007/3-540-47873-6_13)† | text | upper-body, hands | rule-based |  |  |
+| Imagina'02 | [MACK: Media lab Autonomous Conversational Kiosk](https://www.media.mit.edu/gnl/pubs//imagina02.pdf) | text | upper-body, hands, face | rule-based | dyadic |  |
+| IUI | [Shared reality](https://doi.org/10.1145/502716.502768)† |  |  |  |  |  |
+| KONVENS | [Generation of multi-modal dialogue for a net environment](https://oro.open.ac.uk/3189/1/konvens2002_final.pdf)† |  |  |  |  |  |
+| MIT | [Automatic extraction of spatial location for gesture generation](https://dspace.mit.edu/handle/1721.1/87236)‡ |  |  |  |  |  |
+| PCCGA | [Gesticulation behaviors for virtual humans](https://doi.org/10.1109/pccga.1998.732100)† · [open copy](https://repository.upenn.edu/hms/21) |  |  | rule-based |  |  |
+
+### 2001
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| ACL | [Non-verbal cues for discourse structure](https://doi.org/10.3115/1073012.1073028)† · [open copy](https://dl.acm.org/doi/pdf/10.3115/1073012.1073028) |  |  |  |  |  |
+| AI Magazine | [Embodied conversational agents: representation and intelligence in user interfaces](https://doi.org/10.1609/aimag.v22i4.1593)† |  |  |  |  |  |
+| eScholarship | [Timing and Rhythm in Multimodal Communication for Conversational Agents](https://escholarship.org/uc/item/91h8h0vn)† | text | upper-body, hands | rule-based |  |  |
+| JASA | [Gesture-speech interaction in the SmartKom project](https://doi.org/10.1121/1.4777335)† | text |  | rule-based |  |  |
+| Life-like characters | [BEAT](https://doi.org/10.1145/383259.383315)† | text |  | rule-based |  |  |
+| University of Pennsylvania | [Synthesis and acquisition of laban movement analysis qualitative parameters for communicative gestures](https://repository.upenn.edu/dissertations/AAI3015399)† · [open copy](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1118&context=cis_reports) |  |  | rule-based |  |  |
+| Workshop | [From Human Gesture to Synthetic Action](http://michaelkipp.de/publication/Kipp2001.pdf)† |  |  |  |  |  |
+
+### 2000
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| CA | [Planning and motion control in lifelike gesture: a refined approach](https://doi.org/10.1109/ca.2000.889051)† |  |  | rule-based |  |  |
+| CEUR Workshop Proceedings | [Conversational Sales Assistants](http://sunsite.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-46/frankkaveh.pdf)† |  |  | rule-based |  |  |
+| CGA | [Design of a virtual human presenter](https://doi.org/10.1109/38.851755)† · [open copy](https://kyutech.repo.nii.ac.jp/records/741) | text |  |  |  |  |
+| CGI | [To gesture or not to gesture: what is the question?](https://doi.org/10.1109/cgi.2000.852314)† · [open copy](https://repository.upenn.edu/hms/5) |  |  |  |  |  |
+| ECAI | [A knowledge-based approach for lifelike gesture animation](https://pub.uni-bielefeld.de/record/2611273)† |  |  | rule-based |  |  |
+| INLG | [Coordination and context-dependence in the generation of embodied conversation](https://doi.org/10.3115/1118253.1118277)† · [open copy](https://dl.acm.org/doi/pdf/10.3115/1118253.1118277) |  |  | rule-based |  |  |
+| MIT | [Paired speech and gesture generation in embodied conversational agents](http://hdl.handle.net/1721.1/70733)† |  |  |  |  |  |
+
+### 1999
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| AAAI Fall Symposium | [Living Hand to Mouth: Psychological Theories about Speech and Gesture in Interactive Dialogue Systems](http://athos.rutgers.edu/~mdstone/pubs/aaaifs99.pdf)† |  |  |  |  |  |
+| Applied Artificial Intelligence | [Animated agents for procedural training in virtual reality: Perception, cognition, and motor control](https://doi.org/10.1080/088395199117315)† |  |  |  |  |  |
+| Applied Artificial Intelligence | [Deictic believability: Coordinated gesture, locomotion, and speech in lifelike pedagogical agents](https://doi.org/10.1080/088395199117324)† |  |  |  |  |  |
+| CHI | [Embodiment in conversational interfaces](https://doi.org/10.1145/302979.303150)† |  |  |  |  |  |
+| Oxford University Press | [Embodied conversational agents: a new paradigm for the study of gesture and for human—computer interface](https://doi.org/10.1093/acprof:oso/9780198524519.003.0011)‡ |  |  |  |  |  |
+
+### 1998
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| AAAI Workshop | [Task-Oriented Dialogs with Animated Agents in Virtual Reality](https://www.aaai.org/Papers/Workshops/1998/WS-98-09/WS98-09-014.pdf)† |  |  |  |  |  |
+| Computer Vision for Human-Machine Interaction | [A Framework for Gesture Generation and Interpretation](https://doi.org/10.1017/cbo9780511569937.013)† |  | hands, face | rule-based |  |  |
+| MIT | [Producing semantically appropriate gestures in embodied language generation](http://hdl.handle.net/1721.1/62627)† · [open copy](https://dspace.mit.edu/bitstreams/c3c24bb6-7a36-47b7-9c77-49d6c57e4840/download) |  |  | rule-based |  |  |
+| MIT Media Lab | [Embodied Conversation: Integrating Face and Gesture into Automatic Spoken Dialogue Systems](https://www.media.mit.edu/gnl/discint99/papers/cassell_toappear.pdf)† |  | hands, face |  |  |  |
+
+### 1997
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| AVSP | [Animation of Talking Agents](https://www.diva-portal.org/smash/record.jsf?pid=diva2:318253)† |  |  |  |  |  |
+| CA | [Layered modular action control for communicative humanoids](https://doi.org/10.1109/ca.1997.601055)† |  |  |  |  |  |
+| unpublished | [Olga - a Conversational Agent With Gestures](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.3458)† |  |  |  |  |  |
+| VSMM | [Animated interactive fiction: Storytelling by a conversational virtual actor](https://doi.org/10.1109/vsmm.1997.622336)† | text |  |  |  |  |
+
+### 1996
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| NEC Research & Development | [A human-like computer character user interface by creating communicational gestures](http://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=3179122)† |  |  |  |  |  |
+
+### 1995
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| Advances in Human Factors/Ergonomics | [A human-computer dialogue agent with body gestures, hand motion, and speech](https://doi.org/10.1016/s0921-2647(06)80005-5)‡ |  |  |  |  |  |
+
+### 1994
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| SIGGRAPH | [Animated conversation](https://doi.org/10.1145/192161.192272)† |  |  |  |  |  |
+| UPenn CIS technical report | [Modeling the Interaction between Speech and Gesture](http://doi.org/10.21236/ada290549)† · [open copy](https://repository.upenn.edu/bitstreams/997b3ed2-edf6-4cc3-a650-2e378b7644cd/download) |  |  | rule-based |  |  |
 <!-- END:papers -->
 
 ## Surveys, challenges and evaluation studies
@@ -829,6 +1000,9 @@ Methods and systems, newest first, ordered by venue within each year.
 | 2010 | AAAI | evaluation | [The Role of Embodiment and Perspective in Direction-Giving Systems](http://arakilab.media.eng.hokudai.ac.jp/~araki/2010/2010-A-13.pdf)† | Compares a robot, an embodied conversational agent and a GPS giving directions with speaker-perspective, listener-perspective or no gestures. |
 | 2010 | IVA | evaluation | [Evaluating the Effect of Gesture and Language on Personality Perception in Conversational Agents](https://doi.org/10.1007/978-3-642-15892-6_24)‡ |  |
 | 2010 | IVA | evaluation | [Individualized Gesturing Outperforms Average Gesturing – Evaluating Gesture Production in Virtual Humans](https://doi.org/10.1007/978-3-642-15892-6_11)‡ |  |
+| 2007 | Interacting with Computers | evaluation | [The effects of speech–gesture cooperation in animated agents’ behavior in multimedia presentations](https://doi.org/10.1016/j.intcom.2007.04.002)† · [open copy](https://hal.science/hal-00786343v1/file/LCPI_IWC_2007_BUISINE.pdf) | Compares redundant, complementary and non-semantic speech-gesture cooperation strategies in animated agents in a user study measuring recall and subjective evaluation. |
+| 2005 | AISB | evaluation | [Reference and Gestures in Dialogue Generation: Three Studies with Embodied Conversational Agents](https://oro.open.ac.uk/12137/1/aisb05.pdf)† | Reports evaluation studies of the gestures generated by the NECA system, covering their effect on perceived speech quality and information retention, alongside a referring-expression study. |
+| 1999 | Applied Artificial Intelligence | evaluation | [The power of a nod and a glance: Envelope vs. emotional feedback in animated conversational agents](https://doi.org/10.1080/088395199117360)† | A user experiment comparing three autonomous conversational humanoid agents that give content-only, content plus envelope (gaze, beat gesture, head movement) or content plus emotional feedback. |
 <!-- END:surveys -->
 
 ## Dataset papers
@@ -860,6 +1034,7 @@ Papers whose main contribution is a dataset. The datasets themselves are compare
 | 2021 | Hokkai-Gakuen Univ. Eng. Res. Rep. | dataset | [Extending a Japanese Speech−to−Gesture Dataset Towards Building a Pedagogical Agent for Second Language Learning](https://hokuga.repo.nii.ac.jp/records/2003686)† | Extends a Japanese speech and motion-capture gesture dataset with seven gesture-phase annotations on 240 sentences and tests Bi-directional LSTM gesture phase estimation to extend the annotations. |
 | 2021 | SPIE | dataset | [Automatic dataset collection for speech-driven gesture generation](https://doi.org/10.1117/12.2591375)† | Automatic method that extracts paired utterance and gesture data from online speech videos to build a co-speech gesture dataset, checked by training a speech-driven gesture network on it. |
 | 2019 | CVPR | dataset | [Towards Social Artificial Intelligence: Nonverbal Social Signal Prediction in a Triadic Interaction](https://doi.org/10.1109/cvpr.2019.01113)† · [open copy](https://arxiv.org/abs/1906.04158) | Introduces the social signal prediction task and a 3D motion capture dataset of triadic interactions with body, face and hand motion, with baselines predicting speaking status, formation and body gestures. |
+| 2019 | ICCV | dataset | [Talking With Hands 16.2M: A Large-Scale Dataset of Synchronized Body-Finger Motion and Audio for Conversational Motion Analysis and Synthesis](https://personalrobotics.cs.washington.edu/publications/lee2019handmotiondataset.pdf)‡ |  |
 | 2019 | Lecture Notes in Electrical Engineering | dataset | [Development of a Repository of Virtual 3D Conversational Gestures and Expressions](https://doi.org/10.1007/978-3-030-21507-1_16)‡ |  |
 | 2018 | LREC | dataset | [A Corpus of Natural Multimodal Spatial Scene Descriptions](http://www.lrec-conf.org/proceedings/lrec2018/pdf/296.pdf)† | A corpus of speech and hand-motion data from participants giving spatial scene descriptions with abstract deictic and iconic gestures, intended for modelling multimodal descriptions and generating them. |
 | 2018 | Zenodo | dataset | [Partially Automatically Annotated Corpus To Predict Gestural Cues In Embodied Conversational Agents](https://doi.org/10.5281/zenodo.1316349)† · [open copy](https://zenodo.org/record/1316349) | A small corpus of Spanish political speeches with transcriptions, syntactic and communicative-structure annotation and beat versus no-gesture tags annotated from video. |

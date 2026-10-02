@@ -169,6 +169,20 @@
   verified: false
   area: social-interaction
 
+- id: hackel2004humanoid
+  title: A HUMANOID INTERACTION ROBOT FOR INFORMATION, NEGOTIATION AND ENTERTAINMENT USE
+  authors: [Matthias Hackel, Stefan Schwope]
+  year: 2004
+  venue: IJHR
+  type: journal
+  category: system
+  doi: 10.1142/s0219843604000198
+  links: {paper: 'https://doi.org/10.1142/s0219843604000198'}
+  summary: A humanoid interaction robot answers user speech from an adaptive database while triggering pre-defined hand and arm gestures and face animation synchronously with its speech.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: hadar2004semantic
   title: The Semantic Specificity of Gesture
   authors: [Uri Hadar, Lian Pinchas-Zamir]
@@ -251,6 +265,20 @@
   verified: false
   area: psycholinguistics
 
+- id: kendon2004gesture
+  title: Gesture units, gesture phrases and speech
+  authors: [A. Kendon]
+  year: 2004
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1017/cbo9780511807572.007
+  links: {paper: 'https://doi.org/10.1017/cbo9780511807572.007'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
 - id: kendon2004review
   title: 'Review of Goldin-Meadow ((2003)): Hearing gesture: How our hands help us think'
   authors: [Adam Kendon]
@@ -264,6 +292,58 @@
   checked: abstract
   verified: false
   area: cognition
+
+- id: kopp2004microplanning
+  title: Towards integrated microplanning of language and iconic gesture for multimodal output
+  authors: [Stefan Kopp, Paul A. Tepper, Justine Cassell]
+  year: 2004
+  venue: ICMI
+  type: conference
+  category: method
+  doi: 10.1145/1027933.1027952
+  links: {paper: 'https://doi.org/10.1145/1027933.1027952'}
+  output: [hands]
+  summary: An integrated microplanner derives the form of coordinated natural language and iconic gesture from communicative goals, for a speech and gesture realization engine in the NUMACK embodied agent.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: kopp2004synthesizing
+  title: Synthesizing multimodal utterances for conversational agents
+  authors: [Stefan Kopp, Ipke Wachsmuth]
+  year: 2004
+  venue: CAVW
+  type: journal
+  category: method
+  doi: 10.1002/cav.6
+  links: {paper: 'https://doi.org/10.1002/cav.6'}
+  output: [hands, face]
+  summary: Produces synchronized gesture, speech and facial behaviour for a conversational agent from XML-based descriptions, using an incremental production model and a kinematic hand gesture animation.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: kranstedt2004deixis
+  title: Situated generation of multimodal deixis in task-oriented dialogue
+  authors: [Alfred Kranstedt, Ipke Wachsmuth]
+  year: 2004
+  venue: INLG
+  type: poster
+  category: method
+  links: {paper: 'https://pub.uni-bielefeld.de/record/2611049', open: 'http://www.techfak.uni-bielefeld.de/ags/wbski/veroeffentlichungen/download/INLG04_abstract.pdf'}
+  input: [text]
+  output: [hands]
+  approach: [rule-based]
+  setting: [dyadic]
+  realtime: unreported
+  datasets: []
+  languages: [de]
+  metrics: []
+  user_study: false
+  summary: Generates descriptions of multimodal utterances with deictic pointing gestures for the conversational agent Max, using a pointing cone and object attributes to account for situational characteristics in face-to-face dialogue.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
 
 - id: lazaraton2004gesture
   title: 'Gesture and Speech in the Vocabulary Explanations of One ESL Teacher: A Microanalytic Inquiry'
@@ -363,6 +443,21 @@
   verified: false
   area: perception
 
+- id: nakano2004converting
+  title: Converting text into agent animations
+  authors: [Yukiko Nakano, Masashi Okamoto, Daisuke Kawahara, Qing Li, Toyoaki Nishida]
+  year: 2004
+  venue: ACL
+  type: conference
+  category: method
+  doi: 10.3115/1613984.1614023
+  links: {paper: 'https://doi.org/10.3115/1613984.1614023'}
+  input: [text]
+  summary: Assigns gestures to text using lexical and syntactic information found in an empirical study to correlate with gesture occurrence, then animates an agent that gestures and speaks synchronously.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: negueruelaazarola2004private
   title: 'The “private function” of gesture in second language speaking activity: a study of motion verbs and gesturing in English and Spanish'
   authors: [Eduardo Negueruela‐Azarola, James P. Lantolf, Stefanie Rehn Jordan, Jaime J Gelabert]
@@ -433,6 +528,22 @@
   verified: false
   area: linguistics
 
+- id: ruttkay2004graceful
+  title: Graceful Degradation of Hand Gestures
+  authors: [Zsófia Ruttkay, Han Noot]
+  year: 2004
+  venue: SCA
+  type: conference
+  category: method
+  links: {paper: 'https://research.utwente.nl/en/publications/0e441751-9102-4a00-903f-11d2d750150a', open: 'https://ris.utwente.nl/ws/files/26331096/Graceful_Degradation_of_Hand_Gestures.pdf'}
+  input: [text]
+  output: [hands]
+  approach: [rule-based]
+  summary: Discusses and implements in the GESTYLE gesture markup language how an embodied conversational agent degrades the timing of hand gestures when they cannot be performed in full detail alongside speech.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
 - id: sluis2004influence
   title: The influence of target size and distance on the production of speech and gesture in multimodal referring expressions
   authors: [Ielka van der Sluis, Emiel Krahmer]
@@ -446,3 +557,32 @@
   checked: abstract
   verified: false
   area: psycholinguistics
+
+- id: stone2004speaking
+  title: Speaking with hands
+  authors: [Matthew Stone, Doug DeCarlo, Insuk Oh, Christian Rodriguez, Adrian Stere, Alyssa Lees, Chris Bregler]
+  year: 2004
+  venue: TOG
+  type: journal
+  category: method
+  doi: 10.1145/1015706.1015753
+  links: {paper: 'https://doi.org/10.1145/1015706.1015753'}
+  summary: Creates an animated conversational character by recombining captured motion samples with new speech samples phrase by phrase from a database of recorded speech and motion.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: tepper2004content
+  title: 'Content in Context: Generating Language and Iconic Gestures without a Gestionary'
+  authors: [Paul A. Tepper, Stefan Kopp, Justine Cassell]
+  year: 2004
+  venue: AAMAS
+  type: conference
+  category: method
+  links: {paper: 'https://pub.uni-bielefeld.de/record/1857798', open: 'http://www.justinecassell.com/publications/AAMAS04.Tepper%20et%20al.pdf'}
+  output: [hands]
+  approach: [rule-based]
+  summary: Proposes generating coordinated language and novel iconic gestures from a shared representation of context and domain knowledge, adding a gesture planner to the SPUD microplanner that composes gesture form features (handshape, trajectory, etc.) linked to imagistic semantic features.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false

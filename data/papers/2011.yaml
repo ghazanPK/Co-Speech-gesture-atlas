@@ -485,6 +485,20 @@
   verified: false
   area: linguistics
 
+- id: esposito2011speech
+  title: On Speech and Gestures Synchrony
+  authors: [Anna Aurelia Esposito, Antonietta M. Esposito]
+  year: 2011
+  venue: Lecture notes in computer science
+  type: conference
+  category: theory
+  doi: 10.1007/978-3-642-25775-9_25
+  links: {paper: 'https://doi.org/10.1007/978-3-642-25775-9_25'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
 - id: evans2011comprehension
   title: 'Comprehension of indirect requests by adults with severe traumatic brain injury: Contributions of gestural and verbal information'
   authors: [Kelli J. Evans, Karen Hux]
@@ -592,6 +606,19 @@
   category: theory
   doi: 10.21832/9781847693389-007
   links: {paper: 'https://doi.org/10.21832/9781847693389-007'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: hahn2011corpus
+  title: Corpus-driven development of a Gesture Typology based on the Bielefeld Speech and Gesture Alignment Corpus
+  authors: [Florian F. W. Hahn, Peter Menke]
+  year: 2011
+  venue: Publikationen an der Universität Bielefeld (Universität Bielefeld)
+  type: journal
+  category: theory
+  links: {paper: 'https://pub.uni-bielefeld.de/record/2481768'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -973,6 +1000,19 @@
   verified: false
   area: neuroscience
 
+- id: liu2011temporal
+  title: Temporal relation between speech and co-verbal iconic gestures in multimodal interface design
+  authors: [Jing Liu, Manolya Kavakli]
+  year: 2011
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'https://researchers.mq.edu.au/en/publications/temporal-relation-between-speech-and-co-verbal-iconic-gestures-in'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
 - id: lloberes2011pragmatic
   title: 'Pragmatic coherence as a multimodal feature: Illustrative cospeech gestures, events, and states'
   authors: [Marina Lloberes, Lluís Payrató]
@@ -1097,6 +1137,19 @@
   checked: abstract
   verified: false
   area: psycholinguistics
+
+- id: navarretta2011anaphora
+  title: Anaphora and Gestures in Multimodal Communication
+  authors: [Costanza Navarretta]
+  year: 2011
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.477.2737'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: niewiadomski2011crossmedia
   title: Cross-media agent platform

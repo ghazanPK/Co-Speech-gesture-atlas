@@ -100,6 +100,25 @@
   verified: false
   area: psycholinguistics
 
+- id: cassell2002mack
+  title: 'MACK: Media lab Autonomous Conversational Kiosk'
+  authors: [Justine Cassell, Tom Stocky, Tim Bickmore, Yang Gao, Yukiko Nakano, Kimiko Ryokai, Dona Tversky, Catherine Vaucelle, Hannes Vilhjálmsson]
+  year: 2002
+  venue: Imagina'02
+  type: conference
+  category: system
+  links: {paper: 'https://www.media.mit.edu/gnl/pubs//imagina02.pdf'}
+  input: [text]
+  output: [upper-body, hands, face]
+  approach: [rule-based]
+  setting: [dyadic]
+  realtime: unreported
+  user_study: false
+  summary: Describes an embodied conversational kiosk agent that gives directions with speech, hand gesture and map projections, generating nonverbal behavior from template text with the rule-based BEAT toolkit.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
 - id: duncan2002gesture
   title: Gesture, verb aspect, and the nature of iconic imagery in natural discourse
   authors: [Susan Duncan]
@@ -156,6 +175,33 @@
   verified: false
   area: cognition
 
+- id: furuyama2002prolegomena
+  title: Prolegomena of a theory of between-person coordination of speech and gesture
+  authors: [Nobuhiro Furuyama]
+  year: 2002
+  venue: International Journal of Human-Computer Studies
+  type: journal
+  category: theory
+  doi: 10.1006/ijhc.2002.1021
+  links: {paper: 'https://doi.org/10.1006/ijhc.2002.1021'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction
+
+- id: gao2002automatic
+  title: Automatic extraction of spatial location for gesture generation
+  authors: [Yang Gao]
+  year: 2002
+  venue: MIT
+  type: thesis
+  category: method
+  links: {paper: 'https://dspace.mit.edu/handle/1721.1/87236'}
+  notes: M.Eng. and S.B. thesis, MIT EECS. Only the repository record was read; no abstract available.
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
 - id: garber2002gesture
   title: Gesture offers insight into problem‐solving in adults and children
   authors: [Philip Garber, Susan Goldin‐Meadow]
@@ -197,6 +243,25 @@
   checked: abstract
   verified: false
   area: psycholinguistics
+
+- id: hartmann2002formational
+  title: Formational parameters and adaptive prototype instantiation for MPEG-4 compliant gesture synthesis
+  authors: [Björn Hartmann, Maurizio Mancini, Catherine Pélachaud]
+  year: 2002
+  venue: CA
+  type: conference
+  category: method
+  doi: 10.1109/ca.2002.1017516
+  links: {paper: 'https://doi.org/10.1109/ca.2002.1017516'}
+  input: [text]
+  output: [upper-body, hands]
+  representation: [joints-3d]
+  approach: [rule-based]
+  realtime: unreported
+  summary: Gesture Engine synthesizes hand-arm gestures from augmented conversation transcripts using a database of gesture definitions and a planning algorithm that adjusts them to temporal constraints from a speech synthesizer.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: heath2002demonstrative
   title: 'Demonstrative Suffering: The Gestural (Re)embodiment of Symptoms'
@@ -254,6 +319,23 @@
   verified: false
   area: psycholinguistics
 
+- id: kopp2002model
+  title: Model-based animation of co-verbal gesture
+  authors: [Stefan Kopp, Ipke Wachsmuth]
+  year: 2002
+  venue: CA
+  type: conference
+  category: method
+  doi: 10.1109/ca.2002.1017547
+  links: {paper: 'https://doi.org/10.1109/ca.2002.1017547'}
+  output: [upper-body, hands]
+  approach: [rule-based]
+  realtime: unreported
+  summary: Generates multimodal utterances of speech and gesture from XML-based descriptions, with a coordination model for coarticulation and a kinematic method that creates gesture animations from shape specifications under cross-modal timing constraints.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: koschmann2002learner
   title: 'Learner Articulation as Interactional Achievement: Studying the Conversation of Gesture'
   authors: [Timothy D. Koschmann, Curtis LeBaron]
@@ -267,6 +349,45 @@
   checked: abstract
   verified: false
   area: education
+
+- id: kranstedt2002murml
+  title: 'MURML: A Multimodal Utterance Representation Markup Language for Conversational Agents'
+  authors: [Alfred Kranstedt, Stefan Kopp, Ipke Wachsmuth]
+  year: 2002
+  venue: Bielefeld PUB
+  type: conference
+  category: method
+  links: {paper: 'https://pub.uni-bielefeld.de/record/1857788'}
+  summary: Presents a hierarchical markup language that describes form-based gestures and their relation to accompanying speech, bridging planning and animation for an anthropomorphic agent.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: krenn2002rrl
+  title: Generation of multi-modal dialogue for a net environment
+  authors: [Brigitte Krenn, Hannes Pirker, Martine Grice, Stefan Baumann, Paul Piwek, Kees van Deemter, Manfred R. Schroeder, Martin Klesen, Erich Gstrein]
+  year: 2002
+  venue: KONVENS
+  type: conference
+  category: system
+  links: {paper: 'https://oro.open.ac.uk/3189/1/konvens2002_final.pdf'}
+  summary: Presents an architecture and the Rich Representation Language markup for simulated affective face-to-face dialogue between embodied conversational agents, integrating speech, gesture, posture and facial animation.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: kshirsagar2002avatar
+  title: Avatar Markup Language
+  authors: [Sumedha Kshirsagar, Nadia Magnenat‐Thalmann, Anthony Guye-Vuillème, 'Thalmann, D.', 'Kamyab, K.', 'Mamdani, E.']
+  year: 2002
+  venue: EPFL Infoscience
+  type: preprint
+  category: system
+  links: {paper: 'http://infoscience.epfl.ch/record/98942'}
+  summary: An XML-based high-level animation language that unifies text-to-speech, facial animation and body animation with synchronization for avatars, using MPEG-4 low-level parameters.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: mccafferty2002gesture
   title: Gesture and Creating Zones of Proximal Development for Second Language Learning
@@ -460,6 +581,20 @@
   verified: false
   area: clinical
 
+- id: stocky2002shared
+  title: Shared reality
+  authors: [Tom Stocky, Justine Cassell]
+  year: 2002
+  venue: IUI
+  type: conference
+  category: system
+  doi: 10.1145/502716.502768
+  links: {paper: 'https://doi.org/10.1145/502716.502768'}
+  summary: MACK, an embodied conversational kiosk agent, answers questions and gives directions using speech, gesture and indications on a paper map.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: tabensky2002gesture
   title: Gesture and speech rephrasings in conversation
   authors: [Alexis Tabensky]
@@ -473,3 +608,51 @@
   checked: abstract
   verified: false
   area: social-interaction
+
+- id: valbonesi2002multimodal
+  title: 'Multimodal Signal Analysis Of Prosody And Hand Motion: Temporal Correlation Of Speech And Gestures'
+  authors: [Lucia Valbonesi, Rashid Ansari, David M. McNeill, Francis K. H. Quek, Susan Duncan, Karl-Erik McCullough]
+  year: 2002
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+  type: journal
+  category: theory
+  doi: 10.5281/zenodo.37993
+  links: {paper: 'https://doi.org/10.5281/zenodo.37993'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: wachsmuth2002lifelike
+  title: Lifelike Gesture Synthesis and Timing for Conversational Agents
+  year: 2002
+  venue: GW
+  type: conference
+  category: method
+  doi: 10.1007/3-540-47873-6_13
+  links: {paper: 'https://doi.org/10.1007/3-540-47873-6_13'}
+  input: [text]
+  output: [upper-body, hands]
+  representation: [joints-3d]
+  approach: [rule-based]
+  realtime: unreported
+  summary: Renders gesture animations of an articulated virtual agent from representations of spatiotemporal gesture knowledge, with motion planning and control timed to a text-to-speech signal.
+  notes: Only the abstract was available; the abstract says gestures are rendered in real time but gives no figure. Candidate author list contained duplicates, so authors are omitted.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: zhao2002gesticulation
+  title: Gesticulation behaviors for virtual humans
+  authors: [Liwei Zhao, Norman I. Badler]
+  year: 2002
+  venue: PCCGA
+  type: conference
+  category: method
+  doi: 10.1109/pccga.1998.732100
+  links: {paper: 'https://doi.org/10.1109/pccga.1998.732100', open: 'https://repository.upenn.edu/hms/21'}
+  approach: [rule-based]
+  summary: Selects and produces gesticulation online for speaking virtual humans from textual elements, coordinating gesture and speech with a PaT-Net parallel finite state machine.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
