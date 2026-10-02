@@ -2,6 +2,103 @@
 # The README tables are generated from these files. Field rules: docs/SCHEMA.md
 # (enforced by schema/schema.json and scripts/validate.py).
 
+- id: adamou2017spatial
+  title: Spatial language and cognition among the last Ixcatec-Spanish bilinguals (Mexico)
+  authors: [Evangelia Adamou]
+  year: 2017
+  venue: Issues in Hispanic and Lusophone linguistics
+  type: book
+  category: theory
+  doi: 10.1075/ihll.13.08ada
+  links: {paper: 'https://doi.org/10.1075/ihll.13.08ada'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: akhavan2017expression
+  title: Expression of motion events in Farsi
+  authors: [Niloofar Akhavan, Nazbanou Nozari, Tilbe Göksun]
+  year: 2017
+  venue: Language Cognition and Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1080/23273798.2016.1276607
+  links: {paper: 'https://doi.org/10.1080/23273798.2016.1276607'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: akhavan2017integrity
+  title: Integrity and function of gestures in aphasia
+  authors: [Niloofar Akhavan, Tilbe Göksun, Nazbanou Nozari]
+  year: 2017
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687038.2017.1396573
+  links: {paper: 'https://doi.org/10.1080/02687038.2017.1396573'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: ambrazaitis2017acoustic
+  title: 'Acoustic features of multimodal prominences: Do visual beat gestures affect verbal pitch accent realization?'
+  authors: [Gilbert Ambrazaitis, David House]
+  year: 2017
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.21437/avsp.2017-17
+  links: {paper: 'https://doi.org/10.21437/avsp.2017-17'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: ambrazaitis2017multimodal
+  title: 'Multimodal prominences: Exploring the patterning and usage of focal pitch accents, head beats and eyebrow beats in Swedish television news readings'
+  authors: [Gilbert Ambrazaitis, David House]
+  year: 2017
+  venue: Speech Communication
+  type: journal
+  category: theory
+  doi: 10.1016/j.specom.2017.08.008
+  links: {paper: 'https://doi.org/10.1016/j.specom.2017.08.008'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: argyriou2017hand
+  title: 'Hand matters: Left-hand gestures enhance metaphor explanation.'
+  authors: [Paraskevi Argyriou, Christine Möhr, Sotaro Kita]
+  year: 2017
+  venue: Journal of Experimental Psychology Learning Memory and Cognition
+  type: journal
+  category: theory
+  doi: 10.1037/xlm0000337
+  links: {paper: 'https://doi.org/10.1037/xlm0000337'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: avilanobrega2017sistema
+  title: O sistema de referenciação multimodal de crianças com síndrome de down em engajamento conjunto
+  authors: [Paulo Vinícius Ávila-Nóbrega]
+  year: 2017
+  venue: Americanae (AECID Library)
+  type: thesis
+  category: theory
+  links: {paper: 'https://repositorio.ufpb.br/jspui/handle/123456789/12051'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
 - id: beck2017body
   title: Body Movements Generation for Virtual Characters and Social Robots
   authors: [Aryel Beck, Zerrin Yumak, Nadia Magnenat‐Thalmann]
@@ -16,6 +113,158 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: beer2017much
+  title: How Much Information Do People With Aphasia Convey via Gesture?
+  authors: ['Carola ; https://orcid.org/0000-0002-2918-6756 de Beer', Marcella Carragher, Karin van Nispen, Katharina Hogrefe, Jan P. de Ruiter, Miranda L. Rose]
+  year: 2017
+  venue: American Journal of Speech-Language Pathology
+  type: journal
+  category: theory
+  doi: 10.1044/2016_ajslp-15-0027
+  links: {paper: 'https://doi.org/10.1044/2016_ajslp-15-0027'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: biancardi2017analyzing
+  title: Analyzing first impressions of warmth and competence from observable nonverbal cues in expert-novice interactions
+  authors: [Béatrice Biancardi, Angelo Cafaro, Catherine Pélachaud]
+  year: 2017
+  venue: International Conference on Multimodal Interaction
+  type: conference
+  category: theory
+  doi: 10.1145/3136755.3136779
+  links: {paper: 'https://doi.org/10.1145/3136755.3136779'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: biau2017beat
+  title: 'Beat Gestures and Syntactic Parsing: An ERP Study'
+  authors: [Emmanuel Biau, Lauren A. Fromont, Salvador Soto‐Faraco]
+  year: 2017
+  venue: Language Learning
+  type: journal
+  category: theory
+  doi: 10.1111/lang.12257
+  links: {paper: 'https://doi.org/10.1111/lang.12257'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: boening2017hand
+  title: 'FROM TO HAND TO MOUTH TO MIND: TRACING THE CO-OCCURRENCE OF GESTURE AND SPEECH TO CONCEPTUAL UNDESTANDING'
+  authors: [Angela Van Boening, Eric M. Riggs]
+  year: 2017
+  venue: Abstracts with programs - Geological Society of America
+  type: journal
+  category: theory
+  doi: 10.1130/abs/2017am-307718
+  links: {paper: 'https://doi.org/10.1130/abs/2017am-307718'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: cognition
+
+- id: brentari2017language
+  title: Language Emergence
+  authors: [Diane Brentari, Susan Goldin‐Meadow]
+  year: 2017
+  venue: Annual Review of Linguistics
+  type: journal
+  category: theory
+  doi: 10.1146/annurev-linguistics-011415-040743
+  links: {paper: 'https://doi.org/10.1146/annurev-linguistics-011415-040743'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: bressem2017negative
+  title: The “Negative-Assessment-Construction” – A multimodal pattern based on a recurrent gesture?
+  authors: [Jana Bressem, F. Max Müller]
+  year: 2017
+  venue: Linguistics Vanguard
+  type: journal
+  category: theory
+  doi: 10.1515/lingvan-2016-0053
+  links: {paper: 'https://doi.org/10.1515/lingvan-2016-0053'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: brone2017gaze
+  title: How eye gaze, speech and gesture synchronize to construe multimodal microphenomena
+  authors: [Geert Brône, Annelies Jehoul, Jelena Vranjes, Kurt Feyaerts]
+  year: 2017
+  venue: Ghent University Academic Bibliography (Ghent University)
+  type: journal
+  category: theory
+  links: {paper: 'http://hdl.handle.net/1854/LU-8695784'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: brooks2017gesture
+  title: 'The Role of Gesture in Supporting Mental Representations: The Case of Mental Abacus Arithmetic'
+  authors: [Neon Blue Brooks, David Barner, Michael C. Frank, Susan Goldin‐Meadow]
+  year: 2017
+  venue: Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1111/cogs.12527
+  links: {paper: 'https://doi.org/10.1111/cogs.12527'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: brown2017impoliteness
+  title: '(Im)politeness: Prosody and Gesture'
+  authors: [Lucien Brown, Pilar Prieto]
+  year: 2017
+  venue: Palgrave Macmillan UK eBooks
+  type: book
+  category: theory
+  doi: 10.1057/978-1-137-37508-7_14
+  links: {paper: 'https://doi.org/10.1057/978-1-137-37508-7_14'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: cartmill2017development
+  title: The development of iconicity in children’s co-speech gesture and homesign
+  authors: [Erica A. Cartmill, Lilia Rissman, Miriam Alana Novack, Susan Goldin‐Meadow]
+  year: 2017
+  venue: Language Interaction and Acquisition
+  type: journal
+  category: theory
+  doi: 10.1075/lia.8.1.03car
+  links: {paper: 'https://doi.org/10.1075/lia.8.1.03car'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: cartmill2017mapping
+  title: Mapping hand to world; Development of iconic representation in gesture and homesign.
+  authors: [Erica A. Cartmill, Lilia Rissman, Miriam Alana Novack, Susan Goldin‐Meadow]
+  year: 2017
+  venue: eScholarship (California Digital Library)
+  type: journal
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/6wn7n5c5'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
 
 - id: chollet2017methodology
   title: A Methodology for the Automatic Extraction and Generation of Non-Verbal Signals Sequences Conveying Interpersonal Attitudes
@@ -33,6 +282,202 @@
   checked: abstract
   verified: false
 
+- id: church2017gesture
+  title: Why gesture?
+  authors: [R. Church, M. Alibali, Spencer D. Kelly]
+  year: 2017
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.7
+  links: {paper: 'https://doi.org/10.1075/gs.7'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: cienki2017lectures
+  title: Ten Lectures on Spoken Language and Gesture from the Perspective of Cognitive Linguistics
+  authors: [Alan J. Cienki]
+  year: 2017
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.1163/9789004336230
+  links: {paper: 'https://doi.org/10.1163/9789004336230'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: cienki2017utterance
+  title: Utterance Construction Grammar (UCxG) and the variable multimodality of constructions
+  authors: [Alan J. Cienki]
+  year: 2017
+  venue: Linguistics Vanguard
+  type: journal
+  category: theory
+  doi: 10.1515/lingvan-2016-0048
+  links: {paper: 'https://doi.org/10.1515/lingvan-2016-0048'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: congdon2017better
+  title: 'Better together: Simultaneous presentation of speech and gesture in math instruction supports generalization and retention'
+  authors: [Eliza L. Congdon, Miriam Alana Novack, Neon Blue Brooks, Naureen Hemani‐Lopez, Lucy O'Keefe, Susan Goldin‐Meadow]
+  year: 2017
+  venue: Learning and Instruction
+  type: journal
+  category: theory
+  doi: 10.1016/j.learninstruc.2017.03.005
+  links: {paper: 'https://doi.org/10.1016/j.learninstruc.2017.03.005'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: education
+
+- id: cook2017function
+  title: The function of gesture in learning and memory
+  authors: [Susan Wagner Cook, Kimberly M. Fenn]
+  year: 2017
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.7.07coo
+  links: {paper: 'https://doi.org/10.1075/gs.7.07coo'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: cooperrider2017foreground
+  title: Foreground gesture, background gesture
+  authors: [Kensy Cooperrider]
+  year: 2017
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.16.2.02coo
+  links: {paper: 'https://doi.org/10.1075/gest.16.2.02coo'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: cooperrider2017gesture
+  title: Gesture, Language, and Cognition
+  authors: [Kensy Cooperrider, Susan Goldin‐Meadow]
+  year: 2017
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/9781316339732.009
+  links: {paper: 'https://doi.org/10.1017/9781316339732.009'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: cognition
+
+- id: cooperrider2017gestureb
+  title: When Gesture Becomes Analogy
+  authors: [Kensy Cooperrider, Susan Goldin‐Meadow]
+  year: 2017
+  venue: Topics in Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1111/tops.12276
+  links: {paper: 'https://doi.org/10.1111/tops.12276'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: debras2017shrug
+  title: The shrug
+  authors: [Camille Debras]
+  year: 2017
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.16.1.01deb
+  links: {paper: 'https://doi.org/10.1075/gest.16.1.01deb'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: debreslioska2017discourse
+  title: 'Discourse Reference Is Bimodal: How Information Status in Speech Interacts with Presence and Viewpoint of Gestures'
+  authors: [Sandra Debreslioska, Marianne Gullberg]
+  year: 2017
+  venue: Discourse Processes
+  type: journal
+  category: theory
+  doi: 10.1080/0163853x.2017.1351909
+  links: {paper: 'https://doi.org/10.1080/0163853x.2017.1351909'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: dimitrova2017verbal
+  title: Do Verbal Children with Autism Comprehend Gesture as Readily as Typically Developing Children?
+  authors: [Nevena Dimitrova, Şeyda Özçalışkan, Lauren B. Adamson]
+  year: 2017
+  venue: Journal of Autism and Developmental Disorders
+  type: journal
+  category: theory
+  doi: 10.1007/s10803-017-3243-9
+  links: {paper: 'https://doi.org/10.1007/s10803-017-3243-9'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: dohen2017production
+  title: 'Co-Production of Speech and Pointing Gestures in Clear and Perturbed Interactive Tasks: Multimodal Designation Strategies'
+  authors: [Marion Dohen, Benjamin Roustan]
+  year: 2017
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.21437/interspeech.2017-1329
+  links: {paper: 'https://doi.org/10.21437/interspeech.2017-1329'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: emmorey2017distinguish
+  title: 'How to distinguish gesture from sign: New technology is not the answer'
+  authors: [Karen D. Emmorey]
+  year: 2017
+  venue: Behavioral and Brain Sciences
+  type: journal
+  category: theory
+  doi: 10.1017/s0140525x15002897
+  links: {paper: 'https://doi.org/10.1017/s0140525x15002897'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: estevegibert2017timing
+  title: 'The timing of head movements: The role of prosodic heads and edges'
+  authors: [Núria Esteve‐Gibert, Joan Borràs-Comes, Eli Asor, Marc G. J. Swerts, Pilar Prieto]
+  year: 2017
+  venue: The Journal of the Acoustical Society of America
+  type: journal
+  category: theory
+  doi: 10.1121/1.4986649
+  links: {paper: 'https://doi.org/10.1121/1.4986649'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: ferstl2017automatic
   title: Automatic Gesture Generation for Virtual Humans with Deep and Temporal Learning
   authors: [Ylva Ferstl, Rachel McDonnell]
@@ -46,6 +491,410 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: feyaerts2017multimodality
+  title: Multimodality in Interaction
+  authors: [Kurt Feyaerts, Geert Brône, Bert Oben]
+  year: 2017
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/9781316339732.010
+  links: {paper: 'https://doi.org/10.1017/9781316339732.010'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: feyereisen2017cognitive
+  title: The Cognitive Psychology of Speech-Related Gesture
+  authors: [Pierre Feyereisen]
+  year: 2017
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.4324/9781315203522
+  links: {paper: 'https://doi.org/10.4324/9781315203522'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: feyereisen2017impact
+  title: The impact of gestures on speech comprehension
+  authors: [Pierre Feyereisen]
+  year: 2017
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.4324/9781315203522-5
+  links: {paper: 'https://doi.org/10.4324/9781315203522-5'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: feyereisen2017production
+  title: Production mechanisms
+  authors: [Pierre Feyereisen]
+  year: 2017
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.4324/9781315203522-4
+  links: {paper: 'https://doi.org/10.4324/9781315203522-4'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: frederiksen2017separating
+  title: 'Separating viewpoint from mode of representation in iconic co-speech gestures: insights from Danish narratives'
+  authors: [Anne Therese Frederiksen]
+  year: 2017
+  venue: Language and Cognition
+  type: journal
+  category: theory
+  doi: 10.1017/langcog.2016.35
+  links: {paper: 'https://doi.org/10.1017/langcog.2016.35'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: galati2017gestures
+  title: 'When gestures show us the way: Co-thought gestures selectively facilitate navigation and spatial memory'
+  authors: [Alexia Galati, Steven Marc Weisberg, Nora S. Newcombe, Marios N. Avraamides]
+  year: 2017
+  venue: Spatial Cognition and Computation
+  type: journal
+  category: theory
+  doi: 10.1080/13875868.2017.1332064
+  links: {paper: 'https://doi.org/10.1080/13875868.2017.1332064'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: gilbert2017policing
+  title: 'Policing evaluation: Focus group interviews as an embodied speech event'
+  authors: [Kristin Enola Gilbert]
+  year: 2017
+  venue: Discourse & Communication
+  type: journal
+  category: theory
+  doi: 10.1177/1750481317717378
+  links: {paper: 'https://doi.org/10.1177/1750481317717378'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: goldinmeadow2017gesture
+  title: 'Gesture and language: Distinct subsystem of an integrated whole'
+  authors: [Susan Goldin‐Meadow, Diane Brentari]
+  year: 2017
+  venue: Behavioral and Brain Sciences
+  type: journal
+  category: theory
+  doi: 10.1017/s0140525x1600039x
+  links: {paper: 'https://doi.org/10.1017/s0140525x1600039x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: goodwin2017environmentall
+  title: Environmentally Coupled Gestures
+  authors: [Charles Goodwin]
+  year: 2017
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/9781139016735.017
+  links: {paper: 'https://doi.org/10.1017/9781139016735.017'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: gu2017conceptual
+  title: 'Conceptual and lexical effects on gestures: the case of vertical spatial metaphors for time in Chinese'
+  authors: [Yan Gu, Lisette Mol, Marieke Hoetjes, Marc G. J. Swerts]
+  year: 2017
+  venue: Language Cognition and Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1080/23273798.2017.1283425
+  links: {paper: 'https://doi.org/10.1080/23273798.2017.1283425'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: gunter2017take
+  title: 'When to Take a Gesture Seriously: On How We Use and Prioritize Communicative Cues'
+  authors: [Thomas C. Gunter, J. E. Douglas Weinbrenner]
+  year: 2017
+  venue: Journal of Cognitive Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1162/jocn_a_01125
+  links: {paper: 'https://doi.org/10.1162/jocn_a_01125'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: hannah2017cross
+  title: Cross-modal Association between Auditory and Visuospatial Information in Mandarin Tone Perception in Noise by Native and Non-native Perceivers
+  authors: [Beverly Hannah, Yue Wang, Allard Jongman, Joan A. Sereno, Jiguo Cao, Yunlong Nie]
+  year: 2017
+  venue: Frontiers in Psychology
+  type: journal
+  category: theory
+  doi: 10.3389/fpsyg.2017.02051
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2017.02051'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: holler2017multi
+  title: Multi-modal communication of common ground
+  authors: [Judith Holler, Janet Beavin Bavelas]
+  year: 2017
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.7.11hol
+  links: {paper: 'https://doi.org/10.1075/gs.7.11hol'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: holler2017processing
+  title: 'Processing language in face-to-face conversation: Questions with gestures get faster responses'
+  authors: [Judith Holler, Kobin H. Kendrick, Stephen C. Levinson]
+  year: 2017
+  venue: Psychonomic Bulletin & Review
+  type: journal
+  category: theory
+  doi: 10.3758/s13423-017-1363-z
+  links: {paper: 'https://doi.org/10.3758/s13423-017-1363-z'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: hostetter2017gestures
+  title: Gestures highlight perceptual-motor representations in thinking
+  authors: [Autumn B. Hostetter, Rebecca Boncoddo]
+  year: 2017
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.7.08hos
+  links: {paper: 'https://doi.org/10.1075/gs.7.08hos'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: iani2017mechanisms
+  title: Mechanisms underlying the beneficial effect of a speaker’s gestures on the listener
+  authors: [Francesco Ianì, Monica Bucciarelli]
+  year: 2017
+  venue: Journal of Memory and Language
+  type: journal
+  category: theory
+  doi: 10.1016/j.jml.2017.05.004
+  links: {paper: 'https://doi.org/10.1016/j.jml.2017.05.004'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: iverson2017early
+  title: Early Gesture and Vocabulary Development in Infant Siblings of Children with Autism Spectrum Disorder
+  authors: [Jana M. Iverson, Jessie B. Northrup, Nina B. Leezenbaum, Meaghan V Parladé, Erin A. Koterba, Kelsey L. West]
+  year: 2017
+  venue: Journal of Autism and Developmental Disorders
+  type: journal
+  category: theory
+  doi: 10.1007/s10803-017-3297-8
+  links: {paper: 'https://doi.org/10.1007/s10803-017-3297-8'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: jehoul2017multimodale
+  title: Multimodale uitdrukkingen van vanzelfsprekendheid
+  authors: [Annelies Jehoul, Kurt Feyaerts]
+  year: 2017
+  venue: Nederlandse taalkunde
+  type: journal
+  category: theory
+  doi: 10.5117/nedtaa2017.2.jeho
+  links: {paper: 'https://doi.org/10.5117/nedtaa2017.2.jeho'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: jenkins2017gesture
+  title: Effects of gesture restriction on quality of narrative production
+  authors: [Theodore Jenkins, Marie Coppola, CARL A. COELHO]
+  year: 2017
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.00003.jen
+  links: {paper: 'https://doi.org/10.1075/gest.00003.jen'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: joue2017handling
+  title: 'Handling or being the concept: An fMRI study on metonymy representations in coverbal gestures'
+  authors: [Gina Joue, Linda Boven, Klaus Willmes, Vito Evola, Liliana Ramona Demenescu, Julius Hassemer, Irene Mittelberg, Klaus Mathiak, Frank W. Schneider, Ute Habel]
+  year: 2017
+  venue: Neuropsychologia
+  type: journal
+  category: theory
+  doi: 10.1016/j.neuropsychologia.2017.12.033
+  links: {paper: 'https://doi.org/10.1016/j.neuropsychologia.2017.12.033'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: keily2017referring
+  title: Referring to Actions and Objects in Co-Speech Gesture Production.
+  authors: [Holly Keily]
+  year: 2017
+  venue: ProQuest LLC eBooks
+  type: book
+  category: theory
+  links: {paper: 'https://eric.ed.gov/?id=ED580576'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: kelly2017exploring
+  title: Exploring the boundaries of gesture-speech integration during language comprehension
+  authors: [Spencer D. Kelly]
+  year: 2017
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.7.12kel
+  links: {paper: 'https://doi.org/10.1075/gs.7.12kel'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: kelly2017metaphoric
+  title: Metaphoric Gestures Facilitate Perception of Intonation More than Length in Auditory Judgments of Non-Native Phonemic Contrasts
+  authors: [Spencer D. Kelly, April Hope Bailey, Yukari Hirata]
+  year: 2017
+  venue: Collabra Psychology
+  type: journal
+  category: theory
+  doi: 10.1525/collabra.76
+  links: {paper: 'https://doi.org/10.1525/collabra.76'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: kendon2017languages
+  title: Languages as semiotically heterogenous systems
+  authors: [Adam Kendon]
+  year: 2017
+  venue: Behavioral and Brain Sciences
+  type: journal
+  category: theory
+  doi: 10.1017/s0140525x15002940
+  links: {paper: 'https://doi.org/10.1017/s0140525x15002940'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: kendon2017pragmatic
+  title: Pragmatic functions of gestures
+  authors: [Adam Kendon]
+  year: 2017
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.16.2.01ken
+  links: {paper: 'https://doi.org/10.1075/gest.16.2.01ken'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: kistner2017gestures
+  title: The use of gestures in the conversations of people with aphasia
+  authors: [Judith Kistner]
+  year: 2017
+  venue: City Research Online (City University London)
+  type: thesis
+  category: theory
+  links: {paper: 'https://openaccess.city.ac.uk/id/eprint/18031/1/Kistner%2C%20Judith_Redacted.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: kita2017gestures
+  title: How do gestures influence thinking and speaking? The gesture-for-conceptualization hypothesis.
+  authors: [Sotaro Kita, Martha Wagner Alibali, Mingyuan Chu]
+  year: 2017
+  venue: Psychological Review
+  type: journal
+  category: theory
+  doi: 10.1037/rev0000059
+  links: {paper: 'https://doi.org/10.1037/rev0000059'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: kok2017functional
+  title: Functional and temporal relations between spoken and gestured components of language
+  authors: [Kasper I. Kok]
+  year: 2017
+  venue: International Journal of Corpus Linguistics
+  type: journal
+  category: theory
+  doi: 10.1075/ijcl.22.1.01kok
+  links: {paper: 'https://doi.org/10.1075/ijcl.22.1.01kok'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: kong2017comparison
+  title: A Comparison of Coverbal Gesture Use in Oral Discourse Among Speakers With Fluent and Nonfluent Aphasia
+  authors: [Anthony Pak‐Hin Kong, Sam‐Po Law, Gigi Wan-Chi Chak]
+  year: 2017
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/2017_jslhr-l-16-0093
+  links: {paper: 'https://doi.org/10.1044/2017_jslhr-l-16-0093'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
 
 - id: kopp2017computational
   title: Computational gesture research
@@ -61,6 +910,146 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: koschmann2017would
+  title: Why would the discovery of gestures produced by signers jeopardize the experimental finding of gesture-speech mismatch?
+  authors: [Timothy D. Koschmann]
+  year: 2017
+  venue: Behavioral and Brain Sciences
+  type: journal
+  category: theory
+  doi: 10.1017/s0140525x15002952
+  links: {paper: 'https://doi.org/10.1017/s0140525x15002952'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: krivokapic2017kinematic
+  title: 'A Kinematic Study of Prosodic Structure in Articulatory and Manual Gestures: Results from a Novel Method of Data Collection'
+  authors: [Jelena Krivokapić, Mark Tiede, Martha E. Tyrone]
+  year: 2017
+  venue: Laboratory Phonology Journal of the Association for Laboratory Phonology
+  type: journal
+  category: theory
+  doi: 10.5334/labphon.75
+  links: {paper: 'https://doi.org/10.5334/labphon.75'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: lemaitre2017rising
+  title: 'Rising tones and rustling noises: Metaphors in gestural depictions of sounds'
+  authors: [Guillaume Lemaître, Hugo Scurto, Jules Françoise, Frederic P. Bevilacqua, Olivier Houix, Patrick Susini]
+  year: 2017
+  venue: PLoS ONE
+  type: journal
+  category: theory
+  doi: 10.1371/journal.pone.0181786
+  links: {paper: 'https://doi.org/10.1371/journal.pone.0181786'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: lempert2017uncommon
+  title: Uncommon resemblance
+  authors: [Michael P. Lempert]
+  year: 2017
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.16.1.02lem
+  links: {paper: 'https://doi.org/10.1075/gest.16.1.02lem'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: li2017time
+  title: Time on hands
+  authors: [Heng Li]
+  year: 2017
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.00002.li
+  links: {paper: 'https://doi.org/10.1075/gest.00002.li'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: lin2017occurrence
+  title: 'Co-occurrence of speech and gestures: A multimodal corpus linguistic approach to intercultural interaction'
+  authors: [Yen-Liang Lin]
+  year: 2017
+  venue: Journal of Pragmatics
+  type: journal
+  category: theory
+  doi: 10.1016/j.pragma.2017.06.014
+  links: {paper: 'https://doi.org/10.1016/j.pragma.2017.06.014'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction
+
+- id: massoncarro2017know
+  title: How What We See and What We Know Influence Iconic Gesture Production
+  authors: [Ingrid Masson‐Carro, Martijn B. Goudbeek, Emiel Krahmer]
+  year: 2017
+  venue: Journal of Nonverbal Behavior
+  type: journal
+  category: theory
+  doi: 10.1007/s10919-017-0261-4
+  links: {paper: 'https://doi.org/10.1007/s10919-017-0261-4'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: mathew2017talking
+  title: 'Talking to the beat: Six-year-olds’ use of stroke-defined non-referential gestures'
+  authors: [Mili Mary Mathew, Ivan Yuen, Katherine Demuth]
+  year: 2017
+  venue: First Language
+  type: journal
+  category: theory
+  doi: 10.1177/0142723717734949
+  links: {paper: 'https://doi.org/10.1177/0142723717734949'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: mittelberg2017experiencing
+  title: 'Experiencing and construing spatial artifacts from within: Simulated artifact immersion as a multimodal viewpoint strategy'
+  authors: [Irene Mittelberg]
+  year: 2017
+  venue: Cognitive Linguistics
+  type: journal
+  category: theory
+  doi: 10.1515/cog-2016-0124
+  links: {paper: 'https://doi.org/10.1515/cog-2016-0124'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: mittelberg2017multimodal
+  title: 'Multimodal existential constructions in German: Manual actions of giving as experiential substrate for grammatical and gestural patterns'
+  authors: [Irene Mittelberg]
+  year: 2017
+  venue: Linguistics Vanguard
+  type: journal
+  category: theory
+  doi: 10.1515/lingvan-2016-0047
+  links: {paper: 'https://doi.org/10.1515/lingvan-2016-0047'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: mlakar2017evacorpus
   title: A Corpus for Analyzing Linguistic and Paralinguistic Features in Multi-Speaker Spontaneous Conversations – EVA Corpus
@@ -103,6 +1092,131 @@
   checked: abstract
   verified: false
 
+- id: morett2017hand
+  title: 'In hand and in mind: Effects of gesture production and viewing on second language word learning'
+  authors: [Laura M. Morett]
+  year: 2017
+  venue: Applied Psycholinguistics
+  type: journal
+  category: theory
+  doi: 10.1017/s0142716417000388
+  links: {paper: 'https://doi.org/10.1017/s0142716417000388'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: muller2017recurrent
+  title: How recurrent gestures mean
+  authors: [F. Max Müller]
+  year: 2017
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.16.2.05mul
+  links: {paper: 'https://doi.org/10.1075/gest.16.2.05mul'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: muller2017waking
+  title: 'Waking Metaphors: Embodied Cognition in Multimodal Discourse'
+  authors: [F. Max Müller]
+  year: 2017
+  venue: Metaphor
+  type: book
+  category: theory
+  doi: 10.1017/9781108182324.017
+  links: {paper: 'https://doi.org/10.1017/9781108182324.017'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: navarretta2017barack
+  title: Barack Obama’s pauses and gestures in humorous speeches
+  authors: [Costanza Navarretta]
+  year: 2017
+  venue: Research at the University of Copenhagen (University of Copenhagen)
+  type: journal
+  category: theory
+  links: {paper: 'https://researchprofiles.ku.dk/da/publications/38105d7b-481d-4e25-807a-504c8c9dd2a0'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: navarretta2017prediction
+  title: Prediction of audience response from spoken sequences, speech pauses and co-speech gestures in humorous discourse by Barack Obama
+  authors: [Costanza Navarretta]
+  year: 2017
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1109/coginfocom.2017.8268265
+  links: {paper: 'https://doi.org/10.1109/coginfocom.2017.8268265'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: neill2017classroom
+  title: Classroom Nonverbal Communication
+  authors: [Sean R. St J. Neill]
+  year: 2017
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.4324/9781315146065
+  links: {paper: 'https://doi.org/10.4324/9781315146065'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: ng2017think
+  title: 'How We Think about Temporal Words: A Gestural Priming Study in English and Chinese'
+  authors: [Melvin Ng, Winston D. Goh, Melvin Ju-min Yap, Chi‐Shing Tse, Wing‐Chee So]
+  year: 2017
+  venue: Frontiers in Psychology
+  type: journal
+  category: theory
+  doi: 10.3389/fpsyg.2017.00974
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2017.00974'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: nispen2017comprehensibil
+  title: The comprehensibility of pantomimes produced by people with aphasia
+  authors: [Karin van Nispen, W.M.E. Mieke, E. van de Sandt‐Koenderman, Emiel Krahmer]
+  year: 2017
+  venue: International Journal of Language & Communication Disorders
+  type: journal
+  category: theory
+  doi: 10.1111/1460-6984.12328
+  links: {paper: 'https://doi.org/10.1111/1460-6984.12328'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: nispen2017part
+  title: 'Part of the message comes in gesture: how people with aphasia convey information in different gesture types as compared with information in their speech'
+  authors: [Karin van Nispen, Mieke W.M.E. van de Sandt-Koenderman, Kazuki Sekine, Emiel Krahmer, Miranda L. Rose]
+  year: 2017
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687038.2017.1301368
+  links: {paper: 'https://doi.org/10.1080/02687038.2017.1301368'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
 - id: ondas2017multimodal
   title: Multimodal dialogue system with NAO and VoiceXML dialogue manager
   authors: [Stanislav Ondáš, Jozef Juhár, Matúš Pleva, Peter Fercak, Rastislav Husovsky]
@@ -117,6 +1231,89 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: ozcalskan2017blind
+  title: Blind Speakers Show Language‐Specific Patterns in Co‐Speech Gesture but Not Silent Gesture
+  authors: [Şeyda Özçalışkan, Ché Lucero, Susan Goldin‐Meadow]
+  year: 2017
+  venue: Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1111/cogs.12502
+  links: {paper: 'https://doi.org/10.1111/cogs.12502'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: ozcalskan2017early
+  title: Early Gesture Provides a Helping Hand to Spoken Vocabulary Development for Children with Autism, Down Syndrome, and Typical Development
+  authors: [Şeyda Özçalışkan, Lauren B. Adamson, Nevena Dimitrova, Stephanie D. Baumann]
+  year: 2017
+  venue: Journal of Cognition and Development
+  type: journal
+  category: theory
+  doi: 10.1080/15248372.2017.1329735
+  links: {paper: 'https://doi.org/10.1080/15248372.2017.1329735'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: ozyurek2017function
+  title: Function and processing of gesture in the context of language
+  authors: [Aslı Özyürek]
+  year: 2017
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.7.03ozy
+  links: {paper: 'https://doi.org/10.1075/gs.7.03ozy'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: panayi2017cognition
+  title: 'Cognition in action C-i-A: Rethinking gesture in neuro-atypical young people: A conceptual framework for embodied, embedded, extended and enacted intentionality'
+  authors: [Marilyn Panayi]
+  year: 2017
+  venue: City Research Online (City University London)
+  type: thesis
+  category: theory
+  links: {paper: 'https://openaccess.city.ac.uk/id/eprint/15292/1/Panayi%2C%20Marilyn.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: parrill2017gestures
+  title: Gestures of the abstract
+  authors: [Fey Parrill, Kashmiri Stec]
+  year: 2017
+  venue: Pragmatics & Cognition
+  type: journal
+  category: theory
+  doi: 10.1075/pc.17006.par
+  links: {paper: 'https://doi.org/10.1075/pc.17006.par'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: peters2017gesture
+  title: The Effect of Gesture on Persuasive Speech
+  authors: [Judith Peters, Marieke Hoetjes]
+  year: 2017
+  venue: Interspeech
+  type: conference
+  category: theory
+  doi: 10.21437/interspeech.2017-194
+  links: {paper: 'https://doi.org/10.21437/interspeech.2017-194'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
 
 - id: ravenet2017imageschemas
   title: The potential of Image Schemas for computing automatically metaphoric gestures for embodied conversational agents
@@ -143,6 +1340,118 @@
   checked: metadata
   verified: false
 
+- id: rohlfing2017interactive
+  title: An Interactive View on the Development of Deictic Pointing in Infancy
+  authors: [Katharina J. Rohlfing, Angela Grimminger, Carina Lüke]
+  year: 2017
+  venue: Frontiers in Psychology
+  type: journal
+  category: theory
+  doi: 10.3389/fpsyg.2017.01319
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2017.01319'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: rueckert2017gesture
+  title: Gesture enhances learning of a complex statistical concept
+  authors: [Linda M. Rueckert, Ruth Breckinridge Church, Andrea Avila, Theresa Trejo]
+  year: 2017
+  venue: Cognitive Research Principles and Implications
+  type: journal
+  category: theory
+  doi: 10.1186/s41235-016-0036-1
+  links: {paper: 'https://doi.org/10.1186/s41235-016-0036-1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: ruiter2017asymmetric
+  title: The asymmetric redundancy of gesture and speech
+  authors: [Jan P. de Ruiter]
+  year: 2017
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.7.04der
+  links: {paper: 'https://doi.org/10.1075/gs.7.04der'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: saddour2017multimodal
+  title: 'A multimodal approach to investigating temporality expression in L2: What does gesture analysis reveal?'
+  authors: [Inès Saddour]
+  year: 2017
+  venue: IRAL - International Review of Applied Linguistics in Language Teaching
+  type: journal
+  category: theory
+  doi: 10.1515/iral-2017-0112
+  links: {paper: 'https://doi.org/10.1515/iral-2017-0112'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: schmalenbach2017links
+  title: 'Links between Gestures and Multisensory Processing: Individual Differences Suggest a Compensation Mechanism'
+  authors: [Simon Benjamin Schmalenbach, Jutta Billino, Tilo T. J. Kircher, Bianca M. van Kemenade, Benjamin Straube]
+  year: 2017
+  venue: Frontiers in Psychology
+  type: journal
+  category: theory
+  doi: 10.3389/fpsyg.2017.01828
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2017.01828'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: schulke2017modulation
+  title: P164 Modulation of semantic speech-gesture matching performance by tDCS
+  authors: [Rasmus Schülke, Benjamin Straube]
+  year: 2017
+  venue: Clinical Neurophysiology
+  type: journal
+  category: theory
+  doi: 10.1016/j.clinph.2016.10.285
+  links: {paper: 'https://doi.org/10.1016/j.clinph.2016.10.285'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: sekine2017listener
+  title: The listener automatically uses spatial story representations from the speaker's cohesive gestures when processing subsequent sentences without gestures
+  authors: [Kazuki Sekine, Sotaro Kita]
+  year: 2017
+  venue: Acta Psychologica
+  type: journal
+  category: theory
+  doi: 10.1016/j.actpsy.2017.07.009
+  links: {paper: 'https://doi.org/10.1016/j.actpsy.2017.07.009'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: silverman2017tawt
+  title: 'I tawt i taw a puddy tat: Gestures in canary row narrations by high‐functioning youth with autism spectrum disorder'
+  authors: [Laura B. Silverman, Inge‐Marie Eigsti, Loisa Bennetto]
+  year: 2017
+  venue: Autism Research
+  type: journal
+  category: theory
+  doi: 10.1002/aur.1785
+  links: {paper: 'https://doi.org/10.1002/aur.1785'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
 - id: smith2017personality
   title: Understanding the impact of animated gesture performance on personality perceptions
   authors: [Harrison Jesse Smith, Michael Neff]
@@ -157,6 +1466,33 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: stam2017speech
+  title: Can Co-Speech Gesture Disambiguate the Function of the Word And? SCT 2017.docx
+  authors: [Gale A. Stam, Heather Brookes]
+  year: 2017
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'https://works.bepress.com/gale_stam/67/'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: streeck2017self
+  title: Self-Making Man
+  authors: [Jürgen Streeck]
+  year: 2017
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/9781139149341
+  links: {paper: 'https://doi.org/10.1017/9781139149341'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
 
 - id: takeuchi2017creating
   title: Creating a Gesture-Speech Dataset for Speech-Based Automatic Gesture Generation
@@ -188,6 +1524,76 @@
   checked: abstract
   verified: false
 
+- id: tieu2017speech
+  title: 'Co-speech gesture projection: Evidence from truth-value judgment and picture selection tasks'
+  authors: [Lyn Tieu, Robert Pasternak, Philippe Schlenker, Emmanuel Chemla]
+  year: 2017
+  venue: Glossa a journal of general linguistics
+  type: journal
+  category: theory
+  doi: 10.5334/gjgl.334
+  links: {paper: 'https://doi.org/10.5334/gjgl.334'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: vasc2017related
+  title: Age-related changes in preschoolers’ ability to communicate using iconic gestures in the absence of speech
+  authors: [Dermina Vasc, Mircea Miclea]
+  year: 2017
+  venue: Early Child Development and Care
+  type: journal
+  category: theory
+  doi: 10.1080/03004430.2017.1321541
+  links: {paper: 'https://doi.org/10.1080/03004430.2017.1321541'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: vogt2017help
+  title: 'With Some Help From Others'' Hands: Iconic Gesture Helps Semantic Learning in Children With Specific Language Impairment'
+  authors: [Susanne Vogt, Christina Kauschke]
+  year: 2017
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/2017_jslhr-l-17-0004
+  links: {paper: 'https://doi.org/10.1044/2017_jslhr-l-17-0004'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: vogt2017observing
+  title: Observing iconic gestures enhances word learning in typically developing children and children with specific language impairment
+  authors: [Susanne Vogt, Christina Kauschke]
+  year: 2017
+  venue: Journal of Child Language
+  type: journal
+  category: theory
+  doi: 10.1017/s0305000916000647
+  links: {paper: 'https://doi.org/10.1017/s0305000916000647'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: wakefield2017unpacking
+  title: 'Unpacking the Ontogeny of Gesture Understanding: How Movement Becomes Meaningful Across Development'
+  authors: [Elizabeth M. Wakefield, Miriam Alana Novack, Susan Goldin‐Meadow]
+  year: 2017
+  venue: Child Development
+  type: journal
+  category: theory
+  doi: 10.1111/cdev.12817
+  links: {paper: 'https://doi.org/10.1111/cdev.12817'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
 - id: wanner2017companion
   title: Design of a Knowledge-Based Agent as a Social Companion
   authors: [Leo Wanner, Elisabeth André, Josep Blat, Stamatia Dasiopoulou, Mireia Farrús, Thiago Fraga, Eleni Kamateri, Florian Lingenfelser, Gerard Llorach, Oriol Martínez, Γεώργιος Μεδίτσκος, Simon Mille]
@@ -201,3 +1607,155 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: watson2017gesture
+  title: Gesture in Modern South Arabian languages
+  authors: [Janet C. E. Watson, Jack Wilson]
+  year: 2017
+  venue: Brill s Journal of Afroasiatic Languages and Linguistics
+  type: journal
+  category: theory
+  doi: 10.1163/18776930-00901006
+  links: {paper: 'https://doi.org/10.1163/18776930-00901006'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: wehling2017discourse
+  title: Discourse management gestures
+  authors: [Elisabeth Wehling]
+  year: 2017
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.16.2.04weh
+  links: {paper: 'https://doi.org/10.1075/gest.16.2.04weh'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: wesseltolvig2017speech
+  title: Can co-speech gesture change the perception of ambiguous motion events? Experimental evidence from Italian.
+  authors: [Bjørn Nicola Wessel-Tolvig, Patrizia Paggio]
+  year: 2017
+  venue: Research at the University of Copenhagen (University of Copenhagen)
+  type: journal
+  category: theory
+  links: {paper: 'https://researchprofiles.ku.dk/da/publications/c421a008-82f9-4aa9-86db-45833533312a'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: perception
+
+- id: wolf2017perceived
+  title: Perceived Conventionality in Co-speech Gestures Involves the Fronto-Temporal Language Network
+  authors: [Dhana Wolf, Linn-Marlen Rekittke, Irene Mittelberg, Martin Klasen, Klaus Mathiak]
+  year: 2017
+  venue: Frontiers in Human Neuroscience
+  type: journal
+  category: theory
+  doi: 10.3389/fnhum.2017.00573
+  links: {paper: 'https://doi.org/10.3389/fnhum.2017.00573'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: wong2017absence
+  title: Absence of delay in spontaneous use of gestures in spoken narratives among children with Autism Spectrum Disorders
+  authors: [Miranda Kit-Yi Wong, Wing‐Chee So]
+  year: 2017
+  venue: Research in Developmental Disabilities
+  type: journal
+  category: theory
+  doi: 10.1016/j.ridd.2017.11.004
+  links: {paper: 'https://doi.org/10.1016/j.ridd.2017.11.004'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: wray2017gesture
+  title: 'Gesture Production in Language Impairment: It''s Quality, Not Quantity, That Matters.'
+  authors: [Charlotte Wray, N. Saunders, Rosie McGuire, G. Cousins, C. Norbury]
+  year: 2017
+  venue: Journal of Speech, Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/2016_jslhr-l-16-0141
+  links: {paper: 'https://doi.org/10.1044/2016_jslhr-l-16-0141'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: yeo2017teachers
+  title: 'Teachers’ gestures and students’ learning: sometimes “hands off” is better'
+  authors: [Amelia Yeo, Iasmine M. Ledesma, Mitchell J. Nathan, Martha Wagner Alibali, Ruth Breckinridge Church]
+  year: 2017
+  venue: Cognitive Research Principles and Implications
+  type: journal
+  category: theory
+  doi: 10.1186/s41235-017-0077-0
+  links: {paper: 'https://doi.org/10.1186/s41235-017-0077-0'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: zhao2017exploration
+  title: An exploration of the integration of speech with co-speech gesture with non-invasive brain stimulation
+  authors: [Wanying Zhao]
+  year: 2017
+  venue: Repository@Hull (Worktribe) (University of Hull)
+  type: thesis
+  category: theory
+  links: {paper: 'https://hull-repository.worktribe.com/file/4220574/1/Thesis'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: zima2017multimodal
+  title: Multimodal constructional resemblance
+  authors: [Elisabeth Zima]
+  year: 2017
+  venue: Human cognitive processing
+  type: book
+  category: theory
+  doi: 10.1075/hcp.58.11zim
+  links: {paper: 'https://doi.org/10.1075/hcp.58.11zim'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: zima2017multimodality
+  title: Multimodality and construction grammar
+  authors: [Elisabeth Zima, Alexander T. Bergs]
+  year: 2017
+  venue: Linguistics Vanguard
+  type: journal
+  category: theory
+  doi: 10.1515/lingvan-2016-1006
+  links: {paper: 'https://doi.org/10.1515/lingvan-2016-1006'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: zywiczynski2017adaptors
+  title: Adaptors and the turn-taking mechanism
+  authors: [Przemysław Żywiczyński, Sławomir Wacewicz, Sylwester Orzechowski]
+  year: 2017
+  venue: Interaction Studies Social Behaviour and Communication in Biological and Artificial Systems
+  type: journal
+  category: theory
+  doi: 10.1075/is.18.2.07zyw
+  links: {paper: 'https://doi.org/10.1075/is.18.2.07zyw'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction

@@ -1,0 +1,449 @@
+# Papers published in 2000. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: alibali2000gesture
+  title: 'Gesture and the process of speech production: We think, therefore we gesture'
+  authors: [Martha Wagner Alibali, Sotaro Kita, Amanda Young]
+  year: 2000
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/016909600750040571
+  links: {paper: 'https://doi.org/10.1080/016909600750040571'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: allen2000nonverbal
+  title: Nonverbal Accommodations in Foreign Language Teacher Talk.
+  authors: [Linda Quinn Allen]
+  year: 2000
+  venue: Applied language learning
+  type: journal
+  category: theory
+  links: {paper: 'https://eric.ed.gov/?id=EJ609884'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: education
+
+- id: bavelas2000visible
+  title: Visible Acts of Meaning
+  authors: [Janet Beavin Bavelas, Nicole Chovil]
+  year: 2000
+  venue: Journal of Language and Social Psychology
+  type: journal
+  category: theory
+  doi: 10.1177/0261927x00019002001
+  links: {paper: 'https://doi.org/10.1177/0261927x00019002001'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: beattie2000iconic
+  title: Iconic hand gestures and the predictability of words in context in spontaneous speech
+  authors: [Geoffrey W. Beattie, Heather Shovelton]
+  year: 2000
+  venue: British Journal of Psychology
+  type: journal
+  category: theory
+  doi: 10.1348/000712600161943
+  links: {paper: 'https://doi.org/10.1348/000712600161943'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: berry2000personality
+  title: Personality, Nonverbal Behavior, and Interaction Quality in Female Dyads
+  authors: [Diane S. Berry, Jane Sherman Hansen]
+  year: 2000
+  venue: Personality and Social Psychology Bulletin
+  type: journal
+  category: theory
+  doi: 10.1177/0146167200265002
+  links: {paper: 'https://doi.org/10.1177/0146167200265002'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: butcher2000gesture
+  title: 'Gesture and the transition from one- to two-word speech: when hand and mouth come together'
+  authors: [Cynthia Butcher, Susan Goldin‐Meadow]
+  year: 2000
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/cbo9780511620850.015
+  links: {paper: 'https://doi.org/10.1017/cbo9780511620850.015'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: church2000immediate
+  title: Immediate Memory for Mismatched Speech and Representational Gesture Across Development
+  authors: [Ruth Breckinridge Church, Spencer D. Kelly, Kathryn Lynch]
+  year: 2000
+  venue: Journal of Nonverbal Behavior
+  type: journal
+  category: theory
+  doi: 10.1023/a:1006610013873
+  links: {paper: 'https://doi.org/10.1023/a:1006610013873'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
+
+- id: emmorey2000space
+  title: 'Using space to describe space: Perspective in speech, sign, and gesture'
+  authors: [K. Emmorey, B. Tversky, H. Taylor]
+  year: 2000
+  venue: Spatial Cogn. Comput.
+  type: journal
+  category: theory
+  doi: 10.1023/a:1013118114571
+  links: {paper: 'https://doi.org/10.1023/a:1013118114571'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: engle2000theory
+  title: Toward a theory of multimodal communication combining speech, gestures, diagrams, and demonstrations in instructional explanations
+  authors: [Randi A. Engle]
+  year: 2000
+  venue: Medical Entomology and Zoology
+  type: book
+  category: theory
+  links: {paper: 'http://ci.nii.ac.jp/ncid/BB01456054?l=en'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: education
+
+- id: furuyama2000gestural
+  title: Gestural interaction between the instructor and the learner in origami instruction
+  authors: [Nobuhiro Furuyama]
+  year: 2000
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/cbo9780511620850.007
+  links: {paper: 'https://doi.org/10.1017/cbo9780511620850.007'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: garcia2000hand
+  title: 'Hand Gestures: Perspectives and Preliminary Implications for Adults With Acquired Dysarthria'
+  authors: [Jane Mertz Garcia, Michael P. Cannito, Paul A. Dagenais]
+  year: 2000
+  venue: American Journal of Speech-Language Pathology
+  type: journal
+  category: theory
+  doi: 10.1044/1058-0360.0902.107
+  links: {paper: 'https://doi.org/10.1044/1058-0360.0902.107'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: gogate2000multimodal
+  title: 'A Study of Multimodal Motherese: The Role of Temporal Synchrony between Verbal Labels and Gestures'
+  authors: [Lakshmi J. Gogate, Lorraine E. Bahrick, Jilayne D. Watson]
+  year: 2000
+  venue: Child Development
+  type: journal
+  category: theory
+  doi: 10.1111/1467-8624.00197
+  links: {paper: 'https://doi.org/10.1111/1467-8624.00197'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: goldinmeadow2000beyond
+  title: 'Beyond Words: The Importance of Gesture to Researchers and Learners'
+  authors: [Susan Goldin‐Meadow]
+  year: 2000
+  venue: Child Development
+  type: journal
+  category: theory
+  doi: 10.1111/1467-8624.00138
+  links: {paper: 'https://doi.org/10.1111/1467-8624.00138'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: goldinmeadow2000gesture
+  title: The role of gesture and mimetic representation in making language the province of speech
+  authors: [Susan Goldin‐Meadow, David M. McNeill]
+  year: 2000
+  venue: Oxford University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1093/acprof:oso/9780192632593.003.0009
+  links: {paper: 'https://doi.org/10.1093/acprof:oso/9780192632593.003.0009'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: goodwyn2000impact
+  title: Impact of Symbolic Gesturing on Early Language Development
+  authors: [Susan W. Goodwyn, Linda P. Acredolo, Catherine A. Brown]
+  year: 2000
+  venue: Journal of Nonverbal Behavior
+  type: journal
+  category: theory
+  doi: 10.1023/a:1006653828895
+  links: {paper: 'https://doi.org/10.1023/a:1006653828895'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
+
+- id: grammer2000verbal
+  title: 'Non-verbal behavior as courtship signals: the role of control and choice in selecting partners'
+  authors: [Karl Grammer, Kirsten Kruck, Astrid Juette, Bernhard Fink]
+  year: 2000
+  venue: Evolution and Human Behavior
+  type: journal
+  category: theory
+  doi: 10.1016/s1090-5138(00)00053-2
+  links: {paper: 'https://doi.org/10.1016/s1090-5138(00)00053-2'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction
+
+- id: iverson2000relation
+  title: The Relation Between Gesture and Speech in Congenitally Blind and Sighted Language-Learners
+  authors: [Jana Marie Iverson, Heather L. Tencer, Jill Lany, Susan Goldin‐Meadow]
+  year: 2000
+  venue: Journal of Nonverbal Behavior
+  type: journal
+  category: theory
+  doi: 10.1023/a:1006605912965
+  links: {paper: 'https://doi.org/10.1023/a:1006605912965'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
+
+- id: jungheim2000gesture
+  title: 'GESTURE AS A COMMUNICATION STRATEGY IN SECOND LANGUAGE DISCOURSE: A STUDY OF LEARNERS OF FRENCH AND SWEDISH.Marianne Gullberg. Lund, Sweden: Lund University Press, 1998. Pp. 253.'
+  authors: [Nicholas O. Jungheim]
+  year: 2000
+  venue: Studies in Second Language Acquisition
+  type: journal
+  category: theory
+  doi: 10.1017/s0272263100271052
+  links: {paper: 'https://doi.org/10.1017/s0272263100271052'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: kita2000representation
+  title: How representational gestures help speaking
+  authors: [Sotaro Kita]
+  year: 2000
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/cbo9780511620850.011
+  links: {paper: 'https://doi.org/10.1017/cbo9780511620850.011'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: krauss2000lexical
+  title: 'Lexical gestures and lexical access: a process model'
+  authors: [Robert M. Krauss, Yihsiu Chen, Rebecca F. Gottesman]
+  year: 2000
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/cbo9780511620850.017
+  links: {paper: 'https://doi.org/10.1017/cbo9780511620850.017'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: langton2000must
+  title: 'You must see the point: Automatic processing of cues to the direction of social attention.'
+  authors: [Steve Langton, Vicki Bruce]
+  year: 2000
+  venue: Journal of Experimental Psychology Human Perception & Performance
+  type: journal
+  category: theory
+  doi: 10.1037/0096-1523.26.2.747
+  links: {paper: 'https://doi.org/10.1037/0096-1523.26.2.747'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: lausberg2000hemispheric
+  title: Hemispheric specialization in spontaneous gesticulation in a patient with callosal disconnection
+  authors: [Hedda Lausberg, Martha Davis, Angela Rothenhäusler]
+  year: 2000
+  venue: Neuropsychologia
+  type: journal
+  category: theory
+  doi: 10.1016/s0028-3932(00)00071-3
+  links: {paper: 'https://doi.org/10.1016/s0028-3932(00)00071-3'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: lebaron2000gestures
+  title: Gestures, knowledge, and the world
+  authors: [Curtis LeBaron, Jürgen Streeck]
+  year: 2000
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/cbo9780511620850.008
+  links: {paper: 'https://doi.org/10.1017/cbo9780511620850.008'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: levy2000gestures
+  title: The role of gestures and other graded language forms in the grounding of reference in perception
+  authors: [Elena T. Levy, Carol A. Fowler]
+  year: 2000
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/cbo9780511620850.014
+  links: {paper: 'https://doi.org/10.1017/cbo9780511620850.014'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: mayberry2000gesture
+  title: Gesture Reflects Language Development
+  authors: [Rachel I. Mayberry, Elena Nicoladis]
+  year: 2000
+  venue: Current Directions in Psychological Science
+  type: journal
+  category: theory
+  doi: 10.1111/1467-8721.00092
+  links: {paper: 'https://doi.org/10.1111/1467-8721.00092'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: mcneil2000gesture
+  title: The Role of Gesture in Children's Comprehension of Spoken Language:Now They Need It, Now They Don't
+  authors: [Nicole M. McNeil, Martha Wagner Alibali, Julia L. Evans]
+  year: 2000
+  venue: Journal of Nonverbal Behavior
+  type: journal
+  category: theory
+  doi: 10.1023/a:1006657929803
+  links: {paper: 'https://doi.org/10.1023/a:1006657929803'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
+
+- id: mcneill2000catchments
+  title: 'Catchments and contexts: non-modular factors in speech and gesture production'
+  authors: [David M. McNeill]
+  year: 2000
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/cbo9780511620850.019
+  links: {paper: 'https://doi.org/10.1017/cbo9780511620850.019'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: mcneill2000gesture
+  title: Gesture in thought
+  authors: [David M. McNeill]
+  year: 2000
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/cbo9780511620850.009
+  links: {paper: 'https://doi.org/10.1017/cbo9780511620850.009'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: namy2000verbal
+  title: Verbal Labels and Gestural Routines in Parental Communication with Young Children
+  authors: [Laura L. Namy, Linda P. Acredolo, Susan W. Goodwyn]
+  year: 2000
+  venue: Journal of Nonverbal Behavior
+  type: journal
+  category: theory
+  doi: 10.1023/a:1006601812056
+  links: {paper: 'https://doi.org/10.1023/a:1006601812056'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
+
+- id: nobe2000where
+  title: Where do most spontaneous representational gestures actually occur with respect to speech?
+  authors: [Shuichi Nobe]
+  year: 2000
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/cbo9780511620850.012
+  links: {paper: 'https://doi.org/10.1017/cbo9780511620850.012'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: ozyurek2000influence
+  title: The influence of addressee location on spatial language and representational gestures of direction
+  authors: [Aslı Özyürek]
+  year: 2000
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/cbo9780511620850.005
+  links: {paper: 'https://doi.org/10.1017/cbo9780511620850.005'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: roth2000gesture
+  title: From gesture to scientific language
+  authors: [W Roth]
+  year: 2000
+  venue: Journal of Pragmatics
+  type: journal
+  category: theory
+  doi: 10.1016/s0378-2166(99)00115-0
+  links: {paper: 'https://doi.org/10.1016/s0378-2166(99)00115-0'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics

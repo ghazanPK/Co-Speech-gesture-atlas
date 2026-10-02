@@ -1,0 +1,17 @@
+# Papers published in 1966. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: saitz1966gestures
+  title: Gestures in the Language Classroom
+  authors: [Robert L. Saitz]
+  year: 1966
+  venue: ELT Journal
+  type: journal
+  category: theory
+  doi: 10.1093/elt/xxi.1.33
+  links: {paper: 'https://doi.org/10.1093/elt/xxi.1.33'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education

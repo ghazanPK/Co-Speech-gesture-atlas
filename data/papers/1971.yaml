@@ -1,0 +1,17 @@
+# Papers published in 1971. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: berger1971extra
+  title: Extra-facial gestures in relation to speechreading
+  authors: [Kenneth W. Berger, Gerald R. Popelka]
+  year: 1971
+  venue: Journal of Communication Disorders
+  type: journal
+  category: theory
+  doi: 10.1016/0021-9924(71)90036-0
+  links: {paper: 'https://doi.org/10.1016/0021-9924(71)90036-0'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: perception

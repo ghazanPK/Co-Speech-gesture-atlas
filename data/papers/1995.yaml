@@ -1,0 +1,142 @@
+# Papers published in 1995. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: armstrong1995gesture
+  title: Gesture and the Nature of Language
+  authors: [David Armstrong, William C. Stokoe, Sherman E. Wilcox]
+  year: 1995
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/cbo9780511620911
+  links: {paper: 'https://doi.org/10.1017/cbo9780511620911'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: bavelas1995gestures
+  title: Gestures Specialized for Dialogue
+  authors: [Janet Beavin Bavelas, Nicole Chovil, Linda Coates, Lori Roe]
+  year: 1995
+  venue: Personality and Social Psychology Bulletin
+  type: journal
+  category: theory
+  doi: 10.1177/0146167295214010
+  links: {paper: 'https://doi.org/10.1177/0146167295214010'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: carli1995nonverbal
+  title: Nonverbal behavior, gender, and influence.
+  authors: [Linda L. Carli, Suzanne J. LaFleur, Christopher C. Loeber]
+  year: 1995
+  venue: Journal of Personality and Social Psychology
+  type: journal
+  category: theory
+  doi: 10.1037/0022-3514.68.6.1030
+  links: {paper: 'https://doi.org/10.1037/0022-3514.68.6.1030'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: franco1995pointing
+  title: Use of pointing and other gestures by young children with Down syndrome.
+  authors: [F Franco, J G Wishart]
+  year: 1995
+  venue: PubMed
+  type: journal
+  category: theory
+  links: {paper: 'https://pubmed.ncbi.nlm.nih.gov/8527112'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: hall1995nonverbal
+  title: Nonverbal behavior in clinician—patient interaction
+  authors: [Judith Allen Hall, Jinni A. Harrigan, Robert Rosenthal]
+  year: 1995
+  venue: Applied and Preventive Psychology
+  type: journal
+  category: theory
+  doi: 10.1016/s0962-1849(05)80049-6
+  links: {paper: 'https://doi.org/10.1016/s0962-1849(05)80049-6'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction
+
+- id: kendon1995andrea
+  title: Andrea de jorio— The first ethnographer of gesture?
+  authors: [Adam Kendon]
+  year: 1995
+  venue: Visual Anthropology
+  type: journal
+  category: theory
+  doi: 10.1080/08949468.1995.9966661
+  links: {paper: 'https://doi.org/10.1080/08949468.1995.9966661'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: kendon1995gestures
+  title: Gestures as illocutionary and discourse structure markers in Southern Italian conversation
+  authors: [Adam Kendon]
+  year: 1995
+  venue: Journal of Pragmatics
+  type: journal
+  category: theory
+  doi: 10.1016/0378-2166(94)00037-f
+  links: {paper: 'https://doi.org/10.1016/0378-2166(94)00037-f'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: krauss1995communicative
+  title: The Communicative Value of Conversational Hand Gesture
+  authors: [Robert M. Krauss, Robert A. Dushay, Yihsiu Chen, Frances H. Rauscher]
+  year: 1995
+  venue: Journal of Experimental Social Psychology
+  type: journal
+  category: theory
+  doi: 10.1006/jesp.1995.1024
+  links: {paper: 'https://doi.org/10.1006/jesp.1995.1024'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: mundy1995nonverbal
+  title: Nonverbal Communication and Early Language Acquisition in Children With Down Syndrome and in Normally Developing Children
+  authors: [Peter Clive Mundy, Connie L. Kasari, Marian Sigman, Ellen Ruskin]
+  year: 1995
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/jshr.3801.157
+  links: {paper: 'https://doi.org/10.1044/jshr.3801.157'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: thompson1995encoding
+  title: 'Encoding and memory for visible speech and gestures: A comparison between young and older adults.'
+  authors: [Laura A. Thompson]
+  year: 1995
+  venue: Psychology and Aging
+  type: journal
+  category: theory
+  doi: 10.1037/0882-7974.10.2.215
+  links: {paper: 'https://doi.org/10.1037/0882-7974.10.2.215'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception

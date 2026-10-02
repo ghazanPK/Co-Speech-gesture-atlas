@@ -1,0 +1,226 @@
+# Papers published in 1996. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: aboudan1996cross
+  title: 'Cross-cultural similarities in gestures: The deep relationship between gestures and speech which transcends language barriers'
+  authors: [Rima Aboudan, Geoffrey W. Beattie]
+  year: 1996
+  venue: Semiotica
+  type: journal
+  category: theory
+  doi: 10.1515/semi.1996.111.3-4.269
+  links: {paper: 'https://doi.org/10.1515/semi.1996.111.3-4.269'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: brentari1996language
+  title: 'Language, gesture, and space. Ed. by Karen Emmorey and Judy Reilly. Hillsdale, NJ: Lawrence Erlbaum, 1995. Pp v, 454. $39.95.'
+  authors: [Diane Brentari]
+  year: 1996
+  venue: Language
+  type: journal
+  category: theory
+  doi: 10.2307/416112
+  links: {paper: 'https://doi.org/10.2307/416112'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: butterworth1996onset
+  title: Onset of pointing and the acquisition of language in infancy
+  authors: [George E. Butterworth, Paul Morissette]
+  year: 1996
+  venue: Journal of Reproductive and Infant Psychology
+  type: journal
+  category: theory
+  doi: 10.1080/02646839608404519
+  links: {paper: 'https://doi.org/10.1080/02646839608404519'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: capirci1996gestures
+  title: Gestures and words during the transition to two-word speech
+  authors: [Olga Capirci, Jana Marie Iverson, Elena Antinoro Pizzuto, Virginia Volterra]
+  year: 1996
+  venue: Journal of Child Language
+  type: journal
+  category: theory
+  doi: 10.1017/s0305000900008989
+  links: {paper: 'https://doi.org/10.1017/s0305000900008989'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: cave1996relationship
+  title: About the relationship between eyebrow movements and Fo variations
+  authors: [C. Cave, Isabelle Guaïtella, Roxane Bertrand, S. Santi, F. Harlay, R. Espesser]
+  year: 1996
+  venue: Proceeding of Fourth International Conference on Spoken Language Processing. ICSLP '96
+  type: conference
+  category: theory
+  doi: 10.1109/icslp.1996.607235
+  links: {paper: 'https://doi.org/10.1109/icslp.1996.607235'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: crowder1996gestures
+  title: Gestures at Work in Sense-Making Science Talk
+  authors: [Elaine M. Crowder]
+  year: 1996
+  venue: Journal of the Learning Sciences
+  type: journal
+  category: theory
+  doi: 10.1207/s15327809jls0503_2
+  links: {paper: 'https://doi.org/10.1207/s15327809jls0503_2'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: emmorey1996language
+  title: Language, Gesture, and Space
+  authors: [K. Emmorey, J. Reilly]
+  year: 1996
+  venue: Psychology Press eBooks
+  type: book
+  category: theory
+  doi: 10.4324/9780203773413
+  links: {paper: 'https://doi.org/10.4324/9780203773413'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: franco1996pointing
+  title: 'Pointing and social awareness: declaring and requesting in the second year'
+  authors: [Fabia Franco, George E. Butterworth]
+  year: 1996
+  venue: Journal of Child Language
+  type: journal
+  category: theory
+  doi: 10.1017/s0305000900008813
+  links: {paper: 'https://doi.org/10.1017/s0305000900008813'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: krauss1996nonverbal
+  title: 'Nonverbal Behavior and Nonverbal Communication: What do Conversational Hand Gestures Tell Us?'
+  authors: [Robert M. Krauss, Yihsiu Chen, Purnima Chawla]
+  year: 1996
+  venue: Advances in experimental social psychology
+  type: book
+  category: theory
+  doi: 10.1016/s0065-2601(08)60241-5
+  links: {paper: 'https://doi.org/10.1016/s0065-2601(08)60241-5'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction
+
+- id: langton1996actions
+  title: 'Actions speak no louder than words: Symmetrical cross-modal interference effects in the processing of verbal and gestural information.'
+  authors: [Steve Langton, Claire O’Malley, Vicki Bruce]
+  year: 1996
+  venue: Journal of Experimental Psychology Human Perception & Performance
+  type: journal
+  category: theory
+  doi: 10.1037/0096-1523.22.6.1357
+  links: {paper: 'https://doi.org/10.1037/0096-1523.22.6.1357'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: nobe1996representation
+  title: 'Representational gestures, cognitive rhythms, and acoustic aspects of speech: A network threshold model of gesture production'
+  authors: [Sensho Nobe]
+  year: 1996
+  venue: Medical Entomology and Zoology
+  type: journal
+  category: theory
+  links: {paper: 'http://ci.nii.ac.jp/naid/10009705498'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: ochs1996come
+  title: '“When I come down I''m in the domain state”: grammar and graphic representation in the interpretive activity of physicists'
+  authors: [Elinor Ochs, Patrick Gonzales, Sally Jacoby]
+  year: 1996
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/cbo9780511620874.007
+  links: {paper: 'https://doi.org/10.1017/cbo9780511620874.007'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: rauscher1996gesture
+  title: 'Gesture, Speech, and Lexical Access: The Role of Lexical Movements in Speech Production'
+  authors: [Frances H. Rauscher, Robert M. Krauss, Yihsiu Chen]
+  year: 1996
+  venue: Psychological Science
+  type: journal
+  category: theory
+  doi: 10.1111/j.1467-9280.1996.tb00364.x
+  links: {paper: 'https://doi.org/10.1111/j.1467-9280.1996.tb00364.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: schmidt1996scrutinizing
+  title: 'Scrutinizing reference: how gesture and speech are coordinated in mother-child interaction'
+  authors: [Chris L. Schmidt]
+  year: 1996
+  venue: Journal of Child Language
+  type: journal
+  category: theory
+  doi: 10.1017/s0305000900008801
+  links: {paper: 'https://doi.org/10.1017/s0305000900008801'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: schneider1996verbal
+  title: Effects of verbal plus gestural matrix training on sentence production in a patient with primary progressive aphasia
+  authors: [Sandra L. Schneider, Cynthia K. Thompson, Beth Luring]
+  year: 1996
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687039608248414
+  links: {paper: 'https://doi.org/10.1080/02687039608248414'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: zukow1996sensitive
+  title: 'Sensitive Caregiving Fosters the Comprehension of Speech: When Gestures Speak Louder than Words'
+  authors: [Walery Żukow]
+  year: 1996
+  venue: Early Development and Parenting
+  type: journal
+  category: theory
+  doi: 10.1002/(sici)1099-0917(199612)5:4<195::aid-edp133>3.0.co;2-h
+  links: {paper: 'https://doi.org/10.1002/(sici)1099-0917(199612)5:4<195::aid-edp133>3.0.co;2-h'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development

@@ -1,0 +1,1098 @@
+# Papers published in 2008. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: alajouanine2008verbal
+  title: Non-Verbal Communication in Aphasia
+  authors: [TH. ALAJOUANINE, François Lhermitte]
+  year: 2008
+  venue: Novartis Foundation symposium
+  type: book
+  category: theory
+  doi: 10.1002/9780470715321.ch10
+  links: {paper: 'https://doi.org/10.1002/9780470715321.ch10'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: arbib2008primate
+  title: Primate Vocalization, Gesture, and the Evolution of Human Language
+  authors: [Michael A. Arbib, Katja Liebal, Simone Pika]
+  year: 2008
+  venue: Current Anthropology
+  type: journal
+  category: theory
+  doi: 10.1086/593015
+  links: {paper: 'https://doi.org/10.1086/593015'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: balog2008relationship
+  title: The relationship between early gestures and intonation
+  authors: [Heather L. Balog, Diane Brentari]
+  year: 2008
+  venue: First Language
+  type: journal
+  category: theory
+  doi: 10.1177/0142723708088722
+  links: {paper: 'https://doi.org/10.1177/0142723708088722'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: bavin2008early
+  title: 'The Early Language in Victoria Study: predicting vocabulary at age one and two years from gesture and object use'
+  authors: [Edith L. Bavin, Margot Ruth Prior, Sheena Reilly, Lesley Bretherton, Joanne W. Williams, Patricia Ann Eadie, Yin Barrett, Obioha Chukwunyere Ukoumunne]
+  year: 2008
+  venue: Journal of Child Language
+  type: journal
+  category: theory
+  doi: 10.1017/s0305000908008726
+  links: {paper: 'https://doi.org/10.1017/s0305000908008726'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: bergmann2008multimodal
+  title: Multimodal Content Representation for Speech and Gesture Production
+  authors: [Kirsten von Bergmann, Stefan Kopp]
+  year: 2008
+  venue: Bielefeld University
+  type: workshop
+  category: method
+  links: {paper: 'https://pub.uni-bielefeld.de/record/1857839'}
+  summary: A generation architecture that interfaces imagistic and propositional knowledge at the content level so speech and gesture are planned interactively.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: bernardis2008behavioural
+  title: Behavioural and neurophysiological evidence of semantic interaction between iconic gestures and words
+  authors: [Paolo Bernardis, Elena Salillas, Nicoletta Caramelli]
+  year: 2008
+  venue: Cognitive Neuropsychology
+  type: journal
+  category: theory
+  doi: 10.1080/02643290801921707
+  links: {paper: 'https://doi.org/10.1080/02643290801921707'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: blake2008gestures
+  title: Gestures accompanying speech in specifically language-impaired children and their timing with speech
+  authors: [Joanna Blake, Debbie Myszczyszyn, Ariela Jokel, Neda Bebiroglu]
+  year: 2008
+  venue: First Language
+  type: journal
+  category: theory
+  doi: 10.1177/0142723707087583
+  links: {paper: 'https://doi.org/10.1177/0142723707087583'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: booth2008socio
+  title: 'Socio-Pragmatics and Attention: Contributions to Gesturally Guided Word Learning in Toddlers'
+  authors: [Amy E. Booth, Karla Kay McGregor, Katharina J. Rohlfing]
+  year: 2008
+  venue: Language Learning and Development
+  type: journal
+  category: theory
+  doi: 10.1080/15475440802143091
+  links: {paper: 'https://doi.org/10.1080/15475440802143091'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: brown2008bidirectional
+  title: 'BIDIRECTIONAL CROSSLINGUISTIC INFLUENCE IN L1-L2 ENCODING OF MANNER IN SPEECH AND GESTURE: A Study of Japanese Speakers of English'
+  authors: [Amanda Brown, Marianne Gullberg]
+  year: 2008
+  venue: Studies in Second Language Acquisition
+  type: journal
+  category: theory
+  doi: 10.1017/s0272263108080327
+  links: {paper: 'https://doi.org/10.1017/s0272263108080327'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: brown2008gesture
+  title: Gesture viewpoint in Japanese and English
+  authors: [Amanda Brown]
+  year: 2008
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.8.2.08bro
+  links: {paper: 'https://doi.org/10.1075/gest.8.2.08bro'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: brune2008nonverbal
+  title: Nonverbal Behavior During Standardized Interviews in Patients With Schizophrenia Spectrum Disorders
+  authors: [Martin Brüne, Claudia Sonntag, Mona Abdel‐Hamid, Caroline Lehmkämper, Georg Juckel, Alfonso Troisi]
+  year: 2008
+  venue: The Journal of Nervous and Mental Disease
+  type: journal
+  category: theory
+  doi: 10.1097/nmd.0b013e31816a4922
+  links: {paper: 'https://doi.org/10.1097/nmd.0b013e31816a4922'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: bulucz2008assessment
+  title: '[Assessment of gestures and their psychiatric relevance].'
+  authors: [Judit Bulucz, Lajos Simon]
+  year: 2008
+  venue: PubMed
+  type: journal
+  category: theory
+  links: {paper: 'https://pubmed.ncbi.nlm.nih.gov/18956625'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: calbris2008left
+  title: 'From left to right...: Coverbal gestures and their symbolic use of space'
+  authors: [Geneviève Calbris]
+  year: 2008
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.3.05cal
+  links: {paper: 'https://doi.org/10.1075/gs.3.05cal'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: casasanto2008conceptual
+  title: Conceptual affiliates of metaphorical gestures
+  authors: [Daniel J. Casasanto]
+  year: 2008
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.724.5259'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: casey2008speech
+  title: Co-speech gesture in bimodal bilinguals
+  authors: [Shannon Casey, Karen D. Emmorey]
+  year: 2008
+  venue: Language and Cognitive Processes
+  type: book
+  category: theory
+  doi: 10.1080/01690960801916188
+  links: {paper: 'https://doi.org/10.1080/01690960801916188'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: chambers2008influence
+  title: The Influence of Kinetographic Gestures on Real-Time Referential Interpretation
+  authors: [Craig G. Chambers]
+  year: 2008
+  venue: SSRN Electronic Journal
+  type: preprint
+  category: theory
+  links: {paper: 'https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=1304445'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: choi2008representation
+  title: 'REPRESENTATION AND EMBODIMENT OF MEANING IN L2 COMMUNICATION: Motion Events in the Speech and Gesture of Advanced L2 Korean and L2 English Speakers'
+  authors: [Soo‐Jung Choi, James P. Lantolf]
+  year: 2008
+  venue: Studies in Second Language Acquisition
+  type: journal
+  category: theory
+  doi: 10.1017/s0272263108080315
+  links: {paper: 'https://doi.org/10.1017/s0272263108080315'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: chu2008spontaneous
+  title: 'Spontaneous gestures during mental rotation tasks: Insights into the microdevelopment of the motor strategy.'
+  authors: [Mingyuan Chu, Sotaro Kita]
+  year: 2008
+  venue: Journal of Experimental Psychology General
+  type: journal
+  category: theory
+  doi: 10.1037/a0013157
+  links: {paper: 'https://doi.org/10.1037/a0013157'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: cienki2008metaphor
+  title: Why study metaphor and gesture?
+  authors: [Alan J. Cienki]
+  year: 2008
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.3.04cie
+  links: {paper: 'https://doi.org/10.1075/gs.3.04cie'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: cienki2008metaphorb
+  title: Metaphor and Gesture
+  authors: [A. Cienki, C. Müller]
+  year: 2008
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.3
+  links: {paper: 'https://doi.org/10.1075/gs.3'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: cocks2008gesture
+  title: 'Gesture and speech integration: an exploratory study of a man with aphasia'
+  authors: [Naomi Cocks, Laetitia Sautin, Sotaro Kita, GARY S. MORGAN, Sally Zlotowitz]
+  year: 2008
+  venue: International Journal of Language & Communication Disorders
+  type: journal
+  category: theory
+  doi: 10.1080/13682820802256965
+  links: {paper: 'https://doi.org/10.1080/13682820802256965'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: coulson2008constructing
+  title: 'Constructing Meaning in Discourse: ERP Studies of Iconic Co-Speech Gesture Comprehension'
+  authors: [Seana Coulson]
+  year: 2008
+  venue: SSRN Electronic Journal
+  type: preprint
+  category: theory
+  links: {paper: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1293763'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: cuffari2008like
+  title: 'Towards a Like-Minded Ontology: Gesture and the Embodied Nature of Thought in David Mcneill and Maurice Merleau-Ponty'
+  authors: [Elena Clare Cuffari]
+  year: 2008
+  venue: SSRN Electronic Journal
+  type: preprint
+  category: theory
+  links: {paper: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1292367'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: cutica2008deep
+  title: 'The Deep Versus the Shallow: Effects of Co‐Speech Gestures in Learning From Discourse'
+  authors: [Ilaria Cutica, Monica Bucciarelli]
+  year: 2008
+  venue: Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1080/03640210802222039
+  links: {paper: 'https://doi.org/10.1080/03640210802222039'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: edwards2008gestures
+  title: Gestures and conceptual integration in mathematical talk
+  authors: [Laurie D. Edwards]
+  year: 2008
+  venue: Educational Studies in Mathematics
+  type: journal
+  category: theory
+  doi: 10.1007/s10649-008-9124-6
+  links: {paper: 'https://doi.org/10.1007/s10649-008-9124-6'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: education
+
+- id: gentilucci2008spoken
+  title: Spoken Language and arm Gestures are Controlled by the same Motor Control System
+  authors: [Maurizio Gentilucci, Riccardo Dalla Volta]
+  year: 2008
+  venue: Quarterly Journal of Experimental Psychology
+  type: journal
+  category: theory
+  doi: 10.1080/17470210701625683
+  links: {paper: 'https://doi.org/10.1080/17470210701625683'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: goldinmeadow2008natural
+  title: 'The natural order of events: How speakers of different languages represent events nonverbally'
+  authors: [Susan Goldin‐Meadow, Wing‐Chee So, Aslı Özyürek, Carolyn Mylander]
+  year: 2008
+  venue: Proceedings of the National Academy of Sciences
+  type: conference
+  category: theory
+  doi: 10.1073/pnas.0710060105
+  links: {paper: 'https://doi.org/10.1073/pnas.0710060105'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: goodrich2008cospeech
+  title: Co‐speech gesture as input in verb learning
+  authors: [Whitney Goodrich, Carla L. Hudson Kam]
+  year: 2008
+  venue: Developmental Science
+  type: journal
+  category: theory
+  doi: 10.1111/j.1467-7687.2008.00735.x
+  links: {paper: 'https://doi.org/10.1111/j.1467-7687.2008.00735.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: gullberg2008gestures
+  title: GESTURES AND SECOND LANGUAGE ACQUISITION
+  authors: [Marianne Gullberg]
+  year: 2008
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.4324/9780203938560-21
+  links: {paper: 'https://doi.org/10.4324/9780203938560-21'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: gullberg2008gesturesb
+  title: Gestures and some key issues in the study of language development
+  authors: [Gullberg, K. Bot, V. Volterra, Marianne Gullberg]
+  year: 2008
+  venue: Gesture
+  type: book
+  category: theory
+  doi: 10.1075/gest.8.2.03gul
+  links: {paper: 'https://doi.org/10.1075/gest.8.2.03gul'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: gullberg2008introduction
+  title: 'INTRODUCTION TO GESTURE AND SLA: TOWARD AN INTEGRATED APPROACH'
+  authors: [Marianne Gullberg, Steven G. McCafferty]
+  year: 2008
+  venue: Studies in Second Language Acquisition
+  type: journal
+  category: theory
+  doi: 10.1017/s0272263108080285
+  links: {paper: 'https://doi.org/10.1017/s0272263108080285'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: gullberg2008learning
+  title: Learning to talk and gesture about motion in French
+  authors: [Marianne Gullberg, Henriëtte Hendriks, Maya Hickmann]
+  year: 2008
+  venue: First Language
+  type: journal
+  category: theory
+  doi: 10.1177/0142723707088074
+  links: {paper: 'https://doi.org/10.1177/0142723707088074'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: gunter2008whats
+  title: What's the point of gesture? ERPs during co-speech pointing in abstract space
+  authors: [Thomas C. Gunter, Henning Holle, J. E. Douglas Weinbrenner]
+  year: 2008
+  venue: Max Planck Digital Library
+  type: journal
+  category: theory
+  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0010-F44D-7'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: holler2008communicating
+  title: 'Communicating common ground: How mutually shared knowledge influences speech and gesture in a narrative task'
+  authors: [Judith Holler, Katie Wilkin]
+  year: 2008
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01690960802095545
+  links: {paper: 'https://doi.org/10.1080/01690960802095545'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: hostetter2008language
+  title: Language, gesture, action! A test of the Gesture as Simulated Action framework
+  authors: [Autumn B. Hostetter, Martha Wagner Alibali]
+  year: 2008
+  venue: Journal of Memory and Language
+  type: journal
+  category: theory
+  doi: 10.1016/j.jml.2010.04.003
+  links: {paper: 'https://doi.org/10.1016/j.jml.2010.04.003'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: cognition
+
+- id: hubbard2008giving
+  title: 'Giving speech a hand: Gesture modulates activity in auditory cortex during speech perception'
+  authors: [Amy Lynn Hubbard, Stephen M. Wilson, Daniel E. Callan, Mirella Dapretto]
+  year: 2008
+  venue: Human Brain Mapping
+  type: journal
+  category: theory
+  doi: 10.1002/hbm.20565
+  links: {paper: 'https://doi.org/10.1002/hbm.20565'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: iverson2008learning
+  title: 'Learning to talk in a gesture-rich world: Early communication in Italian vs. American children'
+  authors: [Jana Marie Iverson, Olga Capirci, Virginia Volterra, Susan Goldin‐Meadow]
+  year: 2008
+  venue: First Language
+  type: journal
+  category: theory
+  doi: 10.1177/0142723707087736
+  links: {paper: 'https://doi.org/10.1177/0142723707087736'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: jesse2008audiovisual
+  title: Audiovisual alignment in child-directed speech facilitates word learning
+  authors: [Alexandra Jesse, Elizabeth K. Johnson]
+  year: 2008
+  venue: Max Planck Digital Library
+  type: journal
+  category: theory
+  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0013-1FDA-A'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: kelly2008brief
+  title: Brief training with co-speech gesture lends a hand to word learning in a foreign language
+  authors: [Spencer D. Kelly, Tara McDevitt, Megan Esch]
+  year: 2008
+  venue: Language and Cognitive Processes
+  type: book
+  category: theory
+  doi: 10.1080/01690960802365567
+  links: {paper: 'https://doi.org/10.1080/01690960802365567'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: kelly2008gesture
+  title: 'Gesture Gives a Hand to Language and Learning: Perspectives from Cognitive Neuroscience, Developmental Psychology and Education'
+  authors: [Spencer D. Kelly, Sarah M. Manning, Sabrina Rodak]
+  year: 2008
+  venue: Language and Linguistics Compass
+  type: journal
+  category: theory
+  doi: 10.1111/j.1749-818x.2008.00067.x
+  links: {paper: 'https://doi.org/10.1111/j.1749-818x.2008.00067.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: kircher2008neural
+  title: 'Neural interaction of speech and gesture: Differential activations of metaphoric co-verbal gestures'
+  authors: [Tilo T. J. Kircher, Benjamin Straube, Dirk Leube, Susanne Weis, Olga Sachs, Klaus Willmes, Kerstin Konrad, Antonia Green]
+  year: 2008
+  venue: Neuropsychologia
+  type: journal
+  category: theory
+  doi: 10.1016/j.neuropsychologia.2008.08.009
+  links: {paper: 'https://doi.org/10.1016/j.neuropsychologia.2008.08.009'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: kita2008competing
+  title: Competing conceptual representations trigger co-speech representational gestures
+  authors: [Sotaro Kita, Thomas Stephen Davies]
+  year: 2008
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01690960802327971
+  links: {paper: 'https://doi.org/10.1080/01690960802327971'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: kopp2008multimodal
+  title: MULTIMODAL COMMUNICATION FROM MULTIMODAL THINKING — TOWARDS AN INTEGRATED MODEL OF SPEECH AND GESTURE PRODUCTION
+  authors: [Stefan Kopp, Kirsten Bergmann, Ipke Wachsmuth]
+  year: 2008
+  venue: IJSC
+  type: journal
+  category: method
+  doi: 10.1142/s1793351x08000361
+  links: {paper: 'https://doi.org/10.1142/s1793351x08000361', open: 'https://pub.uni-bielefeld.de/record/2001891'}
+  summary: A computational model that plans content and form jointly across speech and iconic gesture, linking propositional and imagistic representations.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: lee2008gesture
+  title: GESTURE AND PRIVATE SPEECH IN SECOND LANGUAGE ACQUISITION
+  authors: [Jina Lee]
+  year: 2008
+  venue: Studies in Second Language Acquisition
+  type: journal
+  category: theory
+  doi: 10.1017/s0272263108080303
+  links: {paper: 'https://doi.org/10.1017/s0272263108080303'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: lucking2008taking
+  title: Taking Fingerprints of Speech-And-Gesture Ensembles. Approaching Empirical Evidence of Intrapersonal Alignment in Multimodal Communication
+  authors: [Andy Lücking, Alexander Mehler, Peter Menke]
+  year: 2008
+  venue: PUB – Publications at Bielefeld University (Bielefeld University)
+  type: journal
+  category: theory
+  links: {paper: 'https://pub.uni-bielefeld.de/record/1918903'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: maricchiolo2008different
+  title: Effects of different types of hand gestures in persuasive speech on receivers’ evaluations
+  authors: [Fridanna Maricchiolo, Augusto Gnisci, Marino Bonaiuto, Gianluca Ficca]
+  year: 2008
+  venue: Psychology Press eBooks
+  type: book
+  category: theory
+  doi: 10.4324/9781003059783-5
+  links: {paper: 'https://doi.org/10.4324/9781003059783-5'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: mcgregor2008gesture
+  title: 'Gesture as a support for word learning: The case of under'
+  authors: [Karla Kay McGregor, Katharina J. Rohlfing, Allison Bean, Ellen Marschner]
+  year: 2008
+  venue: Journal of Child Language
+  type: journal
+  category: theory
+  doi: 10.1017/s0305000908009173
+  links: {paper: 'https://doi.org/10.1017/s0305000908009173'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: mcgregor2008gestureb
+  title: Gesture supports children's word learning
+  authors: [Karla Kay McGregor]
+  year: 2008
+  venue: International Journal of Speech-Language Pathology
+  type: journal
+  category: theory
+  doi: 10.1080/17549500801905622
+  links: {paper: 'https://doi.org/10.1080/17549500801905622'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: mittelberg2008peircean
+  title: 'Peircean semiotics meets conceptual metaphor: Iconic modes in gestural representations of grammar'
+  authors: [Irene Mittelberg]
+  year: 2008
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.3.08mit
+  links: {paper: 'https://doi.org/10.1075/gs.3.08mit'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: muller2008gestures
+  title: What gestures reveal about the nature of metaphor
+  authors: [F. Max Müller]
+  year: 2008
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.3.12mul
+  links: {paper: 'https://doi.org/10.1075/gs.3.12mul'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: namy2008linking
+  title: Linking parent input and child receptivity to symbolic gestures
+  authors: [Laura L. Namy, Rebecca Vallas, Jennifer Knight-Schwarz]
+  year: 2008
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.8.3.03nam
+  links: {paper: 'https://doi.org/10.1075/gest.8.3.03nam'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: nunez2008fresh
+  title: 'A fresh look at the foundations of mathematics: Gesture and the psychological reality of conceptual metaphor'
+  authors: [Rafael E. Núñez]
+  year: 2008
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.3.07nun
+  links: {paper: 'https://doi.org/10.1075/gs.3.07nun'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: ozcalskan2008gesture
+  title: When gesture-speech combinations do and do not index linguistic change
+  authors: [Şeyda Özçalışkan, Susan Goldin‐Meadow]
+  year: 2008
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01690960801956911
+  links: {paper: 'https://doi.org/10.1080/01690960801956911'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: ozyurek2008development
+  title: 'Development of cross-linguistic variation in speech and gesture: Motion events in English and Turkish.'
+  authors: [Aslı Özyürek, Sotaro Kita, Shanley  E. M. Allen, Amanda Brown, Reyhan Furman, Tomoko Ishizuka]
+  year: 2008
+  venue: Developmental Psychology
+  type: journal
+  category: theory
+  doi: 10.1037/0012-1649.44.4.1040
+  links: {paper: 'https://doi.org/10.1037/0012-1649.44.4.1040'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: parrill2008form
+  title: 'Form, meaning, and convention: A comparison of a metaphoric gesture with an emblem'
+  authors: [Fey Parrill]
+  year: 2008
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.3.11par
+  links: {paper: 'https://doi.org/10.1075/gs.3.11par'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: parrill2008subjects
+  title: 'Subjects in the hands of speakers: An experimental study of syntactic subject and speech-gesture integration'
+  authors: [Fey Parrill]
+  year: 2008
+  venue: Cognitive Linguistics
+  type: journal
+  category: theory
+  doi: 10.1515/cog.2008.011
+  links: {paper: 'https://doi.org/10.1515/cog.2008.011'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: pfeiffer2008conversational
+  title: 'Conversational Pointing Gestures for Virtual Reality Interaction: Implications from an Empirical Study'
+  authors: [Thies Pfeiffer, Marc Erich Latoschik, Ipke Wachsmuth]
+  year: 2008
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1109/vr.2008.4480801
+  links: {paper: 'https://doi.org/10.1109/vr.2008.4480801'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: pika2008gestures
+  title: 'Gestures of apes and pre-linguistic human children: Similar or different?'
+  authors: [Simone Pika]
+  year: 2008
+  venue: First Language
+  type: journal
+  category: theory
+  doi: 10.1177/0142723707080966
+  links: {paper: 'https://doi.org/10.1177/0142723707080966'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: ping2008hands
+  title: 'Hands in the air: Using ungrounded iconic gestures to teach children conservation of quantity.'
+  authors: [Raedy M. Ping, Susan Goldin‐Meadow]
+  year: 2008
+  venue: Developmental Psychology
+  type: journal
+  category: theory
+  doi: 10.1037/0012-1649.44.5.1277
+  links: {paper: 'https://doi.org/10.1037/0012-1649.44.5.1277'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: rose2008semantic
+  title: The effects of semantic and gesture treatments on verb retrieval and verb use in aphasia
+  authors: [Miranda L. Rose, Grace Sussmilch]
+  year: 2008
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687030701800800
+  links: {paper: 'https://doi.org/10.1080/02687030701800800'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: rowe2008early
+  title: Early gesture selectively predicts later language learning
+  authors: [Meredith L. Rowe, Susan Goldin‐Meadow]
+  year: 2008
+  venue: Developmental Science
+  type: journal
+  category: theory
+  doi: 10.1111/j.1467-7687.2008.00764.x
+  links: {paper: 'https://doi.org/10.1111/j.1467-7687.2008.00764.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: rowe2008learning
+  title: 'Learning words by hand: Gesture''s role in predicting vocabulary development'
+  authors: [Meredith L. Rowe, Şeyda Özçalışkan, Susan Goldin‐Meadow]
+  year: 2008
+  venue: First Language
+  type: journal
+  category: theory
+  doi: 10.1177/0142723707088310
+  links: {paper: 'https://doi.org/10.1177/0142723707088310'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: sekine2008changes
+  title: 'Changes in frame of reference use across the preschool years: A longitudinal study of the gestures and speech produced during route descriptions'
+  authors: [Kazuki Sekine]
+  year: 2008
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01690960801941327
+  links: {paper: 'https://doi.org/10.1080/01690960801941327'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: sime2008because
+  title: '''Because of her gesture, it''s very easy to understand''- learners'' perceptions of teachers'' gestures in the foreign language class'
+  authors: [Daniela Sime]
+  year: 2008
+  venue: 'Strathprints: The University of Strathclyde institutional repository (University of Strathclyde)'
+  type: book
+  category: theory
+  doi: 10.4324/9780203866993-22
+  links: {paper: 'https://doi.org/10.4324/9780203866993-22'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: singer2008gesture
+  title: The Role of Gesture in Meaning Construction
+  authors: [Melissa A. Singer, Josh Radinsky, Susan R. Goldman]
+  year: 2008
+  venue: Discourse Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01638530802145601
+  links: {paper: 'https://doi.org/10.1080/01638530802145601'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: sowden2008codevelopment
+  title: The co‐development of speech and gesture in children with autism
+  authors: [Hannah Sowden, Mick Perkins, Judy Clegg]
+  year: 2008
+  venue: Clinical Linguistics & Phonetics
+  type: journal
+  category: theory
+  doi: 10.1080/02699200801919745
+  links: {paper: 'https://doi.org/10.1080/02699200801919745'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: stam2008gesture
+  title: 'Gesture Studies and Second Language Acquisition: A Review'
+  authors: [Gale A. Stam, Steven G. McCafferty]
+  year: 2008
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.4324/9780203866993-7
+  links: {paper: 'https://doi.org/10.4324/9780203866993-7'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: stefanini2008relationship
+  title: The relationship between spontaneous gesture production and spoken lexical ability in children with Down syndrome in a naming task
+  authors: [Silvia Stefanini, Martina Recchia, María Cristina Caselli]
+  year: 2008
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.8.2.05ste
+  links: {paper: 'https://doi.org/10.1075/gest.8.2.05ste'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: stefanini2008speech
+  title: 'Co-speech gestures in a naming task: Developmental data'
+  authors: [Silvia Stefanini, Arianna Bello, María Cristina Caselli, Jana Marie Iverson, Virginia Volterra]
+  year: 2008
+  venue: Language and Cognitive Processes
+  type: book
+  category: theory
+  doi: 10.1080/01690960802187755
+  links: {paper: 'https://doi.org/10.1080/01690960802187755'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: straube2008memory
+  title: 'Memory Effects of Speech and Gesture Binding: Cortical and Hippocampal Activation in Relation to Subsequent Memory Performance'
+  authors: [Benjamin Straube, Antonia Green, Susanne Weis, Anjan Kumar Chatterjee, Tilo T. J. Kircher]
+  year: 2008
+  venue: Journal of Cognitive Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1162/jocn.2009.21053
+  links: {paper: 'https://doi.org/10.1162/jocn.2009.21053'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: streeck2008depicting
+  title: Depicting by gesture
+  authors: [Jürgen Streeck]
+  year: 2008
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.8.3.02str
+  links: {paper: 'https://doi.org/10.1075/gest.8.3.02str'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: streeck2008gesture
+  title: 'Gesture in Political Communication: A Case Study of the Democratic Presidential Candidates During the 2004 Primary Campaign'
+  authors: [Jürgen Streeck]
+  year: 2008
+  venue: Research on Language and Social Interaction
+  type: journal
+  category: theory
+  doi: 10.1080/08351810802028662
+  links: {paper: 'https://doi.org/10.1080/08351810802028662'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: sweetser2008personal
+  title: 'Personal and interpersonal gesture spaces: Functional contrasts in language and gesture'
+  authors: [Eve E. Sweetser, Marisa L. Sizemore]
+  year: 2008
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.1515/9783110199123.1.25
+  links: {paper: 'https://doi.org/10.1515/9783110199123.1.25'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: taleghaninikazm2008gestures
+  title: 'Gestures in Foreign LanguageClassrooms: An Empirical Analysis of Their Organization and Function'
+  authors: [Carmen Taleghani‐Nikazm]
+  year: 2008
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'https://www.researchgate.net/profile/Carmen_Taleghani-Nikazm/publication/252826698_Gestures_in_Foreign_Language_Classrooms_An_Empirical_Analysis_of_Their_Organization_and_Function/links/55b6580908ae092e9655d96e.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: tellier2008gestures
+  title: The effect of gestures on second language memorisation by young children
+  authors: [Marion Tellier]
+  year: 2008
+  venue: Gesture
+  type: book
+  category: theory
+  doi: 10.1075/gest.8.2.06tel
+  links: {paper: 'https://doi.org/10.1075/gest.8.2.06tel'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: tilsen2008evidence
+  title: Evidence for interaction between speech rhythm and gesture.
+  authors: [Sam Tilsen]
+  year: 2008
+  venue: The Journal of the Acoustical Society of America
+  type: journal
+  category: theory
+  doi: 10.1121/1.4808994
+  links: {paper: 'https://doi.org/10.1121/1.4808994'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: vendrame2008speech
+  title: 'Co-speech gestures and discourse comprehension: a useful support for oral deaf people?'
+  authors: [Mara Vendrame, Ilaria Cutica, Monica Bucciarelli]
+  year: 2008
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'https://iris.unito.it/handle/2318/62987'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: williams2008gesture
+  title: Gesture as a conceptual mapping tool
+  authors: [Robert F. Williams]
+  year: 2008
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.3.06wil
+  links: {paper: 'https://doi.org/10.1075/gs.3.06wil'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: yoshioka2008gesture
+  title: Gesture and information structure in first and second language
+  authors: [Keiko Yoshioka]
+  year: 2008
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.8.2.07yos
+  links: {paper: 'https://doi.org/10.1075/gest.8.2.07yos'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics

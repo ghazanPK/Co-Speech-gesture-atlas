@@ -1,0 +1,475 @@
+# Papers published in 2002. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: alibali2002childrens
+  title: Children’s gestures are meant to be seen
+  authors: [Martha Wagner Alibali, Lisa S. Don]
+  year: 2002
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.1.2.02ali
+  links: {paper: 'https://doi.org/10.1075/gest.1.2.02ali'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: barrett2002speaking
+  title: 'Speaking while gesturing: The relationship between speech and limb praxis'
+  authors: [Anna M. Barrett, Leon S. Dore, Kerri A. Hansell, Kenneth M. Heilman]
+  year: 2002
+  venue: Neurology
+  type: journal
+  category: theory
+  doi: 10.1212/wnl.58.3.499
+  links: {paper: 'https://doi.org/10.1212/wnl.58.3.499'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: bates2002language
+  title: Language, gesture, and the developing brain
+  authors: [Elizabeth A. Bates, Frederic Dick]
+  year: 2002
+  venue: Developmental Psychobiology
+  type: journal
+  category: theory
+  doi: 10.1002/dev.10034
+  links: {paper: 'https://doi.org/10.1002/dev.10034'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: bavelas2002experimental
+  title: An experimental study of when and how speakers use gestures to communicate
+  authors: [Janet Beavin Bavelas, Christine Kenwood, Trudy Johnson, Bruce C. Phillips]
+  year: 2002
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.2.1.02bav
+  links: {paper: 'https://doi.org/10.1075/gest.2.1.02bav'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: beattie2002experimental
+  title: An experimental investigation of some properties of individual iconic gestures that mediate their communicative power
+  authors: [Geoffrey W. Beattie, Heather Shovelton]
+  year: 2002
+  venue: British Journal of Psychology
+  type: journal
+  category: theory
+  doi: 10.1348/000712602162526
+  links: {paper: 'https://doi.org/10.1348/000712602162526'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: beattie2002experimentalb
+  title: An experimental investigation of the role of different types of iconic gesture in communication
+  authors: [Geoffrey W. Beattie, Heather Shovelton]
+  year: 2002
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.1.2.03bea
+  links: {paper: 'https://doi.org/10.1075/gest.1.2.03bea'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: beattie2002properties
+  title: What properties of talk are associated with the generation of spontaneous iconic hand gestures?
+  authors: [Geoffrey W. Beattie, Heather Shovelton]
+  year: 2002
+  venue: British Journal of Social Psychology
+  type: journal
+  category: theory
+  doi: 10.1348/014466602760344287
+  links: {paper: 'https://doi.org/10.1348/014466602760344287'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: duncan2002gesture
+  title: Gesture, verb aspect, and the nature of iconic imagery in natural discourse
+  authors: [Susan Duncan]
+  year: 2002
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.2.2.04dun
+  links: {paper: 'https://doi.org/10.1075/gest.2.2.04dun'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: fricke2002origo
+  title: Origo, pointing, and speech
+  authors: [Ellen Fricke]
+  year: 2002
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.2.2.05fri
+  links: {paper: 'https://doi.org/10.1075/gest.2.2.05fri'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: frickhorbury2002hand
+  title: The Effects of Hand Gestures on Verbal Recall as a Function of High- and Low-Verbal-Skill Levels
+  authors: [Donna Frick-Horbury]
+  year: 2002
+  venue: The Journal of General Psychology
+  type: journal
+  category: theory
+  doi: 10.1080/00221300209603134
+  links: {paper: 'https://doi.org/10.1080/00221300209603134'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: frickhorbury2002handb
+  title: The Use of Hand Gestures as Self-Generated Cues for Recall of Verbally Associated Targets
+  authors: [Donna Frick-Horbury]
+  year: 2002
+  venue: The American Journal of Psychology
+  type: journal
+  category: theory
+  doi: 10.2307/1423671
+  links: {paper: 'https://doi.org/10.2307/1423671'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: garber2002gesture
+  title: Gesture offers insight into problem‐solving in adults and children
+  authors: [Philip Garber, Susan Goldin‐Meadow]
+  year: 2002
+  venue: Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1207/s15516709cog2606_5
+  links: {paper: 'https://doi.org/10.1207/s15516709cog2606_5'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: guidetti2002emergence
+  title: 'The emergence of pragmatics: forms and functions of conventional gestures in young French children'
+  authors: [Michèle Guidetti]
+  year: 2002
+  venue: First Language
+  type: journal
+  category: theory
+  doi: 10.1177/014272370202206603
+  links: {paper: 'https://doi.org/10.1177/014272370202206603'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: hadar2002gesture
+  title: Gesture during speech in first and second language
+  authors: [Uri Hadar, Rivka Dar, Amit Teitelman]
+  year: 2002
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.1.2.04had
+  links: {paper: 'https://doi.org/10.1075/gest.1.2.04had'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: heath2002demonstrative
+  title: 'Demonstrative Suffering: The Gestural (Re)embodiment of Symptoms'
+  authors: [Christian Heath]
+  year: 2002
+  venue: Journal of Communication
+  type: journal
+  category: theory
+  doi: 10.1111/j.1460-2466.2002.tb02564.x
+  links: {paper: 'https://doi.org/10.1111/j.1460-2466.2002.tb02564.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: holler2002micro
+  title: A micro-analytic investigation of how iconic gestures and speech represent core semantic features in talk
+  authors: [Judith Holler, Geoffrey W. Beattie]
+  year: 2002
+  venue: Semiotica
+  type: journal
+  category: theory
+  doi: 10.1515/semi.2002.077
+  links: {paper: 'https://doi.org/10.1515/semi.2002.077'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: hyden2002pain
+  title: 'Pain Gestures: The Orchestration of Speech and Body Gestures'
+  authors: [Lars‐Christer Hydén, Michael Peolsson]
+  year: 2002
+  venue: Health An Interdisciplinary Journal for the Social Study of Health Illness and Medicine
+  type: journal
+  category: theory
+  doi: 10.1177/136345930200600305
+  links: {paper: 'https://doi.org/10.1177/136345930200600305'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: kelly2002putting
+  title: 'Putting Language Back in the Body: Speech and Gesture on Three Time Frames'
+  authors: [Spencer D. Kelly, Jana Marie Iverson, Joseph I. Terranova, Julia Niego, Michael Hopkins, Leslie H. Goldsmith]
+  year: 2002
+  venue: Developmental Neuropsychology
+  type: journal
+  category: theory
+  doi: 10.1207/s15326942dn2201_1
+  links: {paper: 'https://doi.org/10.1207/s15326942dn2201_1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: koschmann2002learner
+  title: 'Learner Articulation as Interactional Achievement: Studying the Conversation of Gesture'
+  authors: [Timothy D. Koschmann, Curtis LeBaron]
+  year: 2002
+  venue: Cognition and Instruction
+  type: journal
+  category: theory
+  doi: 10.1207/s1532690xci2002_4
+  links: {paper: 'https://doi.org/10.1207/s1532690xci2002_4'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: mccafferty2002gesture
+  title: Gesture and Creating Zones of Proximal Development for Second Language Learning
+  authors: [Steven G. McCafferty]
+  year: 2002
+  venue: Modern Language Journal
+  type: journal
+  category: theory
+  doi: 10.1111/1540-4781.00144
+  links: {paper: 'https://doi.org/10.1111/1540-4781.00144'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: mizuguchi2002object
+  title: Object-Related Knowledge and the Production of Gestures with Imagined Objects by Preschool Children
+  authors: [Takashi Mizuguchi, Kuniaki Sugai]
+  year: 2002
+  venue: Perceptual and Motor Skills
+  type: journal
+  category: theory
+  doi: 10.2466/pms.2002.94.1.71
+  links: {paper: 'https://doi.org/10.2466/pms.2002.94.1.71'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: nicoladis2002encoding
+  title: 'Encoding motion in gestures and speech: are there differences in bilingual children''s French and English'
+  authors: [Elena Nicoladis, Frank Brisard]
+  year: 2002
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.490.8648'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: nicoladis2002gestures
+  title: 'Some Gestures Develop in Conjunction with Spoken Language Development and Others Don''t: Evidence from Bilingual Preschoolers'
+  authors: [Elena Nicoladis]
+  year: 2002
+  venue: Journal of Nonverbal Behavior
+  type: journal
+  category: theory
+  doi: 10.1023/a:1022112201348
+  links: {paper: 'https://doi.org/10.1023/a:1022112201348'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
+
+- id: oneill2002feeling
+  title: 'Feeling Sponginess: The Importance of Descriptive Gestures in 2- and 3-Year-Old Children''s Acquisition of Adjectives'
+  authors: [Daniela K. O’Neill, Jane Topolovec‐Vranic, Wilma Stern-Cavalcante]
+  year: 2002
+  venue: Journal of Cognition and Development
+  type: journal
+  category: theory
+  doi: 10.1207/s15327647jcd0303_1
+  links: {paper: 'https://doi.org/10.1207/s15327647jcd0303_1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: oneill2002young
+  title: 'Young preschoolers'' ability to reference story characters: the contribution of gestures and character speech'
+  authors: [Daniela K. O’Neill, Amanda C. Holmes]
+  year: 2002
+  venue: First Language
+  type: journal
+  category: theory
+  doi: 10.1177/014272370202206403
+  links: {paper: 'https://doi.org/10.1177/014272370202206403'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: ozyurek2002speakers
+  title: Do Speakers Design Their Cospeech Gestures for Their Addressees? The Effects of Addressee Location on Representational Gestures
+  authors: [Aslı Özyürek]
+  year: 2002
+  venue: Journal of Memory and Language
+  type: journal
+  category: theory
+  doi: 10.1006/jmla.2001.2826
+  links: {paper: 'https://doi.org/10.1006/jmla.2001.2826'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: ozyurek2002speech
+  title: Speech-gesture relationship across languages and in second language learners. Implications for spatial thinking and speaking
+  authors: [Aslı Özyürek]
+  year: 2002
+  venue: Max Planck Digital Library
+  type: journal
+  category: theory
+  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0013-30F2-C'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: poggi2002symbolic
+  title: Symbolic gestures
+  authors: [Isabella Poggi]
+  year: 2002
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.2.1.05pog
+  links: {paper: 'https://doi.org/10.1075/gest.2.1.05pog'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: poyatos2002nonverbal
+  title: Nonverbal Communication across Disciplines
+  authors: [Fernando Poyatos]
+  year: 2002
+  venue: John Benjamins Publishing Company eBooks
+  type: book
+  category: theory
+  doi: 10.1075/z.ncad2
+  links: {paper: 'https://doi.org/10.1075/z.ncad2'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: poyatos2002nonverbalb
+  title: 'Nonverbal Communication across Disciplines: Volume 1: Culture, sensory interaction, speech, conversation'
+  authors: [Fernando Poyatos]
+  year: 2002
+  venue: Medical Entomology and Zoology
+  type: book
+  category: theory
+  links: {paper: 'http://ci.nii.ac.jp/ncid/BA5662678X'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: poyatos2002nonverbalc
+  title: 'Nonverbal Communication across Disciplines: Volume 2: Paralanguage, kinesics, silence, personal and environmental interaction'
+  authors: [Fernando Poyatos]
+  year: 2002
+  venue: Unknown venue
+  type: book
+  category: theory
+  links: {paper: 'https://www.amazon.com/Nonverbal-Communication-across-Disciplines-environmental/dp/1556197543'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: quek2002multimodal
+  title: Multimodal human discourse
+  authors: [Francis K. H. Quek, David M. McNeill, Robert Bryll, Susan Duncan, Xinfeng Ma, Cemil Kirbas, Karl E. McCullough, Rashid Ansari]
+  year: 2002
+  venue: ACM Transactions on Computer-Human Interaction
+  type: journal
+  category: theory
+  doi: 10.1145/568513.568514
+  links: {paper: 'https://doi.org/10.1145/568513.568514'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: rose2002comparative
+  title: The comparative effectiveness of gesture and verbal treatments for a specific phonologic naming impairment
+  authors: [Miranda L. Rose, Jacinta Mary Douglas, Thomas A. Matyas]
+  year: 2002
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687030143000825
+  links: {paper: 'https://doi.org/10.1080/02687030143000825'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: tabensky2002gesture
+  title: Gesture and speech rephrasings in conversation
+  authors: [Alexis Tabensky]
+  year: 2002
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.1.2.07tab
+  links: {paper: 'https://doi.org/10.1075/gest.1.2.07tab'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction

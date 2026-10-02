@@ -1,0 +1,805 @@
+# Papers published in 2006. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: alibali2006dont
+  title: Don't Just Tell Them, Show Them! Teachers Can Intentionally Alter their Instructional Gestures
+  authors: [Martha Wagner Alibali, Kristen N. Bieda, Autumn B. Hostetter, Eric Knuth, Mitchell J. Nathan]
+  year: 2006
+  venue: eScholarship (California Digital Library)
+  type: journal
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/0cn8z2ht'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: allwood2006gestural
+  title: A study of gestural feedback expressions
+  authors: [Jens Allwood, Loredana Cerrato]
+  year: 2006
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.158.4379'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: bavelas2006nonverbal
+  title: 'Nonverbal and Verbal Communication: Hand Gestures and Facial Displays as Part of Language Use in Face-to-Face Dialogue'
+  authors: [Janet Beavin Bavelas, Nicole Chovil]
+  year: 2006
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.4135/9781412976152.n6
+  links: {paper: 'https://doi.org/10.4135/9781412976152.n6'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: beattie2006critical
+  title: A critical appraisal of the relationship between speech and gesture and its implications for the treatment of aphasia
+  authors: [Geoffrey W. Beattie, Heather Shovelton]
+  year: 2006
+  venue: International Journal of Speech-Language Pathology
+  type: journal
+  category: theory
+  doi: 10.1080/14417040600667392
+  links: {paper: 'https://doi.org/10.1080/14417040600667392'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: beattie2006size
+  title: When size really matters
+  authors: [Geoffrey W. Beattie, Heather Shovelton]
+  year: 2006
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.6.1.04bea
+  links: {paper: 'https://doi.org/10.1075/gest.6.1.04bea'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: cook2006gesture
+  title: 'The Role of Gesture in Learning: Do Children Use Their Hands to Change Their Minds?'
+  authors: [Susan Wagner Cook, Susan Goldin‐Meadow]
+  year: 2006
+  venue: Journal of Cognition and Development
+  type: journal
+  category: theory
+  doi: 10.1207/s15327647jcd0702_4
+  links: {paper: 'https://doi.org/10.1207/s15327647jcd0702_4'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: feyereisen2006could
+  title: How could gesture facilitate lexical access?
+  authors: [Pierre Feyereisen]
+  year: 2006
+  venue: International Journal of Speech-Language Pathology
+  type: journal
+  category: theory
+  doi: 10.1080/14417040600667293
+  links: {paper: 'https://doi.org/10.1080/14417040600667293'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: furman2006learning
+  title: Learning to Express Causal Events across Languages. What do Speech and Gesture Patterns Reveal
+  authors: [Reyhan Furman, Aslı Özyürek, Shanley  E. M. Allen]
+  year: 2006
+  venue: Radboud Repository (Radboud University)
+  type: book
+  category: theory
+  links: {paper: 'https://hdl.handle.net/2066/159303'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: garciaperez2006intersubjectiv
+  title: 'On Intersubjective Engagement in Autism: A Controlled Study of Nonverbal Aspects of Conversation'
+  authors: [Rosa M. García-Pérez, Anthony Lee, R. Peter Hobson]
+  year: 2006
+  venue: Journal of Autism and Developmental Disorders
+  type: journal
+  category: theory
+  doi: 10.1007/s10803-006-0276-x
+  links: {paper: 'https://doi.org/10.1007/s10803-006-0276-x'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: gentilucci2006manual
+  title: 'From manual gesture to speech: A gradual transition'
+  authors: [M. Gentilucci, Michael C. Corballis]
+  year: 2006
+  venue: Neuroscience & Biobehavioral Reviews
+  type: journal
+  category: theory
+  doi: 10.1016/j.neubiorev.2006.02.004
+  links: {paper: 'https://doi.org/10.1016/j.neubiorev.2006.02.004'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: gentilucci2006repetitive
+  title: Repetitive Transcranial Magnetic Stimulation of Broca's Area Affects Verbal Responses to Gesture Observation
+  authors: [Maurizio Gentilucci, Paolo Bernardis, Girolamo Crisi, Riccardo Dalla Volta]
+  year: 2006
+  venue: Journal of Cognitive Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1162/jocn.2006.18.7.1059
+  links: {paper: 'https://doi.org/10.1162/jocn.2006.18.7.1059'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: goldinmeadow2006children
+  title: 'How children make language out of gesture: Morphological structure in gesture systems developed by American and Chinese deaf children☆'
+  authors: [Susan Goldin‐Meadow, Carolyn Mylander, Amy Franklin]
+  year: 2006
+  venue: Cognitive Psychology
+  type: journal
+  category: theory
+  doi: 10.1016/j.cogpsych.2006.08.001
+  links: {paper: 'https://doi.org/10.1016/j.cogpsych.2006.08.001'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
+
+- id: goldinmeadow2006talking
+  title: Talking and Thinking With Our Hands
+  authors: [Susan Goldin‐Meadow]
+  year: 2006
+  venue: Current Directions in Psychological Science
+  type: journal
+  category: theory
+  doi: 10.1111/j.0963-7214.2006.00402.x
+  links: {paper: 'https://doi.org/10.1111/j.0963-7214.2006.00402.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: greene2006something
+  title: Have I Got Something to Tell You
+  authors: [John O. Greene]
+  year: 2006
+  venue: Journal of Language and Social Psychology
+  type: journal
+  category: theory
+  doi: 10.1177/0261927x05284481
+  links: {paper: 'https://doi.org/10.1177/0261927x05284481'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: gullberg2006handling
+  title: 'Handling Discourse: Gestures, Reference Tracking, and Communication Strategies in Early L2'
+  authors: [Marianne Gullberg]
+  year: 2006
+  venue: Language Learning
+  type: journal
+  category: theory
+  doi: 10.1111/j.0023-8333.2006.00344.x
+  links: {paper: 'https://doi.org/10.1111/j.0023-8333.2006.00344.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: gullberg2006reasons
+  title: Some reasons for studying gesture and second language acquisition (Hommage à Adam Kendon)
+  authors: [Marianne Gullberg]
+  year: 2006
+  venue: IRAL - International Review of Applied Linguistics in Language Teaching
+  type: journal
+  category: theory
+  doi: 10.1515/iral.2006.004
+  links: {paper: 'https://doi.org/10.1515/iral.2006.004'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: gullberg2006speakers
+  title: What speakers do and what addressees look at
+  authors: [Marianne Gullberg, Kenneth Holmqvist]
+  year: 2006
+  venue: Pragmatics & Cognition
+  type: journal
+  category: theory
+  doi: 10.1075/pc.14.1.05gul
+  links: {paper: 'https://doi.org/10.1075/pc.14.1.05gul'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: holle2006dynamic
+  title: 'Dynamic co-speech gestures may be used as disambiguation cues: ERP evidence'
+  authors: [Henning Holle, Thomas C. Gunter]
+  year: 2006
+  venue: Max Planck Institute for Plasma Physics
+  type: journal
+  category: theory
+  links: {paper: 'http://edoc.mpg.de/276504'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: hostetter2006hands
+  title: 'I see it in my hands’ eye: Representational gestures reflect conceptual demands'
+  authors: [Autumn B. Hostetter, Martha Wagner Alibali, Sotaro Kita]
+  year: 2006
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01690960600632812
+  links: {paper: 'https://doi.org/10.1080/01690960600632812'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: iverson2006gesture
+  title: Gesture and speech in maternal input to children with Down's syndrome
+  authors: [Jana Marie Iverson, Emiddia Longobardi, Katia Spampinato, María Cristina Caselli]
+  year: 2006
+  venue: International Journal of Language & Communication Disorders
+  type: journal
+  category: theory
+  doi: 10.1080/13682820500312151
+  links: {paper: 'https://doi.org/10.1080/13682820500312151'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: jacobs2006conversational
+  title: The role of conversational hand gestures in a narrative task
+  authors: [Naomi Jane Jacobs, Alan Garnham]
+  year: 2006
+  venue: Journal of Memory and Language
+  type: journal
+  category: theory
+  doi: 10.1016/j.jml.2006.07.011
+  links: {paper: 'https://doi.org/10.1016/j.jml.2006.07.011'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: jungheim2006learner
+  title: Learner and native speaker perspectives on a culturally-specific Japanese refusal gesture
+  authors: [Nicholas O. Jungheim]
+  year: 2006
+  venue: IRAL - International Review of Applied Linguistics in Language Teaching
+  type: journal
+  category: theory
+  doi: 10.1515/iral.2006.005
+  links: {paper: 'https://doi.org/10.1515/iral.2006.005'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: kelly2006intentional
+  title: An intentional stance modulates the integration of gesture and speech during comprehension
+  authors: [Spencer D. Kelly, Sarah Ward, Peter Creigh, James Bartolotti]
+  year: 2006
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1016/j.bandl.2006.07.008
+  links: {paper: 'https://doi.org/10.1016/j.bandl.2006.07.008'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: kemmerer2006case
+  title: A case of impaired verbalization but preserved gesticulation of motion events
+  authors: [David L. Kemmerer, Bharath Chandrasekaran, Daniel Tranel]
+  year: 2006
+  venue: Cognitive Neuropsychology
+  type: journal
+  category: theory
+  doi: 10.1080/02643290600926667
+  links: {paper: 'https://doi.org/10.1080/02643290600926667'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: kimbara2006gestural
+  title: On gestural mimicry
+  authors: [Irene Kimbara]
+  year: 2006
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.6.1.03kim
+  links: {paper: 'https://doi.org/10.1075/gest.6.1.03kim'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: kita2006metaphor
+  title: Metaphor explanation attenuates the right-hand preference for depictive co-speech gestures that imitate actions
+  authors: [Sotaro Kita, Olivier de Condappa, Christine Möhr]
+  year: 2006
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1016/j.bandl.2006.11.006
+  links: {paper: 'https://doi.org/10.1016/j.bandl.2006.11.006'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: lascarides2006formal
+  title: Formal Semantics for Iconic Gesture
+  authors: [Alex Lascarides, Matthew Stone]
+  year: 2006
+  venue: publish.UP (University of Potsdam)
+  type: journal
+  category: theory
+  links: {paper: 'https://nbn-resolving.org/urn:nbn:de:kobv:517-opus-10330'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: lopez2006development
+  title: Co-development of child-mother gestures over the second and the third years
+  authors: [María José Rodrigo López, Angela González, Manuel Ato, Guacimara Rodríguez, Manuel de Vega, Mercedes Amparo Muñetón Ayala]
+  year: 2006
+  venue: Infant and Child Development
+  type: journal
+  category: theory
+  doi: 10.1002/icd.412
+  links: {paper: 'https://doi.org/10.1002/icd.412'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: mainelaarnold2006understanding
+  title: 'Understanding Conservation Delays in Children With Specific Language Impairment: Task Representations Revealed in Speech and Gesture'
+  authors: [Elina Mainela‐Arnold, Julia L. Evans, Martha Wagner Alibali]
+  year: 2006
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/1092-4388(2006/091)
+  links: {paper: 'https://doi.org/10.1044/1092-4388(2006/091)'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: matsumoto2006culture
+  title: Culture and Nonverbal Behavior
+  authors: [David Matsumoto]
+  year: 2006
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.4135/9781412976152.n12
+  links: {paper: 'https://doi.org/10.4135/9781412976152.n12'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: mccafferty2006gesture
+  title: Gesture and the materialization of second language prosody
+  authors: [Steven G. McCafferty]
+  year: 2006
+  venue: IRAL - International Review of Applied Linguistics in Language Teaching
+  type: journal
+  category: theory
+  doi: 10.1515/iral.2006.008
+  links: {paper: 'https://doi.org/10.1515/iral.2006.008'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: mcneill2006gesture
+  title: Gesture and Communication
+  authors: [David Moreno McNeill]
+  year: 2006
+  venue: Elsevier eBooks
+  type: book
+  category: theory
+  doi: 10.1016/b0-08-044854-2/00798-7
+  links: {paper: 'https://doi.org/10.1016/b0-08-044854-2/00798-7'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: mittal2006gesture
+  title: Gesture behavior in unmedicated schizotypal adolescents.
+  authors: [Vijay Anand Mittal, Kevin D. Tessner, Amanda L. McMillan, Zainab Delawalla, Hanan D. Trotman, Elaine F. Walker]
+  year: 2006
+  venue: Journal of Abnormal Psychology
+  type: journal
+  category: theory
+  doi: 10.1037/0021-843x.115.2.351
+  links: {paper: 'https://doi.org/10.1037/0021-843x.115.2.351'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: mizuguchi2006significance
+  title: 'Significance of Definition and Classification of a Gesture for Study of Spontaneous Gesture: Comment on Chieffi and Ricci''s Study'
+  authors: [Takashi Mizuguchi]
+  year: 2006
+  venue: Perceptual and Motor Skills
+  type: journal
+  category: theory
+  doi: 10.2466/pms.103.2.461-462
+  links: {paper: 'https://doi.org/10.2466/pms.103.2.461-462'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: mori2006achievement
+  title: 'The Achievement of Intersubjectivity through Embodied Completions: A Study of Interactions Between First and Second Language Speakers'
+  authors: [Junko Mori, Makoto Hayashi]
+  year: 2006
+  venue: Applied Linguistics
+  type: journal
+  category: theory
+  doi: 10.1093/applin/aml014
+  links: {paper: 'https://doi.org/10.1093/applin/aml014'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: nunez2006future
+  title: 'With the Future Behind Them: Convergent Evidence From Aymara Language and Gesture in the Crosslinguistic Comparison of Spatial Construals of Time'
+  authors: [Rafael E. Núñez, Eve E. Sweetser]
+  year: 2006
+  venue: Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1207/s15516709cog0000_62
+  links: {paper: 'https://doi.org/10.1207/s15516709cog0000_62'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: parrill2006seeing
+  title: 'Seeing and Hearing Double: The Influence of Mimicry in Speech and Gesture on Observers'
+  authors: [Fey Parrill, Irene Kimbara]
+  year: 2006
+  venue: Journal of Nonverbal Behavior
+  type: journal
+  category: theory
+  doi: 10.1007/s10919-006-0014-2
+  links: {paper: 'https://doi.org/10.1007/s10919-006-0014-2'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: perception
+
+- id: pika2006cross
+  title: 'A cross-cultural study on the use of gestures: Evidence for cross-linguistic transfer?'
+  authors: [Simone Pika, Elena Nicoladis, Paula Marentette]
+  year: 2006
+  venue: Bilingualism Language and Cognition
+  type: journal
+  category: theory
+  doi: 10.1017/s1366728906002665
+  links: {paper: 'https://doi.org/10.1017/s1366728906002665'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: pine2006microgenetic
+  title: 'A microgenetic analysis of the relationship between speech and gesture in children: Evidence for semantic and temporal asynchrony'
+  authors: [Karen J. Pine, Nicola Lufkin, Elizabeth Kirk, David J. Messer]
+  year: 2006
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01690960600630881
+  links: {paper: 'https://doi.org/10.1080/01690960600630881'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: power2006waving
+  title: 'Waving not drowning: Utilising gesture in the treatment of aphasia'
+  authors: [Emma Power, Chris Code]
+  year: 2006
+  venue: International Journal of Speech-Language Pathology
+  type: journal
+  category: theory
+  doi: 10.1080/14417040600667418
+  links: {paper: 'https://doi.org/10.1080/14417040600667418'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: raymer2006gestureverbal
+  title: Effects of gesture+verbal treatment for noun and verb retrieval in aphasia
+  authors: [Anastasia M. Raymer, Floris F. Singletary, Amy D. Rodriguez, Maribel Ciampitti, Kenneth M. Heilman, Leslie J. Gonzalez Rothi]
+  year: 2006
+  venue: Journal of the International Neuropsychological Society
+  type: journal
+  category: theory
+  doi: 10.1017/s1355617706061042
+  links: {paper: 'https://doi.org/10.1017/s1355617706061042'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: rieser2006multi
+  title: Multi-modal Integration for Gesture and Speech
+  authors: [Hannes Rieser, Marc Staudacher]
+  year: 2006
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.558.102'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: rodriguez2006gestureverbal
+  title: Effects of gesture+verbal and semantic‐phonologic treatments for verb retrieval in aphasia
+  authors: [Amy D. Rodriguez, Anastasia M. Raymer, Leslie J. Gonzalez Rothi]
+  year: 2006
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687030500474898
+  links: {paper: 'https://doi.org/10.1080/02687030500474898'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: rose2006comparison
+  title: A comparison of verbal and gesture treatments for a word production deficit resulting from acquired apraxia of speech
+  authors: [Miranda L. Rose, Jacinta Mary Douglas]
+  year: 2006
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687030600757325
+  links: {paper: 'https://doi.org/10.1080/02687030600757325'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: rose2006utility
+  title: The utility of arm and hand gestures in the treatment of aphasia
+  authors: [Miranda L. Rose]
+  year: 2006
+  venue: International Journal of Speech-Language Pathology
+  type: journal
+  category: theory
+  doi: 10.1080/14417040600657948
+  links: {paper: 'https://doi.org/10.1080/14417040600657948'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: ruiter2006gesticulation
+  title: Can gesticulation help aphasic people speak, or rather, communicate?
+  authors: [Jan P. de Ruiter]
+  year: 2006
+  venue: International Journal of Speech-Language Pathology
+  type: journal
+  category: theory
+  doi: 10.1080/14417040600667285
+  links: {paper: 'https://doi.org/10.1080/14417040600667285'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: seyfeddinipur2006disfluency
+  title: 'Disfluency: Interrupting speech and gesture'
+  authors: [Mandana Seyfeddinipur]
+  year: 2006
+  venue: Radboud Repository (Radboud University)
+  type: thesis
+  category: theory
+  doi: 10.17617/2.59337
+  links: {paper: 'https://doi.org/10.17617/2.59337'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: sidnell2006coordinating
+  title: Coordinating Gesture, Talk, and Gaze in Reenactments
+  authors: [Jack Sidnell]
+  year: 2006
+  venue: Research on Language and Social Interaction
+  type: journal
+  category: theory
+  doi: 10.1207/s15327973rlsi3904_2
+  links: {paper: 'https://doi.org/10.1207/s15327973rlsi3904_2'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: sime2006learners
+  title: What do learners make of teachers' gestures in the language classroom?
+  authors: [Daniela Sime]
+  year: 2006
+  venue: IRAL - International Review of Applied Linguistics in Language Teaching
+  type: journal
+  category: theory
+  doi: 10.1515/iral.2006.009
+  links: {paper: 'https://doi.org/10.1515/iral.2006.009'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: sowa2006understanding
+  title: Understanding Coverbal Ionic Gestures in Shape Descriptions
+  authors: [Timo Sowa]
+  year: 2006
+  venue: Unknown venue
+  type: thesis
+  category: theory
+  links: {paper: 'https://www.amazon.com/Understanding-Coverbal-Descriptions-Dissertations-Artificial/dp/1586035665'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: stam2006thinking
+  title: 'Thinking for speaking about motion: L1 and L2 speech and gesture'
+  authors: [Gale A. Stam]
+  year: 2006
+  venue: IRAL - International Review of Applied Linguistics in Language Teaching
+  type: journal
+  category: theory
+  doi: 10.1515/iral.2006.006
+  links: {paper: 'https://doi.org/10.1515/iral.2006.006'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: trafton2006relationship
+  title: The Relationship Between Spatial Transformations and Iconic Gestures
+  authors: [J. Gregory Trafton, Susan Bell Trickett, Cara A. Stitzlein, Lelyn D. Saner, Christian Dieter Schunn, Susan S. Kirschenbaum]
+  year: 2006
+  venue: Spatial Cognition and Computation
+  type: journal
+  category: theory
+  doi: 10.1207/s15427633scc0601_1
+  links: {paper: 'https://doi.org/10.1207/s15427633scc0601_1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: vermeerbergen2006sign
+  title: Sign + Gesture = Speech + Gesture? Comparing aspects of simultaneity in Flemish Sign Language to instances of concurrent speech and gesture
+  authors: [Myriam Vermeerbergen, Eline Demey]
+  year: 2006
+  venue: Lirias
+  type: book
+  category: theory
+  links: {paper: 'https://lirias.kuleuven.be/handle/123456789/427708'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: wei2006crazy
+  title: 'Not Crazy, Just Talking On The Phone: Gestures And Mobile Phone Conversations'
+  authors: [Carolyn Y. Wei]
+  year: 2006
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1109/ipcc.2006.320363
+  links: {paper: 'https://doi.org/10.1109/ipcc.2006.320363'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: willems2006language
+  title: 'When Language Meets Action: The Neural Integration of Gesture and Speech'
+  authors: [Roel M. Willems, Aslı Özyürek, Peter Hagoort]
+  year: 2006
+  venue: Cerebral Cortex
+  type: journal
+  category: theory
+  doi: 10.1093/cercor/bhl141
+  links: {paper: 'https://doi.org/10.1093/cercor/bhl141'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: wu2006coordinated
+  title: 'Coordinated minds : how iconic co- speech gestures mediate communication'
+  authors: [Ying Choon Wu]
+  year: 2006
+  venue: eScholarship (California Digital Library)
+  type: thesis
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/4ff658th'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: yoshioka2006gestural
+  title: Gestural introduction of Ground reference in L2 narrative discourse
+  authors: [Keiko Yoshioka, Eric Kellerman]
+  year: 2006
+  venue: IRAL - International Review of Applied Linguistics in Language Teaching
+  type: journal
+  category: theory
+  doi: 10.1515/iral.2006.007
+  links: {paper: 'https://doi.org/10.1515/iral.2006.007'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: zhao2006communicative
+  title: THE COMMUNICATIVE FUNCTIONS OF GESTURES IN L2 SPEECH
+  authors: [Jun Zhao]
+  year: 2006
+  venue: Journal of Second Language Acquisition and Teaching
+  type: journal
+  category: theory
+  links: {paper: 'https://journals.librarypublishing.arizona.edu/jslat/article/207/galley/201/download/'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics

@@ -1,0 +1,113 @@
+# Papers published in 1991. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: cubelli1991education
+  title: Re-education of Gestural Communication in a Case ol Chronic Global Aphasia and Limb Apraxia
+  authors: [Roberto Cubelli, Piera Trentini, Carmelo G. Montagna]
+  year: 1991
+  venue: Cognitive Neuropsychology
+  type: journal
+  category: theory
+  doi: 10.1080/02643299108253378
+  links: {paper: 'https://doi.org/10.1080/02643299108253378'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: feldman1991fundamentals
+  title: Fundamentals of nonverbal behavior
+  authors: [Robert S. Feldman, Bernard Rimé]
+  year: 1991
+  venue: Medical Entomology and Zoology
+  type: book
+  category: theory
+  links: {paper: 'http://ci.nii.ac.jp/ncid/BA13028436'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: fidelman1991semiotics
+  title: The Semiotics of French Gestures
+  authors: [Carolyn Grim Fidelman, Geneviève Calbris, Owen Doyle]
+  year: 1991
+  venue: Modern Language Journal
+  type: journal
+  category: theory
+  doi: 10.2307/328738
+  links: {paper: 'https://doi.org/10.2307/328738'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: krauss1991conversational
+  title: Do conversational hand gestures communicate?
+  authors: [Robert M. Krauss, Palmer Morrel‐Samuels, Christina Colasante]
+  year: 1991
+  venue: Journal of Personality and Social Psychology
+  type: journal
+  category: theory
+  doi: 10.1037/0022-3514.61.5.743
+  links: {paper: 'https://doi.org/10.1037/0022-3514.61.5.743'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: marchman1991babble
+  title: Babble and first words in children with focal brain injury
+  authors: [Virginia A. Marchman, Ruth Miller, Elizabeth A. Bates]
+  year: 1991
+  venue: Applied Psycholinguistics
+  type: journal
+  category: theory
+  doi: 10.1017/s0142716400009358
+  links: {paper: 'https://doi.org/10.1017/s0142716400009358'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: marcos1991reformulating
+  title: 'Reformulating requests at 18 months: gestures, vocalizations and words'
+  authors: [Haydée Marcos]
+  year: 1991
+  venue: First Language
+  type: journal
+  category: theory
+  doi: 10.1177/014272379101103304
+  links: {paper: 'https://doi.org/10.1177/014272379101103304'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: raymer1991verbal
+  title: Effects of Verbal plus Gestural Treatment in a Patient with Aphasia and Severe Apraxia of Speech
+  authors: [Anastasia M. Raymer, Cynthia K. Thompson]
+  year: 1991
+  venue: The Aphasiology Archive (University of Pittsburgh)
+  type: journal
+  category: theory
+  links: {paper: 'http://aphasiology.pitt.edu/149/1/20-25.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: stone1991generality
+  title: 'The generality of gesture-speech mismatch as an index of transitional knowledge: Evidence from a control-of-variables task'
+  authors: [Addison Stone, Rebecca Webb, Shahrzad Mahootian]
+  year: 1991
+  venue: Cognitive Development
+  type: journal
+  category: theory
+  doi: 10.1016/0885-2014(91)90041-b
+  links: {paper: 'https://doi.org/10.1016/0885-2014(91)90041-b'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: cognition

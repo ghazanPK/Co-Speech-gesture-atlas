@@ -1,0 +1,86 @@
+# Papers published in 1983. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: allen1983says
+  title: ‘What says meow?’. The role of context and linguistic experience in very young children's responses to what-questions
+  authors: [Rhianon Allen, Marilyn Shatz]
+  year: 1983
+  venue: Journal of Child Language
+  type: journal
+  category: theory
+  doi: 10.1017/s0305000900007790
+  links: {paper: 'https://doi.org/10.1017/s0305000900007790'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: barnett1983replacing
+  title: 'Replacing Teacher Talk with Gestures: Nonverbal Communication in the Foreign Language Classroom'
+  authors: [Marva A. Barnett]
+  year: 1983
+  venue: Foreign Language Annals
+  type: journal
+  category: theory
+  doi: 10.1111/j.1944-9720.1983.tb01446.x
+  links: {paper: 'https://doi.org/10.1111/j.1944-9720.1983.tb01446.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: bolinger1983intonation
+  title: Intonation and Gesture
+  authors: [Dwight L. Bolinger]
+  year: 1983
+  venue: American Speech
+  type: journal
+  category: theory
+  doi: 10.2307/455326
+  links: {paper: 'https://doi.org/10.2307/455326'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: feyereisen1983manual
+  title: MANUAL ACTIVITY DURING SPEAKING IN APHASIC SUBJECTS*
+  authors: [Pierre Feyereisen]
+  year: 1983
+  venue: International Journal of Psychology
+  type: journal
+  category: theory
+  doi: 10.1080/00207598308247500
+  links: {paper: 'https://doi.org/10.1080/00207598308247500'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: hoodin1983facilitation
+  title: Facilitation of Verbal Labeling in Adult Aphasia by Gestural, Verbal, or Verbal Plus Gestural Training
+  authors: [Ronald B. Hoodin, Cynthia K. Thompson]
+  year: 1983
+  venue: The Aphasiology Archive (University of Pittsburgh)
+  type: journal
+  category: theory
+  links: {paper: 'http://aphasiology.pitt.edu/758/1/13-10.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: tfouni1983discourse
+  title: 'A discourse analysis of deixis: pragmatic, cognitive and semantic factors in the comprehension of ‘this’, ‘that’, ‘here’ and ‘there’'
+  authors: [Leda Verdiani Tfouni, Roberta L. Klatzky]
+  year: 1983
+  venue: Journal of Child Language
+  type: journal
+  category: theory
+  doi: 10.1017/s0305000900005183
+  links: {paper: 'https://doi.org/10.1017/s0305000900005183'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development

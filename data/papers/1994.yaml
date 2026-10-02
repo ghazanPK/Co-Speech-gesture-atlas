@@ -1,0 +1,224 @@
+# Papers published in 1994. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: bavelas1994gestures
+  title: 'Gestures as Part of Speech: Methodological Implications'
+  authors: [Janet Beavin Bavelas]
+  year: 1994
+  venue: Research on Language and Social Interaction
+  type: journal
+  category: theory
+  doi: 10.1207/s15327973rlsi2703_3
+  links: {paper: 'https://doi.org/10.1207/s15327973rlsi2703_3'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: beattie1994gestures
+  title: 'Gestures, pauses and speech: An experimental investigation of the effects of changing social context on their precise temporal relationships'
+  authors: [Geoffrey W. Beattie, Rima Aboudan]
+  year: 1994
+  venue: Semiotica
+  type: journal
+  category: theory
+  doi: 10.1515/semi-1994-993-402
+  links: {paper: 'https://doi.org/10.1515/semi-1994-993-402'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: burgoon1994nonverbal
+  title: 'Nonverbal communication : the unspoken dialogue'
+  authors: [Judee K. Burgoon, David B. Buller, W. Gill Woodall]
+  year: 1994
+  venue: Medical Entomology and Zoology
+  type: book
+  category: theory
+  links: {paper: 'http://ci.nii.ac.jp/ncid/BA29902578'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: chawla1994gesture
+  title: Gesture and Speech in Spontaneous and Rehearsed Narratives
+  authors: [Purnima Chawla, Robert M. Krauss]
+  year: 1994
+  venue: Journal of Experimental Social Psychology
+  type: journal
+  category: theory
+  doi: 10.1006/jesp.1994.1027
+  links: {paper: 'https://doi.org/10.1006/jesp.1994.1027'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: fridlund1994facial
+  title: FACIAL PARALANGUAGE AND GESTURE
+  authors: [Alan J. Fridlund]
+  year: 1994
+  venue: Elsevier eBooks
+  type: book
+  category: theory
+  doi: 10.1016/b978-0-12-267630-7.50017-4
+  links: {paper: 'https://doi.org/10.1016/b978-0-12-267630-7.50017-4'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: gifford1994lens
+  title: A lens-mapping framework for understanding the encoding and decoding of interpersonal dispositions in nonverbal behavior.
+  authors: [Robert Gifford]
+  year: 1994
+  venue: Journal of Personality and Social Psychology
+  type: journal
+  category: theory
+  doi: 10.1037/0022-3514.66.2.398
+  links: {paper: 'https://doi.org/10.1037/0022-3514.66.2.398'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: goldman1994others
+  title: 'As Others See Us: Body Movement and the Art of Successful Communication'
+  authors: [Ellen F. Goldman]
+  year: 1994
+  venue: Thammasat University Digital Collections
+  type: journal
+  category: theory
+  links: {paper: 'http://203.131.219.242/cdm/ref/collection/ebook/id/11632'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: kendon1994gestures
+  title: Do Gestures Communicate? A Review
+  authors: [Adam Kendon]
+  year: 1994
+  venue: Research on Language and Social Interaction
+  type: journal
+  category: theory
+  doi: 10.1207/s15327973rlsi2703_2
+  links: {paper: 'https://doi.org/10.1207/s15327973rlsi2703_2'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: latour1994tools
+  title: Tools, Language and Cognition in Human Evolution.
+  authors: [Bruno Latour, Kathleen R. Gibson, Tim Ingold]
+  year: 1994
+  venue: Man
+  type: journal
+  category: theory
+  doi: 10.2307/2804508
+  links: {paper: 'https://doi.org/10.2307/2804508'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: mcclave1994gestural
+  title: 'Gestural beats: The rhythm hypothesis'
+  authors: [Evelyn Z. McClave]
+  year: 1994
+  venue: Journal of Psycholinguistic Research
+  type: journal
+  category: theory
+  doi: 10.1007/bf02143175
+  links: {paper: 'https://doi.org/10.1007/bf02143175'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: mcneill1994communicative
+  title: Communicative Effects of Speech-Mismatched Gestures
+  authors: [David M. McNeill, Justine Cassell, Karl-Erik McCullough]
+  year: 1994
+  venue: Research on Language and Social Interaction
+  type: journal
+  category: theory
+  doi: 10.1207/s15327973rlsi2703_4
+  links: {paper: 'https://doi.org/10.1207/s15327973rlsi2703_4'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: perception
+
+- id: morris1994bodytalk
+  title: 'Bodytalk: A World Guide to Gestures'
+  authors: [Desmond Morris]
+  year: 1994
+  venue: Medical Entomology and Zoology
+  type: book
+  category: theory
+  links: {paper: 'https://ci.nii.ac.jp/ncid/BA24012562'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: ochipa1994conduction
+  title: Conduction apraxia.
+  authors: [Cynthia Ochipa, Leslie J. Gonzalez Rothi, Kenneth M. Heilman]
+  year: 1994
+  venue: Journal of Neurology Neurosurgery & Psychiatry
+  type: journal
+  category: theory
+  doi: 10.1136/jnnp.57.10.1241
+  links: {paper: 'https://doi.org/10.1136/jnnp.57.10.1241'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: records1994measure
+  title: A Measure of the Contribution of a Gesture to the Perception of Speech in Listeners With Aphasia
+  authors: [Nancy L. Records]
+  year: 1994
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/jshr.3705.1086
+  links: {paper: 'https://doi.org/10.1044/jshr.3705.1086'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: thai1994relationships
+  title: Relationships Between Language and Gesture in Normally Developing and Late-Talking Toddlers
+  authors: [Donna Thai, Stacy Tobias]
+  year: 1994
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/jshr.3701.157
+  links: {paper: 'https://doi.org/10.1044/jshr.3701.157'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: thompson1994childrens
+  title: Children′s Integration of Speech and Pointing Gestures in Comprehension
+  authors: [Laura A. Thompson, Dominic W. Massaro]
+  year: 1994
+  venue: Journal of Experimental Child Psychology
+  type: journal
+  category: theory
+  doi: 10.1006/jecp.1994.1016
+  links: {paper: 'https://doi.org/10.1006/jecp.1994.1016'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development

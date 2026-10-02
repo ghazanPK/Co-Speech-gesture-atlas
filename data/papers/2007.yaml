@@ -2,6 +2,376 @@
 # The README tables are generated from these files. Field rules: docs/SCHEMA.md
 # (enforced by schema/schema.json and scripts/validate.py).
 
+- id: anon2007gestural
+  title: Gestural Communication in Nonhuman and Human Primates
+  year: 2007
+  venue: Benjamins current topics
+  type: book
+  category: theory
+  doi: 10.1075/bct.10
+  links: {paper: 'https://doi.org/10.1075/bct.10'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: anon2007sage
+  title: The SAGE handbook of nonverbal communication
+  year: 2007
+  venue: Choice Reviews Online
+  type: journal
+  category: theory
+  doi: 10.5860/choice.44-3718
+  links: {paper: 'https://doi.org/10.5860/choice.44-3718'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction
+
+- id: armstrong2007gestural
+  title: The Gestural Origin of Language
+  authors: [David Armstrong, Sherman E. Wilcox]
+  year: 2007
+  venue: Oxford University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1093/acprof:oso/9780195163483.001.0001
+  links: {paper: 'https://doi.org/10.1093/acprof:oso/9780195163483.001.0001'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: bavelas2007gesturing
+  title: 'Gesturing on the telephone: Independent effects of dialogue and visibility'
+  authors: [Janet Beavin Bavelas, Jennifer Gerwing, Chantelle Sutton, Danielle Prevost]
+  year: 2007
+  venue: Journal of Memory and Language
+  type: journal
+  category: theory
+  doi: 10.1016/j.jml.2007.02.004
+  links: {paper: 'https://doi.org/10.1016/j.jml.2007.02.004'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: braddock2007links
+  title: 'Links between language, gesture, and motor skill : a longitudinal study of communication recovery in adults with Broca''s aphasia'
+  authors: [Barbara A. Braddock]
+  year: 2007
+  venue: Unknown venue
+  type: thesis
+  category: theory
+  doi: 10.32469/10355/4656
+  links: {paper: 'https://doi.org/10.32469/10355/4656'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: broaders2007making
+  title: Making children gesture brings out implicit knowledge and leads to learning.
+  authors: [Sara C. Broaders, Susan Wagner Cook, Zachary Mitchell, Susan Goldin‐Meadow]
+  year: 2007
+  venue: Journal of Experimental Psychology General
+  type: journal
+  category: theory
+  doi: 10.1037/0096-3445.136.4.539
+  links: {paper: 'https://doi.org/10.1037/0096-3445.136.4.539'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: brown2007crosslinguisti
+  title: 'Crosslinguistic influence in first and second languages: Convergence in speech and gesture'
+  authors: [Amanda Brown]
+  year: 2007
+  venue: Max Planck Institute for Plasma Physics
+  type: thesis
+  category: theory
+  links: {paper: 'http://edoc.mpg.de/328104'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: capone2007tapping
+  title: Tapping Toddlers' Evolving Semantic Representation via Gesture
+  authors: [Nina C. Capone]
+  year: 2007
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/1092-4388(2007/051)
+  links: {paper: 'https://doi.org/10.1044/1092-4388(2007/051)'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: chieffi2007beats
+  title: 'Are Beats Gestures Unrelated to Meaning of Verbal Production?: Comment on Mizuguchi''s View'
+  authors: [Sergio Chieffi, Mariateresa Ricci]
+  year: 2007
+  venue: Perceptual and Motor Skills
+  type: journal
+  category: theory
+  doi: 10.2466/pms.105.2.556-558
+  links: {paper: 'https://doi.org/10.2466/pms.105.2.556-558'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: church2007gesture
+  title: The role of gesture in memory and social communication
+  authors: [Ruth Breckinridge Church, Philip Garber, Kathryn Rogalski]
+  year: 2007
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.7.2.02bre
+  links: {paper: 'https://doi.org/10.1075/gest.7.2.02bre'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: cocks2007relationship
+  title: The relationship between right hemisphere damage and gesture in spontaneous discourse
+  authors: [Naomi Cocks, Kathryn Hird, Kim Kirsner]
+  year: 2007
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687030600911393
+  links: {paper: 'https://doi.org/10.1080/02687030600911393'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: duncan2007gesture
+  title: Gesture and the Dynamic Dimension of Language
+  authors: [S. Duncan, Justine Cassell, Elena T. Levy, David McNeill]
+  year: 2007
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.1
+  links: {paper: 'https://doi.org/10.1075/gs.1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: flechagarcia2007verbal
+  title: 'Non-verbal Communication in Dialogue: Alignment between Eyebrow Raises and Pitch Accents in English'
+  authors: [María Luisa Flecha-García]
+  year: 2007
+  venue: eScholarship (California Digital Library)
+  type: journal
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/1wg4x76b'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: gentilucci2007motor
+  title: The motor system and the relationships between speech and gesture
+  authors: [Maurizio Gentilucci, Riccardo Dalla Volta]
+  year: 2007
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.7.2.03gen
+  links: {paper: 'https://doi.org/10.1075/gest.7.2.03gen'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: goldinmeadow2007young
+  title: Young children use their hands to tell their mothers what to say
+  authors: [Susan Goldin‐Meadow, Whitney Goodrich, Eve A. Sauer, Jana Marie Iverson]
+  year: 2007
+  venue: Developmental Science
+  type: journal
+  category: theory
+  doi: 10.1111/j.1467-7687.2007.00636.x
+  links: {paper: 'https://doi.org/10.1111/j.1467-7687.2007.00636.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: hagoort2007beyond
+  title: Beyond the sentence given
+  authors: [Peter Hagoort, Jos J. A. Van Berkum]
+  year: 2007
+  venue: Philosophical Transactions of the Royal Society B Biological Sciences
+  type: journal
+  category: theory
+  doi: 10.1098/rstb.2007.2089
+  links: {paper: 'https://doi.org/10.1098/rstb.2007.2089'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: holle2007comprehension
+  title: 'The comprehension of co-speech iconic gestures: behavioral, electrophysiological and neuroimaging studies'
+  authors: [Henning Holle]
+  year: 2007
+  venue: Max Planck Institute for Plasma Physics
+  type: book
+  category: theory
+  links: {paper: 'http://edoc.mpg.de/394816'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: holle2007iconic
+  title: 'The Role of Iconic Gestures in Speech Disambiguation: ERP Evidence'
+  authors: [Henning Holle, Thomas C. Gunter]
+  year: 2007
+  venue: Journal of Cognitive Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1162/jocn.2007.19.7.1175
+  links: {paper: 'https://doi.org/10.1162/jocn.2007.19.7.1175'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: holle2007neural
+  title: Neural correlates of the processing of co-speech gestures
+  authors: [Henning Holle, Thomas C. Gunter, Shirley‐Ann Rüschemeyer, Andreas Hennenlotter, Marco Iacoboni]
+  year: 2007
+  venue: NeuroImage
+  type: journal
+  category: theory
+  doi: 10.1016/j.neuroimage.2007.10.055
+  links: {paper: 'https://doi.org/10.1016/j.neuroimage.2007.10.055'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: holler2007common
+  title: The Effect of Common Ground on How Speakers Use Gesture and Speech to Represent Size Information
+  authors: [Judith Holler, Rachel Stevens]
+  year: 2007
+  venue: Journal of Language and Social Psychology
+  type: journal
+  category: theory
+  doi: 10.1177/0261927x06296428
+  links: {paper: 'https://doi.org/10.1177/0261927x06296428'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: holler2007gesture
+  title: 'Gesture use in social interaction: how speakers'' gestures can reflect listeners'' thinking.'
+  authors: [Judith Holler, Beattie Geoffrey]
+  year: 2007
+  venue: MPG.PuRe (Max Planck Society)
+  type: journal
+  category: theory
+  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0012-CF50-8'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: hostetter2007raise
+  title: Raise your hand if you’re spatial
+  authors: [Autumn B. Hostetter, Martha Wagner Alibali]
+  year: 2007
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.7.1.05hos
+  links: {paper: 'https://doi.org/10.1075/gest.7.1.05hos'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: hostetter2007sitting
+  title: Does Sitting on Your Hands Make You Bite Your Tongue? The Effects of Gesture Prohibition on Speech During Motor Descriptions
+  authors: [Autumn B. Hostetter, Martha Wagner Alibali, Sotaro Kita]
+  year: 2007
+  venue: eScholarship (California Digital Library)
+  type: journal
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/6g02f7bv'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: kendon2007agenda
+  title: An Agenda for Gesture Studies
+  authors: [Adam Kendon]
+  year: 2007
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'http://www.kuwi.europa-uni.de/de/lehrstuhl/sw/sw0/_texte/introgestureanalysis/An_Agenda_for_Gesture_Studies.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: kita2007generation
+  title: 'Generation of co-speech gestures based on spatial imagery from the right-hemisphere: Evidence from split-brain patients'
+  authors: [Sotaro Kita, Hedda Lausberg]
+  year: 2007
+  venue: Cortex
+  type: journal
+  category: theory
+  doi: 10.1016/j.cortex.2006.04.001
+  links: {paper: 'https://doi.org/10.1016/j.cortex.2006.04.001'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: kita2007relations
+  title: 'Relations between syntactic encoding and co-speech gestures: Implications for a model of speech and gesture production'
+  authors: [Sotaro Kita, Aslı Özyürek, Shanley  E. M. Allen, Amanda Brown, Reyhan Furman, Tomoko Ishizuka]
+  year: 2007
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01690960701461426
+  links: {paper: 'https://doi.org/10.1080/01690960701461426'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: kita2007spoken
+  title: 5 How does Spoken Language Shape Iconic Gestures?
+  authors: [Sotaro Kita, Aslı Özyürek]
+  year: 2007
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.1.07kit
+  links: {paper: 'https://doi.org/10.1075/gs.1.07kit'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
 - id: klesen2007affective
   title: Affective Multimodal Control of Virtual Characters
   authors: [Martin Klesen, Patrick Gebhard]
@@ -17,3 +387,416 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: koschmann2007formulating
+  title: Formulating the Triangle of Doom
+  authors: [Timothy D. Koschmann, Curtis LeBaron, Charles Goodwin, Alan Zemel, Gary L. Dunnington]
+  year: 2007
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.7.1.06kos
+  links: {paper: 'https://doi.org/10.1075/gest.7.1.06kos'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: lausberg2007speech
+  title: 'Speech-independent production of communicative gestures: Evidence from patients with complete callosal disconnection'
+  authors: [Hedda Lausberg, Eran Zaidel, Robyn Flaum Cruz, Alain Ptito]
+  year: 2007
+  venue: Neuropsychologia
+  type: journal
+  category: theory
+  doi: 10.1016/j.neuropsychologia.2007.05.010
+  links: {paper: 'https://doi.org/10.1016/j.neuropsychologia.2007.05.010'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: levy2007construction
+  title: '21 The Construction of a Temporally Coherent Narrative by an Autistic Adolescent: Co-contributions of Speech, Enactment and Gesture'
+  authors: [Elena T. Levy]
+  year: 2007
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.1.25lev
+  links: {paper: 'https://doi.org/10.1075/gs.1.25lev'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: loehr2007aspects
+  title: Aspects of rhythm in gesture and speech
+  authors: [Daniel Loehr]
+  year: 2007
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.7.2.04loe
+  links: {paper: 'https://doi.org/10.1075/gest.7.2.04loe'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: maricchiolo2007hand
+  title: 'Hand gestures in speech: studies on their roles in social interaction'
+  authors: [Fridanna Maricchiolo, Marino Bonaiuto, Augusto Gnisci]
+  year: 2007
+  venue: Iris (Roma Tre University)
+  type: journal
+  category: theory
+  links: {paper: 'http://hdl.handle.net/11590/160098'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: mcgrath2007influence
+  title: The influence of electronic medical record usage on nonverbal communication in the medical interview
+  authors: [John M. McGrath, Nedal H. Arar, Jacqueline A. Pugh]
+  year: 2007
+  venue: Health Informatics Journal
+  type: journal
+  category: theory
+  doi: 10.1177/1460458207076466
+  links: {paper: 'https://doi.org/10.1177/1460458207076466'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: melinger2007conceptualisat
+  title: Conceptualisation load triggers gesture production
+  authors: [Alissa Melinger, Sotaro Kita]
+  year: 2007
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01690960600696916
+  links: {paper: 'https://doi.org/10.1080/01690960600696916'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: mittelberg2007gesture
+  title: 'Gesture & Thought. David McNeill, Chicago: Chicago University Press, 2005, 340 pages, $38.00 (hardback). ISBN: 0-226-51462-5.'
+  authors: [Irene Mittelberg]
+  year: 2007
+  venue: Metaphor and Symbol
+  type: journal
+  category: theory
+  doi: 10.1080/10926480701357711
+  links: {paper: 'https://doi.org/10.1080/10926480701357711'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: mondada2007multimodal
+  title: Multimodal resources for turn-taking
+  authors: [Lorenza Mondada]
+  year: 2007
+  venue: Discourse Studies
+  type: journal
+  category: theory
+  doi: 10.1177/1461445607075346
+  links: {paper: 'https://doi.org/10.1177/1461445607075346'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: montgomery2007communicative
+  title: Communicative hand gestures and object-directed hand movements activated the mirror neuron system
+  authors: [Kimberly J. Montgomery, Nancy Isenberg, James V. Haxby]
+  year: 2007
+  venue: Social Cognitive and Affective Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1093/scan/nsm004
+  links: {paper: 'https://doi.org/10.1093/scan/nsm004'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: muller2007gestures
+  title: Gestures in human and nonhuman primates
+  authors: [F. Max Müller]
+  year: 2007
+  venue: Benjamins current topics
+  type: book
+  category: theory
+  doi: 10.1075/bct.10.17mul
+  links: {paper: 'https://doi.org/10.1075/bct.10.17mul'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: nicoladis2007bilingualism
+  title: The effect of bilingualism on the use of manual gestures
+  authors: [Elena Nicoladis]
+  year: 2007
+  venue: Applied Psycholinguistics
+  type: journal
+  category: theory
+  doi: 10.1017/s0142716407070245
+  links: {paper: 'https://doi.org/10.1017/s0142716407070245'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: nicoladis2007gesture
+  title: Gesture use in story recall by Chinese–English bilinguals
+  authors: [Elena Nicoladis, Simone Pika, Hui Yin, Paula Marentette]
+  year: 2007
+  venue: Applied Psycholinguistics
+  type: journal
+  category: theory
+  doi: 10.1017/s0142716407070385
+  links: {paper: 'https://doi.org/10.1017/s0142716407070385'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: ozcalskan2007metaphors
+  title: 'Metaphors WeMove By: Children''s Developing Understanding of Metaphorical Motion in Typologically Distinct Languages'
+  authors: [Şeyda Özçalışkan]
+  year: 2007
+  venue: Metaphor and Symbol
+  type: journal
+  category: theory
+  doi: 10.1080/10926480701235429
+  links: {paper: 'https://doi.org/10.1080/10926480701235429'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: ozyurek2007gesture
+  title: Gesture, brain, and language
+  authors: [Aslı Özyürek, Spencer D. Kelly]
+  year: 2007
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1016/j.bandl.2007.03.006
+  links: {paper: 'https://doi.org/10.1016/j.bandl.2007.03.006'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: ozyurek2007line
+  title: 'On-line Integration of Semantic Information from Speech and Gesture: Insights from Event-related Brain Potentials'
+  authors: [Aslı Özyürek, Roel M. Willems, Sotaro Kita, Peter Hagoort]
+  year: 2007
+  venue: Journal of Cognitive Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1162/jocn.2007.19.4.605
+  links: {paper: 'https://doi.org/10.1162/jocn.2007.19.4.605'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: ozyurek2007linguistic
+  title: How does linguistic framing influence co-speech gestures? Insights from crosslinguistic differences and similarities
+  authors: [Aslı Özyürek, Sotaro Kita, Shanley  E. M. Allen, Reyhan Furman, Amanda Brown]
+  year: 2007
+  venue: Radboud Repository (Radboud University)
+  type: book
+  category: theory
+  links: {paper: 'http://hdl.handle.net/2066/44273'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: pine2007prohibiting
+  title: The effects of prohibiting gestures on children's lexical retrieval ability
+  authors: [Karen J. Pine, Hannah Bird, Elizabeth Kirk]
+  year: 2007
+  venue: Developmental Science
+  type: journal
+  category: theory
+  doi: 10.1111/j.1467-7687.2007.00610.x
+  links: {paper: 'https://doi.org/10.1111/j.1467-7687.2007.00610.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: pozzerardenghi2007look
+  title: '"Look at what I am saying": Multimodal science teaching'
+  authors: [Lilian Pozzer‐Ardenghi]
+  year: 2007
+  venue: UVic’s Research and Learning Repository (University of Victoria)
+  type: thesis
+  category: theory
+  links: {paper: 'http://hdl.handle.net/1828/212'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: richards2007activation
+  title: Activation of intentional mechanisms through utilization of nonsymbolic movements in aphasia rehabilitation.
+  authors: [Katherine Richards, Floris F. Singletary, Leslie J. Gonzalez Rothi, Shirley Koehler, Bruce Crosson]
+  year: 2007
+  venue: PubMed
+  type: journal
+  category: theory
+  links: {paper: 'https://pubmed.ncbi.nlm.nih.gov/17638142'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: rose2007treating
+  title: Treating a semantic word production deficit in aphasia with verbal and gesture methods
+  authors: [Miranda L. Rose, Jacinta Mary Douglas]
+  year: 2007
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687030600742020
+  links: {paper: 'https://doi.org/10.1080/02687030600742020'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: ruiter2007multimodal
+  title: Some multimodal signals in humans
+  authors: [Jan Jaap de Ruiter, I. van der Sluis, M. Theune, E. Reiter, E.J. Krahmer]
+  year: 2007
+  venue: MPG.PuRe (Max Planck Society)
+  type: journal
+  category: theory
+  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0013-1741-4'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: ruiter2007postcards
+  title: Postcards from the mind
+  authors: [Jan P. de Ruiter]
+  year: 2007
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.7.1.03rui
+  links: {paper: 'https://doi.org/10.1075/gest.7.1.03rui'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: scharp2007gesture
+  title: 'Gesture and aphasia: Helping hands?'
+  authors: [Victoria L. Scharp, Connie A. Tompkins, Jana Marie Iverson]
+  year: 2007
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687030701192273
+  links: {paper: 'https://doi.org/10.1080/02687030701192273'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: shattuckhufnagel2007method
+  title: 'A Method for Studying the Time Alignment of Gestures and Prosody in American English: ‘Hits’ and Pitch Accents in Academic-Lecture-Style Speech'
+  authors: [Stefanie Shattuck‐Hufnagel, Yelena Yasinnik, Nanette M. Veilleux, Margaret E. L. Renwick]
+  year: 2007
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'https://ebooks.iospress.nl/volumearticle/8731'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: skipper2007speech
+  title: Speech-associated gestures, Broca’s area, and the human mirror system
+  authors: [Jeremy I Skipper, Susan Goldin‐Meadow, Howard C. Nusbaum, Steven L. Small]
+  year: 2007
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1016/j.bandl.2007.02.008
+  links: {paper: 'https://doi.org/10.1016/j.bandl.2007.02.008'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: stefanini2007spoken
+  title: Spoken and gestural production in a naming task by young children with Down syndrome
+  authors: [Silvia Stefanini, María Cristina Caselli, Virginia Volterra]
+  year: 2007
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1016/j.bandl.2007.01.005
+  links: {paper: 'https://doi.org/10.1016/j.bandl.2007.01.005'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: sunakawa2007adam
+  title: 'Adam Kendon , Gesture: Visible action as utterance'
+  authors: [Chiho Sunakawa]
+  year: 2007
+  venue: Language in Society
+  type: journal
+  category: theory
+  doi: 10.1017/s0047404507240059
+  links: {paper: 'https://doi.org/10.1017/s0047404507240059'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: swerts2007acoustic
+  title: Acoustic effects of visual beats
+  authors: [Marc G. J. Swerts, Emiel Krahmer]
+  year: 2007
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.399.4358'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: willems2007neural
+  title: 'Neural evidence for the interplay between language, gesture, and action: A review'
+  authors: [Roel M. Willems, Peter Hagoort]
+  year: 2007
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1016/j.bandl.2007.03.004
+  links: {paper: 'https://doi.org/10.1016/j.bandl.2007.03.004'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience

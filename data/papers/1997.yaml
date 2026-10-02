@@ -1,0 +1,255 @@
+# Papers published in 1997. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: alibali1997assessing
+  title: 'Assessing knowledge conveyed in gesture: Do teachers have the upper hand?'
+  authors: [Martha Wagner Alibali, Lucia M. Flevares, Susan Goldin‐Meadow]
+  year: 1997
+  venue: Journal of Educational Psychology
+  type: journal
+  category: theory
+  doi: 10.1037/0022-0663.89.1.183
+  links: {paper: 'https://doi.org/10.1037/0022-0663.89.1.183'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: archer1997unspoken
+  title: 'Unspoken Diversity: Cultural Differences in Gestures'
+  authors: [Dane Archer]
+  year: 1997
+  venue: Qualitative Sociology
+  type: journal
+  category: theory
+  doi: 10.1023/a:1024716331692
+  links: {paper: 'https://doi.org/10.1023/a:1024716331692'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction
+
+- id: blake1997communicative
+  title: Are Communicative Gestures the Substrate of Language?
+  authors: [Joanna Blake, Esther Olshansky, Grace Vitale, Silvana Macdonald]
+  year: 1997
+  venue: Evolution of Communication
+  type: journal
+  category: theory
+  doi: 10.1075/eoc.1.2.05bla
+  links: {paper: 'https://doi.org/10.1075/eoc.1.2.05bla'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: camaioni1997emergence
+  title: The Emergence of Intentional Communication in Ontogeny, Phylogeny, and Pathology
+  authors: [Luigia Camaioni]
+  year: 1997
+  venue: European Psychologist
+  type: journal
+  category: theory
+  doi: 10.1027/1016-9040.2.3.216
+  links: {paper: 'https://doi.org/10.1027/1016-9040.2.3.216'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: cartmill1997gesture
+  title: Gesture
+  authors: [Erica A. Cartmill, Susan Goldin‐Meadow]
+  year: 1997
+  venue: The International Encyclopedia of Language and Social Interaction
+  type: book
+  category: theory
+  doi: 10.1002/9781118611463.wbielsi136
+  links: {paper: 'https://doi.org/10.1002/9781118611463.wbielsi136'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: feyereisen1997competition
+  title: The Competition between Gesture and Speech Production in Dual-Task Paradigms
+  authors: [Pierre Feyereisen]
+  year: 1997
+  venue: Journal of Memory and Language
+  type: journal
+  category: theory
+  doi: 10.1006/jmla.1995.2458
+  links: {paper: 'https://doi.org/10.1006/jmla.1995.2458'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: goldinmeadow1997gestures
+  title: When Gestures and Words Speak Differently
+  authors: [Susan Goldin‐Meadow]
+  year: 1997
+  venue: Current Directions in Psychological Science
+  type: journal
+  category: theory
+  doi: 10.1111/1467-8721.ep10772905
+  links: {paper: 'https://doi.org/10.1111/1467-8721.ep10772905'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: hadar1997iconic
+  title: Iconic gestures, imagery, and word retrieval in speech
+  authors: [Uri Hadar, Brian L. Butterworth]
+  year: 1997
+  venue: Semiotica
+  type: journal
+  category: theory
+  doi: 10.1515/semi.1997.115.1-2.147
+  links: {paper: 'https://doi.org/10.1515/semi.1997.115.1-2.147'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: harris1997contrasting
+  title: Contrasting profiles of language development in children with williams and down syndromes
+  authors: [Naomi Singer Harris, Ursula Bellugi, Elizabeth A. Bates, Wendy Jones, Michael L. Rossen]
+  year: 1997
+  venue: Developmental Neuropsychology
+  type: journal
+  category: theory
+  doi: 10.1080/87565649709540683
+  links: {paper: 'https://doi.org/10.1080/87565649709540683'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: hutchins1997constructing
+  title: Constructing Meaning from Space, Gesture, and Speech
+  authors: [Edwin L. Hutchins, Leysia Palen]
+  year: 1997
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.1007/978-3-662-03362-3_2
+  links: {paper: 'https://doi.org/10.1007/978-3-662-03362-3_2'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: iverson1997whats
+  title: What's communication got to do with it? Gesture in children blind from birth.
+  authors: [Jana Marie Iverson, Susan Goldin‐Meadow]
+  year: 1997
+  venue: Developmental Psychology
+  type: journal
+  category: theory
+  doi: 10.1037/0012-1649.33.3.453
+  links: {paper: 'https://doi.org/10.1037/0012-1649.33.3.453'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: kelly1997children
+  title: Can Children Detect Conceptual Information Conveyed Through Other Children's Nonverbal Behavior's
+  authors: [Spencer D. Kelly, Ruth Breckinridge Church]
+  year: 1997
+  venue: Cognition and Instruction
+  type: journal
+  category: theory
+  doi: 10.1207/s1532690xci1501_4
+  links: {paper: 'https://doi.org/10.1207/s1532690xci1501_4'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: kita1997movement
+  title: Movement phases in signs and co-speech gestures, and their transcription by human coders
+  authors: [Sotaro Kita, Ingeborg van Gijn, Harry van der Hülst]
+  year: 1997
+  venue: Lecture notes in computer science
+  type: conference
+  category: theory
+  doi: 10.1007/bfb0052986
+  links: {paper: 'https://doi.org/10.1007/bfb0052986'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: lock1997gesture
+  title: The Role of Gesture in the Establishment of Symbolic Abilities
+  authors: [Andrew Lock]
+  year: 1997
+  venue: Evolution of Communication
+  type: journal
+  category: theory
+  doi: 10.1075/eoc.1.2.02loc
+  links: {paper: 'https://doi.org/10.1075/eoc.1.2.02loc'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: mcneill1997growth
+  title: Growth points cross-linguistically
+  authors: [David Moreno McNeill]
+  year: 1997
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/cbo9781139086677.008
+  links: {paper: 'https://doi.org/10.1017/cbo9781139086677.008'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: mcneill1997imagery
+  title: 'Imagery in Motion Event Descriptions: Gesture as Part of Thinking-For- Speaking in Three Languages'
+  authors: [David M. McNeill]
+  year: 1997
+  venue: Proceedings of the Annual Meeting of the Berkeley Linguistics Society
+  type: conference
+  category: theory
+  doi: 10.3765/bls.v23i1.1274
+  links: {paper: 'https://doi.org/10.3765/bls.v23i1.1274'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: morford1997here
+  title: 'From Here and Now to There and Then: The Development of Displaced Reference in Homesign and English'
+  authors: [Jill P. Morford, Susan Goldin‐Meadow]
+  year: 1997
+  venue: Child Development
+  type: journal
+  category: theory
+  doi: 10.1111/j.1467-8624.1997.tb01949.x
+  links: {paper: 'https://doi.org/10.1111/j.1467-8624.1997.tb01949.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: stone1997nonverbal
+  title: Nonverbal Communication in Two- and Three-Year-Old Children with Autism
+  authors: [Wendy L. Stone, Opal Ousley, Paul J. Yoder, Kerry L. Hogan, Susan Hepburn]
+  year: 1997
+  venue: Journal of Autism and Developmental Disorders
+  type: journal
+  category: theory
+  doi: 10.1023/a:1025854816091
+  links: {paper: 'https://doi.org/10.1023/a:1025854816091'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical

@@ -1,0 +1,72 @@
+# Papers published in 1982. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: feyereisen1982nonverbal
+  title: 'Nonverbal communication and aphasia: A review'
+  authors: [Pierre Feyereisen, Xavier Seron]
+  year: 1982
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1016/0093-934x(82)90083-9
+  links: {paper: 'https://doi.org/10.1016/0093-934x(82)90083-9'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: kearns1982gestural
+  title: Gestural Sign (Amer-Ind) as a Facilitator of Verbalization in Patients With Aphasia
+  authors: [Kevin P. Kearns, Nina N. Simmons, Christa Sisterhen]
+  year: 1982
+  venue: The Aphasiology Archive (University of Pittsburgh)
+  type: journal
+  category: theory
+  links: {paper: 'http://aphasiology.pitt.edu/725/1/12-23.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: masur1982mothers
+  title: 'Mothers'' responses to infants'' object-related gestures: influences on lexical development'
+  authors: [Elise Frank Masur]
+  year: 1982
+  venue: Journal of Child Language
+  type: journal
+  category: theory
+  doi: 10.1017/s0305000900003585
+  links: {paper: 'https://doi.org/10.1017/s0305000900003585'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: rime1982elimination
+  title: 'The elimination of visible behaviour from social interactions: Effects on verbal, nonverbal and interpersonal variables'
+  authors: [Bernard Rimé]
+  year: 1982
+  venue: European Journal of Social Psychology
+  type: journal
+  category: theory
+  doi: 10.1002/ejsp.2420120201
+  links: {paper: 'https://doi.org/10.1002/ejsp.2420120201'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: riseborough1982meaning
+  title: 'Meaning in movement: An investigation into the interrelationship of physiographic gestures and speech in seven‐year‐olds'
+  authors: [Margaret Gwendoline Riseborough]
+  year: 1982
+  venue: British Journal of Psychology
+  type: journal
+  category: theory
+  doi: 10.1111/j.2044-8295.1982.tb01831.x
+  links: {paper: 'https://doi.org/10.1111/j.2044-8295.1982.tb01831.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development

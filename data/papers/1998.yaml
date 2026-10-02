@@ -1,0 +1,403 @@
+# Papers published in 1998. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: adams1998gesture
+  title: Gesture in foreigner talk
+  authors: [Thomas W. Adams]
+  year: 1998
+  venue: Scholarly Commons (University of Pennsylvania)
+  type: thesis
+  category: theory
+  links: {paper: 'https://repository.upenn.edu/dissertations/AAI9829850'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: barcenas1998language
+  title: 'Language and gesture in lower income and middle class Spanish-speaking children: Can parental report be used?'
+  authors: [RosaPatricia Bárcenas, Donna Jackson‐Maldonado, Donna J. Thal]
+  year: 1998
+  venue: Infant Behavior and Development
+  type: journal
+  category: theory
+  doi: 10.1016/s0163-6383(98)91491-6
+  links: {paper: 'https://doi.org/10.1016/s0163-6383(98)91491-6'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
+
+- id: beattie1998iconic
+  title: Do iconic gestures have a functional role in lexical access? An experimental study of the effects of repeating a verbal message on gesture production
+  authors: [Geoffrey W. Beattie, Jane Coughlan]
+  year: 1998
+  venue: Semiotica
+  type: journal
+  category: theory
+  doi: 10.1515/semi.1998.119.3-4.221
+  links: {paper: 'https://doi.org/10.1515/semi.1998.119.3-4.221'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: capps1998conversational
+  title: Conversational Abilities Among Children with Autism and Children with Developmental Delays
+  authors: [Lisa M. Capps, Jennifer Kehres, Marian Sigman]
+  year: 1998
+  venue: Autism
+  type: journal
+  category: theory
+  doi: 10.1177/1362361398024002
+  links: {paper: 'https://doi.org/10.1177/1362361398024002'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: caselli1998gestures
+  title: Gestures and Words in Early Development of Children With Down Syndrome
+  authors: [María Cristina Caselli, Stefano Vicari, Emiddia Longobardi, Laura Lami, Claudia Pizzoli, Giacomo Stella]
+  year: 1998
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/jslhr.4105.1125
+  links: {paper: 'https://doi.org/10.1044/jslhr.4105.1125'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: cienki1998metaphoric
+  title: Metaphoric gestures and some of their relations to verbal metaphoric expressions
+  authors: [A. Cienki, Jean-Pierre Koenig]
+  year: 1998
+  venue: Data Archiving and Networked Services (DANS)
+  type: book
+  category: theory
+  links: {paper: 'https://research.vu.nl/en/publications/006d67bf-b576-42e6-a07b-78fe0002afbf'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: fex1998gestures
+  title: The use of gestures as a compensatory strategy in adults with acquired aphasia compared to children with specific language impairment (SLI)
+  authors: [Bibi Fex, Ann-Christin Månsson]
+  year: 1998
+  venue: Journal of Neurolinguistics
+  type: journal
+  category: theory
+  doi: 10.1016/s0911-6044(98)00013-x
+  links: {paper: 'https://doi.org/10.1016/s0911-6044(98)00013-x'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: frickhorbury1998restricting
+  title: The Effects of Restricting Hand Gesture Production on Lexical Retrieval and Free Recall
+  authors: [Donna Frick-Horbury, Robert E. Guttentag]
+  year: 1998
+  venue: The American Journal of Psychology
+  type: journal
+  category: theory
+  doi: 10.2307/1423536
+  links: {paper: 'https://doi.org/10.2307/1423536'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: garcia1998dysarthric
+  title: Dysarthric Sentence Intelligibility
+  authors: [Jane Mertz Garcia, Paul A. Dagenais]
+  year: 1998
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/jslhr.4106.1282
+  links: {paper: 'https://doi.org/10.1044/jslhr.4106.1282'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: gather1998knowledge
+  title: Knowledge Conveyed in Gesture Is Not Tied to the Hands
+  authors: [Philip Gather, Martha Wagner Alibali, Susan Goldin‐Meadow]
+  year: 1998
+  venue: Child Development
+  type: journal
+  category: theory
+  doi: 10.1111/j.1467-8624.1998.tb06134.x
+  links: {paper: 'https://doi.org/10.1111/j.1467-8624.1998.tb06134.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: glosser1998gestural
+  title: Gestural Communication in Alzheimer's Disease
+  authors: [Guila Glosser, Mary J. Wiley, Edward J Barnoskir]
+  year: 1998
+  venue: Journal of Clinical and Experimental Neuropsychology
+  type: journal
+  category: theory
+  doi: 10.1076/jcen.20.1.1.1484
+  links: {paper: 'https://doi.org/10.1076/jcen.20.1.1.1484'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: goldinmeadow1998development
+  title: The development of gesture and speech as an integrated system
+  authors: [Susan Goldin‐Meadow]
+  year: 1998
+  venue: New Directions for Child and Adolescent Development
+  type: journal
+  category: theory
+  doi: 10.1002/cd.23219987903
+  links: {paper: 'https://doi.org/10.1002/cd.23219987903'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: goodwyn1998encouraging
+  title: 'Encouraging symbolic gestures: A new perspective on the relationship between gesture and speech'
+  authors: [Susan W. Goodwyn, Linda P. Acredolo]
+  year: 1998
+  venue: New Directions for Child and Adolescent Development
+  type: journal
+  category: theory
+  doi: 10.1002/cd.23219987905
+  links: {paper: 'https://doi.org/10.1002/cd.23219987905'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
+
+- id: gullberg1998gesture
+  title: 'Gesture as a Communication Strategy in Second Language Discourse: A Study of Learners of French and Swedish'
+  authors: [Marianne Gullberg]
+  year: 1998
+  venue: Max Planck Digital Library
+  type: book
+  category: theory
+  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0013-3109-1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: gullberg1998gestureb
+  title: Gesture as a communication strategy in second language discourse
+  authors: [Marianne Gullberg]
+  year: 1998
+  venue: Unknown venue
+  type: book
+  category: theory
+  links: {paper: 'https://openlibrary.org/books/OL21882623M/Gesture_as_a_communication_strategy_in_second_language_discourse'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: hadar1998gesture
+  title: 'Gesture and the Processing of Speech: Neuropsychological Evidence'
+  authors: [Uri Hadar, D. Wenkert-Olenik, Robert K. Krauss, Nachum Soroker]
+  year: 1998
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1006/brln.1997.1890
+  links: {paper: 'https://doi.org/10.1006/brln.1997.1890'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: hadar1998ideational
+  title: Ideational Gestures and Speech in Brain-damaged Subjects
+  authors: [Uri Hadar, A. Burstein, R. Krauss, Nachum Soroker]
+  year: 1998
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/016909698386591
+  links: {paper: 'https://doi.org/10.1080/016909698386591'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: haviland1998early
+  title: Early Pointing Gestures in Zincantán
+  authors: [John Beard Haviland]
+  year: 1998
+  venue: Journal of Linguistic Anthropology
+  type: journal
+  category: theory
+  doi: 10.1525/jlin.1998.8.2.162
+  links: {paper: 'https://doi.org/10.1525/jlin.1998.8.2.162'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: hill1998representation
+  title: 'Representational gestures in Developmental Coordination Disorder and specific language impairment: Error-types and the reliability of ratings'
+  authors: [Elisabeth L. Hill, Dorothy Bishop, Ian Nimmo‐Smith]
+  year: 1998
+  venue: Human Movement Science
+  type: journal
+  category: theory
+  doi: 10.1016/s0167-9457(98)00017-7
+  links: {paper: 'https://doi.org/10.1016/s0167-9457(98)00017-7'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: jana1998nature
+  title: The nature and functions of gesture in children's communication
+  authors: [M Iverson Jana, Susan Goldin]
+  year: 1998
+  venue: Jossey-Bass Publishers eBooks
+  type: book
+  category: theory
+  links: {paper: 'http://ci.nii.ac.jp/ncid/BA34711251'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: kelly1998comparison
+  title: A Comparison between Children's and Adults' Ability to Detect Conceptual Information Conveyed through Representational Gestures
+  authors: [Spencer D. Kelly, Ruth Breckinridge Church]
+  year: 1998
+  venue: Child Development
+  type: journal
+  category: theory
+  doi: 10.1111/j.1467-8624.1998.tb06135.x
+  links: {paper: 'https://doi.org/10.1111/j.1467-8624.1998.tb06135.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: krauss1998gesture
+  title: Why Do We Gesture When We Speak?
+  authors: [Robert M. Krauss]
+  year: 1998
+  venue: Current Directions in Psychological Science
+  type: journal
+  category: theory
+  doi: 10.1111/1467-8721.ep13175642
+  links: {paper: 'https://doi.org/10.1111/1467-8721.ep13175642'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: mayberry1998stuttering
+  title: What stuttering reveals about the development of the gesture-speech relationship
+  authors: [Rachel I. Mayberry, Joselynne Jaques, Gayle DeDe]
+  year: 1998
+  venue: New Directions for Child and Adolescent Development
+  type: journal
+  category: theory
+  doi: 10.1002/cd.23219987906
+  links: {paper: 'https://doi.org/10.1002/cd.23219987906'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
+
+- id: mccafferty1998nonverbal
+  title: Nonverbal Expression and L2 Private Speech
+  authors: [Steven G. McCafferty]
+  year: 1998
+  venue: Applied Linguistics
+  type: journal
+  category: theory
+  doi: 10.1093/applin/19.1.73
+  links: {paper: 'https://doi.org/10.1093/applin/19.1.73'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: mcneill1998models
+  title: Models of Speaking (To Their Amazement) Meet Speech-Synchronized Gestures
+  authors: [David M. McNeill]
+  year: 1998
+  venue: CogPrints (University of Southampton)
+  type: preprint
+  category: theory
+  links: {paper: 'http://cogprints.org/665/1/McNeill_Catchments.html'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: namy1998words
+  title: 'Words and Gestures: Infants'' Interpretations of Different Forms of Symbolic Reference'
+  authors: [Laura L. Namy, Sandra R. Waxman]
+  year: 1998
+  venue: Child Development
+  type: journal
+  category: theory
+  doi: 10.1111/j.1467-8624.1998.tb06189.x
+  links: {paper: 'https://doi.org/10.1111/j.1467-8624.1998.tb06189.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: roth1998decalages
+  title: 'Decalages in Talk and Gesture: Visual and Verbal Semiotics of Ecology Lectures'
+  authors: [Wolff‐Michael Roth, Gervase Michael Bowen]
+  year: 1998
+  venue: Linguistics and Education
+  type: journal
+  category: theory
+  doi: 10.1016/s0898-5898(99)00012-1
+  links: {paper: 'https://doi.org/10.1016/s0898-5898(99)00012-1'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: education
+
+- id: ruiter1998gesture
+  title: Gesture and speech production
+  authors: [De Ruiter, J. Peter]
+  year: 1998
+  venue: Max Planck Digital Library
+  type: journal
+  category: theory
+  doi: 10.17617/2.2057686
+  links: {paper: 'https://doi.org/10.17617/2.2057686'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: troisi1998nonverbal
+  title: 'Non‐verbal behaviour deficits in schizophrenia: an ethological study of drug‐free patients'
+  authors: [Alfonso Troisi, Gianfranco Spalletta, Augusto Pasini]
+  year: 1998
+  venue: Acta Psychiatrica Scandinavica
+  type: journal
+  category: theory
+  doi: 10.1111/j.1600-0447.1998.tb09971.x
+  links: {paper: 'https://doi.org/10.1111/j.1600-0447.1998.tb09971.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical

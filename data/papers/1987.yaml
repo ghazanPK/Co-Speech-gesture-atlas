@@ -1,0 +1,44 @@
+# Papers published in 1987. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: deaux1987review
+  title: Review of Nonverbal Behavior and Communication (2nd ed.).
+  authors: [Kay Deaux]
+  year: 1987
+  venue: Contemporary Psychology
+  type: journal
+  category: theory
+  doi: 10.1037/026602
+  links: {paper: 'https://doi.org/10.1037/026602'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction
+
+- id: feyereisen1987gestures
+  title: 'Gestures and speech, interactions and separations: A reply to McNeill (1985).'
+  authors: [Pierre Feyereisen]
+  year: 1987
+  venue: Psychological Review
+  type: journal
+  category: theory
+  doi: 10.1037/0033-295x.94.4.493
+  links: {paper: 'https://doi.org/10.1037/0033-295x.94.4.493'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: kendon1987gesture
+  title: 'On gesture: its complementary relationship with speech'
+  authors: [Adam Kendon]
+  year: 1987
+  venue: Medical Entomology and Zoology
+  type: journal
+  category: theory
+  links: {paper: 'https://ci.nii.ac.jp/naid/10009675440'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics

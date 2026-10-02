@@ -1,0 +1,58 @@
+# Papers published in 1980. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: dalby1980lateralized
+  title: Lateralized Hand Gesture during Speech
+  authors: [John Dalby, David Gibson, Vittorio Grossi, Richard D. Schneider]
+  year: 1980
+  venue: Journal of Motor Behavior
+  type: journal
+  category: theory
+  doi: 10.1080/00222895.1980.10735228
+  links: {paper: 'https://doi.org/10.1080/00222895.1980.10735228'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: kendon1980gesticulation
+  title: 'Gesticulation and Speech: Two Aspects of the Process of Utterance'
+  authors: [Adam Kendon]
+  year: 1980
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.1515/9783110813098.207
+  links: {paper: 'https://doi.org/10.1515/9783110813098.207'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: mcneill1980conceptual
+  title: Conceptual Representations in Language Activity and Gesture.
+  authors: [David M. McNeill, Elena T. Levy]
+  year: 1980
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'https://eric.ed.gov/?id=ED201202'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: wiens1980personality
+  title: Personality correlates of nonverbal interview behavior
+  authors: [Arthur N. Wiens, Robert G. Harper, Joseph D. Matarazzo]
+  year: 1980
+  venue: Journal of Clinical Psychology
+  type: journal
+  category: theory
+  doi: 10.1002/1097-4679(198001)36:1<205::aid-jclp2270360126>3.0.co;2-a
+  links: {paper: 'https://doi.org/10.1002/1097-4679(198001)36:1<205::aid-jclp2270360126>3.0.co;2-a'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction

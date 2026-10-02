@@ -1,0 +1,72 @@
+# Papers published in 1981. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: leung1981development
+  title: Development of pointing as a social gesture.
+  authors: [Eleanor H. L. Leung, Harriet Lange Rheingold]
+  year: 1981
+  venue: Developmental Psychology
+  type: journal
+  category: theory
+  doi: 10.1037/0012-1649.17.2.215
+  links: {paper: 'https://doi.org/10.1037/0012-1649.17.2.215'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: peterson1981gestural
+  title: 'Gestural impairment and gestural ability in aphasia: A review'
+  authors: [Laura N. Peterson, Howard S. Kirshner]
+  year: 1981
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1016/0093-934x(81)90084-5
+  links: {paper: 'https://doi.org/10.1016/0093-934x(81)90084-5'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: sebeok1981nonverbal
+  title: 'Nonverbal communication, interaction, and gesture : selections from Semiotica'
+  authors: [Thomas A. Sebeok, Donna Jean Umiker-Sebeok, Adam Kendon]
+  year: 1981
+  venue: Mouton eBooks
+  type: book
+  category: theory
+  links: {paper: 'http://ci.nii.ac.jp/ncid/BA04297528'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction
+
+- id: woodall1981encoding
+  title: 'Encoding specificity and nonverbal cue context: An expansion of episodic memory research'
+  authors: [W. Gill Woodall, Joseph P. Folger]
+  year: 1981
+  venue: Communication Monographs
+  type: journal
+  category: theory
+  doi: 10.1080/03637758109376046
+  links: {paper: 'https://doi.org/10.1080/03637758109376046'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: woodall1981nonverbal
+  title: The effects of nonverbal synchrony on message comprehension and persuasiveness
+  authors: [W. Gill Woodall, Judee K. Burgoon]
+  year: 1981
+  venue: Journal of Nonverbal Behavior
+  type: journal
+  category: theory
+  doi: 10.1007/bf00987460
+  links: {paper: 'https://doi.org/10.1007/bf00987460'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction

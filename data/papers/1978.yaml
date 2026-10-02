@@ -1,0 +1,58 @@
+# Papers published in 1978. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: butterworth1978gesture
+  title: Gesture and Silence as Indicators of Planning in Speech
+  authors: [Brian L. Butterworth, Geoffrey W. Beattie]
+  year: 1978
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.1007/978-1-4684-2532-1_19
+  links: {paper: 'https://doi.org/10.1007/978-1-4684-2532-1_19'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: kadish1978neuropsycholog
+  title: A neuropsychological approach to the study of gesture and pantomime in aphasa
+  authors: [Jocelyn Kadish]
+  year: 1978
+  venue: South African Journal of Communication Disorders
+  type: journal
+  category: theory
+  doi: 10.4102/sajcd.v25i1.375
+  links: {paper: 'https://doi.org/10.4102/sajcd.v25i1.375'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: lickiss1978visual
+  title: Effects of Visual Accessibility and Hand Restraint on Fluency of Gesticulator and Effectiveness of Message
+  authors: [Karen P. Lickiss, A. Rodney Wellens]
+  year: 1978
+  venue: Perceptual and Motor Skills
+  type: journal
+  category: theory
+  doi: 10.2466/pms.1978.46.3.925
+  links: {paper: 'https://doi.org/10.2466/pms.1978.46.3.925'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: lock1978action
+  title: 'Action, gesture, and symbol : the emergence of language'
+  authors: [Andrew Lock]
+  year: 1978
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'https://bvbr.bib-bvb.de:443/F?func=service&doc_library=BVB01&local_base=BVB01&doc_number=002307637&sequence=000002&line_number=0001&func_code=DB_RECORDS&service_type=MEDIA'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development

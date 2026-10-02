@@ -1,0 +1,31 @@
+# Papers published in 1973. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: sherzer1973verbal
+  title: 'Verbal and nonverbal deixis: the pointed lip gesture among the San Blas Cuna'
+  authors: [Joël Sherzer]
+  year: 1973
+  venue: Language in Society
+  type: journal
+  category: theory
+  doi: 10.1017/s0047404500000087
+  links: {paper: 'https://doi.org/10.1017/s0047404500000087'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: wundt1973language
+  title: The Language of Gestures
+  authors: [Wilhelm Max Wundt]
+  year: 1973
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.1515/9783110808285
+  links: {paper: 'https://doi.org/10.1515/9783110808285'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: other

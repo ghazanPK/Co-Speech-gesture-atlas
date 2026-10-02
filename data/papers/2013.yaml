@@ -2,6 +2,101 @@
 # The README tables are generated from these files. Field rules: docs/SCHEMA.md
 # (enforced by schema/schema.json and scripts/validate.py).
 
+- id: ahlsen2013features
+  title: Features of aphasic gesturing – An exploratory study of features in gestures produced by persons with and without aphasia
+  authors: [Elisabeth Ahlsén, Anneli Schwarz]
+  year: 2013
+  venue: Clinical Linguistics & Phonetics
+  type: journal
+  category: theory
+  doi: 10.3109/02699206.2013.813077
+  links: {paper: 'https://doi.org/10.3109/02699206.2013.813077'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: ahlsen2013whats
+  title: What’s in a gesture? On verbs; nouns; actions and objects as reflected in gestures of persons with and without aphasia
+  authors: [Elisabeth Ahlsén, Jens Allwood]
+  year: 2013
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'http://sskkii.gu.se/jens/publications/bfiles/B128%20What%20is%20in%20a%20gesture%20Ahlsen%20Allwood.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: alexanderson2013extracting
+  title: Extracting and analysing co-speech head gestures from motion-capture data
+  authors: [Simon Alexanderson, David House, Jonas Beskow]
+  year: 2013
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'https://www.liu.se/ikk/fonetik2013/proceedings/1.466766/Alexanderson_House_Beskow_Fonetik2013.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: alexanderson2013extractingb
+  title: Extracting and analyzing head movements accompanying spontaneous dialogue
+  authors: [Simon Alexanderson, David House, Jonas Beskow]
+  year: 2013
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.416.8335'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: alibali2013students
+  title: Students learn more when their teacher has learned to gesture effectively
+  authors: [Martha Wagner Alibali, Andrew G. Young, Noelle M. Crooks, Amelia Yeo, Matthew S. Wolfgram, Iasmine M. Ledesma, Mitchell J. Nathan, Ruth Breckinridge Church, Eric Knuth]
+  year: 2013
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.13.2.05ali
+  links: {paper: 'https://doi.org/10.1075/gest.13.2.05ali'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: alibali2013teachers
+  title: 'How Teachers Link Ideas in Mathematics Instruction Using Speech and Gesture: A Corpus Analysis'
+  authors: [Martha Wagner Alibali, Mitchell J. Nathan, Matthew S. Wolfgram, Ruth Breckinridge Church, Steven A. Jacobs, Chelsea Johnson Martinez, Eric Knuth]
+  year: 2013
+  venue: Cognition and Instruction
+  type: journal
+  category: theory
+  doi: 10.1080/07370008.2013.858161
+  links: {paper: 'https://doi.org/10.1080/07370008.2013.858161'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: alibali2013teachersb
+  title: 'Teachers’ gestures and speech in mathematics lessons: forging common ground by resolving trouble spots'
+  authors: [Martha Wagner Alibali, Mitchell J. Nathan, Ruth Breckinridge Church, Matthew S. Wolfgram, Suyeon Kim, Eric Knuth]
+  year: 2013
+  venue: ZDM
+  type: journal
+  category: theory
+  doi: 10.1007/s11858-012-0476-0
+  links: {paper: 'https://doi.org/10.1007/s11858-012-0476-0'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: education
+
 - id: aly2013model
   title: A model for synthesizing a combined verbal and nonverbal behavior based on personality traits in human-robot interaction
   authors: [Amir Aly, Adriana Tapus]
@@ -19,6 +114,79 @@
   checked: abstract
   verified: false
 
+- id: aly2013prosody
+  title: Prosody-based adaptive metaphoric head and arm gestures synthesis in human robot interaction
+  authors: [Amir Aly, Adriana Tapus]
+  year: 2013
+  venue: ICAR
+  type: conference
+  category: method
+  doi: 10.1109/icar.2013.6766507
+  links: {paper: 'https://doi.org/10.1109/icar.2013.6766507', open: 'https://hal.science/hal-01180239'}
+  input: [audio]
+  output: [upper-body]
+  approach: [other]
+  datasets: [custom]
+  summary: Maps speech prosody to head and arm gestures for a robot using coupled hidden Markov models trained on an emotional-state audio-video database.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: amoruso2013erps
+  title: 'N400 ERPs for actions: building meaning in context'
+  authors: [Lucía Amoruso, Carlos Gelormini‐Lezama, Francisco Aboitiz, Miguel Alvarez González, Facundo Francisco Manes, Juan F. Cardona, Agustín M. Ibáñez]
+  year: 2013
+  venue: Frontiers in Human Neuroscience
+  type: journal
+  category: theory
+  doi: 10.3389/fnhum.2013.00057
+  links: {paper: 'https://doi.org/10.3389/fnhum.2013.00057'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: argyriou2013left
+  title: The Effect of Left-Hand Gestures on Metaphor Explanation
+  authors: [Paraskevi Argyriou, Sotaro Kita]
+  year: 2013
+  venue: eScholarship (California Digital Library)
+  type: journal
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/5jt143s0'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: bavelas2013reconciling
+  title: Reconciling the effects of mutual visibility on gesturing
+  authors: [Janet Beavin Bavelas, Sara Healing]
+  year: 2013
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.13.1.03bav
+  links: {paper: 'https://doi.org/10.1075/gest.13.1.03bav'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: belhiah2013hand
+  title: 'Using the Hand to Choreograph Instruction: On the Functional Role of Gesture in Definition Talk'
+  authors: [Hassan Belhiah]
+  year: 2013
+  venue: Modern Language Journal
+  type: journal
+  category: theory
+  doi: 10.1111/j.1540-4781.2013.12012.x
+  links: {paper: 'https://doi.org/10.1111/j.1540-4781.2013.12012.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
 - id: bergmann2013cospeech
   title: Co-speech Gesture Generation for Embodied Agents and its Effects on User Evaluation
   authors: [Kirsten Bergmann]
@@ -32,6 +200,33 @@
   added: '2026-10-03'
   checked: metadata
   verified: false
+
+- id: bergmann2013semantic
+  title: Modeling the Semantic Coordination of Speech and Gesture under Cognitive and Linguistic Constraints
+  authors: [Kirsten Bergmann, Sebastian Kahl, Stefan Kopp]
+  year: 2013
+  venue: IVA
+  type: conference
+  category: method
+  doi: 10.1007/978-3-642-40415-3_18
+  links: {paper: 'https://doi.org/10.1007/978-3-642-40415-3_18', open: 'https://pub.uni-bielefeld.de/record/2610719'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: biau2013spontaneous
+  title: Spontaneous gestures modulate speech processing through phase resetting of delta–theta neural oscillations
+  authors: [Emmanuel Biau, Salvador Soto‐Faraco, Ruth de Diego‐Balaguer, Lluís Fuentemilla]
+  year: 2013
+  venue: Multisensory Research
+  type: journal
+  category: theory
+  doi: 10.1163/22134808-000s0043
+  links: {paper: 'https://doi.org/10.1163/22134808-000s0043'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
 
 - id: bozkurt2013multimodal
   title: Multimodal analysis of speech prosody and upper body gestures using hidden semi-Markov models
@@ -66,6 +261,339 @@
   checked: abstract
   verified: false
 
+- id: brentari2013interaction
+  title: The interaction of pitch accent and gesture production in Italian and English
+  authors: [Diane Brentari, Giovanna Marotta, Ilaria Margherita, A. Ott]
+  year: 2013
+  venue: Studi e saggi linguistici
+  type: journal
+  category: theory
+  doi: 10.4454/ssl.v51i1.99
+  links: {paper: 'https://doi.org/10.4454/ssl.v51i1.99'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: brown2013construal
+  title: Construal of Manner in speech and gesture in Mandarin, English, and Japanese
+  authors: [Amanda Brown, Jidong Chen]
+  year: 2013
+  venue: Cognitive Linguistics
+  type: journal
+  category: theory
+  doi: 10.1515/cog-2013-0021
+  links: {paper: 'https://doi.org/10.1515/cog-2013-0021'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: cavicchio2013english
+  title: English/Italian Bilinguals Switch Gesture Parameters when they Switch Languages
+  authors: [Federica Cavicchio, Sotaro Kita]
+  year: 2013
+  venue: eScholarship (California Digital Library)
+  type: journal
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/6tp989dh'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: chelioti2013individual
+  title: 'Individual differences in frequency and saliency of speech-accompanying gestures: The role of cognitive abilities and empathy.'
+  authors: [Christina Chelioti, D. Dhiman, Rachel C. Furness, A. Griffiths, Beatrice Hannah, S. Jilka, J. Lau, Z. Shao, Callie Steadman, L. Torney]
+  year: 2013
+  venue: Journal of Experimental Psychology General
+  type: journal
+  category: theory
+  doi: 10.1037/a0033861
+  links: {paper: 'https://doi.org/10.1037/a0033861'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: chong2013producing
+  title: Producing gestures facilitates encoding of spatial relation.
+  authors: [Amy Lee Chong, Ben C. F. Choi, Elena Kwong, Jennifer Chan, Irina Chong, Mavis Ip, Christopher Yeung, Wing‐Chee So]
+  year: 2013
+  venue: eScholarship (California Digital Library)
+  type: journal
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/3mg475gn'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: chu2013synchronizatio
+  title: 'Synchronization of speech and gesture: Evidence for interaction in action.'
+  authors: [Mingyuan Chu, Peter Hagoort]
+  year: 2013
+  venue: Journal of Experimental Psychology General
+  type: journal
+  category: theory
+  doi: 10.1037/a0036281
+  links: {paper: 'https://doi.org/10.1037/a0036281'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: church2013temporal
+  title: Temporal synchrony between speech, action and gesture during language production
+  authors: [Ruth Breckinridge Church, Spencer D. Kelly, David Holcombe]
+  year: 2013
+  venue: Language Cognition and Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1080/01690965.2013.857783
+  links: {paper: 'https://doi.org/10.1080/01690965.2013.857783'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: cienki2013creativity
+  title: 11. Creativity in the forms and functions of spontaneous gestures with speech
+  authors: [Alan J. Cienki, Irene Mittelberg]
+  year: 2013
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.1515/9783110295290.231
+  links: {paper: 'https://doi.org/10.1515/9783110295290.231'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: cienki2013image
+  title: Image schemas and mimetic schemas in cognitive linguistics and gesture studies
+  authors: [Alan J. Cienki]
+  year: 2013
+  venue: Benjamins current topics
+  type: book
+  category: theory
+  doi: 10.1075/bct.78.13cie
+  links: {paper: 'https://doi.org/10.1075/bct.78.13cie'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: cochet2013deictic
+  title: 'Deictic gestures and symbolic gestures produced by adults in an experimental context: Hand shapes and hand preferences'
+  authors: [Hélène Cochet, Jacques Vauclair]
+  year: 2013
+  venue: Laterality Asymmetries of Body Brain and Cognition
+  type: journal
+  category: theory
+  doi: 10.1080/1357650x.2013.804079
+  links: {paper: 'https://doi.org/10.1080/1357650x.2013.804079'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: cocks2013impact
+  title: The impact of impaired semantic knowledge on spontaneous iconic gesture production
+  authors: [Naomi Cocks, Lucy T. Dipper, Madeleine Pritchard, GARY S. MORGAN]
+  year: 2013
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687038.2013.770816
+  links: {paper: 'https://doi.org/10.1080/02687038.2013.770816'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: cook2013consolidation
+  title: Consolidation and Transfer of Learning After Observing Hand Gesture
+  authors: [Susan Wagner Cook, Ryan G. Duffy, Kimberly M. Fenn]
+  year: 2013
+  venue: Child Development
+  type: journal
+  category: theory
+  doi: 10.1111/cdev.12097
+  links: {paper: 'https://doi.org/10.1111/cdev.12097'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: cutica2013cognitive
+  title: 'Cognitive change in learning from text: Gesturing enhances the construction of the text mental model'
+  authors: [Ilaria Cutica, Monica Bucciarelli]
+  year: 2013
+  venue: Journal of Cognitive Psychology
+  type: journal
+  category: theory
+  doi: 10.1080/20445911.2012.743987
+  links: {paper: 'https://doi.org/10.1080/20445911.2012.743987'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: dael2013perceived
+  title: Perceived Gesture Dynamics in Nonverbal Expression of Emotion
+  authors: [Nele Dael, Martijn B. Goudbeek, Klaus R. Scherer]
+  year: 2013
+  venue: Perception
+  type: journal
+  category: theory
+  doi: 10.1068/p7364
+  links: {paper: 'https://doi.org/10.1068/p7364'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: debreslioska2013gestural
+  title: Gestural Viewpoint Signals Referent Accessibility
+  authors: [Sandra Debreslioska, Aslı Özyürek, Marianne Gullberg, Pamela Perniss]
+  year: 2013
+  venue: Discourse Processes
+  type: journal
+  category: theory
+  doi: 10.1080/0163853x.2013.824286
+  links: {paper: 'https://doi.org/10.1080/0163853x.2013.824286'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: demir2013narrative
+  title: 'Narrative processing in typically developing children and children with early unilateral brain injury: Seeing gesture matters.'
+  authors: [Özlem Ece Demir, Joan A. Fisher, Susan Goldin‐Meadow, Susan Cohen Levine]
+  year: 2013
+  venue: Developmental Psychology
+  type: journal
+  category: theory
+  doi: 10.1037/a0034322
+  links: {paper: 'https://doi.org/10.1037/a0034322'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: devilbiss2013occupational
+  title: An Analysis of Occupational Therapists� Listening Behaviors During Treatment Sessions
+  authors: [Steven DeVilbiss, Andreanna Rodriquez, Maria Tolentino]
+  year: 2013
+  venue: Unknown venue
+  type: thesis
+  category: theory
+  doi: 10.33015/dominican.edu/2013.ot.09
+  links: {paper: 'https://doi.org/10.33015/dominican.edu/2013.ot.09'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: diessel2013where
+  title: Where does language come from? Some reflections on the role of deictic gesture and demonstratives in the evolution of language
+  authors: [Holger Diessel]
+  year: 2013
+  venue: Language and Cognition
+  type: journal
+  category: theory
+  doi: 10.1515/langcog-2013-0017
+  links: {paper: 'https://doi.org/10.1515/langcog-2013-0017'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: dimitrova2013gesture
+  title: How Gesture Input Provides a Helping Hand to Language Development
+  authors: [Nevena Dimitrova, Şeyda Özçalışkan]
+  year: 2013
+  venue: Seminars in Speech and Language
+  type: journal
+  category: theory
+  doi: 10.1055/s-0033-1353447
+  links: {paper: 'https://doi.org/10.1055/s-0033-1353447'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: dingemanse2013ideophones
+  title: Ideophones and gesture in everyday speech
+  authors: [Mark Dingemanse]
+  year: 2013
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.13.2.02din
+  links: {paper: 'https://doi.org/10.1075/gest.13.2.02din'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: enfield2013composite
+  title: A ‘Composite Utterances’ approach to meaning
+  authors: [N. J. Enfield]
+  year: 2013
+  venue: MPG.PuRe (Max Planck Society)
+  type: book
+  category: theory
+  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-000F-AA56-5'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: eng2013speech
+  title: Can co-speech hand gestures facilitate learning of non-native tones?
+  authors: [Katelyn Eng, Beverly Hannah, Lindsay Ann Leong, Yue Wang]
+  year: 2013
+  venue: Proceedings of meetings on acoustics
+  type: conference
+  category: theory
+  doi: 10.1121/1.4799746
+  links: {paper: 'https://doi.org/10.1121/1.4799746'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: estevegibert2013infants
+  title: Infants temporally coordinate gesture-speech combinations before they produce their first words
+  authors: [Núria Esteve‐Gibert, Pilar Prieto]
+  year: 2013
+  venue: Speech Communication
+  type: journal
+  category: theory
+  doi: 10.1016/j.specom.2013.06.006
+  links: {paper: 'https://doi.org/10.1016/j.specom.2013.06.006'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
+
+- id: fay2013bootstrap
+  title: How to Bootstrap a Human Communication System
+  authors: [Nicolas Fay, Michael A. Arbib, Simon Garrod]
+  year: 2013
+  venue: Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1111/cogs.12048
+  links: {paper: 'https://doi.org/10.1111/cogs.12048'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
 - id: fernandezbaena2013emphasis
   title: Gesture synthesis adapted to speech emphasis
   authors: [Adso Fernández-Baena, Raúl Montaño, Marc Antonijoan, Arturo Roversi, David Miralles, Francesc Álías]
@@ -78,6 +606,871 @@
   added: '2026-10-03'
   checked: metadata
   verified: false
+
+- id: fricke2013unified
+  title: '46. Towards a unified grammar of gesture and speech: A multimodal approach'
+  authors: [Ellen Fricke]
+  year: 2013
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.1515/9783110261318.733
+  links: {paper: 'https://doi.org/10.1515/9783110261318.733'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: furman2013early
+  title: 'Early language-specificity of children''s event encoding in speech and gesture: evidence from caused motion in Turkish'
+  authors: [Reyhan Furman, Ayli̇n C. Küntay, Aslı Özyürek]
+  year: 2013
+  venue: Language Cognition and Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1080/01690965.2013.824993
+  links: {paper: 'https://doi.org/10.1080/01690965.2013.824993'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: galati2013speakers
+  title: 'Speakers adapt gestures to addressees'' knowledge: implications for models of co-speech gesture'
+  authors: [Alexia Galati, Susan E. Brennan]
+  year: 2013
+  venue: Language Cognition and Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1080/01690965.2013.796397
+  links: {paper: 'https://doi.org/10.1080/01690965.2013.796397'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: galvao2013hand
+  title: 'Hand Gestures and speech production in the booth: do simultaneous interpreters imitate the speaker?'
+  authors: [Elena Zagar Galvão]
+  year: 2013
+  venue: Imprensa da Universidade de Coimbra eBooks
+  type: book
+  category: theory
+  doi: 10.14195/978-989-26-0714-6_7
+  links: {paper: 'https://doi.org/10.14195/978-989-26-0714-6_7'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: gillespielynch2013cross
+  title: 'A Cross-Species Study of Gesture and Its Role in Symbolic Development: Implications for the Gestural Theory of Language Evolution'
+  authors: [Kristen Gillespie‐Lynch, Patricia M. Greenfield, Y. Feng, Sue Savage‐Rumbaugh, Heidi Lyn]
+  year: 2013
+  venue: Frontiers in Psychology
+  type: journal
+  category: theory
+  doi: 10.3389/fpsyg.2013.00160
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2013.00160'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: goksun2013individual
+  title: 'Individual differences in mental rotation: what does gesture tell us?'
+  authors: [Tilbe Göksun, Susan Goldin‐Meadow, Nora S. Newcombe, Thomas F. Shipley]
+  year: 2013
+  venue: Cognitive Processing
+  type: journal
+  category: theory
+  doi: 10.1007/s10339-013-0549-1
+  links: {paper: 'https://doi.org/10.1007/s10339-013-0549-1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: goksun2013naming
+  title: 'Naming and gesturing spatial relations: Evidence from focal brain-injured individuals'
+  authors: [Tilbe Göksun, Matthew I. Lehet, Katsiaryna Malykhina, Anjan Kumar Chatterjee]
+  year: 2013
+  venue: Neuropsychologia
+  type: journal
+  category: theory
+  doi: 10.1016/j.neuropsychologia.2013.05.006
+  links: {paper: 'https://doi.org/10.1016/j.neuropsychologia.2013.05.006'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: graziano2013gesture
+  title: Gesture production and speech fluency in competent speakers and language learners
+  authors: [Maria Graziano, Marianne Gullberg]
+  year: 2013
+  venue: Lund University Publications (Lund University)
+  type: journal
+  category: theory
+  links: {paper: 'https://lup.lub.lu.se/record/3955045'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: gu2013chinese
+  title: What can Chinese speakers' temporal gestures reveal about their conception of time?
+  authors: [Yan Gu, Lisette Mol, Marieke Hoetjes, Marc G. J. Swerts]
+  year: 2013
+  venue: Research portal (Tilburg University)
+  type: journal
+  category: theory
+  links: {paper: 'https://research.tilburguniversity.edu/en/publications/bb271a2a-3d39-4ff3-9ab2-4f77a591fe31'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: cognition
+
+- id: gurney2013gestural
+  title: 'The Gestural Misinformation Effect: Skewing Eyewitness Testimony Through Gesture'
+  authors: [Daniel J. Gurney, Karen J. Pine, Richard J. Wiseman]
+  year: 2013
+  venue: The American Journal of Psychology
+  type: journal
+  category: theory
+  doi: 10.5406/amerjpsyc.126.3.0301
+  links: {paper: 'https://doi.org/10.5406/amerjpsyc.126.3.0301'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: hoetjes2013speech
+  title: Does our speech change when we cannot gesture?
+  authors: [Marieke Hoetjes, Emiel Krahmer, Marc G. J. Swerts]
+  year: 2013
+  venue: Speech Communication
+  type: journal
+  category: theory
+  doi: 10.1016/j.specom.2013.06.007
+  links: {paper: 'https://doi.org/10.1016/j.specom.2013.06.007'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: hogrefe2013actual
+  title: The actual and potential use of gestures for communication in aphasia
+  authors: [Katharina Hogrefe, Wolfram Ziegler, Susanne Wiesmayer, Nicole Weidinger, Georg Goldenberg]
+  year: 2013
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687038.2013.803515
+  links: {paper: 'https://doi.org/10.1080/02687038.2013.803515'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: holler2013experimental
+  title: 52. Experimental methods in co-speech gesture research
+  authors: [Judith Holler]
+  year: 2013
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.1515/9783110261318.837
+  links: {paper: 'https://doi.org/10.1515/9783110261318.837'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: holler2013gesture
+  title: 'Gesture use in social context: The influence of common ground on co-speech gesture production in dyadic interaction'
+  authors: [Judith Holler]
+  year: 2013
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'http://pubman.mpdl.mpg.de/pubman/item/escidoc:1837454'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction
+
+- id: holler2013heres
+  title: Here's not looking at you, kid! Unaddressed recipients benefit from co-speech gestures when speech processing suffers
+  authors: [Judith Holler, Louise Schubotz, Spencer D. Kelly, Manuela Schuetze, Peter Hagoort, Aslı Özyürek]
+  year: 2013
+  venue: MPG.PuRe (Max Planck Society)
+  type: journal
+  category: theory
+  links: {paper: 'https://hdl.handle.net/11858/00-001M-0000-000E-EDF6-F'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: holler2013multi
+  title: 'Multi-modal language comprehension as a joint activity: The influence of eye gaze on the processing of speech and co-speech gesture in multi-party communication'
+  authors: [Judith Holler, Louise Schubotz, Spencer D. Kelly, Peter Hagoort, Aslı Özyürek]
+  year: 2013
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'http://pubman.mpdl.mpg.de/pubman/item/escidoc:1824810'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: huang2013designing
+  title: Designing effective multimodal behaviors for robots
+  authors: [Chien‐Ming Huang]
+  year: 2013
+  venue: ICMI
+  type: conference
+  category: method
+  doi: 10.1145/2522848.2532189
+  links: {paper: 'https://doi.org/10.1145/2522848.2532189'}
+  approach: [other]
+  summary: Proposes modelling interdependencies among speech, gaze and gesture channels with probabilistic graphical models to generate multimodal robot behaviours from data.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: huang2013narrative
+  title: Modeling and Evaluating Narrative Gestures for Humanlike Robots
+  authors: [Chien-Ming Huang, Bilge Mutlu]
+  year: 2013
+  venue: RSS
+  type: conference
+  category: method
+  doi: 10.15607/rss.2013.ix.026
+  links: {paper: 'https://doi.org/10.15607/rss.2013.ix.026'}
+  user_study: true
+  summary: Presents a model of human gestures for robots and evaluates in a narration scenario how different gesture types affect user recall and perceptions of the robot.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: johnson2013spatial
+  title: Use of Spatial Communication in Aphasia
+  authors: [Sarah R. Johnson, Naomi Cocks, Lucy T. Dipper]
+  year: 2013
+  venue: International Journal of Language & Communication Disorders
+  type: journal
+  category: theory
+  doi: 10.1111/1460-6984.12022
+  links: {paper: 'https://doi.org/10.1111/1460-6984.12022'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: johnston2013comparative
+  title: Towards a comparative semiotics of pointing actions in signed and spoken languages
+  authors: [Trevor A Johnston]
+  year: 2013
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.13.2.01joh
+  links: {paper: 'https://doi.org/10.1075/gest.13.2.01joh'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: kibrik2013channels
+  title: 'Channels of multimodal communication: Relative contributions to discourse understanding'
+  authors: [Аndrej А. Kibrik, Natalia Molchanova]
+  year: 2013
+  venue: eScholarship (California Digital Library)
+  type: journal
+  category: theory
+  links: {paper: 'http://www.escholarship.org/uc/item/65b134r8'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: kim2013tracking
+  title: Tracking eyebrows and head gestures associated with spoken prosody
+  authors: [Jeesun Kim, Erin Cvejic, Chris Davis]
+  year: 2013
+  venue: Speech Communication
+  type: journal
+  category: theory
+  doi: 10.1016/j.specom.2013.06.003
+  links: {paper: 'https://doi.org/10.1016/j.specom.2013.06.003'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: klintfors2013assessing
+  title: 'Assessing language acquisition from parent-child interaction: An event-related potential study on perception of audio-visual cues in infancy'
+  authors: [Eeva Klintfors, Lisa Gustavsson, Iris‐Corinna Schwarz, Tove Nilsson Gerholm, Ulrika Marklund]
+  year: 2013
+  venue: The Journal of the Acoustical Society of America
+  type: journal
+  category: theory
+  doi: 10.1121/1.4831068
+  links: {paper: 'https://doi.org/10.1121/1.4831068'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: kondo2013construction
+  title: Construction of Reconfigurable Motion Database for Real-Time Human-Robot Interaction
+  authors: [Yutaka Kondo]
+  year: 2013
+  venue: NAIST
+  type: thesis
+  category: method
+  doi: 10.34413/dr.01107
+  links: {paper: 'https://naist.repo.nii.ac.jp/records/10705'}
+  approach: [retrieval]
+  summary: Generates an android's body gestures in real time by reconfiguring a large motion-capture database, classified by bag-of-words and dynamic programming matching.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: kopp2013automatic
+  title: Automatic and strategic alignment of co-verbal gestures in dialogue
+  authors: [Stefan Kopp, Kirsten Bergmann]
+  year: 2013
+  venue: Advances in interaction studies
+  type: book
+  category: theory
+  doi: 10.1075/ais.6.05kop
+  links: {paper: 'https://doi.org/10.1075/ais.6.05kop'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: lausberg2013understanding
+  title: 'Understanding Body Movement : A Guide to Empirical Research on Nonverbal Behaviour - With an Introduction to the NEUROGES Coding System'
+  authors: [Hedda Lausberg]
+  year: 2013
+  venue: BiblioBoard Library Catalog (Open Research Library)
+  type: book
+  category: theory
+  doi: 10.3726/9783653042085
+  links: {paper: 'https://doi.org/10.3726/9783653042085'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: lavelle2013nonverbal
+  title: Nonverbal Behavior During Face-to-face Social Interaction in Schizophrenia
+  authors: [Mary Lavelle, Patrick G. T. Healey, Rose McCabe]
+  year: 2013
+  venue: The Journal of Nervous and Mental Disease
+  type: journal
+  category: theory
+  doi: 10.1097/nmd.0000000000000031
+  links: {paper: 'https://doi.org/10.1097/nmd.0000000000000031'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: le2013modeles
+  title: Modèles de gestes expressifs
+  authors: [Quôc Anh Lê]
+  year: 2013
+  venue: HAL (Le Centre pour la Communication Scientifique Directe)
+  type: thesis
+  category: method
+  links: {paper: 'https://hal.science/tel-01181000v1', open: 'https://pastel.hal.science/tel-01181000/document'}
+  output: [hands]
+  summary: Computational model that encodes communicative gestures by hand shape, wrist position and trajectory, schedules them to speech and renders them with expressivity parameters on the Greta agent and the Nao robot.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: lebarton2013experimentally
+  title: Experimentally Induced Increases in Early Gesture Lead to Increases in Spoken Vocabulary
+  authors: [Eve Sauer LeBarton, Susan Goldin‐Meadow, Stephen W. Raudenbush]
+  year: 2013
+  venue: Journal of Cognition and Development
+  type: journal
+  category: theory
+  doi: 10.1080/15248372.2013.858041
+  links: {paper: 'https://doi.org/10.1080/15248372.2013.858041'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: levy2013narrative
+  title: 'Narrative development as symbol formation: Gestures, imagery and the emergence of cohesion'
+  authors: [Elena T. Levy, David M. McNeill]
+  year: 2013
+  venue: Culture & Psychology
+  type: journal
+  category: theory
+  doi: 10.1177/1354067x13500328
+  links: {paper: 'https://doi.org/10.1177/1354067x13500328'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: liu2013correlation
+  title: The Correlation of speech and hand gestures for multimodal web interaction
+  authors: [Jing Liu, Manolya Kavakli]
+  year: 2013
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'https://researchers.mq.edu.au/en/publications/the-correlation-of-speech-and-hand-gestures-for-multimodal-web-in'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: macedonia2013learning
+  title: Learning a Second Language Naturally the Voice Movement Icon Approach
+  authors: [Manuela Macedonia]
+  year: 2013
+  venue: Journal of Educational and Developmental Psychology
+  type: journal
+  category: theory
+  doi: 10.5539/jedp.v3n2p102
+  links: {paper: 'https://doi.org/10.5539/jedp.v3n2p102'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: marghetis2013motion
+  title: 'The Motion Behind the Symbols: A Vital Role for Dynamism in the Conceptualization of Limits and Continuity in Expert Mathematics'
+  authors: [Tyler Marghetis, Rafael E. Núñez]
+  year: 2013
+  venue: Topics in Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1111/tops.12013
+  links: {paper: 'https://doi.org/10.1111/tops.12013'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: marsella2013virtual
+  title: Virtual character performance from speech
+  authors: [Stacy Marsella, Yuyu Xu, Margaux Lhommet, Andrew Feng, Stefan J. Scherer, Ari Shapiro]
+  year: 2013
+  venue: SCA
+  type: conference
+  category: method
+  doi: 10.1145/2485895.2485900
+  links: {paper: 'https://doi.org/10.1145/2485895.2485900'}
+  input: [audio, text]
+  approach: [rule-based]
+  realtime: unreported
+  user_study: true
+  summary: A rule-based system infers prosodic and semantic properties of an utterance to generate head movements, eye saccades, gestures, blinks and gaze for a 3D virtual character.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: mcneill2013evolution
+  title: 32. The co-evolution of gesture and speech, and downstream consequences
+  authors: [David Moreno McNeill]
+  year: 2013
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.1515/9783110261318.480
+  links: {paper: 'https://doi.org/10.1515/9783110261318.480'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: other
+
+- id: mcneill2013growth
+  title: 8. The growth point hypothesis of language and gesture as a dynamic and integrated system
+  authors: [David M. McNeill]
+  year: 2013
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.1515/9783110261318.135
+  links: {paper: 'https://doi.org/10.1515/9783110261318.135'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: mittelberg2013exbodied
+  title: '47. The exbodied mind: Cognitive-semiotic principles as motivating forces in gesture'
+  authors: [Irene Mittelberg]
+  year: 2013
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.1515/9783110261318.755
+  links: {paper: 'https://doi.org/10.1515/9783110261318.755'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: mlakar2013tts
+  title: TTS-Driven Synthetic Behavior Generation Model for Embodied Conversational Agents
+  authors: [Izidor Mlakar, Zdravko Kačič, Matej Rojc]
+  year: 2013
+  venue: CRC Press
+  type: book
+  category: method
+  doi: 10.1201/b15477-14
+  links: {paper: 'https://doi.org/10.1201/b15477-14'}
+  notes: Book chapter; judged from title only, abstract is introductory.
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: mlakar2013ttsb
+  title: TTS-Driven Synthetic Behaviour-Generation Model for Artificial Bodies
+  authors: [Izidor Mlakar, Zdravko Kačič, Matej Rojc]
+  year: 2013
+  venue: IJARS
+  type: journal
+  category: method
+  doi: 10.5772/56870
+  links: {paper: 'https://doi.org/10.5772/56870'}
+  input: [text]
+  summary: TTS-driven system that derives co-verbal behaviour for embodied conversational agents and humanoid robots from linguistic and prosodic features of input text.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: muller2013gestures
+  title: '3. Gestures and speech from a linguistic perspective: A new field and its history'
+  authors: [F. Max Müller, Silva H. Ladewig, Jana Bressem]
+  year: 2013
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.1515/9783110261318.55
+  links: {paper: 'https://doi.org/10.1515/9783110261318.55'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: nagels2013semantic
+  title: The role of semantic abstractness and perceptual category in processing speech accompanied by gestures
+  authors: [Arne Nagels, Anjan Kumar Chatterjee, Tilo T. J. Kircher, Benjamin Straube]
+  year: 2013
+  venue: Frontiers in Behavioral Neuroscience
+  type: journal
+  category: theory
+  doi: 10.3389/fnbeh.2013.00181
+  links: {paper: 'https://doi.org/10.3389/fnbeh.2013.00181'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: nispen2013people
+  title: 'What can people with aphasia communicate with their hands?: A study of representation techniques in pantomime and co-speech gesture'
+  authors: [Karin van Nispen]
+  year: 2013
+  venue: Data Archiving and Networked Services (DANS)
+  type: thesis
+  category: theory
+  links: {paper: 'https://research.tilburguniversity.edu/en/publications/753fb803-f80d-4077-84a6-dcd5a33f98dd'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: nispen2013should
+  title: Should pantomime and gesticulation be assessed separately for their comprehensibility in aphasia? A case study
+  authors: [Karin van Nispen, Mieke W.M.E. van de Sandt-Koenderman, Lisette Mol, Emiel Krahmer]
+  year: 2013
+  venue: International Journal of Language & Communication Disorders
+  type: journal
+  category: theory
+  doi: 10.1111/1460-6984.12064
+  links: {paper: 'https://doi.org/10.1111/1460-6984.12064'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: oi2013speech
+  title: 'Co-speech gesture production in an animation–narration task by bilinguals: A near-infrared spectroscopy study'
+  authors: [Misato Oi, Hirofumi Saito, Zongfeng Li, Wen-jun Zhao]
+  year: 2013
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1016/j.bandl.2013.01.004
+  links: {paper: 'https://doi.org/10.1016/j.bandl.2013.01.004'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: ovendale2013gesture
+  title: 'The role of gesture in cross-cultural and cross-linguistic learning contexts : the effect of gesture on the learning of mathematics'
+  authors: [Alice Ovendale]
+  year: 2013
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'https://ujcontent.uj.ac.za/vital/access/services/Download/uj:7428/CONTENT1'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: education
+
+- id: ozcalskan2013iconic
+  title: Do iconic gestures pave the way for children's early verbs?
+  authors: [Şeyda Özçalışkan, Dedre Gentner, Susan Goldin‐Meadow]
+  year: 2013
+  venue: Applied Psycholinguistics
+  type: journal
+  category: theory
+  doi: 10.1017/s0142716412000720
+  links: {paper: 'https://doi.org/10.1017/s0142716412000720'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: parrill2013grammatical
+  title: 'Grammatical aspect, gesture, and conceptualization: Using co-speech gesture to reveal event representations'
+  authors: [Fey Parrill, Benjamin K. Bergen, Patricia Lichtenstein]
+  year: 2013
+  venue: Cognitive Linguistics
+  type: journal
+  category: theory
+  doi: 10.1515/cog-2013-0005
+  links: {paper: 'https://doi.org/10.1515/cog-2013-0005'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: ping2013understanding
+  title: 'Understanding gesture: Is the listener’s motor system involved?'
+  authors: [Raedy M. Ping, Susan Goldin‐Meadow, Sian Leah Beilock]
+  year: 2013
+  venue: Journal of Experimental Psychology General
+  type: journal
+  category: theory
+  doi: 10.1037/a0032246
+  links: {paper: 'https://doi.org/10.1037/a0032246'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: post2013simultaneously
+  title: Effects of simultaneously observing and making gestures while studying grammar animations on cognitive load and learning
+  authors: [Lysanne S. Post, Tamara van Gog, FRED G. W. C. PAAS, Rolf Antonius Zwaan]
+  year: 2013
+  venue: Computers in Human Behavior
+  type: journal
+  category: theory
+  doi: 10.1016/j.chb.2013.01.005
+  links: {paper: 'https://doi.org/10.1016/j.chb.2013.01.005'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: education
+
+- id: prieto2013prosody
+  title: Prosody and gesture constrain the interpretation of double negation
+  authors: [Pilar Prieto, Joan Borràs-Comes, Susagna Tubau, M. Teresa Espinal]
+  year: 2013
+  venue: Lingua
+  type: journal
+  category: theory
+  doi: 10.1016/j.lingua.2013.02.008
+  links: {paper: 'https://doi.org/10.1016/j.lingua.2013.02.008'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: pritchard2013iconic
+  title: 'Iconic gesture in normal language and word searching conditions: A case of conduction aphasia'
+  authors: [Madeleine Pritchard, Naomi Cocks, Lucy T. Dipper]
+  year: 2013
+  venue: International Journal of Speech-Language Pathology
+  type: journal
+  category: theory
+  doi: 10.3109/17549507.2012.712157
+  links: {paper: 'https://doi.org/10.3109/17549507.2012.712157'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: reiter2013multi
+  title: The multi-modal representation of motion events in Awetí discourse
+  authors: [Sabine Reiter]
+  year: 2013
+  venue: Cognitextes
+  type: journal
+  category: theory
+  doi: 10.4000/cognitextes.765
+  links: {paper: 'https://doi.org/10.4000/cognitextes.765'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: rose2013emerging
+  title: The emerging clarity of the roles of gesture in communication and interventions for people with aphasia
+  authors: [Miranda L. Rose]
+  year: 2013
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687038.2013.826473
+  links: {paper: 'https://doi.org/10.1080/02687038.2013.826473'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: rose2013releasing
+  title: 'Releasing the Constraints on Aphasia Therapy: The Positive Impact of Gesture and Multimodality Treatments'
+  authors: [Miranda L. Rose]
+  year: 2013
+  venue: American Journal of Speech-Language Pathology
+  type: journal
+  category: theory
+  doi: 10.1044/1058-0360(2012/12-0091)
+  links: {paper: 'https://doi.org/10.1044/1058-0360(2012/12-0091)'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: rose2013systematic
+  title: A systematic review of gesture treatments for post-stroke aphasia
+  authors: [Miranda L. Rose, Anastasia M. Raymer, Lucette Lanyon, Michelle C. Attard]
+  year: 2013
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687038.2013.805726
+  links: {paper: 'https://doi.org/10.1080/02687038.2013.805726'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: rowbotham2013descriptive
+  title: A descriptive analysis of the role of co–speech gestures in the representation of information about pain quality
+  authors: [Samantha J. Rowbotham, Alison J. Wearden, Donna M. Lloyd, Judith Holler]
+  year: 2013
+  venue: Health Psychology Update
+  type: journal
+  category: theory
+  doi: 10.53841/bpshpu.2013.22.1.19
+  links: {paper: 'https://doi.org/10.53841/bpshpu.2013.22.1.19'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: rowbotham2013handling
+  title: 'Handling pain: The semantic interplay of speech and co-speech hand gestures in the description of pain sensations'
+  authors: [Samantha J. Rowbotham, Judith Holler, Donna M. Lloyd, Alison J. Wearden]
+  year: 2013
+  venue: Speech Communication
+  type: journal
+  category: theory
+  doi: 10.1016/j.specom.2013.04.002
+  links: {paper: 'https://doi.org/10.1016/j.specom.2013.04.002'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: rowbotham2013semantic
+  title: The semantic interplay of speech and co-speech hand gestures in the description of pain sensation.
+  authors: [Samantha J. Rowbotham]
+  year: 2013
+  venue: Research Explorer (The University of Manchester)
+  type: journal
+  category: theory
+  links: {paper: 'https://research.manchester.ac.uk/en/publications/f6238d19-f815-44e7-b100-bda9237ff924'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: rowbotham2013speech
+  title: 'Speech Communication Handling pain: The semantic interplay of speech and co-speech hand gestures in the description of pain sensations'
+  authors: [Samantha J. Rowbotham, Judith Holler, Donna M. Lloyd, Alison J. Wearden]
+  year: 2013
+  venue: Speech Communication
+  type: journal
+  category: theory
+  links: {paper: 'https://www.escholar.manchester.ac.uk/uk-ac-man-scw:194573'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: ruiter2013critical
+  title: A critical evaluation of models of gesture and speech production for understanding gesture in aphasia
+  authors: [Jan P. de Ruiter, 'Carola ; https://orcid.org/0000-0002-2918-6756 de Beer']
+  year: 2013
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687038.2013.797067
+  links: {paper: 'https://doi.org/10.1080/02687038.2013.797067'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: rusiewicz2013perturbation
+  title: Effects of perturbation and prosody on the coordination of speech and gesture
+  authors: [Heather Leavy Rusiewicz, Susan Shaiman, Jana Marie Iverson, Neil J. Szuminsky]
+  year: 2013
+  venue: Speech Communication
+  type: journal
+  category: theory
+  doi: 10.1016/j.specom.2013.06.004
+  links: {paper: 'https://doi.org/10.1016/j.specom.2013.06.004'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: rusiewicz2013prosody
+  title: Effects of Prosody and Position on the Timing of Deictic Gestures
+  authors: [Heather Leavy Rusiewicz, Susan Shaiman, Jana Marie Iverson, Neil J. Szuminsky]
+  year: 2013
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/1092-4388(2012/11-0283)
+  links: {paper: 'https://doi.org/10.1044/1092-4388(2012/11-0283)'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
 
 - id: salem2013closedloop
   title: 'Generating finely synchronized gesture and speech for humanoid robots: a closed-loop approach'
@@ -93,6 +1486,19 @@
   checked: abstract
   verified: false
 
+- id: salem2013closing
+  title: 'Closing the Loop: Towards Tightly Synchronized Robot Gesture and Speech'
+  authors: [Maha Salem, Stefan Kopp, Frank Joublin]
+  year: 2013
+  venue: ICSR
+  type: conference
+  category: system
+  doi: 10.1007/978-3-319-02675-6_38
+  links: {paper: 'https://doi.org/10.1007/978-3-319-02675-6_38'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
 - id: salem2013conceptual
   title: Conceptual Motorics - Generation and Evaluation of Communicative Robot Gesture
   authors: [Maha Salem]
@@ -105,6 +1511,298 @@
   user_study: true
   summary: A framework lets a humanoid robot produce synthetic speech and co-verbal hand and arm gestures at run-time, synchronised by a multimodal scheduler, and tests how humans evaluate such gestures in two studies.
   notes: Doctoral thesis; arm gestures are also generated. Fields read from the abstract only.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: sekine2013gesture
+  title: 'Gesture production patterns in aphasic discourse: In-depth description and preliminary predictions'
+  authors: [Kazuki Sekine, Miranda L. Rose, Abby M. Foster, Michelle C. Attard, Lucette Lanyon]
+  year: 2013
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687038.2013.803017
+  links: {paper: 'https://doi.org/10.1080/02687038.2013.803017'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: sekine2013relationship
+  title: The Relationship of Aphasia Type and Gesture Production in People With Aphasia
+  authors: [Kazuki Sekine, Miranda L. Rose]
+  year: 2013
+  venue: American Journal of Speech-Language Pathology
+  type: journal
+  category: theory
+  doi: 10.1044/1058-0360(2013/12-0030)
+  links: {paper: 'https://doi.org/10.1044/1058-0360(2013/12-0030)'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: seligson2013motor
+  title: The role of motor cortex in processing observed iconic co-speech gestures
+  authors: [Erica E. Seligson, Megan Calabrese, Jamie Azdair, Jeremy I Skipper]
+  year: 2013
+  venue: F1000Research
+  type: journal
+  category: theory
+  doi: 10.7490/f1000research.1093601.1
+  links: {paper: 'https://doi.org/10.7490/f1000research.1093601.1'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: skipper2013report
+  title: Report Gestures Orchestrate Brain Networks for Language Understanding
+  authors: [Jeremy I Skipper, Susan Goldin‐Meadow, Howard C. Nusbaum, Steven L. Small]
+  year: 2013
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'http://goldin-meadow-lab.uchicago.edu/sites/goldin-meadow-lab.uchicago.edu/files/uploads/PDFs/2009%20Skipper%2C%20GM%2C%20Nusbaum%2C%20Small.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: smithson2013verbal
+  title: Verbal memory resources predict iconic gesture use among monolinguals and bilinguals
+  authors: [Lisa Smithson, Elena Nicoladis]
+  year: 2013
+  venue: Bilingualism Language and Cognition
+  type: journal
+  category: theory
+  doi: 10.1017/s1366728913000175
+  links: {paper: 'https://doi.org/10.1017/s1366728913000175'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: smotrova2013function
+  title: The Function of Gesture in Lexically Focused L2 Instructional Conversations
+  authors: [Tetyana Smotrova, James P. Lantolf]
+  year: 2013
+  venue: Modern Language Journal
+  type: journal
+  category: theory
+  doi: 10.1111/j.1540-4781.2013.12008.x
+  links: {paper: 'https://doi.org/10.1111/j.1540-4781.2013.12008.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: so2013iconic
+  title: 'Iconic gestures prime words: comparison of priming effects when gestures are presented alone and when they are accompanying speech'
+  authors: [Wing‐Chee So, Alvan Low Yi-Feng, De‐Fu Yap, Eugene Kheng, Ju-Min Melvin Yap]
+  year: 2013
+  venue: Frontiers in Psychology
+  type: journal
+  category: theory
+  doi: 10.3389/fpsyg.2013.00779
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2013.00779'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: so2013speakers
+  title: When Do Speakers Use Gestures to Specify Who Does What to Whom? The Role of Language Proficiency and Type of Gestures in Narratives
+  authors: [Wing‐Chee So, Sotaro Kita, Susan Goldin‐Meadow]
+  year: 2013
+  venue: Journal of Psycholinguistic Research
+  type: journal
+  category: theory
+  doi: 10.1007/s10936-012-9230-6
+  links: {paper: 'https://doi.org/10.1007/s10936-012-9230-6'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: sowden2013development
+  title: The development of co-speech gesture in the communication of children with autism spectrum disorders
+  authors: [Hannah Sowden, Judy Clegg, Michael R. Perkins]
+  year: 2013
+  venue: Clinical Linguistics & Phonetics
+  type: journal
+  category: theory
+  doi: 10.3109/02699206.2013.818715
+  links: {paper: 'https://doi.org/10.3109/02699206.2013.818715'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: stanfield2013early
+  title: How early do children understand gesture–speech combinations with iconic gestures?
+  authors: [CARMEN STANFIELD, Rebecca A. Williamson, Şeyda Özçalışkan]
+  year: 2013
+  venue: Journal of Child Language
+  type: journal
+  category: theory
+  doi: 10.1017/s0305000913000019
+  links: {paper: 'https://doi.org/10.1017/s0305000913000019'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: straube2013superior
+  title: Superior Temporal Sulcus Disconnectivity During Processing of Metaphoric Gestures in Schizophrenia
+  authors: [Benjamin Straube, Antonia Green, Katharina Saß, Tilo T. J. Kircher]
+  year: 2013
+  venue: Schizophrenia Bulletin
+  type: journal
+  category: theory
+  doi: 10.1093/schbul/sbt110
+  links: {paper: 'https://doi.org/10.1093/schbul/sbt110'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: straube2013supramodal
+  title: Supramodal neural processing of abstract information conveyed by speech and gesture
+  authors: [Benjamin Straube, Yifei He, Miriam Steines, Helge Gebhardt, Tilo T. J. Kircher, Gebhard Sammer, Arne Nagels]
+  year: 2013
+  venue: Frontiers in Behavioral Neuroscience
+  type: journal
+  category: theory
+  doi: 10.3389/fnbeh.2013.00120
+  links: {paper: 'https://doi.org/10.3389/fnbeh.2013.00120'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: tutton2013describing
+  title: 'Describing Adjacency Along the Lateral Axis: the Complementary Roles of Speech and Gesture'
+  authors: [Mark Tutton]
+  year: 2013
+  venue: Oxford University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1093/acprof:oso/9780199641635.003.0007
+  links: {paper: 'https://doi.org/10.1093/acprof:oso/9780199641635.003.0007'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: vasc2013embodying
+  title: 'Embodying Cognition: Gestures and Their Role in the Development of Thinking'
+  authors: [Dermina Vasc, Thea Ionescu]
+  year: 2013
+  venue: Cognitie, Creier, Comportament
+  type: journal
+  category: theory
+  links: {paper: 'https://www.questia.com/library/journal/1P3-3016683841/embodying-cognition-gestures-and-their-role-in-the'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: vogt2013predicting
+  title: 'Predicting vocabulary development from co-speech gestures : duration or occurrences, that''s the question'
+  authors: [Paul Vogt, Ingrid Masson‐Carro, J.D. Mastin]
+  year: 2013
+  venue: Research portal (Tilburg University)
+  type: journal
+  category: theory
+  links: {paper: 'https://research.tilburguniversity.edu/en/publications/6b407a13-30cd-4b26-b4fc-b2981e3db655'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: vogt2013rural
+  title: Rural and urban differences in language socialization and early vocabulary development in Mozambique
+  authors: [Paul Vogt, J.D. Mastin]
+  year: 2013
+  venue: eScholarship (California Digital Library)
+  type: journal
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/5tn4654w'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: wakefield2013neural
+  title: Neural correlates of gesture processing across human development
+  authors: [Elizabeth M. Wakefield, Thomas W. James, Karin Harman James]
+  year: 2013
+  venue: Cognitive Neuropsychology
+  type: journal
+  category: theory
+  doi: 10.1080/02643294.2013.794777
+  links: {paper: 'https://doi.org/10.1080/02643294.2013.794777'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: wang2013prosody
+  title: The Influence of Prosody on the Requirements for Gesture-Text Alignment
+  authors: [Yingying Wang, Michael Neff]
+  year: 2013
+  venue: IVA
+  type: conference
+  category: evaluation
+  doi: 10.1007/978-3-642-40415-3_16
+  links: {paper: 'https://doi.org/10.1007/978-3-642-40415-3_16'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: wilkinson2013gestural
+  title: 'Gestural Depiction in Acquired Language Disorders: On the Form and Use of Iconic Gestures in Aphasic Talk-In-Interaction'
+  authors: [Ray Wilkinson]
+  year: 2013
+  venue: Augmentative and Alternative Communication
+  type: journal
+  category: theory
+  doi: 10.3109/07434618.2013.767558
+  links: {paper: 'https://doi.org/10.3109/07434618.2013.767558'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: winter2013space
+  title: Using space to talk and gesture about numbers
+  authors: [Bodo Winter, Marcus Perlman, Teenie Matlock]
+  year: 2013
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.13.3.06win
+  links: {paper: 'https://doi.org/10.1075/gest.13.3.06win'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: yang2013toward
+  title: Toward body language generation in dyadic interaction settings from interlocutor multimodal cues
+  authors: [Zhaojun Yang, Angeliki Metallinou, Shrikanth Shri Narayanan]
+  year: 2013
+  venue: ICASSP
+  type: conference
+  category: method
+  doi: 10.1109/icassp.2013.6638361
+  links: {paper: 'https://doi.org/10.1109/icassp.2013.6638361'}
+  input: [audio, interlocutor]
+  approach: [regression]
+  setting: [dyadic]
+  summary: Generates a listener's body language trajectories from the speaker's speech and gesture cues using a Gaussian Mixture Model based statistical method.
   added: '2026-10-03'
   checked: abstract
   verified: false

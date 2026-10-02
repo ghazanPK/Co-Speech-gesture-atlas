@@ -1,0 +1,17 @@
+# Papers published in 1977. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: sainsbury1977measuring
+  title: 'Measuring gesture: its cultural and clinical correlates'
+  authors: [Peter Sainsbury, Elizabeth Wood]
+  year: 1977
+  venue: Psychological Medicine
+  type: journal
+  category: theory
+  doi: 10.1017/s003329170002314x
+  links: {paper: 'https://doi.org/10.1017/s003329170002314x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction

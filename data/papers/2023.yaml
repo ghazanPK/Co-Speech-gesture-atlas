@@ -56,6 +56,20 @@
   checked: full-text
   verified: true
 
+- id: ambrazaitis2023multimodal
+  title: 'The multimodal nature of prominence: some directions for the study of the relation between gestures and pitch accents'
+  authors: [Gilbert Ambrazaitis, David House]
+  year: 2023
+  venue: Sciendo eBooks
+  type: journal
+  category: theory
+  doi: 10.2478/9788366675728-024
+  links: {paper: 'https://doi.org/10.2478/9788366675728-024'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: anon2023diffusestyle
   title: DiffuseStyleGesture+ (SF) The DiffuseStyleGesture+ entry to the GENEA Challenge 2023
   year: 2023
@@ -66,6 +80,20 @@
   added: '2026-10-03'
   checked: metadata
   verified: false
+
+- id: anon2023genre
+  title: Genre predetermined gesture behaviour in comedy staged discourse
+  authors: [А.А. Ржешевская]
+  year: 2023
+  venue: Иностранные языки в высшей школе
+  type: journal
+  category: theory
+  doi: 10.37724/rsu.2023.65.2.006
+  links: {paper: 'https://doi.org/10.37724/rsu.2023.65.2.006'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
 
 - id: ao2023gesturediffuclip
   title: 'GestureDiffuCLIP: Gesture Diffusion Model with CLIP Latents'
@@ -93,6 +121,62 @@
   checked: full-text
   verified: true
 
+- id: arslan2023multimodal
+  title: 'Multimodal language in bilingual and monolingual children: Gesture production and speech disfluency'
+  authors: [Burcu Arslan, Aslı Aktan‐Erciyes, Tilbe Göksun]
+  year: 2023
+  venue: Bilingualism Language and Cognition
+  type: journal
+  category: theory
+  doi: 10.1017/s1366728923000196
+  links: {paper: 'https://doi.org/10.1017/s1366728923000196'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: aydn2023gestures
+  title: The role of gestures in autobiographical memory
+  authors: [Çağla Aydın, Tilbe Göksun, Ege Otenen, Selma Berfin Tanis, Yağmur Damla Şentürk]
+  year: 2023
+  venue: PLoS ONE
+  type: journal
+  category: theory
+  doi: 10.1371/journal.pone.0281748
+  links: {paper: 'https://doi.org/10.1371/journal.pone.0281748'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: binder2023establishing
+  title: 'Establishing conversational engagement and being effective: The role of body movement in mediated communication'
+  authors: [Jens F. Binder]
+  year: 2023
+  venue: Acta Psychologica
+  type: journal
+  category: theory
+  doi: 10.1016/j.actpsy.2023.103840
+  links: {paper: 'https://doi.org/10.1016/j.actpsy.2023.103840'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: cacciante2023language
+  title: 'Language and gesture neural correlates: A meta‐analysis of functional magnetic resonance imaging studies'
+  authors: [Luisa Cacciante, Giorgia Pregnolato, Silvia Salvalaggio, Sara Federico, Paweł Kiper, Nicola Smania, Andrea Turolla]
+  year: 2023
+  venue: International Journal of Language & Communication Disorders
+  type: journal
+  category: theory
+  doi: 10.1111/1460-6984.12987
+  links: {paper: 'https://doi.org/10.1111/1460-6984.12987'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
 - id: chemburkar2023discrete
   title: Discrete Diffusion for Co-Speech Gesture Synthesis
   authors: [Ankur Chemburkar, Shuhong Lu, Andrew Feng]
@@ -111,6 +195,104 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: chen2023speechgesture
+  title: 'Towards a speech–gesture profile of pragmatic markers: The case of “you know”'
+  authors: [Yaoyao Chen, Svenja Adolphs]
+  year: 2023
+  venue: Journal of Pragmatics
+  type: journal
+  category: theory
+  doi: 10.1016/j.pragma.2023.03.004
+  links: {paper: 'https://doi.org/10.1016/j.pragma.2023.03.004'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: chick2023speech
+  title: Co-speech Gesture Production in Spoken Discourse Among Speakers with Acquired Language Disorders
+  authors: [Isobel Chick, Peter Garrard, Laurel J. Buxbaum, Gabriella Vigliocco]
+  year: 2023
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.1007/978-3-031-45190-4_10
+  links: {paper: 'https://doi.org/10.1007/978-3-031-45190-4_10'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: chui2023visuo
+  title: The visuo-sensorimotor substrate of co-speech gesture processing
+  authors: [Kawai Chui, Chan-Tat Ng, Ting‐Ting Chang]
+  year: 2023
+  venue: Neuropsychologia
+  type: journal
+  category: theory
+  doi: 10.1016/j.neuropsychologia.2023.108697
+  links: {paper: 'https://doi.org/10.1016/j.neuropsychologia.2023.108697'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: clough2023intact
+  title: Intact speech-gesture integration in narrative recall by adults with moderate-severe traumatic brain injury
+  authors: [Sharice Clough, Victoria-Grace Padilla, Sarah Brown‐Schmidt, Melissa Collins Duff]
+  year: 2023
+  venue: Neuropsychologia
+  type: journal
+  category: theory
+  doi: 10.1016/j.neuropsychologia.2023.108665
+  links: {paper: 'https://doi.org/10.1016/j.neuropsychologia.2023.108665'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: colasanti2023functional
+  title: 'Functional gestures as morphemes: Some evidence from the languages of Southern Italy'
+  authors: [Valentina Colasanti]
+  year: 2023
+  venue: Glossa a journal of general linguistics
+  type: journal
+  category: theory
+  doi: 10.16995/glossa.9743
+  links: {paper: 'https://doi.org/10.16995/glossa.9743'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: colasanti2023gestural
+  title: Gestural focus marking in Italo-Romance
+  authors: [Valentina Colasanti]
+  year: 2023
+  venue: Isogloss Open Journal of Romance Linguistics
+  type: journal
+  category: theory
+  doi: 10.5565/rev/isogloss.296
+  links: {paper: 'https://doi.org/10.5565/rev/isogloss.296'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: coulson2023sensorimotor
+  title: Sensorimotor Account of Multimodal Prosody
+  authors: [Seana Coulson]
+  year: 2023
+  venue: Unknown venue
+  type: preprint
+  category: theory
+  doi: 10.31234/osf.io/2sc68
+  links: {paper: 'https://doi.org/10.31234/osf.io/2sc68'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
 
 - id: deichler2023gestclip
   title: Diffusion-Based Co-Speech Gesture Generation Using Joint Text and Audio Representation
@@ -136,6 +318,48 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
+
+- id: duan2023speechgesture
+  title: The effect of speech–gesture asynchrony on the neural coupling of interlocutors in interpreter-mediated communication
+  authors: [Xu Duan, Jie Zhang, Yi Zhang, Yuan Liang, Yingying Huang, Hao Yan]
+  year: 2023
+  venue: Social Cognitive and Affective Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1093/scan/nsad027
+  links: {paper: 'https://doi.org/10.1093/scan/nsad027'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: dyrmo2023levels
+  title: Levels of metaphor in gesture
+  authors: [Tomasz Dyrmo]
+  year: 2023
+  venue: Pragmatics & Cognition
+  type: journal
+  category: theory
+  doi: 10.1075/pc.00033.dyr
+  links: {paper: 'https://doi.org/10.1075/pc.00033.dyr'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: ebert2023semantics
+  title: Semantics of Gesture
+  authors: [Cornelia Ebert]
+  year: 2023
+  venue: Annual Review of Linguistics
+  type: journal
+  category: theory
+  doi: 10.1146/annurev-linguistics-022421-063057
+  links: {paper: 'https://doi.org/10.1146/annurev-linguistics-022421-063057'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: fares2023expressive
   title: Multimodal Expressive Gesturing With Style
@@ -272,6 +496,34 @@
   checked: full-text
   verified: true
 
+- id: floritpons2023multimodal
+  title: 'Multimodal Development in Children''s Narrative Speech: Evidence for Tight Gesture–Speech Temporal Alignment Patterns as Early as 5 Years Old'
+  authors: [Júlia Florit‐Pons, Ingrid Vilà‐Giménez, Patrick Louis Rohrer, Pilar Prieto]
+  year: 2023
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/2022_jslhr-22-00451
+  links: {paper: 'https://doi.org/10.1044/2022_jslhr-22-00451'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: franich2023influence
+  title: The influence of co-speech gesture presence on the timing of F0 peaks in a tonal language
+  authors: [Kathryn Franich]
+  year: 2023
+  venue: The Journal of the Acoustical Society of America
+  type: journal
+  category: theory
+  doi: 10.1121/10.0019214
+  links: {paper: 'https://doi.org/10.1121/10.0019214'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: ghorbani2023zeroeggs
   title: 'ZeroEGGS: Zero-shot Example-based Gesture Generation from Speech'
   authors: [Saeed Ghorbani, Ylva Ferstl, Daniel Holden, Nikolaus F. Troje, Marc-André Carbonneau]
@@ -297,6 +549,34 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
+
+- id: hanamoto2023representing
+  title: Representing temporal concepts using redundant gestures in L2 ongoing interactions
+  authors: [Hiroki Hanamoto]
+  year: 2023
+  venue: Linguistics Beyond and Within (LingBaW)
+  type: journal
+  category: theory
+  doi: 10.31743/lingbaw.17014
+  links: {paper: 'https://doi.org/10.31743/lingbaw.17014'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: hanamoto2023spontaneous
+  title: 'Spontaneous Gestures in L2 Naturalistic Spontaneous Interaction: Eﬀects of Language Proﬁciency'
+  authors: [Hiroki Hanamoto]
+  year: 2023
+  venue: Anglica Wratislaviensia
+  type: journal
+  category: theory
+  doi: 10.19195/0301-7966.61.1.2
+  links: {paper: 'https://doi.org/10.19195/0301-7966.61.1.2'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: harz2023fein
   title: 'FEIN-Z: Autoregressive Behavior Cloning for Speech-Driven Gesture Generation'
@@ -339,6 +619,62 @@
   checked: full-text
   verified: false
 
+- id: hordemann2023reaching
+  title: 'Reaching Across the Communication Gap: Evaluating How Augmented Reality Shared Gestural Spaces Impact Gesture and Language Usage'
+  authors: [Glen Hordemann, Francis Quek, Larry Powell]
+  year: 2023
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1109/fie58773.2023.10343016
+  links: {paper: 'https://doi.org/10.1109/fie58773.2023.10343016'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: imamura2023analyzing
+  title: Analyzing Synergetic Functional Spectrum from Head Movements and Facial Expressions in Conversations
+  authors: [Mai Imamura, Ayane Tashiro, Shiro Kumano, Kazuhiro Otsuka]
+  year: 2023
+  venue: International Conference on Multimodal Interaction
+  type: conference
+  category: theory
+  doi: 10.1145/3577190.3614153
+  links: {paper: 'https://doi.org/10.1145/3577190.3614153'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: inbar2023shared
+  title: 'Shared Knowledge as an Account for Disaffiliative Moves: Hebrew ki ‘Because’-Clauses Accompanied by the Palm-Up Open-Hand Gesture'
+  authors: [Anna Inbar, Yael Maschler]
+  year: 2023
+  venue: Research on Language and Social Interaction
+  type: journal
+  category: theory
+  doi: 10.1080/08351813.2023.2205302
+  links: {paper: 'https://doi.org/10.1080/08351813.2023.2205302'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: iriskhanova2023vague
+  title: 'Vague reference in expository discourse: multimodal regularities of speech and gesture'
+  authors: [Olga K. Iriskhanova, Maria I. Kiose, Anna Leonteva, Olga V. Agafonova]
+  year: 2023
+  venue: Computational Linguistics and Intellectual Technologies
+  type: journal
+  category: theory
+  doi: 10.28995/2075-7182-2023-22-172-180
+  links: {paper: 'https://doi.org/10.28995/2075-7182-2023-22-172-180'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: ishii2023farahead
   title: How Far ahead Can Model Predict Gesture Pose from Speech and Spoken Text?
   authors: [Ryo Ishii, Akira Morikawa, Shin-ichiro Eitoku, Atsushi Fukayama, Takao Nakamura]
@@ -353,6 +689,34 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: jam2023cloze
+  title: 'Cloze test: Co-speech hand gestures are used to predict upcoming meaning'
+  authors: ['Holler, J.A.M.', 'ter Bekke, M.E.']
+  year: 2023
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.34973/168v-gh93
+  links: {paper: 'https://doi.org/10.34973/168v-gh93'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: jenkins2023gesturespeech
+  title: 'Gesture–speech coupling in persons with aphasia: A kinematic-acoustic analysis.'
+  authors: [Theodore Jenkins, Wim T. J. L. Pouw]
+  year: 2023
+  venue: Journal of Experimental Psychology General
+  type: journal
+  category: theory
+  doi: 10.1037/xge0001346
+  links: {paper: 'https://doi.org/10.1037/xge0001346'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
 
 - id: ji2023c2g2
   title: 'C2G2: Controllable Co-speech Gesture Generation with Latent Diffusion Model'
@@ -378,6 +742,34 @@
   checked: full-text
   verified: true
 
+- id: kadava2023gesture
+  title: Is gesture-speech physics at work in rhythmic pointing? Evidence from Polish counting-out rhymes
+  authors: [Šárka Kadavá, Aleksandra Ćwiek, Katarzyna Stoltmann, Susanne I. Fuchs, Wim T. J. L. Pouw]
+  year: 2023
+  venue: Unknown venue
+  type: preprint
+  category: theory
+  doi: 10.31219/osf.io/67fzc
+  links: {paper: 'https://doi.org/10.31219/osf.io/67fzc'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: kandemir2023multimodal
+  title: Multimodal language in child-directed versus adult-directed speech
+  authors: [Songül Kandemir, Demet Özer, Aslı Aktan‐Erciyes]
+  year: 2023
+  venue: Quarterly Journal of Experimental Psychology
+  type: journal
+  category: theory
+  doi: 10.1177/17470218231188832
+  links: {paper: 'https://doi.org/10.1177/17470218231188832'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
 - id: kang2023ips
   title: 'IPS: Integrating Pose with Speech for enhancement of body pose estimation in VR remote collaboration'
   authors: [Seoyoung Kang, Sungwoo Jeon, Woontack Woo]
@@ -392,6 +784,34 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: kelly2023exploring
+  title: Exploring the Emotional Functions of Co‐Speech Hand Gesture in Language and Communication
+  authors: [Spencer D. Kelly, Quang‐Anh Ngo Tran]
+  year: 2023
+  venue: Topics in Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1111/tops.12657
+  links: {paper: 'https://doi.org/10.1111/tops.12657'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: kendrick2023turn
+  title: 'Turn-taking in human face-to-face interaction is multimodal: gaze direction and manual gestures aid the coordination of turn transitions'
+  authors: [Kobin H. Kendrick, Judith Holler, Stephen C. Levinson]
+  year: 2023
+  venue: Philosophical Transactions of the Royal Society B Biological Sciences
+  type: journal
+  category: theory
+  doi: 10.1098/rstb.2021.0473
+  links: {paper: 'https://doi.org/10.1098/rstb.2021.0473'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
 
 - id: kim2023features
   title: Co-Speech Gesture Generation via Audio and Text Feature Engineering
@@ -450,6 +870,48 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
+
+- id: kita2023gesture
+  title: Gesture links language and cognition for spoken and signed languages
+  authors: [Sotaro Kita, Karen D. Emmorey]
+  year: 2023
+  venue: Nature Reviews Psychology
+  type: journal
+  category: theory
+  doi: 10.1038/s44159-023-00186-9
+  links: {paper: 'https://doi.org/10.1038/s44159-023-00186-9'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: kita2023origin
+  title: The origin of the term, "co-speech gesture"
+  authors: [Sotaro Kita]
+  year: 2023
+  venue: Unknown venue
+  type: preprint
+  category: theory
+  doi: 10.31234/osf.io/hdxzg
+  links: {paper: 'https://doi.org/10.31234/osf.io/hdxzg'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: kleine2023gesture
+  title: 'Does Gesture Improve the Communication Success of People with Aphasia?: A Systematic Review'
+  authors: [Naomi De Kleine, Miranda L. Rose, Michael Weinborn, Robert Knox, Nicolas Fay]
+  year: 2023
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687038.2023.2207781
+  links: {paper: 'https://doi.org/10.1080/02687038.2023.2207781'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
 
 - id: korzun2023finemotion
   title: 'The FineMotion entry to the GENEA Challenge 2023: DeepPhase for conversational gestures generation'
@@ -561,6 +1023,62 @@
   checked: abstract
   verified: false
 
+- id: ladilova2023methodological
+  title: Methodological aspects of the analysis of co-speech gestures in intercultural interactions
+  authors: [Anna Ladilova]
+  year: 2023
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.4324/9781003227281-6
+  links: {paper: 'https://doi.org/10.4324/9781003227281-6'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: lausberg2023production
+  title: 'Production of co-speech gestures in the right hemisphere: Evidence from individuals with complete or anterior callosotomy'
+  authors: [Hedda Lausberg, Daniela Dvoretska, Alain Ptito]
+  year: 2023
+  venue: Neuropsychologia
+  type: journal
+  category: theory
+  doi: 10.1016/j.neuropsychologia.2023.108484
+  links: {paper: 'https://doi.org/10.1016/j.neuropsychologia.2023.108484'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: lee2023phrasal
+  title: The phrasal organization in speech gestures and co-speech head and eyebrow beats
+  authors: [Yoonjeong Lee, Jelena Krivokapić, McLaren Lindsey, Vikas Tatineni, Lynn Yambaye]
+  year: 2023
+  venue: The Journal of the Acoustical Society of America
+  type: journal
+  category: theory
+  doi: 10.1121/10.0019219
+  links: {paper: 'https://doi.org/10.1121/10.0019219'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: leonteva2023metaphoric
+  title: Metaphoric gestures in simultaneous interpreting
+  authors: [Anna V. Leonteva, Alan J. Cienki, Olga V. Agafonova]
+  year: 2023
+  venue: Russian Journal of Linguistics
+  type: journal
+  category: theory
+  doi: 10.22363/2687-0088-36189
+  links: {paper: 'https://doi.org/10.22363/2687-0088-36189'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: li2023audio2gestures
   title: 'Audio2Gestures: Generating Diverse Gestures from Audio'
   authors: [Jing Li, Di Kang, Wenjie Pei, Xuefei Zhe, Ying Zhang, Linchao Bao, Zhenyu He]
@@ -610,6 +1128,20 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
+
+- id: ling2023mind
+  title: 'How mind-body-world ecologies work: The use of gestures for idea generation in a Grade 4 composition class'
+  authors: [Cheung Yin Ling]
+  year: 2023
+  venue: Asian Journal of English Language Studies
+  type: journal
+  category: theory
+  doi: 10.59960/11.a2
+  links: {paper: 'https://doi.org/10.59960/11.a2'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
 
 - id: liu2023speechgan
   title: 'Speech-Gesture GAN: Gesture Generation for Robots and Embodied Agents'
@@ -676,6 +1208,48 @@
   checked: full-text
   verified: true
 
+- id: ludusan2023laughter
+  title: The co-use of laughter and head gestures across speech styles
+  authors: [Bogdan Ludusan, Marin Schröer, Martina Rossi, Petra Wagner]
+  year: 2023
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.21437/interspeech.2023-240
+  links: {paper: 'https://doi.org/10.21437/interspeech.2023-240'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: mamus2023lack
+  title: 'Lack of Visual Experience Affects Multimodal Language Production: Evidence From Congenitally Blind and Sighted People'
+  authors: [E. Mamus, L. Speed, L. Rissman, A. Majid, Aslı Özyürek]
+  year: 2023
+  venue: Cognitive Sciences
+  type: journal
+  category: theory
+  doi: 10.1111/cogs.13228
+  links: {paper: 'https://doi.org/10.1111/cogs.13228'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: mazzini2023autistic
+  title: Autistic individuals benefit from gestures during degraded speech comprehension
+  authors: [Sara Mazzini, Noor Seijdel, Linda Drijvers]
+  year: 2023
+  venue: Unknown venue
+  type: preprint
+  category: theory
+  doi: 10.31234/osf.io/u6y57
+  links: {paper: 'https://doi.org/10.31234/osf.io/u6y57'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
 - id: mehta2023difftts
   title: 'Diff-TTSG: Denoising probabilistic integrated speech and gesture synthesis'
   authors: [Shivam Mehta, Siyang Wang, Simon Alexanderson, Jonas Beskow, Éva Székely, Gustav Eje Henter]
@@ -701,6 +1275,34 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
+
+- id: morett2023observing
+  title: 'Observing gesture at learning enhances subsequent phonological and semantic processing of L2 words: An N400 study'
+  authors: [Laura M. Morett]
+  year: 2023
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1016/j.bandl.2023.105327
+  links: {paper: 'https://doi.org/10.1016/j.bandl.2023.105327'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: moryossef2023addressing
+  title: Addressing the Blind Spots in Spoken Language Processing
+  authors: [Amit Moryossef]
+  year: 2023
+  venue: arXiv
+  type: preprint
+  category: theory
+  arxiv: '2309.06572'
+  links: {paper: 'https://arxiv.org/abs/2309.06572'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
 
 - id: nyatsanga2023review
   title: A Comprehensive Review of Data-Driven Co-Speech Gesture Generation
@@ -731,6 +1333,48 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: osorio2023speech
+  title: The role of co-speech gestures in retrieval and prediction during naturalistic multimodal narrative processing
+  authors: [Sergio Osorio, Benjamin Straube, Lars Meyer, Yifei He]
+  year: 2023
+  venue: Language Cognition and Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1080/23273798.2023.2295499
+  links: {paper: 'https://doi.org/10.1080/23273798.2023.2295499'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: ozcalskan2023development
+  title: What the development of gesture with and without speech can tell us about the effect of language on thought
+  authors: [Şeyda Özçalışkan, Ché Lucero, Susan Goldin‐Meadow]
+  year: 2023
+  venue: Language and Cognition
+  type: journal
+  category: theory
+  doi: 10.1017/langcog.2023.34
+  links: {paper: 'https://doi.org/10.1017/langcog.2023.34'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: ozer2023gestures
+  title: Gestures cued by demonstratives in speech guide listeners’ visual attention during spatial language comprehension.
+  authors: [Demet Özer, Dilay Z. Karadöller, Aslı Özyürek, Tilbe Göksun]
+  year: 2023
+  venue: Journal of Experimental Psychology General
+  type: journal
+  category: theory
+  doi: 10.1037/xge0001402
+  links: {paper: 'https://doi.org/10.1037/xge0001402'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
 
 - id: pang2023bodyformer
   title: 'Bodyformer: Semantics-guided 3D Body Gesture Synthesis with Transformer'
@@ -771,6 +1415,48 @@
   checked: abstract
   verified: false
 
+- id: prokofyeva2023expressing
+  title: EXPRESSING NEGATIVITY IN SPEECH AND GESTURES OF SI-ERS
+  authors: [O.N. Prokofyeva, E.E. Smirnova, V. D. KHARITONOVA]
+  year: 2023
+  venue: Вопросы когнитивной лингвистики
+  type: journal
+  category: theory
+  doi: 10.20916/1812-3228-2022-1-80-89
+  links: {paper: 'https://doi.org/10.20916/1812-3228-2022-1-80-89'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: rohrer2023visualizing
+  title: 'Visualizing prosodic structure: Manual gestures as highlighters of prosodic heads and edges in English academic discourses'
+  authors: [Patrick Louis Rohrer, Élisabeth Delais-Roussarie, Pilar Prieto]
+  year: 2023
+  venue: Lingua
+  type: journal
+  category: theory
+  doi: 10.1016/j.lingua.2023.103583
+  links: {paper: 'https://doi.org/10.1016/j.lingua.2023.103583'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: ruiter2023speech
+  title: Co-Speech Gesture
+  authors: [Jan P. de Ruiter]
+  year: 2023
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.4324/9781003145790-11
+  links: {paper: 'https://doi.org/10.4324/9781003145790-11'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: salcedo2023gert
   title: 'GERT: Transformers for Co-speech Gesture Prediction in Social Robots'
   authors: [Javier Sevilla Salcedo, Enrique Fernández-Rodicio, José Carlos Castillo, Álvaro Castro-González, Miguel Angel Salichs]
@@ -783,6 +1469,20 @@
   added: '2026-10-03'
   checked: metadata
   verified: false
+
+- id: sato2023electroencepha
+  title: Electroencephalographic Effective Connectivity Analysis of the Neural Networks during Gesture and Speech Production Planning in Young Adults
+  authors: [Yohei Sato, Hiroshi Nishimaru, Jumpei Matsumoto, Tsuyoshi Setogawa, Hisao Nishijo]
+  year: 2023
+  venue: Brain Sciences
+  type: journal
+  category: theory
+  doi: 10.3390/brainsci13010100
+  links: {paper: 'https://doi.org/10.3390/brainsci13010100'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
 
 - id: schmuck2023kclsair
   title: 'The KCL-SAIR team''s entry to the GENEA Challenge 2023 Exploring Role-based Gesture Generation in Dyadic Interactions: Listener vs. Speaker'
@@ -800,6 +1500,47 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: simsek2023micro
+  title: A Micro Analysis of EFL Teachers’ Gesture Use as a Pedagogical Tool in Video-Mediated Interaction
+  authors: [Asuman Şimşek, Safiye Ipek Kuru Gönen]
+  year: 2023
+  venue: OpenMETU (Middle East Technical University)
+  type: journal
+  category: theory
+  links: {paper: 'https://hdl.handle.net/11511/106642'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: singleton2023object
+  title: Object Shape and Depth of Word Representations in Preschoolers
+  authors: [Nina Capone Singleton, Jessica Saks]
+  year: 2023
+  venue: Journal of Child Language
+  type: journal
+  category: theory
+  doi: 10.1017/s0305000922000630
+  links: {paper: 'https://doi.org/10.1017/s0305000922000630'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: stark2023demographic
+  title: Demographic, neuropsychological, and speech variables that impact iconic and supplementary-to-speech gesturing in aphasia
+  authors: [Brielle C. Stark, Grace Oeding]
+  year: 2023
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.23019.sta
+  links: {paper: 'https://doi.org/10.1075/gest.23019.sta'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
 
 - id: sun2023racer
   title: Co-speech Gesture Synthesis by Reinforcement Learning with Contrastive Pretrained Rewards
@@ -826,6 +1567,20 @@
   checked: full-text
   verified: false
 
+- id: szawerna2023editorial
+  title: 'Editorial: Theoretical and Analytical Explorations of Multimodality'
+  authors: [Michał Szawerna]
+  year: 2023
+  venue: Anglica Wratislaviensia
+  type: journal
+  category: theory
+  doi: 10.19195/0301-7966.61.1.1
+  links: {paper: 'https://doi.org/10.19195/0301-7966.61.1.1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: teshima2023act2g
   title: 'ACT2G: Attention-based Contrastive Learning for Text-to-Gesture Generation'
   authors: [Hitoshi Teshima, Naoki Wake, Diego Thomas, Yuta Nakashima, Hiroshi Kawasaki, Katsushi Ikeuchi]
@@ -850,6 +1605,20 @@
   checked: full-text
   verified: true
 
+- id: tetnowski2023looking
+  title: 'Looking at gesture: The reciprocal influence between gesture and conversation'
+  authors: [Jennifer Thompson Tetnowski, Jennifer Thompson Tetnowski, John A. Tetnowski, John A. Tetnowski, Jack S. Damico]
+  year: 2023
+  venue: Journal of Communication Disorders
+  type: journal
+  category: theory
+  doi: 10.1016/j.jcomdis.2023.106379
+  links: {paper: 'https://doi.org/10.1016/j.jcomdis.2023.106379'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
 - id: tonoli2023diffusion
   title: Gesture Generation with Diffusion Models Aided by Speech Activity Information
   authors: [Rodolfo Luis Tonoli, Leonardo B. de M. M. Marques, Lucas Hideki Ueda, Paula Dornhofer Paro Costa]
@@ -868,6 +1637,62 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: trujillo2023interactionall
+  title: Interactionally Embedded Gestalt Principles of Multimodal Human Communication
+  authors: [James P. Trujillo, Judith Holler]
+  year: 2023
+  venue: Perspectives on Psychological Science
+  type: journal
+  category: theory
+  doi: 10.1177/17456916221141422
+  links: {paper: 'https://doi.org/10.1177/17456916221141422'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: turk2023multimodal
+  title: 'Multimodal cues to intonational categories: Gesture apex coordination with tonal events'
+  authors: [Olcay Türk, Sasha Calhoun]
+  year: 2023
+  venue: Laboratory Phonology Journal of the Association for Laboratory Phonology
+  type: journal
+  category: theory
+  doi: 10.16995/labphon.6432
+  links: {paper: 'https://doi.org/10.16995/labphon.6432'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: turk2023phrasal
+  title: Phrasal Synchronization of Gesture With Prosody and Information Structure
+  authors: [Olcay Türk, Sasha Calhoun]
+  year: 2023
+  venue: Language and Speech
+  type: journal
+  category: theory
+  doi: 10.1177/00238309231185308
+  links: {paper: 'https://doi.org/10.1177/00238309231185308'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: tutuncu2023gestures
+  title: 'When Gestures Do or Do Not Follow Language‐Specific Patterns of Motion Expression in Speech: Evidence from Chinese, English and Turkish'
+  authors: [Irmak Su Tütüncü, Jing Z. Paul, Samantha N. Emerson, Murat Şengül, Melanie Knezevic, Şeyda Özçalışkan]
+  year: 2023
+  venue: Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1111/cogs.13261
+  links: {paper: 'https://doi.org/10.1111/cogs.13261'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: tuyen2023lisi
   title: A Multimodal Dataset for Robot Learning to Imitate Social Human-Human Interaction
@@ -916,6 +1741,20 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: urena2023characterizing
+  title: Characterizing iconic gesture during storytelling in chronic TBI recovery
+  authors: [Katelyn Urena, Brielle C. Stark]
+  year: 2023
+  venue: Unknown venue
+  type: preprint
+  category: theory
+  doi: 10.31219/osf.io/6chxf
+  links: {paper: 'https://doi.org/10.31219/osf.io/6chxf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
 
 - id: voss2023aqgt
   title: 'AQ-GT: a Temporally Aligned and Quantized GRU-Transformer for Co-Speech Gesture Synthesis'
@@ -986,6 +1825,20 @@
   added: '2026-10-03'
   checked: full-text
   verified: false
+
+- id: wang2023classroom
+  title: 'Classroom gesture instruction on second language learners'' academic presentations: Evidence from Chinese intermediate English learners'
+  authors: [Juan Wang, Yuan Gao, Yaqiong Cui]
+  year: 2023
+  venue: Journal of English for Academic Purposes
+  type: journal
+  category: theory
+  doi: 10.1016/j.jeap.2023.101304
+  links: {paper: 'https://doi.org/10.1016/j.jeap.2023.101304'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: education
 
 - id: wang2023torso
   title: Learning Torso Prior for Co-Speech Gesture Generation with Better Hand Shape
@@ -1191,6 +2044,20 @@
   checked: full-text
   verified: true
 
+- id: yang2023spontaneous
+  title: 'Spontaneous gestures encoded by hand positions improve language models: An Information-Theoretic motivated study'
+  authors: [Xu Yang, Cheng Hong Yang]
+  year: 2023
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.18653/v1/2023.findings-acl.600
+  links: {paper: 'https://doi.org/10.18653/v1/2023.findings-acl.600'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: yang2023unifiedgesture
   title: 'UnifiedGesture: A Unified Gesture Synthesis Model for Multiple Skeletons'
   authors: [Sicheng Yang, Zilin Wang, Zhiyong Wu, Minglei Li, Zhensong Zhang, Qiaochu Huang, Lei Hao, Songcen Xu, Xiaofei Wu, changpeng yang, Zonghong Dai]
@@ -1393,6 +2260,20 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: zhao2023reveals
+  title: TMS reveals a two-stage priming circuit of gesture-speech integration
+  authors: [Wanying Zhao]
+  year: 2023
+  venue: Frontiers in Psychology
+  type: journal
+  category: theory
+  doi: 10.3389/fpsyg.2023.1156087
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2023.1156087'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
 
 - id: zhi2023livelyspeaker
   title: 'LivelySpeaker: Towards Semantic-Aware Co-Speech Gesture Generation'

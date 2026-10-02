@@ -1,0 +1,87 @@
+# Papers published in 1986. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: bull1986hand
+  title: 'The Use of Hand Gesture in Political Speeches: Some Case Studies'
+  authors: [Peter E. Bull]
+  year: 1986
+  venue: Journal of Language and Social Psychology
+  type: journal
+  category: theory
+  doi: 10.1177/0261927x8652002
+  links: {paper: 'https://doi.org/10.1177/0261927x8652002'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: church1986mismatch
+  title: The mismatch between gesture and speech as an index of transitional knowledge
+  authors: [Ruth Breckinridge Church, Susan Goldin‐Meadow]
+  year: 1986
+  venue: Cognition
+  type: journal
+  category: theory
+  doi: 10.1016/0010-0277(86)90053-3
+  links: {paper: 'https://doi.org/10.1016/0010-0277(86)90053-3'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: cognition
+
+- id: creider1986interlanguage
+  title: 'Interlanguage comparisons in the study of the interactional use of gesture: Progress and prospects'
+  authors: [Chet A. Creider]
+  year: 1986
+  venue: Semiotica
+  type: journal
+  category: theory
+  doi: 10.1515/semi.1986.62.1-2.147
+  links: {paper: 'https://doi.org/10.1515/semi.1986.62.1-2.147'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction
+
+- id: ellgring1986nonverbal
+  title: Nonverbal expression of psychological states in psychiatric patients
+  authors: [Heiner Ellgring]
+  year: 1986
+  venue: European Archives of Psychiatry and Clinical Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1007/bf00641055
+  links: {paper: 'https://doi.org/10.1007/bf00641055'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: machida1986teacher
+  title: Teacher accuracy in decoding nonverbal indicants of comprehension and noncomprehension in Anglo- and Mexican-American children.
+  authors: [Sandra K. Machida]
+  year: 1986
+  venue: Journal of Educational Psychology
+  type: journal
+  category: theory
+  doi: 10.1037/0022-0663.78.6.454
+  links: {paper: 'https://doi.org/10.1037/0022-0663.78.6.454'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: education
+
+- id: thompson1986evaluation
+  title: Evaluation and integration of speech and pointing gestures during referential understanding
+  authors: [Laura A. Thompson, Dominic W. Massaro]
+  year: 1986
+  venue: Journal of Experimental Child Psychology
+  type: journal
+  category: theory
+  doi: 10.1016/0022-0965(86)90020-2
+  links: {paper: 'https://doi.org/10.1016/0022-0965(86)90020-2'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development

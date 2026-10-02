@@ -1,0 +1,59 @@
+# Papers published in 1979. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: cicone1979relation
+  title: The relation between gesture and language in aphasic communication
+  authors: [Michael Cicone, Wendy Wapner, Nancy S. Foldi, Edgar Zurif, Howard Gardner]
+  year: 1979
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1016/0093-934x(79)90060-9
+  links: {paper: 'https://doi.org/10.1016/0093-934x(79)90060-9'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: delis1979note
+  title: A note on temporal relations between language and gestures
+  authors: [Dean C. Delis, Nancy S. Foldi, Suzanne Hamby, Howard Gardner, Edgar Zurif]
+  year: 1979
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1016/0093-934x(79)90061-0
+  links: {paper: 'https://doi.org/10.1016/0093-934x(79)90061-0'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: lafrance1979nonverbal
+  title: 'Nonverbal Synchrony and Rapport: Analysis by the Cross-Lag Panel Technique'
+  authors: [Marianne LaFrance]
+  year: 1979
+  venue: Social Psychology Quarterly
+  type: journal
+  category: theory
+  doi: 10.2307/3033875
+  links: {paper: 'https://doi.org/10.2307/3033875'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction
+
+- id: marcos1979nonverbal
+  title: Nonverbal Behavior and Thought Processing
+  authors: [Luis Rojas Marcos]
+  year: 1979
+  venue: Archives of General Psychiatry
+  type: journal
+  category: theory
+  doi: 10.1001/archpsyc.1979.01780090026003
+  links: {paper: 'https://doi.org/10.1001/archpsyc.1979.01780090026003'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition

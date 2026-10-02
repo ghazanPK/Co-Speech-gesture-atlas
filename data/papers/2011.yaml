@@ -1,0 +1,1447 @@
+# Papers published in 2011. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: ahlsen2011integrated
+  title: Towards an integrated view of gestures related to speech
+  authors: [Elisabeth Ahlsén]
+  year: 2011
+  venue: DSpace repository (University of Tartu)
+  type: journal
+  category: theory
+  links: {paper: 'http://hdl.handle.net/10062/22549'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: alahverdzhieva2011hpsg
+  title: An HPSG approach to synchronous speech and deixis
+  authors: [Katya Alahverdzhieva, Alex Lascarides]
+  year: 2011
+  venue: Proceedings of the International Conference on Head-Driven Phrase Structure Grammar
+  type: conference
+  category: theory
+  doi: 10.21248/hpsg.2011.1
+  links: {paper: 'https://doi.org/10.21248/hpsg.2011.1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: alibali2011embodiment
+  title: 'Embodiment in Mathematics Teaching and Learning: Evidence From Learners'' and Teachers'' Gestures'
+  authors: [Martha Wagner Alibali, Mitchell J. Nathan]
+  year: 2011
+  venue: Journal of the Learning Sciences
+  type: journal
+  category: theory
+  doi: 10.1080/10508406.2011.611446
+  links: {paper: 'https://doi.org/10.1080/10508406.2011.611446'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: alibali2011spontaneous
+  title: Spontaneous Gestures Influence Strategy Choices in Problem Solving
+  authors: [Martha Wagner Alibali, Robert C. Spencer, Lucy Knox, Sotaro Kita]
+  year: 2011
+  venue: Psychological Science
+  type: journal
+  category: theory
+  doi: 10.1177/0956797611417722
+  links: {paper: 'https://doi.org/10.1177/0956797611417722'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: annen2011nonverbal
+  title: Nonverbal Behavior During Clinical Interviews
+  authors: [Sigrid Annen, Patrik Roser, Martin Brüne]
+  year: 2011
+  venue: The Journal of Nervous and Mental Disease
+  type: journal
+  category: theory
+  doi: 10.1097/nmd.0b013e31823e653b
+  links: {paper: 'https://doi.org/10.1097/nmd.0b013e31823e653b'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: bavelas2011chapter
+  title: Chapter 4. Dyadic evidence for grounding with abstract deictic gestures
+  authors: [Janet Beavin Bavelas, Jennifer Gerwing, Meredith Allison, Chantelle Sutton]
+  year: 2011
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.4.05bav
+  links: {paper: 'https://doi.org/10.1075/gs.4.05bav'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: becker2011aktionsarten
+  title: Aktionsarten, speech and gesture
+  authors: [Raymond Becker, Alan J. Cienki, Austin Bennett, Christina Cudina, Camille Debras, Zuzanna Fleischer, Michael Haaheim, Torsten Müller, Kashmiri Stec, Alessandra Zarcone]
+  year: 2011
+  venue: University of Groningen research database (University of Groningen / Centre for Information Technology)
+  type: journal
+  category: theory
+  links: {paper: 'https://research.rug.nl/en/publications/44f65c2f-5c78-4377-a785-9aa9f450e95c'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: bergmann2011regulating
+  title: Regulating Dialogue with Gestures - Towards an Empirically Grounded Simulation with Conversational Agents
+  authors: [Kirsten von Bergmann, Hannes Rieser, Stefan Kopp]
+  year: 2011
+  venue: SIGDIAL
+  type: conference
+  category: method
+  links: {paper: 'https://pub.uni-bielefeld.de/record/2097157'}
+  summary: Extends an autonomous gesture generation model with gesture interpretation, based on a corpus study of dialogue-regulating gestures, to simulate gesture turn exchange between virtual conversational agents.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: bergmann2011relation
+  title: 'The Relation of Speech and Gestures: Temporal Synchrony Follows Semantic Synchrony'
+  authors: [Kirsten von Bergmann, Volkan Aksu, Stefan Kopp]
+  year: 2011
+  venue: PUB – Publications at Bielefeld University (Bielefeld University)
+  type: journal
+  category: theory
+  links: {paper: 'https://core.ac.uk/download/pdf/15945024.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: borrascomes2011seeing
+  title: ‘Seeing tunes.’ The role of visual gestures in tune interpretation
+  authors: [Joan Borràs-Comes, Pilar Prieto]
+  year: 2011
+  venue: Laboratory Phonology Journal of the Association for Laboratory Phonology
+  type: journal
+  category: theory
+  doi: 10.1515/labphon.2011.013
+  links: {paper: 'https://doi.org/10.1515/labphon.2011.013'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: bremner2011effects
+  title: The effects of robot-performed co-verbal gesture on listener behaviour
+  authors: [Paul Bremner, Tony Pipe, Chris Melhuish, Mike Fraser, Sriram Subramanian]
+  year: 2011
+  venue: Humanoids
+  type: conference
+  category: evaluation
+  doi: 10.1109/humanoids.2011.6100810
+  links: {paper: 'https://doi.org/10.1109/humanoids.2011.6100810'}
+  user_study: true
+  summary: Two user studies test whether a humanoid robot performing co-verbal gestures holds listener attention longer and improves memory of accompanied facts.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: bressem2011rethinking
+  title: 'Rethinking gesture phases: Articulatory features of gestural movement?'
+  authors: [Jana Bressem, Silva H. Ladewig]
+  year: 2011
+  venue: Semiotica
+  type: journal
+  category: theory
+  doi: 10.1515/semi.2011.022
+  links: {paper: 'https://doi.org/10.1515/semi.2011.022'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: brookes2011amangama
+  title: Amangama amathathu ‘The three letters’
+  authors: [Heather Brookes]
+  year: 2011
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.11.2.05bro
+  links: {paper: 'https://doi.org/10.1075/gest.11.2.05bro'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: calbris2011elements
+  title: Elements of Meaning in Gesture
+  authors: [Geneviève Calbris]
+  year: 2011
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.5
+  links: {paper: 'https://doi.org/10.1075/gs.5'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: cartmill2011studying
+  title: Studying Gesture
+  authors: [Erica A. Cartmill, Özlem Ece Demir, Susan Goldin‐Meadow]
+  year: 2011
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1002/9781444344035.ch14
+  links: {paper: 'https://doi.org/10.1002/9781444344035.ch14'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: cartmill2011word
+  title: 'A word in the hand: action, gesture and mental representation in humans and non-human primates'
+  authors: [Erica A. Cartmill, Sian Leah Beilock, Susan Goldin‐Meadow]
+  year: 2011
+  venue: Philosophical Transactions of the Royal Society B Biological Sciences
+  type: journal
+  category: theory
+  doi: 10.1098/rstb.2011.0162
+  links: {paper: 'https://doi.org/10.1098/rstb.2011.0162'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: casasanto2011different
+  title: Different Bodies, Different Minds
+  authors: [Daniel J. Casasanto]
+  year: 2011
+  venue: Current Directions in Psychological Science
+  type: journal
+  category: theory
+  doi: 10.1177/0963721411422058
+  links: {paper: 'https://doi.org/10.1177/0963721411422058'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: chiu2011train
+  title: 'How to Train Your Avatar: A Data Driven Approach to Gesture Generation'
+  authors: [Chung-Cheng Chiu, Stacy Marsella]
+  year: 2011
+  venue: IVA
+  type: conference
+  category: method
+  doi: 10.1007/978-3-642-23974-8_14
+  links: {paper: 'https://doi.org/10.1007/978-3-642-23974-8_14'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: chu2011nature
+  title: The nature of gestures' beneficial role in spatial problem solving.
+  authors: [Mingyuan Chu, Sotaro Kita]
+  year: 2011
+  venue: Journal of Experimental Psychology General
+  type: journal
+  category: theory
+  doi: 10.1037/a0021790
+  links: {paper: 'https://doi.org/10.1037/a0021790'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: chui2011conceptual
+  title: Conceptual metaphors in gesture
+  authors: [Kawai Chui]
+  year: 2011
+  venue: Cognitive Linguistics
+  type: journal
+  category: theory
+  doi: 10.1515/cogl.2011.017
+  links: {paper: 'https://doi.org/10.1515/cogl.2011.017'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: chui2011gestures
+  title: Do gestures compensate for the omission of motion expression in speech?
+  authors: [Kawai Chui]
+  year: 2011
+  venue: Chinese Language and Discourse An International and Interdisciplinary Journal
+  type: journal
+  category: theory
+  doi: 10.1075/cld.2.2.01chu
+  links: {paper: 'https://doi.org/10.1075/cld.2.2.01chu'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: clark2011speech
+  title: Using speech and gesture to introduce new objects to young children
+  authors: [Eve V. Clark, Bruno Estigarribia]
+  year: 2011
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.11.1.01cla
+  links: {paper: 'https://doi.org/10.1075/gest.11.1.01cla'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: cleary2011investigation
+  title: An investigation of co-speech gesture production during action description in Parkinson’s disease
+  authors: [Rebecca A. Cleary, Ellen Poliakoff, Adam J. Galpin, Jeremy Dick, Judith Holler]
+  year: 2011
+  venue: Parkinsonism & Related Disorders
+  type: journal
+  category: theory
+  doi: 10.1016/j.parkreldis.2011.08.001
+  links: {paper: 'https://doi.org/10.1016/j.parkreldis.2011.08.001'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: cocks2011iconic
+  title: Iconic gesture and speech integration in younger and older adults
+  authors: [Naomi Cocks, GARY S. MORGAN, Sotaro Kita]
+  year: 2011
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.11.1.02coc
+  links: {paper: 'https://doi.org/10.1075/gest.11.1.02coc'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: compernolle2011thinking
+  title: 'Thinking with your hands: speech–gesture activity during an L2 awareness-raising task'
+  authors: [Rémi A. van Compernolle, Lawrence Williams]
+  year: 2011
+  venue: Language Awareness
+  type: journal
+  category: theory
+  doi: 10.1080/09658416.2011.559244
+  links: {paper: 'https://doi.org/10.1080/09658416.2011.559244'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: cook2011gestures
+  title: Gestures, but not meaningless movements, lighten working memory load when explaining math
+  authors: [Susan Wagner Cook, Terina KuangYi Yip, Susan Goldin‐Meadow]
+  year: 2011
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01690965.2011.567074
+  links: {paper: 'https://doi.org/10.1080/01690965.2011.567074'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: cooperrider2011reference
+  title: 'Reference in action : links between pointing and language'
+  authors: [Kensy Cooperrider]
+  year: 2011
+  venue: eScholarship (California Digital Library)
+  type: thesis
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/52g063b5'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: cuffari2011speech
+  title: Co-Speech Gesture in Communication and Cognition
+  authors: [Elena Clare Cuffari]
+  year: 2011
+  venue: Scholars' Bank (University of Oregon)
+  type: thesis
+  category: theory
+  links: {paper: 'http://hdl.handle.net/1794/12145'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: cutica2011gesture
+  title: '“The More You Gesture, the Less I Gesture”: Co-Speech Gestures as a Measure of Mental Model Quality'
+  authors: [Ilaria Cutica, Monica Bucciarelli]
+  year: 2011
+  venue: Journal of Nonverbal Behavior
+  type: journal
+  category: theory
+  doi: 10.1007/s10919-011-0112-7
+  links: {paper: 'https://doi.org/10.1007/s10919-011-0112-7'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: cognition
+
+- id: demir2011turkish
+  title: Turkish- and English-speaking children display sensitivity to perceptual context in the referring expressions they produce in speech and gesture
+  authors: [Özlem Ece Demir, Wing‐Chee So, Aslı Özyürek, Susan Goldin‐Meadow]
+  year: 2011
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01690965.2011.589273
+  links: {paper: 'https://doi.org/10.1080/01690965.2011.589273'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: dick2011gesture
+  title: Gesture in the developing brain
+  authors: [Anthony Steven Dick, Susan Goldin‐Meadow, Ana Solodkin, Steven L. Small]
+  year: 2011
+  venue: Developmental Science
+  type: journal
+  category: theory
+  doi: 10.1111/j.1467-7687.2011.01100.x
+  links: {paper: 'https://doi.org/10.1111/j.1467-7687.2011.01100.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: dipper2011speech
+  title: What can co-speech gestures in aphasia tell us about the relationship between language and gesture?
+  authors: [Lucy T. Dipper, Naomi Cocks, Melanie Rowe, GARY S. MORGAN]
+  year: 2011
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.11.2.02dip
+  links: {paper: 'https://doi.org/10.1075/gest.11.2.02dip'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: dodds2011talk
+  title: 'Talk to the Virtual Hands: Self-Animated Avatars Improve Communication in Head-Mounted Display Virtual Environments'
+  authors: [Trevor J. Dodds, Betty J. Mohler, HH Bülthoff]
+  year: 2011
+  venue: PLoS ONE
+  type: journal
+  category: theory
+  doi: 10.1371/journal.pone.0025759
+  links: {paper: 'https://doi.org/10.1371/journal.pone.0025759'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: ebert2011focus
+  title: Focus Marking via Gestures
+  authors: [Cornelia Ebert, Stefan Evert, Katharina Anna Wilmes]
+  year: 2011
+  venue: Proceedings of Sinn und Bedeutung
+  type: conference
+  category: theory
+  links: {paper: 'https://ojs.ub.uni-konstanz.de/sub/index.php/index/article/view/372'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: engbergpedersen2011cognitive
+  title: 'Cognitive foundations of topic-comment and foreground-background structures: Evidence from sign languages, cospeech gesture and homesign'
+  authors: [Elisabeth Engberg-Pedersen]
+  year: 2011
+  venue: Cognitive Linguistics
+  type: journal
+  category: theory
+  doi: 10.1515/cogl.2011.026
+  links: {paper: 'https://doi.org/10.1515/cogl.2011.026'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: evans2011comprehension
+  title: 'Comprehension of indirect requests by adults with severe traumatic brain injury: Contributions of gestural and verbal information'
+  authors: [Kelli J. Evans, Karen Hux]
+  year: 2011
+  venue: Brain Injury
+  type: journal
+  category: theory
+  doi: 10.3109/02699052.2011.576307
+  links: {paper: 'https://doi.org/10.3109/02699052.2011.576307'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: foraker2011chapter
+  title: Chapter 21. Gesture and discourse
+  authors: [Stephani M. Foraker]
+  year: 2011
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.4.26for
+  links: {paper: 'https://doi.org/10.1075/gs.4.26for'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: gardner2011nonverbal
+  title: Nonverbal communication among Pointe Coupee Creoles
+  authors: [Elsie Gardner]
+  year: 2011
+  venue: Unknown venue
+  type: thesis
+  category: theory
+  doi: 10.31390/gradschool_dissertations.78
+  links: {paper: 'https://doi.org/10.31390/gradschool_dissertations.78'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: gerwing2011flexible
+  title: The flexible semantic integration of gestures and words
+  authors: [Jennifer Gerwing, Meredith Allison]
+  year: 2011
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.11.3.03ger
+  links: {paper: 'https://doi.org/10.1075/gest.11.3.03ger'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: goldinmeadow2011learning
+  title: Learning through gesture
+  authors: [Susan Goldin‐Meadow]
+  year: 2011
+  venue: Wiley Interdisciplinary Reviews Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1002/wcs.132
+  links: {paper: 'https://doi.org/10.1002/wcs.132'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: guen2011modes
+  title: Modes of pointing to existing spaces and the use of frames of reference
+  authors: [Olivier Le Guen]
+  year: 2011
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.11.3.02leg
+  links: {paper: 'https://doi.org/10.1075/gest.11.3.02leg'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: guen2011speech
+  title: Speech and Gesture in Spatial Language and Cognition Among the Yucatec Mayas
+  authors: [Olivier Le Guen]
+  year: 2011
+  venue: Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1111/j.1551-6709.2011.01183.x
+  links: {paper: 'https://doi.org/10.1111/j.1551-6709.2011.01183.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: gullberg2011thinking
+  title: 5. Thinking, Speaking and Gesturing about Motion in more than One Language
+  authors: [Marianne Gullberg]
+  year: 2011
+  venue: Multilingual Matters eBooks
+  type: book
+  category: theory
+  doi: 10.21832/9781847693389-007
+  links: {paper: 'https://doi.org/10.21832/9781847693389-007'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: hickmann2011developmental
+  title: Developmental perspectives on the expression of motion in speech and gesture
+  authors: [Maya Hickmann, Henriëtte Hendriks, Marianne Gullberg]
+  year: 2011
+  venue: Language Interaction and Acquisition
+  type: book
+  category: theory
+  doi: 10.1075/lia.2.1.06hic
+  links: {paper: 'https://doi.org/10.1075/lia.2.1.06hic'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: hogrefe2011verbal
+  title: 'Non-verbal communication in severe aphasia: Influence of aphasia, apraxia, or semantic processing?'
+  authors: [Katharina Hogrefe, Wolfram Ziegler, Nicole Weidinger, Georg Goldenberg]
+  year: 2011
+  venue: Cortex
+  type: journal
+  category: theory
+  doi: 10.1016/j.cortex.2011.02.022
+  links: {paper: 'https://doi.org/10.1016/j.cortex.2011.02.022'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: holler2011experimental
+  title: An experimental investigation of how addressee feedback affects co-speech gestures accompanying speakers’ responses
+  authors: [Judith Holler, Katie Wilkin]
+  year: 2011
+  venue: Journal of Pragmatics
+  type: journal
+  category: theory
+  doi: 10.1016/j.pragma.2011.08.002
+  links: {paper: 'https://doi.org/10.1016/j.pragma.2011.08.002'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction
+
+- id: holler2011speech
+  title: Co-Speech Gesture Mimicry in the Process of Collaborative Referring During Face-to-Face Dialogue
+  authors: [Judith Holler, Katie Wilkin]
+  year: 2011
+  venue: Journal of Nonverbal Behavior
+  type: journal
+  category: theory
+  doi: 10.1007/s10919-011-0105-6
+  links: {paper: 'https://doi.org/10.1007/s10919-011-0105-6'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction
+
+- id: holler2011speechb
+  title: Co-speech gestures in the process of meaning coordination
+  authors: [Judith Holler, Mark Tutton, Katie Wilkin]
+  year: 2011
+  venue: MPG.PuRe (Max Planck Society)
+  type: journal
+  category: theory
+  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0012-1BAF-A'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: holler2011verhaltenskoor
+  title: Verhaltenskoordination, Mimikry und sprachbegleitende Gestik in der Interaktion
+  authors: [Judith Holler]
+  year: 2011
+  venue: Research Explorer (The University of Manchester)
+  type: journal
+  category: theory
+  doi: 10.23668/psycharchives.3960
+  links: {paper: 'https://doi.org/10.23668/psycharchives.3960'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: holroyd2011engagement
+  title: Generating Engagement Behaviors in Human-Robot Interaction
+  authors: [Aaron Holroyd]
+  year: 2011
+  venue: WPI
+  type: thesis
+  category: system
+  links: {paper: 'https://digitalcommons.wpi.edu/etd-theses/328'}
+  summary: A ROS module adds gaze and pointing gestures to referring phrases and other connection events for a humanoid robot, plus an event-driven BML realizer for robots.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: hostetter2011chapter
+  title: Chapter 5. If you don’t already know, I’m certainly not going to show you!
+  authors: [Autumn B. Hostetter, Martha Wagner Alibali, Sheree M. Schrager]
+  year: 2011
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.4.06hos
+  links: {paper: 'https://doi.org/10.1075/gs.4.06hos'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: hostetter2011cognitive
+  title: Cognitive skills and gesture–speech redundancy
+  authors: [Autumn B. Hostetter, Martha Wagner Alibali]
+  year: 2011
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.11.1.03hos
+  links: {paper: 'https://doi.org/10.1075/gest.11.1.03hos'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: hostetter2011gesture
+  title: Gesture During Mental Rotation
+  authors: [Autumn B. Hostetter, Martha Wagner Alibali, Anne Bartholomew]
+  year: 2011
+  venue: eScholarship (California Digital Library)
+  type: journal
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/4n13k9t6'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: hostetter2011gestures
+  title: When do gestures communicate? A meta-analysis.
+  authors: [Autumn B. Hostetter]
+  year: 2011
+  venue: Psychological Bulletin
+  type: journal
+  category: theory
+  doi: 10.1037/a0022128
+  links: {paper: 'https://doi.org/10.1037/a0022128'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: hostetter2011visual
+  title: The Effect of Visual vs. Verbal Stimuli on Gesture Production
+  authors: [Autumn B. Hostetter, Catherine J. Skirving]
+  year: 2011
+  venue: Journal of Nonverbal Behavior
+  type: journal
+  category: theory
+  doi: 10.1007/s10919-011-0109-2
+  links: {paper: 'https://doi.org/10.1007/s10919-011-0109-2'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: jackob2011verbal
+  title: 'The effects of verbal and nonverbal elements in persuasive communication: Findings from two multi-method experiments'
+  authors: [Nikolaus Jackob, Thomas Roessing, Thomas Søbirk Petersen]
+  year: 2011
+  venue: Communications
+  type: journal
+  category: theory
+  doi: 10.1515/comm.2011.012
+  links: {paper: 'https://doi.org/10.1515/comm.2011.012'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: jesse2011pointing
+  title: Pointing gestures do not influence the perception of lexical stress
+  authors: [Alexandra Jesse, Holger Mitterer]
+  year: 2011
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.21437/interspeech.2011-586
+  links: {paper: 'https://doi.org/10.21437/interspeech.2011-586'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: jung2011believable
+  title: Believable Virtual Characters in Human-Computer Dialogs
+  authors: [Yvonne Jung, Arjan Kuijper, Dieter W. Fellner, Michael Kipp, Jan Mikšátko, Jonathan S. Gratch, Daniël Thalmann]
+  year: 2011
+  venue: Eurographics
+  type: conference
+  category: survey
+  doi: 10.2312/eg2011/stars/075-100
+  links: {paper: 'https://doi.org/10.2312/eg2011/stars/075-100'}
+  summary: A state-of-the-art report on virtual characters in multimodal dialogs, going from communication models to animation and rendering of nonverbal behaviour such as facial expressions and gestures.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: kelly2011actions
+  title: 'When actions speak too much louder than words: Hand gestures disrupt word learning when phonetic demands are high'
+  authors: [Spencer D. Kelly, Angela L. Lee]
+  year: 2011
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01690965.2011.581125
+  links: {paper: 'https://doi.org/10.1080/01690965.2011.581125'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: kelly2011raising
+  title: 'Raising the Ante of Communication: Evidence for Enhanced Gesture Use in High Stakes Situations'
+  authors: [Spencer D. Kelly, Kelly Byrne, Judith Holler]
+  year: 2011
+  venue: Information
+  type: journal
+  category: theory
+  doi: 10.3390/info2040579
+  links: {paper: 'https://doi.org/10.3390/info2040579'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: kirchhof2011whats
+  title: So What's Your Affiliation With Gesture?
+  authors: [Carolin Kirchhof]
+  year: 2011
+  venue: Publikationen an der Universität Bielefeld (Universität Bielefeld)
+  type: journal
+  category: theory
+  links: {paper: 'https://pub.uni-bielefeld.de/record/2522710'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: kroger2011beyond
+  title: 'Beyond vocal tract actions: speech prosody and co-verbal gesturing in face-to-face communication'
+  authors: [Bernd J. Kröger, Peter Birkholz, Emily Kaufmann, Christiane Neuschaefer‐Rube]
+  year: 2011
+  venue: RWTH Publications (RWTH Aachen)
+  type: journal
+  category: theory
+  links: {paper: 'https://publications.rwth-aachen.de/search?p=id:%22RWTH-CONV-201002%22'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: ladewig2011putting
+  title: Putting the cyclic gesture on a cognitive basis
+  authors: [Silva H. Ladewig]
+  year: 2011
+  venue: Cognitextes
+  type: journal
+  category: theory
+  doi: 10.4000/cognitextes.406
+  links: {paper: 'https://doi.org/10.4000/cognitextes.406'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: le2011design
+  title: Design and implementation of an expressive gesture model for a humanoid robot
+  authors: [Quôc Anh Lê, Souheïl Hanoune, Catherine Pélachaud]
+  year: 2011
+  venue: Humanoids
+  type: conference
+  category: method
+  doi: 10.1109/humanoids.2011.6100857
+  links: {paper: 'https://doi.org/10.1109/humanoids.2011.6100857', open: 'https://hal.science/hal-00730800'}
+  input: [text]
+  output: [upper-body]
+  approach: [rule-based, retrieval]
+  summary: Selects gestures from a lexicon for given intentions and emotions, makes them expressive, times them to speech and converts them to NAO robot joint values under the robot's movement limits.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: le2011expressive
+  title: Expressive Gesture Model for Humanoid Robot
+  authors: [Le Quoc Anh, Catherine Pélachaud]
+  year: 2011
+  venue: LNCS
+  type: conference
+  category: method
+  doi: 10.1007/978-3-642-24571-8_24
+  links: {paper: 'https://doi.org/10.1007/978-3-642-24571-8_24'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: lempert2011barack
+  title: Barack Obama, being sharp
+  authors: [Michael P. Lempert]
+  year: 2011
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.11.3.01lem
+  links: {paper: 'https://doi.org/10.1075/gest.11.3.01lem'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: li2011speech
+  title: Do Speech-associated Gesture and Speech Share the Same Communication System?
+  authors: [Ma Li]
+  year: 2011
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'http://en.cnki.com.cn/Article_en/CJFDTOTAL-XLXD201107007.htm'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: lim2011converting
+  title: Converting emotional voice to motion for robot telepresence
+  authors: [Angelica Lim, Tetsuya Ogata, Hiroshi G. Okuno]
+  year: 2011
+  venue: Humanoids
+  type: conference
+  category: method
+  doi: 10.1109/humanoids.2011.6100891
+  links: {paper: 'https://doi.org/10.1109/humanoids.2011.6100891'}
+  input: [audio, emotion]
+  user_study: true
+  summary: Generates pose-independent affective robot movement for a NAO humanoid from a speed, intensity, regularity and extent (DESIRE) description of emotion, which can be derived from voice.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: lim2011robotic
+  title: Robotic gesture-speech synchronization
+  authors: ['Lim, Keck Soon.']
+  year: 2011
+  venue: DR-NTU
+  type: thesis
+  category: system
+  links: {paper: 'http://hdl.handle.net/10356/44964'}
+  input: [text]
+  summary: A text-to-speech-to-gesture engine that plans gestures, blends motions, generates beat gestures at run time and synchronises them with speech timings on the Olivia 2.1 robot.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: lindenberg2011communication
+  title: 'Communication with emblematic gestures: Shared and distinct neural correlates of expression and reception'
+  authors: [Robert Lindenberg, Marie Uhlig, Dag Scherfeld, Gottfried Schlaug, Ruediger J. Seitz]
+  year: 2011
+  venue: Human Brain Mapping
+  type: journal
+  category: theory
+  doi: 10.1002/hbm.21258
+  links: {paper: 'https://doi.org/10.1002/hbm.21258'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: lloberes2011pragmatic
+  title: 'Pragmatic coherence as a multimodal feature: Illustrative cospeech gestures, events, and states'
+  authors: [Marina Lloberes, Lluís Payrató]
+  year: 2011
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.1515/9783110238693.215
+  links: {paper: 'https://doi.org/10.1515/9783110238693.215'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: macedonia2011body
+  title: 'Body in Mind: How Gestures Empower Foreign Language Learning'
+  authors: [Manuela Macedonia, Thomas R. Knösche]
+  year: 2011
+  venue: Mind Brain and Education
+  type: journal
+  category: theory
+  doi: 10.1111/j.1751-228x.2011.01129.x
+  links: {paper: 'https://doi.org/10.1111/j.1751-228x.2011.01129.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: mainelaarnold2011knowledge
+  title: 'Knowledge of Mathematical Equivalence in Children With Specific Language Impairment: Insights From Gesture and Speech'
+  authors: [Elina Mainela‐Arnold, Martha Wagner Alibali, Kristin Ryan, Julia L. Evans]
+  year: 2011
+  venue: Language Speech and Hearing Services in Schools
+  type: journal
+  category: theory
+  doi: 10.1044/0161-1461(2010/09-0070)
+  links: {paper: 'https://doi.org/10.1044/0161-1461(2010/09-0070)'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: marstaller2011interaction
+  title: The Interaction of Co-Speech Gestures with Higher-Level Executive Processes
+  authors: [Lars Marstaller, Hana Burianová]
+  year: 2011
+  venue: PsycEXTRA Dataset
+  type: journal
+  category: theory
+  doi: 10.1037/e520602012-793
+  links: {paper: 'https://doi.org/10.1037/e520602012-793'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: cognition
+
+- id: mauryrouan2011chapter
+  title: Chapter 23. “Voices” and bodies
+  authors: [Claire Maury-Rouan]
+  year: 2011
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.4.28mau
+  links: {paper: 'https://doi.org/10.1075/gs.4.28mau'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: mendozadenton2011semiotic
+  title: Semiotic Layering through Gesture and Intonation
+  authors: [Norma Mendoza‐Denton, Stefanie Jannedy]
+  year: 2011
+  venue: Journal of English Linguistics
+  type: journal
+  category: theory
+  doi: 10.1177/0075424211405941
+  links: {paper: 'https://doi.org/10.1177/0075424211405941'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: mlakar2011eva
+  title: 'EVA: expressive multipart virtual agent performing gestures and emotions'
+  authors: [Izidor Mlakar, Matej Rojc]
+  year: 2011
+  venue: Int. J. Mathematics and Computers in Simulation
+  type: journal
+  category: system
+  links: {paper: 'https://dk.um.si/IzpisGradiva.php?id=27297'}
+  summary: An embodied conversational agent framework with a multipart 3D model whose bone and morph-target animations are scripted as predefined gestures and behavioural events.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: mol2011seeing
+  title: 'Seeing and Being Seen: The Effects on Gesture Production'
+  authors: [Lisette Mol, Emiel Krahmer, Alfons Maes, Marc G. J. Swerts]
+  year: 2011
+  venue: Journal of Computer-Mediated Communication
+  type: journal
+  category: theory
+  doi: 10.1111/j.1083-6101.2011.01558.x
+  links: {paper: 'https://doi.org/10.1111/j.1083-6101.2011.01558.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: nagpal2011predicting
+  title: Predicting individual differences in L2 speakers’ gestures
+  authors: [Jaya Nagpal, Elena Nicoladis, Paula Marentette]
+  year: 2011
+  venue: International Journal of Bilingualism
+  type: journal
+  category: theory
+  doi: 10.1177/1367006910381195
+  links: {paper: 'https://doi.org/10.1177/1367006910381195'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: niewiadomski2011crossmedia
+  title: Cross-media agent platform
+  authors: [Radosław Niewiadomski, Mohammad Obaid, Elisabetta Bevacqua, Julian Looser, Le Quoc Anh, Catherine Pélachaud]
+  year: 2011
+  venue: ACM
+  type: conference
+  category: system
+  doi: 10.1145/2010425.2010428
+  links: {paper: 'https://doi.org/10.1145/2010425.2010428'}
+  summary: Presents a modular embodied conversational agent architecture following the SAIBA framework that displays verbal and nonverbal behaviour, including gestures, on different embodiments and media.
+  notes: Venue not stated in the candidate metadata; abbreviation is a placeholder from the DOI prefix.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: norris2011three
+  title: 'Three hierarchical positions of deictic gesture in relation to spoken language: a multimodal interaction analysis'
+  authors: [Sigrid Norris]
+  year: 2011
+  venue: Visual Communication
+  type: journal
+  category: theory
+  doi: 10.1177/1470357211398439
+  links: {paper: 'https://doi.org/10.1177/1470357211398439'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: ott2011prominence
+  title: Prominence in gesture and speech in American English and Italian
+  authors: [A. Ott]
+  year: 2011
+  venue: Purdue e-Pubs (Purdue University System)
+  type: thesis
+  category: theory
+  links: {paper: 'https://docs.lib.purdue.edu/dissertations/AAI1510256'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: ozcalskan2011chapter
+  title: Chapter 12. Is there an iconic gesture spurt at 26 months?
+  authors: [Şeyda Özçalışkan, Susan Goldin‐Meadow]
+  year: 2011
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.4.14ozc
+  links: {paper: 'https://doi.org/10.1075/gs.4.14ozc'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: parrill2011grammatical
+  title: 'Grammatical aspect in language production: Using gesture to reveal event representations.'
+  authors: [Fey Parrill, Benjamin K. Bergen, Patricia Lichtenstein]
+  year: 2011
+  venue: eScholarship (California Digital Library)
+  type: journal
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/4gf344vx'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: parrill2011relation
+  title: The relation between the encoding of motion event information and viewpoint in English-accompanying gestures
+  authors: [Fey Parrill]
+  year: 2011
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.11.1.04par
+  links: {paper: 'https://doi.org/10.1075/gest.11.1.04par'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: raymer2011contrasting
+  title: Contrasting effects of errorless naming treatment and gestural facilitation for word retrieval in aphasia
+  authors: [Anastasia M. Raymer, Beth McHose, Kimberly G. Smith, Lisa Iman, Alexis Ambrose, Colleen Casselton]
+  year: 2011
+  venue: Neuropsychological Rehabilitation
+  type: journal
+  category: theory
+  doi: 10.1080/09602011.2011.618306
+  links: {paper: 'https://doi.org/10.1080/09602011.2011.618306'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: reidsma2011continuous
+  title: Continuous interaction with a virtual human
+  authors: [Dennis Reidsma, Iwan de Kok, Daniel Neiberg, Sathish Pammi, Bart van Straalen, Khiet P. Truong, Herwin van Welbergen]
+  year: 2011
+  venue: JMUI
+  type: journal
+  category: system
+  doi: 10.1007/s12193-011-0060-x
+  links: {paper: 'https://doi.org/10.1007/s12193-011-0060-x'}
+  user_study: true
+  summary: A virtual human that acts as an attentive speaker, scheduling and interrupting multimodal behavior and adapting to its partner's listener responses.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: rowbotham2011communicate
+  title: How Do We Communicate About Pain? A Systematic Analysis of the Semantic Contribution of Co-speech Gestures in Pain-focused Conversations
+  authors: [Samantha J. Rowbotham, Judith Holler, Donna M. Lloyd, Alison J. Wearden]
+  year: 2011
+  venue: Journal of Nonverbal Behavior
+  type: journal
+  category: theory
+  doi: 10.1007/s10919-011-0122-5
+  links: {paper: 'https://doi.org/10.1007/s10919-011-0122-5'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: salem2011friendly
+  title: 'A friendly gesture: Investigating the effect of multimodal robot behavior in human-robot interaction'
+  authors: [Maha Salem, Katharina J. Rohlfing, Stefan Kopp, Frank Joublin]
+  year: 2011
+  venue: RO-MAN
+  type: conference
+  category: evaluation
+  doi: 10.1109/roman.2011.6005285
+  links: {paper: 'https://doi.org/10.1109/roman.2011.6005285'}
+  user_study: true
+  summary: Two experimental studies with the Honda humanoid robot on how speech-accompanying hand and arm gestures affect human evaluation of the interaction and the robot.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: salem2011multimodal
+  title: A Multimodal Scheduler for Synchronized Humanoid Robot Gesture and Speech
+  authors: [Maha Salem, Stefan Kopp, Ipke Wachsmuth, Frank Joublin]
+  year: 2011
+  venue: Gesture Workshop
+  type: workshop
+  category: system
+  links: {paper: 'https://pub.uni-bielefeld.de/record/2301145'}
+  output: [upper-body, hands]
+  summary: A multimodal scheduler that synchronizes expressive hand and arm gestures with speech on the Honda humanoid robot, built on the Articulated Communicator Engine.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: sassenberg2011show
+  title: Show your hands — Are you really clever? Reasoning, gesture production, and intelligence
+  authors: [Uta Sassenberg, Manja Foth, Isabell Wartenburger, Elke van der Meer]
+  year: 2011
+  venue: Linguistics
+  type: journal
+  category: theory
+  doi: 10.1515/ling.2011.003
+  links: {paper: 'https://doi.org/10.1515/ling.2011.003'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: sauter2011learning
+  title: 'Learning what children know about space from looking at their hands: The added value of gesture in spatial communication'
+  authors: [Megan Sauter, David H. Uttal, Amanda Schaal Alman, Susan Goldin‐Meadow, Susan Cohen Levine]
+  year: 2011
+  venue: Journal of Experimental Child Psychology
+  type: journal
+  category: theory
+  doi: 10.1016/j.jecp.2011.11.009
+  links: {paper: 'https://doi.org/10.1016/j.jecp.2011.11.009'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: sikveland2011ordination
+  title: 'Co-ordination of speech and gesture in sequence and time : phonetic and non-verbal detail in face-to-face interaction'
+  authors: [Rein Ove Sikveland]
+  year: 2011
+  venue: White Rose eTheses Online (University of Leeds, The University of Sheffield, University of York)
+  type: thesis
+  category: theory
+  links: {paper: 'http://etheses.whiterose.ac.uk/1778/1/ReinSikvelandPhDThesis_2011.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: smithson2011bilingual
+  title: Bilingual children’s gesture use
+  authors: [Lisa Smithson, Elena Nicoladis, Paula Marentette]
+  year: 2011
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.11.3.04smi
+  links: {paper: 'https://doi.org/10.1075/gest.11.3.04smi'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: so2011mnemonic
+  title: 'Mnemonic effect of iconic gesture and beat gesture in adults and children: Is meaning in gesture important for memory recall?'
+  authors: [Wing‐Chee So, Colin Sim Chen-Hui, Julie Low Wei-Shan]
+  year: 2011
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01690965.2011.573220
+  links: {paper: 'https://doi.org/10.1080/01690965.2011.573220'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: stam2011integrating
+  title: Integrating Gestures
+  authors: [Gale 19XX- Stam, Mika Ishino]
+  year: 2011
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1515/9783110668568
+  links: {paper: 'https://doi.org/10.1515/9783110668568'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: stout2011stone
+  title: Stone tools, language and the brain in human evolution
+  authors: [Dietrich Stout, Thierry Chaminade]
+  year: 2011
+  venue: Philosophical Transactions of the Royal Society B Biological Sciences
+  type: journal
+  category: theory
+  doi: 10.1098/rstb.2011.0099
+  links: {paper: 'https://doi.org/10.1098/rstb.2011.0099'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: tutton2011speakers
+  title: How speakers gesture when encoding location with English on and French sur
+  authors: [Mark Tutton]
+  year: 2011
+  venue: Journal of Pragmatics
+  type: journal
+  category: theory
+  doi: 10.1016/j.pragma.2011.07.012
+  links: {paper: 'https://doi.org/10.1016/j.pragma.2011.07.012'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: vandereet2011gestures
+  title: The role of gestures in the transition from one‐ to two‐word speech in a variety of children with intellectual disabilities
+  authors: [Joke Vandereet, Bea Maes, Dirk Lembrechts, Inge Zink]
+  year: 2011
+  venue: International Journal of Language & Communication Disorders
+  type: journal
+  category: theory
+  doi: 10.1111/j.1460-6984.2011.00050.x
+  links: {paper: 'https://doi.org/10.1111/j.1460-6984.2011.00050.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: welbergen2011behavior
+  title: 'Behavior generation for interpersonal coordination with virtual humans : on specifying, scheduling and realizing multimodal virtual human behavior'
+  authors: [van Herwin Welbergen]
+  year: 2011
+  venue: Thesis
+  type: thesis
+  category: system
+  doi: 10.3990/1.9789036532334
+  links: {paper: 'https://doi.org/10.3990/1.9789036532334', open: 'https://ris.utwente.nl/ws/files/6035043/thesis_H_van_Welbergen.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: wilkin2011chapter
+  title: Chapter 22. Speakers’ use of ‘action’ and ‘entity’ gestures with definite and indefinite references
+  authors: [Katie Wilkin, Judith Holler]
+  year: 2011
+  venue: Gesture studies
+  type: book
+  category: theory
+  doi: 10.1075/gs.4.27wil
+  links: {paper: 'https://doi.org/10.1075/gs.4.27wil'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: wu2011depictive
+  title: Are depictive gestures like pictures? Commonalities and differences in semantic processing
+  authors: [Ying Choon Wu, Seana Coulson]
+  year: 2011
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1016/j.bandl.2011.07.002
+  links: {paper: 'https://doi.org/10.1016/j.bandl.2011.07.002'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: xiaoqiong2011cognitive
+  title: Cognitive Interpretation of Metaphor on Co-speech Gesture
+  authors: [Yang Xiao-qiong]
+  year: 2011
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'http://en.cnki.com.cn/Article_en/CJFDTOTAL-CQGS201109019.htm'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: yang2011talking
+  title: 'The Talking Hands?: The Relation between Gesture and Language in Aphasic Patients'
+  authors: [Fu Ju Yang]
+  year: 2011
+  venue: Unitn-eprints PhD (University of Trento)
+  type: thesis
+  category: theory
+  doi: 10.15168/11572_368910
+  links: {paper: 'https://doi.org/10.15168/11572_368910'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical

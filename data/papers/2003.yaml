@@ -1,0 +1,350 @@
+# Papers published in 2003. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: allen2003gestures
+  title: 'Gestures Accompanying Verbal Route Directions: Do They Point to a New Avenue for Examining Spatial Representations?'
+  authors: [Gary L. Allen]
+  year: 2003
+  venue: Spatial Cognition and Computation
+  type: journal
+  category: theory
+  doi: 10.1207/s15427633scc0304_1
+  links: {paper: 'https://doi.org/10.1207/s15427633scc0304_1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: bello2003lexical
+  title: 'Lexical production in children with Williams syndrome: spontaneous use of gesture in a naming task'
+  authors: [A. Bello, O. Capirci, V. Volterra]
+  year: 2003
+  venue: Neuropsychologia
+  type: journal
+  category: theory
+  doi: 10.1016/s0028-3932(03)00172-6
+  links: {paper: 'https://doi.org/10.1016/s0028-3932(03)00172-6'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: caswell2003body
+  title: Body Language for Competent Teachers
+  authors: [Chris Caswell, Sean R. St J. Neill]
+  year: 2003
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.4324/9780203392690
+  links: {paper: 'https://doi.org/10.4324/9780203392690'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: chen2003gesture
+  title: Gesture patterns during speech repairs
+  authors: [L. Chen, Mary P. Harper, Francis K. H. Quek]
+  year: 2003
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1109/icmi.2002.1166985
+  links: {paper: 'https://doi.org/10.1109/icmi.2002.1166985'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: corballis2003hand
+  title: 'From Hand to Mouth: The Gestural Origins of Language'
+  authors: [Michael C. Corballis]
+  year: 2003
+  venue: Oxford University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1093/acprof:oso/9780199244843.003.0011
+  links: {paper: 'https://doi.org/10.1093/acprof:oso/9780199244843.003.0011'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: corballis2003mouth
+  title: 'From mouth to hand: Gesture, speech, and the evolution of right-handedness'
+  authors: [Michael C. Corballis]
+  year: 2003
+  venue: Behavioral and Brain Sciences
+  type: journal
+  category: theory
+  doi: 10.1017/s0140525x03000062
+  links: {paper: 'https://doi.org/10.1017/s0140525x03000062'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: driskell2003gesture
+  title: The Effect of Gesture on Speech Production and Comprehension
+  authors: [James E. Driskell, Paul H. Radtke]
+  year: 2003
+  venue: Human Factors The Journal of the Human Factors and Ergonomics Society
+  type: journal
+  category: theory
+  doi: 10.1518/hfes.45.3.445.27258
+  links: {paper: 'https://doi.org/10.1518/hfes.45.3.445.27258'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: enfield2003producing
+  title: 'Producing and Editing Diagrams Using Co‐Speech Gesture: Spatializing Nonspatial Relations in Explanations of Kinship in Laos'
+  authors: [N. J. Enfield]
+  year: 2003
+  venue: Journal of Linguistic Anthropology
+  type: journal
+  category: theory
+  doi: 10.1525/jlin.2003.13.1.7
+  links: {paper: 'https://doi.org/10.1525/jlin.2003.13.1.7'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: finlayson2003restriction
+  title: Effects of the restriction of hand gestures on disfluency.
+  authors: [Sheena Finlayson, Victoria Forrest, Robin J. Lickley, Janet Mackenzie Beck]
+  year: 2003
+  venue: Queen Margaret University Publications Repository (Queen Margaret University)
+  type: journal
+  category: theory
+  links: {paper: 'http://eresearch.qmu.ac.uk/2180/1/2180.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: goldinmeadow2003childrens
+  title: 'From children''s hands to adults'' ears: Gesture''s role in the learning process.'
+  authors: [Susan Goldin‐Meadow, Melissa A. Singer]
+  year: 2003
+  venue: Developmental Psychology
+  type: journal
+  category: theory
+  doi: 10.1037/0012-1649.39.3.509
+  links: {paper: 'https://doi.org/10.1037/0012-1649.39.3.509'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: gullberg2003gestures
+  title: Gestures, referents, and anaphoric linkage in learner varieties
+  authors: [Marianne Gullberg]
+  year: 2003
+  venue: Studies in bilingualism
+  type: book
+  category: theory
+  doi: 10.1075/sibil.26.15gul
+  links: {paper: 'https://doi.org/10.1075/sibil.26.15gul'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: h2003content
+  title: The content of the message influences the hand preference in co-speech gestures and in gesturing without speaking
+  authors: ['Lausberg, H', 'Kita, S']
+  year: 2003
+  venue: Bristol Research (University of Bristol)
+  type: journal
+  category: theory
+  links: {paper: 'https://research-information.bris.ac.uk/en/publications/a7a01e67-2768-4f82-9c74-55a8860f7f96'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: harris2003listening
+  title: 'Listening with Your Eyes: The Importance of Speech‐Related Gestures in the Language Classroom'
+  authors: [Tony Harris]
+  year: 2003
+  venue: Foreign Language Annals
+  type: journal
+  category: theory
+  doi: 10.1111/j.1944-9720.2003.tb01468.x
+  links: {paper: 'https://doi.org/10.1111/j.1944-9720.2003.tb01468.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: holler2003iconic
+  title: 'How iconic gestures and speech interact in the representation of meaning: Are both aspects really integral to the process?'
+  authors: [Judith Holler, Geoffrey W. Beattie]
+  year: 2003
+  venue: Semiotica
+  type: journal
+  category: theory
+  doi: 10.1515/semi.2003.083
+  links: {paper: 'https://doi.org/10.1515/semi.2003.083'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: holler2003pragmatic
+  title: Pragmatic aspects of representational gestures
+  authors: [Judith Holler, Geoffrey W. Beattie]
+  year: 2003
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.3.2.02hol
+  links: {paper: 'https://doi.org/10.1075/gest.3.2.02hol'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: iverson2003relationship
+  title: Relationship between gestures and words in children with Down's syndrome and typically developing children in the early stages of communicative development
+  authors: [Jana Marie Iverson, Emiddia Longobardi, María Cristina Caselli]
+  year: 2003
+  venue: International Journal of Language & Communication Disorders
+  type: journal
+  category: theory
+  doi: 10.1080/1368282031000062891
+  links: {paper: 'https://doi.org/10.1080/1368282031000062891'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: jenkins2003multiple
+  title: 'Multiple Layers of Meaning in an Oral Proficiency Test: The Complementary Roles of Nonverbal, Paralinguistic, and Verbal Behaviors in Assessment Decisions'
+  authors: [Susan Jenkins, Isabel Parra]
+  year: 2003
+  venue: Modern Language Journal
+  type: journal
+  category: theory
+  doi: 10.1111/1540-4781.00180
+  links: {paper: 'https://doi.org/10.1111/1540-4781.00180'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: kelly2003neural
+  title: Neural correlates of bimodal speech and gesture comprehension
+  authors: [Spencer D. Kelly, Corinne Kravitz, Michael Hopkins]
+  year: 2003
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1016/s0093-934x(03)00335-3
+  links: {paper: 'https://doi.org/10.1016/s0093-934x(03)00335-3'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: kita2003cross
+  title: 'What does cross-linguistic variation in semantic coordination of speech and gesture reveal?: Evidence for an interface representation of spatial thinking and speaking'
+  authors: [Sotaro Kita, Aslı Özyürek]
+  year: 2003
+  venue: Journal of Memory and Language
+  type: journal
+  category: theory
+  doi: 10.1016/s0749-596x(02)00505-3
+  links: {paper: 'https://doi.org/10.1016/s0749-596x(02)00505-3'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: lausberg2003content
+  title: The content of the message influences the hand choice in co-speech gestures and in gesturing without speaking
+  authors: [Hedda Lausberg, Sotaro Kita]
+  year: 2003
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1016/s0093-934x(02)00534-5
+  links: {paper: 'https://doi.org/10.1016/s0093-934x(02)00534-5'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: nunez2003real
+  title: 'Do Real Numbers Really Move? Language, Thought, and Gesture: The Embodied Cognitive Foundations of Mathematics'
+  authors: [Rafael E. Núñez]
+  year: 2003
+  venue: Lecture notes in computer science
+  type: book
+  category: theory
+  doi: 10.1007/978-3-540-27833-7_4
+  links: {paper: 'https://doi.org/10.1007/978-3-540-27833-7_4'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: cognition
+
+- id: quek2003gesture
+  title: Gesture cues for conversational interaction in monocular video
+  authors: [Francis K. H. Quek, David Moreno McNeill, Rashid Ansari, Xinfeng Ma, Robert Bryll, Susan Duncan, Karl E. McCullough]
+  year: 2003
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1109/ratfg.1999.799234
+  links: {paper: 'https://doi.org/10.1109/ratfg.1999.799234'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: richmond2003nonverbal
+  title: Nonverbal Behavior in Interpersonal Relations
+  authors: [VIRGINIA PECK RICHMOND, James C. McCroskey]
+  year: 2003
+  venue: Medical Entomology and Zoology
+  type: book
+  category: theory
+  links: {paper: 'https://ci.nii.ac.jp/ncid/BB06155984'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: rose2003limb
+  title: 'Limb apraxia, pantomine, and lexical gesture in aphasic speakers: Preliminary findings'
+  authors: [Miranda L. Rose, Jacinta Mary Douglas]
+  year: 2003
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687030344000157
+  links: {paper: 'https://doi.org/10.1080/02687030344000157'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: wilkins2003pointing
+  title: Why Pointing With the Index Finger Is Not a Universal (in Sociocultural and Semiotic Terms)
+  authors: [David P. Wilkins]
+  year: 2003
+  venue: Psychology Press eBooks
+  type: book
+  category: theory
+  doi: 10.4324/9781410607744-12
+  links: {paper: 'https://doi.org/10.4324/9781410607744-12'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction

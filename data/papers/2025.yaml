@@ -43,6 +43,48 @@
   checked: full-text
   verified: false
 
+- id: akamine2025video
+  title: Video-mediated communication modulates conversational features of speech more than gesture in novel referential communication
+  authors: [Sho Akamine, Mark Dingemanse, Antje S. Meyer, Aslı Özyürek]
+  year: 2025
+  venue: Unknown venue
+  type: preprint
+  category: theory
+  doi: 10.31234/osf.io/vjwpz_v1
+  links: {paper: 'https://doi.org/10.31234/osf.io/vjwpz_v1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: akkan2025author
+  title: 'Author response for "Talking Hands, Shifting Tongues: How Using Co-speech Gestures and Second Language Relate to Emotional Autobiographical Memory Narration?"'
+  authors: [İbrahim Akkan, Çağla Aydın, Sami̇ Gülgöz, Tilbe Göksun]
+  year: 2025
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1177/17470218251405232/v2/response1
+  links: {paper: 'https://doi.org/10.1177/17470218251405232/v2/response1'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: cognition
+
+- id: akkan2025talking
+  title: 'Talking Hands, Shifting Tongues: How Does the Use of Co-speech Gestures and Second Language Relate to Emotional Autobiographical Memory Narration?'
+  authors: [İbrahim Akkan, Çağla Aydın, Sami̇ Gülgöz, Tilbe Göksun]
+  year: 2025
+  venue: Quarterly Journal of Experimental Psychology
+  type: journal
+  category: theory
+  doi: 10.1177/17470218251405232
+  links: {paper: 'https://doi.org/10.1177/17470218251405232'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
 - id: ali2025multilingual
   title: 'Expanding Multilingual Co-Speech Interaction: The Impact of Enhanced Gesture Units in Text-to-Gesture Synthesis for Digital Humans'
   authors: [Ghazanfar Ali, Woojoo Kim, Muhammad Shahid Anwar, Jae-In Hwang, Ahyoung Choi]
@@ -87,6 +129,87 @@
   checked: full-text
   verified: false
 
+- id: alon2025speech
+  title: Co-speech gestures accompanying linguistic inventions
+  authors: ['Fishman, Alon', 'Lisa ; https://orcid.org/0009-0007-8084-4439 Gottschalk', Stefan Kopp, Joana Cholin]
+  year: 2025
+  venue: Publikationen an der Universität Bielefeld (Universität Bielefeld)
+  type: journal
+  category: theory
+  links: {paper: 'https://pub.uni-bielefeld.de/record/3012486'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: anon2025decision
+  title: 'Decision letter for "Talking Hands, Shifting Tongues: How Using Co-speech Gestures and Second Language Relate to Emotional Autobiographical Memory Narration?"'
+  year: 2025
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1177/17470218251405232/v1/decision1
+  links: {paper: 'https://doi.org/10.1177/17470218251405232/v1/decision1'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: cognition
+
+- id: anon2025gestural
+  title: 'Gestural Relativity of Spatial Cognition: Speakers’ co-speech gestures shape listeners’ spatial frame of reference'
+  authors: [Cognitive Science Society 2025, Tyler Marghetis, Shervin Nosrati]
+  year: 2025
+  venue: eScholarship (California Digital Library)
+  type: journal
+  category: theory
+  doi: 10.48448/fxt0-1b68
+  links: {paper: 'https://doi.org/10.48448/fxt0-1b68'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: anon2025gesture
+  title: Gesture Use Contributes to Autobiographical Remembering
+  authors: [Cognitive Science Society 2025, İbrahim Akkan, Çağla Aydın, tilbe göksun, Yağmur Damla Şentürk, Selma Berfin Tanis]
+  year: 2025
+  venue: Sabanci University
+  type: journal
+  category: theory
+  doi: 10.48448/szgw-yp56
+  links: {paper: 'https://doi.org/10.48448/szgw-yp56'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: anon2025review
+  title: 'Review for "Talking Hands, Shifting Tongues: How Using Co-speech Gestures and Second Language Relate to Emotional Autobiographical Memory Narration?"'
+  year: 2025
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1177/17470218251405232/v1/review1
+  links: {paper: 'https://doi.org/10.1177/17470218251405232/v1/review1'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: cognition
+
+- id: archibold2025speech
+  title: Co-speech gesture provides a window onto intraindividual conflict during embodied sensemaking
+  authors: [Estelle Elena Archibold, Fey Parrill]
+  year: 2025
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.25022.arc
+  links: {paper: 'https://doi.org/10.1075/gest.25022.arc'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
 - id: baihaqi2025llm
   title: LLM-Driven Approach for Motion Control in Human-Robot Dialogue for Elevating Engagement
   authors: [Muhammad Yeza Baihaqi, Angel García Contreras, Seiya Kawano, Koichiro Yoshino]
@@ -102,6 +225,48 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: barros2025prosody
+  title: 'Prosody and co-speech gestures in a Brazilian audiovisual spontaneous speech corpus: the case of Parentheticals'
+  authors: [Camila Antônio Barros, Heliana Mello, Tommaso Raso]
+  year: 2025
+  venue: Corpus Linguistics and Linguistic Theory
+  type: journal
+  category: theory
+  doi: 10.1515/cllt-2025-0016
+  links: {paper: 'https://doi.org/10.1515/cllt-2025-0016'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: barth2025gestures
+  title: 'Gestures for me and you: A corpus study of Matukar Panau referential gestures'
+  authors: [Danielle Barth, Kira Davey]
+  year: 2025
+  venue: Australian Journal of Linguistics
+  type: journal
+  category: theory
+  doi: 10.1080/07268602.2025.2516034
+  links: {paper: 'https://doi.org/10.1080/07268602.2025.2516034'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: bekke2025speech
+  title: Co-Speech Hand Gestures Are Used to Predict Upcoming Meaning
+  authors: [Marlijn ter Bekke, Linda Drijvers, Judith Holler]
+  year: 2025
+  venue: Psychological Science
+  type: journal
+  category: theory
+  doi: 10.1177/09567976251331041
+  links: {paper: 'https://doi.org/10.1177/09567976251331041'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
 
 - id: bian2025motioncraft
   title: 'MotionCraft: Crafting Whole-Body Motion with Plug-and-Play Multimodal Controls'
@@ -126,6 +291,48 @@
   checked: full-text
   verified: false
 
+- id: bonsignori2025action
+  title: Action depiction in gestures and signs
+  authors: [Chiara Bonsignori, Elena Tomasuolo, Pasquale Rinaldi, Virginia Volterra]
+  year: 2025
+  venue: Sign Language & Linguistics
+  type: journal
+  category: theory
+  doi: 10.1075/sll.24003.bon
+  links: {paper: 'https://doi.org/10.1075/sll.24003.bon'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: bujok2025beating
+  title: 'Beating stress: Evidence for recalibration of word stress perception'
+  authors: [Ronny Bujok, David Peeters, Antje S. Meyer, Hans Rutger Bosker]
+  year: 2025
+  venue: Attention Perception & Psychophysics
+  type: journal
+  category: theory
+  doi: 10.3758/s13414-025-03088-5
+  links: {paper: 'https://doi.org/10.3758/s13414-025-03088-5'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: cacciante2025promoting
+  title: 'Promoting the integration of language, cognition and gesture for individuals with neurological disorders rehabilitation: A point of view and directions for future research'
+  authors: [Luisa Cacciante, Mariagrazia Ranzini]
+  year: 2025
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1016/j.bandl.2025.105701
+  links: {paper: 'https://doi.org/10.1016/j.bandl.2025.105701'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
 - id: cai2025anchortalk
   title: 'AnchorTalk: High-Fidelity Upper-Body Talking Human Generation From Speech'
   authors: [Yali Cai, Peng Qiao, Dongsheng Li]
@@ -142,6 +349,20 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: cartmill2025gestural
+  title: Gestural Iconicity and Alignment as Steps in the Evolution of Language
+  authors: [Erica A. Cartmill]
+  year: 2025
+  venue: Topics in Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1111/tops.12778
+  links: {paper: 'https://doi.org/10.1111/tops.12778'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: chen2025deviation
   title: Audio-driven Gesture Generation via Deviation Feature in the Latent Space
@@ -531,6 +752,34 @@
   checked: full-text
   verified: false
 
+- id: dogan2025early
+  title: Early parental multimodal input is differentially associated with later vocabulary knowledge for preterm and full-term infants
+  authors: [Işıl Doğan, Erim Kızıldere, Mert Kobaş, Aslı Aktan‐Erciyes, Ö. Ece Demir‐Lira, İpek Akman, Tilbe Göksun]
+  year: 2025
+  venue: Language Learning and Development
+  type: journal
+  category: theory
+  doi: 10.1080/15475441.2025.2529892
+  links: {paper: 'https://doi.org/10.1080/15475441.2025.2529892'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: dresang2025iconic
+  title: Iconic gesture use during discourse production in latent aphasia
+  authors: [Haley C. Dresang, Sarah Grace Dalton, Eleanor McCreary, Emma Pittman, Brielle C. Stark]
+  year: 2025
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687038.2025.2511215
+  links: {paper: 'https://doi.org/10.1080/02687038.2025.2511215'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
 - id: du2025synthetically
   title: 'Synthetically Expressive: Evaluating gesture and voice for emotion and empathy in VR and 2D scenarios'
   authors: [Haoyang Du, Kiran Chhatre, Christopher Peters, Brian Keegan, Rachel McDonnell, Cathy Ennis]
@@ -566,6 +815,20 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: estevegibert2025modality
+  title: 'How a modality-neutral prosodic dimension can enrich the multimodal language acquisition framework: A commentary on Karadöller, Sümer and Özyürek'
+  authors: [Núria Esteve‐Gibert, Stefanie Shattuck‐Hufnagel, Pilar Prieto]
+  year: 2025
+  venue: First Language
+  type: journal
+  category: theory
+  doi: 10.1177/01427237251335804
+  links: {paper: 'https://doi.org/10.1177/01427237251335804'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
 
 - id: fang2025coordspeaker
   title: 'CoordSpeaker: Exploiting Gesture Captioning for Coordinated Caption-Empowered Co-Speech Gesture Generation'
@@ -810,6 +1073,34 @@
   checked: full-text
   verified: false
 
+- id: giberga2025children
+  title: How Children With and Without Developmental Language Disorder Use Prosody and Gestures to Process Phrasal Ambiguities
+  authors: [Albert Giberga, Ernesto Guerra, Nadia Ahufinger, Alfonso Igualada, Mari Aguilera, Núria Esteve‐Gibert]
+  year: 2025
+  venue: Languages
+  type: journal
+  category: theory
+  doi: 10.3390/languages10040061
+  links: {paper: 'https://doi.org/10.3390/languages10040061'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: giberga2025prosody
+  title: Prosody and gestures help pragmatic processing in children with Developmental Language Disorder
+  authors: [Albert Giberga, Ernesto Guerra, Nadia Ahufinger, Alfonso Igualada, Mari Aguilera, Núria Esteve‐Gibert]
+  year: 2025
+  venue: Journal of Communication Disorders
+  type: journal
+  category: theory
+  doi: 10.1016/j.jcomdis.2025.106525
+  links: {paper: 'https://doi.org/10.1016/j.jcomdis.2025.106525'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
 - id: gomezsanchez2025features
   title: 'From Embeddings to Language Models: A Comparative Analysis of Feature Extractors for Text-Only and Multimodal Gesture Generation'
   authors: [J. I. Gomez Sanchez, Paula Dornhofer Paro Costa]
@@ -839,6 +1130,20 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: gu2025ecolang
+  title: The ECOLANG Multimodal Corpus of adult-child and adult-adult Language
+  authors: [Yan Gu, Ed Donnellan, Beata J. Grzyb, Gwen Brekelmans, Margherita Murgiano, Ricarda Brieke, Pamela Perniss, Gabriella Vigliocco]
+  year: 2025
+  venue: Scientific Data
+  type: journal
+  category: theory
+  doi: 10.1038/s41597-025-04405-1
+  links: {paper: 'https://doi.org/10.1038/s41597-025-04405-1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
 
 - id: guan2025audcast
   title: 'AudCast: Audio-Driven Human Video Generation by Cascaded Diffusion Transformers'
@@ -890,6 +1195,20 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
+
+- id: guo2025gesture
+  title: 'How Gesture Benefits Learning: A Working Framework for Examining Attention and Memory Mechanisms'
+  authors: [Xiaohan Guo, Monica D. Rosenberg, Wilma Alice Bainbridge, Susan Goldin‐Meadow]
+  year: 2025
+  venue: Annual Review of Developmental Psychology
+  type: journal
+  category: theory
+  doi: 10.1146/annurev-devpsych-111323-112334
+  links: {paper: 'https://doi.org/10.1146/annurev-devpsych-111323-112334'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
 
 - id: guo2025hip
   title: Toward Unified Co-Speech Gesture Generation via Hierarchical Implicit Periodicity Learning
@@ -962,6 +1281,20 @@
   checked: full-text
   verified: false
 
+- id: hart2025speech
+  title: Co-speech Gestures
+  authors: [Christopher Hart]
+  year: 2025
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/9781009257572.008
+  links: {paper: 'https://doi.org/10.1017/9781009257572.008'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
 - id: hensel2025richly
   title: A richly annotated dataset of co-speech hand gestures across diverse speaker contexts
   authors: [Laura Birka Hensel, Stephanie Cheng, Stacy Marsella]
@@ -977,6 +1310,20 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
+
+- id: herbuela2025multimodal
+  title: Multimodal Emotion Coupling via Speech-to-Facial and Bodily Gestures in Dyadic Interaction
+  authors: [Von Ralph Dane Marquez Herbuela, Yukie Nagai]
+  year: 2025
+  venue: arXiv
+  type: preprint
+  category: theory
+  arxiv: '2506.10010'
+  links: {paper: 'https://arxiv.org/abs/2506.10010'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
 
 - id: hoangminh2025deepgesture
   title: A conversational gesture synthesis system based on emotions and semantics
@@ -1026,6 +1373,20 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
+
+- id: hong2025speech
+  title: Co-speech Pointing Gestures as the Visual Determiner in Early Word Learning
+  authors: [Xuancu Hong, Patrick C. M. Wong]
+  year: 2025
+  venue: Unknown venue
+  type: preprint
+  category: theory
+  doi: 10.31234/osf.io/ascyp_v1
+  links: {paper: 'https://doi.org/10.31234/osf.io/ascyp_v1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
 
 - id: huan2025review
   title: A Review of Digital Human Gesture Generation Technology and Its Teaching Application Thinking
@@ -1104,6 +1465,20 @@
   checked: full-text
   verified: true
 
+- id: inbar2025contrastive
+  title: Contrastive negation constructions in Israeli Hebrew
+  authors: [Anna Inbar]
+  year: 2025
+  venue: Constructional approaches to language
+  type: book
+  category: theory
+  doi: 10.1075/cal.38.08inb
+  links: {paper: 'https://doi.org/10.1075/cal.38.08inb'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: ishii2025personality
   title: Impact of Personality on Generation of Co-speech Nonverbal Behaviors Represented by 3D Skeleton Pose
   authors: [Ryo Ishii, Shin-ichiro Eitoku, Yoshihide Sato]
@@ -1136,6 +1511,20 @@
   added: '2026-10-03'
   checked: metadata
   verified: false
+
+- id: jimenez2025modeling
+  title: Modeling the Gesture-Speech Relation Through Novel Datasets for Multimodal Signal Analysis
+  authors: [Brian Herreño Jiménez, Sánchez Sánchez Raúl, Alcaraz Carrión Daniel, López Bernal Ariadna, Cristóbal Pagán Cánovas]
+  year: 2025
+  venue: Preprints.org
+  type: preprint
+  category: theory
+  doi: 10.20944/preprints202509.2141.v1
+  links: {paper: 'https://doi.org/10.20944/preprints202509.2141.v1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: kalafatovich2025sgeag
   title: 'SGEAG: Semantic-guided emotional-aware gesture generation from audio'
@@ -1173,6 +1562,20 @@
   checked: full-text
   verified: false
 
+- id: konderak2025embodied
+  title: 'Embodied Polysemiotic Communication: A Cognitive Semiotic Perspective on Speech and Gestures'
+  authors: [Piotr Konderak]
+  year: 2025
+  venue: Numanities - arts and humanities in progress
+  type: book
+  category: theory
+  doi: 10.1007/978-3-031-95999-8_25
+  links: {paper: 'https://doi.org/10.1007/978-3-031-95999-8_25'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
 - id: kong2025multitalk
   title: 'Let Them Talk: Audio-Driven Multi-Person Conversational Video Generation'
   authors: [Zining Kong, Feng Gao, Yong Zhang, Zhuoliang Kang, Xiaoming Wei, Xunliang Cai, Guanying Chen, Wenhan Luo]
@@ -1195,6 +1598,34 @@
   added: '2026-10-03'
   checked: full-text
   verified: false
+
+- id: lametti2025memories
+  title: Memories of hand movements are tied to speech through learning
+  authors: [Daniel Robert Lametti, Gina L. Vaillancourt, Maura A. Whitman, Jeremy I Skipper]
+  year: 2025
+  venue: Psychonomic Bulletin & Review
+  type: journal
+  category: theory
+  doi: 10.3758/s13423-024-02618-w
+  links: {paper: 'https://doi.org/10.3758/s13423-024-02618-w'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: li2025adults
+  title: Adults interpret iconicity in speech and gesture via the same modality-independent process
+  authors: [Mingtong Li, Suzanne Aussems, Sotaro Kita]
+  year: 2025
+  venue: Psychonomic Bulletin & Review
+  type: journal
+  category: theory
+  doi: 10.3758/s13423-025-02698-2
+  links: {paper: 'https://doi.org/10.3758/s13423-025-02698-2'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
 
 - id: li2025easygennet
   title: 'EasyGenNet: An Efficient Framework for Audio-Driven Gesture Video Generation Based on Diffusion Model'
@@ -1299,6 +1730,19 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
+
+- id: li2025spatial
+  title: Spatial Skills and the Comprehension of Co-Speech Gestures for Spatial Language
+  authors: [Binglong Li, Tilbe Göksun, Demet Özer, Aslı Özyürek]
+  year: 2025
+  venue: OSF Preprints (OSF Preprints)
+  type: preprint
+  category: theory
+  links: {paper: 'https://osf.io/d6xzw'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
 
 - id: lin2025omnihuman
   title: 'OmniHuman-1: Rethinking the Scaling-Up of One-Stage Conditioned Human Animation Models'
@@ -1467,6 +1911,20 @@
   checked: full-text
   verified: false
 
+- id: lopezozieblo2025dual
+  title: The Dual Functions of Adaptors
+  authors: [Renia López-Ozieblo]
+  year: 2025
+  venue: Languages
+  type: journal
+  category: theory
+  doi: 10.3390/languages10090231
+  links: {paper: 'https://doi.org/10.3390/languages10090231'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: lu2025iasa
   title: Input-Aware Sparse Attention for Real-Time Co-Speech Video Generation
   authors: [Beijia Lu, Ziyi Chen, Jing Xiao, Jun-Yan Zhu]
@@ -1516,6 +1974,20 @@
   added: '2026-10-03'
   checked: full-text
   verified: false
+
+- id: marghetis2025speech
+  title: Co-speech gesture reveals the spatial foundation of children’s conceptions of time
+  authors: [Tyler Marghetis, Katharine A. Tillman, Mahesh Srinivasan]
+  year: 2025
+  venue: Unknown venue
+  type: preprint
+  category: theory
+  doi: 10.31234/osf.io/dnpeh_v1
+  links: {paper: 'https://doi.org/10.31234/osf.io/dnpeh_v1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
 
 - id: mclean2025embody
   title: 'Embody 3D: A Large-scale Multimodal Motion and Behavior Dataset'
@@ -1624,6 +2096,76 @@
   checked: abstract
   verified: false
 
+- id: miles2025embodied
+  title: 'An embodied multi-articulatory multimodal language framework: A commentary on Karadöller, Sümer and Özyürek'
+  authors: [Rachel Miles, Shai Lynne Nielson, Deniz İlkbaşaran, Rachel I. Mayberry]
+  year: 2025
+  venue: First Language
+  type: journal
+  category: theory
+  doi: 10.1177/01427237251326977
+  links: {paper: 'https://doi.org/10.1177/01427237251326977'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: momsen2025decoding
+  title: 'Decoding Prosodic Information from Motion Capture Data: The Gravity of Co-Speech Gestures'
+  authors: [Jacob Momsen, Seana Coulson]
+  year: 2025
+  venue: Open Mind
+  type: journal
+  category: theory
+  doi: 10.1162/opmi_a_00196
+  links: {paper: 'https://doi.org/10.1162/opmi_a_00196'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: momsen2025influence
+  title: The Influence of Co-Speech Gestures on Speech Envelope Tracking
+  authors: [Jacob Momsen, Ying Choon Wu, Seana Coulson]
+  year: 2025
+  venue: SSRN Electronic Journal
+  type: journal
+  category: theory
+  doi: 10.2139/ssrn.5287595
+  links: {paper: 'https://doi.org/10.2139/ssrn.5287595'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: momsen2025point
+  title: 'Point-light Talkers: Multisensory Enhancement of Speech Tracking by Co-speech Movement Kinematics'
+  authors: [Jacob Momsen, Seana Coulson]
+  year: 2025
+  venue: Journal of Cognitive Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1162/jocn.a.62
+  links: {paper: 'https://doi.org/10.1162/jocn.a.62'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: morett2025concluding
+  title: 308309A concluding synthesis of the role of gesture in L2 acquisition and pedagogy
+  authors: [Laura M. Morett, Solène Inceoglu]
+  year: 2025
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.1515/9783111568645-015
+  links: {paper: 'https://doi.org/10.1515/9783111568645-015'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
 - id: mughal2025rag
   title: 'Retrieving Semantics from the Deep: an RAG Solution for Gesture Synthesis'
   authors: [M. Hamza Mughal, Rishabh Dabral, Merel C. J. Scholman, Vera Demberg, Christian Theobalt]
@@ -1697,6 +2239,34 @@
   checked: full-text
   verified: false
 
+- id: ozcalskan2025gesture
+  title: Does gesture follow speech in describing metaphorical motion events over developmental time?
+  authors: [Şeyda Özçalışkan, Susan Goldin‐Meadow]
+  year: 2025
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1016/j.bandl.2025.105620
+  links: {paper: 'https://doi.org/10.1016/j.bandl.2025.105620'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
+
+- id: paggio2025hand
+  title: Do hand gestures increase perceived prominence in naturally produced utterances?
+  authors: [Patrizia Paggio, Holger Mitterer, Greta Attard, Alexandra Vella]
+  year: 2025
+  venue: Language and Cognition
+  type: journal
+  category: theory
+  doi: 10.1017/langcog.2025.20
+  links: {paper: 'https://doi.org/10.1017/langcog.2025.20'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
 - id: patapati2025geneca
   title: 'GenECA: A General-Purpose Framework for Real-Time Adaptive Multimodal Embodied Conversational Agents'
   authors: [Santosh Patapati, Murari Ambati, Aashrith Tatineni, Trisanth Srinivasan]
@@ -1729,6 +2299,34 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: pouw2025human
+  title: The human voice aligns with whole-body kinetics
+  authors: [Wim T. J. L. Pouw, Raphael Werner, Lara S. Burchardt, Luc P. J. Selen]
+  year: 2025
+  venue: Proceedings of the Royal Society B Biological Sciences
+  type: conference
+  category: theory
+  doi: 10.1098/rspb.2025.0160
+  links: {paper: 'https://doi.org/10.1098/rspb.2025.0160'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: prokofyeva2025intensity
+  title: Intensity and its manifestations in speech and recurrent gestures in spontaneous dialogue
+  authors: [Olga Prokofyeva, Maria I. Kiose, Anna Leonteva, Evgeniya Smirnova]
+  year: 2025
+  venue: Computational Linguistics and Intellectual Technologies
+  type: journal
+  category: theory
+  doi: 10.28995/2075-7182-2025-23-281-290
+  links: {paper: 'https://doi.org/10.28995/2075-7182-2025-23-281-290'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: qi2025chatanyone
   title: 'ChatAnyone: Stylized Real-time Portrait Video Generation with Hierarchical Motion Diffusion Model'
@@ -1839,6 +2437,48 @@
   checked: abstract
   verified: false
 
+- id: rohrer2025dance
+  title: 'From “I dance” to “she danced” with a flick of the hands: Audiovisual stress perception in Spanish'
+  authors: [Patrick Louis Rohrer, Ronny Bujok, Lieke van Maastricht, Hans Rutger Bosker]
+  year: 2025
+  venue: Psychonomic Bulletin & Review
+  type: journal
+  category: theory
+  doi: 10.3758/s13423-025-02683-9
+  links: {paper: 'https://doi.org/10.3758/s13423-025-02683-9'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: rohrer2025multidimension
+  title: 'Multidimensional Labeling of Gesture in Communication: the M3D Proposal'
+  authors: [Patrick Louis Rohrer, Ulya Tütüncübasi, Júlia Florit‐Pons, Ingrid Vilà‐Giménez, Núria Esteve‐Gibert, Ada Ren-Mitchell, Stefanie Shattuck‐Hufnagel, Pilar Prieto]
+  year: 2025
+  venue: Corpus Pragmatics
+  type: journal
+  category: theory
+  doi: 10.1007/s41701-025-00197-2
+  links: {paper: 'https://doi.org/10.1007/s41701-025-00197-2'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: schroder2025metaphorical
+  title: Metaphorical and metonymic constructions in co-speech gestures about the COVID-19 pandemic
+  authors: [Ulrike A. Schröder, Anna Ladilova, Thiago da Cunha Nascimento]
+  year: 2025
+  venue: Metaphor in language, cognition, and communication
+  type: book
+  category: theory
+  doi: 10.1075/milcc.11.11sch
+  links: {paper: 'https://doi.org/10.1075/milcc.11.11sch'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
 - id: shen2025tedculture
   title: 'TED-culture: culturally inclusive co-speech gesture generation for embodied social agents'
   authors: [Yilin Shen, Wafa Johal]
@@ -1909,6 +2549,34 @@
   checked: full-text
   verified: true
 
+- id: stolpe2025spatial
+  title: 'Spatial constructions of time: exploring Co-speech gestures in lectures on programming'
+  authors: [Karin Stolpe, Marlene Johansson Falck, Andréas Larsson]
+  year: 2025
+  venue: Cognitive Semiotics
+  type: journal
+  category: theory
+  doi: 10.1515/cogsem-2025-2002
+  links: {paper: 'https://doi.org/10.1515/cogsem-2025-2002'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: struiksma2025speech
+  title: Co-speech gestures in blind and sighted
+  authors: [Marijn Struiksma]
+  year: 2025
+  venue: Utrecht University - Yoda
+  type: journal
+  category: theory
+  doi: 10.24416/uu01-r61mn8
+  links: {paper: 'https://doi.org/10.24416/uu01-r61mn8'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: sun2025streamavatar
   title: 'StreamAvatar: Streaming Diffusion Models for Real-Time Interactive Human Avatars'
   authors: [Zhiyao Sun, Ziqiao Peng, Yifeng Ma, Yi Chen, Zhengguang Zhou, Zixiang Zhou, Guozhen Zhang, Youliang Zhang, Yuan Zhou, Qinglin Lu, Yong-Jin Liu]
@@ -1932,6 +2600,47 @@
   added: '2026-10-03'
   checked: full-text
   verified: false
+
+- id: sung2025unraveling
+  title: 'Unraveling temporally entangled multimodal interactions: investigating verbal and nonverbal contributions to collaborative construction of embodied math knowledge'
+  authors: [Hanall Sung, Mitchell J. Nathan]
+  year: 2025
+  venue: International Journal of Educational Technology in Higher Education
+  type: journal
+  category: theory
+  doi: 10.1186/s41239-025-00504-6
+  links: {paper: 'https://doi.org/10.1186/s41239-025-00504-6'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: susie2025childrens
+  title: 'Children’s Development of Speech and Gesture in Expressing Motion Events: Evidence from Mandarin Chinese'
+  authors: [Susie]
+  year: 2025
+  venue: OSF Preprints (OSF Preprints)
+  type: preprint
+  category: theory
+  links: {paper: 'https://osf.io/3j85q'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: thompson2025iconic
+  title: 'Iconic hand gestures from ideophones exhibit stability and emergent phonological properties: an iterated learning study'
+  authors: [Arthur Lewis Thompson, Thomas Van Hoey, Aaron Wing Cheung Chik, Youngah Do]
+  year: 2025
+  venue: Cognitive Linguistics
+  type: journal
+  category: theory
+  doi: 10.1515/cog-2024-0033
+  links: {paper: 'https://doi.org/10.1515/cog-2024-0033'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: tian2025emo2
   title: 'EMO2: End-Effector Guided Audio-Driven Avatar Video Generation'
@@ -1957,6 +2666,48 @@
   checked: full-text
   verified: true
 
+- id: tutu2025action
+  title: 'When Action Speaks Louder than Words: Exploring Non-Verbal and Paraverbal Features in Dyadic Collaborative VR'
+  authors: [Dennis Osei Tutu, Sepideh Habibiabad, Wim Van Den Noortgate, Jelle Saldien, Klaas Bombeke]
+  year: 2025
+  venue: Sensors
+  type: journal
+  category: theory
+  doi: 10.3390/s25175498
+  links: {paper: 'https://doi.org/10.3390/s25175498'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: unal2025gesture
+  title: Gesture Reduces Mapping Difficulties in the Development of Spatial Language Depending on the Complexity of Spatial Relations
+  authors: [Ercenur Ünal, Kevser Kırbaşoğlu, Dilay Z. Karadöller, Beyza Sümer, Aslı Özyürek]
+  year: 2025
+  venue: Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1111/cogs.70046
+  links: {paper: 'https://doi.org/10.1111/cogs.70046'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: villani2025open
+  title: 'Open hands, large numbers: manual gestures influence random number generation'
+  authors: [Caterina Villani, Glenn De Muynck, Anna Maria Borghi, Luisa Lugli, Bodo Winter]
+  year: 2025
+  venue: Psychological Research
+  type: journal
+  category: theory
+  doi: 10.1007/s00426-025-02085-5
+  links: {paper: 'https://doi.org/10.1007/s00426-025-02085-5'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
 - id: voss2025conveying
   title: 'Conveying Meaning through Gestures: An Investigation into Semantic Co-Speech Gesture Generation'
   authors: [Hendric Voss, Lisa Michelle Bohnenkamp, Stefan Kopp]
@@ -1975,6 +2726,47 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
+
+- id: wagner2025cross
+  title: Cross-modal speech-gesture synchronization
+  authors: [Petra Wagner]
+  year: 2025
+  venue: OSF Preprints (OSF Preprints)
+  type: preprint
+  category: theory
+  links: {paper: 'https://osf.io/bty8q'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: wagner2025speech
+  title: From co-speech actions to co-speech gestures? Effects of visibility and information structure on cross-modal synchronization
+  authors: [Petra Wagner]
+  year: 2025
+  venue: Language and Cognition
+  type: journal
+  category: theory
+  doi: 10.1017/langcog.2025.10041
+  links: {paper: 'https://doi.org/10.1017/langcog.2025.10041'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: walter2025investigations
+  title: Investigations on the at-issue status of viewpoint gestures
+  authors: [Sebastian Walter]
+  year: 2025
+  venue: Linguistische Berichte (LB)
+  type: journal
+  category: theory
+  doi: 10.46771/9783967699494_3
+  links: {paper: 'https://doi.org/10.46771/9783967699494_3'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: wang2025gesturelcm
   title: Synthesizing Efficient Trajectory-Controllable Co-Speech Gesture with Latent Consistency Model
@@ -2118,6 +2910,33 @@
   checked: full-text
   verified: true
 
+- id: wilho2025form
+  title: FORM-MEANING MAPPINGS OF CYCLIC GESTURES
+  authors: ['MacNeil, Wilho']
+  year: 2025
+  venue: UNM’s Digital Repository (University of New Mexico)
+  type: journal
+  category: theory
+  links: {paper: 'https://digitalrepository.unm.edu/ling_etds/90'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: wolfer2025speech
+  title: Co-speech gesture comprehension in autistic children
+  authors: [Pauline Wolfer, Franziska Baumeister, David H. Cohen, Nevena Dimitrova, Ehsan Solaimani, Stéphanie Durrleman]
+  year: 2025
+  venue: Journal of Child Language
+  type: journal
+  category: theory
+  doi: 10.1017/s0305000925000157
+  links: {paper: 'https://doi.org/10.1017/s0305000925000157'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
 - id: xu2025combo
   title: 'Combo: Co-speech holistic 3D human motion generation and efficient customizable adaptation in harmony'
   authors: [Chao Xu, Mingze Sun, Zhi-Qi Cheng, Fei Wang, Yan Liu, Baigui Sun, Ruqi Huang, Alexander G. Hauptmann]
@@ -2143,6 +2962,19 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
+
+- id: xuancu2025speech
+  title: Co-speech Deictic Gestures in Infants' Word Learning
+  authors: ['Hong, Xuancu']
+  year: 2025
+  venue: OSF Preprints (OSF Preprints)
+  type: preprint
+  category: theory
+  links: {paper: 'https://osf.io/gqdy5'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
 
 - id: xue2025identity
   title: Identity-Preserving Audio-Driven Holistic Human Motion Video Generation
@@ -2249,6 +3081,20 @@
   checked: full-text
   verified: false
 
+- id: ye2025auditory
+  title: Effect of auditory cues to lexical stress on the visual perception of gestural timing
+  authors: [Chengjia Ye, James M. McQueen, Hans Rutger Bosker]
+  year: 2025
+  venue: Attention Perception & Psychophysics
+  type: journal
+  category: theory
+  doi: 10.3758/s13414-025-03072-z
+  links: {paper: 'https://doi.org/10.3758/s13414-025-03072-z'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
 - id: yin2025m3g
   title: 'M3G: Multi-Granular Gesture Generator for Audio-Driven Full-Body Human Motion Synthesis'
   authors: [Zhizhuo Yin, Yuk Hang Tsui, Pan Hui]
@@ -2342,6 +3188,20 @@
   added: '2026-10-03'
   checked: full-text
   verified: false
+
+- id: zamrazilova2025multimodal
+  title: '“Are Multimodal Signals Synchronous?”: Temporal Relation of Declarative Gestures and Language Instructions in Human Robot Interaction'
+  authors: [Karina Zamrazilova, Michal Vavrečka, Sofiia Ostapenko, Gabriela Šejnová, Júlia Škovierová]
+  year: 2025
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1109/icdl63968.2025.11204382
+  links: {paper: 'https://doi.org/10.1109/icdl63968.2025.11204382'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
 
 - id: zhang2025cospeech
   title: Co-speech video generation via motion transfer based on diffusion models
@@ -2594,3 +3454,17 @@
   added: '2026-10-03'
   checked: full-text
   verified: false
+
+- id: zima2025construction
+  title: Construction Grammar and Gesture
+  authors: [Elisabeth Zima]
+  year: 2025
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/9781009049139.016
+  links: {paper: 'https://doi.org/10.1017/9781009049139.016'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics

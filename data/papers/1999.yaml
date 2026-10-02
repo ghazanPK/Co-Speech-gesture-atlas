@@ -1,0 +1,352 @@
+# Papers published in 1999. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: alibali1999children
+  title: 'How children change their minds: Strategy change can be gradual or abrupt.'
+  authors: [Martha Wagner Alibali]
+  year: 1999
+  venue: Developmental Psychology
+  type: journal
+  category: theory
+  doi: 10.1037//0012-1649.35.1.127
+  links: {paper: 'https://doi.org/10.1037//0012-1649.35.1.127'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: alibali1999illuminating
+  title: Illuminating Mental Representations Through Speech and Gesture
+  authors: [Martha Wagner Alibali, Miriam Bassok, Karen Olseth Solomon, Sharon Syc, Susan Goldin‐Meadow]
+  year: 1999
+  venue: Psychological Science
+  type: journal
+  category: theory
+  doi: 10.1111/1467-9280.00163
+  links: {paper: 'https://doi.org/10.1111/1467-9280.00163'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: anon1999original
+  title: 'Original signs: gesture, sign, and the sources of language'
+  year: 1999
+  venue: Choice Reviews Online
+  type: journal
+  category: theory
+  doi: 10.5860/choice.37-1627
+  links: {paper: 'https://doi.org/10.5860/choice.37-1627'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: beattie1999experimental
+  title: An experimental investigation of the role of iconic gestures in lexical access using the tip‐of‐the‐tongue phenomenon
+  authors: [Geoffrey W. Beattie, Jane Coughlan]
+  year: 1999
+  venue: British Journal of Psychology
+  type: journal
+  category: theory
+  doi: 10.1348/000712699161251
+  links: {paper: 'https://doi.org/10.1348/000712699161251'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: beattie1999iconic
+  title: Do iconic hand gestures really contribute anything to the semantic information conveyed by speech? An experimental investigation
+  authors: [Geoffrey W. Beattie, Heather Shovelton]
+  year: 1999
+  venue: Semiotica
+  type: journal
+  category: theory
+  doi: 10.1515/semi.1999.123.1-2.1
+  links: {paper: 'https://doi.org/10.1515/semi.1999.123.1-2.1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: beattie1999mapping
+  title: Mapping the Range of Information Contained in the Iconic Hand Gestures that Accompany Spontaneous Speech
+  authors: [Geoffrey W. Beattie, Heather Shovelton]
+  year: 1999
+  venue: Journal of Language and Social Psychology
+  type: journal
+  category: theory
+  doi: 10.1177/0261927x99018004005
+  links: {paper: 'https://doi.org/10.1177/0261927x99018004005'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: cassell1999speech
+  title: 'Speech-gesture mismatches: Evidence for one underlying representation of linguistic and nonlinguistic information'
+  authors: [Justine Cassell, David M. McNeill, Karl-Erik McCullough]
+  year: 1999
+  venue: Pragmatics & Cognition
+  type: journal
+  category: theory
+  doi: 10.1075/pc.7.1.03cas
+  links: {paper: 'https://doi.org/10.1075/pc.7.1.03cas'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: church1999gesture
+  title: Using Gesture and Speech to Capture Transitions in Learning
+  authors: [Ruth Breckinridge Church]
+  year: 1999
+  venue: Cognitive Development
+  type: journal
+  category: theory
+  doi: 10.1016/s0885-2014(99)00007-6
+  links: {paper: 'https://doi.org/10.1016/s0885-2014(99)00007-6'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: cognition
+
+- id: corballis1999gestural
+  title: The Gestural Origins of Language
+  authors: [Michael C. Corballis]
+  year: 1999
+  venue: American Scientist
+  type: journal
+  category: theory
+  doi: 10.1511/1999.2.138
+  links: {paper: 'https://doi.org/10.1511/1999.2.138'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: corts1999spontaneous
+  title: Spontaneous Production of Figurative Language and Gesture in College Lectures
+  authors: [Daniel P. Corts, Howard R. Pollio]
+  year: 1999
+  venue: Metaphor and Symbol
+  type: journal
+  category: theory
+  doi: 10.1207/s15327868ms1402_1
+  links: {paper: 'https://doi.org/10.1207/s15327868ms1402_1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: eriksson1999swedish
+  title: 'Swedish early communicative development inventories: words and gestures'
+  authors: [Mårten Eriksson, E Berglund]
+  year: 1999
+  venue: First Language
+  type: journal
+  category: theory
+  doi: 10.1177/014272379901905503
+  links: {paper: 'https://doi.org/10.1177/014272379901905503'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: feyereisen1999mental
+  title: Mental Imagery and Production of Hand Gestures While Speaking in Younger and Older Adults
+  authors: [Pierre Feyereisen, Isabelle Havard]
+  year: 1999
+  venue: Journal of Nonverbal Behavior
+  type: journal
+  category: theory
+  doi: 10.1023/a:1021487510204
+  links: {paper: 'https://doi.org/10.1023/a:1021487510204'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: cognition
+
+- id: goldinmeadow1999gestures
+  title: Gestures convey substantive information about a child’s thoughts to ordinary listeners
+  authors: [Susan Goldin‐Meadow, Catherine M. Sandhofer]
+  year: 1999
+  venue: Developmental Science
+  type: journal
+  category: theory
+  doi: 10.1111/1467-7687.00056
+  links: {paper: 'https://doi.org/10.1111/1467-7687.00056'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: goldinmeadow1999teachers
+  title: What the teacher's hands tell the student's mind about math.
+  authors: [Susan Goldin‐Meadow, San Kim, Melissa A. Singer]
+  year: 1999
+  venue: Journal of Educational Psychology
+  type: journal
+  category: theory
+  doi: 10.1037/0022-0663.91.4.720
+  links: {paper: 'https://doi.org/10.1037/0022-0663.91.4.720'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: grahe1999importance
+  title: The Importance of Nonverbal Cues in Judging Rapport
+  authors: [Jon E. Grahe, Frank J. Bernieri]
+  year: 1999
+  venue: Journal of Nonverbal Behavior
+  type: journal
+  category: theory
+  doi: 10.1023/a:1021698725361
+  links: {paper: 'https://doi.org/10.1023/a:1021698725361'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction
+
+- id: gullberg1999keeping
+  title: 'Keeping an eye on gestures: Visual perception of gestures in face-to-face communication'
+  authors: [Marianne Gullberg, Kenneth Holmqvist]
+  year: 1999
+  venue: Pragmatics & Cognition
+  type: journal
+  category: theory
+  doi: 10.1075/pc.7.1.04gul
+  links: {paper: 'https://doi.org/10.1075/pc.7.1.04gul'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: iverson1999cafeteria
+  title: 'How to get to the cafeteria: Gesture and speech in blind and sighted children''s spatial descriptions.'
+  authors: [Jana Marie Iverson]
+  year: 1999
+  venue: Developmental Psychology
+  type: journal
+  category: theory
+  doi: 10.1037/0012-1649.35.4.1132
+  links: {paper: 'https://doi.org/10.1037/0012-1649.35.4.1132'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: kelly1999offering
+  title: 'Offering a Hand to Pragmatic Understanding: The Role of Speech and Gesture in Comprehension and Memory'
+  authors: [Spencer D. Kelly, Dale J. Barr, Ruth Breckinridge Church, Katheryn Lynch]
+  year: 1999
+  venue: Journal of Memory and Language
+  type: journal
+  category: theory
+  doi: 10.1006/jmla.1999.2634
+  links: {paper: 'https://doi.org/10.1006/jmla.1999.2634'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: krauss1999speech
+  title: The role of speech-related arm/hand gestures in word retrieval
+  authors: [Robert M. Krauss, Uri Hadar]
+  year: 1999
+  venue: Oxford University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1093/acprof:oso/9780198524519.003.0006
+  links: {paper: 'https://doi.org/10.1093/acprof:oso/9780198524519.003.0006'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: lemke1999typological
+  title: Typological and topological meaning in diagnostic discourse
+  authors: [Jay L. Lemke]
+  year: 1999
+  venue: Discourse Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01638539909545057
+  links: {paper: 'https://doi.org/10.1080/01638539909545057'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: messing1999gesture
+  title: Gesture, Speech, and Sign
+  authors: [L. Messing, R. Campbell]
+  year: 1999
+  venue: Oxford University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1093/acprof:oso/9780198524519.001.0001
+  links: {paper: 'https://doi.org/10.1093/acprof:oso/9780198524519.001.0001'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: nicoladis1999gesture
+  title: Gesture and early bilingual development.
+  authors: [Elena Nicoladis, Rachel I. Mayberry, Fred H. Genesee]
+  year: 1999
+  venue: Developmental Psychology
+  type: journal
+  category: theory
+  doi: 10.1037/0012-1649.35.2.514
+  links: {paper: 'https://doi.org/10.1037/0012-1649.35.2.514'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: thompson1999limits
+  title: Some Limits on Encoding Visible Speech and Gestures Using a Dichotic Shadowing Task
+  authors: [Laura A. Thompson, F. A. Guzman]
+  year: 1999
+  venue: The Journals of Gerontology Series B
+  type: journal
+  category: theory
+  doi: 10.1093/geronb/54b.6.p347
+  links: {paper: 'https://doi.org/10.1093/geronb/54b.6.p347'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: tomasello1999young
+  title: Do young children use objects as symbols?
+  authors: [Michael Tomasello, Tricia Striano, Philippe Rochat]
+  year: 1999
+  venue: British Journal of Developmental Psychology
+  type: journal
+  category: theory
+  doi: 10.1348/026151099165483
+  links: {paper: 'https://doi.org/10.1348/026151099165483'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: troisi1999ethological
+  title: 'Ethological research in clinical psychiatry: the study of nonverbal behavior during interviews'
+  authors: [Alfonso Troisi]
+  year: 1999
+  venue: Neuroscience & Biobehavioral Reviews
+  type: journal
+  category: theory
+  doi: 10.1016/s0149-7634(99)00024-x
+  links: {paper: 'https://doi.org/10.1016/s0149-7634(99)00024-x'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical

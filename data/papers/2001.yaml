@@ -1,0 +1,307 @@
+# Papers published in 2001. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: alibali2001visibility
+  title: 'Effects of Visibility between Speaker and Listener on Gesture Production: Some Gestures Are Meant to Be Seen'
+  authors: [Martha Wagner Alibali, Dana C. Heath, Heather J. Myers]
+  year: 2001
+  venue: Journal of Memory and Language
+  type: journal
+  category: theory
+  doi: 10.1006/jmla.2000.2752
+  links: {paper: 'https://doi.org/10.1006/jmla.2000.2752'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction
+
+- id: cabrera2001repetition
+  title: The effects of repetition, comprehension checks, and gestures, on primary school children in an EFL situation
+  authors: [Montijano Cabrera]
+  year: 2001
+  venue: ELT Journal
+  type: journal
+  category: theory
+  doi: 10.1093/elt/55.3.281
+  links: {paper: 'https://doi.org/10.1093/elt/55.3.281'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: duncan2001expressivity
+  title: 'Co-expressivity of Speech and Gesture: Manner of Motion in Spanish, English, and Chinese'
+  authors: [Susan Duncan]
+  year: 2001
+  venue: Proceedings of the Annual Meeting of the Berkeley Linguistics Society
+  type: conference
+  category: theory
+  doi: 10.3765/bls.v27i1.3181
+  links: {paper: 'https://doi.org/10.3765/bls.v27i1.3181'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: emmorey2001gesture
+  title: Gesture, Thought, and Spatial Language
+  authors: [Karen D. Emmorey, Shannon Casey]
+  year: 2001
+  venue: Gesture
+  type: book
+  category: theory
+  doi: 10.1007/978-94-015-9928-3_5
+  links: {paper: 'https://doi.org/10.1007/978-94-015-9928-3_5'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: evans2001divergence
+  title: 'Divergence of verbal expression and embodied knowledge: Evidence from speech and gesture in children with specific language impairment'
+  authors: [Julia L. Evans, Martha Wagner Alibali, Nicole M. McNeil]
+  year: 2001
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01690960042000049
+  links: {paper: 'https://doi.org/10.1080/01690960042000049'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: flevares2001many
+  title: How many do you see? The use of nonspoken representations in first-grade mathematics lessons.
+  authors: [Lucia M. Flevares, Michelle Perry]
+  year: 2001
+  venue: Journal of Educational Psychology
+  type: journal
+  category: theory
+  doi: 10.1037/0022-0663.93.2.330
+  links: {paper: 'https://doi.org/10.1037/0022-0663.93.2.330'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: furuyama2001syntacticizing
+  title: 'De-syntacticizing the theories of reference maintenance from the viewpoint of poetic function of language and gesture : a case of Japanese discourse'
+  authors: [Nobuhiro Furuyama]
+  year: 2001
+  venue: Medical Entomology and Zoology
+  type: book
+  category: theory
+  links: {paper: 'http://ci.nii.ac.jp/ncid/BA70629686'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: goldinmeadow2001explaining
+  title: 'Explaining Math: Gesturing Lightens the Load'
+  authors: [Susan Goldin‐Meadow, Howard C. Nusbaum, Spencer D. Kelly, Susan Wagner]
+  year: 2001
+  venue: Psychological Science
+  type: journal
+  category: theory
+  doi: 10.1111/1467-9280.00395
+  links: {paper: 'https://doi.org/10.1111/1467-9280.00395'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: iverson2001resilience
+  title: 'The resilience of gesture in talk: gesture in blind speakers and listeners'
+  authors: [Jana Marie Iverson, Susan Goldin‐Meadow]
+  year: 2001
+  venue: Developmental Science
+  type: journal
+  category: theory
+  doi: 10.1111/1467-7687.00183
+  links: {paper: 'https://doi.org/10.1111/1467-7687.00183'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: kelly2001broadening
+  title: 'Broadening the units of analysis in communication: speech and nonverbal behaviours in pragmatic comprehension'
+  authors: [Spencer D. Kelly]
+  year: 2001
+  venue: Journal of Child Language
+  type: journal
+  category: theory
+  doi: 10.1017/s0305000901004664
+  links: {paper: 'https://doi.org/10.1017/s0305000901004664'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: kita2001pointing
+  title: Pointing left in Ghana
+  authors: [Sotaro Kita, James Essegbey]
+  year: 2001
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.1.1.06kit
+  links: {paper: 'https://doi.org/10.1075/gest.1.1.06kit'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: melinger2001gesture
+  title: Does Gesture Help Processes of Speech Production? Evidence for Conceptual Level Facilitation
+  authors: [Alissa Melinger, Sotaro Kita]
+  year: 2001
+  venue: Proceedings of the Annual Meeting of the Berkeley Linguistics Society
+  type: conference
+  category: theory
+  doi: 10.3765/bls.v27i1.1096
+  links: {paper: 'https://doi.org/10.3765/bls.v27i1.1096'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: namy2001whats
+  title: What's in a Name When It Isn't a Word? 17‐Month‐Olds' Mapping of Nonverbal Symbols to Object Categories
+  authors: [Laura L. Namy]
+  year: 2001
+  venue: Infancy
+  type: journal
+  category: theory
+  doi: 10.1207/s15327078in0201_5
+  links: {paper: 'https://doi.org/10.1207/s15327078in0201_5'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: ozyurek2001speech
+  title: What do speech-gesture mismatches reveal about language specific processing? A comparison of Turkish and English
+  authors: [Aslı Özyürek]
+  year: 2001
+  venue: Max Planck Digital Library
+  type: journal
+  category: theory
+  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0013-30EF-5'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: rose2001differential
+  title: The differential facilitatory effects of gesture and visualisation processes on object naming in aphasia
+  authors: [Miranda L. Rose, Jacinta Mary Douglas]
+  year: 2001
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687040143000339
+  links: {paper: 'https://doi.org/10.1080/02687040143000339'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: roth2001activity
+  title: From activity to gestures and scientific language
+  authors: [Wolff‐Michael Roth, Manuela Welzel]
+  year: 2001
+  venue: Journal of Research in Science Teaching
+  type: journal
+  category: theory
+  doi: 10.1002/1098-2736(200101)38:1<103::aid-tea6>3.0.co;2-g
+  links: {paper: 'https://doi.org/10.1002/1098-2736(200101)38:1<103::aid-tea6>3.0.co;2-g'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: roth2001gestures
+  title: 'Gestures: Their Role in Teaching and Learning'
+  authors: [Wolff‐Michael Roth]
+  year: 2001
+  venue: Review of Educational Research
+  type: journal
+  category: theory
+  doi: 10.3102/00346543071003365
+  links: {paper: 'https://doi.org/10.3102/00346543071003365'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: saucier2001lateral
+  title: Lateral and sex differences in manual gesture during conversation
+  authors: [Deborah M. Saucier, Lorin J. Elias]
+  year: 2001
+  venue: Laterality Asymmetries of Body Brain and Cognition
+  type: journal
+  category: theory
+  doi: 10.1080/713754416
+  links: {paper: 'https://doi.org/10.1080/713754416'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: seyfeddinipur2001gesture
+  title: Gesture as an indicator of early error detection in self-monitoring of speech.
+  authors: [Mandana Seyfeddinipur, Sotaro Kita]
+  year: 2001
+  venue: SOAS Research Online (SOAS University of London)
+  type: journal
+  category: theory
+  links: {paper: 'https://eprints.soas.ac.uk/21381/1/Mandana_dis1_029.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: stam2001lexical
+  title: Lexical failure and gesture in second language development
+  authors: [Gale A. Stam]
+  year: 2001
+  venue: Digital Commons at National Lewis University (National Lewis University)
+  type: journal
+  category: theory
+  links: {paper: 'https://digitalcommons.nl.edu/faculty_publications/60'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: wang2001teachers
+  title: Effects of Teachers' Verbal and Non-verbal Scaffolding on Everyday Classroom Performances of Students with Down Syndrome Effets du Soutien Verbal et Non Verbal des Enseignants sur les Performances Quotidiennes en Classe des E´le ¤ ves Trisomiques Efectos de 'Scaffolding' Verbal y No Verbal de los Profesores en las Actuaciones Cotidianas en las Clases de Estudiantes con el S´ L ndrome de Down
+  authors: [Xiao-Lei Wang, Ronan S. Bernas, Philippe Eberhard]
+  year: 2001
+  venue: International Journal of Early Years Education
+  type: journal
+  category: theory
+  doi: 10.1080/09669760125651
+  links: {paper: 'https://doi.org/10.1080/09669760125651'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: wesp2001gestures
+  title: Gestures Maintain Spatial Imagery
+  authors: [Richard K. Wesp, Jennifer Hesse, Donna Keutmann, Karen Wheaton]
+  year: 2001
+  venue: The American Journal of Psychology
+  type: journal
+  category: theory
+  doi: 10.2307/1423612
+  links: {paper: 'https://doi.org/10.2307/1423612'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition

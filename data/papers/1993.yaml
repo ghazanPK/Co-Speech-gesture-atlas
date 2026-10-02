@@ -1,0 +1,170 @@
+# Papers published in 1993. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: alibali1993gesture
+  title: 'Gesture-Speech Mismatch and Mechanisms of Learning: What the Hands Reveal about a Child′s State of Mind'
+  authors: [Martha Wagner Alibali, Susan Goldin‐Meadow]
+  year: 1993
+  venue: Cognitive Psychology
+  type: journal
+  category: theory
+  doi: 10.1006/cogp.1993.1012
+  links: {paper: 'https://doi.org/10.1006/cogp.1993.1012'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: cognition
+
+- id: boyatzis1993preschool
+  title: Preschool children's symbolic representation of objects through gestures.
+  authors: [Chris J. Boyatzis, Malcolm W. Watson]
+  year: 1993
+  venue: PubMed
+  type: journal
+  category: theory
+  doi: 10.2307/1131214
+  links: {paper: 'https://doi.org/10.2307/1131214'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: feyereisen1993hand
+  title: 'Hand and Mind: What Gestures Reveal About Thought.'
+  authors: [Pierre Feyereisen, David M. McNeill]
+  year: 1993
+  venue: Language and Speech
+  type: journal
+  category: theory
+  doi: 10.1177/002383099403700208
+  links: {paper: 'https://doi.org/10.1177/002383099403700208'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: goldinmeadow1993transitions
+  title: 'Transitions in concept acquisition: Using the hand to read the mind.'
+  authors: [Susan Goldin‐Meadow, Martha Wagner Alibali, Ruth Breckinridge Church]
+  year: 1993
+  venue: Psychological Review
+  type: journal
+  category: theory
+  doi: 10.1037/0033-295x.100.2.279
+  links: {paper: 'https://doi.org/10.1037/0033-295x.100.2.279'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: goldinmeadow1993transitionsb
+  title: 'Transitions in learning: Evidence for simultaneously activated strategies.'
+  authors: [Susan Goldin‐Meadow, Howard C. Nusbaum, Philip Garber, Ruth Breckinridge Church]
+  year: 1993
+  venue: Journal of Experimental Psychology Human Perception & Performance
+  type: journal
+  category: theory
+  doi: 10.1037//0096-1523.19.1.92
+  links: {paper: 'https://doi.org/10.1037//0096-1523.19.1.92'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: haviland1993anchoring
+  title: Anchoring, Iconicity, and Orientation in Guugu Yimithirr Pointing Gestures
+  authors: [John Beard Haviland]
+  year: 1993
+  venue: Journal of Linguistic Anthropology
+  type: journal
+  category: theory
+  doi: 10.1525/jlin.1993.3.1.3
+  links: {paper: 'https://doi.org/10.1525/jlin.1993.3.1.3'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: kita1993language
+  title: 'Language and thought interface: a study of spontaneous gestures and Japanese mimetics'
+  authors: [Sotaro Kita]
+  year: 1993
+  venue: Medical Entomology and Zoology
+  type: journal
+  category: theory
+  links: {paper: 'https://ci.nii.ac.jp/naid/10009705447'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: leroigourhan1993gesture
+  title: Gesture and speech
+  authors: [André Leroi‐Gourhan, Anna Bostock Berger, Randall A. White]
+  year: 1993
+  venue: Gesture
+  type: book
+  category: theory
+  doi: 10.1075/gest.8.1.04cap
+  links: {paper: 'https://doi.org/10.1075/gest.8.1.04cap'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: mcneill1993cohesion
+  title: Cohesion and gesture
+  authors: [David M. McNeill, Elena T. Levy]
+  year: 1993
+  venue: Discourse Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01638539309544845
+  links: {paper: 'https://doi.org/10.1080/01638539309544845'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: streeck1993gesture
+  title: 'Gesture as communication I: Its coordination with gaze and speech'
+  authors: [Jürgen Streeck]
+  year: 1993
+  venue: Communication Monographs
+  type: journal
+  category: theory
+  doi: 10.1080/03637759309376314
+  links: {paper: 'https://doi.org/10.1080/03637759309376314'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: tuite1993production
+  title: The production of gesture
+  authors: [Kevin Tuite]
+  year: 1993
+  venue: Semiotica
+  type: journal
+  category: theory
+  doi: 10.1515/semi.1993.93.1-2.83
+  links: {paper: 'https://doi.org/10.1515/semi.1993.93.1-2.83'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: weismer1993influence
+  title: The Influence of Prosodic and Gestural Cues on Novel Word Acquisition by Children With Specific Language Impairment
+  authors: [Susan Ellis Weismer, Linda J. Hesketh]
+  year: 1993
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/jshr.3605.1013
+  links: {paper: 'https://doi.org/10.1044/jshr.3605.1013'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical

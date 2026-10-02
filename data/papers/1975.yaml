@@ -1,0 +1,59 @@
+# Papers published in 1975. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: graham1975cross
+  title: A Cross-Cultural Study of the Communication of Extra-Verbal Meaning by Gesture
+  authors: [Jean Ann Graham, Michael Argyle]
+  year: 1975
+  venue: International Journal of Psychology
+  type: journal
+  category: theory
+  doi: 10.1080/00207597508247319
+  links: {paper: 'https://doi.org/10.1080/00207597508247319'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: graham1975elimination
+  title: The effects of elimination of hand gestures and of verbal codability on speech performance
+  authors: [Jean Ann Graham, Simon P. Heywood]
+  year: 1975
+  venue: European Journal of Social Psychology
+  type: journal
+  category: theory
+  doi: 10.1002/ejsp.2420050204
+  links: {paper: 'https://doi.org/10.1002/ejsp.2420050204'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: jancovic1975related
+  title: 'Age-Related Changes in Hand and Arm Movements as Nonverbal Communication: Some Conceptualizations and an Empirical Exploration'
+  authors: [MerryAnn Jancovic, Shannon Devoe, Morton Wiener]
+  year: 1975
+  venue: Child Development
+  type: journal
+  category: theory
+  doi: 10.2307/1128398
+  links: {paper: 'https://doi.org/10.2307/1128398'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: kendon1975gesticulation
+  title: Gesticulation, Speech, and the Gesture Theory of Language Origins
+  authors: [Adam Kendon]
+  year: 1975
+  venue: Sign language studies
+  type: journal
+  category: theory
+  doi: 10.1353/sls.1975.0016
+  links: {paper: 'https://doi.org/10.1353/sls.1975.0016'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics

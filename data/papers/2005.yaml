@@ -1,0 +1,666 @@
+# Papers published in 2005. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: alibali2005gesture
+  title: 'Gesture in Spatial Cognition: Expressing, Communicating, and Thinking About Spatial Information'
+  authors: [Martha Wagner Alibali]
+  year: 2005
+  venue: Spatial Cognition and Computation
+  type: journal
+  category: theory
+  doi: 10.1207/s15427633scc0504_2
+  links: {paper: 'https://doi.org/10.1207/s15427633scc0504_2'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: arbib2005interweaving
+  title: Interweaving protosign and protospeech
+  authors: [Michael A. Arbib]
+  year: 2005
+  venue: Interaction Studies Social Behaviour and Communication in Biological and Artificial Systems
+  type: journal
+  category: theory
+  doi: 10.1075/is.6.2.02arb
+  links: {paper: 'https://doi.org/10.1075/is.6.2.02arb'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: bangerter2005focusing
+  title: Focusing Attention with Deictic Gestures and Linguistic Expressions
+  authors: [Adrian Bangerter, Max M. Louwerse]
+  year: 2005
+  venue: eScholarship (California Digital Library)
+  type: journal
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/201422tj'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: beattie2005spontaneous
+  title: Why the spontaneous images created by the hands during talk can help make TV advertisements more effective
+  authors: [Geoffrey W. Beattie, Heather Shovelton]
+  year: 2005
+  venue: British Journal of Psychology
+  type: journal
+  category: theory
+  doi: 10.1348/000712605x103500
+  links: {paper: 'https://doi.org/10.1348/000712605x103500'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: becvar2005hands
+  title: 'Hands as molecules: Representational gestures used for developing theory in a scientiﬁc laboratory'
+  authors: [L. Amaya Becvar, James D. Hollan, Edwin L. Hutchins]
+  year: 2005
+  venue: Semiotica
+  type: journal
+  category: theory
+  doi: 10.1515/semi.2005.2005.156.89
+  links: {paper: 'https://doi.org/10.1515/semi.2005.2005.156.89'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: bernardis2005speech
+  title: Speech and gesture share the same communication system
+  authors: [Paolo Bernardis, Maurizio Gentilucci]
+  year: 2005
+  venue: Neuropsychologia
+  type: journal
+  category: theory
+  doi: 10.1016/j.neuropsychologia.2005.05.007
+  links: {paper: 'https://doi.org/10.1016/j.neuropsychologia.2005.05.007'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: blake2005cross
+  title: A cross-cultural comparison of communicative gestures in human infants during the transition to language
+  authors: [Joanna Blake, Grace Vitale, Patricia Osborne, Esther Olshansky]
+  year: 2005
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.5.1.14bla
+  links: {paper: 'https://doi.org/10.1075/gest.5.1.14bla'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: campana2005real
+  title: Real-time integration of gesture and speech during reference resolution
+  authors: [Ellen Campana, Michael K. Tanenhaus, Loisa Bennetto, Stephanie Packard]
+  year: 2005
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.596.4210'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: capirci2005action
+  title: From action to language through gesture
+  authors: [Olga Capirci, Annarita Contaldo, María Cristina Caselli, Virginia Volterra]
+  year: 2005
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.5.1.12cap
+  links: {paper: 'https://doi.org/10.1075/gest.5.1.12cap'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: capirci2005actionb
+  title: 'From action to language through gesture: A longitudinal perspective'
+  authors: [Olga Capirci, Annarita Contaldo, María Cristina Caselli, Virginia Volterra]
+  year: 2005
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.5.1-2.12cap
+  links: {paper: 'https://doi.org/10.1075/gest.5.1-2.12cap'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: carlomagno2005coverbal
+  title: Coverbal Gestures in Alzheimer's Type Dementia
+  authors: [Sergio Carlomagno, Maria Pandolfi, Andrea Marini, G DIIASI, Carla Cristilli]
+  year: 2005
+  venue: Cortex
+  type: journal
+  category: theory
+  doi: 10.1016/s0010-9452(08)70193-x
+  links: {paper: 'https://doi.org/10.1016/s0010-9452(08)70193-x'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: cerrato2005acoustic
+  title: On the acoustic, prosodic and gestural characteristics of m-like sounds in Swedish
+  authors: [Loredana Cerrato]
+  year: 2005
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'http://www.diva-portal.org/smash/record.jsf?pid=diva2:465172'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: chieffi2005gesture
+  title: Gesture Production and Text Structure
+  authors: [Sergio Chieffi, Mariateresa Ricci]
+  year: 2005
+  venue: Perceptual and Motor Skills
+  type: journal
+  category: theory
+  doi: 10.2466/pms.101.2.435-439
+  links: {paper: 'https://doi.org/10.2466/pms.101.2.435-439'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: enfield2005body
+  title: The Body as a Cognitive Artifact in Kinship Representations
+  authors: [N. J. Enfield]
+  year: 2005
+  venue: Current Anthropology
+  type: journal
+  category: theory
+  doi: 10.1086/425661
+  links: {paper: 'https://doi.org/10.1086/425661'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: feyereisen2005further
+  title: 'Further investigation on the mnemonic effect of gestures: Their meaning matters'
+  authors: [Pierre Feyereisen]
+  year: 2005
+  venue: The European Journal of Cognitive Psychology
+  type: journal
+  category: theory
+  doi: 10.1080/09541440540000158
+  links: {paper: 'https://doi.org/10.1080/09541440540000158'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: fridman2005dorsal
+  title: The role of the dorsal stream for gesture production
+  authors: [Esteban A. Fridman, Ilka Immisch, Takashi Hanakawa, Stephan Bohlhalter, Daniel Waldvogel, Kenji Kansaku, Lewis A. Wheaton, Tao Wu, Mark Hallett]
+  year: 2005
+  venue: NeuroImage
+  type: journal
+  category: theory
+  doi: 10.1016/j.neuroimage.2005.07.026
+  links: {paper: 'https://doi.org/10.1016/j.neuroimage.2005.07.026'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: gerwing2005linguistic
+  title: Linguistic influences on gesture’s form
+  authors: [Jennifer Gerwing, Janet Beavin Bavelas]
+  year: 2005
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.4.2.04ger
+  links: {paper: 'https://doi.org/10.1075/gest.4.2.04ger'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: goldinmeadow2005faces
+  title: The two faces of gesture
+  authors: [Susan Goldin‐Meadow]
+  year: 2005
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.5.1.16gol
+  links: {paper: 'https://doi.org/10.1075/gest.5.1.16gol'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: goldinmeadow2005facesb
+  title: 'The two faces of gesture: Language and thought'
+  authors: [Susan Goldin‐Meadow]
+  year: 2005
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.5.1-2.16gol
+  links: {paper: 'https://doi.org/10.1075/gest.5.1-2.16gol'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: gregersen2005nonverbal
+  title: 'Nonverbal Cues: Clues to the Detection of Foreign Language Anxiety'
+  authors: [Tammy Gregersen]
+  year: 2005
+  venue: Foreign Language Annals
+  type: journal
+  category: theory
+  doi: 10.1111/j.1944-9720.2005.tb02225.x
+  links: {paper: 'https://doi.org/10.1111/j.1944-9720.2005.tb02225.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: guidetti2005young
+  title: Yes or no? How young French children combine gestures and speech to agree and refuse
+  authors: [Michèle Guidetti]
+  year: 2005
+  venue: Journal of Child Language
+  type: journal
+  category: theory
+  doi: 10.1017/s0305000905007038
+  links: {paper: 'https://doi.org/10.1017/s0305000905007038'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: hegarty2005gestures
+  title: The Role of Gestures in Mental Animation
+  authors: [Mary Hegarty, Sarah A. Mayer, Sarah Kriz, Madeleine Keehner]
+  year: 2005
+  venue: Spatial Cognition and Computation
+  type: journal
+  category: theory
+  doi: 10.1207/s15427633scc0504_3
+  links: {paper: 'https://doi.org/10.1207/s15427633scc0504_3'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: heylen2005challenges
+  title: 'Challenges ahead: head movements and other social acts during conversations'
+  authors: [Dirk Heylen]
+  year: 2005
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'http://eprints.eemcs.utwente.nl/1867/01/myAISB05-corrected.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: hustad2005aided
+  title: Aided and Unaided Speech Supplementation Strategies
+  authors: [Katherine C. Hustad, Jane Mertz Garcia]
+  year: 2005
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/1092-4388(2005/068)
+  links: {paper: 'https://doi.org/10.1044/1092-4388(2005/068)'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: iverson2005gesture
+  title: Gesture Paves the Way for Language Development
+  authors: [Jana Marie Iverson, Susan Goldin‐Meadow]
+  year: 2005
+  venue: Psychological Science
+  type: journal
+  category: theory
+  doi: 10.1111/j.0956-7976.2005.01542.x
+  links: {paper: 'https://doi.org/10.1111/j.0956-7976.2005.01542.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: johnston2005teaching
+  title: 'Teaching gestural signs to infants to advance child development: A review of the evidence'
+  authors: [J. Cyne Johnston, Andrée Durieux-Smith, Kathleen Bloom]
+  year: 2005
+  venue: First Language
+  type: journal
+  category: theory
+  doi: 10.1177/0142723705050340
+  links: {paper: 'https://doi.org/10.1177/0142723705050340'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: macauley2005gestures
+  title: Gestures Produced by Patients With Aphasia and Ideomotor Apraxia
+  authors: [Beth L. Macauley, Candace L. Handley]
+  year: 2005
+  venue: Contemporary Issues in Communication Science and Disorders
+  type: journal
+  category: theory
+  doi: 10.1044/cicsd_32_s_30
+  links: {paper: 'https://doi.org/10.1044/cicsd_32_s_30'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: mcneill2005gesture
+  title: Gesture and Thought
+  authors: [David Moreno McNeill]
+  year: 2005
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.7208/chicago/9780226514642.001.0001
+  links: {paper: 'https://doi.org/10.7208/chicago/9780226514642.001.0001'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: mcneill2005gestureb
+  title: Gesture-first, but no gestures?
+  authors: [David Moreno McNeill, Bennett I. Bertenthal, Jonathan D. Cole, Shaun Gallagher]
+  year: 2005
+  venue: Behavioral and Brain Sciences
+  type: journal
+  category: theory
+  doi: 10.1017/s0140525x05360031
+  links: {paper: 'https://doi.org/10.1017/s0140525x05360031'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: melinger2005gesture
+  title: Gesture and the communicative intention of the speaker
+  authors: [Alissa Melinger, Willem J. M. Levelt]
+  year: 2005
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.4.2.02mel
+  links: {paper: 'https://doi.org/10.1075/gest.4.2.02mel'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: morsella2005muscular
+  title: 'Muscular Activity in the Arm during Lexical Retrieval: Implications for Gesture-Speech Theories'
+  authors: [Ezequiel Morsella, Robert M. Krauss]
+  year: 2005
+  venue: Journal of Psycholinguistic Research
+  type: journal
+  category: theory
+  doi: 10.1007/s10936-005-6141-9
+  links: {paper: 'https://doi.org/10.1007/s10936-005-6141-9'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: mouri2005experimental
+  title: 'Experimental research on communicative function of co-speech gestures : Do gestures convey information, if they are not attended to by interlocutors?'
+  authors: [Shinsuke Mouri, Sakiko Yoshikawa]
+  year: 2005
+  venue: Medical Entomology and Zoology
+  type: journal
+  category: theory
+  links: {paper: 'https://ci.nii.ac.jp/naid/110003498145'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: perception
+
+- id: nishitani2005brocas
+  title: 'Broca’s Region: From Action to Language'
+  authors: [Nobuyuki Nishitani, Martin Schürmann, Katrin Amunts, Riitta Hari]
+  year: 2005
+  venue: Physiology
+  type: journal
+  category: theory
+  doi: 10.1152/physiol.00043.2004
+  links: {paper: 'https://doi.org/10.1152/physiol.00043.2004'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: oneill2005maternal
+  title: Maternal gestures with 20‐month‐old infants in two contexts
+  authors: [Maria O'Neill, Kim A. Bard, Maggie Linnell, Michael J. Fluck]
+  year: 2005
+  venue: Developmental Science
+  type: journal
+  category: theory
+  doi: 10.1111/j.1467-7687.2005.00423.x
+  links: {paper: 'https://doi.org/10.1111/j.1467-7687.2005.00423.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: orgassa2005speech
+  title: Co-speech Gesture in Anomic Aphasia
+  authors: [Antje Orgassa]
+  year: 2005
+  venue: Toegepaste Taalwetenschap in Artikelen
+  type: journal
+  category: theory
+  doi: 10.1075/ttwia.73.09org
+  links: {paper: 'https://doi.org/10.1075/ttwia.73.09org'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: ozcalskan2005gesture
+  title: Gesture is at the cutting edge of early language development
+  authors: [Şeyda Özçalışkan, Susan Goldin‐Meadow]
+  year: 2005
+  venue: Cognition
+  type: journal
+  category: theory
+  doi: 10.1016/j.cognition.2005.01.001
+  links: {paper: 'https://doi.org/10.1016/j.cognition.2005.01.001'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
+
+- id: ozcalskan2005parents
+  title: Do parents lead their children by the hand?
+  authors: [Şeyda Özçalışkan, Susan Goldin‐Meadow]
+  year: 2005
+  venue: Journal of Child Language
+  type: journal
+  category: theory
+  doi: 10.1017/s0305000905007002
+  links: {paper: 'https://doi.org/10.1017/s0305000905007002'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: ozyurek2005linguistic
+  title: How does linguistic framing of events influence co-speech gestures?
+  authors: [Aslı Özyürek, Sotaro Kita, Shanley  E. M. Allen, Reyhan Furman, Amanda Brown]
+  year: 2005
+  venue: Gesture
+  type: book
+  category: theory
+  doi: 10.1075/gest.5.1.15ozy
+  links: {paper: 'https://doi.org/10.1075/gest.5.1.15ozy'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: ozyurek2005linguisticb
+  title: 'How does linguistic framing of events influence co-speech gestures?: Insights from crosslinguistic variations and similarities'
+  authors: [Aslı Özyürek, Sotaro Kita, Shanley  E. M. Allen, Reyhan Furman, Amanda Brown]
+  year: 2005
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.5.1-2.15ozy
+  links: {paper: 'https://doi.org/10.1075/gest.5.1-2.15ozy'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: pizzuto2005link
+  title: The link (and differences) between deixis and symbols in children’s early gestural-vocal system
+  authors: [Elena Antinoro Pizzuto, Micaela Capobianco]
+  year: 2005
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.5.1.13piz
+  links: {paper: 'https://doi.org/10.1075/gest.5.1.13piz'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: rodrigues2005verbal
+  title: 'Verbal and nonverbal signals in face-to-face interaction: A theoretical framework for a holistic micro-analysis. The example of a parenthesis'
+  authors: [Isabel Maria Galhano Rodrigues]
+  year: 2005
+  venue: Portuguese National Funding Agency for Science, Research and Technology (RCAAP Project by FCT)
+  type: book
+  category: theory
+  links: {paper: 'http://hdl.handle.net/10216/56701'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: sherman2005gestures
+  title: Gestures by advanced Spanish-English second-language learners
+  authors: [Jody Sherman, Elena Nicoladis]
+  year: 2005
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.4.2.03she
+  links: {paper: 'https://doi.org/10.1075/gest.4.2.03she'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: singer2005children
+  title: Children Learn When Their Teacher's Gestures and Speech Differ
+  authors: [Melissa A. Singer, Susan Goldin‐Meadow]
+  year: 2005
+  venue: Psychological Science
+  type: journal
+  category: theory
+  doi: 10.1111/j.0956-7976.2005.00786.x
+  links: {paper: 'https://doi.org/10.1111/j.0956-7976.2005.00786.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: stivers2005introduction
+  title: 'Introduction: Multimodal interaction'
+  authors: [Tanya Stivers, Jack Sidnell]
+  year: 2005
+  venue: Semiotica
+  type: journal
+  category: theory
+  doi: 10.1515/semi.2005.2005.156.1
+  links: {paper: 'https://doi.org/10.1515/semi.2005.2005.156.1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: sueyoshi2005gestures
+  title: The Role of Gestures and Facial Cues in Second Language Listening Comprehension
+  authors: [Ayano Sueyoshi, Debra M. Hardison]
+  year: 2005
+  venue: Language Learning
+  type: journal
+  category: theory
+  doi: 10.1111/j.0023-8333.2005.00320.x
+  links: {paper: 'https://doi.org/10.1111/j.0023-8333.2005.00320.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: tellier2005teachers
+  title: How do teacher's gestures help young children in second language acquisition?
+  authors: [Marion Tellier]
+  year: 2005
+  venue: HAL (Le Centre pour la Communication Scientifique Directe)
+  type: journal
+  category: theory
+  links: {paper: 'https://hal.science/hal-00433380'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: willems2005comprehension
+  title: The comprehension of gesture and speech
+  authors: [Roel M. Willems, Aslı Özyürek, Peter Hagoort]
+  year: 2005
+  venue: Radboud Repository (Radboud University)
+  type: journal
+  category: theory
+  links: {paper: 'http://hdl.handle.net/2066/54604'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: yasinnik2005gesture
+  title: Gesture marking of disfluencies in spontaneous speech.
+  authors: [Yelena Yasinnik, Stefanie Shattuck‐Hufnagel, Nanette M. Veilleux]
+  year: 2005
+  venue: Workshop on Disfluency in Spontaneous Speech
+  type: workshop
+  category: theory
+  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.399.3381'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics

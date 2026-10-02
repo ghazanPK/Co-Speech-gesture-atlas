@@ -1,0 +1,114 @@
+# Papers published in 1988. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: acredolo1988symbolic
+  title: Symbolic Gesturing in Normal Infants
+  authors: [Linda P. Acredolo, Susan W. Goodwyn]
+  year: 1988
+  venue: Child Development
+  type: journal
+  category: theory
+  doi: 10.2307/1130324
+  links: {paper: 'https://doi.org/10.2307/1130324'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: feyereisen1988gestures
+  title: 'Gestures and speech in referential communication by aphasic subjects: Channel use and efficiency'
+  authors: [Pierre Feyereisen, D. Barter, M. Goossens, N. Clerebaut]
+  year: 1988
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687038808248884
+  links: {paper: 'https://doi.org/10.1080/02687038808248884'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: feyereisen1988meaning
+  title: The Meaning of Gestures - What Can Be Understood Without Speech
+  authors: [Pierre Feyereisen, Michel Vandewiele, Fanny Dubois]
+  year: 1988
+  venue: DIAL (Catholic University of Leuven)
+  type: journal
+  category: theory
+  links: {paper: 'http://hdl.handle.net/2078.1/53419'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: perception
+
+- id: herrmann1988nonverbal
+  title: Nonverbal communication as a compensative strategy for severely nonfluent aphasics?—A quantitative approach
+  authors: [Manfred Herrmann, Thomas Reichle, Gabriele Lucius-Hoene, Claus‐W. Wallesch, Helga Johannsen‐Horbach]
+  year: 1988
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1016/0093-934x(88)90053-3
+  links: {paper: 'https://doi.org/10.1016/0093-934x(88)90053-3'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: may1988spontaneous
+  title: The use of spontaneous gesture by aphasic patients
+  authors: [Amanda Le May, RACHEL M. DAVID, Andrew P. Thomas]
+  year: 1988
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687038808248899
+  links: {paper: 'https://doi.org/10.1080/02687038808248899'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: mohan1988context
+  title: 'Context and Second Language Development: Preschoolers'' Comprehension of Gestures'
+  authors: [B. MOHAN, S. HELMER]
+  year: 1988
+  venue: Applied Linguistics
+  type: journal
+  category: theory
+  doi: 10.1093/applin/9.3.275
+  links: {paper: 'https://doi.org/10.1093/applin/9.3.275'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: mundy1988nonverbal
+  title: Nonverbal Communication Skills in Down Syndrome Children
+  authors: [Peter Clive Mundy, Marian Sigman, Connie L. Kasari, Nurit Yirmiya]
+  year: 1988
+  venue: Child Development
+  type: journal
+  category: theory
+  doi: 10.1111/j.1467-8624.1988.tb03212.x
+  links: {paper: 'https://doi.org/10.1111/j.1467-8624.1988.tb03212.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: thal1988language
+  title: Language and Gesture in Late Talkers
+  authors: [Donna J. Thal, Stacy Tobias, Deborah Morrison]
+  year: 1988
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/jshr.3403.604
+  links: {paper: 'https://doi.org/10.1044/jshr.3403.604'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development

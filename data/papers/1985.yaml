@@ -1,0 +1,113 @@
+# Papers published in 1985. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: duncan1985interaction
+  title: Interaction Structure and Strategy
+  authors: [Starkey Duncan, Donald W. Fiske]
+  year: 1985
+  venue: Medical Entomology and Zoology
+  type: book
+  category: theory
+  links: {paper: 'http://ci.nii.ac.jp/ncid/BA0102534X'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: goldinmeadow1985gesture
+  title: 'Gesture in Early Child Language: Studies of Deaf and Hearing Children.'
+  authors: [Susan Goldin‐Meadow, Marolyn Morford]
+  year: 1985
+  venue: Merrill-palmer Quarterly
+  type: journal
+  category: theory
+  links: {paper: 'https://eric.ed.gov/?id=EJ324270'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: harrigan1985rapport
+  title: Rapport expressed through nonverbal behavior
+  authors: [Jinni A. Harrigan, Thomas E. Oxman, Robert Rosenthal]
+  year: 1985
+  venue: Journal of Nonverbal Behavior
+  type: journal
+  category: theory
+  doi: 10.1007/bf00987141
+  links: {paper: 'https://doi.org/10.1007/bf00987141'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction
+
+- id: mcneill1985think
+  title: So you think gestures are nonverbal?
+  authors: [David M. McNeill]
+  year: 1985
+  venue: Psychological Review
+  type: journal
+  category: theory
+  doi: 10.1037//0033-295x.92.3.350
+  links: {paper: 'https://doi.org/10.1037//0033-295x.92.3.350'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: schegloff1985gestures
+  title: On some gestures' relation to talk
+  authors: [Emanuel A. Schegloff]
+  year: 1985
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/cbo9780511665868.018
+  links: {paper: 'https://doi.org/10.1017/cbo9780511665868.018'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: ulrich1985video
+  title: A video analysis of the non-verbal behaviour of depressed patients before and after treatment
+  authors: [Georg Ulrich, K. Harms]
+  year: 1985
+  venue: Journal of Affective Disorders
+  type: journal
+  category: theory
+  doi: 10.1016/0165-0327(85)90011-4
+  links: {paper: 'https://doi.org/10.1016/0165-0327(85)90011-4'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: woodall1985nonverbal
+  title: 'Nonverbal cue context and episodic memory: On the availability and endurance of nonverbal behaviors as retrieval cues'
+  authors: [W. Gill Woodall, Joseph P. Folger]
+  year: 1985
+  venue: Communication Monographs
+  type: journal
+  category: theory
+  doi: 10.1080/03637758509376115
+  links: {paper: 'https://doi.org/10.1080/03637758509376115'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: zinober1985developmental
+  title: Developmental changes in four types of gesture in relation to acts and vocalizations from 10 to 21 months
+  authors: [Brenda Zinober, Margaret Martlew]
+  year: 1985
+  venue: British Journal of Developmental Psychology
+  type: journal
+  category: theory
+  doi: 10.1111/j.2044-835x.1985.tb00981.x
+  links: {paper: 'https://doi.org/10.1111/j.2044-835x.1985.tb00981.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development

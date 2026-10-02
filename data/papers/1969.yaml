@@ -1,0 +1,17 @@
+# Papers published in 1969. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: ekman1969repertoire
+  title: 'The Repertoire of Nonverbal Behavior: Categories, Origins, Usage, and Coding'
+  authors: [Paul Ekman, Wallace V. Friesen]
+  year: 1969
+  venue: Semiotica
+  type: book
+  category: theory
+  doi: 10.1515/semi.1969.1.1.49
+  links: {paper: 'https://doi.org/10.1515/semi.1969.1.1.49'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: other

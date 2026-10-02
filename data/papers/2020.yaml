@@ -65,6 +65,20 @@
   checked: abstract
   verified: false
 
+- id: aldugom2020gesture
+  title: Gesture during math instruction specifically benefits learners with high visuospatial working memory capacity
+  authors: [Mary Aldugom, Kimberly M. Fenn, Susan Wagner Cook]
+  year: 2020
+  venue: Cognitive Research Principles and Implications
+  type: journal
+  category: theory
+  doi: 10.1186/s41235-020-00215-8
+  links: {paper: 'https://doi.org/10.1186/s41235-020-00215-8'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
 - id: alexanderson2020speech
   title: Generating coherent spontaneous speech and gesture from text
   authors: [Simon Alexanderson, Éva Székely, Gustav Eje Henter, Taras Kucherenko, Jonas Beskow]
@@ -132,6 +146,115 @@
   checked: abstract
   verified: false
 
+- id: anon2020speech
+  title: Speech Accompanying-Gesture
+  year: 2020
+  venue: Psychology Press eBooks
+  type: book
+  category: theory
+  doi: 10.4324/9781003059783
+  links: {paper: 'https://doi.org/10.4324/9781003059783'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: arachchige2020investigating
+  title: 'Investigating the temporality of gesture/speech integration with Transcranial Magnetic Stimulation: building of a study.'
+  authors: [Kendra Kandana Arachchige, Isabelle Simoes Loureiro, Laurent Lefebvre]
+  year: 2020
+  venue: ORBi UMONS
+  type: journal
+  category: theory
+  links: {paper: 'https://orbi.umons.ac.be/handle/20.500.12907/11218'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: arachchige2020verbal
+  title: 'Verbal working memory capacity affects gesture/speech integration: preliminary results.'
+  authors: [Kendra Kandana Arachchige, Isabelle Simoes Loureiro, Wivine Blekić, Mandy Rossignol, Laurent Lefebvre]
+  year: 2020
+  venue: ORBi UMONS
+  type: journal
+  category: theory
+  links: {paper: 'https://orbi.umons.ac.be/handle/20.500.12907/25719'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: arslan2020ageing
+  title: 'Ageing, working memory, and mental imagery: Understanding gestural communication in younger and older adults'
+  authors: [Burcu Arslan, Tilbe Göksun]
+  year: 2020
+  venue: Quarterly Journal of Experimental Psychology
+  type: journal
+  category: theory
+  doi: 10.1177/1747021820944696
+  links: {paper: 'https://doi.org/10.1177/1747021820944696'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: beer2020evaluating
+  title: Evaluating Models of Gesture and Speech Production for People With Aphasia
+  authors: ['Carola ; https://orcid.org/0000-0002-2918-6756 de Beer', Katharina Hogrefe, Martina Hielscher‐Fastabend, Jan P. de Ruiter]
+  year: 2020
+  venue: Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1111/cogs.12890
+  links: {paper: 'https://doi.org/10.1111/cogs.12890'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: bekke2020predictive
+  title: 'The predictive potential of hand gestures during conversation: An investigation of the timing of gestures in relation to speech'
+  authors: [Marlijn ter Bekke, Linda Drijvers, Judith Holler]
+  year: 2020
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.31234/osf.io/b5zq7
+  links: {paper: 'https://doi.org/10.31234/osf.io/b5zq7'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: billotvasquez2020emblem
+  title: Emblem Gestures Improve Perception and Evaluation of Non-native Speech
+  authors: [Kiana Billot-Vasquez, Zhongwen Lian, Yukari Hirata, Spencer D. Kelly]
+  year: 2020
+  venue: Frontiers in Psychology
+  type: journal
+  category: theory
+  doi: 10.3389/fpsyg.2020.574418
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2020.574418'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: bosker2020beat
+  title: Beat gestures influence which speech sounds you hear
+  authors: [Hans Rutger Bosker, David Peeters]
+  year: 2020
+  venue: Proceedings of the Royal Society B Biological Sciences
+  type: conference
+  category: theory
+  doi: 10.1098/rspb.2020.2419
+  links: {paper: 'https://doi.org/10.1098/rspb.2020.2419'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
 - id: bozkurt2020affective
   title: Affective synthesis and animation of arm gestures from speech prosody
   authors: [Elif Bozkurt, Y. Yemez, Engin Erzin]
@@ -152,6 +275,231 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: bragg2020conversational
+  title: 'Conversational Movement Dynamics and Nonverbal Indicators of Second Language Development: A Microgenetic Approach'
+  authors: [Kristine M. Bragg]
+  year: 2020
+  venue: Digital Scholarship - UNLV (University of Nevada Reno)
+  type: journal
+  category: theory
+  doi: 10.34917/14279585
+  links: {paper: 'https://doi.org/10.34917/14279585'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: cabrera2020electrophysiol
+  title: Electrophysiological indicators of gesture perception
+  authors: [Maria E. Cabrera, Keisha Novak, Dan Foti, Richard Voyles, Juan P. Wachs]
+  year: 2020
+  venue: Experimental Brain Research
+  type: journal
+  category: theory
+  doi: 10.1007/s00221-020-05724-y
+  arxiv: '1811.05058'
+  links: {paper: 'https://doi.org/10.1007/s00221-020-05724-y'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: canovas2020quantifying
+  title: 'Quantifying the speech-gesture relation with massive multimodal datasets: Informativity in time expressions'
+  authors: [Cristóbal Pagán Cánovas, Javier Valenzuela, Daniel Alcaraz Carrión, Inés Olza, Michael Ramscar]
+  year: 2020
+  venue: PLoS ONE
+  type: journal
+  category: theory
+  doi: 10.1371/journal.pone.0233892
+  links: {paper: 'https://doi.org/10.1371/journal.pone.0233892'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: cantalini2020annotation
+  title: annotation of gesture and gesture / prosody synchronization in multimodal speech corpora
+  authors: [Giorgina Cantalini, Massimo Moneglia]
+  year: 2020
+  venue: Journal of Speech Sciences
+  type: journal
+  category: theory
+  doi: 10.20396/joss.v9i00.14956
+  links: {paper: 'https://doi.org/10.20396/joss.v9i00.14956'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: carrion2020enaction
+  title: 'Enaction Through Co-speech Gesture: The Rhetorical Handing of the Mental Timeline'
+  authors: [Daniel Alcaraz Carrión, Cristóbal Pagán Cánovas, Javier Valenzuela]
+  year: 2020
+  venue: Zeitschrift für Anglistik und Amerikanistik
+  type: journal
+  category: theory
+  doi: 10.1515/zaa-2020-2020
+  links: {paper: 'https://doi.org/10.1515/zaa-2020-2020'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: caute2020city
+  title: 'The City Gesture Checklist: The development of a novel gesture assessment'
+  authors: [Anna Caute, Lucy T. Dipper, Abi Roper]
+  year: 2020
+  venue: International Journal of Language & Communication Disorders
+  type: journal
+  category: theory
+  doi: 10.1111/1460-6984.12579
+  links: {paper: 'https://doi.org/10.1111/1460-6984.12579'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: choi2020relationship
+  title: The Relationship Between Gesture and Speech in Preschool Children with Expressive Specific Language Impairment and Typically Developing Children
+  authors: [Sujin Choi, Sang-Im Jung, Young Tae Kim]
+  year: 2020
+  venue: Korean Journal of Child Studies
+  type: journal
+  category: theory
+  doi: 10.5723/kjcs.2020.41.4.31
+  links: {paper: 'https://doi.org/10.5723/kjcs.2020.41.4.31'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: chui2020neural
+  title: 'Neural correlates of the processing of self-adaptors, emblems, and iconic gestures with speech: an fMRI study'
+  authors: [Kawai Chui, Kanyu Yeh, Ting‐Ting Chang]
+  year: 2020
+  venue: Language Cognition and Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1080/23273798.2020.1853785
+  links: {paper: 'https://doi.org/10.1080/23273798.2020.1853785'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: cienki2020patterns
+  title: 'PATTERNS OF MULTIMODAL BEHAVIOR UNDER COGNITIVE LOAD: AN ANALYSIS OF SIMULTANEOUS INTERPRETATION FROM L2 TO L1'
+  authors: [Alan J. Cienki, Olga K. Iriskhanova]
+  year: 2020
+  venue: Вопросы когнитивной лингвистики
+  type: journal
+  category: theory
+  doi: 10.20916/1812-3228-2020-1-5-11
+  links: {paper: 'https://doi.org/10.20916/1812-3228-2020-1-5-11'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: clough2020gesture
+  title: 'The Role of Gesture in Communication and Cognition: Implications for Understanding and Treating Neurogenic Communication Disorders'
+  authors: [Sharice Clough, Melissa Collins Duff]
+  year: 2020
+  venue: Frontiers in Human Neuroscience
+  type: journal
+  category: theory
+  doi: 10.3389/fnhum.2020.00323
+  links: {paper: 'https://doi.org/10.3389/fnhum.2020.00323'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: cooperrider2020fifteen
+  title: Fifteen ways of looking at a pointing gesture
+  authors: [Kensy Cooperrider]
+  year: 2020
+  venue: The public journal of semiotics
+  type: journal
+  category: theory
+  doi: 10.31234/osf.io/2vxft
+  links: {paper: 'https://doi.org/10.31234/osf.io/2vxft'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: dargue2020hands
+  title: 'Two hands and a tale: When gestures benefit adult narrative comprehension'
+  authors: [Nicole Dargue, Naomi Sweller]
+  year: 2020
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1016/j.learninstruc.2020.101331
+  links: {paper: 'https://doi.org/10.1016/j.learninstruc.2020.101331'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: debreslioska2020semantic
+  title: The semantic content of gestures varies with definiteness, information status and clause structure
+  authors: [Sandra Debreslioska, Marianne Gullberg]
+  year: 2020
+  venue: Journal of Pragmatics
+  type: journal
+  category: theory
+  doi: 10.1016/j.pragma.2020.06.005
+  links: {paper: 'https://doi.org/10.1016/j.pragma.2020.06.005'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: debreslioska2020whats
+  title: What’s New? Gestures Accompany Inferable Rather Than Brand-New Referents in Discourse
+  authors: [Sandra Debreslioska, Marianne Gullberg]
+  year: 2020
+  venue: Frontiers in Psychology
+  type: journal
+  category: theory
+  doi: 10.3389/fpsyg.2020.01935
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2020.01935'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: delafieldbutt2020making
+  title: 'Making Meaning Together: Embodied Narratives in a Case of Severe Autism'
+  authors: [Jonathan T. Delafield‐Butt, M. Suzanne Zeedyk, Susanne Harder, Mette Skovgaard Væver, Phoebe Caldwell]
+  year: 2020
+  venue: Psychopathology
+  type: journal
+  category: theory
+  doi: 10.1159/000506648
+  links: {paper: 'https://doi.org/10.1159/000506648'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: ebert2020demonstratives
+  title: Demonstratives as dimension shifters
+  authors: [Christian Ebert, Cornelia Ebert, Robin Hörnig]
+  year: 2020
+  venue: Proceedings of Sinn und Bedeutung
+  type: conference
+  category: theory
+  doi: 10.18148/sub/2020.v24i1.859
+  links: {paper: 'https://doi.org/10.18148/sub/2020.v24i1.859'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: ferstl2020adversarial
   title: Adversarial gesture generation with realistic gesture phasing
@@ -197,6 +545,48 @@
   checked: full-text
   verified: true
 
+- id: fritz2020multimodal
+  title: 'Multimodal language processing: How preceding discourse constrains gesture interpretation and affects gesture integration when gestures do not synchronise with semantic affiliates'
+  authors: [Isabella Fritz, Sotaro Kita, Jeannette Littlemore, Andrea Krott]
+  year: 2020
+  venue: Journal of Memory and Language
+  type: journal
+  category: theory
+  doi: 10.1016/j.jml.2020.104191
+  links: {paper: 'https://doi.org/10.1016/j.jml.2020.104191'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: fronda2020interbrain
+  title: 'The effect of interbrain synchronization in gesture observation: A fNIRS study'
+  authors: [Giulia Fronda, Michela Balconi]
+  year: 2020
+  venue: Brain and Behavior
+  type: journal
+  category: theory
+  doi: 10.1002/brb3.1663
+  links: {paper: 'https://doi.org/10.1002/brb3.1663'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: gilbert2020kinesics
+  title: Kinesics and Gesture
+  authors: [Kristin Enola Gilbert]
+  year: 2020
+  venue: The International Encyclopedia of Linguistic Anthropology
+  type: book
+  category: theory
+  doi: 10.1002/9781118786093.iela0184
+  links: {paper: 'https://doi.org/10.1002/9781118786093.iela0184'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: ginosar2020modeling
   title: 'Modeling Visual Minutiae: Gestures, Styles, and Temporal Patterns'
   authors: [Shiry Ginosar]
@@ -212,6 +602,62 @@
   checked: abstract
   verified: false
 
+- id: guarino2020teaching
+  title: Teaching Analogical Reasoning With Co-speech Gesture Shows Children Where to Look, but Only Boosts Learning for Some
+  authors: [Katharine F. Guarino, Elizabeth M. Wakefield]
+  year: 2020
+  venue: Frontiers in Psychology
+  type: journal
+  category: theory
+  doi: 10.3389/fpsyg.2020.575628
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2020.575628'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: hanamoto2020improving
+  title: Improving spatial and temporal attention through the use of spontaneous gestures in dyadic English as lingua franca interactions
+  authors: [Hiroki Hanamoto]
+  year: 2020
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.4324/9781003008903-9
+  links: {paper: 'https://doi.org/10.4324/9781003008903-9'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: hanamoto2020occurring
+  title: How Do Co-occurring Speech and Gestures Express Meaning in a Dyadic Face-to-Face ELF Interaction?
+  authors: [Hiroki Hanamoto]
+  year: 2020
+  venue: Multilingual education
+  type: book
+  category: theory
+  doi: 10.1007/978-3-030-52225-4_5
+  links: {paper: 'https://doi.org/10.1007/978-3-030-52225-4_5'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: hardison2020multimodal
+  title: 'Multimodal Second-Language Communication: Research Findings and Pedagogical Implications'
+  authors: [Debra M. Hardison, Martha C. Pennington]
+  year: 2020
+  venue: RELC Journal
+  type: journal
+  category: theory
+  doi: 10.1177/0033688220966635
+  links: {paper: 'https://doi.org/10.1177/0033688220966635'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
 - id: hartholt2020multiplatform
   title: 'Multi-Platform Expansion of the Virtual Human Toolkit: Ubiquitous Conversational Agents'
   authors: [Arno Hartholt, Ed Fast, Adam Reilly, Wendy Whitcup, Matt Liewer, Sharon Mozgai]
@@ -225,6 +671,118 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: hartman2020figurative
+  title: 'Figurative meaning in multimodal work by an autistic artist: a cognitive semantic approach'
+  authors: [Jenny Hartman, Carita Paradis]
+  year: 2020
+  venue: Language and Cognition
+  type: journal
+  category: theory
+  doi: 10.1017/langcog.2020.20
+  links: {paper: 'https://doi.org/10.1017/langcog.2020.20'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: he2020gestures
+  title: Gesture's body orientation modulates the N400 for visual sentences primed by gestures
+  authors: [Yifei He, Svenja Luell, R. Muralikrishnan, Benjamin Straube, Arne Nagels]
+  year: 2020
+  venue: Human Brain Mapping
+  type: journal
+  category: theory
+  doi: 10.1002/hbm.25166
+  links: {paper: 'https://doi.org/10.1002/hbm.25166'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: hinnell2020gesture
+  title: Gesture Influences Resolution of Ambiguous Statements of Neutral and Moral Preferences
+  authors: [Jennifer Hinnell, Fey Parrill]
+  year: 2020
+  venue: Frontiers in Psychology
+  type: journal
+  category: theory
+  doi: 10.3389/fpsyg.2020.587129
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2020.587129'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: hinnell2020language
+  title: 'Language in the body: Multimodality in grammar and discourse'
+  authors: [Jennifer Hinnell]
+  year: 2020
+  venue: 'ERA: Education and Research Archive (University of Alberta)'
+  type: thesis
+  category: theory
+  doi: 10.7939/r3-1nhm-5c89
+  links: {paper: 'https://doi.org/10.7939/r3-1nhm-5c89'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: hoetjes2020gesture
+  title: 'Using Gesture to Facilitate L2 Phoneme Acquisition: The Importance of Gesture and Phoneme Complexity'
+  authors: [Marieke Hoetjes, Lieke van Maastricht]
+  year: 2020
+  venue: Frontiers in Psychology
+  type: journal
+  category: theory
+  doi: 10.3389/fpsyg.2020.575032
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2020.575032'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: hudson2020teacher
+  title: 'Teacher gesture in a post-secondary English as a second language classroom: A sociocultural approach'
+  authors: [Natalie Hudson]
+  year: 2020
+  venue: Digital Scholarship - UNLV (University of Nevada Reno)
+  type: journal
+  category: theory
+  doi: 10.34917/2432927
+  links: {paper: 'https://doi.org/10.34917/2432927'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: hughesberheim2020semantic
+  title: Semantic Relationships Between Representational Gestures and Their Lexical Affiliates Are Evaluated Similarly for Speech and Text
+  authors: [Sarah S. Hughes-Berheim, Laura M. Morett, Raymond Bulger]
+  year: 2020
+  venue: Frontiers in Psychology
+  type: journal
+  category: theory
+  doi: 10.3389/fpsyg.2020.575991
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2020.575991'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: im2020probabilistic
+  title: Probabilistic relation between co-speech gestures, pitch accents and information status
+  authors: [Suyeon Im, Stefan Baumann]
+  year: 2020
+  venue: Proceedings of the Linguistic Society of America
+  type: conference
+  category: theory
+  doi: 10.3765/plsa.v5i1.4755
+  links: {paper: 'https://doi.org/10.3765/plsa.v5i1.4755'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: ishii2020impact
   title: Impact of Personality on Nonverbal Behavior Generation
@@ -240,6 +798,34 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: jarbou2020inherent
+  title: 'An Inherent Bond: External Visual Aid Has a Minor Effect on the Rate of Co-Speech Gestures'
+  authors: [Samer Jarbou]
+  year: 2020
+  venue: East European Journal of Psycholinguistics
+  type: journal
+  category: theory
+  doi: 10.29038/eejpl.2020.7.2.jar
+  links: {paper: 'https://doi.org/10.29038/eejpl.2020.7.2.jar'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: jehlicka2020multimodal
+  title: 'Multimodal Event Construals: The Role of Co-Speech Gestures in English vs. Czech Interactions'
+  authors: [Jakub Jehlička, Eva Lehečková]
+  year: 2020
+  venue: Zeitschrift für Anglistik und Amerikanistik
+  type: journal
+  category: theory
+  doi: 10.1515/zaa-2020-2017
+  links: {paper: 'https://doi.org/10.1515/zaa-2020-2017'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: jin2020telepresence
   title: 'A Live Speech-Driven Avatar-Mediated Three-Party Telepresence System: Design and Evaluation'
@@ -260,6 +846,20 @@
   checked: abstract
   verified: false
 
+- id: johnson2020chapter
+  title: 'Chapter 13. “Are You Saying You Were Stabbed . . . ?”: Multimodality, Embodied Action, and Dramatized Formulations in “Fixing” the Facts in Police Interviews with Suspects'
+  authors: [Alison J. Johnson]
+  year: 2020
+  venue: University of Chicago Press eBooks
+  type: book
+  category: theory
+  doi: 10.7208/9780226647821-014
+  links: {paper: 'https://doi.org/10.7208/9780226647821-014'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
 - id: jonell2020crowdworkers
   title: 'Can we trust online crowdworkers?: Comparing online and offline participants in a preference test of virtual agents'
   authors: [Patrik Jonell, Taras Kucherenko, Ilaria Torre, Jonas Beskow]
@@ -276,6 +876,34 @@
   added: '2026-10-03'
   checked: full-text
   verified: false
+
+- id: kashiwadate2020syntactic
+  title: Syntactic Structure Influences Speech-Gesture Synchronization
+  authors: [Kei Kashiwadate, Tetsuya Yasuda, Koji Fujita, Sotaro Kita, Harumi Kobayashi]
+  year: 2020
+  venue: Letters on Evolutionary Behavioral Science
+  type: journal
+  category: theory
+  doi: 10.5178/lebs.2020.73
+  links: {paper: 'https://doi.org/10.5178/lebs.2020.73'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: kim2020gesture
+  title: 'Gesture Production and Theory of Mind: Effective Disambiguation in Communication through Gesture'
+  authors: [Minju Kim, Adena Schachner]
+  year: 2020
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.31234/osf.io/xdsvj
+  links: {paper: 'https://doi.org/10.31234/osf.io/xdsvj'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
 
 - id: korzun2020finemotion
   title: FineMotion - Audio and Text-Driven approach for Conversational Gestures Generation
@@ -300,6 +928,33 @@
   added: '2026-10-03'
   checked: metadata
   verified: false
+
+- id: kruzic2020facial
+  title: Facial expressions contribute more than body movements to conversational outcomes in avatar-mediated virtual environments
+  authors: [Catherine Oh Kruzic, David Kruzic, Fernanda Herrera, Jeremy N. Bailenson]
+  year: 2020
+  venue: Scientific Reports
+  type: journal
+  category: theory
+  doi: 10.1038/s41598-020-76672-4
+  links: {paper: 'https://doi.org/10.1038/s41598-020-76672-4'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: ksa2020speech
+  title: 'Co-speech gestures reflect non-linguistic thinking: evidence from mental abacus.'
+  authors: [Yağmur Deniz Kısa, Neon Blue Brooks, Susan Goldin‐Meadow]
+  year: 2020
+  venue: eScholarship (California Digital Library)
+  type: journal
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/5xp2j4kh'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
 
 - id: kucherenko2020genea
   title: 'The GENEA Challenge 2020: Benchmarking gesture-generation systems on common data'
@@ -340,6 +995,34 @@
   checked: full-text
   verified: true
 
+- id: levy2020emotion
+  title: Emotion matters
+  authors: [Rachel Santos Levy, Spencer D. Kelly]
+  year: 2020
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.19029.lev
+  links: {paper: 'https://doi.org/10.1075/gest.19029.lev'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: li2020observing
+  title: OBSERVING AND PRODUCING DURATIONAL HAND GESTURES FACILITATES THE PRONUNCIATION OF NOVEL VOWEL-LENGTH CONTRASTS
+  authors: [Peng Li, Florence Baills, Pilar Prieto]
+  year: 2020
+  venue: Studies in Second Language Acquisition
+  type: journal
+  category: theory
+  doi: 10.1017/s0272263120000054
+  links: {paper: 'https://doi.org/10.1017/s0272263120000054'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
 - id: liao2020speech2video
   title: Speech2Video Synthesis with 3D Skeleton Regularization and Expressive Body Poses
   authors: [Miao Liao, Sibo Zhang, Peng Wang, Hao Zhu, Xinxin Zuo, Ruigang Yang]
@@ -367,6 +1050,62 @@
   checked: full-text
   verified: false
 
+- id: lin2020helping
+  title: 'A helping hand for thinking and speaking: Effects of gesturing and task planning on second language narrative discourse'
+  authors: [Yen-Liang Lin]
+  year: 2020
+  venue: System
+  type: journal
+  category: theory
+  doi: 10.1016/j.system.2020.102243
+  links: {paper: 'https://doi.org/10.1016/j.system.2020.102243'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: cognition
+
+- id: longauerova2020frequency
+  title: The frequency, variation, and semantic integration of co-speech gesture production in verbal adolescents diagnosed with Autism Spectrum Disorder
+  authors: [Renata Longauerova]
+  year: 2020
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.31234/osf.io/qdxje
+  links: {paper: 'https://doi.org/10.31234/osf.io/qdxje'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: lopezozieblo2020proposing
+  title: Proposing a revised functional classification of pragmatic gestures
+  authors: [Renia López-Ozieblo]
+  year: 2020
+  venue: Lingua
+  type: journal
+  category: theory
+  doi: 10.1016/j.lingua.2020.102870
+  links: {paper: 'https://doi.org/10.1016/j.lingua.2020.102870'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: louhema2020translating
+  title: 'Translating from monosemiotic to polysemiotic narratives: A study of Finnish speech and gestures'
+  authors: [Karoliina Louhema, Jordan Zlatev, Maria Graziano, Joost van de Weijer]
+  year: 2020
+  venue: Sign Systems Studies
+  type: journal
+  category: theory
+  doi: 10.12697/sss.2019.47.3-4.07
+  links: {paper: 'https://doi.org/10.12697/sss.2019.47.3-4.07'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: lu2020doubledcccae
   title: 'Double-DCCCAE: Estimation of Sequential Body Motion Using Wave-Form - AlltheSmooth'
   authors: [JinHong Lu, TianHang Liu, ShuZhuang Xu, Hiroshi Shimodaira]
@@ -379,6 +1118,186 @@
   added: '2026-10-03'
   checked: metadata
   verified: false
+
+- id: luke2020integrated
+  title: 'Integrated Communication System: Gesture and Language Acquisition in Typically Developing Children and Children With LD and DLD'
+  authors: [Carina Lüke, Ute Ritterfeld, Angela Grimminger, Katharina J. Rohlfing, Ulf Liszkowski]
+  year: 2020
+  venue: Frontiers in Psychology
+  type: journal
+  category: theory
+  doi: 10.3389/fpsyg.2020.00118
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2020.00118'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: marentette2020pantomime
+  title: 'Pantomime (Not Silent Gesture) in Multimodal Communication: Evidence From Children’s Narratives'
+  authors: [Paula Marentette, Reyhan Furman, Marcus E. Suvanto, Elena Nicoladis]
+  year: 2020
+  venue: Frontiers in Psychology
+  type: journal
+  category: theory
+  doi: 10.3389/fpsyg.2020.575952
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2020.575952'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: marentette2020pantomimeb
+  title: 'Pantomime (but not silent gesture) shows gesture-speech integration: Evidence from children’s narratives'
+  authors: [P. Marentette, R. Furman, M. Suvanto, E. Nicoladis]
+  year: 2020
+  venue: MPG.PuRe (Max Planck Society)
+  type: journal
+  category: theory
+  links: {paper: 'https://hdl.handle.net/21.11116/0000-0013-258D-3'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: marghetis2020space
+  title: 'Space in Hand and Mind: Gesture and Spatial Frames of Reference in Bilingual Mexico'
+  authors: [Tyler Marghetis, Melanie McComsey, Kensy Cooperrider]
+  year: 2020
+  venue: Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1111/cogs.12920
+  links: {paper: 'https://doi.org/10.1111/cogs.12920'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: masataka2020empirical
+  title: Empirical Evidence for the Claim That the Vocal Theory of Language Origins and the Gestural Theory of Language Origins Are Not Incompatible with One Another
+  authors: [Nobuo Masataka]
+  year: 2020
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.1007/978-981-15-4250-3_1
+  links: {paper: 'https://doi.org/10.1007/978-981-15-4250-3_1'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: masi2020exploring
+  title: Exploring meaning-making practices via co-speech gestures in TED Talks
+  authors: [Silvia Masi]
+  year: 2020
+  venue: Journal of Visual Literacy
+  type: journal
+  category: theory
+  doi: 10.1080/1051144x.2020.1826223
+  links: {paper: 'https://doi.org/10.1080/1051144x.2020.1826223'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: massoncarro2020triggers
+  title: What triggers a gesture? Exploring affordance compatibility effects in representational gesture production.
+  authors: [Ingrid Masson‐Carro, Martijn B. Goudbeek, Emiel Krahmer]
+  year: 2020
+  venue: Journal of Experimental Psychology Human Perception & Performance
+  type: journal
+  category: theory
+  doi: 10.1037/xhp0000760
+  links: {paper: 'https://doi.org/10.1037/xhp0000760'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: matoesian2020multimodality
+  title: Multimodality in legal interaction
+  authors: [Gregory M. Matoesian, Kristin Enola Gilbert]
+  year: 2020
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.4324/9780429030581-20
+  links: {paper: 'https://doi.org/10.4324/9780429030581-20'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: matoori2020mental
+  title: Mental Timeline in Persian Speakers’ Co-Speech Gestures Based on Lakoff and Johnson’s Conceptual Metaphor Theory
+  authors: [Hossein Matoori, Elkhas Veysi, Bahman Gorjian, Mehran Memari]
+  year: 2020
+  venue: فصلنامه روانشناسی شناختی
+  type: journal
+  category: theory
+  links: {paper: 'https://jcp.khu.ac.ir/article-1-3214-en.html'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: cognition
+
+- id: matsumoto2020gesture
+  title: The use of gesture, gesture hold, and gaze in trouble-in-talk among multilingual interlocutors in an English as a lingua franca context
+  authors: [Yumi Matsumoto, Suresh Canagarajah]
+  year: 2020
+  venue: Journal of Pragmatics
+  type: journal
+  category: theory
+  doi: 10.1016/j.pragma.2020.08.015
+  links: {paper: 'https://doi.org/10.1016/j.pragma.2020.08.015'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: mishra2020gesture
+  title: Gesture Production in Toddlers with Autism Spectrum Disorder
+  authors: [Avinash Mishra, Victoria Ceballos, Kelsey Himmelwright, S. McCabe, Lindsay Scott]
+  year: 2020
+  venue: Journal of Autism and Developmental Disorders
+  type: journal
+  category: theory
+  doi: 10.1007/s10803-020-04647-5
+  links: {paper: 'https://doi.org/10.1007/s10803-020-04647-5'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: momsen2020verbal
+  title: Verbal working memory and co-speech gesture processing
+  authors: [Jacob Momsen, Jared Gordon, Ying Choon Wu, Seana Coulson]
+  year: 2020
+  venue: Brain and Cognition
+  type: journal
+  category: theory
+  doi: 10.1016/j.bandc.2020.105640
+  links: {paper: 'https://doi.org/10.1016/j.bandc.2020.105640'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: morett2020amplitude
+  title: N400 amplitude, latency, and variability reflect temporal integration of beat gesture and pitch accent during language processing
+  authors: [Laura M. Morett, Nicole Landi, JULIA R. IRWIN, James C. McPartland]
+  year: 2020
+  venue: Brain Research
+  type: journal
+  category: theory
+  doi: 10.1016/j.brainres.2020.147059
+  links: {paper: 'https://doi.org/10.1016/j.brainres.2020.147059'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
 
 - id: ondras2020audio
   title: Audio-Driven Robot Upper-Body Motion Synthesis
@@ -396,6 +1315,48 @@
   checked: abstract
   verified: false
 
+- id: overoye2020gesture
+  title: Does Gesture Lighten the Load? The Case of Verbal Analogies
+  authors: [Acacia L Overoye, Margaret Wilson]
+  year: 2020
+  venue: Frontiers in Psychology
+  type: journal
+  category: theory
+  doi: 10.3389/fpsyg.2020.571109
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2020.571109'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: ozer2020gesture
+  title: 'Gesture Use and Processing: A Review on Individual Differences in Cognitive Resources'
+  authors: [Demet Özer, Tilbe Göksun]
+  year: 2020
+  venue: Frontiers in Psychology
+  type: journal
+  category: theory
+  doi: 10.3389/fpsyg.2020.573555
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2020.573555'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: ozyurek2020expressing
+  title: 'Expressing manner and path in English and Turkish: Differences in speech, gesture, and conceptualization'
+  authors: [Aslı Özyürek, Sotaro Kita]
+  year: 2020
+  venue: Psychology Press eBooks
+  type: journal
+  category: theory
+  doi: 10.4324/9781410603494-94
+  links: {paper: 'https://doi.org/10.4324/9781410603494-94'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: pang2020cgvu
   title: 'CGVU: Semantics-guided 3D Body Gesture Synthesis'
   authors: [Kunkun Pang, Taku Komura, Hanbyul Joo, Takaaki Shiratori]
@@ -409,6 +1370,227 @@
   checked: abstract
   verified: false
 
+- id: polancec2020pragmatic
+  title: 'Pragmatic analysis of hand gestures: a case study of co-speech gestures in two different genres of videos'
+  authors: [Ivana Polančec]
+  year: 2020
+  venue: ODRAZ (University of Zagreb Faculty of Humanities and SocialSciences)
+  type: thesis
+  category: theory
+  links: {paper: 'https://repozitorij.ffzg.unizg.hr/islandora/object/ffzg:3412'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: pons2020temporal
+  title: 'Temporal integration of gesture and speech in narrative discourse: an insight into the development of co-speech gesture use'
+  authors: [Júlia Florit Pons]
+  year: 2020
+  venue: Unknown venue
+  type: thesis
+  category: theory
+  links: {paper: 'https://repositori.upf.edu/handle/10230/46884'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
+
+- id: pouw2020gesture
+  title: Gesture-speech physics in fluent speech and rhythmic upper limb movements
+  authors: [Wim T. J. L. Pouw, Lisette de Jonge‐Hoekstra, Steven A. Harrison, Alexandra Paxton, James A. Dixon]
+  year: 2020
+  venue: Annals of the New York Academy of Sciences
+  type: journal
+  category: theory
+  doi: 10.31234/osf.io/359te
+  links: {paper: 'https://doi.org/10.31234/osf.io/359te'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: prieto2020negation
+  title: Negation, Prosody, and Gesture
+  authors: [Pilar Prieto, M. Teresa Espinal]
+  year: 2020
+  venue: Oxford University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1093/oxfordhb/9780198830528.013.34
+  links: {paper: 'https://doi.org/10.1093/oxfordhb/9780198830528.013.34'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: rohrer2020beat
+  title: 'Beat Gestures for Comprehension and Recall: Differential Effects of Language Learners and Native Listeners'
+  authors: [Patrick Louis Rohrer, Élisabeth Delais-Roussarie, Pilar Prieto]
+  year: 2020
+  venue: Frontiers in Psychology
+  type: journal
+  category: theory
+  doi: 10.3389/fpsyg.2020.575929
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2020.575929'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: ruf2020creating
+  title: Creating a Corpus of Gestures and Predicting the Audience Response based on Gestures in Speeches of Donald Trump.
+  authors: [Verena Ruf, Costanza Navarretta]
+  year: 2020
+  venue: Research at the University of Copenhagen (University of Copenhagen)
+  type: journal
+  category: theory
+  links: {paper: 'https://researchprofiles.ku.dk/da/publications/27ce696e-06b1-420c-b29b-5a612287908b'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: rutger2020supplementary
+  title: Supplementary material from "Beat gestures influence which speech sounds you hear"
+  authors: ['Bosker, Hans Rutger', 'Peeters, David']
+  year: 2020
+  venue: Figshare
+  type: journal
+  category: theory
+  doi: 10.6084/m9.figshare.c.5251460.v1
+  links: {paper: 'https://doi.org/10.6084/m9.figshare.c.5251460.v1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: safar2020were
+  title: “When you were that little…”
+  authors: [Josefina Safar]
+  year: 2020
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.19007.saf
+  links: {paper: 'https://doi.org/10.1075/gest.19007.saf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: schouwstra2020emergence
+  title: 'The emergence of word order conventions: improvisation, interaction and transmission'
+  authors: [Marieke Schouwstra, Kenny Smith, Simon Kirby]
+  year: 2020
+  venue: Unknown venue
+  type: preprint
+  category: theory
+  doi: 10.31234/osf.io/wdfu2
+  links: {paper: 'https://doi.org/10.31234/osf.io/wdfu2'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: schubotz2020aging
+  title: Aging and working memory modulate the ability to benefit from visible speech and iconic gestures during speech-in-noise comprehension
+  authors: [Louise Schubotz, Judith Holler, Linda Drijvers, Aslı Özyürek]
+  year: 2020
+  venue: Psychological Research
+  type: journal
+  category: theory
+  doi: 10.1007/s00426-020-01363-8
+  links: {paper: 'https://doi.org/10.1007/s00426-020-01363-8'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: sekine2020evidence
+  title: 'Evidence for children’s online integration of simultaneous information from speech and iconic gestures: an ERP study'
+  authors: [Kazuki Sekine, Christina Schoechl, Kimberley Mulder, Judith Holler, Spencer D. Kelly, Reyhan Furman, Aslı Özyürek]
+  year: 2020
+  venue: Language Cognition and Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1080/23273798.2020.1737719
+  links: {paper: 'https://doi.org/10.1080/23273798.2020.1737719'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: sgard2020gesturing
+  title: Gesturing helps memory encoding in aMCI
+  authors: [Clara Sgard, Jean‐Christophe Bier, Philippe Peigneux]
+  year: 2020
+  venue: Journal of Neuropsychology
+  type: journal
+  category: theory
+  doi: 10.1111/jnp.12238
+  links: {paper: 'https://doi.org/10.1111/jnp.12238'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: silva2020multimodality
+  title: Multimodality and the origin of a novel communication system in face-to-face interaction
+  authors: [Vinicius Macuch Silva, Judith Holler, Aslı Özyürek, Seán G. Roberts]
+  year: 2020
+  venue: Royal Society Open Science
+  type: journal
+  category: theory
+  doi: 10.1098/rsos.182056
+  links: {paper: 'https://doi.org/10.1098/rsos.182056'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: singleton2020making
+  title: Making Object Shape Explicit for Toddlers With Late Language Emergence
+  authors: [Nina Capone Singleton, Laura Anderson]
+  year: 2020
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/2019_jslhr-19-00235
+  links: {paper: 'https://doi.org/10.1044/2019_jslhr-19-00235'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: suffel2020feeling
+  title: Feeling addressed! The neural processing of social communicative cues in patients with major depression
+  authors: [Anne Suffel, Arne Nagels, Miriam Steines, Tilo T. J. Kircher, Benjamin Straube]
+  year: 2020
+  venue: Human Brain Mapping
+  type: journal
+  category: theory
+  doi: 10.1002/hbm.25027
+  links: {paper: 'https://doi.org/10.1002/hbm.25027'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: sweller2020observing
+  title: The effects of observing and producing gestures on Japanese word learning
+  authors: [Naomi Sweller, Aya Shinooka-Phelan, Elizabeth E. Austin]
+  year: 2020
+  venue: Acta Psychologica
+  type: journal
+  category: theory
+  doi: 10.1016/j.actpsy.2020.103079
+  links: {paper: 'https://doi.org/10.1016/j.actpsy.2020.103079'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
 - id: thangthai2020nectec
   title: The Nectec Gesture Generation System entry to the GENEA Challenge 2020
   authors: [Ausdang Thangthai, Kwanchiva Thangthai, Arnon Namsanit, Sumonmas Thatphithakkul, Sittipong Saychum]
@@ -421,6 +1603,34 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: tian2020chinese
+  title: 'Chinese international students’ multicultural identity and second language development: gesture awareness and use'
+  authors: [Lixian Tian, Steven G. McCafferty]
+  year: 2020
+  venue: Language Awareness
+  type: journal
+  category: theory
+  doi: 10.1080/09658416.2020.1767118
+  links: {paper: 'https://doi.org/10.1080/09658416.2020.1767118'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: trujillo2020evidence
+  title: 'Evidence for a Multimodal Lombard Effect: Speakers modulate not only speech but also gesture to overcome noise'
+  authors: [James P. Trujillo, Asli, Judith Holler, Linda Drijvers]
+  year: 2020
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.31234/osf.io/3jdmq
+  links: {paper: 'https://doi.org/10.31234/osf.io/3jdmq'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
 
 - id: tuyen2020conditional
   title: Conditional Generative Adversarial Network for Generating Communicative Robot Gestures
@@ -455,6 +1665,174 @@
   added: '2026-10-03'
   checked: full-text
   verified: false
+
+- id: valenzuela2020gesturing
+  title: Gesturing in the wild
+  authors: [Javier Valenzuela, Cristóbal Pagán Cánovas, Inés Olza, Daniel Alcaraz Carrión]
+  year: 2020
+  venue: Review of Cognitive Linguistics
+  type: journal
+  category: theory
+  doi: 10.1075/rcl.00061.val
+  links: {paper: 'https://doi.org/10.1075/rcl.00061.val'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: varetska2020verbal
+  title: 'VERBAL AND PARAVERBAL CRITICISM: A DISCURSIVE STUDY OF GERMAN AND UKRAINIAN ELECTORAL SPEECHES'
+  authors: [Olha O. Varetska]
+  year: 2020
+  venue: MESSENGER OF KYIV NATIONAL LINGUISTIC UNIVERSITY Series Philology
+  type: journal
+  category: theory
+  doi: 10.32589/2311-0821.1.2020.207242
+  links: {paper: 'https://doi.org/10.32589/2311-0821.1.2020.207242'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: viher2020structural
+  title: 'Structural organization of the praxis network predicts gesture production: Evidence from healthy subjects and patients with schizophrenia'
+  authors: [Petra Verena Viher, Ahmed Abdulkadir, Peter Savadijev, Katharina Stegmayer, Marek R. Kubicki, Nikos Makris, Sarina Karmacharya, Andrea Federspiel, Stephan Bohlhalter, Tim Vanbellingen, René M. Müri, Roland Wiest, Werner Konrad Strik, Sebastian Walther]
+  year: 2020
+  venue: Cortex
+  type: journal
+  category: theory
+  doi: 10.1016/j.cortex.2020.05.023
+  links: {paper: 'https://doi.org/10.1016/j.cortex.2020.05.023'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: vilagimenez2020encouraging
+  title: 'Encouraging kids to beat: Children''s beat gesture production boosts their narrative performance'
+  authors: [Ingrid Vilà‐Giménez, Pilar Prieto]
+  year: 2020
+  venue: Developmental Science
+  type: journal
+  category: theory
+  doi: 10.1111/desc.12967
+  links: {paper: 'https://doi.org/10.1111/desc.12967'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: walther2020gesture
+  title: Gesture deficits and apraxia in schizophrenia
+  authors: [Sebastian Walther, Vijay Anand Mittal, Katharina Stegmayer, Stephan Bohlhalter]
+  year: 2020
+  venue: Cortex
+  type: journal
+  category: theory
+  doi: 10.1016/j.cortex.2020.09.017
+  links: {paper: 'https://doi.org/10.1016/j.cortex.2020.09.017'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: wang2020asking
+  title: 'Asking, answering and assessing with hands: how co-speech hand gestures contribute to question-initiated interactions in Chinese kindergarten classroom'
+  authors: [Zhe Wang, Zhanhao Jiang]
+  year: 2020
+  venue: European Early Childhood Education Research Journal
+  type: journal
+  category: theory
+  doi: 10.1080/1350293x.2020.1836584
+  links: {paper: 'https://doi.org/10.1080/1350293x.2020.1836584'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: wermelinger2020understand
+  title: Do you understand what I want to tell you? Early sensitivity in bilinguals' iconic gesture perception and production
+  authors: [Stephanie Wermelinger, Anja Gampe, Natascha Helbling, Moritz M. Daum]
+  year: 2020
+  venue: Developmental Science
+  type: journal
+  category: theory
+  doi: 10.1111/desc.12943
+  links: {paper: 'https://doi.org/10.1111/desc.12943'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: wilson2020time
+  title: It’s Time to Do News Again
+  authors: [Anna Wilson]
+  year: 2020
+  venue: Zeitschrift für Anglistik und Amerikanistik
+  type: journal
+  category: theory
+  doi: 10.1515/zaa-2020-2016
+  links: {paper: 'https://doi.org/10.1515/zaa-2020-2016'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: winter2020speech
+  title: Can co-speech gestures alone carry the mental time line?
+  authors: [Bodo Winter, Sarah E. Duffy]
+  year: 2020
+  venue: Journal of Experimental Psychology Learning Memory and Cognition
+  type: journal
+  category: theory
+  doi: 10.1037/xlm0000836
+  links: {paper: 'https://doi.org/10.1037/xlm0000836'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: woodin2020tiny
+  title: '''Tiny numbers'' are actually tiny: Evidence from gestures in the TV News Archive'
+  authors: [Greg Woodin, Bodo Winter, Marcus Perlman, Jeannette Littlemore, Teenie Matlock]
+  year: 2020
+  venue: PLoS ONE
+  type: journal
+  category: theory
+  doi: 10.1371/journal.pone.0242142
+  links: {paper: 'https://doi.org/10.1371/journal.pone.0242142'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: wuthrich2020dysbalanced
+  title: Dysbalanced Resting-State Functional Connectivity Within the Praxis Network Is Linked to Gesture Deficits in Schizophrenia
+  authors: [Florian Wüthrich, Petra Verena Viher, Katharina Stegmayer, Andrea Federspiel, Stephan Bohlhalter, Tim Vanbellingen, Roland Wiest, Sebastian Walther]
+  year: 2020
+  venue: Schizophrenia Bulletin
+  type: journal
+  category: theory
+  doi: 10.1093/schbul/sbaa008
+  links: {paper: 'https://doi.org/10.1093/schbul/sbaa008'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: xi2020hand
+  title: Hand Gestures Facilitate the Acquisition of Novel Phonemic Contrasts When They Appropriately Mimic Target Phonetic Features
+  authors: [Xiaotong Xi, Peng Li, Florence Baills, Pilar Prieto]
+  year: 2020
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/2020_jslhr-20-00084
+  links: {paper: 'https://doi.org/10.1044/2020_jslhr-20-00084'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
 
 - id: yang2020statistics
   title: Statistics-based Motion Synthesis for Social Conversations
@@ -536,3 +1914,31 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: zhang2020word
+  title: Word predictability, prosody, gesture and mouth movements in face-to-face language comprehension
+  authors: [Ye Zhang, Diego Frassinelli, Jyrki Tuomainen, Jeremy I Skipper, Gabriella Vigliocco]
+  year: 2020
+  venue: bioRxiv (Cold Spring Harbor Laboratory)
+  type: preprint
+  category: theory
+  doi: 10.1101/2020.01.08.896712
+  links: {paper: 'https://doi.org/10.1101/2020.01.08.896712'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: zhu2020commentary
+  title: Commentary for “Sex Steroids as Modulators of Gestural Communication”
+  authors: [Yong Zhu]
+  year: 2020
+  venue: Endocrinology
+  type: journal
+  category: theory
+  doi: 10.1210/endocr/bqaa153
+  links: {paper: 'https://doi.org/10.1210/endocr/bqaa153'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other

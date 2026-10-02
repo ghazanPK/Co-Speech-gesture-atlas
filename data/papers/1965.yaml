@@ -1,0 +1,17 @@
+# Papers published in 1965. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: knowlson1965idea
+  title: The Idea of Gesture as a Universal Language in the XVIIth and XVIIIth Centuries
+  authors: [James R. Knowlson]
+  year: 1965
+  venue: Journal of the History of Ideas
+  type: journal
+  category: theory
+  doi: 10.2307/2708496
+  links: {paper: 'https://doi.org/10.2307/2708496'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: other

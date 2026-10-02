@@ -1,0 +1,448 @@
+# Papers published in 2004. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: alac2004saying
+  title: 'I See What You Are Saying: Action as Cognition in fMRI Brain Mapping Practice'
+  authors: [Morana Alač, Edwin L. Hutchins]
+  year: 2004
+  venue: Journal of Cognition and Culture
+  type: journal
+  category: theory
+  doi: 10.1163/1568537042484977
+  links: {paper: 'https://doi.org/10.1163/1568537042484977'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: brady2004prelinguistic
+  title: Prelinguistic Predictors of Language Growth in Children With Developmental Disabilities
+  authors: [Nancy C. Brady, Janet G. Marquis, Kandace Fleming, Lee McLean]
+  year: 2004
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/1092-4388(2004/051)
+  links: {paper: 'https://doi.org/10.1044/1092-4388(2004/051)'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: brookes2004repertoire
+  title: A Repertoire of South African Quotable Gestures
+  authors: [Heather Brookes]
+  year: 2004
+  venue: Journal of Linguistic Anthropology
+  type: journal
+  category: theory
+  doi: 10.1525/jlin.2004.14.2.186
+  links: {paper: 'https://doi.org/10.1525/jlin.2004.14.2.186'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: brown2004speech
+  title: 'What co-speech gestures reveal about L2 proficiency: A study of Japanese Learners of English'
+  authors: [A. Brown, S. Allen, A. Özyürek, S. Kita, T. Ishizuka, R. Furman]
+  year: 2004
+  venue: MPG.PuRe (Max Planck Society)
+  type: journal
+  category: theory
+  links: {paper: 'https://hdl.handle.net/21.11116/0000-0013-2AEA-5'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: camaioni2004declarative
+  title: The Role of Declarative Pointing in Developing a Theory of Mind
+  authors: [Luigia Camaioni, Paola Perucchini, Francesca Bellagamba, Cristina Colonnesi]
+  year: 2004
+  venue: Infancy
+  type: journal
+  category: theory
+  doi: 10.1207/s15327078in0503_3
+  links: {paper: 'https://doi.org/10.1207/s15327078in0503_3'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: capone2004gesture
+  title: Gesture Development
+  authors: [Nina C. Capone, Karla Kay McGregor]
+  year: 2004
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/1092-4388(2004/015)
+  links: {paper: 'https://doi.org/10.1044/1092-4388(2004/015)'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: chui2004temporal
+  title: Temporal patterning of speech and iconic gestures in conversational discourse
+  authors: [Kawai Chui]
+  year: 2004
+  venue: Journal of Pragmatics
+  type: journal
+  category: theory
+  doi: 10.1016/j.pragma.2004.10.016
+  links: {paper: 'https://doi.org/10.1016/j.pragma.2004.10.016'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: church2004gesture
+  title: 'The Role of Gesture in Bilingual Education: Does Gesture Enhance Learning?'
+  authors: [Ruth Breckinridge Church, Saba Ayman‐Nolley, Shahrzad Mahootian]
+  year: 2004
+  venue: International Journal of Bilingual Education and Bilingualism
+  type: journal
+  category: theory
+  doi: 10.1080/13670050408667815
+  links: {paper: 'https://doi.org/10.1080/13670050408667815'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: cienki2004bushs
+  title: Bush’s and Gore’s language and gestures in the 2000 US presidential debates
+  authors: [Alan J. Cienki]
+  year: 2004
+  venue: Journal of Language and Politics
+  type: journal
+  category: theory
+  doi: 10.1075/jlp.3.3.04cie
+  links: {paper: 'https://doi.org/10.1075/jlp.3.3.04cie'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: enfield2004linear
+  title: 'On linear segmentation and combinatorics in co-speech gesture: A symmetry-dominance construction in Lao fish trap descriptions'
+  authors: [N. J. Enfield]
+  year: 2004
+  venue: Semiotica
+  type: journal
+  category: theory
+  doi: 10.1515/semi.2004.038
+  links: {paper: 'https://doi.org/10.1515/semi.2004.038'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: goldinmeadow2004gestures
+  title: Gesture's Role in the Learning Process
+  authors: [Susan Goldin‐Meadow]
+  year: 2004
+  venue: Theory Into Practice
+  type: journal
+  category: theory
+  doi: 10.1207/s15430421tip4304_10
+  links: {paper: 'https://doi.org/10.1207/s15430421tip4304_10'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: goldman2004others
+  title: As Others See Us
+  authors: [Ellen Goldman]
+  year: 2004
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.4324/9780203490556
+  links: {paper: 'https://doi.org/10.4324/9780203490556'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: hadar2004semantic
+  title: The Semantic Specificity of Gesture
+  authors: [Uri Hadar, Lian Pinchas-Zamir]
+  year: 2004
+  venue: Journal of Language and Social Psychology
+  type: journal
+  category: theory
+  doi: 10.1177/0261927x04263825
+  links: {paper: 'https://doi.org/10.1177/0261927x04263825'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: holler2004interaction
+  title: The interaction of iconic gesture and speech
+  authors: [Judith Holler, Geoffrey W. Beattie]
+  year: 2004
+  venue: MPG.PuRe (Max Planck Society)
+  type: journal
+  category: theory
+  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0012-CF47-D'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: hostetter2004mind
+  title: 'On the Tip of the Mind: Gesture as a Key to Conceptualization'
+  authors: [Autumn B. Hostetter, Martha Wagner Alibali]
+  year: 2004
+  venue: eScholarship (California Digital Library)
+  type: journal
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/0bq3923m'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: iverson2004infant
+  title: 'Infant Vocal–Motor Coordination: Precursor to the Gesture–Speech System?'
+  authors: [Jana Marie Iverson, Mary K. Fagan]
+  year: 2004
+  venue: Child Development
+  type: journal
+  category: theory
+  doi: 10.1111/j.1467-8624.2004.00725.x
+  links: {paper: 'https://doi.org/10.1111/j.1467-8624.2004.00725.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: kelly2004gesture
+  title: Gesture and right hemisphere involvement in evaluating lecture material
+  authors: [Spencer D. Kelly, Leslie H. Goldsmith]
+  year: 2004
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.4.1.03kel
+  links: {paper: 'https://doi.org/10.1075/gest.4.1.03kel'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: kendon2004deployments
+  title: Deployments of gesture in the utterance
+  authors: [Adam Kendon]
+  year: 2004
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/cbo9780511807572.008
+  links: {paper: 'https://doi.org/10.1017/cbo9780511807572.008'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: kendon2004review
+  title: 'Review of Goldin-Meadow ((2003)): Hearing gesture: How our hands help us think'
+  authors: [Adam Kendon]
+  year: 2004
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.4.1.07ken
+  links: {paper: 'https://doi.org/10.1075/gest.4.1.07ken'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: lazaraton2004gesture
+  title: 'Gesture and Speech in the Vocabulary Explanations of One ESL Teacher: A Microanalytic Inquiry'
+  authors: [Anne Lazaraton]
+  year: 2004
+  venue: Language Learning
+  type: journal
+  category: theory
+  doi: 10.1111/j.1467-9922.2004.00249.x
+  links: {paper: 'https://doi.org/10.1111/j.1467-9922.2004.00249.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: martinec2004gestures
+  title: 'Gestures that co‐occur with speech as a systematic resource: the realization of experiential meanings in indexes'
+  authors: [Radan Martinec]
+  year: 2004
+  venue: Social Semiotics
+  type: journal
+  category: theory
+  doi: 10.1080/1035033042000238259
+  links: {paper: 'https://doi.org/10.1080/1035033042000238259'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: mccafferty2004space
+  title: 'Space for cognition: gesture and second language learning'
+  authors: [Steven G. McCafferty]
+  year: 2004
+  venue: International Journal of Applied Linguistics
+  type: journal
+  category: theory
+  doi: 10.1111/j.1473-4192.2004.0057m.x
+  links: {paper: 'https://doi.org/10.1111/j.1473-4192.2004.0057m.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: mceachern2004gesture
+  title: Gesture-Speech Combinations as a Transition to Multiword Utterances
+  authors: [D. L. McEachern, William O. Haynes]
+  year: 2004
+  venue: American Journal of Speech-Language Pathology
+  type: journal
+  category: theory
+  doi: 10.1044/1058-0360(2004/024)
+  links: {paper: 'https://doi.org/10.1044/1058-0360(2004/024)'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: miller2004bimanual
+  title: 'Bimanual gestures: Expressions of spatial representations that accompany speech processes'
+  authors: [Kim Miller, Elizabeth A. Franz]
+  year: 2004
+  venue: Laterality Asymmetries of Body Brain and Cognition
+  type: journal
+  category: theory
+  doi: 10.1080/13576500442000067
+  links: {paper: 'https://doi.org/10.1080/13576500442000067'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: morsella2004gestures
+  title: The Role of Gestures in Spatial Working Memory and Speech
+  authors: [Ezequiel Morsella, Robert M. Krauss]
+  year: 2004
+  venue: The American Journal of Psychology
+  type: journal
+  category: theory
+  doi: 10.2307/4149008
+  links: {paper: 'https://doi.org/10.2307/4149008'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: munhall2004visual
+  title: Visual Prosody and Speech Intelligibility
+  authors: [Kevin G. Munhall, Jeffery A. Jones, Daniel E. Callan, Takaaki Kuratate, Eric Vatikiotis‐Bateson]
+  year: 2004
+  venue: Psychological Science
+  type: journal
+  category: theory
+  doi: 10.1111/j.0963-7214.2004.01502010.x
+  links: {paper: 'https://doi.org/10.1111/j.0963-7214.2004.01502010.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: negueruelaazarola2004private
+  title: 'The “private function” of gesture in second language speaking activity: a study of motion verbs and gesturing in English and Spanish'
+  authors: [Eduardo Negueruela‐Azarola, James P. Lantolf, Stefanie Rehn Jordan, Jaime J Gelabert]
+  year: 2004
+  venue: International Journal of Applied Linguistics
+  type: journal
+  category: theory
+  doi: 10.1111/j.1473-4192.2004.00056.x
+  links: {paper: 'https://doi.org/10.1111/j.1473-4192.2004.00056.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: pine2004gestures
+  title: 'More gestures than answers: Children learning about balance.'
+  authors: [Karen J. Pine, Nicola Lufkin, David J. Messer]
+  year: 2004
+  venue: Developmental Psychology
+  type: journal
+  category: theory
+  doi: 10.1037/0012-1649.40.6.1059
+  links: {paper: 'https://doi.org/10.1037/0012-1649.40.6.1059'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: quek2004catchment
+  title: 'The Catchment Feature Model: A Device for Multimodal Fusion and a Bridge between Signal and Sense'
+  authors: [Francis K. H. Quek]
+  year: 2004
+  venue: EURASIP Journal on Advances in Signal Processing
+  type: journal
+  category: theory
+  doi: 10.1155/s1110865704405101
+  links: {paper: 'https://doi.org/10.1155/s1110865704405101'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: quek2004oscillatory
+  title: Oscillatory gestures and discourse
+  authors: [Francis K. H. Quek, Yingen Xiong]
+  year: 2004
+  venue: 2003 IEEE International Conference on Acoustics, Speech, and Signal Processing, 2003. Proceedings. (ICASSP '03).
+  type: conference
+  category: theory
+  doi: 10.1109/icassp.2003.1200090
+  links: {paper: 'https://doi.org/10.1109/icassp.2003.1200090'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: renwick2004timing
+  title: The timing of speech-accompanying gestures with respect to prosody
+  authors: [Margaret E. L. Renwick, Stefanie Shattuck‐Hufnagel, Yelena Yasinnik]
+  year: 2004
+  venue: The Journal of the Acoustical Society of America
+  type: journal
+  category: theory
+  doi: 10.1121/1.4780717
+  links: {paper: 'https://doi.org/10.1121/1.4780717'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: sluis2004influence
+  title: The influence of target size and distance on the production of speech and gesture in multimodal referring expressions
+  authors: [Ielka van der Sluis, Emiel Krahmer]
+  year: 2004
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.21437/interspeech.2004-358
+  links: {paper: 'https://doi.org/10.21437/interspeech.2004-358'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics

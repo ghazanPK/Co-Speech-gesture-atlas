@@ -1,0 +1,1408 @@
+# Papers published in 2010. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: alahverdzhieva2010analysing
+  title: Analysing speech and co-speech gesture in constraint-based grammars
+  authors: [Katya Alahverdzhieva, Alex Lascarides]
+  year: 2010
+  venue: Proceedings of the International Conference on Head-Driven Phrase Structure Grammar
+  type: conference
+  category: theory
+  doi: 10.21248/hpsg.2010.1
+  links: {paper: 'https://doi.org/10.21248/hpsg.2010.1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: alahverdzhieva2010grammar
+  title: A Grammar for Language and Co-Verbal Gesture
+  authors: [Katya Alahverdzhieva, Alex Lascarides]
+  year: 2010
+  venue: Edinburgh Research Explorer (University of Edinburgh)
+  type: journal
+  category: theory
+  links: {paper: 'https://www.research.ed.ac.uk/en/publications/6e920e98-f744-45b3-a2ea-7ad59912de9d'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: alamillo2010reference
+  title: 'Reference-Tracking in Gesture and Speech : A Developmental Study on French Narratives.'
+  authors: [Asela Reig Alamillo, Ramuna N. Kunene, Jean-Marc Colletta]
+  year: 2010
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1400/152610
+  links: {paper: 'https://doi.org/10.1400/152610'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
+
+- id: alibali2010gesture
+  title: Gesture highlights perceptually present information for speakers
+  authors: [Martha Wagner Alibali, Sotaro Kita]
+  year: 2010
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.10.1.02ali
+  links: {paper: 'https://doi.org/10.1075/gest.10.1.02ali'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: alibali2010mimicry
+  title: Mimicry and simulation in gesture comprehension
+  authors: [Martha Wagner Alibali, Autumn B. Hostetter]
+  year: 2010
+  venue: Behavioral and Brain Sciences
+  type: journal
+  category: theory
+  doi: 10.1017/s0140525x10001445
+  links: {paper: 'https://doi.org/10.1017/s0140525x10001445'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: andren2010childrens
+  title: Children's Gestures from 18 to 30 Months
+  authors: [Mats Andrén]
+  year: 2010
+  venue: Lund University Publications (Lund University)
+  type: thesis
+  category: theory
+  links: {paper: 'https://lup.lub.lu.se/record/1700528'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: bach2010gesturing
+  title: 'Gesturing Meaning: Non-action Words Activate the Motor System'
+  authors: [Patric Bach, Debra Griffiths, Matthias Weigelt, Steven P. Tipper]
+  year: 2010
+  venue: Frontiers in Human Neuroscience
+  type: journal
+  category: theory
+  doi: 10.3389/fnhum.2010.00214
+  links: {paper: 'https://doi.org/10.3389/fnhum.2010.00214'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: beattie2010fixation
+  title: The Fixation and Processing of the Iconic Gestures That Accompany Talk
+  authors: [Geoffrey W. Beattie, Kate Webster, Jamie Ross]
+  year: 2010
+  venue: Journal of Language and Social Psychology
+  type: journal
+  category: theory
+  doi: 10.1177/0261927x09359589
+  links: {paper: 'https://doi.org/10.1177/0261927x09359589'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: beilock2010gesture
+  title: Gesture Changes Thought by Grounding It in Action
+  authors: [Sian Leah Beilock, Susan Goldin‐Meadow]
+  year: 2010
+  venue: Psychological Science
+  type: journal
+  category: theory
+  doi: 10.1177/0956797610385353
+  links: {paper: 'https://doi.org/10.1177/0956797610385353'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: bergmann2010bayesian
+  title: Modeling the Production of Coverbal Iconic Gestures by Learning Bayesian Decision Networks
+  authors: [Kirsten Bergmann, Stefan Kopp]
+  year: 2010
+  venue: Applied Artificial Intelligence
+  type: journal
+  category: method
+  doi: 10.1080/08839514.2010.492162
+  links: {paper: 'https://doi.org/10.1080/08839514.2010.492162'}
+  approach: [other]
+  summary: Learns Bayesian decision networks from a speech and gesture corpus to model how iconic gestures are formed for virtual agents, compared across structure learning algorithms.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: bergmann2010individualized
+  title: Individualized Gesturing Outperforms Average Gesturing – Evaluating Gesture Production in Virtual Humans
+  authors: [Kirsten Bergmann, Stefan Kopp, Friederike Eyssel]
+  year: 2010
+  venue: IVA
+  type: conference
+  category: evaluation
+  doi: 10.1007/978-3-642-15892-6_11
+  links: {paper: 'https://doi.org/10.1007/978-3-642-15892-6_11'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: bohlhalter2010interference
+  title: Interference with gesture production by theta burst stimulation over left inferior frontal cortex
+  authors: [Stephan Bohlhalter, Tim Vanbellingen, Manuel Bertschi, Pascal Wurtz, Dario Cazzoli, Thomas Nyffeler, Christian Walter Hess, René M. Müri]
+  year: 2010
+  venue: Clinical Neurophysiology
+  type: journal
+  category: theory
+  doi: 10.1016/j.clinph.2010.11.008
+  links: {paper: 'https://doi.org/10.1016/j.clinph.2010.11.008'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: bohus2010facilitating
+  title: Facilitating multiparty dialog with gaze, gesture, and speech
+  authors: [Dan Bohus, Eric Horvitz]
+  year: 2010
+  venue: ICMI
+  type: conference
+  category: system
+  doi: 10.1145/1891903.1891910
+  links: {paper: 'https://doi.org/10.1145/1891903.1891910'}
+  setting: [multi-party]
+  summary: An embodied conversational agent renders synchronized gaze, gesture and speech, built on a turn-taking framework, to shape the flow of multiparty conversations.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: boo2010efficacy
+  title: The efficacy of repetition, semantic, and gesture treatments for verb retrieval and use in Broca's aphasia
+  authors: [Michelle Boo, Miranda L. Rose]
+  year: 2010
+  venue: Aphasiology
+  type: journal
+  category: theory
+  doi: 10.1080/02687031003743789
+  links: {paper: 'https://doi.org/10.1080/02687031003743789'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: botting2010gesture
+  title: Gesture production and comprehension in children with specific language impairment
+  authors: [Nicola Botting, Nicholas Greatorex Riches, Marguerite Gaynor, GARY S. MORGAN]
+  year: 2010
+  venue: British Journal of Developmental Psychology
+  type: journal
+  category: theory
+  doi: 10.1348/026151009x482642
+  links: {paper: 'https://doi.org/10.1348/026151009x482642'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: broaders2010truth
+  title: Truth Is at Hand
+  authors: [Sara C. Broaders, Susan Goldin‐Meadow]
+  year: 2010
+  venue: Psychological Science
+  type: journal
+  category: theory
+  doi: 10.1177/0956797610366082
+  links: {paper: 'https://doi.org/10.1177/0956797610366082'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: buschmeier2010adaptive
+  title: 'Adaptive expressiveness: virtual conversational agents that can align to their interaction partner'
+  authors: [Hendrik Buschmeier, Kirsten von Bergmann, Stefan Kopp]
+  year: 2010
+  venue: AAMAS
+  type: conference
+  category: method
+  doi: 10.5555/1838206.1838219
+  links: {paper: 'https://doi.org/10.5555/1838206.1838219', open: 'https://pub.uni-bielefeld.de/download/1901698/2315033'}
+  summary: An activation-based microplanner lets a virtual agent adapt its wording and syntax to its interaction partner, with empirically grounded gesture generation so that gestural expression follows the same priming.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: casasanto2010good
+  title: 'Good and Bad in the Hands of Politicians: Spontaneous Gestures during Positive and Negative Speech'
+  authors: [Daniel J. Casasanto, Kyle M. Jasmin]
+  year: 2010
+  venue: PLoS ONE
+  type: journal
+  category: theory
+  doi: 10.1371/journal.pone.0011805
+  links: {paper: 'https://doi.org/10.1371/journal.pone.0011805'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: casasanto2010monday
+  title: Monday is before Tuesday in speech, but left of Tuesday in gesture. - eScholarship
+  authors: [Daniel J. Casasanto, Kyle M. Jasmin]
+  year: 2010
+  venue: Proceedings of the Annual Meeting of the Cognitive Science Society
+  type: conference
+  category: theory
+  links: {paper: 'https://escholarship.org/content/qt23n387b6/qt23n387b6.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: cerekovic2010multimodal
+  title: Multimodal behavior realization for embodied conversational agents
+  authors: [Aleksandra Čereković, Igor Sunday Pandzic]
+  year: 2010
+  venue: MTAP
+  type: journal
+  category: system
+  doi: 10.1007/s11042-010-0530-2
+  links: {paper: 'https://doi.org/10.1007/s11042-010-0530-2'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: churchill2010symbiotic
+  title: Symbiotic Gesture and the Sociocognitive Visibility of Grammar in Second Language Acquisition
+  authors: [Eton Churchill, Hanako Okada, Takako Nishino, Dwight Atkinson]
+  year: 2010
+  venue: Modern Language Journal
+  type: journal
+  category: theory
+  doi: 10.1111/j.1540-4781.2010.01019.x
+  links: {paper: 'https://doi.org/10.1111/j.1540-4781.2010.01019.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: cleary2010investigating
+  title: Investigating co-speech gesture production in Parkinson’s Disease
+  authors: [R.A. Cleary, Ellen Poliakoff, Adam J. Galpin, 'Dick, JPR', Judith Holler]
+  year: 2010
+  venue: UCL Discovery (University College London)
+  type: journal
+  category: theory
+  links: {paper: 'http://discovery.ucl.ac.uk/1332036/'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: cochet2010pointing
+  title: Pointing gesture in young children
+  authors: [Hélène Cochet, Jacques Vauclair]
+  year: 2010
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.10.2-3.02coc
+  links: {paper: 'https://doi.org/10.1075/gest.10.2-3.02coc'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: cochet2010pointingb
+  title: 'Pointing gestures produced by toddlers from 15 to 30 months: Different functions, hand shapes and laterality patterns'
+  authors: [Hélène Cochet, Jacques Vauclair]
+  year: 2010
+  venue: Infant Behavior and Development
+  type: journal
+  category: theory
+  doi: 10.1016/j.infbeh.2010.04.009
+  links: {paper: 'https://doi.org/10.1016/j.infbeh.2010.04.009'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
+
+- id: cocks2010iconic
+  title: What can iconic gestures tell us about the language system? A case of conduction aphasia
+  authors: [Naomi Cocks, Lucy T. Dipper, Ruth Middleton, GARY S. MORGAN]
+  year: 2010
+  venue: International Journal of Language & Communication Disorders
+  type: journal
+  category: theory
+  doi: 10.3109/13682822.2010.520813
+  links: {paper: 'https://doi.org/10.3109/13682822.2010.520813'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: colletta2010related
+  title: 'Age-related changes in co-speech gesture and narrative: Evidence from French children and adults'
+  authors: [Jean-Marc Colletta, Catherine Pellenq, Michèle Guidetti]
+  year: 2010
+  venue: Speech Communication
+  type: journal
+  category: theory
+  doi: 10.1016/j.specom.2010.02.009
+  links: {paper: 'https://doi.org/10.1016/j.specom.2010.02.009'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: cook2010gesturing
+  title: Gesturing makes memories that last
+  authors: [Susan Wagner Cook, Terina KuangYi Yip, Susan Goldin‐Meadow]
+  year: 2010
+  venue: Journal of Memory and Language
+  type: journal
+  category: theory
+  doi: 10.1016/j.jml.2010.07.002
+  links: {paper: 'https://doi.org/10.1016/j.jml.2010.07.002'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: danziger2010deixis
+  title: Deixis, gesture, and cognition in spatial Frame of Reference typology
+  authors: [Eve Danziger]
+  year: 2010
+  venue: Studies in Language
+  type: journal
+  category: theory
+  doi: 10.1075/sl.34.1.16dan
+  links: {paper: 'https://doi.org/10.1075/sl.34.1.16dan'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: elms2010gesture
+  title: Gesture-to-Speech Mismatch in the Construction of Problem Solving Insight
+  authors: [J.T.E. Elms]
+  year: 2010
+  venue: Proceedings of the Annual Meeting of the Berkeley Linguistics Society
+  type: conference
+  category: theory
+  doi: 10.3765/bls.v36i1.3905
+  links: {paper: 'https://doi.org/10.3765/bls.v36i1.3905'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: endrass2010generating
+  title: Generating Culture-Specific Gestures for Virtual Agent Dialogs
+  authors: [Birgit Endraß, Ionuț Damian, Peter Huber, Matthias Rehm, Elisabeth André]
+  year: 2010
+  venue: IVA
+  type: conference
+  category: method
+  doi: 10.1007/978-3-642-15892-6_34
+  links: {paper: 'https://doi.org/10.1007/978-3-642-15892-6_34', open: 'https://vbn.aau.dk/ws/files/42310627/Endrass_et_al_2010_Generating_culture_specific_gesturs_for_virtual_agent_dialogs.pdf'}
+  input: [text]
+  output: [upper-body]
+  approach: [rule-based]
+  setting: [dyadic]
+  realtime: unreported
+  datasets: []
+  metrics: []
+  user_study: false
+  summary: Gestures for virtual agent dialogs are chosen per speech act from German and Japanese corpus statistics on gesture frequency, type and expressivity, then played from a culture-specific animation knowledge base.
+  notes: Gesture statistics come from the CUBE-G video corpus (German and Japanese small talk); integrated into the Virtual Beergarden demonstrator.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: enrici2010intention
+  title: 'Intention Processing in Communication: A Common Brain Network for Language and Gestures'
+  authors: [Ivan Enrici, Mauro Adenzato, Stefano Francesco Cappa, Bruno G. Bara, Marco Tettamanti]
+  year: 2010
+  venue: Journal of Cognitive Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1162/jocn.2010.21594
+  links: {paper: 'https://doi.org/10.1162/jocn.2010.21594'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: ferre2010timing
+  title: Timing Relationships between Speech and Co-Verbal Gestures in Spontaneous French
+  authors: [Gaëlle Ferré]
+  year: 2010
+  venue: HAL (Le Centre pour la Communication Scientifique Directe)
+  type: journal
+  category: theory
+  links: {paper: 'https://hal.science/hal-00485797'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: furman2010early
+  title: Early language-specificity in Turkish children's caused motion event expressions in speech and gesture
+  authors: [Reyhan Furman, Aslı Özyürek, Ayli̇n C. Küntay]
+  year: 2010
+  venue: Radboud Repository (Radboud University)
+  type: book
+  category: theory
+  links: {paper: 'http://hdl.handle.net/2066/86070'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: galati2010speech
+  title: The role of speech-gesture congruency and delay in remembering action events
+  authors: [Alexia Galati, Arthur G. Samuel]
+  year: 2010
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01690965.2010.494846
+  links: {paper: 'https://doi.org/10.1080/01690965.2010.494846'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: galvao2010importance
+  title: 'The importance of listening with one''s eyes: a case study of multimodality in simultaneous interpreting'
+  authors: [Elena Zagar Galvão, Isabel Maria Galhano Rodrigues]
+  year: 2010
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.1163/9789042031814_018
+  links: {paper: 'https://doi.org/10.1163/9789042031814_018'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: giorgolo2010space
+  title: Space and Time in Our Hands
+  authors: [Gianluca Giorgolo]
+  year: 2010
+  venue: Utrecht University Repository (Utrecht University)
+  type: thesis
+  category: theory
+  links: {paper: 'https://dspace.library.uu.nl/handle/1874/179364'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: goldinmeadow2010actions
+  title: 'Action’s Influence on Thought: The Case of Gesture'
+  authors: [Susan Goldin‐Meadow, Sian Leah Beilock]
+  year: 2010
+  venue: Perspectives on Psychological Science
+  type: journal
+  category: theory
+  doi: 10.1177/1745691610388764
+  links: {paper: 'https://doi.org/10.1177/1745691610388764'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: goldinmeadow2010gesture
+  title: When gesture does and does not promote learning
+  authors: [Susan Goldin‐Meadow]
+  year: 2010
+  venue: Language and Cognition
+  type: journal
+  category: theory
+  doi: 10.1515/langcog.2010.001
+  links: {paper: 'https://doi.org/10.1515/langcog.2010.001'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: grimminger2010childrens
+  title: Children’s lexical skills and task demands affect gestural behavior in mothers of late-talking children and children with typical language development
+  authors: [Angela Grimminger, Katharina J. Rohlfing, Prisca Stenneken]
+  year: 2010
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.10.2-3.07gri
+  links: {paper: 'https://doi.org/10.1075/gest.10.2-3.07gri'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: gullberg2010language
+  title: Language-specific encoding of placement events in gestures
+  authors: [Marianne Gullberg]
+  year: 2010
+  venue: Cambridge University Press eBooks
+  type: book
+  category: theory
+  doi: 10.1017/cbo9780511782039.008
+  links: {paper: 'https://doi.org/10.1017/cbo9780511782039.008'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: gullberg2010methodological
+  title: Methodological reflections on gesture analysis in second language acquisition and bilingualism research
+  authors: [Marianne Gullberg]
+  year: 2010
+  venue: Second language Research
+  type: journal
+  category: theory
+  doi: 10.1177/0267658309337639
+  links: {paper: 'https://doi.org/10.1177/0267658309337639'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: guo2010mean
+  title: What Does It Mean to Compare Language and Gesture? Modalities and Contrasts
+  authors: [Jiansheng Guo, Elena Lieven, Nancy Budwig, Susan Ervin-Tripp, Keiko Nakamura, Seyda Ozcaliskan]
+  year: 2010
+  venue: Psychology Press eBooks
+  type: book
+  category: theory
+  doi: 10.4324/9780203837887-41
+  links: {paper: 'https://doi.org/10.4324/9780203837887-41'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: habets2010synchrony
+  title: The Role of Synchrony and Ambiguity in Speech–Gesture Integration during Comprehension
+  authors: [Boukje Habets, Sotaro Kita, Zeshu Shao, Aslı Özyürek, Peter Hagoort]
+  year: 2010
+  venue: Journal of Cognitive Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1162/jocn.2010.21462
+  links: {paper: 'https://doi.org/10.1162/jocn.2010.21462'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: hahn2010explaining
+  title: Explaining Speech Gesture Alignment in MM Dialogue Using Gesture Typology
+  authors: [Florian F. W. Hahn, Hannes Rieser]
+  year: 2010
+  venue: PUB – Publications at Bielefeld University (Bielefeld University)
+  type: journal
+  category: theory
+  links: {paper: 'https://pub.uni-bielefeld.de/record/2486849'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: harrison2010evidence
+  title: Evidence for node and scope of negation in coverbal gesture
+  authors: [Simon Harrison]
+  year: 2010
+  venue: Gesture
+  type: journal
+  category: theory
+  doi: 10.1075/gest.10.1.03har
+  links: {paper: 'https://doi.org/10.1075/gest.10.1.03har'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: hasegawa2010embodiment
+  title: The Role of Embodiment and Perspective in Direction-Giving Systems
+  authors: [Dai Hasegawa, Justine Cassell, Kenji Araki]
+  year: 2010
+  venue: AAAI
+  type: conference
+  category: evaluation
+  links: {paper: 'http://arakilab.media.eng.hokudai.ac.jp/~araki/2010/2010-A-13.pdf'}
+  user_study: true
+  summary: Compares a robot, an embodied conversational agent and a GPS giving directions with speaker-perspective, listener-perspective or no gestures.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: heloir2010embr
+  title: 'REAL-TIME ANIMATION OF INTERACTIVE AGENTS: SPECIFICATION AND REALIZATION'
+  authors: [Alexis Héloir, Michael Kipp]
+  year: 2010
+  venue: Applied Artificial Intelligence
+  type: journal
+  category: system
+  doi: 10.1080/08839514.2010.492161
+  links: {paper: 'https://doi.org/10.1080/08839514.2010.492161', open: 'https://www.tandfonline.com/doi/pdf/10.1080/08839514.2010.492161?needAccess=true&role=button'}
+  summary: Presents EMBR, a real-time character animation engine for embodied agents controlled through the EMBRScript animation-layer language, including motion quality parameters.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: holler2010speakers
+  title: Speakers’ Use of Interactive Gestures as Markers of Common Ground
+  authors: [Judith Holler]
+  year: 2010
+  venue: Lecture notes in computer science
+  type: conference
+  category: theory
+  doi: 10.1007/978-3-642-12553-9_2
+  links: {paper: 'https://doi.org/10.1007/978-3-642-12553-9_2'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: social-interaction
+
+- id: holler2010speakersb
+  title: Speakers’ use of interactive gestures to mark common ground
+  authors: [Judith Holler]
+  year: 2010
+  venue: MPG.PuRe (Max Planck Society)
+  type: journal
+  category: theory
+  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0012-CF5F-A'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: ibanez2010gesture
+  title: 'Gesture influences the processing of figurative language in non-native speakers: ERP evidence'
+  authors: [Agustín M. Ibáñez, Facundo Francisco Manes, María Josefina Escobar, Natalia Trujillo, Paola Andreucci-Annunziata, Esteban Hurtado]
+  year: 2010
+  venue: Neuroscience Letters
+  type: journal
+  category: theory
+  doi: 10.1016/j.neulet.2010.01.009
+  links: {paper: 'https://doi.org/10.1016/j.neulet.2010.01.009'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: ibanez2010high
+  title: 'High contextual sensitivity of metaphorical expressions and gesture blending: A video event-related potential design'
+  authors: [Agustín M. Ibáñez, Pablo Toro, Carlos Cornejo, Hugo Hurquina, Facundo Francisco Manes, Matthias Weisbrod, Johannes Schröder]
+  year: 2010
+  venue: Psychiatry Research Neuroimaging
+  type: journal
+  category: theory
+  doi: 10.1016/j.pscychresns.2010.08.008
+  links: {paper: 'https://doi.org/10.1016/j.pscychresns.2010.08.008'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
+
+- id: ingersoll2010impact
+  title: The Impact of Object and Gesture Imitation Training on Language Use in Children With Autism Spectrum Disorder
+  authors: [Brooke R. Ingersoll, Katherine B. LaLonde]
+  year: 2010
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/1092-4388(2009/09-0043)
+  links: {paper: 'https://doi.org/10.1044/1092-4388(2009/09-0043)'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: iverson2010gesture
+  title: Gesture and Motor Skill in Relation to Language in Children With Language Impairment
+  authors: [Jana Marie Iverson, Barbara A. Braddock]
+  year: 2010
+  venue: Journal of Speech Language and Hearing Research
+  type: journal
+  category: theory
+  doi: 10.1044/1092-4388(2010/08-0197)
+  links: {paper: 'https://doi.org/10.1044/1092-4388(2010/08-0197)'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: kirk2010hear
+  title: 'I hear what you say but I see what you mean: The role of gestures in children''s pragmatic comprehension'
+  authors: [Elizabeth Kirk, Karen J. Pine, Nuala Ryder]
+  year: 2010
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01690961003752348
+  links: {paper: 'https://doi.org/10.1080/01690961003752348'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: kunene2010comparative
+  title: A comparative study of the development of multimodal narratives in french and zulu children and adults
+  authors: [Ramona Nkosinathi Kunene]
+  year: 2010
+  venue: OpenGrey (Institut de l'Information Scientifique et Technique)
+  type: thesis
+  category: theory
+  links: {paper: 'http://hdl.handle.net/10068/856387'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: lempert2010candidate
+  title: Candidate Brand Through Cospeech Gesture
+  authors: [Michael P. Lempert]
+  year: 2010
+  venue: PsycEXTRA Dataset
+  type: journal
+  category: theory
+  doi: 10.1037/e645582011-001
+  links: {paper: 'https://doi.org/10.1037/e645582011-001'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: perception
+
+- id: leonard2010temporal
+  title: The temporal relation between beat gestures and speech
+  authors: [Thomas Leonard, Fred Cummins]
+  year: 2010
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01690965.2010.500218
+  links: {paper: 'https://doi.org/10.1080/01690965.2010.500218'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: levine2010gesture
+  title: Gesture controllers
+  authors: [Sergey Levine, Philipp Krähenbühl, Sebastian Thrun, Vladlen Koltun]
+  year: 2010
+  venue: TOG
+  type: journal
+  category: method
+  doi: 10.1145/1778765.1778861
+  links: {paper: 'https://doi.org/10.1145/1778765.1778861'}
+  input: [audio]
+  approach: [retrieval]
+  realtime: unreported
+  summary: Animates avatar body language in live conversation by inferring hidden states from acoustic speech features with a conditional random field and selecting motion clips with a reinforcement-learned policy.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: liszkowski2010deictic
+  title: Deictic and other gestures in infancy
+  authors: [Ulf Liszkowski]
+  year: 2010
+  venue: Acción Psicológica
+  type: journal
+  category: theory
+  doi: 10.5944/ap.7.2.212
+  links: {paper: 'https://doi.org/10.5944/ap.7.2.212'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: louwerse2010ambiguous
+  title: Effects of Ambiguous Gestures and Language on the Time Course of Reference Resolution
+  authors: [Max M. Louwerse, Adrian Bangerter]
+  year: 2010
+  venue: Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1111/j.1551-6709.2010.01135.x
+  links: {paper: 'https://doi.org/10.1111/j.1551-6709.2010.01135.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: lucking2010saga
+  title: The Bielefeld Speech and Gesture Alignment Corpus (SaGA)
+  authors: [Andy Lücking, Kirsten Bergmann, Florian F. W. Hahn, Stefan Kopp, Hannes Rieser]
+  year: 2010
+  venue: LREC Workshop on Multimodal Corpora
+  type: workshop
+  category: dataset
+  doi: 10.13140/2.1.4216.1922
+  links: {paper: 'https://doi.org/10.13140/2.1.4216.1922', open: 'https://pub.uni-bielefeld.de/record/2001935'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: macedonia2010impact
+  title: The impact of iconic gestures on foreign language word learning and its neural substrate
+  authors: [Manuela Macedonia, Karsten Müller, Angela Dorkas Friederici]
+  year: 2010
+  venue: Human Brain Mapping
+  type: journal
+  category: theory
+  doi: 10.1002/hbm.21084
+  links: {paper: 'https://doi.org/10.1002/hbm.21084'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: macedonia2010neural
+  title: Neural Correlates of High Performance in Foreign Language Vocabulary Learning
+  authors: [Manuela Macedonia, Karsten Müller, Angela Dorkas Friederici]
+  year: 2010
+  venue: Mind Brain and Education
+  type: journal
+  category: theory
+  doi: 10.1111/j.1751-228x.2010.01091.x
+  links: {paper: 'https://doi.org/10.1111/j.1751-228x.2010.01091.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: marchena2010conversational
+  title: 'Conversational gestures in autism spectrum disorders: Asynchrony but not decreased frequency'
+  authors: [Ashley B. de Marchena, Inge‐Marie Eigsti]
+  year: 2010
+  venue: Autism Research
+  type: journal
+  category: theory
+  doi: 10.1002/aur.159
+  links: {paper: 'https://doi.org/10.1002/aur.159'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: marghetis2010dynamic
+  title: 'Dynamic construals, static formalisms: Evidence from co-speech gesture during mathematical proving'
+  authors: [Tyler Marghetis, Rafael E. Núñez]
+  year: 2010
+  venue: Unknown venue
+  type: journal
+  category: theory
+  links: {paper: 'https://www.cogsci.ucsd.edu/~nunez/web/CRL-22-1.pdf'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: cognition
+
+- id: matoesian2010multimodality
+  title: Multimodality and forensic linguistics* Multimodal aspects of victim’s narrative in direct examination
+  authors: [Gregory M. Matoesian]
+  year: 2010
+  venue: Unknown venue
+  type: book
+  category: theory
+  doi: 10.4324/9780203855607-53
+  links: {paper: 'https://doi.org/10.4324/9780203855607-53'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: mittelberg2010geometric
+  title: 14 Geometric and image-schematic patterns in gesture space
+  authors: [Irene Mittelberg]
+  year: 2010
+  venue: University of Toronto Press eBooks
+  type: book
+  category: theory
+  doi: 10.3138/9781845535032-016
+  links: {paper: 'https://doi.org/10.3138/9781845535032-016'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: neff2010evaluating
+  title: Evaluating the Effect of Gesture and Language on Personality Perception in Conversational Agents
+  authors: [Michael Neff, Yingying Wang, Rob Abbott, Marilyn A. Walker]
+  year: 2010
+  venue: IVA
+  type: conference
+  category: evaluation
+  doi: 10.1007/978-3-642-15892-6_24
+  links: {paper: 'https://doi.org/10.1007/978-3-642-15892-6_24'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: nelissen2010gesture
+  title: 'Gesture Discrimination in Primary Progressive Aphasia: The Intersection between Gesture and Language Processing Pathways'
+  authors: [Natalie Nelissen, Mariella Pazzaglia, Mathieu Vandenbulcke, Stefan G. Sunaert, Katrien Fannes, Patrick J. Dupont, Salvatore Maria Aglioti, Rik R. Vandenberghe]
+  year: 2010
+  venue: Journal of Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1523/jneurosci.0321-10.2010
+  links: {paper: 'https://doi.org/10.1523/jneurosci.0321-10.2010'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: ngthowhing2010synchronized
+  title: Synchronized gesture and speech production for humanoid robots
+  authors: [Victor Ng‐Thow‐Hing, Pengcheng Luo, Sandra Y. Okita]
+  year: 2010
+  venue: IROS
+  type: conference
+  category: method
+  doi: 10.1109/iros.2010.5654322
+  links: {paper: 'https://doi.org/10.1109/iros.2010.5654322'}
+  input: [text]
+  approach: [rule-based]
+  realtime: unreported
+  user_study: true
+  summary: Generates gestures for a humanoid robot from text using part-of-speech tags and TTS timing, per-gesture-type grammars, probabilistic selection and gesture templates modulated by speech timing.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: obermeier2010iconic
+  title: 'What Iconic Gesture Fragments Reveal about Gesture–Speech Integration: When Synchrony Is Lost, Memory Can Help'
+  authors: [Christian Obermeier, Henning Holle, Thomas C. Gunter]
+  year: 2010
+  venue: Journal of Cognitive Neuroscience
+  type: journal
+  category: theory
+  doi: 10.1162/jocn.2010.21498
+  links: {paper: 'https://doi.org/10.1162/jocn.2010.21498'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: ozyurek2010iconic
+  title: 'The Role of Iconic Gestures in Production and Comprehension of Language: Evidence from Brain and Behavior'
+  authors: [Aslı Özyürek]
+  year: 2010
+  venue: Lecture notes in computer science
+  type: conference
+  category: theory
+  doi: 10.1007/978-3-642-12553-9_1
+  links: {paper: 'https://doi.org/10.1007/978-3-642-12553-9_1'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: parkdoob2010gesturing
+  title: 'Gesturing Through Time: Holds and Intermodal Timing in the Stream of Speech'
+  authors: [Mischa Park-Doob]
+  year: 2010
+  venue: ProQuest Demo Repository
+  type: thesis
+  category: theory
+  links: {paper: 'http://pqdtopen.proquest.com/#viewpdf?dispub=3449059'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: parrill2010input
+  title: Effects of input modality on speech–gesture integration
+  authors: [Fey Parrill, Jennifer A. Bullen, Huston Hoburg]
+  year: 2010
+  venue: Journal of Pragmatics
+  type: journal
+  category: theory
+  doi: 10.1016/j.pragma.2010.04.023
+  links: {paper: 'https://doi.org/10.1016/j.pragma.2010.04.023'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: parrill2010viewpoint
+  title: 'Viewpoint in speech–gesture integration: Linguistic structure, discourse structure, and event structure'
+  authors: [Fey Parrill]
+  year: 2010
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01690960903424248
+  links: {paper: 'https://doi.org/10.1080/01690960903424248'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: peltier2010gesture
+  title: Gesture and Identity in the Teaching and Learning of Italian
+  authors: [Ilaria Nardotto Peltier, Steven G. McCafferty]
+  year: 2010
+  venue: Mind Culture and Activity
+  type: journal
+  category: theory
+  doi: 10.1080/10749030903362699
+  links: {paper: 'https://doi.org/10.1080/10749030903362699'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
+- id: pine2010semantic
+  title: 'The Semantic Specificity Hypothesis: When Gestures Do Not Depend Upon the Presence of a Listener'
+  authors: [Karen J. Pine, Daniel J. Gurney, Ben C. Fletcher]
+  year: 2010
+  venue: Journal of Nonverbal Behavior
+  type: journal
+  category: theory
+  doi: 10.1007/s10919-010-0089-7
+  links: {paper: 'https://doi.org/10.1007/s10919-010-0089-7'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: ping2010gesturing
+  title: Gesturing Saves Cognitive Resources When Talking About Nonpresent Objects
+  authors: [Raedy M. Ping, Susan Goldin‐Meadow]
+  year: 2010
+  venue: Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1111/j.1551-6709.2010.01102.x
+  links: {paper: 'https://doi.org/10.1111/j.1551-6709.2010.01102.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
+- id: rousseaux2010communication
+  title: An analysis of communication in conversation after severe traumatic brain injury
+  authors: [M Rousseaux, C. Vérigneaux, O. Kozlowski]
+  year: 2010
+  venue: European Journal of Neurology
+  type: journal
+  category: theory
+  doi: 10.1111/j.1468-1331.2009.02945.x
+  links: {paper: 'https://doi.org/10.1111/j.1468-1331.2009.02945.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: roustan2010gesture
+  title: 'Gesture and speech coordination: the influence of the relationship between manual gesture and speech'
+  authors: [Benjamin Roustan, Marion Dohen]
+  year: 2010
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.21437/interspeech.2010-207
+  links: {paper: 'https://doi.org/10.21437/interspeech.2010-207'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: roustan2010production
+  title: 'Co-production of contrastive prosodic focus and manual gestures: temporal coordination and effects on the acoustic and articulatory correlates of focus'
+  authors: [Benjamin Roustan, Marion Dohen]
+  year: 2010
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.21437/speechprosody.2010-246
+  links: {paper: 'https://doi.org/10.21437/speechprosody.2010-246'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: rusiewicz2010prosodic
+  title: THE ROLE OF PROSODIC STRESS AND SPEECH PERTURBATION ON THE TEMPORAL SYNCHRONIZATION OF SPEECH AND DEICTIC GESTURES
+  authors: [Heather Leavy Rusiewicz]
+  year: 2010
+  venue: D-Scholarship@Pitt (University of Pittsburgh)
+  type: journal
+  category: theory
+  links: {paper: 'https://d-scholarship.pitt.edu/7380/1/Rusiewicz_2010_Pitt_ETD.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: salem2010generating
+  title: Generating robot gesture using a virtual agent framework
+  authors: [M Salem, Stefan Kopp, Ipke Wachsmuth, Frank Joublin]
+  year: 2010
+  venue: IROS
+  type: conference
+  category: system
+  doi: 10.1109/iros.2010.5650572
+  links: {paper: 'https://doi.org/10.1109/iros.2010.5650572'}
+  summary: The Articulated Communicator Engine for virtual agents is coupled with the perceptuo-motor system of the humanoid robot ASIMO so it can produce communicative arm gestures at run-time.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: salem2010generatingb
+  title: Generating multi-modal robot behavior based on a virtual agent framework
+  authors: [Maha Salem, Stefan Kopp, Ipke Wachsmuth, Frank Joublin]
+  year: 2010
+  venue: ICAIR
+  type: conference
+  category: system
+  links: {paper: 'https://pub.uni-bielefeld.de/record/1991216'}
+  input: [text]
+  approach: [rule-based]
+  summary: Enables a Honda humanoid robot to produce synthetic speech and expressive gesture at runtime from conceptual representations, building on speech-gesture production models for virtual humans.
+  notes: Venue taken from the PDF file name (ICAIR2010 position paper); not confirmed from text.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: salem2010integrated
+  title: Towards an integrated model of speech and gesture production for multi-modal robot behavior
+  authors: [Maha Salem, Stefan Kopp, Ipke Wachsmuth, Frank Joublin]
+  year: 2010
+  venue: RO-MAN
+  type: conference
+  category: method
+  doi: 10.1109/roman.2010.5598665
+  links: {paper: 'https://doi.org/10.1109/roman.2010.5598665'}
+  realtime: unreported
+  summary: Couples the Articulated Communicator Engine with the ASIMO robot's motor system to produce speech and co-verbal arm gestures at run-time without a fixed gesture repertoire.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: sassenberg2010really
+  title: Do We Really Gesture More When It Is More Difficult?
+  authors: [Uta Sassenberg, Elke van der Meer]
+  year: 2010
+  venue: Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1111/j.1551-6709.2010.01101.x
+  links: {paper: 'https://doi.org/10.1111/j.1551-6709.2010.01101.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: sauer2010early
+  title: Early Gesture Predicts Language Delay in Children With Pre- or Perinatal Brain Lesions
+  authors: [Eve A. Sauer, Susan Cohen Levine, Susan Goldin‐Meadow]
+  year: 2010
+  venue: Child Development
+  type: journal
+  category: theory
+  doi: 10.1111/j.1467-8624.2009.01413.x
+  links: {paper: 'https://doi.org/10.1111/j.1467-8624.2009.01413.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: shattuckhufnagel2010torso
+  title: Are torso movements during speech timed with intonational phrases?
+  authors: [Stefanie Shattuck‐Hufnagel, Pei Lin Ren, Elizabeth Tauscher]
+  year: 2010
+  venue: Proceedings of the International Conference on Speech Prosody
+  type: conference
+  category: theory
+  doi: 10.21437/speechprosody.2010-133
+  links: {paper: 'https://doi.org/10.21437/speechprosody.2010-133'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: shi2010easy
+  title: Easy development of communicative behaviors in social robots
+  authors: [Chao Jian Shi, Takayuki Kanda, Michihiro Shimada, Fumitaka Yamaoka, Hiroshi Ishiguro, Norihiro Hagita]
+  year: 2010
+  venue: IROS
+  type: conference
+  category: system
+  doi: 10.1109/iros.2010.5650128
+  links: {paper: 'https://doi.org/10.1109/iros.2010.5650128'}
+  input: [text]
+  approach: [rule-based]
+  summary: A development framework in which tag-marked sentences are expanded by a backend into robot utterances plus implicit gaze, gesture and standing-point behaviours.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: silverman2010speech
+  title: Speech-and-gesture integration in high functioning autism
+  authors: [Laura B. Silverman, Loisa Bennetto, Ellen Campana, Michael K. Tanenhaus]
+  year: 2010
+  venue: Cognition
+  type: journal
+  category: theory
+  doi: 10.1016/j.cognition.2010.01.002
+  links: {paper: 'https://doi.org/10.1016/j.cognition.2010.01.002'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
+- id: so2010cross
+  title: Cross-cultural transfer in gesture frequency in Chinese–English bilinguals
+  authors: [Wing‐Chee So]
+  year: 2010
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  doi: 10.1080/01690961003694268
+  links: {paper: 'https://doi.org/10.1080/01690961003694268'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: straube2010differentiatio
+  title: 'The differentiation of iconic and metaphoric gestures: Common and unique integration processes'
+  authors: [Benjamin Straube, Antonia Green, Bianca Bromberger, Tilo T. J. Kircher]
+  year: 2010
+  venue: Human Brain Mapping
+  type: journal
+  category: theory
+  doi: 10.1002/hbm.21041
+  links: {paper: 'https://doi.org/10.1002/hbm.21041'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: tenchini2010reporting
+  title: 'Reporting Gesture and Voice in Reporting Speech: Co-verbal Language in Literature'
+  authors: [Maria Paola Tenchini]
+  year: 2010
+  venue: HAL (Le Centre pour la Communication Scientifique Directe)
+  type: journal
+  category: theory
+  links: {paper: 'https://hal.science/halshs-03658342v1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: tomasello2010comparison
+  title: A Comparison of the Gestural Communication of Apes and Human Infants
+  authors: [Michael Tomasello, Luigia Camaioni]
+  year: 2010
+  venue: Human Development
+  type: journal
+  category: theory
+  doi: 10.1159/000278540
+  links: {paper: 'https://doi.org/10.1159/000278540'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: vendrame2010mean
+  title: '“I see what you mean”: Oral deaf individuals benefit from speaker''s gesturing'
+  authors: [Mara Vendrame, Ilaria Cutica, Monica Bucciarelli]
+  year: 2010
+  venue: The European Journal of Cognitive Psychology
+  type: journal
+  category: theory
+  doi: 10.1080/09541440903126030
+  links: {paper: 'https://doi.org/10.1080/09541440903126030'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: whishaw2010functional
+  title: The functional origins of speech-related hand gestures
+  authors: [Ian Q. Whishaw, Lori‐Ann R. Sacrey, Scott G. Travis, Gita Gholamrezaei, Jenni M. Karl]
+  year: 2010
+  venue: Behavioural Brain Research
+  type: journal
+  category: theory
+  doi: 10.1016/j.bbr.2010.05.026
+  links: {paper: 'https://doi.org/10.1016/j.bbr.2010.05.026'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: wilkinson2010formulating
+  title: 'Formulating Actions and Events With Limited Linguistic Resources: Enactment and Iconicity in Agrammatic Aphasic Talk'
+  authors: [Ray Wilkinson, Suzanne Beeke, Jane Maxim]
+  year: 2010
+  venue: Research on Language and Social Interaction
+  type: journal
+  category: theory
+  doi: 10.1080/08351810903471506
+  links: {paper: 'https://doi.org/10.1080/08351810903471506'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: wong2010where
+  title: Where are you pointing?
+  authors: [Nelson L. Wong, Carl A. Gutwin]
+  year: 2010
+  venue: Unknown venue
+  type: journal
+  category: theory
+  doi: 10.1145/1753326.1753480
+  links: {paper: 'https://doi.org/10.1145/1753326.1753480'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
+- id: wu2010gestures
+  title: Gestures modulate speech processing early in utterances
+  authors: [Ying Choon Wu, Seana Coulson]
+  year: 2010
+  venue: Neuroreport
+  type: journal
+  category: theory
+  doi: 10.1097/wnr.0b013e32833904bb
+  links: {paper: 'https://doi.org/10.1097/wnr.0b013e32833904bb'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: zammit2010maternal
+  title: Maternal label and gesture use affects acquisition of specific object names
+  authors: [Maria Zammit, Graham Schafer]
+  year: 2010
+  venue: Journal of Child Language
+  type: journal
+  category: theory
+  doi: 10.1017/s0305000909990328
+  links: {paper: 'https://doi.org/10.1017/s0305000909990328'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development

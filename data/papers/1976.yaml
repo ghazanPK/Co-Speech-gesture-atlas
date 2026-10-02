@@ -1,0 +1,31 @@
+# Papers published in 1976. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: hewes1976current
+  title: THE CURRENT STATUS OF THE GESTURAL THEORY OF LANGUAGE ORIGIN
+  authors: [Gordon Winant Hewes]
+  year: 1976
+  venue: Annals of the New York Academy of Sciences
+  type: journal
+  category: theory
+  doi: 10.1111/j.1749-6632.1976.tb25512.x
+  links: {paper: 'https://doi.org/10.1111/j.1749-6632.1976.tb25512.x'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: lafrance1976group
+  title: 'Group Rapport: Posture Sharing as a Nonverbal Indicator'
+  authors: [Marianne LaFrance, M. Ardell Broadbent]
+  year: 1976
+  venue: Group & Organization Studies
+  type: journal
+  category: theory
+  doi: 10.1177/105960117600100307
+  links: {paper: 'https://doi.org/10.1177/105960117600100307'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction

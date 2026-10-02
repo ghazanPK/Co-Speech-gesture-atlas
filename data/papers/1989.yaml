@@ -1,0 +1,45 @@
+# Papers published in 1989. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: bates1989integrating
+  title: Integrating language and gesture in infancy.
+  authors: [Elizabeth A. Bates, Donna J. Thal, Kimberly Whitesell, Larry Fenson, Lisa M. Oakes]
+  year: 1989
+  venue: Developmental Psychology
+  type: journal
+  category: theory
+  doi: 10.1037/0012-1649.25.6.1004
+  links: {paper: 'https://doi.org/10.1037/0012-1649.25.6.1004'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: butterworth1989gesture
+  title: 'Gesture, speech, and computational stages: A reply to McNeill.'
+  authors: [Brian L. Butterworth, Uri Hadar]
+  year: 1989
+  venue: Psychological Review
+  type: journal
+  category: theory
+  doi: 10.1037/0033-295x.96.1.168
+  links: {paper: 'https://doi.org/10.1037/0033-295x.96.1.168'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
+- id: hadar1989types
+  title: Two Types of Gesture and Their Role in Speech Production
+  authors: [Uri Hadar]
+  year: 1989
+  venue: Journal of Language and Social Psychology
+  type: journal
+  category: theory
+  doi: 10.1177/0261927x8983004
+  links: {paper: 'https://doi.org/10.1177/0261927x8983004'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics

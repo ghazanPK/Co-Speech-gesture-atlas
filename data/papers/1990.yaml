@@ -1,0 +1,113 @@
+# Papers published in 1990. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: burgoon1990nonverbal
+  title: Nonverbal Behaviors, Persuasion, and Credibility
+  authors: [Judee K. Burgoon, Thomas Birk, Michael William Pfau]
+  year: 1990
+  venue: Human Communication Research
+  type: journal
+  category: theory
+  doi: 10.1111/j.1468-2958.1990.tb00229.x
+  links: {paper: 'https://doi.org/10.1111/j.1468-2958.1990.tb00229.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: goldinmeadow1990gesture
+  title: Gesture in Early Child Language
+  authors: [Susan Goldin‐Meadow, Marolyn Morford]
+  year: 1990
+  venue: Springer series in language and communication
+  type: book
+  category: theory
+  doi: 10.1007/978-3-642-74859-2_20
+  links: {paper: 'https://doi.org/10.1007/978-3-642-74859-2_20'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
+
+- id: kendon1990gesticulation
+  title: Gesticulation, Quotable Gestures, and Signs
+  authors: [Adam Kendon]
+  year: 1990
+  venue: Institutional Repositories DataBase (IRDB)
+  type: journal
+  category: theory
+  links: {paper: 'https://minpaku.repo.nii.ac.jp/records/3183'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: mcneill1990chapter
+  title: Chapter 7 Speech and Gesture
+  authors: [David M. McNeill, Laura Pedelty, Elena T. Levy]
+  year: 1990
+  venue: Advances in psychology
+  type: book
+  category: theory
+  doi: 10.1016/s0166-4115(08)60650-0
+  links: {paper: 'https://doi.org/10.1016/s0166-4115(08)60650-0'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
+- id: moerman1990studying
+  title: Studying Gestures in Social Context
+  authors: [Michael Moerman]
+  year: 1990
+  venue: Institutional Repositories DataBase (IRDB)
+  type: journal
+  category: theory
+  links: {paper: 'https://minpaku.repo.nii.ac.jp/records/3182'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: pitcairn1990nonverbal
+  title: Non‐verbal cues in the self‐presentation of Parkinsonian patients
+  authors: [Thomas K. Pitcairn, Susan Clemie, John M Gray, Brian T. Pentland]
+  year: 1990
+  venue: British Journal of Clinical Psychology
+  type: journal
+  category: theory
+  doi: 10.1111/j.2044-8260.1990.tb00867.x
+  links: {paper: 'https://doi.org/10.1111/j.2044-8260.1990.tb00867.x'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: tickledegnen1990nature
+  title: The Nature of Rapport and Its Nonverbal Correlates
+  authors: [Linda Tickle‐Degnen, Robert Rosenthal]
+  year: 1990
+  venue: Psychological Inquiry
+  type: journal
+  category: theory
+  doi: 10.1207/s15327965pli0104_1
+  links: {paper: 'https://doi.org/10.1207/s15327965pli0104_1'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
+- id: volterra1990gesture
+  title: From Gesture to Language in Hearing and Deaf Children
+  authors: [Virginia Volterra, Carol J. Erting]
+  year: 1990
+  venue: Springer series in language and communication
+  type: book
+  category: theory
+  doi: 10.1007/978-3-642-74859-2
+  links: {paper: 'https://doi.org/10.1007/978-3-642-74859-2'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
