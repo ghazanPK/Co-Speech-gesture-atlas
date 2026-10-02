@@ -1,230 +1,994 @@
 # One record per dataset. Papers refer to these by `id` in their `datasets` field.
 # Field rules: docs/SCHEMA.md (enforced by schema/schema.json and scripts/validate.py).
 
-- {id: trinity, added: '2026-10-02', verified: false, name: Trinity Speech-Gesture Dataset}
+- id: trinity
+  year: 2018
+  links: {paper: 'http://www.tara.tcd.ie/handle/2262/91094'}
+  representation: [joints-3d]
+  setting: [monologue]
+  languages: [en]
+  summary: About 244 minutes of audio and 20-camera Vicon motion capture (69-joint skeleton) of one male actor speaking freely on various topics.
+  notes: Ferstl and McDonnell, IVA 2018. Sources give 244 or 242 minutes. Finger motion is of poor quality and was dropped in GENEA 2020. Download is through a portal after agreeing to the licence.
+  added: '2026-10-02'
+  verified: false
+  name: Trinity Speech-Gesture Dataset
+  modalities: [audio, body-motion, hand-motion]
+  capture: mocap
+  hours: 4.07
+  speakers: 1
+  access: on-request
+  license: Non-commercial research licence from Trinity College Dublin (non-exclusive, non-transferable, research into speech gesture only)
 
-- {id: trinity2, added: '2026-10-02', verified: false, name: Trinity Speech-Gesture Dataset II}
+- id: trinity2
+  links: {}
+  representation: [joints-3d]
+  setting: [monologue]
+  languages: [en]
+  summary: Six hours of time-aligned 44 kHz audio and 120 fps marker-based motion capture of one male Hiberno-English actor speaking and gesturing spontaneously to a person behind the camera.
+  notes: Recorded at Trinity College Dublin by Ferstl, Neff and McDonnell; cited in later work (e.g. Diff-TTSG) to their 2020-2021 papers, so the release year is not pinned down. Download folder holds Audio, Motion and Gesture_segmentation plus AlignmentTimes.csv. Finger motion exists but is reported as unreliable. Access is after accepting the license on the site.
+  added: '2026-10-02'
+  verified: false
+  name: Trinity Speech-Gesture Dataset II (TSGD2)
+  modalities: [audio, body-motion, hand-motion, annotations]
+  capture: mocap
+  hours: 6
+  speakers: 1
+  access: open
+  license: Dataset Copyright License for non-commercial scientific research purposes
 
-- {id: ted-gesture, added: '2026-10-02', verified: false, name: TED Gesture}
+- id: ted-gesture
+  year: 2020
+  links: {paper: 'https://arxiv.org/abs/2009.02119'}
+  representation: [joints-3d]
+  setting: [monologue]
+  summary: 97 hours of upper-body gesture from 1,766 TED talk videos, with OpenPose 2D poses lifted to 3D (10 upper-body joints) and aligned to speech audio and transcripts.
+  notes: The 3D-extended version from Yoon et al., SIGGRAPH Asia 2020 (trimodal context), which added 471 videos to the 2019 ICRA TED dataset (see youtube-gesture). Videos are not distributed; video IDs are provided. Speaker count and language not stated on the pages read.
+  added: '2026-10-02'
+  verified: false
+  name: TED Gesture Dataset
+  modalities: [audio, text, body-motion]
+  capture: pose-estimation
+  hours: 97
+  access: open
+  license: BSD-3-Clause (youtube-gesture-dataset repository)
 
-- {id: ted-expressive, added: '2026-10-02', verified: false, name: TED Expressive}
+- id: ted-expressive
+  year: 2022
+  links: {paper: 'https://arxiv.org/abs/2203.13161'}
+  representation: [joints-3d]
+  setting: [monologue]
+  summary: 1,764 TED talk videos from the official TED YouTube channel with transcripts, annotated with 3D coordinates of 43 upper-body and finger keypoints estimated with ExPose using OpenPose 2D priors.
+  notes: Liu et al., Learning Hierarchical Cross-Modal Association for Co-Speech Gesture Generation (HA2G, CVPR 2022). 100.8 h is the length of interest shots in Table 5. Built by extending the youtube-gesture-dataset pipeline; preprocessed data (16 GB) linked from the HA2G repo (GPL-3.0 code license; no dataset license). Language not explicitly stated.
+  added: '2026-10-02'
+  verified: false
+  name: TED-Expressive
+  modalities: [audio, text, video, body-motion, hand-motion]
+  capture: pose-estimation
+  hours: 100.8
+  access: open
 
-- {id: speech2gesture, added: '2026-10-02', verified: false, name: Speech2Gesture (speaker-specific gesture dataset)}
+- id: speech2gesture
+  year: 2019
+  links: {paper: 'https://arxiv.org/abs/1906.04160'}
+  representation: [keypoints-2d]
+  setting: [monologue]
+  summary: 144 hours of in-the-wild video of 10 individual speakers (television hosts, university lecturers and televangelists) with automatically detected frame-by-frame pose of arms and hands.
+  notes: Ginosar et al., Learning Individual Styles of Conversational Gesture (CVPR 2019). Released as YouTube links plus keypoints; the download script skips non-YouTube and broken links. No license stated. Language not stated (speakers appear to be English-speaking).
+  added: '2026-10-02'
+  verified: false
+  name: Speech2Gesture dataset
+  modalities: [audio, video, body-motion, hand-motion]
+  capture: pose-estimation
+  hours: 144
+  speakers: 10
+  access: open
 
-- {id: pats, added: '2026-10-02', verified: false, name: 'PATS (Pose, Audio, Transcript, Style)'}
+- id: pats
+  year: 2020
+  links: {paper: 'https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630239.pdf'}
+  representation: [keypoints-2d]
+  setting: [monologue]
+  summary: 251 hours (about 84,000 intervals) of 25 speakers (talk show hosts, lecturers, YouTubers, televangelists) from online video, with OpenPose 2D upper-body keypoints aligned to log-mel audio and transcripts.
+  notes: Introduced with Mix-StAGE (Ahuja et al., ECCV 2020); code and loaders at https://github.com/chahuja/pats. Raw audio must be re-downloaded from YouTube with the provided scripts. Language not stated on the pages read.
+  added: '2026-10-02'
+  verified: false
+  name: PATS (Pose, Audio, Transcript, Style)
+  modalities: [audio, text, body-motion]
+  capture: pose-estimation
+  hours: 251
+  speakers: 25
+  access: open
+  license: CC BY-NC 2.0 (Creative Commons Attribution-NonCommercial 2.0 Generic)
 
-- {id: beat, added: '2026-10-02', verified: false, name: BEAT}
+- id: beat
+  year: 2022
+  links: {paper: 'https://arxiv.org/abs/2203.05297'}
+  representation: [joints-3d, other]
+  setting: [monologue, dyadic]
+  languages: [en, zh, es, ja]
+  summary: Thirty speakers recorded with motion capture while talking in eight emotions and four languages, with 52D facial blendshapes, audio, text and frame-level emotion and semantic-relevance annotations.
+  notes: 'ECCV 2022. Language split: English 60h, Chinese 16h, Spanish 2h, Japanese 2h. Self-talk recordings (one-minute) plus conversation-mode recordings (ten-minute). Motion as 120 FPS BVH, face as 60 FPS blendshape JSON, text as TextGrid.'
+  added: '2026-10-02'
+  verified: false
+  name: BEAT (Body-Expression-Audio-Text)
+  modalities: [audio, text, body-motion, hand-motion, face-motion, annotations]
+  capture: mocap
+  hours: 76
+  speakers: 30
+  access: open
+  license: Non-commercial license (as stated on the project page)
 
-- {id: beat2, added: '2026-10-02', verified: false, name: BEAT2 (BEATX)}
+- id: beat2
+  year: 2024
+  links: {paper: 'https://arxiv.org/abs/2401.00374'}
+  representation: [smpl-x]
+  setting: [monologue, dyadic]
+  summary: Vicon motion capture from BEAT re-expressed as MoShed SMPL-X body and FLAME head parameters, covering 60 hours of speech and conversation from 25 speakers.
+  notes: Introduced in the EMAGE paper (CVPR 2024). Excludes 5 of BEAT's 30 speakers because of noisy finger data. Split into BEAT2-standard (27 h) and BEAT2-additional (33 h). Languages are not stated in the EMAGE paper.
+  added: '2026-10-02'
+  verified: false
+  name: BEAT2 (BEAT-SMPLX-FLAME)
+  modalities: [audio, text, body-motion, hand-motion, face-motion]
+  capture: mocap
+  hours: 60
+  speakers: 25
+  access: open
+  license: Apache 2.0 (Hugging Face dataset card)
 
-- {id: show, added: '2026-10-02', verified: false, name: TalkSHOW dataset (SHOW)}
+- id: show
+  year: 2023
+  links: {paper: 'https://arxiv.org/abs/2212.04420'}
+  representation: [smpl-x]
+  summary: SMPL-X body, hand and face parameters reconstructed with SHOW (an adapted SMPLify-X) from 26.9 hours of in-the-wild talking videos of four speakers, with synchronous speech.
+  notes: Introduced in Yi et al., CVPR 2023. Speakers are Oliver, Chemistry, Conan and Seth (from paper text in search results). Download requires login on the project page; released for research purposes, no license text found. Language and setting not stated in the sources read.
+  added: '2026-10-02'
+  verified: false
+  name: SHOW (TalkSHOW dataset)
+  modalities: [audio, body-motion, hand-motion, face-motion]
+  capture: pose-estimation
+  hours: 26.9
+  speakers: 4
+  access: open
 
-- {id: zeggs, added: '2026-10-02', verified: false, name: ZeroEGGS dataset (ZEGGS)}
+- id: zeggs
+  year: 2022
+  links: {paper: 'https://onlinelibrary.wiley.com/doi/10.1111/cgf.14734'}
+  representation: [joints-3d]
+  setting: [monologue]
+  languages: [en]
+  summary: 67 monologue sequences (about 135 minutes) of full-body motion capture with fingers and audio from one female English-speaking actor performing 19 speaking styles.
+  notes: Ghorbani et al., Computer Graphics Forum 2023 (arXiv 2209.07556, 2022). BVH animation and WAV audio. Mocap hardware not stated in the sources read.
+  added: '2026-10-02'
+  verified: false
+  name: ZEGGS dataset (ZeroEGGS)
+  modalities: [audio, body-motion, hand-motion]
+  capture: mocap
+  hours: 2.24
+  speakers: 1
+  access: open
+  license: Creative Commons Attribution-NonCommercial-NoDerivs
 
-- {id: talking-with-hands, added: '2026-10-02', verified: false, name: Talking With Hands 16.2M}
+- id: talking-with-hands
+  year: 2019
+  links: {paper: 'https://openaccess.thecvf.com/content_ICCV_2019/papers/Lee_Talking_With_Hands_16.2M_A_Large-Scale_Dataset_of_Synchronized_Body-Finger_ICCV_2019_paper.pdf'}
+  representation: [joints-3d]
+  setting: [dyadic]
+  summary: Two-person face-to-face spontaneous conversations recorded with motion capture of synchronized body and finger motion plus audio, totalling 16.2 million frames.
+  notes: ICCV 2019. The public release covers 32 sessions, 116 takes, about 20 hours, in BVH; audio released for 17 sessions with privacy-sensitive parts masked. Repository archived in 2023. Spoken language not stated in the sources read.
+  added: '2026-10-02'
+  verified: false
+  name: Talking With Hands 16.2M
+  modalities: [audio, body-motion, hand-motion]
+  capture: mocap
+  hours: 50
+  access: open
+  license: CC BY-NC 4.0
 
-- {id: genea-2020, added: '2026-10-02', verified: false, name: GENEA Challenge 2020 data}
+- id: genea-2020
+  year: 2020
+  links: {paper: 'https://arxiv.org/abs/2102.11617'}
+  representation: [joints-3d]
+  setting: [monologue]
+  languages: [en]
+  summary: The Trinity Speech-Gesture Dataset processed for the GENEA 2020 challenge, with 244 minutes of motion capture, audio and ASR-plus-manual transcripts of one male actor speaking freely on various topics.
+  notes: Split into 3 h 40 min training and 20 min test data. Lower body and fingers were removed, keeping 15 upper-body joints of the original 69. Both splits are now hosted in the Trinity Speech-Gesture Dataset repository behind its licence agreement. hours = 244 min.
+  added: '2026-10-02'
+  verified: false
+  name: GENEA Challenge 2020 dataset
+  modalities: [audio, text, body-motion]
+  capture: mocap
+  hours: 4.07
+  speakers: 1
+  access: on-request
+  license: Trinity College Dublin non-commercial research licence (Trinity Speech-Gesture Dataset)
 
-- {id: genea-2022, added: '2026-10-02', verified: false, name: GENEA Challenge 2022 data}
+- id: genea-2022
+  year: 2022
+  links: {paper: 'https://arxiv.org/abs/2208.10441'}
+  representation: [joints-3d]
+  setting: [dyadic]
+  languages: [en]
+  summary: A cleaned subset of Talking With Hands 16.2M, with full-body motion capture including fingers (BVH, 30 fps), audio, time-aligned transcripts and speaker IDs from English dyadic conversations.
+  notes: 18 h training plus 40 min validation and 40 min test (test without motion); 70 of 116 takes kept. Each speaker's side is provided separately and treated independently in the challenge. Derived from talking-with-hands. Speaker count not stated in the sources read.
+  added: '2026-10-02'
+  verified: false
+  name: GENEA Challenge 2022 dataset
+  modalities: [audio, text, body-motion, hand-motion]
+  capture: mocap
+  hours: 19.3
+  access: open
+  license: CC BY 4.0
 
-- {id: genea-2023, added: '2026-10-02', verified: false, name: GENEA Challenge 2023 data}
+- id: genea-2023
+  year: 2023
+  links: {paper: 'https://arxiv.org/abs/2308.12646'}
+  representation: [joints-3d]
+  setting: [dyadic]
+  languages: [en]
+  summary: Motion-capture recordings of dyadic face-to-face English conversations from Talking With Hands 16.2M, with BVH motion, WAV audio and time-aligned transcripts for both the main speaker and the interlocutor.
+  notes: Built from the GENEA 2022 data with interlocutor information added; the training split is the 2022 training and validation data (about 18 hours of training data per the 2022 paper). Finger motion is present for some recordings. Test set has 70 chunks, 29 of them with mismatched interlocutors. Audio is partly muted for privacy. Number of speakers not stated.
+  added: '2026-10-02'
+  verified: false
+  name: GENEA Challenge 2023 dataset
+  modalities: [audio, text, body-motion, hand-motion]
+  capture: mocap
+  hours: 18
+  access: open
+  license: CC BY-NC 4.0
 
-- {id: audio2photoreal, added: '2026-10-02', verified: false, name: Audio2Photoreal conversations dataset}
+- id: audio2photoreal
+  year: 2024
+  links: {paper: 'https://arxiv.org/abs/2401.01885'}
+  representation: [joints-3d, other]
+  setting: [dyadic]
+  summary: Dyadic conversations of four participants, each paired for about 2 hours, captured simultaneously in multi-view capture domes (one standing in a full-body dome, one seated in a head-only dome) with audio, joint angles and face expression codes.
+  notes: Introduced in Ng et al., From Audio to Photoreal Embodiment (CVPR 2024). Capture is markerless multi-view dome tracking, not marker mocap. Pose is released as 104-d joint angles and face as 256-d expression codes (representation 'other'). Language not stated. Repository archived in Aug 2025. Data downloads per participant from the repository's v1.0 GitHub releases.
+  added: '2026-10-02'
+  verified: false
+  name: Audio2Photoreal conversations dataset
+  modalities: [audio, video, body-motion, face-motion]
+  capture: mocap
+  hours: 8
+  speakers: 4
+  access: open
+  license: CC-NC 4.0 International (as stated in the repository README)
 
-- {id: dnd-group-gesture, added: '2026-10-02', verified: false, name: DnD Group Gesture}
+- id: dnd-group-gesture
+  year: 2024
+  links: {paper: 'https://openaccess.thecvf.com/content/CVPR2024/html/Mughal_ConvoFusion_Multi-Modal_Conversational_Diffusion_for_Co-Speech_Gesture_Synthesis_CVPR_2024_paper.html'}
+  representation: [joints-3d]
+  setting: [multi-party]
+  languages: [en]
+  summary: Six hours of markerless multi-person motion capture (about 2.7M poses, with fingers) of five people playing Dungeons and Dragons, with per-person audio, transcripts and gesture-type labels.
+  notes: Introduced with ConvoFusion (Mughal et al., CVPR 2024). Capture is markerless multi-camera mocap. BVH files, RGB video and English-speaking participants are stated in search-result snippets of the Edmond record and of arXiv 2510.19350; the Edmond page itself could not be opened, so its license is not recorded.
+  added: '2026-10-02'
+  verified: false
+  name: DnD Group Gesture Dataset
+  modalities: [audio, text, video, body-motion, hand-motion, annotations]
+  capture: mocap
+  hours: 6
+  speakers: 5
+  access: open
 
-- {id: seamless-interaction, added: '2026-10-02', verified: false, name: Seamless Interaction}
+- id: seamless-interaction
+  year: 2025
+  links: {paper: 'https://arxiv.org/abs/2506.22554'}
+  representation: [video-pixels, smpl-x, keypoints-2d]
+  setting: [dyadic]
+  summary: Over 4,000 hours of in-person, full-body face-to-face conversations between pairs of more than 4,000 participants (improvised actor role-play and naturalistic prompted talk), with video, audio, transcripts, SMPL-H body parameters, keypoints and behavioural annotations.
+  notes: Meta FAIR. Hours and participant counts are lower bounds ('4,000+'). About 65,000 interactions over 1,300+ scenarios. Code at https://github.com/facebookresearch/seamless_interaction. SMPL-H is mapped to smpl-x per schema. Languages not stated on the pages read.
+  added: '2026-10-02'
+  verified: false
+  name: Seamless Interaction Dataset
+  modalities: [audio, text, video, body-motion, hand-motion, face-motion, annotations]
+  capture: pose-estimation
+  hours: 4000
+  speakers: 4000
+  access: open
+  license: CC BY-NC 4.0
 
-- {id: saga, added: '2026-10-02', verified: false, name: SaGA (Bielefeld Speech and Gesture Alignment corpus)}
+- id: saga
+  year: 2014
+  links: {paper: 'https://link.springer.com/article/10.1007/s12193-012-0106-8'}
+  setting: [dyadic]
+  languages: [de]
+  summary: German face-to-face route-direction and landmark-description dialogues, after a virtual-reality town tour, recorded on audio and video and annotated for speech and gesture in ELAN.
+  notes: The full corpus has 25 dialogues with 50 participants (9,881 words, 1,764 gestures) per Luecking et al. (JMUI 2013); the BAS public release (2014) lists 6 speakers and 1 h 7 min 47 s, which are the hours and speakers given here. Capture setup (cameras, trackers) not confirmed from the sources read.
+  added: '2026-10-02'
+  verified: false
+  name: SaGA (Bielefeld Speech and Gesture Alignment Corpus)
+  modalities: [audio, video, annotations]
+  hours: 1.13
+  speakers: 6
+  access: on-request
+  license: 'BAS user license: free for scientists, otherwise contact bas@bas.uni-muenchen.de'
 
-- {id: youtube-gesture, added: '2026-10-02', verified: false, name: YouTube Gesture Dataset}
+- id: youtube-gesture
+  year: 2019
+  links: {paper: 'https://arxiv.org/abs/1810.12541'}
+  representation: [keypoints-2d]
+  setting: [monologue]
+  languages: [en]
+  summary: OpenPose 2D body, hand and face keypoints and Gentle word-aligned transcripts for 35,685 shots from 1,766 TED talk videos on YouTube.
+  notes: 'Introduced in ''Robots Learn Social Skills: End-to-End Learning of Co-Speech Gesture Generation for Humanoid Robots'' (ICRA 2019). Videos are not redistributed and must be downloaded by script. 106.1 hours is the total of the selected shots. Speaker count not stated.'
+  added: '2026-10-02'
+  verified: false
+  name: YouTube Gesture Dataset
+  modalities: [text, body-motion, hand-motion, face-motion]
+  capture: pose-estimation
+  hours: 106.1
+  access: open
+  license: BSD-3-Clause (repository)
 
-- {id: aist-plus-plus, added: '2026-10-02', verified: false, name: AIST++}
+- id: aist-plus-plus
+  year: 2021
+  links: {paper: 'https://arxiv.org/abs/2101.08779'}
+  representation: [smpl-x, joints-3d, keypoints-2d]
+  summary: 1,408 multi-view dance sequences of 30 dancers across 10 genres with music, with 3D keypoints and SMPL parameters reconstructed from 9 calibrated camera views.
+  notes: 'Dance, not speech: no spoken language and no speech setting. 5.2 hours is from the paper abstract; the project''s facts page splits sum to about 4 hours. Speakers field holds the number of dancers (subjects). representation smpl-x denotes SMPL parameters. Videos come from the AIST Dance Video Database at 60 fps.'
+  added: '2026-10-02'
+  verified: false
+  name: AIST++
+  modalities: [video, audio, body-motion]
+  capture: pose-estimation
+  hours: 5.2
+  speakers: 30
+  access: open
+  license: Annotations CC BY 4.0 (Google LLC); videos and music under the AIST Dance Video Database Terms of Use
 
-- {id: amass, added: '2026-10-02', verified: false, name: AMASS}
+- id: amass
+  year: 2019
+  links: {}
+  representation: [smpl-x]
+  summary: Over 40 hours of optical marker-based motion capture from more than 300 subjects, unified from many existing mocap datasets and fitted to the SMPL body model.
+  notes: 'Introduced in "AMASS: Archive of Motion Capture as Surface Shapes" (ICCV 2019). Page states over 40 hours, more than 300 subjects and more than 11,000 motions. Not a speech dataset, so no speakers, languages or setting. Download requires registration and accepting the license. The page names only SMPL, so hand motion is not listed.'
+  added: '2026-10-02'
+  verified: false
+  name: AMASS (Archive of Motion Capture As Surface Shapes)
+  modalities: [body-motion]
+  capture: mocap
+  hours: 40
+  access: on-request
+  license: Dataset Copyright License for Non-Commercial Scientific Research Purposes
 
-- {id: humanml3d, added: '2026-10-02', verified: false, name: HumanML3D}
+- id: humanml3d
+  year: 2022
+  links: {paper: 'https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_Generating_Diverse_and_Natural_3D_Human_Motions_From_Text_CVPR_2022_paper.pdf'}
+  representation: [joints-3d]
+  summary: 14,616 motion-capture clips drawn from AMASS and HumanAct12, each paired with three to four free-text descriptions (44,970 in total), for text-to-motion generation.
+  notes: Not a speech dataset. Motions use the 22-joint SMPL skeleton, 20 fps, 263-dimensional features. The AMASS part must be rebuilt with the provided scripts after obtaining AMASS and SMPL+H/DMPL models. Description language not stated explicitly.
+  added: '2026-10-02'
+  verified: false
+  name: HumanML3D
+  modalities: [text, body-motion]
+  capture: mocap
+  hours: 28.59
+  access: open
+  license: MIT (repository)
 
-- {id: motion-x, added: '2026-10-02', verified: false, name: Motion-X}
+- id: motion-x
+  year: 2023
+  links: {paper: 'https://arxiv.org/abs/2307.00818'}
+  representation: [smpl-x]
+  summary: 81.1K whole-body SMPL-X motion sequences (15.6M frames) collected from eight public datasets and about 15K online videos, with frame-level pose descriptions and sequence-level text labels.
+  notes: NeurIPS 2023. Total hours not stated. Access requires an authorization form for non-commercial use. Motion-X++ (2025) adds RGB video, audio and music. Not a speech-gesture dataset, so languages and setting are left out.
+  added: '2026-10-02'
+  verified: false
+  name: Motion-X
+  modalities: [text, body-motion, hand-motion, face-motion, annotations]
+  capture: mixed
+  access: on-request
+  license: Motion-X License (non-commercial; sub-datasets keep their original licenses)
 
-- {id: cmu-panoptic, added: '2026-10-02', verified: false, name: CMU Panoptic (Haggling)}
+- id: cmu-panoptic
+  year: 2019
+  links: {paper: 'https://arxiv.org/abs/1906.04158'}
+  representation: [joints-3d]
+  setting: [multi-party]
+  summary: Triadic haggling games (two sellers, one buyer, about one minute each) by 122 subjects, 180 sequences, captured in the CMU Panoptic Studio with over 500 video views, 10 RGB-D sensors and 23 microphones, with reconstructed 3D body, face and hand motion and annotated speaking status.
+  notes: 'Introduced in Joo et al., Towards Social Artificial Intelligence: Nonverbal Social Signal Prediction in a Triadic Interaction (CVPR 2019). ''About 3 hours of data'' as stated in the paper. Markerless multi-view reconstruction, not marker mocap. Paper notes hand tracking had occasional failures. Processed data (4.7 GB) via the ssp repo; raw HD video via the panoptic-toolbox. Language not stated.'
+  added: '2026-10-02'
+  verified: false
+  name: CMU Panoptic Studio Haggling dataset
+  modalities: [audio, video, body-motion, hand-motion, face-motion, annotations]
+  capture: mocap
+  hours: 3
+  speakers: 122
+  access: open
+  license: CC-BY-NC 4.0 (ssp repository)
 
-- {id: iemocap, added: '2026-10-02', verified: false, name: IEMOCAP}
+- id: iemocap
+  year: 2008
+  links: {}
+  representation: [other]
+  setting: [dyadic]
+  languages: [en]
+  summary: About 12 hours of audiovisual recordings of 10 actors in improvised and scripted dyadic sessions, with motion capture of face, head and hands, transcripts and categorical and dimensional emotion labels.
+  notes: 'Paper: Busso et al., "IEMOCAP: Interactive emotional dyadic motion capture database", Language Resources and Evaluation 42(4), 2008. Obtained by an electronic release form and license agreement; license terms not given on the page. Representation is marker data, not a full-body skeleton.'
+  added: '2026-10-02'
+  verified: false
+  name: IEMOCAP (Interactive Emotional Dyadic Motion Capture database)
+  modalities: [audio, video, text, face-motion, hand-motion, annotations]
+  capture: mocap
+  hours: 12
+  speakers: 10
+  access: on-request
 
-- {id: vico, added: '2026-10-02', verified: false, name: ViCo (listening head dataset)}
+- id: vico
+  year: 2022
+  links: {paper: 'https://arxiv.org/abs/2112.13548'}
+  representation: [video-pixels, other]
+  setting: [dyadic]
+  summary: 483 paired speaking-listening video clips (over 95 minutes) of 92 identities in face-to-face conversation, with listeners labelled positive, neutral or negative and 3DMM face coefficients provided.
+  notes: 'Introduced in ''Responsive Listening Head Generation: A Benchmark Dataset and Baseline'' (ECCV 2022). 92 identities = 67 speakers and 76 listeners. Head and face only; 3DMM coefficients mapped to representation ''other''. Download via OneDrive link from the project page. Language not stated.'
+  added: '2026-10-02'
+  verified: false
+  name: ViCo
+  modalities: [audio, video, face-motion, annotations]
+  capture: pose-estimation
+  hours: 1.6
+  speakers: 92
+  access: open
+  license: Research purposes only, under restricted licenses (as stated by the authors)
 
 - {id: custom, added: '2026-10-02', verified: false, name: Dataset collected by the authors and not named or released}
 
-- {id: streamer, added: '2026-10-02', verified: false, name: Streamer}
+- id: streamer
+  year: 2025
+  links: {paper: 'https://arxiv.org/abs/2507.22731'}
+  representation: [smpl-x]
+  setting: [monologue]
+  languages: [zh]
+  summary: 20,969 ten-second clips (about 58 hours) of 281 live-streaming anchors reading Mandarin in a studio while making 18 categories of semantic hand gestures, with SMPL-X body and hand parameters reconstructed from monocular video.
+  notes: 'Introduced with GestureHYDRA (ICCV 2025). Released files are anonymized audio plus motion parameters, no video; facial expressions not reconstructed. Splits: 19,051 train, 920 seen-identity test, 998 unseen-identity test clips.'
+  added: '2026-10-02'
+  verified: false
+  name: Streamer
+  modalities: [audio, body-motion, hand-motion]
+  capture: pose-estimation
+  hours: 58
+  speakers: 281
+  access: open
+  license: CC BY-NC 4.0
 
 - id: embody3d
-  links: {}
-  added: '2026-10-02'
-  verified: false
-  name: Embody3D
-
-- id: sceneges
-  links: {}
-  added: '2026-10-02'
-  verified: false
-  name: SceneGes
-
-- id: robogesture
-  links: {}
-  added: '2026-10-02'
-  verified: false
-  name: RoboGesture dataset
-
-- id: ted4c-l
-  links: {}
-  added: '2026-10-02'
-  verified: false
-  name: TED4C-L
-
-- id: semantix
-  links: {}
-  added: '2026-10-02'
-  verified: false
-  name: Semantix
-
-- id: seg
-  links: {}
-  added: '2026-10-02'
-  verified: false
-  name: SeG (semantic gesture dataset)
-
-- id: affectmocap
-  links: {}
-  added: '2026-10-02'
-  verified: false
-  name: AffectMoCap
-
-- id: reactmotionnet
-  links: {}
-  added: '2026-10-02'
-  verified: false
-  name: ReactMotionNet
-
-- id: embody-3d
-  links: {}
+  year: 2025
+  links: {paper: 'https://arxiv.org/abs/2510.16258'}
+  representation: [smpl-x]
+  setting: [dyadic, multi-party]
+  summary: 500 hours of tracked 3D motion from 439 participants, recorded on an 80-camera stage at Meta's Codec Avatars Lab, covering prompted motions, gestures, locomotion and dyadic and multi-person conversations, with SMPL-X body and hands, per-participant audio and text annotations.
+  notes: Duplicate of id embody-3d in data/datasets.yaml; merge. Markerless multi-view tracking using a keypoint detector (Sapiens) fitted to SMPL-X. Audio separated per participant by beamforming over a 640-channel microphone array. Download requires filling a release form. The paper mentions face-tracking cameras but the release is described as body, hands, shape, audio and text; face data not confirmed. Single-person subsets are not monologue speech, so monologue is not listed. Language not stated.
   added: '2026-10-02'
   verified: false
   name: Embody 3D
+  modalities: [audio, text, body-motion, hand-motion, annotations]
+  capture: pose-estimation
+  hours: 500
+  speakers: 439
+  access: on-request
+  license: XRCIA Noncommercial Research License
+
+- id: sceneges
+  year: 2026
+  links: {paper: 'https://arxiv.org/abs/2609.00369'}
+  representation: [smpl-x]
+  summary: Synthetic dataset of about 28 minutes of object-grounded co-speech gesture in 26 scenarios with 153 chair and table assets, built by scripting dialogue with Gemini, generating video with Veo 3 and recovering and refining SMPL-X motion.
+  notes: Introduced with Puppeteer (Adeli et al., arXiv Aug 2026). Hours is 28 minutes as stated. Project page says the data is coming soon. Whether speech audio is part of the release, the language, and whether scenes are single-speaker or conversational were not clearly stated.
+  added: '2026-10-02'
+  verified: false
+  name: SceneGes
+  modalities: [body-motion, hand-motion, face-motion]
+  capture: synthetic
+  hours: 0.47
+  access: unavailable
+
+- id: robogesture
+  year: 2026
+  links: {paper: 'https://arxiv.org/abs/2608.28693'}
+  representation: [other]
+  summary: Semantic gesture library of over 300 categories captured with marker-based motion capture and paired with emotion-aware TTS speech, retargeted to a Unitree G1 humanoid and filtered for self-collisions.
+  notes: Builds on refined SeG and EgoGesture templates plus newly captured gestures; each gesture is annotated with motion descriptions and meanings. 1000 hours is the semi-synthetic training data generated by the pipeline. Representation is robot joint space (41 DoF). Paper reports ECCV 2026 on the project page. Language, performer count, dataset release and dataset license are not stated.
+  added: '2026-10-02'
+  verified: false
+  name: RoboGesture dataset
+  modalities: [audio, text, body-motion, hand-motion, annotations]
+  capture: mixed
+  hours: 1000
+
+- id: ted4c-l
+  year: 2026
+  links: {paper: 'https://arxiv.org/abs/2606.30001'}
+  representation: [joints-3d]
+  setting: [monologue]
+  languages: [hi, it, ja, tr]
+  summary: TED talks given in native languages by 764 speakers from India, Italy, Japan and Turkey, with 9 upper-body 3D keypoints extracted by MMPose at 15 FPS, plus audio and text features.
+  notes: Introduced with SICAGE (arXiv 2606.30001). The public release ships derived features (VQ-VAE motion codes, spectrograms, speech and text embeddings) in LMDB, not raw video, audio or transcripts. About 659k five-second windows.
+  added: '2026-10-02'
+  verified: false
+  name: TED4C-L
+  modalities: [audio, text, body-motion]
+  capture: pose-estimation
+  hours: 106.45
+  speakers: 764
+  access: open
+  license: ted4c-l-non-commercial-research; CC BY-NC 4.0 for SICAGE-authored contributions
+
+- id: semantix
+  year: 2026
+  links: {paper: 'https://arxiv.org/abs/2605.30608'}
+  summary: 878 semantic gesture clips taken from TED Expressive (778) and BEAT2 (100), each hand-annotated with a description of gesture form and communicative intent following Kipp's scheme.
+  notes: 'Evaluation set introduced in ''Semantic Motion Anchors: Bridging Motion and Meaning in Co-Speech Gestures'' (arXiv 2026). capture is mixed because the source clips come from pose-estimated (TED Expressive) and motion-captured (BEAT2) data. Duration, speakers, language, release and license are not stated.'
+  added: '2026-10-02'
+  verified: false
+  name: Semantix
+  modalities: [body-motion, hand-motion, text, annotations]
+  capture: mixed
+
+- id: seg
+  year: 2024
+  links: {paper: 'https://arxiv.org/abs/2405.09814'}
+  representation: [joints-3d]
+  summary: Motion capture of one male performer enacting 208 commonly used semantic gestures (544 BVH clips), each with a label, description, contextual meaning and example sentence.
+  notes: Introduced with Semantic Gesticulator (SIGGRAPH 2024, ACM TOG). No speech audio. Copyright of each gesture source is listed per entry in SeG_list.xlsx; no overall data license stated.
+  added: '2026-10-02'
+  verified: false
+  name: SeG (Semantic Gesture dataset)
+  modalities: [body-motion, hand-motion, annotations]
+  capture: mocap
+  speakers: 1
+  access: open
+
+- id: affectmocap
+  year: 2026
+  links: {paper: 'https://arxiv.org/abs/2609.33311'}
+  representation: [smpl-x]
+  setting: [monologue]
+  summary: Two professional actors (one male, one female) performing LLM-generated scripts under eight emotion labels, recorded with OptiTrack optical motion capture, hand mocap gloves and a 48 kHz microphone, converted to SMPL-X.
+  notes: Introduced in the SocialHumanoid paper (arXiv 2609.33311). The project page lists the dataset as 'coming soon'. No face, gaze or lip motion. Spoken language not stated.
+  added: '2026-10-02'
+  verified: false
+  name: AffectMoCap
+  modalities: [audio, text, body-motion, hand-motion, annotations]
+  capture: mocap
+  hours: 4
+  speakers: 2
+  access: unavailable
+
+- id: reactmotionnet
+  year: 2026
+  links: {paper: 'https://arxiv.org/abs/2603.15083'}
+  representation: [joints-3d]
+  setting: [dyadic]
+  languages: [en]
+  summary: 151,328 speaker-utterance and listener-motion pairs built by repurposing HumanML3D motions as listener reactions, with LLM-written speaker utterances, TTS audio, emotion labels and Gold/Silver/Negative appropriateness tiers.
+  notes: 8,298 unique utterances and 2,029 unique motions. Speaker audio is synthesized (GPT-4o mini TTS); motion comes from HumanML3D. Repository code is MIT; no separate data license stated.
+  added: '2026-10-02'
+  verified: false
+  name: ReactMotionNet
+  modalities: [audio, text, body-motion, annotations]
+  capture: mixed
+  access: open
+
+- id: embody-3d
+  year: 2025
+  links: {paper: 'https://arxiv.org/abs/2510.16258'}
+  representation: [smpl-x]
+  setting: [monologue, multi-party]
+  summary: 500 hours of tracked 3D body and hand motion from 439 participants recorded in a multi-camera stage, covering single-person motions and multi-person conversations and activities, with separate per-person audio and text annotations.
+  notes: From the Codec Avatars Lab at Meta (arXiv 2510.16258, October 2025). Over 54 million frames at 30 fps. Access is through a release form. Languages not stated. Capture is tracking from a multi-camera stage, recorded here as pose-estimation. Likely a duplicate of the id embody3d; the two should be merged.
+  added: '2026-10-02'
+  verified: false
+  name: Embody 3D
+  modalities: [audio, text, body-motion, hand-motion, annotations]
+  capture: pose-estimation
+  hours: 500
+  speakers: 439
+  access: on-request
+  license: XRCIA license
 
 - id: multi-tpc
-  links: {}
+  year: 2025
+  links: {paper: 'https://www.nature.com/articles/s41597-026-06819-x'}
+  setting: [multi-party]
+  summary: Spontaneous three-party conversations, 24 sessions with 21 participants, recorded with marker-based full-body motion capture, eye tracking and audio, synchronized by a marker-instrumented clapboard, with word-level transcripts, prosody and turn-taking and head-gesture annotations.
+  notes: 'Data paper: Multi-TPC: A Multimodal Dataset for Three-Party Conversations with Speech, Motion, and Gaze (Scientific Data, 2026). Data released on Zenodo in Dec 2025 (year field). Hours, sessions and participant count come from a search-result snippet of the Nature page; the article itself could not be opened. Gaze data has no modality value. Code at https://github.com/MCMartinLee/Multi-TPC (MIT for scripts). Language not stated.'
   added: '2026-10-02'
   verified: false
   name: Multi-TPC
+  modalities: [audio, text, body-motion, annotations]
+  capture: mocap
+  hours: 5.3
+  speakers: 21
+  access: open
+  license: CC-BY-4.0
 
 - id: ges-inter
-  links: {}
+  year: 2025
+  links: {paper: 'https://arxiv.org/abs/2505.01746'}
+  representation: [smpl-x]
+  setting: [dyadic]
+  languages: [en]
+  summary: About 70 hours (over 7M frames) of two-person conversations from 1,462 in-the-wild talk show and interview videos, with SMPL-X whole-body pose estimated from video, WhisperX transcripts, MFA phoneme alignment and speaker diarization.
+  notes: Introduced with Co3Gesture (Qi et al., ICLR 2025). Only English conversations kept. Upper body modelled with 46 joints (16 body + 30 hand). The paper says data and code are publicly available at the project page; no download link or dataset license seen (the CC BY 4.0 on arXiv is the paper's license). Number of distinct speakers not stated.
   added: '2026-10-02'
   verified: false
   name: GES-Inter
+  modalities: [audio, text, body-motion, hand-motion, face-motion, annotations]
+  capture: pose-estimation
+  hours: 70
+  access: open
 
 - id: csg-405
-  links: {}
+  year: 2025
+  links: {paper: 'https://arxiv.org/abs/2507.06812'}
+  representation: [keypoints-2d, video-pixels]
+  summary: 147,550 YouTube video clips (405 hours) of speakers across 71 speech types, cropped to 512x512, with 133-keypoint whole-body 2D skeletons from DWPose and 16 kHz audio.
+  notes: Introduced in 'Democratizing High-Fidelity Co-Speech Gesture Video Generation' (ICCV 2025). Speaker count is the paper's estimate of unique identities. The project page and repository say the dataset 'will be publicly released'; no download link or dataset license was found, so access is left out. Languages are not stated.
   added: '2026-10-02'
   verified: false
   name: CSG-405
+  modalities: [video, audio, body-motion, hand-motion, face-motion]
+  capture: pose-estimation
+  hours: 405
+  speakers: 17787
 
 - id: mm-conv
-  links: {}
+  year: 2024
+  links: {paper: 'https://arxiv.org/abs/2410.00253'}
+  setting: [dyadic]
+  summary: 6.7 hours of two-party referential conversations held in VR (AI2-THOR rooms), recorded with OptiTrack body mocap, data gloves, a Quest Pro headset for gaze and face blend shapes, plus speech, transcripts and scene graphs.
+  notes: Deichler, O'Regan and Beskow (KTH), arXiv 2024. Paper describes five main speakers plus an experimenter as interlocutor. Language not stated explicitly (likely English). Gaze and scene graphs have no modality value. License not stated on the project page.
   added: '2026-10-02'
   verified: false
   name: MM-Conv
+  modalities: [audio, text, body-motion, hand-motion, face-motion]
+  capture: mocap
+  hours: 6.7
+  access: open
 
 - id: samp
-  links: {}
+  year: 2021
+  links: {paper: 'https://openaccess.thecvf.com/content/ICCV2021/html/Hassan_Stochastic_Scene-Aware_Motion_Prediction_ICCV_2021_paper.html'}
+  summary: About 100 minutes of motion capture of sitting, lying down, walking and running styles performed with target objects, collected to train scene-aware motion synthesis.
+  notes: Introduced with "Stochastic Scene-Aware Motion Prediction" (Hassan et al., ICCV 2021). Hours is the stated "about 100 minutes". Number of subjects and data format not stated on the page. No speech, so languages and setting are left out.
   added: '2026-10-02'
   verified: false
-  name: SAMP (Stochastic Scene-Aware Motion Prediction) sitting dataset
+  name: SAMP dataset
+  modalities: [body-motion]
+  capture: mocap
+  hours: 1.7
+  access: on-request
+  license: Research use only after registration and license agreement; commercial license by contact
 
-- {id: sig-chat, added: '2026-10-02', verified: false, name: SIG-Chat}
+- id: sig-chat
+  year: 2025
+  links: {paper: 'https://arxiv.org/abs/2509.23852'}
+  representation: [smpl-x]
+  setting: [dyadic]
+  languages: [zh, en]
+  summary: About 9 hours (7,723 clips) of conversational gestures from 6 speakers captured with Xsens suits and Manus gloves, with audio, transcripts and spatial intent targets tracked by HTC Vive.
+  notes: 'From "SIG-Chat: Spatial Intent-Guided Conversational Gesture Generation Involving How, When and Where" (arXiv 2509.23852, 2025). Chinese and English at a 4:6 ratio. Retargeted to SMPL-H at 20 fps. Annotated with visual-focus and left/right pointing intents. The paper says the data will be released but gives no URL, so access and license are left out. Setting is recorded as dialogue gestures; the number of parties per recording is not stated.'
+  added: '2026-10-02'
+  verified: false
+  name: SIG-Chat
+  modalities: [audio, text, body-motion, hand-motion, annotations]
+  capture: mocap
+  hours: 9
+  speakers: 6
 
-- {id: interact, added: '2026-10-02', verified: false, name: InterAct}
+- id: interact
+  year: 2025
+  links: {paper: 'https://arxiv.org/abs/2509.05747'}
+  representation: [joints-3d, other]
+  setting: [dyadic]
+  languages: [en]
+  summary: 241 scripted-scenario interactions between two actors (7 actors in total), each a minute or longer, recorded with a 28-camera Vicon optical system with body and finger markers plus iPhone depth-based face capture, with synchronized speech audio, emotion and relationship labels.
+  notes: 'Ho et al., Proc. ACM Comput. Graph. Interact. Tech. 8(4), 2025. Body released as BVH, face as ARKit blendshapes (representation ''other''). Hours: Table 1 of the arXiv version gives 10.0 h; a search-result snippet of the abstract gave 8.3 h; check which counts both actors. Also includes about 1 h of extra single-actor TIMIT facial recordings. Actors recruited with basic English proficiency.'
+  added: '2026-10-02'
+  verified: false
+  name: InterAct
+  modalities: [audio, text, body-motion, hand-motion, face-motion, annotations]
+  capture: mocap
+  hours: 10
+  speakers: 7
+  access: open
+  license: CC BY-NC-SA 4.0
 
 - id: cnas
-  links: {}
+  year: 2025
+  links: {paper: 'https://arxiv.org/abs/2505.03603'}
+  representation: [video-pixels, keypoints-2d]
+  setting: [monologue]
+  languages: [zh]
+  summary: 1,473 five-second clips (36,825 s) of 5 Chinese news anchors speaking to camera, cropped above the waist at 512x896 and 25 fps, with 2D body and hand joints estimated from the video.
+  notes: Introduced in the PAHA paper (arXiv 2505.03603, later retitled 'A Unit Enhancement and Guidance Framework for Audio-Driven Avatar Video Generation'). Authors state code and dataset will be released upon acceptance; no release link found as of 2026-10-03.
   added: '2026-10-02'
   verified: false
-  name: CNAS (Chinese News Anchor Speech dataset)
+  name: Chinese News Anchor Speech Dataset (CNAS)
+  modalities: [audio, video, body-motion, hand-motion]
+  capture: pose-estimation
+  hours: 10.2
+  speakers: 5
+  access: unavailable
 
-- {id: tfhp, added: '2026-10-02', verified: false, name: TFHP}
+- id: tfhp
+  year: 2024
+  links: {paper: 'https://arxiv.org/abs/2310.00434'}
+  representation: [smpl-x]
+  summary: 1,052 videos of 588 subjects from lectures, online courses, interviews and news programs, with FLAME face parameters and head poses reconstructed per frame at 25 fps.
+  notes: Introduced in DiffPoseTalk (SIGGRAPH 2024; arXiv 2023). Includes 348 videos obtained via the HDTF download script. Faces reconstructed with MICA, SPECTRE and 6DRepNet; representation smpl-x here denotes FLAME. Requested through a contact form. Language and license are not stated.
+  added: '2026-10-02'
+  verified: false
+  name: TFHP (Talking Face with Head Poses)
+  modalities: [video, audio, face-motion]
+  capture: pose-estimation
+  hours: 26.5
+  speakers: 588
+  access: on-request
 
-- {id: celebv-hq, added: '2026-10-02', verified: false, name: CelebV-HQ}
+- id: celebv-hq
+  year: 2022
+  links: {paper: 'https://arxiv.org/abs/2207.12393'}
+  representation: [video-pixels]
+  summary: 35,666 in-the-wild face video clips of 15,653 identities, at least 512x512 resolution, sourced from the internet and manually labeled with 83 appearance, action and emotion attributes.
+  notes: 'ECCV 2022. Duration is stated as about 65 hours. Distributed as YouTube ids plus a download and processing script. Audio and spoken languages are not stated. capture left out: the data is raw video with no motion capture or pose estimation.'
+  added: '2026-10-02'
+  verified: false
+  name: CelebV-HQ
+  modalities: [video, annotations]
+  hours: 65
+  access: open
+  license: Non-commercial research use only
 
-- {id: hdtf, added: '2026-10-02', verified: false, name: HDTF}
+- id: hdtf
+  year: 2021
+  links: {paper: 'https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Flow-Guided_One-Shot_Talking_Face_Generation_With_a_High-Resolution_Audio-Visual_Dataset_CVPR_2021_paper.pdf'}
+  representation: [video-pixels]
+  setting: [monologue]
+  summary: In-the-wild 720P/1080P talking-face videos collected from YouTube, distributed as YouTube URLs with timestamps and face-crop coordinates.
+  notes: CVPR 2021 (Flow-guided One-shot Talking Face Generation with a High-resolution Audio-visual Dataset). Search snippets give about 362 videos and 15.8 hours, and 300+ identities; another summary gives 410 videos and 16 hours. Users download and crop the videos themselves. Spoken language not stated.
+  added: '2026-10-02'
+  verified: false
+  name: HDTF (High-Definition Talking Face)
+  modalities: [audio, video]
+  hours: 15.8
+  access: open
+  license: CC BY 4.0
 
-- {id: avspeech, added: '2026-10-02', verified: false, name: AVSpeech}
+- id: avspeech
+  year: 2018
+  links: {paper: 'https://arxiv.org/abs/1804.03619'}
+  representation: [video-pixels]
+  setting: [monologue]
+  summary: Roughly 4700 hours of 3-10 second YouTube clips (lectures and how-to videos) in which a single visible person is speaking, selected automatically by face detection and speech quality filtering.
+  notes: Introduced with 'Looking to Listen at the Cocktail Party' (SIGGRAPH 2018). Distributed as CSV files of YouTube IDs, segment times and face centre coordinates; videos must be fetched from YouTube. Speaker count is the paper's approximate figure (~150,000). The paper says it spans many languages but gives no list. No body-motion capture; capture field omitted.
+  added: '2026-10-02'
+  verified: false
+  name: AVSpeech
+  modalities: [audio, video]
+  hours: 4700
+  speakers: 150000
+  access: open
+  license: CC BY 4.0 (annotations, Google LLC)
 
 - id: wb-dh
-  links: {}
+  year: 2025
+  links: {paper: 'https://arxiv.org/abs/2508.08891'}
+  representation: [video-pixels]
+  summary: Benchmark of whole-body talking-avatar video clips with body segmentation, landmarks, region bounding boxes, motion text and speech transcriptions for evaluating whole-body avatar generation.
+  notes: Preview paper, arXiv 2508.08891. Reports 2M clips, over 10,000 identities, 20K clips sampled for testing. Access by emailing the authors and filling a form for academic use. Video source and spoken language not stated.
   added: '2026-10-02'
   verified: false
-  name: Whole-Body Benchmark Dataset (WB-DH)
+  name: WB-DH (Whole Body Digital Human Bench)
+  modalities: [video, text, annotations]
+  access: on-request
+  license: MIT (repository)
 
 - id: venus
-  links: {}
+  year: 2025
+  links: {paper: 'https://aclanthology.org/2025.acl-long.112/'}
+  representation: [smpl-x]
+  setting: [dyadic]
+  languages: [en]
+  summary: 14,910 hours of two-person English YouTube podcast conversations (89,459 dialogues from 27,128 videos) with word-aligned WhisperX transcripts and pseudo-ground-truth FLAME face and SMPL-X body and hand parameters estimated with EMOCA-v2 and OSX.
+  notes: Kim et al., Speaking Beyond Language (ACL 2025), arXiv 2506.00958. Only video IDs are released, not raw video. Released in subsets (VENUS-1K, 5K, 10K, 25K; larger ones announced). The arXiv HTML mentions CC BY-NC-ND 4.0, likely the paper license; check. Number of distinct speakers not stated.
   added: '2026-10-02'
   verified: false
   name: VENUS
+  modalities: [text, body-motion, hand-motion, face-motion]
+  capture: pose-estimation
+  hours: 14910
+  access: open
+  license: CC-BY-4.0 (annotations, per Hugging Face card)
 
 - id: finedance
-  links: {}
+  year: 2023
+  links: {paper: 'https://arxiv.org/abs/2212.03741'}
+  representation: [smpl-x]
+  summary: Music-dance paired dataset of 22 dance genres performed by professional dancers, captured with a Vicon optical motion capture system including fine-grained hand motion.
+  notes: ICCV 2023. Dance, not speech; audio is music. 346 song-dance pairs. Released motion is in SMPL-H format; the repository download covers 7.7 hours. The project page carries a CC BY-SA 4.0 notice, but it is unclear whether it covers the data.
   added: '2026-10-02'
   verified: false
   name: FineDance
+  modalities: [audio, body-motion, hand-motion, annotations]
+  capture: mocap
+  hours: 14.6
+  access: open
 
 - id: ted-culture
-  links: {}
+  year: 2024
+  links: {paper: 'https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1546765/full'}
+  representation: [joints-3d]
+  setting: [monologue]
+  languages: [id, ja, de, it, fr, tr]
+  summary: 2,797 clips (17.5 hours) of TEDx talks in six languages by 183 speakers, with 3D upper-body and finger joints estimated by ExPose following the TED-Expressive pipeline, plus audio and auto-generated subtitles.
+  notes: Zenodo release December 2024; paper Shen and Johal, Frontiers in Robotics and AI, 2025. Subtitles have no word-level alignment. License not shown on the Zenodo page.
   added: '2026-10-02'
   verified: false
   name: TED-Culture Dataset
+  modalities: [audio, text, body-motion, hand-motion]
+  capture: pose-estimation
+  hours: 17.5
+  speakers: 183
+  access: open
 
 - id: allo-ava
-  links: {}
+  year: 2024
+  links: {paper: 'https://arxiv.org/abs/2410.16503'}
+  representation: [joints-3d]
+  setting: [monologue, dyadic, multi-party]
+  languages: [en]
+  summary: About 1,250 hours of English YouTube videos (TED talks, interviews, panel discussions, presentations) of many speakers, with Whisper transcripts, OpenPose and MediaPipe keypoints, and gesture and emotion labels.
+  notes: Paper (Punjwani and Heck, arXiv 2024) reports about 7,500 videos; speaker count not stated. Keypoints are reported as x, y, z from OpenPose (18 body points) and MediaPipe (33 points), i.e. monocular estimates, not a calibrated 3D skeleton. Setting list is inferred from the video categories (talks 40%, interviews 30%, panels 20%, presentations 10%).
   added: '2026-10-02'
   verified: false
   name: Allo-AVA
+  modalities: [video, audio, text, body-motion, face-motion, annotations]
+  capture: pose-estimation
+  hours: 1250
+  access: open
+  license: CC BY 4.0
 
 - id: hoco
-  links: {}
+  year: 2024
+  links: {paper: 'https://arxiv.org/abs/2403.19467'}
+  representation: [smpl-x, video-pixels]
+  setting: [dyadic]
+  summary: 22,913 YouTube clips (45 hours) of two-person talk shows and conversations, with audio, aligned transcripts, PyMAF-X SMPL-X pseudo-ground truth for speaker and listener, and speaker-position and listener-emotion labels.
+  notes: 'Introduced in ''Beyond Talking: Generating Holistic 3D Human Dyadic Motion for Communication'' (arXiv 2024). The paper says the dataset will be released upon acceptance; no release was found, so access is left out. Languages are not stated.'
   added: '2026-10-02'
   verified: false
   name: HoCo
+  modalities: [video, audio, text, body-motion, hand-motion, face-motion, annotations]
+  capture: pose-estimation
+  hours: 45
+  speakers: 26
+  license: CC BY-NC-SA 4.0 (as stated in the paper)
 
-- {id: mentor, added: '2026-10-02', verified: false, name: MENTOR}
-
-- {id: talkinghead-1kh, added: '2026-10-02', verified: false, name: TalkingHead-1KH}
-
-- id: bige
-  links: {}
+- id: mentor
+  year: 2024
+  links: {paper: 'https://arxiv.org/abs/2403.08764'}
+  representation: [video-pixels, other]
+  setting: [monologue]
+  languages: [en]
+  summary: Internal Google video collection of single speakers filmed mostly torso-up facing the camera, with estimated 3D body, hand and face fits from a statistical body model.
+  notes: Introduced in the VLOGGER paper (arXiv 2024). Hours = 2.2K training hours plus a 120-hour test set; training covers about 800K identities and the test set about 4K. Speech is 'mostly in English'. The paper says the authors 'aim to release' video ids, face fits and body poses; no release was found, so access is left out.
   added: '2026-10-02'
   verified: false
-  name: BiGe dataset
+  name: MENTOR
+  modalities: [video, audio, body-motion, hand-motion, face-motion]
+  capture: pose-estimation
+  hours: 2320
+
+- id: talkinghead-1kh
+  year: 2021
+  links: {paper: 'https://arxiv.org/abs/2011.15126'}
+  representation: [video-pixels]
+  summary: About 500k face-cropped talking-head video clips from Creative Commons YouTube videos, released as download and cropping scripts.
+  notes: Introduced with face-vid2vid, 'One-Shot Free-View Neural Talking-Head Synthesis for Video Conferencing' (CVPR 2021). The paper describes about 1000 hours of video; the public release's clip counts differ from the paper because of different preprocessing. About 80k clips exceed 512x512. No pose or motion annotations, so capture is left out. Languages and speaker count are not stated.
+  added: '2026-10-02'
+  verified: false
+  name: TalkingHead-1KH
+  modalities: [video]
+  hours: 1000
+  access: open
+  license: Videos CC BY 3.0 (YouTube); metadata and scripts MIT
+
+- id: bige
+  year: 2023
+  links: {paper: 'https://dl.acm.org/doi/pdf/10.1145/3577190.3614135'}
+  representation: [joints-3d]
+  setting: [monologue]
+  summary: 3D full-body and hand keypoints (59 joints) tracked from 2,756 TED and TEDx YouTube talks with AlphaPose, VideoPose3D and MediaPipe Hands, with word-timed subtitles, filtered from 1,021 hours of video to 260.6 hours.
+  notes: Introduced with AQ-GT (Voss and Kopp, ICMI 2023, arXiv 2305.01241). Released via the AQGT repository (https://github.com/hvoss-techfak/AQGT), whose README states the data are CC BY-NC 3.0; training data about 300 GB. TEDx part is multilingual but languages are not listed; speaker count not stated.
+  added: '2026-10-02'
+  verified: false
+  name: BiGe
+  modalities: [audio, text, body-motion, hand-motion]
+  capture: pose-estimation
+  hours: 260.6
+  access: open
+  license: CC BY-NC 3.0
 
 - id: ted-emotion
-  links: {}
+  year: 2023
+  links: {paper: 'https://arxiv.org/abs/2305.18891'}
+  representation: [joints-3d]
+  setting: [monologue]
+  summary: Upper-body 3D gesture clips of more than 1.7K TED speakers, estimated from TED talk videos with ExPose (43 joints, 15 fps) and labeled with emotions by an audio emotion classifier trained on BEAT.
+  notes: 'Introduced in "EmotionGesture: Audio-Driven Diverse Emotional Co-Speech 3D Gesture Generation" (arXiv 2305.18891; IEEE TMM per the repository). 107,468 clips of 60 frames before filtering, 78,734 after. Speakers is the stated lower bound "more than 1.7K". Language and license not stated.'
   added: '2026-10-02'
   verified: false
   name: TED Emotion
+  modalities: [audio, body-motion, annotations]
+  capture: pose-estimation
+  speakers: 1700
+  access: open
 
 - id: mcgd
-  links: {}
+  year: 2023
+  links: {paper: 'https://dl.acm.org/doi/10.1145/3581783.3611705'}
+  setting: [monologue]
+  summary: Co-speech gesture dataset spanning ten cultures, over 200 speakers and 10,000 segmented sequences, introduced with the CSGN culture-adaptive gesture generation network.
+  notes: ACM Multimedia 2023 (Wu et al., Cultural Self-Adaptive Multimodal Gesture Generation Based on Multiple Culture Gesture Dataset). The paper calls it freely available, but the SICAGE paper (arXiv 2606.30001) reports it as not public. Capture method, modalities and languages not confirmed; setting assumed from single-speaker clips and should be checked.
   added: '2026-10-02'
   verified: false
   name: Multiple Culture Gesture Dataset (MCGD)
 
-- {id: jestkod, added: '2026-10-02', verified: false, name: JESTKOD}
-
-- {id: gest-is, added: '2026-10-02', verified: false, name: Gest-IS corpus}
-
-- {id: creativeit, added: '2026-10-02', verified: false, name: USC CreativeIT database}
-
-- id: eva-corpus
-  links: {}
+- id: jestkod
+  year: 2015
+  links: {paper: 'https://doi.org/10.1007/s10579-016-9377-0'}
+  setting: [dyadic]
+  languages: [tr]
+  summary: Speech and full-body motion capture of 10 native Turkish speakers in five dyads holding agreement and disagreement conversations, with each participant's recordings rated in dimensional affect space.
+  notes: 'First presented at SIU 2015 (''JESTKOD database: Dyadic interaction analysis'', Bozkurt et al.); full description in Language Resources and Evaluation (2016). The Springer abstract was not reachable; participant count and language come from search-result abstracts. A 2026 Scientific Data paper (Multi-TPC) reports 4.3 hours over 188 sessions, not confirmed from the original. Access and license not found.'
   added: '2026-10-02'
   verified: false
-  name: EVA Corpus
+  name: JESTKOD database
+  modalities: [audio, video, body-motion, annotations]
+  capture: mocap
+  speakers: 10
+
+- id: gest-is
+  year: 2018
+  setting: [dyadic]
+  languages: [en]
+  summary: Nine face-to-face English dialogues (about 50 minutes) between a man and a woman describing places, people, two-person scenes and toy assembly, annotated for gesture phases, gesture types and communicativeness.
+  notes: 'Only known through citations: Saint-Amand, K., ''Gest-IS: Multi-lingual corpus of gesture and information structure'', unpublished report (2018), as cited by Yunus et al. 2020 (https://arxiv.org/abs/2008.07643), which gives the figures above for the English part. No official page, paper or download found; access unknown. Hours and speakers cover the English subcorpus only.'
+  added: '2026-10-02'
+  verified: false
+  name: Gest-IS (Multi-lingual Corpus of Gesture and Information Structure)
+  modalities: [audio, video, annotations]
+  hours: 0.83
+  speakers: 2
+
+- id: creativeit
+  year: 2010
+  links: {paper: 'https://sail.usc.edu/publications/files/creativeit_database_mmc2010.pdf'}
+  setting: [dyadic]
+  summary: Dyadic theatrical improvisations by 16 actors, recorded with full-body Vicon motion capture, video and close-up microphones, with discrete and time-continuous dimensional emotion annotations.
+  notes: Introduced at Multimodal Corpora 2010; extended description in Metallinou et al., Language Resources and Evaluation 50(3), 2016 (online 2015). Interactions last 2-10 minutes; about 8 sessions released. The release page says mocap is included for one interlocutor per recording, while the journal paper describes mocap of both participants. Spoken language not confirmed from a primary source.
+  added: '2026-10-02'
+  verified: false
+  name: USC CreativeIT database
+  modalities: [audio, text, video, body-motion, annotations]
+  capture: mocap
+  speakers: 16
+  access: on-request
+  license: Release form must be accepted before access
+
+- id: eva-corpus
+  year: 2020
+  links: {paper: 'https://doi.org/10.1007/s10579-022-09627-y'}
+  representation: [video-pixels]
+  setting: [multi-party]
+  languages: [sl]
+  summary: A 57-minute episode of a Slovenian multiparty TV talk show with audio, video and orthographic transcripts, annotated in ELAN for sentiment, dialogue acts, discourse markers, emotions, gesture units and gesture phrases.
+  notes: Released on CLARIN.SI in 2020 (Mlakar, Majhenič, Rojc, Verdonik); described in Language Resources and Evaluation (2022). Gestures are annotated on video, not motion captured, so capture is omitted. Speaker count not stated on the pages read.
+  added: '2026-10-02'
+  verified: false
+  name: EVA Corpus (Multimodal corpus EVA 1.0)
+  modalities: [audio, video, text, annotations]
+  hours: 0.95
+  access: open
+  license: CC BY-SA 4.0

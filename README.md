@@ -1056,69 +1056,69 @@ Papers whose main contribution is a dataset. The datasets themselves are compare
 <!-- BEGIN:datasets -->
 | Dataset | Year | Modalities | Capture | Hours | Languages | Setting | Access | Papers here using it |
 |---|---|---|---|---|---|---|---|---|
-| BEAT2 (BEATX) |  |  |  |  |  |  |  | 59 |
-| BEAT |  |  |  |  |  |  |  | 47 |
-| Trinity Speech-Gesture Dataset |  |  |  |  |  |  |  | 25 |
-| TalkSHOW dataset (SHOW) |  |  |  |  |  |  |  | 23 |
-| ZeroEGGS dataset (ZEGGS) |  |  |  |  |  |  |  | 21 |
-| TED Gesture |  |  |  |  |  |  |  | 20 |
-| GENEA Challenge 2023 data |  |  |  |  |  |  |  | 19 |
-| PATS (Pose, Audio, Transcript, Style) |  |  |  |  |  |  |  | 19 |
-| TED Expressive |  |  |  |  |  |  |  | 14 |
-| GENEA Challenge 2022 data |  |  |  |  |  |  |  | 12 |
-| HumanML3D |  |  |  |  |  |  |  | 11 |
-| Talking With Hands 16.2M |  |  |  |  |  |  |  | 10 |
-| Speech2Gesture (speaker-specific gesture dataset) |  |  |  |  |  |  |  | 7 |
-| AMASS |  |  |  |  |  |  |  | 5 |
-| SaGA (Bielefeld Speech and Gesture Alignment corpus) |  |  |  |  |  |  |  | 5 |
-| Audio2Photoreal conversations dataset |  |  |  |  |  |  |  | 4 |
-| GENEA Challenge 2020 data |  |  |  |  |  |  |  | 4 |
-| HDTF |  |  |  |  |  |  |  | 4 |
-| Seamless Interaction |  |  |  |  |  |  |  | 3 |
-| Trinity Speech-Gesture Dataset II |  |  |  |  |  |  |  | 3 |
-| AIST++ |  |  |  |  |  |  |  | 2 |
-| Allo-AVA |  |  |  |  |  |  |  | 2 |
-| CelebV-HQ |  |  |  |  |  |  |  | 2 |
-| DnD Group Gesture |  |  |  |  |  |  |  | 2 |
-| Embody 3D |  |  |  |  |  |  |  | 2 |
-| Embody3D |  |  |  |  |  |  |  | 2 |
-| EVA Corpus |  |  |  |  |  |  |  | 2 |
-| InterAct |  |  |  |  |  |  |  | 2 |
-| MM-Conv |  |  |  |  |  |  |  | 2 |
-| AffectMoCap |  |  |  |  |  |  |  | 1 |
-| AVSpeech |  |  |  |  |  |  |  | 1 |
-| BiGe dataset |  |  |  |  |  |  |  | 1 |
-| CNAS (Chinese News Anchor Speech dataset) |  |  |  |  |  |  |  | 1 |
-| CSG-405 |  |  |  |  |  |  |  | 1 |
-| FineDance |  |  |  |  |  |  |  | 1 |
-| GES-Inter |  |  |  |  |  |  |  | 1 |
-| Gest-IS corpus |  |  |  |  |  |  |  | 1 |
-| HoCo |  |  |  |  |  |  |  | 1 |
-| IEMOCAP |  |  |  |  |  |  |  | 1 |
-| JESTKOD |  |  |  |  |  |  |  | 1 |
-| MENTOR |  |  |  |  |  |  |  | 1 |
-| Multi-TPC |  |  |  |  |  |  |  | 1 |
-| Multiple Culture Gesture Dataset (MCGD) |  |  |  |  |  |  |  | 1 |
-| ReactMotionNet |  |  |  |  |  |  |  | 1 |
-| RoboGesture dataset |  |  |  |  |  |  |  | 1 |
-| SAMP (Stochastic Scene-Aware Motion Prediction) sitting dataset |  |  |  |  |  |  |  | 1 |
-| SceneGes |  |  |  |  |  |  |  | 1 |
-| SeG (semantic gesture dataset) |  |  |  |  |  |  |  | 1 |
-| Semantix |  |  |  |  |  |  |  | 1 |
-| SIG-Chat |  |  |  |  |  |  |  | 1 |
-| Streamer |  |  |  |  |  |  |  | 1 |
-| TalkingHead-1KH |  |  |  |  |  |  |  | 1 |
-| TED Emotion |  |  |  |  |  |  |  | 1 |
-| TED-Culture Dataset |  |  |  |  |  |  |  | 1 |
-| TED4C-L |  |  |  |  |  |  |  | 1 |
-| TFHP |  |  |  |  |  |  |  | 1 |
-| USC CreativeIT database |  |  |  |  |  |  |  | 1 |
-| VENUS |  |  |  |  |  |  |  | 1 |
-| Whole-Body Benchmark Dataset (WB-DH) |  |  |  |  |  |  |  | 1 |
-| CMU Panoptic (Haggling) |  |  |  |  |  |  |  | 0 |
-| Motion-X |  |  |  |  |  |  |  | 0 |
-| ViCo (listening head dataset) |  |  |  |  |  |  |  | 0 |
-| YouTube Gesture Dataset |  |  |  |  |  |  |  | 0 |
+| [BEAT2 (BEAT-SMPLX-FLAME)](https://arxiv.org/abs/2401.00374) | 2024 | audio, text, body-motion, hand-motion, face-motion | mocap | 60 |  | monologue, dyadic | open | 59 |
+| [BEAT (Body-Expression-Audio-Text)](https://arxiv.org/abs/2203.05297) | 2022 | audio, text, body-motion, hand-motion, face-motion, annotations | mocap | 76 | en, zh, es, ja | monologue, dyadic | open | 47 |
+| [Trinity Speech-Gesture Dataset](http://www.tara.tcd.ie/handle/2262/91094) | 2018 | audio, body-motion, hand-motion | mocap | 4.07 | en | monologue | on-request | 25 |
+| [SHOW (TalkSHOW dataset)](https://arxiv.org/abs/2212.04420) | 2023 | audio, body-motion, hand-motion, face-motion | pose-estimation | 26.9 |  |  | open | 23 |
+| [ZEGGS dataset (ZeroEGGS)](https://onlinelibrary.wiley.com/doi/10.1111/cgf.14734) | 2022 | audio, body-motion, hand-motion | mocap | 2.24 | en | monologue | open | 21 |
+| [TED Gesture Dataset](https://arxiv.org/abs/2009.02119) | 2020 | audio, text, body-motion | pose-estimation | 97 |  | monologue | open | 20 |
+| [GENEA Challenge 2023 dataset](https://arxiv.org/abs/2308.12646) | 2023 | audio, text, body-motion, hand-motion | mocap | 18 | en | dyadic | open | 19 |
+| [PATS (Pose, Audio, Transcript, Style)](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630239.pdf) | 2020 | audio, text, body-motion | pose-estimation | 251 |  | monologue | open | 19 |
+| [TED-Expressive](https://arxiv.org/abs/2203.13161) | 2022 | audio, text, video, body-motion, hand-motion | pose-estimation | 100.8 |  | monologue | open | 14 |
+| [GENEA Challenge 2022 dataset](https://arxiv.org/abs/2208.10441) | 2022 | audio, text, body-motion, hand-motion | mocap | 19.3 | en | dyadic | open | 12 |
+| [HumanML3D](https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_Generating_Diverse_and_Natural_3D_Human_Motions_From_Text_CVPR_2022_paper.pdf) | 2022 | text, body-motion | mocap | 28.59 |  |  | open | 11 |
+| [Talking With Hands 16.2M](https://openaccess.thecvf.com/content_ICCV_2019/papers/Lee_Talking_With_Hands_16.2M_A_Large-Scale_Dataset_of_Synchronized_Body-Finger_ICCV_2019_paper.pdf) | 2019 | audio, body-motion, hand-motion | mocap | 50 |  | dyadic | open | 10 |
+| [Speech2Gesture dataset](https://arxiv.org/abs/1906.04160) | 2019 | audio, video, body-motion, hand-motion | pose-estimation | 144 |  | monologue | open | 7 |
+| AMASS (Archive of Motion Capture As Surface Shapes) | 2019 | body-motion | mocap | 40 |  |  | on-request | 5 |
+| [SaGA (Bielefeld Speech and Gesture Alignment Corpus)](https://link.springer.com/article/10.1007/s12193-012-0106-8) | 2014 | audio, video, annotations |  | 1.13 | de | dyadic | on-request | 5 |
+| [Audio2Photoreal conversations dataset](https://arxiv.org/abs/2401.01885) | 2024 | audio, video, body-motion, face-motion | mocap | 8 |  | dyadic | open | 4 |
+| [GENEA Challenge 2020 dataset](https://arxiv.org/abs/2102.11617) | 2020 | audio, text, body-motion | mocap | 4.07 | en | monologue | on-request | 4 |
+| [HDTF (High-Definition Talking Face)](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Flow-Guided_One-Shot_Talking_Face_Generation_With_a_High-Resolution_Audio-Visual_Dataset_CVPR_2021_paper.pdf) | 2021 | audio, video |  | 15.8 |  | monologue | open | 4 |
+| [Seamless Interaction Dataset](https://arxiv.org/abs/2506.22554) | 2025 | audio, text, video, body-motion, hand-motion, face-motion, annotations | pose-estimation | 4000 |  | dyadic | open | 3 |
+| Trinity Speech-Gesture Dataset II (TSGD2) |  | audio, body-motion, hand-motion, annotations | mocap | 6 | en | monologue | open | 3 |
+| [AIST++](https://arxiv.org/abs/2101.08779) | 2021 | video, audio, body-motion | pose-estimation | 5.2 |  |  | open | 2 |
+| [Allo-AVA](https://arxiv.org/abs/2410.16503) | 2024 | video, audio, text, body-motion, face-motion, annotations | pose-estimation | 1250 | en | monologue, dyadic, multi-party | open | 2 |
+| [CelebV-HQ](https://arxiv.org/abs/2207.12393) | 2022 | video, annotations |  | 65 |  |  | open | 2 |
+| [DnD Group Gesture Dataset](https://openaccess.thecvf.com/content/CVPR2024/html/Mughal_ConvoFusion_Multi-Modal_Conversational_Diffusion_for_Co-Speech_Gesture_Synthesis_CVPR_2024_paper.html) | 2024 | audio, text, video, body-motion, hand-motion, annotations | mocap | 6 | en | multi-party | open | 2 |
+| [Embody 3D](https://arxiv.org/abs/2510.16258) | 2025 | audio, text, body-motion, hand-motion, annotations | pose-estimation | 500 |  | dyadic, multi-party | on-request | 2 |
+| [Embody 3D](https://arxiv.org/abs/2510.16258) | 2025 | audio, text, body-motion, hand-motion, annotations | pose-estimation | 500 |  | monologue, multi-party | on-request | 2 |
+| [EVA Corpus (Multimodal corpus EVA 1.0)](https://doi.org/10.1007/s10579-022-09627-y) | 2020 | audio, video, text, annotations |  | 0.95 | sl | multi-party | open | 2 |
+| [InterAct](https://arxiv.org/abs/2509.05747) | 2025 | audio, text, body-motion, hand-motion, face-motion, annotations | mocap | 10 | en | dyadic | open | 2 |
+| [MM-Conv](https://arxiv.org/abs/2410.00253) | 2024 | audio, text, body-motion, hand-motion, face-motion | mocap | 6.7 |  | dyadic | open | 2 |
+| [AffectMoCap](https://arxiv.org/abs/2609.33311) | 2026 | audio, text, body-motion, hand-motion, annotations | mocap | 4 |  | monologue | unavailable | 1 |
+| [AVSpeech](https://arxiv.org/abs/1804.03619) | 2018 | audio, video |  | 4700 |  | monologue | open | 1 |
+| [BiGe](https://dl.acm.org/doi/pdf/10.1145/3577190.3614135) | 2023 | audio, text, body-motion, hand-motion | pose-estimation | 260.6 |  | monologue | open | 1 |
+| [Chinese News Anchor Speech Dataset (CNAS)](https://arxiv.org/abs/2505.03603) | 2025 | audio, video, body-motion, hand-motion | pose-estimation | 10.2 | zh | monologue | unavailable | 1 |
+| [CSG-405](https://arxiv.org/abs/2507.06812) | 2025 | video, audio, body-motion, hand-motion, face-motion | pose-estimation | 405 |  |  |  | 1 |
+| [FineDance](https://arxiv.org/abs/2212.03741) | 2023 | audio, body-motion, hand-motion, annotations | mocap | 14.6 |  |  | open | 1 |
+| [GES-Inter](https://arxiv.org/abs/2505.01746) | 2025 | audio, text, body-motion, hand-motion, face-motion, annotations | pose-estimation | 70 | en | dyadic | open | 1 |
+| Gest-IS (Multi-lingual Corpus of Gesture and Information Structure) | 2018 | audio, video, annotations |  | 0.83 | en | dyadic |  | 1 |
+| [HoCo](https://arxiv.org/abs/2403.19467) | 2024 | video, audio, text, body-motion, hand-motion, face-motion, annotations | pose-estimation | 45 |  | dyadic |  | 1 |
+| IEMOCAP (Interactive Emotional Dyadic Motion Capture database) | 2008 | audio, video, text, face-motion, hand-motion, annotations | mocap | 12 | en | dyadic | on-request | 1 |
+| [JESTKOD database](https://doi.org/10.1007/s10579-016-9377-0) | 2015 | audio, video, body-motion, annotations | mocap |  | tr | dyadic |  | 1 |
+| [MENTOR](https://arxiv.org/abs/2403.08764) | 2024 | video, audio, body-motion, hand-motion, face-motion | pose-estimation | 2320 | en | monologue |  | 1 |
+| [Multi-TPC](https://www.nature.com/articles/s41597-026-06819-x) | 2025 | audio, text, body-motion, annotations | mocap | 5.3 |  | multi-party | open | 1 |
+| [Multiple Culture Gesture Dataset (MCGD)](https://dl.acm.org/doi/10.1145/3581783.3611705) | 2023 |  |  |  |  | monologue |  | 1 |
+| [ReactMotionNet](https://arxiv.org/abs/2603.15083) | 2026 | audio, text, body-motion, annotations | mixed |  | en | dyadic | open | 1 |
+| [RoboGesture dataset](https://arxiv.org/abs/2608.28693) | 2026 | audio, text, body-motion, hand-motion, annotations | mixed | 1000 |  |  |  | 1 |
+| [SAMP dataset](https://openaccess.thecvf.com/content/ICCV2021/html/Hassan_Stochastic_Scene-Aware_Motion_Prediction_ICCV_2021_paper.html) | 2021 | body-motion | mocap | 1.7 |  |  | on-request | 1 |
+| [SceneGes](https://arxiv.org/abs/2609.00369) | 2026 | body-motion, hand-motion, face-motion | synthetic | 0.47 |  |  | unavailable | 1 |
+| [SeG (Semantic Gesture dataset)](https://arxiv.org/abs/2405.09814) | 2024 | body-motion, hand-motion, annotations | mocap |  |  |  | open | 1 |
+| [Semantix](https://arxiv.org/abs/2605.30608) | 2026 | body-motion, hand-motion, text, annotations | mixed |  |  |  |  | 1 |
+| [SIG-Chat](https://arxiv.org/abs/2509.23852) | 2025 | audio, text, body-motion, hand-motion, annotations | mocap | 9 | zh, en | dyadic |  | 1 |
+| [Streamer](https://arxiv.org/abs/2507.22731) | 2025 | audio, body-motion, hand-motion | pose-estimation | 58 | zh | monologue | open | 1 |
+| [TalkingHead-1KH](https://arxiv.org/abs/2011.15126) | 2021 | video |  | 1000 |  |  | open | 1 |
+| [TED Emotion](https://arxiv.org/abs/2305.18891) | 2023 | audio, body-motion, annotations | pose-estimation |  |  | monologue | open | 1 |
+| [TED-Culture Dataset](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1546765/full) | 2024 | audio, text, body-motion, hand-motion | pose-estimation | 17.5 | id, ja, de, it, fr, tr | monologue | open | 1 |
+| [TED4C-L](https://arxiv.org/abs/2606.30001) | 2026 | audio, text, body-motion | pose-estimation | 106.45 | hi, it, ja, tr | monologue | open | 1 |
+| [TFHP (Talking Face with Head Poses)](https://arxiv.org/abs/2310.00434) | 2024 | video, audio, face-motion | pose-estimation | 26.5 |  |  | on-request | 1 |
+| [USC CreativeIT database](https://sail.usc.edu/publications/files/creativeit_database_mmc2010.pdf) | 2010 | audio, text, video, body-motion, annotations | mocap |  |  | dyadic | on-request | 1 |
+| [VENUS](https://aclanthology.org/2025.acl-long.112/) | 2025 | text, body-motion, hand-motion, face-motion | pose-estimation | 14910 | en | dyadic | open | 1 |
+| [WB-DH (Whole Body Digital Human Bench)](https://arxiv.org/abs/2508.08891) | 2025 | video, text, annotations |  |  |  |  | on-request | 1 |
+| [CMU Panoptic Studio Haggling dataset](https://arxiv.org/abs/1906.04158) | 2019 | audio, video, body-motion, hand-motion, face-motion, annotations | mocap | 3 |  | multi-party | open | 0 |
+| [Motion-X](https://arxiv.org/abs/2307.00818) | 2023 | text, body-motion, hand-motion, face-motion, annotations | mixed |  |  |  | on-request | 0 |
+| [ViCo](https://arxiv.org/abs/2112.13548) | 2022 | audio, video, face-motion, annotations | pose-estimation | 1.6 |  | dyadic | open | 0 |
+| [YouTube Gesture Dataset](https://arxiv.org/abs/1810.12541) | 2019 | text, body-motion, hand-motion, face-motion | pose-estimation | 106.1 | en | monologue | open | 0 |
 <!-- END:datasets -->
 
 ## Evaluation metrics
@@ -1128,28 +1128,28 @@ Objective metrics reported by the papers above. Human evaluation is recorded per
 <!-- BEGIN:metrics -->
 | Metric | Also written | Measures | Better | What it computes | Papers here using it |
 |---|---|---|---|---|---|
-| Fréchet Gesture Distance | FGD |  |  |  | 138 |
-| Beat Alignment / Beat Consistency | BeatAlign, BA, BC, Beat Consistency Score |  |  |  | 115 |
-| Diversity (average feature or pose distance between generated clips) | Div |  |  |  | 109 |
-| Fréchet Inception Distance (on motion or image features) | FID |  |  |  | 47 |
-| Joint position or rotation error against ground truth | MAE, APE, MPJPE, L1, MSE |  |  |  | 42 |
-| Acceleration and jerk statistics | MAJE, MAD, Jerk |  |  |  | 30 |
-| Fréchet Video Distance | FVD |  |  |  | 30 |
-| Face vertex or blendshape error | LVD, MSE (face), vertex MSE |  |  |  | 29 |
-| Frame-level image quality | PSNR, SSIM, LPIPS |  |  |  | 27 |
-| Lip synchronisation confidence or distance | Sync-C, Sync-D, LSE-C, LSE-D |  |  |  | 24 |
-| L1 Diversity | L1div |  |  |  | 18 |
-| Semantic-Relevant Gesture Recall | SRGR |  |  |  | 16 |
-| Percentage of Correct Keypoints | PCK |  |  |  | 9 |
-| Retrieval precision of motion from text or speech | R-Precision |  |  |  | 8 |
-| Multimodality (variation for the same input) | MM |  |  |  | 7 |
-| Fréchet Motion Distance | FMD |  |  |  | 6 |
-| Velocity histogram distance (Hellinger distance) | HD |  |  |  | 6 |
-| Canonical Correlation Analysis against ground truth | CCA |  |  |  | 4 |
-| Gesture Cluster Affinity | GCA |  |  |  | 1 |
-| Retrieval Recall@K (R@1, R@5, R@10) |  |  |  |  | 1 |
-| Smooth Beat Consistency (Smooth-BC) |  |  |  |  | 1 |
-| Workspace Violation |  |  |  |  | 1 |
+| Fréchet Gesture Distance | FGD | realism | lower | Computes the Fréchet distance between Gaussians fitted to latent features of real and generated gesture sequences, using the encoder of a pose-sequence autoencoder as the feature extractor. | 138 |
+| Beat Alignment / Beat Consistency | BeatAlign, BA, BC, Beat Consistency Score, Beat Alignment Score | synchrony | higher | Detects motion beats (kinematic or bone-angle-change extrema) and audio beats (onsets) and averages a Gaussian-weighted distance between each beat and its nearest beat in the other stream. | 115 |
+| Diversity (average feature or pose distance between generated clips) | Div | diversity | higher | Encodes generated gesture clips with the same feature extractor used for FGD and averages the feature distance over randomly paired clips. | 109 |
+| Fréchet Inception Distance (on motion or image features) | FID | realism | lower | Fits Gaussians to deep features of real and generated samples and computes the Fréchet distance between them from their means and covariances. | 47 |
+| Joint position or rotation error against ground truth | MAE, APE, MPJPE, L1, MSE | accuracy | lower | Averages the distance (L1, L2 or squared) between generated and ground-truth joint positions or rotations over joints and frames. | 42 |
+| Acceleration and jerk statistics | MAJE, MAD, Jerk, Average jerk, Average acceleration | smoothness | closer-to-reference | Averages the magnitude of the second and third time derivatives of joint positions (acceleration and jerk) over generated motion, for comparison with the same statistics of natural motion. | 30 |
+| Fréchet Video Distance | FVD | realism | lower | Computes the Fréchet distance between distributions of real and generated videos embedded with an I3D network pretrained on action recognition. | 30 |
+| Face vertex or blendshape error | LVD, LVE, Lip Vertex Error, MSE (face), vertex MSE | accuracy | lower | Measures geometric error of generated face meshes against ground truth, typically the maximal L2 error over lip vertices per frame averaged over all test frames. | 29 |
+| Frame-level image quality | PSNR, SSIM, LPIPS | accuracy |  | Compares generated video frames to ground-truth frames with pixel error (PSNR), structural similarity (SSIM) or distance between deep network features (LPIPS). | 27 |
+| Lip synchronisation confidence or distance | Sync-C, Sync-D, LSE-C, LSE-D | synchrony |  | Feeds generated mouth crops and audio to a pretrained SyncNet and reports the average audio-visual embedding distance (LSE-D, lower is better) and the average sync confidence (LSE-C, higher is better). | 24 |
+| L1 Diversity | L1div, L1 Div. | diversity | higher | Splits generated motion into equal-length clips and averages the L1 distance between joint positions of every pair of clips. | 18 |
+| Semantic-Relevant Gesture Recall | SRGR, Semantic Relevance Gesture Recall | semantics | higher | Computes PCK against ground truth with each frame weighted by its annotated semantic-relevance score, so semantically relevant gestures count more. | 16 |
+| Percentage of Correct Keypoints | PCK | accuracy | higher | Counts a predicted keypoint as correct when it lies within alpha times the larger side of the person bounding box from the ground-truth keypoint and reports the fraction of correct keypoints. | 9 |
+| Retrieval precision of motion from text or speech | R-Precision, R-Prec, Top-1, Top-2, Top-3 | semantics | higher | Ranks the true condition among 31 mismatched ones by feature distance to each generated motion and reports how often it lands in the top 1, 2 or 3. | 8 |
+| Multimodality (variation for the same input) | MM | diversity |  | Averages the feature distance between several motions generated from the same input, measuring how varied the outputs are for one condition. | 7 |
+| Fréchet Motion Distance | FMD | realism | lower | Computes the Fréchet distance between latent feature distributions of real and generated holistic motion (expression plus gesture), extending FGD from body gestures to the whole motion. | 6 |
+| Velocity histogram distance (Hellinger distance) | HD, Hellinger distance, speed histogram distance | realism | lower | Builds histograms of joint speed for generated and natural motion and computes the Hellinger distance between them. | 6 |
+| Canonical Correlation Analysis against ground truth | CCA | accuracy | higher | Projects generated and reference poses onto a joint subspace with linear transformations chosen to maximise the Pearson correlation between them, and reports that correlation. | 4 |
+| Gesture Cluster Affinity | GCA |  | higher | A cluster-based score introduced with the RIDGE system that rates how well generated gestures fit the gesture clusters of the reference data, on which ground truth scores 0.90. | 1 |
+| Retrieval Recall@K (R@1, R@5, R@10) | R@K, Recall@K | semantics | higher | Embeds speech (or text) and motion with a contrastively trained model and reports the percentage of queries whose matching clip is among the top K retrieved results. | 1 |
+| Smooth Beat Consistency (Smooth-BC) | Smooth-BC | synchrony | higher | A beat consistency score whose motion beats are velocity minima that also satisfy a slope constraint, so jitter is not counted as rhythmic pauses aligned to audio beats. | 1 |
+| Workspace Violation |  | other | lower | Measures the maximum distance by which either wrist moves outside its prescribed workspace box, averaged over the test set. | 1 |
 <!-- END:metrics -->
 
 ## Contributing

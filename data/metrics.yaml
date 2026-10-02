@@ -3,123 +3,231 @@
 # Field rules: docs/SCHEMA.md (enforced by schema/schema.json and scripts/validate.py).
 
 - id: fgd
+  links: {paper: 'https://arxiv.org/abs/2009.02119', code: 'https://github.com/ai4r/Gesture-Generation-from-Trimodal-Context'}
+  summary: Computes the Fréchet distance between Gaussians fitted to latent features of real and generated gesture sequences, using the encoder of a pose-sequence autoencoder as the feature extractor.
   added: '2026-10-02'
   verified: false
   name: Fréchet Gesture Distance
   aka: [FGD]
+  measures: realism
+  better: lower
+  caveats: It ignores whether gestures match the input speech and can miss temporal discontinuities because the autoencoder smooths temporal noise, and its value depends on the feature extractor.
 
 - id: fid
+  links: {paper: 'https://arxiv.org/abs/1706.08500', code: 'https://github.com/bioinf-jku/TTUR'}
+  summary: Fits Gaussians to deep features of real and generated samples and computes the Fréchet distance between them from their means and covariances.
   added: '2026-10-02'
   verified: false
   name: Fréchet Inception Distance (on motion or image features)
   aka: [FID]
+  measures: realism
+  better: lower
+  caveats: The score computed on a finite sample is biased and the bias differs between models, so rankings can be unreliable.
 
 - id: fvd
+  links: {paper: 'https://arxiv.org/abs/1812.01717', code: 'https://github.com/google-research/google-research/tree/master/frechet_video_distance'}
+  summary: Computes the Fréchet distance between distributions of real and generated videos embedded with an I3D network pretrained on action recognition.
   added: '2026-10-02'
   verified: false
   name: Fréchet Video Distance
   aka: [FVD]
+  measures: realism
+  better: lower
+  caveats: FVD is biased toward per-frame quality over temporal realism and rises only slightly under large temporal corruption, because of its content-biased I3D features.
 
 - id: fmd
+  links: {paper: 'https://arxiv.org/abs/2401.04747', code: 'https://github.com/JeremyCJM/DiffSHEG'}
+  summary: Computes the Fréchet distance between latent feature distributions of real and generated holistic motion (expression plus gesture), extending FGD from body gestures to the whole motion.
   added: '2026-10-02'
   verified: false
   name: Fréchet Motion Distance
   aka: [FMD]
+  measures: realism
+  better: lower
 
 - id: beat-align
+  links: {paper: 'https://arxiv.org/abs/2101.08779', code: 'https://github.com/google-research/mint'}
+  summary: Detects motion beats (kinematic or bone-angle-change extrema) and audio beats (onsets) and averages a Gaussian-weighted distance between each beat and its nearest beat in the other stream.
   added: '2026-10-02'
   verified: false
   name: Beat Alignment / Beat Consistency
-  aka: [BeatAlign, BA, BC, Beat Consistency Score]
+  aka: [BeatAlign, BA, BC, Beat Consistency Score, Beat Alignment Score]
+  measures: synchrony
+  better: higher
+  caveats: Denser motion beats raise the score, so jittery or exaggerated motion can score higher than ground truth, and later work recommends comparing it to the ground-truth value rather than maximising it.
 
 - id: diversity
+  links: {paper: 'https://arxiv.org/abs/2203.13161', code: 'https://github.com/alvinliu0/HA2G'}
+  summary: Encodes generated gesture clips with the same feature extractor used for FGD and averages the feature distance over randomly paired clips.
   added: '2026-10-02'
   verified: false
   name: Diversity (average feature or pose distance between generated clips)
   aka: [Div]
+  measures: diversity
+  better: higher
 
 - id: l1-div
+  links: {paper: 'https://openaccess.thecvf.com/content/ICCV2021/html/Li_Audio2Gestures_Generating_Diverse_Gestures_From_Speech_Audio_With_Conditional_Variational_ICCV_2021_paper.html', code: 'https://github.com/PantoMatrix/PantoMatrix'}
+  summary: Splits generated motion into equal-length clips and averages the L1 distance between joint positions of every pair of clips.
   added: '2026-10-02'
   verified: false
   name: L1 Diversity
-  aka: [L1div]
+  aka: [L1div, L1 Div.]
+  measures: diversity
+  better: higher
+  caveats: L1 diversity has large variance, ignores global translation and does not reflect the expressiveness or semantic relevance that humans judge diversity by.
 
 - id: multimodality
+  links: {paper: 'https://arxiv.org/abs/1911.02001'}
+  summary: Averages the feature distance between several motions generated from the same input, measuring how varied the outputs are for one condition.
   added: '2026-10-02'
   verified: false
   name: Multimodality (variation for the same input)
   aka: [MM]
+  measures: diversity
 
 - id: srgr
+  links: {paper: 'https://arxiv.org/abs/2203.05297'}
+  summary: Computes PCK against ground truth with each frame weighted by its annotated semantic-relevance score, so semantically relevant gestures count more.
   added: '2026-10-02'
   verified: false
   name: Semantic-Relevant Gesture Recall
-  aka: [SRGR]
+  aka: [SRGR, Semantic Relevance Gesture Recall]
+  measures: semantics
+  better: higher
 
 - id: joint-error
+  links: {paper: 'https://arxiv.org/abs/1906.04160'}
+  summary: Averages the distance (L1, L2 or squared) between generated and ground-truth joint positions or rotations over joints and frames.
   added: '2026-10-02'
   verified: false
   name: Joint position or rotation error against ground truth
   aka: [MAE, APE, MPJPE, L1, MSE]
+  measures: accuracy
+  better: lower
+  caveats: Because many different gestures fit the same speech, deviation from the single recorded gesture correlates poorly with perceived quality.
 
 - id: pck
+  links: {paper: 'https://arxiv.org/abs/1906.04160'}
+  summary: Counts a predicted keypoint as correct when it lies within alpha times the larger side of the person bounding box from the ground-truth keypoint and reports the fraction of correct keypoints.
   added: '2026-10-02'
   verified: false
   name: Percentage of Correct Keypoints
   aka: [PCK]
+  measures: accuracy
+  better: higher
+  caveats: It is non-linear with a hard threshold, its radius depends on the span of the speaker's arms, and it penalises valid gestures that differ from the single ground-truth gesture.
 
 - id: accel-jerk
+  links: {paper: 'https://arxiv.org/abs/1903.03369', code: 'https://github.com/genea-workshop/genea_numerical_evaluations'}
+  summary: Averages the magnitude of the second and third time derivatives of joint positions (acceleration and jerk) over generated motion, for comparison with the same statistics of natural motion.
   added: '2026-10-02'
   verified: false
   name: Acceleration and jerk statistics
-  aka: [MAJE, MAD, Jerk]
+  aka: [MAJE, MAD, Jerk, Average jerk, Average acceleration]
+  measures: smoothness
+  better: closer-to-reference
 
 - id: velocity-hist
+  links: {paper: 'https://doi.org/10.1080/10447318.2021.1883883', code: 'https://github.com/genea-workshop/genea_numerical_evaluations'}
+  summary: Builds histograms of joint speed for generated and natural motion and computes the Hellinger distance between them.
   added: '2026-10-02'
   verified: false
   name: Velocity histogram distance (Hellinger distance)
-  aka: [HD]
+  aka: [HD, Hellinger distance, speed histogram distance]
+  measures: realism
+  better: lower
+  caveats: In the GENEA Challenge 2022 the Hellinger distance did not correlate with subjective human-likeness ratings better than chance.
 
 - id: cca
+  links: {paper: 'https://doi.org/10.1093/biomet/28.3-4.321'}
+  summary: Projects generated and reference poses onto a joint subspace with linear transformations chosen to maximise the Pearson correlation between them, and reports that correlation.
   added: '2026-10-02'
   verified: false
   name: Canonical Correlation Analysis against ground truth
   aka: [CCA]
+  measures: accuracy
+  better: higher
+  caveats: In the GENEA Challenge 2022 CCA did not correlate with subjective human-likeness ratings better than chance.
 
 - id: face-error
+  links: {paper: 'https://arxiv.org/abs/2104.08223', code: 'https://github.com/facebookresearch/meshtalk'}
+  summary: Measures geometric error of generated face meshes against ground truth, typically the maximal L2 error over lip vertices per frame averaged over all test frames.
   added: '2026-10-02'
   verified: false
   name: Face vertex or blendshape error
-  aka: [LVD, MSE (face), vertex MSE]
+  aka: [LVD, LVE, Lip Vertex Error, MSE (face), vertex MSE]
+  measures: accuracy
+  better: lower
+  caveats: Vertex-wise geometric errors such as LVE and MSE overlook the correspondence between speech and lip movement, so they are insufficient for assessing perceptually plausible lip motion.
 
 - id: r-precision
+  links: {paper: 'https://openaccess.thecvf.com/content/CVPR2022/papers/Guo_Generating_Diverse_and_Natural_3D_Human_Motions_From_Text_CVPR_2022_paper.pdf', code: 'https://github.com/EricGuo5513/text-to-motion'}
+  summary: Ranks the true condition among 31 mismatched ones by feature distance to each generated motion and reports how often it lands in the top 1, 2 or 3.
   added: '2026-10-02'
   verified: false
   name: Retrieval precision of motion from text or speech
-  aka: [R-Precision]
+  aka: [R-Precision, R-Prec, Top-1, Top-2, Top-3]
+  measures: semantics
+  better: higher
+  caveats: It depends on pretrained motion and condition encoders and does not even moderately correlate with human judgements at the sample level, only at the model level.
 
 - id: image-quality
+  links: {paper: 'https://arxiv.org/abs/1801.03924', code: 'https://github.com/richzhang/PerceptualSimilarity'}
+  summary: Compares generated video frames to ground-truth frames with pixel error (PSNR), structural similarity (SSIM) or distance between deep network features (LPIPS).
   added: '2026-10-02'
   verified: false
   name: Frame-level image quality
   aka: [PSNR, SSIM, LPIPS]
+  measures: accuracy
+  caveats: PSNR and SSIM are simple shallow functions that agree with human perceptual judgements much less than deep-feature distances such as LPIPS.
 
 - id: lip-sync
+  links: {paper: 'https://arxiv.org/abs/2008.10010', code: 'https://github.com/Rudrabha/Wav2Lip'}
+  summary: Feeds generated mouth crops and audio to a pretrained SyncNet and reports the average audio-visual embedding distance (LSE-D, lower is better) and the average sync confidence (LSE-C, higher is better).
   added: '2026-10-02'
   verified: false
   name: Lip synchronisation confidence or distance
   aka: [Sync-C, Sync-D, LSE-C, LSE-D]
+  measures: synchrony
 
 - id: gca
+  links: {paper: 'https://doi.org/10.1002/cav.70034'}
+  summary: A cluster-based score introduced with the RIDGE system that rates how well generated gestures fit the gesture clusters of the reference data, on which ground truth scores 0.90.
   added: '2026-10-02'
   verified: false
   name: Gesture Cluster Affinity
   aka: [GCA]
+  better: higher
 
 - {id: other, added: '2026-10-02', verified: false, name: A metric not yet listed here; named in the paper record's notes}
 
-- {id: workspace-violation, added: '2026-10-02', verified: false, name: Workspace Violation}
+- id: workspace-violation
+  links: {paper: 'https://arxiv.org/abs/2609.38400'}
+  summary: Measures the maximum distance by which either wrist moves outside its prescribed workspace box, averaged over the test set.
+  added: '2026-10-02'
+  verified: false
+  name: Workspace Violation
+  measures: other
+  better: lower
 
-- {id: retrieval-recall, added: '2026-10-02', verified: false, name: 'Retrieval Recall@K (R@1, R@5, R@10)'}
+- id: retrieval-recall
+  links: {paper: 'https://arxiv.org/abs/2305.00976'}
+  summary: Embeds speech (or text) and motion with a contrastively trained model and reports the percentage of queries whose matching clip is among the top K retrieved results.
+  added: '2026-10-02'
+  verified: false
+  name: Retrieval Recall@K (R@1, R@5, R@10)
+  aka: [R@K, Recall@K]
+  measures: semantics
+  better: higher
+  caveats: Because speech and gesture are not in one-to-one correspondence, retrieval over the full test set penalises plausible matches, so results depend on the gallery size.
 
-- {id: smooth-bc, added: '2026-10-02', verified: false, name: Smooth Beat Consistency (Smooth-BC)}
+- id: smooth-bc
+  links: {paper: 'https://arxiv.org/abs/2601.04236'}
+  summary: A beat consistency score whose motion beats are velocity minima that also satisfy a slope constraint, so jitter is not counted as rhythmic pauses aligned to audio beats.
+  added: '2026-10-02'
+  verified: false
+  name: Smooth Beat Consistency (Smooth-BC)
+  aka: [Smooth-BC]
+  measures: synchrony
+  better: higher
