@@ -1,0 +1,33 @@
+# Private working area: harvesting and processing scripts, notes, candidate
+# queues, raw downloads. Never published; see the note in private/README.md.
+/private/
+
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+
+# Assistant and editor state
+.claude/
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Node (only if the filter page ever needs a build step)
+node_modules/
+
+# Generated site output
+/_site/
+
+# OS noise
+Thumbs.db
+desktop.ini
+.DS_Store

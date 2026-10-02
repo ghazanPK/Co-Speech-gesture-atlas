@@ -1,0 +1,47 @@
+# One record per paper. The README tables are generated from this file.
+#
+# Schema
+#   id:          short unique slug, e.g. ali2025ridge
+#   title:       exact published title
+#   authors:     list, in published order
+#   year:        publication year
+#   venue:       short venue name, e.g. "CAVW", "SIGGRAPH", "CVPR", "arXiv"
+#   type:        journal | conference | workshop | poster | preprint | thesis
+#   links:
+#     paper:     DOI or proceedings URL
+#     open:      free full text (arXiv, open-access publisher page, author copy); omit if none
+#     code:      repository URL; omit if none
+#     weights:   true | false
+#     project:   project page URL; omit if none
+#     video:     demo video URL; omit if none
+#   input:       list of: text | audio | speaker-id | style | emotion | video | interlocutor
+#   output:      list of: upper-body | full-body | hands | face | video-pixels
+#   approach:    list of: rule-based | retrieval | hybrid | rnn | vae | gan | flow | vq | diffusion | flow-matching | llm | other
+#   setting:     monologue | dyadic | multi-party
+#   realtime:    yes | no | unreported      (add `latency:` free text when the paper reports it)
+#   datasets:    list of dataset ids from datasets.yaml
+#   languages:   list of spoken languages covered, e.g. [en, ko]
+#   evaluation:  list of: fgd | beat-align | diversity | semantic-metric | user-study | other
+#   summary:     one plain sentence saying what the method does
+#   added:       date the record was added, YYYY-MM-DD
+#   verified:    true once every field has been checked against the paper
+
+- id: ali2025ridge
+  title: "RIDGE: Rule-Infused Deep Learning for Realistic Co-Speech Gesture Generation"
+  authors: [Ghazanfar Ali, HwangYoun Kim, Jae-In Hwang]
+  year: 2025
+  venue: CAVW
+  type: journal
+  links:
+    paper: https://doi.org/10.1002/cav.70034
+  input: [text]
+  output: [upper-body]          # to confirm against the manuscript
+  approach: [hybrid, rule-based, retrieval]
+  setting: monologue
+  realtime: unreported          # to confirm
+  datasets: []                  # to fill
+  languages: [en]               # to confirm
+  evaluation: [semantic-metric]
+  summary: "Retrieves a motion-captured gesture from an LLM-built rule base when a text match is confident, and falls back to a contrastively trained text-gesture model otherwise."
+  added: 2026-10-02
+  verified: false
