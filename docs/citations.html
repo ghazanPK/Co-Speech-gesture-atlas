@@ -41,7 +41,7 @@
 (async function () {
   const data = await fetch("citations.json").then(r => r.json());
   const nodes = data.nodes.map(d => ({ ...d })), byId = new Map(nodes.map(n => [n.id, n]));
-  const links = data.edges.map(([s, t]) => ({ source: byId.get(s), target: byId.get(t) })).filter(l => l.source && l.target);
+  const links = data.edges.map(([s, t]) => ({ source: nodes[s], target: nodes[t] })).filter(l => l.source && l.target);
   nodes.forEach(n => { n.inn = 0; n.out = 0; });
   links.forEach(l => { l.target.inn++; l.source.out++; });
   document.getElementById("count").textContent =
@@ -100,7 +100,7 @@
     if (!n) { info.style.display = "none"; draw(); return; }
     info.style.display = "block"; info.textContent = "";
     const b = document.createElement("b"); b.textContent = n.title;
-    const s = document.createElement("span"); s.textContent = `${n.venue} ${n.year} · cited by ${n.inn} and cites ${n.out} papers in the atlas`;
+    const s = document.createElement("span"); s.textContent = `${n.theory ? "Theory · " : ""}${n.venue} ${n.year} · cited by ${n.inn} and cites ${n.out} papers in the atlas`;
     info.append(b, s);
     if (n.url) { const a = document.createElement("a"); a.href = n.url; a.textContent = " · open paper"; a.target = "_blank"; a.rel = "noopener"; info.append(a); }
     draw();
