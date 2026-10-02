@@ -216,3 +216,15 @@
   added: '2026-10-02'
   verified: false
   name: Multiple Culture Gesture Dataset (MCGD)
+
+- {id: jestkod, added: '2026-10-02', verified: false, name: JESTKOD}
+
+- {id: gest-is, added: '2026-10-02', verified: false, name: Gest-IS corpus}
+
+- {id: creativeit, added: '2026-10-02', verified: false, name: USC CreativeIT database}
+
+- id: eva-corpus
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: EVA Corpus

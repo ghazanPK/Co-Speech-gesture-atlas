@@ -1,0 +1,110 @@
+# Papers published in 2013. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: aly2013model
+  title: A model for synthesizing a combined verbal and nonverbal behavior based on personality traits in human-robot interaction
+  authors: [Amir Aly, Adriana Tapus]
+  year: 2013
+  venue: HRI
+  type: conference
+  category: system
+  doi: 10.1109/hri.2013.6483606
+  links: {paper: 'https://doi.org/10.1109/hri.2013.6483606', open: 'https://hal.science/hal-01284708'}
+  input: [text]
+  approach: [rule-based]
+  user_study: true
+  summary: Estimates a human's personality from spoken language, generates matching robot speech with PERSONAGE and gestures with the BEAT toolkit, and runs it on a Nao robot.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: bergmann2013cospeech
+  title: Co-speech Gesture Generation for Embodied Agents and its Effects on User Evaluation
+  authors: [Kirsten Bergmann]
+  year: 2013
+  venue: Book chapter
+  type: conference
+  category: method
+  doi: 10.1201/b15477-10
+  links: {paper: 'https://doi.org/10.1201/b15477-10'}
+  notes: Book chapter (not a conference paper); the abstract returned by the metadata source is generic and does not describe the work, so only identifying fields are filled.
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: bozkurt2013multimodal
+  title: Multimodal analysis of speech prosody and upper body gestures using hidden semi-Markov models
+  authors: [Elif Bozkurt, Shahriar Asta, Serkan Özkul, Y. Yemez, Engin Erzin]
+  year: 2013
+  venue: ICASSP
+  type: conference
+  category: method
+  doi: 10.1109/icassp.2013.6638339
+  links: {paper: 'https://doi.org/10.1109/icassp.2013.6638339'}
+  input: [audio]
+  output: [upper-body]
+  user_study: true
+  summary: Models the relation between intonation clusters and gesture phrases with hidden semi-Markov models and uses it to generate speech-prosody-driven gesture animation.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: bozkurt2013rhythm
+  title: Speech rhythm-driven gesture animation
+  authors: [Elif Bozkurt, Engin Erzin, Y. Yemez]
+  year: 2013
+  venue: SIU
+  type: conference
+  category: method
+  doi: 10.1109/siu.2013.6531352
+  links: {paper: 'https://doi.org/10.1109/siu.2013.6531352'}
+  input: [audio]
+  user_study: true
+  summary: Extracts speech rhythm from the Fourier analysis of the band-pass filtered amplitude envelope and associates it with gesture phrases to drive gesture animation.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: fernandezbaena2013emphasis
+  title: Gesture synthesis adapted to speech emphasis
+  authors: [Adso Fernández-Baena, Raúl Montaño, Marc Antonijoan, Arturo Roversi, David Miralles, Francesc Álías]
+  year: 2013
+  venue: Speech Communication
+  type: journal
+  category: method
+  doi: 10.1016/j.specom.2013.06.005
+  links: {paper: 'https://doi.org/10.1016/j.specom.2013.06.005'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: salem2013closedloop
+  title: 'Generating finely synchronized gesture and speech for humanoid robots: a closed-loop approach'
+  authors: [Maha Salem, Stefan Kopp, Frank Joublin]
+  year: 2013
+  venue: HRI
+  type: conference
+  category: method
+  doi: 10.5555/2447556.2447646
+  links: {paper: 'https://dl.acm.org/doi/10.5555/2447556.2447646'}
+  summary: A multimodal scheduler for humanoid robots estimates gesture preparation time with a fitted forward model and adjusts speech-gesture synchronisation online using feedback during execution.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: salem2013conceptual
+  title: Conceptual Motorics - Generation and Evaluation of Communicative Robot Gesture
+  authors: [Maha Salem]
+  year: 2013
+  venue: Bielefeld University
+  type: thesis
+  category: method
+  links: {paper: 'https://pub.uni-bielefeld.de/record/2519214'}
+  output: [hands]
+  user_study: true
+  summary: A framework lets a humanoid robot produce synthetic speech and co-verbal hand and arm gestures at run-time, synchronised by a multimodal scheduler, and tests how humans evaluate such gestures in two studies.
+  notes: Doctoral thesis; arm gestures are also generated. Fields read from the abstract only.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false

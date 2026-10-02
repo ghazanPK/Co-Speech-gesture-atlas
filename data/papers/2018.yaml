@@ -1,0 +1,208 @@
+# Papers published in 2018. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: ferstl2018investigating
+  title: Investigating the use of recurrent motion modelling for speech gesture generation
+  authors: [Ylva Ferstl, Rachel McDonnell]
+  year: 2018
+  venue: IVA
+  type: conference
+  category: method
+  doi: 10.1145/3267851.3267898
+  links: {paper: 'https://doi.org/10.1145/3267851.3267898'}
+  input: [audio]
+  datasets: [custom]
+  summary: A recurrent encoder-decoder takes prosodic speech features and generates a short gesture sequence, pre-trained on a motion modelling task.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: hadjicosti2018motiongraph
+  title: Generating Audio-driven Emotional Gestures using Motion Graphs
+  authors: [J. Hadjicosti]
+  year: 2018
+  venue: Utrecht University
+  type: thesis
+  category: method
+  links: {paper: 'https://dspace.library.uu.nl:8080/handle/1874/363578'}
+  input: [audio, style]
+  approach: [retrieval]
+  setting: [monologue]
+  summary: Builds a motion graph from segmented mocap and selects segments online using prosody features of live speech and a specified conversational attitude.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: han2018corpus
+  title: A Corpus of Natural Multimodal Spatial Scene Descriptions
+  authors: [Ting Han, David Schlangen]
+  year: 2018
+  venue: LREC
+  type: conference
+  category: dataset
+  doi: 10.63317/3xbacabz879n
+  links: {paper: 'http://www.lrec-conf.org/proceedings/lrec2018/pdf/296.pdf'}
+  summary: A corpus of speech and hand-motion data from participants giving spatial scene descriptions with abstract deictic and iconic gestures, intended for modelling multimodal descriptions and generating them.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: hasegawa2018evaluation
+  title: Evaluation of Speech-to-Gesture Generation Using Bi-Directional LSTM Network
+  authors: [Dai Hasegawa, Naoshi Kaneko, Shinichi Shirakawa, Hiroshi Sakuta, Kazuhiko Sumi]
+  year: 2018
+  venue: IVA
+  type: conference
+  category: method
+  doi: 10.1145/3267851.3267878
+  links: {paper: 'https://dl.acm.org/doi/abs/10.1145/3267851.3267878'}
+  input: [audio]
+  representation: [joints-3d]
+  approach: [regression]
+  datasets: [custom]
+  user_study: true
+  summary: A bi-directional LSTM regresses a full 3D skeletal pose from perceptual audio features at each time step, followed by temporal smoothing filters.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ishi2018speech
+  title: A Speech-Driven Hand Gesture Generation Method and Evaluation in Android Robots
+  authors: [Carlos Toshinori Ishi, Daichi Machiyashiki, Ryusuke Mikata, Hiroshi Ishiguro]
+  year: 2018
+  venue: RA-L
+  type: journal
+  category: method
+  doi: 10.1109/lra.2018.2856281
+  links: {paper: 'https://doi.org/10.1109/lra.2018.2856281'}
+  input: [text, audio]
+  output: [hands]
+  datasets: [custom]
+  user_study: true
+  summary: Hand gestures are generated from text, prosody and dialogue act information using gesture motion clusters associated with gesture function categories, and run on an android robot.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ishii2018automatic
+  title: Automatic Generation System of Virtual Agent's Motion using Natural Language
+  authors: [Ryo Ishii, Taichi Katayama, Ryuichiro Higashinaka, Junji Tomita]
+  year: 2018
+  venue: IVA
+  type: conference
+  category: system
+  doi: 10.1145/3267851.3267869
+  links: {paper: 'https://doi.org/10.1145/3267851.3267869'}
+  input: [text]
+  output: [upper-body, hands, face]
+  summary: An API and demonstration system that generates head, nod, facial, hand gesture and upper-body posture motion for a virtual agent from natural-language analysis of an utterance, combined with speech synthesis.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ishii2018generating
+  title: Generating Body Motions using Spoken Language in Dialogue
+  authors: [Ryo Ishii, Taichi Katayama, Ryuichiro Higashinaka, Junji Tomita]
+  year: 2018
+  venue: IVA
+  type: conference
+  category: method
+  doi: 10.1145/3267851.3267866
+  links: {paper: 'https://doi.org/10.1145/3267851.3267866'}
+  input: [text]
+  output: [upper-body, hands, face]
+  user_study: true
+  summary: Generates nods, head posture, facial expressions, hand gestures and upper-body posture per phrase from word, part-of-speech, thesaurus, position and dialogue-act features using a model trained on a recorded two-person dialogue corpus.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: kucherenko2018data
+  title: Data Driven Non-Verbal Behavior Generation for Humanoid Robots
+  authors: [Taras Kucherenko]
+  year: 2018
+  venue: ICMI
+  type: conference
+  category: method
+  doi: 10.1145/3242969.3264970
+  links: {paper: 'https://dl.acm.org/doi/10.1145/3242969.3264970'}
+  summary: A doctoral research plan to learn a data-driven model that generates non-verbal behavior as a 3D motion sequence for humanoid robots.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: mlakar2018eva
+  title: A Novel Realizer of Conversational Behavior for Affective and Personalized Human Machine Interaction - EVA U-Realizer
+  authors: [Izidor Mlakar, Zdravko Kačič, Matej Borko, Matej Rojc]
+  year: 2018
+  venue: WSEAS Trans. Environ. Dev.
+  type: journal
+  category: system
+  links: {paper: 'https://www.wseas.org/multimedia/journals/environment/2018/a185915-aal.pdf'}
+  summary: A behaviour realizer for embodied conversational agents, built on the Unity 3D engine, that interprets and executes dynamically generated verbal and co-verbal conversational behaviour.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ravenet2018automating
+  title: Automating the Production of Communicative Gestures in Embodied Characters
+  authors: [Brian Ravenet, Catherine Pélachaud, Chloé Clavel, Stacy Marsella]
+  year: 2018
+  venue: Frontiers in Psychology
+  type: journal
+  category: survey
+  doi: 10.3389/fpsyg.2018.01144
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2018.01144'}
+  summary: Discusses challenges in modelling communicative gestures for embodied conversational agents, covering gesture placement, shape and timing, with a focus on a metaphor-based model.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ravenet2018imageschemas
+  title: Automatic Nonverbal Behavior Generation from Image Schemas
+  authors: [Brian Ravenet, Chloé Clavel, Catherine Pélachaud]
+  year: 2018
+  venue: unknown
+  type: conference
+  category: method
+  doi: 10.65109/nhje8666
+  links: {paper: 'https://doi.org/10.65109/nhje8666', open: 'https://telecom-paris.hal.science/hal-02287759'}
+  summary: A framework that links speech and metaphoric gestures for embodied conversational agents through shared image schemas, with steps from text analysis to gesture production.
+  notes: Venue not stated in the metadata or abstract. Preliminary results and demonstrations only.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: shimazu2018presentation
+  title: Generation of Gestures During Presentation for Humanoid Robots
+  authors: [Akihito Shimazu, Chie Hieida, Takayuki Nagai, Tomoaki Nakamura, Yuki Takeda, Takenori Hara, Osamu Nakagawa, Tsuyoshi Maeda]
+  year: 2018
+  venue: RO-MAN
+  type: conference
+  category: method
+  doi: 10.1109/roman.2018.8525621
+  links: {paper: 'https://doi.org/10.1109/roman.2018.8525621'}
+  input: [audio]
+  approach: [regression]
+  setting: [monologue]
+  summary: Models the relationship between speech prosody and motion with a recurrent neural network, plus a method for word-specific meaningful motions, implemented on a Pepper robot.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: tenventura2018corpus
+  title: Partially Automatically Annotated Corpus To Predict Gestural Cues In Embodied Conversational Agents
+  authors: [Carla Ten-Ventura]
+  year: 2018
+  venue: Zenodo
+  type: preprint
+  category: dataset
+  doi: 10.5281/zenodo.1316349
+  links: {paper: 'https://doi.org/10.5281/zenodo.1316349', open: 'https://zenodo.org/record/1316349'}
+  languages: [es]
+  summary: A small corpus of Spanish political speeches with transcriptions, syntactic and communicative-structure annotation and beat versus no-gesture tags annotated from video.
+  notes: Small, mostly manually annotated, annotation agreement not computed, per the authors.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false

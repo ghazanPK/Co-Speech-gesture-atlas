@@ -1,0 +1,538 @@
+# Papers published in 2020. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: ahuja2020aisle
+  title: 'No Gestures Left Behind: Learning Relationships between Spoken Language and Freeform Gestures'
+  authors: [Chaitanya Ahuja, Dong Won Lee, Ryo Ishii, Louis-Philippe Morency]
+  year: 2020
+  venue: EMNLP Findings
+  type: conference
+  category: method
+  doi: 10.18653/v1/2020.findings-emnlp.170
+  links: {paper: 'https://aclanthology.org/2020.findings-emnlp.170', code: 'https://github.com/chahuja/aisle'}
+  input: [text, audio]
+  output: [upper-body, hands]
+  representation: [keypoints-2d]
+  approach: [gan]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [pats]
+  metrics: [fid, pck]
+  user_study: true
+  summary: Learns speech-and-text-driven gesture generation by combining adversarial learning with importance sampling and a multimodal multiscale attention block for subword alignment.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: ahuja2020style
+  title: 'Style Transfer for Co-Speech Gesture Animation: A Multi-Speaker Conditional-Mixture Approach'
+  authors: [Chaitanya Ahuja, Dong Won Lee, Yukiko I. Nakano, Louis-Philippe Morency]
+  year: 2020
+  venue: ECCV
+  type: conference
+  category: method
+  doi: 10.1007/978-3-030-58523-5_15
+  arxiv: '2007.12553'
+  links: {paper: 'https://doi.org/10.1007/978-3-030-58523-5_15', open: 'https://arxiv.org/abs/2007.12553', code: 'https://github.com/chahuja/pats', project: 'https://chahuja.com/mix-stage'}
+  input: [audio, style]
+  output: [upper-body]
+  representation: [keypoints-2d]
+  approach: [gan]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [pats]
+  metrics: [pck, other]
+  user_study: true
+  summary: Mix-StAGE trains one model for many speakers as a mixture of generators conditioned on audio and learned per-speaker style embeddings, with adversarial training, so style can be swapped for the same speech.
+  notes: 'Introduces the PATS dataset. Other metrics: mode classification F1 and Inception Score.'
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: ajibo2020generation
+  title: Generation and Evaluation of Audio-Visual Anger Emotional Expression for Android Robot
+  authors: [Chinenye Augustine Ajibo, Ryusuke Mikata, Chaoran Liu, Carlos Toshinori Ishi, Hiroshi Ishiguro]
+  year: 2020
+  venue: HRI
+  type: conference
+  category: system
+  doi: 10.1145/3371382.3378282
+  links: {paper: 'https://doi.org/10.1145/3371382.3378282'}
+  user_study: true
+  summary: Implements anger-related gestures on a humanoid robot based on analysis of a multimodal human-human corpus and subjectively evaluates which gesture suits which anger utterance type.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: alexanderson2020speech
+  title: Generating coherent spontaneous speech and gesture from text
+  authors: [Simon Alexanderson, Éva Székely, Gustav Eje Henter, Taras Kucherenko, Jonas Beskow]
+  year: 2020
+  venue: IVA
+  type: conference
+  category: method
+  doi: 10.1145/3383652.3423874
+  arxiv: '2101.05684'
+  links: {paper: 'https://doi.org/10.1145/3383652.3423874', open: 'https://arxiv.org/abs/2101.05684', project: 'https://simonalexanderson.github.io/IVA2020/'}
+  input: [text]
+  output: [full-body]
+  setting: [monologue]
+  realtime: unreported
+  summary: Proof-of-concept system that generates spontaneous-sounding speech and full-body gestures together from text, combining spontaneous-speech TTS with probabilistic speech-driven gesture generation trained on one speaker's audio and motion capture.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: alexanderson2020stylegestures
+  title: Style-Controllable Speech-Driven Gesture Synthesis Using Normalising Flows
+  authors: [Simon Alexanderson, Gustav Eje Henter, Taras Kucherenko, Jonas Beskow]
+  year: 2020
+  venue: CGF
+  type: journal
+  category: method
+  doi: 10.1111/cgf.13946
+  links: {paper: 'https://doi.org/10.1111/cgf.13946', open: 'http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-279231'}
+  input: [audio, style]
+  output: [upper-body, full-body]
+  approach: [normalizing-flow]
+  user_study: true
+  summary: Adapts the MoGlow normalising-flow motion model to generate speech-driven gesticulation with controllable style such as gesture level, speed, symmetry and spatial extent.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: alexanderson2020stylegesturesb
+  title: The StyleGestures entry to the GENEA Challenge 2020
+  authors: [Simon Alexanderson]
+  year: 2020
+  venue: GENEA Workshop
+  type: workshop
+  category: method
+  doi: 10.5281/zenodo.4088600
+  links: {paper: 'https://zenodo.org/record/4088600', video: 'https://www.youtube.com/watch?v=JZgBlJKGFGk'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: ali2020rule
+  title: Automatic text‐to‐gesture rule generation for embodied conversational agents
+  authors: [Ghazanfar Ali, Myungho Lee, Jae‐In Hwang]
+  year: 2020
+  venue: CAVW
+  type: journal
+  category: method
+  doi: 10.1002/cav.1944
+  links: {paper: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/cav.1944', video: 'https://www.youtube.com/watch?v=GIxaI9yTmMc'}
+  input: [text]
+  approach: [rule-based]
+  user_study: true
+  summary: Builds a rule-based mapping from words to co-speech gestures automatically from a large public video dataset and uses word embeddings at run time to find the matching rule for an embodied conversational agent.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: bozkurt2020affective
+  title: Affective synthesis and animation of arm gestures from speech prosody
+  authors: [Elif Bozkurt, Y. Yemez, Engin Erzin]
+  year: 2020
+  venue: Speech Communication
+  type: journal
+  category: method
+  doi: 10.1016/j.specom.2020.02.005
+  links: {paper: 'https://doi.org/10.1016/j.specom.2020.02.005'}
+  input: [audio, emotion]
+  output: [upper-body]
+  approach: [other]
+  setting: [monologue]
+  datasets: [creativeit]
+  user_study: true
+  summary: Hidden semi-Markov models with gestures as states and speech prosody plus continuous affect attributes (activation, valence, dominance) as observations synthesise arm gestures.
+  notes: Abstract only; evaluated on the USC CreativeIT database, speaker-independent, with objective and subjective evaluation.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ferstl2020adversarial
+  title: Adversarial gesture generation with realistic gesture phasing
+  authors: [Ylva Ferstl, Michael Neff, Rachel McDonnell]
+  year: 2020
+  venue: Computers & Graphics
+  type: journal
+  category: method
+  doi: 10.1016/j.cag.2020.04.007
+  links: {paper: 'https://doi.org/10.1016/j.cag.2020.04.007'}
+  representation: [joints-3d]
+  approach: [gan]
+  datasets: [custom]
+  summary: Maps speech to 3D gesture motion with a generative adversarial setup in which separate adversaries, including gesture-phase classifiers, enforce realistic dynamics, joint configurations, diversity and smoothness.
+  notes: Also contributes a recorded dataset of over 6 hours of unrehearsed speech with motion capture, audio and video, and 3.8 hours of hand-annotated gesture phases.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ferstl2020predictability
+  title: Understanding the Predictability of Gesture Parameters from Speech and their Perceptual Importance
+  authors: [Ylva Ferstl, Michael Neff, Rachel McDonnell]
+  year: 2020
+  venue: IVA
+  type: conference
+  category: method
+  doi: 10.1145/3383652.3423882
+  arxiv: '2010.00995'
+  links: {paper: 'https://doi.org/10.1145/3383652.3423882', open: 'https://arxiv.org/abs/2010.00995', video: 'https://youtu.be/aw6-_5kmLjY'}
+  input: [audio]
+  output: [hands]
+  representation: [other]
+  approach: [regression]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [custom, trinity]
+  languages: [en]
+  metrics: [other]
+  user_study: true
+  summary: Bidirectional LSTMs predict individual gesture parameters (speed, path length, arm swivel, hand opening) from speech features, and a perceptual study tests how much each parameter matters for speech-appropriate gesture.
+  notes: Analysis of gesture parameters rather than a full motion generator; metrics are mean absolute error of parameters against a random baseline.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: ginosar2020modeling
+  title: 'Modeling Visual Minutiae: Gestures, Styles, and Temporal Patterns'
+  authors: [Shiry Ginosar]
+  year: 2020
+  venue: eScholarship
+  type: thesis
+  category: method
+  links: {paper: 'https://escholarship.org/uc/item/3ws1647q'}
+  input: [audio]
+  summary: Doctoral dissertation whose first part models conversational gestures from multi-modal correlations between audio and motion learned from video without human annotations.
+  notes: Only part of the thesis concerns co-speech gesture; remaining parts cover motion transfer, historical visual patterns and abstract art.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: hartholt2020multiplatform
+  title: 'Multi-Platform Expansion of the Virtual Human Toolkit: Ubiquitous Conversational Agents'
+  authors: [Arno Hartholt, Ed Fast, Adam Reilly, Wendy Whitcup, Matt Liewer, Sharon Mozgai]
+  year: 2020
+  venue: IJSC
+  type: journal
+  category: system
+  doi: 10.1142/s1793351x20400127
+  links: {paper: 'https://doi.org/10.1142/s1793351x20400127'}
+  summary: Extends the Virtual Human Toolkit, which includes nonverbal behavior generation and realization, to mobile, web, VR and AR platforms through microservices.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ishii2020impact
+  title: Impact of Personality on Nonverbal Behavior Generation
+  authors: [Ryo Ishii, Chaitanya Ahuja, Yukiko Nakano, Louis-Philippe Morency]
+  year: 2020
+  venue: IVA
+  type: conference
+  category: method
+  doi: 10.1145/3383652.3423908
+  links: {paper: 'https://doi.org/10.1145/3383652.3423908'}
+  input: [text]
+  summary: Models predict labelled nonverbal behaviors of the head, gaze, arms and posture from spoken-sentence representations, with Big Five personality scores as additional input, on a newly created dyadic dialogue corpus.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: jin2020telepresence
+  title: 'A Live Speech-Driven Avatar-Mediated Three-Party Telepresence System: Design and Evaluation'
+  authors: [Aobo Jin, Qixin Deng, Zhigang Deng]
+  year: 2020
+  venue: PRESENCE
+  type: journal
+  category: system
+  doi: 10.1162/pres_a_00358
+  links: {paper: 'https://doi.org/10.1162/pres_a_00358'}
+  input: [audio]
+  output: [upper-body, hands, face]
+  setting: [multi-party]
+  realtime: unreported
+  user_study: true
+  summary: A three-party avatar telepresence system that generates head, eye, lip, torso and hand gesture motion for each avatar automatically from live speech and compares user experience against Second Life and Skype.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: jonell2020crowdworkers
+  title: 'Can we trust online crowdworkers?: Comparing online and offline participants in a preference test of virtual agents'
+  authors: [Patrik Jonell, Taras Kucherenko, Ilaria Torre, Jonas Beskow]
+  year: 2020
+  venue: IVA
+  type: conference
+  category: evaluation
+  doi: 10.1145/3383652.3423860
+  arxiv: '2009.10760'
+  links: {paper: 'https://doi.org/10.1145/3383652.3423860', open: 'https://arxiv.org/abs/2009.10760'}
+  input: [audio, text]
+  user_study: true
+  summary: Replicates a human-likeness preference test of two speech-driven gesture generation models with in-lab, Prolific and Amazon Mechanical Turk participants and finds no difference between the pools.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: korzun2020finemotion
+  title: FineMotion - Audio and Text-Driven approach for Conversational Gestures Generation
+  year: 2020
+  venue: Dialogue
+  type: conference
+  category: method
+  links: {paper: 'https://www.dialog-21.ru/media/5526/korzunvaplusdimovinpluszharkovaa031.pdf', code: 'https://github.com/FineMotion/GENEA_2020'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: korzun2020finemotionb
+  title: The FineMotion entry to the GENEA Challenge 2020
+  authors: [Vladislav Korzun, Ilya Dimov, Andrey Zharkov]
+  year: 2020
+  venue: GENEA Workshop
+  type: workshop
+  category: method
+  doi: 10.5281/zenodo.4088609
+  links: {paper: 'https://zenodo.org/record/4088609', code: 'https://github.com/FineMotion/GENEA_2020', video: 'https://www.youtube.com/watch?v=q29d9Hfbifk'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: kucherenko2020genea
+  title: 'The GENEA Challenge 2020: Benchmarking gesture-generation systems on common data'
+  authors: [Taras Kucherenko, Patrik Jonell, Youngwoo Yoon, Pieter Wolfert, Gustav Eje Henter]
+  year: 2020
+  venue: GENEA Workshop
+  type: workshop
+  category: challenge
+  doi: 10.5281/zenodo.4094697
+  links: {paper: 'https://zenodo.org/record/4094697', open: 'https://biblio.ugent.be/publication/8743221/file/8743222.pdf'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: kucherenko2020gesticulator
+  title: 'Gesticulator: A framework for semantically-aware speech-driven gesture generation'
+  authors: [Taras Kucherenko, Patrik Jonell, Sanne van Waveren, Gustav Eje Henter, Simon Alexanderson, Iolanda Leite, Hedvig Kjellström]
+  year: 2020
+  venue: ICMI
+  type: conference
+  category: method
+  doi: 10.1145/3382507.3418815
+  arxiv: '2001.09326'
+  links: {paper: 'https://doi.org/10.1145/3382507.3418815', open: 'https://arxiv.org/abs/2001.09326', code: 'https://github.com/Svito-zar/gesticulator', project: 'https://svito-zar.github.io/gesticulator/'}
+  input: [text, audio]
+  output: [upper-body]
+  representation: [joints-3d]
+  approach: [autoregressive]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [trinity]
+  languages: [en]
+  metrics: [joint-error, accel-jerk, velocity-hist]
+  user_study: true
+  summary: Autoregressive feed-forward network that takes audio features and BERT text features and outputs upper-body joint rotations, producing both beat and semantic gestures.
+  notes: Fingers not modelled; ICMI 2020 Best Paper Award.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: liao2020speech2video
+  title: Speech2Video Synthesis with 3D Skeleton Regularization and Expressive Body Poses
+  authors: [Miao Liao, Sibo Zhang, Peng Wang, Hao Zhu, Xinxin Zuo, Ruigang Yang]
+  year: 2020
+  venue: ACCV
+  type: conference
+  category: method
+  doi: 10.1007/978-3-030-69541-5_19
+  arxiv: '2007.09198'
+  links: {paper: 'https://doi.org/10.1007/978-3-030-69541-5_19', open: 'https://arxiv.org/abs/2007.09198', video: 'https://youtu.be/MUlRtgbGeUs'}
+  input: [audio, text]
+  output: [full-body, hands, face]
+  representation: [smpl-x, video-pixels]
+  approach: [regression, gan]
+  setting: [monologue]
+  realtime: unreported
+  latency: 0.5 seconds per frame on a single GPU
+  datasets: [custom]
+  languages: [en, zh]
+  metrics: [other]
+  user_study: true
+  summary: An LSTM predicts SMPL-X skeleton motion from speech audio, then a conditional GAN with part-attention discriminators renders it as a photo-realistic speaking video.
+  notes: Objective metrics are Inception Score and mouth pixel distance.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: lu2020doubledcccae
+  title: 'Double-DCCCAE: Estimation of Sequential Body Motion Using Wave-Form - AlltheSmooth'
+  authors: [JinHong Lu, TianHang Liu, ShuZhuang Xu, Hiroshi Shimodaira]
+  year: 2020
+  venue: GENEA Workshop
+  type: workshop
+  category: method
+  doi: 10.5281/zenodo.4088376
+  links: {paper: 'https://zenodo.org/record/4088376'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: ondras2020audio
+  title: Audio-Driven Robot Upper-Body Motion Synthesis
+  authors: [Jan Ondras, Oya Çeliktutan, Paul Bremner, Hatice Güneş]
+  year: 2020
+  venue: IEEE Trans. Cybernetics
+  type: journal
+  category: method
+  doi: 10.1109/tcyb.2020.2966730
+  links: {paper: 'https://doi.org/10.1109/tcyb.2020.2966730', open: 'https://kclpure.kcl.ac.uk/portal/en/publications/f517e727-c75e-4825-a929-e37bb98c0ab2'}
+  input: [audio]
+  output: [upper-body]
+  summary: A neural network maps speech audio to head, hand and torso movements of a Pepper humanoid robot, with generic and person-specific models.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: pang2020cgvu
+  title: 'CGVU: Semantics-guided 3D Body Gesture Synthesis'
+  authors: [Kunkun Pang, Taku Komura, Hanbyul Joo, Takaaki Shiratori]
+  year: 2020
+  venue: GENEA Workshop
+  type: workshop
+  category: method
+  doi: 10.5281/zenodo.4090879
+  links: {paper: 'https://zenodo.org/record/4090879', video: 'https://www.youtube.com/watch?v=MBSX0OLHRRU'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: thangthai2020nectec
+  title: The Nectec Gesture Generation System entry to the GENEA Challenge 2020
+  authors: [Ausdang Thangthai, Kwanchiva Thangthai, Arnon Namsanit, Sumonmas Thatphithakkul, Sittipong Saychum]
+  year: 2020
+  venue: GENEA Workshop
+  type: workshop
+  category: method
+  doi: 10.5281/zenodo.4088629
+  links: {paper: 'https://zenodo.org/record/4088629', video: 'https://www.youtube.com/watch?v=0m0wKkNmrgQ'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: tuyen2020conditional
+  title: Conditional Generative Adversarial Network for Generating Communicative Robot Gestures
+  authors: [Nguyen Tan Viet Tuyen, Armağan Elibol, Nak Young Chong]
+  year: 2020
+  venue: RO-MAN
+  type: conference
+  category: method
+  doi: 10.1109/ro-man47096.2020.9223498
+  links: {paper: 'https://doi.org/10.1109/ro-man47096.2020.9223498', open: 'https://dspace.jaist.ac.jp/dspace/bitstream/10119/16930/1/3336.pdf'}
+  input: [text]
+  output: [upper-body]
+  approach: [gan]
+  summary: A conditional GAN with CNN action encoder and decoder learns to synthesize human actions from text descriptions, which are then converted to joint angles of a target robot.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: tuyen2020learning
+  title: Learning from Humans to Generate Communicative Gestures for Social Robots
+  authors: [Nguyen Tan Viet Tuyen, Armağan Elibol, Nak Young Chong]
+  year: 2020
+  venue: UR
+  type: conference
+  category: method
+  doi: 10.1109/ur49135.2020.9144985
+  links: {paper: 'https://doi.org/10.1109/ur49135.2020.9144985', open: 'https://dspace.jaist.ac.jp/dspace/bitstream/10119/16711/1/C1_UR20_0013_FI.pdf'}
+  input: [text]
+  output: [upper-body]
+  approach: [gan]
+  summary: A conditional GAN learns the relation between human behaviors and natural language sentences to generate gestures, which are transformed into the motion of a target robot.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: yang2020statistics
+  title: Statistics-based Motion Synthesis for Social Conversations
+  authors: [Yanzhe Yang, Jimei Yang, Jessica K. Hodgins]
+  year: 2020
+  venue: CGF
+  type: journal
+  category: method
+  doi: 10.1111/cgf.14114
+  links: {paper: 'https://doi.org/10.1111/cgf.14114'}
+  input: [audio]
+  approach: [retrieval]
+  setting: [dyadic]
+  user_study: true
+  summary: Builds a motion graph from recorded two-party conversations and searches it for gestures and body motion that follow phonemic clauses, listener responses and partner hesitation pauses in new audio.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: yoon2020trimodal
+  title: Speech Gesture Generation from the Trimodal Context of Text, Audio, and Speaker Identity
+  authors: [Youngwoo Yoon, Bok Cha, Joo-Haeng Lee, Minsu Jang, Jaeyeon Lee, Jaehong Kim, Geehyuk Lee]
+  year: 2020
+  venue: TOG
+  type: journal
+  category: method
+  doi: 10.1145/3414685.3417838
+  arxiv: '2009.02119'
+  links: {paper: 'https://doi.org/10.1145/3414685.3417838', open: 'https://arxiv.org/abs/2009.02119', code: 'https://github.com/ai4r/Gesture-Generation-from-Trimodal-Context'}
+  input: [text, audio, speaker-id]
+  output: [upper-body]
+  representation: [joints-3d]
+  approach: [gan]
+  setting: [monologue]
+  realtime: real-time
+  latency: 30 poses in 10 ms on an NVIDIA RTX 2080 Ti GPU, 80 ms on CPU
+  datasets: [ted-gesture]
+  languages: [en]
+  metrics: [fgd]
+  user_study: true
+  summary: Encoder-decoder with text, audio and speaker-identity encoders feeding a bidirectional GRU generator trained adversarially to output upper-body gestures; also proposes the FGD metric.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: yu2020srg3
+  title: 'SRG3: Speech-driven Robot Gesture Generation with GAN'
+  authors: [Chuang Yu, Adriana Tapus]
+  year: 2020
+  venue: ICARCV
+  type: conference
+  category: method
+  doi: 10.1109/icarcv50220.2020.9305330
+  links: {paper: 'https://doi.org/10.1109/icarcv50220.2020.9305330', open: 'https://hal.science/hal-03047565'}
+  input: [audio]
+  approach: [gan]
+  summary: Maps acoustic speech representations to gestures for a humanoid robot with an end-to-end GAN that produces multiple gesture patterns from one speech input via noise.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: zhang2020talking
+  title: Realistic Speech-Driven Talking Video Generation with Personalized Pose
+  authors: [Xu Zhang, Liguo Weng]
+  year: 2020
+  venue: Complexity
+  type: journal
+  category: method
+  doi: 10.1155/2020/6629634
+  links: {paper: 'https://doi.org/10.1155/2020/6629634', open: 'https://downloads.hindawi.com/journals/complexity/2020/6629634.pdf'}
+  input: [audio]
+  output: [face]
+  representation: [keypoints-2d, video-pixels]
+  setting: [monologue]
+  realtime: unreported
+  user_study: true
+  summary: Generates face and body pose key-point sequences from audio, renders them as 2D skeleton images, and converts these to speaker video with a video generation network.
+  notes: Objective metric reported is NME (not listed in metrics).
+  added: '2026-10-03'
+  checked: abstract
+  verified: false

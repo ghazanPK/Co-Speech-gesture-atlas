@@ -48,14 +48,13 @@
   setting: [monologue]
   realtime: unreported
   datasets: [trinity, zeggs, custom]
-  languages: [en]
-  metrics: [fgd, fid, diversity, beat-align]
+  metrics: [fgd, diversity, beat-align]
   user_study: true
   summary: Synthesises gesture and dance motion from audio with a Conformer-based diffusion model and classifier-free guidance for style control.
   notes: Also covers music-driven dance and path-driven locomotion; custom datasets are Motorica Dance and others.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: anon2023diffusestyle
   title: DiffuseStyleGesture+ (SF) The DiffuseStyleGesture+ entry to the GENEA Challenge 2023
@@ -297,7 +296,7 @@
   summary: Generates full-body gesture with fingers from speech using a variational autoencoder with a style encoder, so style is set by a short example motion clip.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: harz2023fein
   title: 'FEIN-Z: Autoregressive Behavior Cloning for Speech-Driven Gesture Generation'

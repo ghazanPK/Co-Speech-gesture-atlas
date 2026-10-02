@@ -1,0 +1,410 @@
+# Papers published in 2019. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: ahuja2019coalescing
+  title: Coalescing Narrative and Dialogue for Grounded Pose Forecasting
+  authors: [Chaitanya Ahuja]
+  year: 2019
+  venue: ICMI
+  type: conference
+  category: method
+  doi: 10.1145/3340555.3356090
+  links: {paper: 'https://doi.org/10.1145/3340555.3356090'}
+  summary: Research plan for an end-to-end multimodal model that forecasts avatar body pose and gestures from language and acoustics in narrative and dialogue.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ahuja2019react
+  title: 'To React or not to React: End-to-End Visual Pose Forecasting for Personalized Avatar during Dyadic Conversations'
+  authors: [Chaitanya Ahuja, Shugao Ma, Louis-Philippe Morency, Yaser Ajmal Sheikh]
+  year: 2019
+  venue: ICMI
+  type: conference
+  category: method
+  doi: 10.1145/3340555.3353725
+  arxiv: '1910.02181'
+  links: {paper: 'https://doi.org/10.1145/3340555.3353725', open: 'https://dl.acm.org/doi/pdf/10.1145/3340555.3353725'}
+  input: [audio, interlocutor]
+  setting: [dyadic]
+  user_study: true
+  summary: Dyadic Residual-Attention Model generates avatar body pose from the operator's audio plus the interlocutor's audio and body pose using selective attention between monadic and dyadic dynamics.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: biancardi2019selfpresentational
+  title: Managing an Agent's Self-Presentational Strategies During an Interaction
+  authors: [Béatrice Biancardi, Maurizio Mancini, Paul J. Lerner, Catherine Pélachaud]
+  year: 2019
+  venue: Frontiers in Robotics and AI
+  type: journal
+  category: system
+  doi: 10.3389/frobt.2019.00093
+  links: {paper: 'https://doi.org/10.3389/frobt.2019.00093', open: 'https://www.frontiersin.org/articles/10.3389/frobt.2019.00093/pdf'}
+  user_study: true
+  summary: A computational model lets an embodied conversational agent choose among self-presentational strategies, expressed through verbal and non-verbal behaviour such as gesture type and arm rest poses, using reinforcement learning on user engagement.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: clavel2019socioemotional
+  title: Generating Socio‐emotional Behaviors
+  authors: [Chloé Clavel]
+  year: 2019
+  venue: Wiley book chapter
+  type: thesis
+  category: method
+  doi: 10.1002/9781119649403.ch5
+  links: {paper: 'https://doi.org/10.1002/9781119649403.ch5'}
+  input: [text, audio]
+  approach: [rule-based]
+  summary: Chapter on generating prosody and co-verbal gestures for an embodied conversational agent from verbal and prosodic content, building on corpus analysis.
+  notes: Book chapter; abstract states the co-verbal gesture model was evaluated only qualitatively.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ferstl2019adversarial
+  title: Multi-objective adversarial gesture generation
+  authors: [Ylva Ferstl, Michael Neff, Rachel McDonnell]
+  year: 2019
+  venue: MIG
+  type: conference
+  category: method
+  doi: 10.1145/3359566.3360053
+  links: {paper: 'https://dl.acm.org/doi/abs/10.1145/3359566.3360053'}
+  input: [audio]
+  approach: [gan]
+  datasets: [custom]
+  summary: Maps speech to 3D gesture motion with generative adversarial training, using separate adversaries for gesture dynamics (via a gesture phase classifier), joint configurations, and diversity and smoothness.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ghosh2019speech
+  title: Automatic Speech-Gesture Mapping and Engagement Evaluation in Human Robot Interaction
+  authors: [Bishal Ghosh, Abhinav Dhall, Ekta Singla]
+  year: 2019
+  venue: RO-MAN
+  type: conference
+  category: system
+  doi: 10.1109/ro-man46459.2019.8956462
+  arxiv: '1812.03484'
+  links: {paper: 'https://doi.org/10.1109/ro-man46459.2019.8956462', open: 'https://arxiv.org/abs/1812.03484'}
+  user_study: true
+  summary: A robot system maps dominant gestures of TED speakers, localised with CNNs, to speech context and adapts its speech to listener attention measured from camera feedback.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ginosar2019speech2gesture
+  title: Learning Individual Styles of Conversational Gesture
+  authors: [Shiry Ginosar, Amir Bar, Gefen Kohavi, Caroline Chan, Andrew Owens, Jitendra Malik]
+  year: 2019
+  venue: CVPR
+  type: conference
+  category: method
+  doi: 10.1109/cvpr.2019.00361
+  arxiv: '1906.04160'
+  links: {paper: 'https://doi.org/10.1109/cvpr.2019.00361', open: 'https://arxiv.org/abs/1906.04160', code: 'https://github.com/amirbar/speech2gesture'}
+  input: [audio]
+  output: [upper-body, hands]
+  setting: [monologue]
+  datasets: [speech2gesture]
+  summary: Translates monologue speech of a single speaker into that speaker's hand and arm gesture motion, trained on unlabeled videos with pseudo ground truth from automatic pose detection.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: hua2019seq2seq
+  title: 'Towards More Realistic Human-Robot Conversation: A Seq2Seq-based Body Gesture Interaction System'
+  authors: [Minjie Hua, Fuyuan Shi, Yibing Nan, Kai Wang, Hao Chen, Shiguo Lian]
+  year: 2019
+  venue: IROS
+  type: conference
+  category: system
+  doi: 10.1109/iros40897.2019.8968038
+  arxiv: '1905.01641'
+  links: {paper: 'https://doi.org/10.1109/iros40897.2019.8968038', open: 'https://arxiv.org/abs/1905.01641'}
+  output: [upper-body]
+  representation: [joints-3d]
+  metrics: [joint-error, other]
+  summary: Listening and speaking seq2seq models trained on YouTube conversation videos synthesize upper-body keypoint gestures that drive a virtual avatar and a Pepper robot.
+  notes: Abstract reports mean squared error and cosine similarity on the test set.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ikeuchi2019labanotation
+  title: Design of conversational humanoid robot based on hardware independent gesture generation
+  authors: [Katsushi Ikeuchi, David Baumert, Shunsuke Kudoh, Masaru Takizawa]
+  year: 2019
+  venue: arXiv
+  type: preprint
+  category: system
+  arxiv: '1905.08702'
+  links: {paper: 'https://arxiv.org/abs/1905.08702'}
+  summary: An integrated conversational humanoid robot system that produces gestures alongside spoken sentences using labanotation symbols so the same gestures transfer across robots.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ishi2019online
+  title: Online processing for speech-driven gesture motion generation in android robots
+  authors: [Carlos Toshinori Ishi, Ryusuke Mikata, Takashi Minato, Hiroshi Ishiguro]
+  year: 2019
+  venue: Humanoids
+  type: conference
+  category: system
+  doi: 10.1109/humanoids43949.2019.9035066
+  links: {paper: 'https://doi.org/10.1109/humanoids43949.2019.9035066'}
+  input: [audio]
+  summary: Implements online speech-driven hand gesture generation in an android robot dialogue system, handling motion overlaps and speech interruptions, and tests tolerable gesture delay and hold duration.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: joo2019social
+  title: 'Towards Social Artificial Intelligence: Nonverbal Social Signal Prediction in a Triadic Interaction'
+  authors: [Hanbyul Joo, Tomas Simon, Mina Cikara, Yaser Ajmal Sheikh]
+  year: 2019
+  venue: CVPR
+  type: conference
+  category: dataset
+  doi: 10.1109/cvpr.2019.01113
+  arxiv: '1906.04158'
+  links: {paper: 'https://doi.org/10.1109/cvpr.2019.01113', open: 'https://arxiv.org/abs/1906.04158'}
+  setting: [multi-party]
+  summary: Introduces the social signal prediction task and a 3D motion capture dataset of triadic interactions with body, face and hand motion, with baselines predicting speaking status, formation and body gestures.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: kaneko2019bilstm
+  title: Speech-to-Gesture Generation Using Bi-Directional LSTM Network
+  authors: [Naoshi Kaneko, Kenta Takeuchi, Dai Hasegawa, Shinichi Shirakawa, Hiroshi Sakuta, Kazuhiko Sumi]
+  year: 2019
+  venue: TJSAI
+  type: journal
+  category: method
+  doi: 10.1527/tjsai.c-j41
+  links: {paper: 'https://doi.org/10.1527/tjsai.c-j41', open: 'https://www.jstage.jst.go.jp/article/tjsai/34/6/34_C-J41/_pdf'}
+  input: [audio]
+  representation: [joints-3d]
+  approach: [regression]
+  user_study: true
+  summary: Regresses full 3D skeletal pose from perceptual audio features with a bidirectional LSTM, then smooths the pose sequence with combined temporal filters.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: kappagantula2019deictic
+  title: Automatic Deictic Gestures for Animated Pedagogical Agents
+  authors: [Sri Rama Kartheek Kappagantula, Nicoletta Adamo‐Villani, Meng-Lin Wu, Voicu S. Popescu]
+  year: 2019
+  venue: IEEE TLT
+  type: journal
+  category: system
+  doi: 10.1109/tlt.2019.2922134
+  links: {paper: 'https://doi.org/10.1109/tlt.2019.2922134'}
+  input: [text, audio]
+  approach: [rule-based]
+  user_study: true
+  summary: Rule-based system that takes lecture audio and text and generates pointing gestures for an animated pedagogical agent toward whiteboard elements found by keyword search.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: kucherenko2019analyzing
+  title: Analyzing Input and Output Representations for Speech-Driven Gesture Generation
+  authors: [Taras Kucherenko, Dai Hasegawa, Gustav Eje Henter, Naoshi Kaneko, Hedvig Kjellström]
+  year: 2019
+  venue: IVA
+  type: conference
+  category: method
+  doi: 10.1145/3308532.3329472
+  arxiv: '1903.03369'
+  links: {paper: 'https://doi.org/10.1145/3308532.3329472', open: 'https://arxiv.org/abs/1903.03369', code: 'https://github.com/GestureGeneration/Speech_driven_gesture_generation_with_autoencoder'}
+  input: [audio]
+  representation: [joints-3d]
+  approach: [regression]
+  setting: [monologue]
+  user_study: true
+  summary: Learns a low-dimensional motion representation with a denoising autoencoder and trains a speech encoder to map speech features to it, then decodes to 3D joint-coordinate gesture sequences.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: kucherenko2019representations
+  title: On the Importance of Representations for Speech-Driven Gesture Generation
+  authors: [Taras Kucherenko, Dai Hasegawa, Naoshi Kaneko, Gustav Eje Henter, Hedvig Kjellström]
+  year: 2019
+  venue: AAMAS
+  type: conference
+  category: method
+  doi: 10.65109/wnka2303
+  links: {paper: 'https://www.ifaamas.org/Proceedings/aamas2019/pdfs/p2072.pdf', open: 'http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-251460'}
+  input: [audio]
+  representation: [joints-3d]
+  user_study: true
+  summary: Generates sequences of 3D joint coordinates from speech features with a data-driven deep model extended by representation learning.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: mcneelywhite2019diana
+  title: User-Aware Shared Perception for Embodied Agents
+  authors: [David G. McNeely-White, Jaime Ruiz, Isaac Wang, Francisco Raul Ortega, J. Ross Beveridge, Bruce A. Draper, Rahul Bangar, Dhruva Patil, James D. Pustejovsky, Nikhil Krishnaswamy, Kyeongmin Rim]
+  year: 2019
+  venue: HCC
+  type: conference
+  category: system
+  doi: 10.1109/hcc46620.2019.00015
+  links: {paper: 'https://doi.org/10.1109/hcc46620.2019.00015'}
+  summary: Presents Diana, an embodied agent that perceives the user's gestures, gaze and words through video and depth sensors and responds with speech, gesture and emotive behaviour in a shared 3D virtual world.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: mlakar2019repository
+  title: Development of a Repository of Virtual 3D Conversational Gestures and Expressions
+  authors: [Izidor Mlakar, Zdravko Kačič, Matej Borko, Aleksandra Zögling, Matej Rojc]
+  year: 2019
+  venue: Lecture Notes in Electrical Engineering
+  type: conference
+  category: dataset
+  doi: 10.1007/978-3-030-21507-1_16
+  links: {paper: 'https://doi.org/10.1007/978-3-030-21507-1_16'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: nihei2019iconic
+  title: Determining Iconic Gesture Forms based on Entity Image Representation
+  authors: [Fumio Nihei, Yukiko Nakano, Ryuichiro Higashinaka, Ryo Ishii]
+  year: 2019
+  venue: ICMI
+  type: conference
+  category: method
+  doi: 10.1145/3340555.3353736
+  links: {paper: 'https://doi.org/10.1145/3340555.3353736', open: 'https://dl.acm.org/doi/pdf/10.1145/3340555.3353736'}
+  input: [image]
+  summary: Classifies the form of an iconic gesture for an entity with a fully connected network fed an average image representation of web pictures of that entity, and uses it to build a gesture dictionary for a virtual agent.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: perezmayos2019prosody
+  title: Part-of-Speech and Prosody-based Approaches for Robot Speech and Gesture Synchronization
+  authors: [Laura Pérez-Mayos, Mireia Farrús, J. Adell]
+  year: 2019
+  venue: J Intell Robot Syst
+  type: journal
+  category: method
+  doi: 10.1007/s10846-019-01100-3
+  links: {paper: 'https://doi.org/10.1007/s10846-019-01100-3'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: rodriguez2019gan
+  title: Spontaneous talking gestures using Generative Adversarial Networks
+  authors: [Igor Rodríguez, José María Martínez-Otzeta, Itziar Irigoien, Elena Lazkano]
+  year: 2019
+  venue: RAS
+  type: journal
+  category: method
+  doi: 10.1016/j.robot.2018.11.024
+  links: {paper: 'https://doi.org/10.1016/j.robot.2018.11.024', open: 'http://hdl.handle.net/10810/71576'}
+  output: [upper-body]
+  approach: [gan]
+  summary: Generates sequences of robot upper-body joint positions synchronized with an uttered sentence using a GAN, demonstrated on a real robot and compared with non-deep generative approaches.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: sadoughi2017speech
+  title: Speech-driven Animation with Meaningful Behaviors
+  authors: [Najmeh Sadoughi, Carlos Busso]
+  year: 2019
+  venue: Speech Communication
+  type: journal
+  category: method
+  doi: 10.1016/j.specom.2019.04.005
+  arxiv: '1708.01640'
+  links: {paper: 'https://doi.org/10.1016/j.specom.2019.04.005', open: 'https://arxiv.org/abs/1708.01640'}
+  input: [audio]
+  approach: [other]
+  user_study: true
+  summary: Speech-driven behaviour generation with a dynamic Bayesian network constrained by a discrete variable (discourse function or prototypical behaviour such as head nods), usable as a behaviour realizer in rule-based systems.
+  notes: Approach is a dynamic Bayesian network. Abstract reports objective and subjective evaluations; body parts generated not stated in the abstract.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: wolfert2019beat
+  title: 'Should Beat Gestures Be Learned Or Designed? : A Benchmarking User Study'
+  authors: [Pieter Wolfert, Taras Kucherenko, Hedvig Kjellström, Tony Belpaeme]
+  year: 2019
+  venue: Ghent University Academic Bibliography
+  type: conference
+  category: evaluation
+  links: {paper: 'http://hdl.handle.net/1854/LU-8622805'}
+  input: [audio]
+  output: [upper-body]
+  user_study: true
+  summary: User study comparing beat gestures from a speech-to-pose machine learning model with three hand-coded beat gesture methods on a humanoid agent, ranked by paired comparisons.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: yoon2019robots
+  title: 'Robots Learn Social Skills: End-to-End Learning of Co-Speech Gesture Generation for Humanoid Robots'
+  authors: [Youngwoo Yoon, Woo-Ri Ko, Minsu Jang, Jaeyeon Lee, Jaehong Kim, Geehyuk Lee]
+  year: 2019
+  venue: ICRA
+  type: conference
+  category: method
+  doi: 10.1109/icra.2019.8793720
+  arxiv: '1810.12541'
+  links: {paper: 'https://doi.org/10.1109/icra.2019.8793720', open: 'https://arxiv.org/abs/1810.12541', project: 'https://sites.google.com/view/youngwoo-yoon/projects/co-speech-gesture-generation'}
+  input: [text]
+  datasets: [ted-gesture]
+  user_study: true
+  summary: An end-to-end neural network with a speech-text encoder and a gesture-sequence decoder is trained on 52 hours of TED talks and demonstrated on a NAO robot.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: yunus2019gesture
+  title: Gesture Class Prediction by Recurrent Neural Network and Attention Mechanism
+  authors: [Fajrian Yunus, Chloé Clavel, Catherine Pélachaud]
+  year: 2019
+  venue: IVA
+  type: conference
+  category: method
+  doi: 10.1145/3308532.3329458
+  links: {paper: 'https://doi.org/10.1145/3308532.3329458', open: 'https://hal.science/hal-02382428'}
+  input: [audio]
+  summary: A recurrent neural network with attention predicts from speech prosody when a virtual agent should perform a communicative gesture, framed as gesture-class sequence classification on a dialog corpus.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: zabala2019gesticulate
+  title: Learning to gesticulate by observation using a deep generative approach
+  authors: [Unai Zabala, Igor Rodriguez, José María Martínez-Otzeta, Elena Lazkano]
+  year: 2019
+  venue: ICSR
+  type: conference
+  category: method
+  doi: 10.1007/978-3-030-35888-4_62
+  arxiv: '1909.01768'
+  links: {paper: 'https://doi.org/10.1007/978-3-030-35888-4_62', open: 'https://arxiv.org/abs/1909.01768'}
+  approach: [gan]
+  summary: Trains a GAN on human talking gestures recorded with a Kinect and maps the generated poses to humanoid robot joint positions by direct kinematics.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false

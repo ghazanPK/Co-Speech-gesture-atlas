@@ -4,13 +4,50 @@
 
 - id: ahuja2022diffgan
   title: Low-Resource Adaptation for Personalized Co-Speech Gesture Generation
+  authors: [Chaitanya Ahuja, Dong Won Lee, Louis-Philippe Morency]
   year: 2022
   venue: CVPR
   type: conference
   category: method
-  links: {paper: 'https://openaccess.thecvf.com/content/CVPR2022/html/Ahuja_Low-Resource_Adaptation_for_Personalized_Co-Speech_Gesture_Generation_CVPR_2022_paper.html'}
+  doi: 10.1109/cvpr52688.2022.01991
+  links: {paper: 'https://doi.org/10.1109/cvpr52688.2022.01991', project: 'https://chahuja.com/diffgan'}
+  user_study: true
+  summary: DiffGAN adapts a co-speech gesture generation model trained on a high-resource source speaker to a target speaker using about 2 minutes of target data, accounting for crossmodal grounding shift and output distribution shift.
   added: '2026-10-03'
-  checked: metadata
+  checked: abstract
+  verified: false
+
+- id: ali2022wild
+  title: Improving Co-speech gesture rule-map generation via wild pose matching with gesture units.
+  authors: [Ghazanfar Ali, Jae‐In Hwang]
+  year: 2022
+  venue: ACM Poster
+  type: poster
+  category: method
+  doi: 10.1145/3550082.3564185
+  links: {paper: 'https://doi.org/10.1145/3550082.3564185', video: 'https://youtu.be/QBtGdGE1Wgk'}
+  input: [text]
+  approach: [hybrid]
+  summary: Text-to-gesture rules for 3D digital humans are built by matching 2D poses from monologue videos to 3D mocap gesture units with a contrastively trained model, with gesture units clustered for runtime diversity.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: anon2022transgesture
+  title: 'TransGesture: Autoregressive Gesture Generation with RNN-Transducer'
+  authors: [Naoshi Kaneko, Yuna Mitsubayashi, Geng Mu]
+  year: 2022
+  venue: ICMI
+  type: conference
+  category: method
+  doi: 10.1145/3536221.3558061
+  links: {paper: 'https://doi.org/10.1145/3536221.3558061'}
+  approach: [autoregressive]
+  datasets: [genea-2022]
+  user_study: true
+  summary: Gesture generation model for the GENEA Challenge 2022 built on an RNN-transducer with encoder, prediction and joint networks, trained with MSE plus statistical losses on motion statistics.
+  added: '2026-10-03'
+  checked: abstract
   verified: false
 
 - id: ao2022rhythmic
@@ -37,6 +74,41 @@
   notes: Other metric is the percentage of matched beats (PMB). Introduces a 4-hour Chinese gesture dataset.
   added: '2026-10-03'
   checked: full-text
+  verified: true
+
+- id: asakawa2022text
+  title: Evaluation of text-to-gesture generation model using convolutional neural network
+  authors: [Eiichi Asakawa, Naoshi Kaneko, Dai Hasegawa, Shinichi Shirakawa]
+  year: 2022
+  venue: Neural Networks
+  type: journal
+  category: method
+  doi: 10.1016/j.neunet.2022.03.041
+  links: {paper: 'https://doi.org/10.1016/j.neunet.2022.03.041'}
+  input: [text]
+  representation: [keypoints-2d]
+  user_study: true
+  summary: A convolutional network maps a sequence of spoken words to a sequence of 2D joint coordinates, compared against a speech-to-gesture model in a perceptual study.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: chae2022morphemic
+  title: Generation of co-speech gestures of robot based on morphemic analysis
+  authors: [Yu-Jung Chae, Changjoo Nam, Daseul Yang, HunSeob Sin, ChangHwan Kim, Sung-Kee Park]
+  year: 2022
+  venue: Robotics and Autonomous Systems
+  type: journal
+  category: method
+  doi: 10.1016/j.robot.2022.104154
+  links: {paper: 'https://doi.org/10.1016/j.robot.2022.104154'}
+  input: [text]
+  approach: [retrieval]
+  languages: [ko]
+  user_study: true
+  summary: Morphemic analysis of an utterance finds where to gesture and the gesture type, then a motion primitive is retrieved from a database by Word2Vec word similarity, shown on a NAO robot.
+  added: '2026-10-03'
+  checked: abstract
   verified: false
 
 - id: context2022bodygesture
@@ -51,43 +123,116 @@
   checked: metadata
   verified: false
 
+- id: dewit2022robot
+  title: 'The Design and Observed Effects of Robot-performed Manual Gestures: A Systematic Review'
+  authors: [Jan de Wit, Paul Vogt, Emiel Krahmer]
+  year: 2022
+  venue: THRI
+  type: journal
+  category: survey
+  doi: 10.1145/3549530
+  links: {paper: 'https://doi.org/10.1145/3549530', open: 'https://dl.acm.org/doi/pdf/10.1145/3549530'}
+  summary: Systematic review of social robots that use manual gestures, covering the gesture production process (design and planning) and the effects of robot-performed gestures on human-robot interaction.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: dsi2022seq2seq
-  title: DSI Hybrid Seq2Seq Architecture for 3D Co-Speech Gesture Generation
+  title: Hybrid Seq2Seq Architecture for 3D Co-Speech Gesture Generation
+  authors: [Khaled Saleh]
   year: 2022
   venue: ICMI
   type: conference
   category: method
   doi: 10.1145/3536221.3558064
-  links: {paper: 'https://dl.acm.org/doi/10.1145/3536221.3558064', video: 'https://www.youtube.com/watch?v=9rcBp0ezlqs'}
-  notes: GENEA Challenge 2022 entry. Authors not available; id uses team name.
+  links: {paper: 'https://doi.org/10.1145/3536221.3558064'}
+  datasets: [genea-2022]
+  summary: A GENEA Challenge 2022 entry using an encoder-decoder architecture that combines transformer networks and recurrent neural networks, trained on the official training split.
   added: '2026-10-03'
-  checked: metadata
+  checked: abstract
+  verified: false
+
+- id: feng2022tool
+  title: A Tool for Extracting 3D Avatar-Ready Gesture Animations from Monocular Videos
+  authors: [Andrew Feng, Samuel Shin, Youngwoo Yoon]
+  year: 2022
+  venue: unknown
+  type: conference
+  category: system
+  doi: 10.1145/3561975.3562953
+  links: {paper: 'https://doi.org/10.1145/3561975.3562953', open: 'https://dl.acm.org/doi/pdf/10.1145/3561975.3562953'}
+  input: [video]
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: finemotion2022recell
+  title: 'ReCell: replicating recurrent cell for auto-regressive pose generation'
+  authors: [Vladislav Korzun, Anna Valer'evna Beloborodova, Arkady Ilin]
+  year: 2022
+  venue: ICMI
+  type: conference
+  category: method
+  doi: 10.1145/3536220.3558801
+  links: {paper: 'https://doi.org/10.1145/3536220.3558801'}
+  approach: [autoregressive]
+  summary: FineMotion's GENEA Challenge 2022 entry, an auto-regressive system imitating a recurrent cell with a windowed auto-encoder, generating gestures from input speech.
+  added: '2026-10-03'
+  checked: abstract
   verified: false
 
 - id: forgerons2022exemplar
   title: 'Exemplar-based Stylized Gesture Generation from Speech: An Entry to the GENEA Challenge 2022'
+  authors: [Saeed Ghorbani, Ylva Ferstl, Marc‐André Carbonneau]
   year: 2022
   venue: ICMI
   type: conference
   category: method
   doi: 10.1145/3536221.3558068
-  links: {paper: 'https://dl.acm.org/doi/abs/10.1145/3536221.3558068', video: 'https://www.youtube.com/watch?v=zdNsj3MGpL0'}
-  notes: GENEA Challenge 2022 entry (Forgerons Ubisoft). Authors not available; id uses team name.
+  links: {paper: 'https://doi.org/10.1145/3536221.3558068'}
+  input: [audio, style]
+  output: [full-body]
+  approach: [vae]
+  datasets: [genea-2022]
+  user_study: true
+  summary: A neural network generates gesture animation from audio, with motion style embedded in a latent space by a variational framework from an exemplar motion clip.
   added: '2026-10-03'
-  checked: metadata
+  checked: abstract
   verified: false
 
 - id: gesturemaster2022graph
   title: 'GestureMaster: Graph-based Speech-driven Gesture Generation'
+  authors: [Chi Zhou, Tengyue Bian, Kang Chen]
   year: 2022
   venue: ICMI
   type: conference
   category: method
   doi: 10.1145/3536221.3558063
-  links: {paper: 'https://dl.acm.org/doi/10.1145/3536221.3558063', video: 'https://www.youtube.com/watch?v=nwNwEGX33SA'}
-  notes: GENEA Challenge 2022 entry. Authors not available; id uses method name.
+  links: {paper: 'https://doi.org/10.1145/3536221.3558063'}
+  input: [audio, text]
+  datasets: [genea-2022]
+  user_study: true
+  summary: A GENEA Challenge 2022 entry that adapts the ChoreoMaster music-to-dance system to generate gesture sequences from speech audio and text transcriptions.
   added: '2026-10-03'
-  checked: metadata
+  checked: abstract
+  verified: false
+
+- id: gjaci2022culture
+  title: Towards Culture-Aware Co-Speech Gestures for Social Robots
+  authors: [Ariel Gjaci, Carmine Tommaso Recchiuto, Antonio Sgorbissa]
+  year: 2022
+  venue: IJSR
+  type: journal
+  category: system
+  doi: 10.1007/s12369-022-00893-y
+  links: {paper: 'https://doi.org/10.1007/s12369-022-00893-y', open: 'https://link.springer.com/content/pdf/10.1007/s12369-022-00893-y.pdf'}
+  input: [audio]
+  approach: [gan]
+  datasets: [custom]
+  user_study: true
+  summary: 'An integrated pipeline for culture-dependent gestures on the Pepper robot: an adversarial generator driven by speech audio features, a voice conversion module for the multi-person dataset, and a 2D-to-3D mapping module.'
+  added: '2026-10-03'
+  checked: abstract
   verified: false
 
 - id: habibie2022motionmatching
@@ -102,6 +247,21 @@
   input: [audio]
   approach: [retrieval, gan]
   summary: Predicts 3D body motion by k-NN search over audio-gesture clips using audio similarity and previous pose, then refines the result with a conditional GAN, allowing control through motion statistics.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: he2022quality
+  title: Automatic Quality Assessment of Speech-Driven Synthesized Gestures
+  authors: [Zhiyuan He]
+  year: 2022
+  venue: IJCGT
+  type: journal
+  category: evaluation
+  doi: 10.1155/2022/1828293
+  links: {paper: 'https://doi.org/10.1155/2022/1828293', open: 'https://downloads.hindawi.com/journals/ijcgt/2022/1828293.pdf'}
+  input: [video]
+  summary: A Bi-LSTM model with an adjusted attention mechanism gives an automatic quantitative quality assessment of synthesized gesture video.
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -128,28 +288,111 @@
   checked: full-text
   verified: false
 
+- id: hwang2022klsg
+  title: 'KLSG : Korean-based Large-scale Co-Speech Gesture Dataset'
+  authors: [Daewon Hwang, Jungmin Chung, Bongwon Suh, Kyoungchin Seo]
+  year: 2022
+  venue: Journal of Digital Contents Society
+  type: journal
+  category: dataset
+  doi: 10.9728/dcs.2022.23.11.2269
+  links: {paper: 'https://doi.org/10.9728/dcs.2022.23.11.2269'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
 - id: ivilab2022tacotron
   title: The IVI Lab entry to the GENEA Challenge 2022 – A Tacotron2 Based Method for Co-Speech Gesture Generation With Locality-Constraint Attention Mechanism
+  authors: [Che-Jui Chang, Sen Zhang, Mubbasir Kapadia]
   year: 2022
   venue: ICMI
   type: conference
   category: method
   doi: 10.1145/3536221.3558060
-  links: {paper: 'https://dl.acm.org/doi/abs/10.1145/3536221.3558060', code: 'https://github.com/cjerry1243/Tacotron2-SpeechGesture', video: 'https://www.youtube.com/watch?v=PNmC6mlpyQg'}
-  notes: GENEA Challenge 2022 entry. Authors not available; id uses team name.
+  links: {paper: 'https://doi.org/10.1145/3536221.3558060'}
+  input: [text, audio, speaker-id]
+  output: [full-body, upper-body]
+  datasets: [genea-2022]
+  metrics: [accel-jerk]
+  user_study: true
+  summary: A sequence-to-sequence gesture generator with a Tacotron2 backbone and a locality-constraint attention mechanism, mapping text, audio and speaker identity to body motion.
   added: '2026-10-03'
-  checked: metadata
+  checked: abstract
   verified: false
 
+- id: jin2022s2mnet
+  title: 'S2M-Net: Speech Driven Three-party Conversational Motion Synthesis Networks'
+  authors: [Aobo Jin, Qixin Deng, Zhigang Deng]
+  year: 2022
+  venue: unknown
+  type: conference
+  category: method
+  doi: 10.1145/3561975.3562954
+  links: {paper: 'https://doi.org/10.1145/3561975.3562954'}
+  input: [audio]
+  approach: [gan]
+  setting: [multi-party]
+  datasets: [custom]
+  user_study: true
+  summary: A conditional GAN with an LSTM encoder and decoder that maps acoustic speech and speaker marking to three-party conversational gesture kinematics.
+  notes: Venue not stated in the available text; venue field needs checking.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: kim2022asap
+  title: 'ASAP: Auto-generating Storyboard and Previz'
+  authors: [Hanseob Kim, Ghazanfar Ali, Bin Han, Hwang Youn Kim, Jieun Kim, Jae-In Hwang]
+  year: 2022
+  venue: SIGGRAPH Asia
+  type: poster
+  category: system
+  doi: 10.1145/3550453.3570124
+  links: {paper: 'https://doi.org/10.1145/3550453.3570124', open: 'https://dl.acm.org/doi/pdf/10.1145/3550453.3570124'}
+  input: [text]
+  summary: A system that turns movie scripts into pre-visualized scenes with virtual humans, generating co-speech gestures from dialogue with a text-to-gesture model, plus facial expressions and body movements.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: kucherenko2022predictability
+  title: Multimodal analysis of the predictability of hand-gesture properties
+  authors: [Taras Kucherenko, Rajmund Nagy, Michael Neff, Hedvig Kjellström, Gustav Eje Henter]
+  year: 2022
+  venue: AAMAS
+  type: conference
+  category: method
+  doi: 10.65109/habv5810
+  arxiv: '2108.05762'
+  links: {paper: 'https://doi.org/10.65109/habv5810', open: 'https://arxiv.org/abs/2108.05762', project: 'https://svito-zar.github.io/speech2properties2gestures'}
+  input: [text, audio]
+  output: [hands]
+  representation: [other]
+  approach: [other]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [saga]
+  languages: [de]
+  metrics: [other]
+  user_study: false
+  summary: Trains dilated CNNs to predict gesture presence and gesture properties (phase, category, semantics) from time-aligned text embeddings and prosodic audio features to test which speech modality predicts which property.
+  notes: Output is binary gesture-property labels rather than motion. Metric is macro F1.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
 - id: liang2022seeg
-  title: 'SEEG: Semantic Energized Co-Speech Gesture Generation'
+  title: 'SEEG: Semantic Energized Co-speech Gesture Generation'
+  authors: [Yuanzhi Liang, Qianyu Feng, Linchao Zhu, Li Fang Hu, Pan Pan, Yi Ping Yang]
   year: 2022
   venue: CVPR
   type: conference
   category: method
-  links: {paper: 'https://openaccess.thecvf.com/content/CVPR2022/html/Liang_SEEG_Semantic_Energized_Co-Speech_Gesture_Generation_CVPR_2022_paper.html', code: 'https://github.com/akira-l/seeg'}
+  doi: 10.1109/cvpr52688.2022.01022
+  links: {paper: 'https://doi.org/10.1109/cvpr52688.2022.01022', code: 'https://github.com/akira-l/SEEG'}
+  summary: SEEG decouples semantic-irrelevant information from the inputs to mine beat and semantic gestures separately, and adds a semantic energizing module with a semantic prompter that supervises predictions to express the same semantics as the ground truth.
   added: '2026-10-03'
-  checked: metadata
+  checked: abstract
   verified: false
 
 - id: liu2022angie
@@ -169,13 +412,12 @@
   setting: [monologue]
   realtime: unreported
   datasets: [pats]
-  languages: [en]
   metrics: [fgd, beat-align, diversity]
   user_study: true
   summary: Generates speaker video from audio by predicting vector-quantized unsupervised motion codes with a GPT-style model and a refinement network.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: liu2022beat
   title: 'BEAT: A Large-Scale Semantic and Emotional Multi-Modal Dataset for Conversational Gestures Synthesis'
@@ -187,7 +429,7 @@
   doi: 10.1007/978-3-031-20071-7_36
   arxiv: '2203.05297'
   links: {paper: 'https://doi.org/10.1007/978-3-031-20071-7_36', open: 'https://arxiv.org/abs/2203.05297', code: 'https://github.com/PantoMatrix/BEAT', project: 'https://pantomatrix.github.io/BEAT/'}
-  input: [text, audio, speaker-id, emotion, seed-motion]
+  input: [text, audio, speaker-id, emotion]
   output: [full-body, hands]
   representation: [joints-3d]
   approach: [autoregressive, gan]
@@ -201,6 +443,23 @@
   notes: Dataset covers conversation with an instructor and self-talk sessions; the CaMN baseline animates the speaker only.
   added: '2026-10-03'
   checked: full-text
+  verified: true
+
+- id: liu2022disco
+  title: 'DisCo: Disentangled Implicit Content and Rhythm Learning for Diverse Co-Speech Gestures Synthesis'
+  authors: [Haiyang Liu, Naoya Iwamoto, Zihao Zhu, Zhengqing Li, You Zhou, Elif Bozkurt, Bo Zheng]
+  year: 2022
+  venue: ACM MM
+  type: conference
+  category: method
+  doi: 10.1145/3503161.3548400
+  links: {paper: 'https://doi.org/10.1145/3503161.3548400', open: 'https://dl.acm.org/doi/pdf/10.1145/3503161.3548400', code: 'https://github.com/PantoMatrix/PantoMatrix/blob/main/train_disco_audio.py', project: 'https://pantomatrix.github.io/DisCo/'}
+  input: [audio, seed-motion]
+  setting: [monologue]
+  datasets: [trinity, speech2gesture]
+  summary: Disentangles gesture motion into implicit content and rhythm features with a contrastive loss and generates content candidates with a diversity-and-inclusion network that selects one by learned voting.
+  added: '2026-10-03'
+  checked: abstract
   verified: false
 
 - id: liu2022ha2g
@@ -229,6 +488,117 @@
   checked: full-text
   verified: false
 
+- id: lu2022deepmotion
+  title: The DeepMotion entry to the GENEA Challenge 2022
+  authors: [Shuhong Lu, Andrew Feng]
+  year: 2022
+  venue: ICMI
+  type: conference
+  category: method
+  doi: 10.1145/3536221.3558059
+  links: {paper: 'https://dl.acm.org/doi/abs/10.1145/3536221.3558059', open: 'https://dl.acm.org/doi/pdf/10.1145/3536221.3558059'}
+  approach: [vq, autoregressive]
+  user_study: true
+  summary: 'Two-stage gesture synthesis: a VQ-VAE extracts gesture units as codebook vectors and a GPT-2 transformer models their distribution autoregressively.'
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: mlakar2022eva
+  title: 'Understanding conversational interaction in multiparty conversations: the EVA Corpus'
+  authors: [Izidor Mlakar, Darinka Verdonik, Simona Majhenič, Matej Rojc]
+  year: 2022
+  venue: Language Resources and Evaluation
+  type: journal
+  category: dataset
+  doi: 10.1007/s10579-022-09627-y
+  links: {paper: 'https://doi.org/10.1007/s10579-022-09627-y', open: 'https://link.springer.com/content/pdf/10.1007/s10579-022-09627-y.pdf'}
+  setting: [multi-party]
+  languages: [sl]
+  summary: Multimodal multiparty conversation corpus for Slovenian with annotation layers for syntax, dialogue acts, emotions, non-verbal behaviour and gesture units, built to support embodied conversational agents.
+  notes: Largely an annotation scheme and corpus-analysis paper on speech and gesture; relevance to generation rests on its stated aim of improving embodied agents.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: mohan2022nao
+  title: A System for Giving Presentations with the NAO Robot
+  authors: [P. Mohan, Michael A. Hosein]
+  year: 2022
+  venue: GEM
+  type: conference
+  category: system
+  doi: 10.1109/gem56474.2022.10017306
+  links: {paper: 'https://doi.org/10.1109/gem56474.2022.10017306'}
+  input: [text]
+  output: [hands]
+  approach: [rule-based]
+  languages: [en]
+  summary: A presentation system in which a Presentation Markup Language script specifies speech text and hand gestures from a gesture repository, and a program is generated to make a NAO robot deliver the presentation.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: seppelfelt2022humanoidbot
+  title: 'HumanoidBot: Full-Body Humanoid Chitchat System'
+  authors: [Gabriel D. C. Seppelfelt, Tomoki Asaka, Takayuki Nagai, Soh Yukizaki]
+  year: 2022
+  venue: Humanoids
+  type: conference
+  category: system
+  doi: 10.1109/humanoids53995.2022.10000209
+  links: {paper: 'https://doi.org/10.1109/humanoids53995.2022.10000209'}
+  output: [full-body]
+  summary: A full-body humanoid robot chitchat system that performs gestures simultaneously with speech utterances in face-to-face open-domain dialogue.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: shimoyama2022visture
+  title: 'VISTURE: A System for Video-Based Gesture and Speech Generation by Robots'
+  authors: [Kaon Shimoyama, Kohei Okuoka, Mitsuhiko Kimoto, Michita Imai]
+  year: 2022
+  venue: HAI
+  type: conference
+  category: system
+  doi: 10.1145/3527188.3561931
+  links: {paper: 'https://doi.org/10.1145/3527188.3561931'}
+  input: [video]
+  user_study: true
+  summary: Generates a robot's gestures and speech describing a video scene, using a foreground and background classification of expressions derived from a case study of how people describe videos.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: song2022motion
+  title: Motion Generation Of Conversational Character From Labeled Script
+  authors: [Zhihao Song, Aohan Chen, Jeongsu Shin, Junichi Hoshino]
+  year: 2022
+  venue: NicoInt
+  type: conference
+  category: method
+  doi: 10.1109/nicoint55861.2022.00029
+  links: {paper: 'https://doi.org/10.1109/nicoint55861.2022.00029'}
+  summary: Extracts labels from a conversation script and synthesizes body, gesture and head/eye motion of a customer character for different situations.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: teshima2022integration
+  title: Integration of Gesture Generation System Using Gesture Library with DIY Robot Design Kit
+  authors: [Hitoshi Teshima, Naoki Wake, Diego Thomas, Yuta Nakashima, David Baumert, Hiroshi Kawasaki, Katsushi Ikeuchi]
+  year: 2022
+  venue: SII
+  type: conference
+  category: system
+  doi: 10.1109/sii52469.2022.9708837
+  links: {paper: 'https://doi.org/10.1109/sii52469.2022.9708837'}
+  user_study: true
+  summary: A gesture selection system that uses DNN-recognised gesture types and sentence semantics with clusters of imagistic gestures, implemented on a low-cost DIY conversational robot kit.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: teshima2022typespecific
   title: Deep Gesture Generation for Social Robots Using Type-Specific Libraries
   authors: [Hitoshi Teshima, Naoki Wake, Diego Thomas, Yuta Nakashima, Hiroshi Kawasaki, Katsushi Ikeuchi]
@@ -254,6 +624,39 @@
   checked: full-text
   verified: false
 
+- id: thomas2022personality
+  title: Investigating how speech and animation realism influence the perceived personality of virtual characters and agents
+  authors: [Sean Thomas, Ylva Ferstl, Rachel McDonnell, Cathy Ennis]
+  year: 2022
+  venue: IEEE VR
+  type: conference
+  category: evaluation
+  doi: 10.1109/vr51125.2022.00018
+  links: {paper: 'https://doi.org/10.1109/vr51125.2022.00018', open: 'https://arrow.tudublin.ie/creaart/155'}
+  user_study: true
+  summary: A perceptual study comparing performance-captured characters with characters driven by generated gestures and synthesized speech on perceived Big Five personality.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: tuyen2022agree
+  title: Agree or Disagree? Generating Body Gestures from Affective Contextual Cues during Dyadic Interactions
+  authors: [Nguyen Tan Viet Tuyen, Oya Çeliktutan]
+  year: 2022
+  venue: RO-MAN
+  type: conference
+  category: method
+  doi: 10.1109/ro-man53752.2022.9900760
+  links: {paper: 'https://doi.org/10.1109/ro-man53752.2022.9900760'}
+  input: [audio, interlocutor]
+  approach: [gan]
+  setting: [dyadic]
+  datasets: [jestkod]
+  summary: A conditional GAN generates body gestures for a robot from a person's audio and the interacting partner's nonverbal signals encoded by a Context Encoder.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: wake2022concept
   title: Labeling the Phrases of a Conversational Agent with a Unique Personalized Vocabulary
   authors: [Naoki Wake, Machiko Sato, Kazuhiro Sasabuchi, Minako Nakamura, Katsushi Ikeuchi]
@@ -267,6 +670,87 @@
   input: [text]
   user_study: true
   summary: Compares automatically and manually obtained concept clusters for mapping a conversational agent's personalized vocabulary to predefined robot gestures, and tests concept-based gesture selection against random selection.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: windle2022armsymmetry
+  title: Arm motion symmetry in conversation
+  authors: [Jonathan Windle, Sarah L. Taylor, David Greenwood, Iain A. Matthews]
+  year: 2022
+  venue: Speech Communication
+  type: journal
+  category: evaluation
+  doi: 10.1016/j.specom.2022.08.001
+  links: {paper: 'https://doi.org/10.1016/j.specom.2022.08.001', open: 'https://ueaeprints.uea.ac.uk/id/eprint/87977/1/1_s2.0_S0167639322001054_main.pdf'}
+  setting: [dyadic]
+  summary: Analyses left-right arm symmetry of 36 speakers in dyadic conversation and tests with a speech-to-gesture model whether mirroring is valid as data augmentation.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: windle2022uea
+  title: UEA Digital Humans entry to the GENEA Challenge 2022
+  authors: [Jonathan Windle, David Greenwood, Sarah L. Taylor]
+  year: 2022
+  venue: ICMI
+  type: conference
+  category: method
+  doi: 10.1145/3536221.3558065
+  links: {paper: 'https://doi.org/10.1145/3536221.3558065'}
+  input: [audio, text]
+  approach: [regression]
+  datasets: [genea-2022]
+  user_study: true
+  summary: Two GENEA 2022 entries, a bidirectional LSTM and a multi-decoder BDLSTM with body-section experts, predicting pose from PASE+ audio features and FastText word embeddings with a rotation-and-position loss.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: wolfert2022challenge
+  title: GENEA Challenge 2022 Dataset Files
+  authors: [Pieter Wolfert]
+  year: 2022
+  venue: Zenodo
+  type: preprint
+  category: dataset
+  doi: 10.5281/zenodo.6998231
+  links: {paper: 'https://zenodo.org/record/6998231'}
+  input: [audio, text]
+  datasets: [genea-2022]
+  summary: Data release for the GENEA Challenge 2022 with audio, time-aligned transcripts and BVH motion capture derived from Talking With Hands 16.2M.
+  notes: Zenodo record, CC BY 4.0; test set contains audio and transcripts only.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: wolfert2022review
+  title: A Review of Evaluation Practices of Gesture Generation in Embodied Conversational Agents
+  authors: [Pieter Wolfert, Nicole Robinson, Tony Belpaeme]
+  year: 2022
+  venue: THMS
+  type: journal
+  category: survey
+  doi: 10.1109/thms.2022.3149173
+  arxiv: '2101.03769'
+  links: {paper: 'https://doi.org/10.1109/thms.2022.3149173', open: 'https://arxiv.org/abs/2101.03769'}
+  summary: A systematic review of 22 studies of co-speech gesture generation for embodied conversational agents that examines how they were evaluated and proposes evaluation recommendations and a reporting checklist.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
+- id: wu2022controlling
+  title: Controlling the Impression of Robots via GAN-based Gesture Generation
+  authors: [Bowen Wu, Jiaqi Shi, Chaoran Liu, Carlos Toshinori Ishi, Hiroshi Ishiguro]
+  year: 2022
+  venue: IROS
+  type: conference
+  category: method
+  doi: 10.1109/iros47612.2022.9981535
+  links: {paper: 'https://doi.org/10.1109/iros47612.2022.9981535'}
+  approach: [gan]
+  user_study: true
+  summary: A heuristic method, based on cognitive-science findings on robot impressions, controls the impression given by GAN-generated co-speech gestures without manual labeling.
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -295,7 +779,7 @@
   verified: false
 
 - id: yang2022reprgesture
-  title: The ReprGesture entry to the GENEA Challenge 2022
+  title: 'ReprGesture: The ReprGesture entry to the GENEA Challenge 2022'
   authors: [Sicheng Yang, Zhiyong Wu, Minglei Li, Mengchen Zhao, Jiuxin Lin, Liyang Chen, Weihong Bao]
   year: 2022
   venue: ICMI
@@ -303,20 +787,21 @@
   category: method
   doi: 10.1145/3536221.3558066
   arxiv: '2208.12133'
-  links: {paper: 'https://doi.org/10.1145/3536221.3558066', open: 'https://arxiv.org/abs/2208.12133', code: 'https://github.com/YoungSeng/ReprGesture'}
+  links: {paper: 'https://dl.acm.org/doi/10.1145/3536221.3558066', open: 'https://arxiv.org/abs/2208.12133', code: 'https://github.com/YoungSeng/ReprGesture', video: 'https://www.youtube.com/watch?v=KJJYEqyOq5U'}
+  weights: true
   input: [audio, text, seed-motion]
   output: [upper-body]
   representation: [joints-3d]
   approach: [gan]
+  setting: [monologue]
   realtime: unreported
-  datasets: [genea-2022, talking-with-hands]
+  datasets: [genea-2022]
   metrics: [accel-jerk, cca, velocity-hist, fgd]
   user_study: true
-  summary: Projects WavLM audio, FastText text and gesture features into modality-invariant and modality-specific subspaces with adversarial and reconstruction losses, then decodes gestures with a GAN-based transformer decoder.
-  notes: Upper body without hands or fingers (18 joints). Trained on a single speaker. The user study is the GENEA 2022 challenge evaluation. Code and pre-trained models are announced.
+  summary: Generates upper-body gesture from WavLM audio and FastText text features using multimodal representation learning with modality-invariant and modality-specific subspaces in a GAN with a Transformer generator.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: yazdian2022gesture2vec
   title: 'Gesture2Vec: Clustering Gestures using Representation Learning Methods for Co-speech Gesture Generation'
@@ -334,6 +819,19 @@
   notes: Also introduces objective metrics based on the quantized gesture representation.
   added: '2026-10-03'
   checked: abstract
+  verified: false
+
+- id: ye2022flow
+  title: Audio-Driven Stylized Gesture Generation with Flow-Based Model
+  authors: [Sheng Ye, Yu-Hui Wen, Yanan Sun, Ying He, Ziyang Zhang, Yaoyuan Wang, Weihua He, Yong-Jin Liu]
+  year: 2022
+  venue: ECCV
+  type: conference
+  category: method
+  doi: 10.1007/978-3-031-20065-6_41
+  links: {paper: 'https://doi.org/10.1007/978-3-031-20065-6_41'}
+  added: '2026-10-03'
+  checked: metadata
   verified: false
 
 - id: yoon2022genea
@@ -359,6 +857,50 @@
   checked: full-text
   verified: false
 
+- id: zabala2022storyteller
+  title: Towards an automatic generation of natural gestures for a storyteller robot
+  authors: [Unai Zabala, Igor Rodríguez, Elena Lazkano]
+  year: 2022
+  venue: RO-MAN
+  type: conference
+  category: method
+  doi: 10.1109/ro-man53752.2022.9900532
+  links: {paper: 'https://doi.org/10.1109/ro-man53752.2022.9900532'}
+  input: [text]
+  approach: [hybrid, gan]
+  summary: A hybrid gesture generator for a storytelling robot that combines GAN-generated beats with probabilistic insertion of semantic gestures, with text polarity modulating motion features.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: zhang2022framework
+  title: Towards a Framework for Social Robot Co-speech Gesture Generation with Semantic Expression
+  authors: [Heng Zhang, Chuang Yu, Adriana Tapus]
+  year: 2022
+  venue: LNCS
+  type: conference
+  category: method
+  doi: 10.1007/978-3-031-24667-8_10
+  links: {paper: 'https://doi.org/10.1007/978-3-031-24667-8_10', open: 'https://ensta-paris.hal.science/hal-03832923'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: zhao2022memory
+  title: Generating Diverse Gestures from Speech Using Memory Networks as Dynamic Dictionaries
+  authors: [Zeyu Zhao, Nan Gao, Zhi Zeng, Shuwu Zhang]
+  year: 2022
+  venue: COST
+  type: conference
+  category: method
+  doi: 10.1109/cost57098.2022.00042
+  links: {paper: 'https://doi.org/10.1109/cost57098.2022.00042'}
+  input: [audio, text, seed-motion]
+  summary: Generates gesture sequences from audio and text with a pose generation network and a memory-network dictionary of earlier pose features, using seed poses for continuity between segments.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: zhou2022reenactment
   title: Audio-driven Neural Gesture Reenactment with Video Motion Graphs
   authors: [Yang Zhou, Jimei Yang, Dingzeyu Li, Jun Saito, Deepali Aneja, Evangelos Kalogerakis]
@@ -377,14 +919,13 @@
   realtime: unreported
   latency: About 43 seconds to generate a video from 15 s of audio and a 2 minute reference video
   datasets: [custom]
-  languages: [en]
   metrics: [image-quality, fid, other]
   user_study: true
   summary: Reenacts a reference video with gestures matching target speech by building a video motion graph, blending transitions with a neural network and searching clip order from audio.
   notes: Other metric is the MOVIE index. Data are 7 personal story videos and a TED-talks video set.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: zhuang2022textspeech
   title: Text/Speech-Driven Full-Body Animation

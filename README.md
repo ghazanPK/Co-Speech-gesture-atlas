@@ -3,7 +3,7 @@
 A maintained, structured map of research on co-speech gesture generation: papers, datasets, metrics and code, with a comparison row per paper rather than a bare link.
 
 <!-- BEGIN:stats -->
-**424 papers** (2022–2026), 59 datasets, 22 metrics. 241 records were filled from the full text, 146 from the abstract only (†), 37 from bibliographic metadata only (‡). 147 have been independently verified.
+**632 papers** (2007–2026), 63 datasets, 22 metrics. 274 records were filled from the full text, 303 from the abstract only (†), 55 from bibliographic metadata only (‡). 174 have been independently verified.
 <!-- END:stats -->
 
 ## Contents
@@ -420,24 +420,242 @@ Methods and systems, newest first, ordered by venue within each year.
 
 | Venue | Paper | Input | Output | Approach | Setting | Code |
 |---|---|---|---|---|---|---|
+| AAMAS | [Multimodal analysis of the predictability of hand-gesture properties](https://doi.org/10.65109/habv5810) · [open copy](https://arxiv.org/abs/2108.05762) · [project](https://svito-zar.github.io/speech2properties2gestures) | text, audio | hands | other | monologue |  |
+| ACM MM | [DisCo: Disentangled Implicit Content and Rhythm Learning for Diverse Co-Speech Gestures Synthesis](https://doi.org/10.1145/3503161.3548400)† · [open copy](https://dl.acm.org/doi/pdf/10.1145/3503161.3548400) · [project](https://pantomatrix.github.io/DisCo/) | audio, seed-motion |  |  | monologue | [code](https://github.com/PantoMatrix/PantoMatrix/blob/main/train_disco_audio.py) |
+| ACM Poster | [Improving Co-speech gesture rule-map generation via wild pose matching with gesture units.](https://doi.org/10.1145/3550082.3564185)† · [video](https://youtu.be/QBtGdGE1Wgk) | text |  | hybrid |  |  |
 | arXiv | [Freeform Body Motion Generation from Speech](https://arxiv.org/abs/2203.02291) | audio, text, seed-motion |  | vae | monologue | [code](https://github.com/TheTempAccount/Co-Speech-Motion-Generation) |
+| COST | [Generating Diverse Gestures from Speech Using Memory Networks as Dynamic Dictionaries](https://doi.org/10.1109/cost57098.2022.00042)† | audio, text, seed-motion |  |  |  |  |
 | CVPR | [Audio-driven Neural Gesture Reenactment with Video Motion Graphs](https://openaccess.thecvf.com/content/CVPR2022/html/Zhou_Audio-Driven_Neural_Gesture_Reenactment_With_Video_Motion_Graphs_CVPR_2022_paper.html) · [open copy](https://arxiv.org/abs/2207.11524) · [project](https://yzhou359.github.io/video_reenact) | audio, video | upper-body, hands | retrieval | monologue | [code](https://github.com/yzhou359/vid-reenact) |
 | CVPR | [Learning Hierarchical Cross-Modal Association for Co-Speech Gesture Generation](https://doi.org/10.1109/cvpr52688.2022.01021) · [open copy](https://arxiv.org/abs/2203.13161) · [project](https://alvinliu0.github.io/projects/HA2G) | audio, speaker-id | upper-body, hands | regression | monologue | [code](https://github.com/alvinliu0/HA2G) |
-| CVPR | [Low-Resource Adaptation for Personalized Co-Speech Gesture Generation](https://openaccess.thecvf.com/content/CVPR2022/html/Ahuja_Low-Resource_Adaptation_for_Personalized_Co-Speech_Gesture_Generation_CVPR_2022_paper.html)‡ |  |  |  |  |  |
-| CVPR | [SEEG: Semantic Energized Co-Speech Gesture Generation](https://openaccess.thecvf.com/content/CVPR2022/html/Liang_SEEG_Semantic_Energized_Co-Speech_Gesture_Generation_CVPR_2022_paper.html)‡ |  |  |  |  | [code](https://github.com/akira-l/seeg) |
-| ICMI | [DSI Hybrid Seq2Seq Architecture for 3D Co-Speech Gesture Generation](https://dl.acm.org/doi/10.1145/3536221.3558064)‡ · [video](https://www.youtube.com/watch?v=9rcBp0ezlqs) |  |  |  |  |  |
-| ICMI | [Exemplar-based Stylized Gesture Generation from Speech: An Entry to the GENEA Challenge 2022](https://dl.acm.org/doi/abs/10.1145/3536221.3558068)‡ · [video](https://www.youtube.com/watch?v=zdNsj3MGpL0) |  |  |  |  |  |
-| ICMI | [GestureMaster: Graph-based Speech-driven Gesture Generation](https://dl.acm.org/doi/10.1145/3536221.3558063)‡ · [video](https://www.youtube.com/watch?v=nwNwEGX33SA) |  |  |  |  |  |
-| ICMI | [The IVI Lab entry to the GENEA Challenge 2022 – A Tacotron2 Based Method for Co-Speech Gesture Generation With Locality-Constraint Attention Mechanism](https://dl.acm.org/doi/abs/10.1145/3536221.3558060)‡ · [video](https://www.youtube.com/watch?v=PNmC6mlpyQg) |  |  |  |  | [code](https://github.com/cjerry1243/Tacotron2-SpeechGesture) |
-| ICMI | [The ReprGesture entry to the GENEA Challenge 2022](https://doi.org/10.1145/3536221.3558066) · [open copy](https://arxiv.org/abs/2208.12133) | audio, text, seed-motion | upper-body | gan |  | [code](https://github.com/YoungSeng/ReprGesture) |
+| CVPR | [Low-Resource Adaptation for Personalized Co-Speech Gesture Generation](https://doi.org/10.1109/cvpr52688.2022.01991)† · [project](https://chahuja.com/diffgan) |  |  |  |  |  |
+| CVPR | [SEEG: Semantic Energized Co-speech Gesture Generation](https://doi.org/10.1109/cvpr52688.2022.01022)† |  |  |  |  | [code](https://github.com/akira-l/SEEG) |
+| ECCV | [Audio-Driven Stylized Gesture Generation with Flow-Based Model](https://doi.org/10.1007/978-3-031-20065-6_41)‡ |  |  |  |  |  |
+| GEM | [A System for Giving Presentations with the NAO Robot](https://doi.org/10.1109/gem56474.2022.10017306)† | text | hands | rule-based |  |  |
+| HAI | [VISTURE: A System for Video-Based Gesture and Speech Generation by Robots](https://doi.org/10.1145/3527188.3561931)† | video |  |  |  |  |
+| Humanoids | [HumanoidBot: Full-Body Humanoid Chitchat System](https://doi.org/10.1109/humanoids53995.2022.10000209)† |  | full-body |  |  |  |
+| ICMI | [Exemplar-based Stylized Gesture Generation from Speech: An Entry to the GENEA Challenge 2022](https://doi.org/10.1145/3536221.3558068)† | audio, style | full-body | vae |  |  |
+| ICMI | [GestureMaster: Graph-based Speech-driven Gesture Generation](https://doi.org/10.1145/3536221.3558063)† | audio, text |  |  |  |  |
+| ICMI | [Hybrid Seq2Seq Architecture for 3D Co-Speech Gesture Generation](https://doi.org/10.1145/3536221.3558064)† |  |  |  |  |  |
+| ICMI | [ReCell: replicating recurrent cell for auto-regressive pose generation](https://doi.org/10.1145/3536220.3558801)† |  |  | autoregressive |  |  |
+| ICMI | [ReprGesture: The ReprGesture entry to the GENEA Challenge 2022](https://dl.acm.org/doi/10.1145/3536221.3558066) · [open copy](https://arxiv.org/abs/2208.12133) · [video](https://www.youtube.com/watch?v=KJJYEqyOq5U) | audio, text, seed-motion | upper-body | gan | monologue | [code](https://github.com/YoungSeng/ReprGesture) + weights |
+| ICMI | [The DeepMotion entry to the GENEA Challenge 2022](https://dl.acm.org/doi/abs/10.1145/3536221.3558059)† · [open copy](https://dl.acm.org/doi/pdf/10.1145/3536221.3558059) |  |  | vq, autoregressive |  |  |
+| ICMI | [The IVI Lab entry to the GENEA Challenge 2022 – A Tacotron2 Based Method for Co-Speech Gesture Generation With Locality-Constraint Attention Mechanism](https://doi.org/10.1145/3536221.3558060)† | text, audio, speaker-id | full-body, upper-body |  |  |  |
+| ICMI | [TransGesture: Autoregressive Gesture Generation with RNN-Transducer](https://doi.org/10.1145/3536221.3558061)† |  |  | autoregressive |  |  |
+| ICMI | [UEA Digital Humans entry to the GENEA Challenge 2022](https://doi.org/10.1145/3536221.3558065)† | audio, text |  | regression |  |  |
 | ICRA | [Context-Aware Body Gesture Generation for Social Robots](https://kclpure.kcl.ac.uk/portal/en/publications/contextaware-body-gesture-generation-for-social-robots(fe4a7b59-027b-4bd8-a751-29cee9777c92)‡ |  |  |  |  |  |
 | IJCAI | [Text/Speech-Driven Full-Body Animation](https://doi.org/10.24963/ijcai.2022/863) · [open copy](https://arxiv.org/abs/2205.15573) | text, audio | full-body, face | retrieval, other | monologue |  |
+| IJSR | [Towards Culture-Aware Co-Speech Gestures for Social Robots](https://doi.org/10.1007/s12369-022-00893-y)† · [open copy](https://link.springer.com/content/pdf/10.1007/s12369-022-00893-y.pdf) | audio |  | gan |  |  |
+| IROS | [Controlling the Impression of Robots via GAN-based Gesture Generation](https://doi.org/10.1109/iros47612.2022.9981535)† |  |  | gan |  |  |
 | IROS | [Deep Gesture Generation for Social Robots Using Type-Specific Libraries](https://doi.org/10.1109/iros47612.2022.9981734) · [open copy](https://arxiv.org/abs/2210.06790) | text | upper-body | hybrid, retrieval |  |  |
 | IROS | [Gesture2Vec: Clustering Gestures using Representation Learning Methods for Co-speech Gesture Generation](https://doi.org/10.1109/iros47612.2022.9981117)† | text |  | vq, vae |  | [code](https://github.com/pjyazdian/Gesture2Vec) |
+| LNCS | [Towards a Framework for Social Robot Co-speech Gesture Generation with Semantic Expression](https://doi.org/10.1007/978-3-031-24667-8_10)‡ · [open copy](https://ensta-paris.hal.science/hal-03832923) |  |  |  |  |  |
+| Neural Networks | [Evaluation of text-to-gesture generation model using convolutional neural network](https://doi.org/10.1016/j.neunet.2022.03.041)† | text |  |  |  |  |
 | NeurIPS | [Audio-Driven Co-Speech Gesture Video Generation](https://doi.org/10.52202/068431-1554) · [open copy](https://arxiv.org/abs/2212.02350) · [project](https://alvinliu0.github.io/projects/ANGIE) | audio, image | upper-body | vq, autoregressive | monologue |  |
+| NicoInt | [Motion Generation Of Conversational Character From Labeled Script](https://doi.org/10.1109/nicoint55861.2022.00029)† |  |  |  |  |  |
+| RO-MAN | [Agree or Disagree? Generating Body Gestures from Affective Contextual Cues during Dyadic Interactions](https://doi.org/10.1109/ro-man53752.2022.9900760)† | audio, interlocutor |  | gan | dyadic |  |
+| RO-MAN | [Towards an automatic generation of natural gestures for a storyteller robot](https://doi.org/10.1109/ro-man53752.2022.9900532)† | text |  | hybrid, gan |  |  |
+| Robotics and Autonomous Systems | [Generation of co-speech gestures of robot based on morphemic analysis](https://doi.org/10.1016/j.robot.2022.104154)† | text |  | retrieval |  |  |
 | SIGGRAPH | [A Motion Matching-based Framework for Controllable Gesture Synthesis from Speech](https://dl.acm.org/doi/abs/10.1145/3528233.3530750)† · [project](https://vcai.mpi-inf.mpg.de/projects/SpeechGestureMatching/) | audio |  | retrieval, gan |  |  |
+| SIGGRAPH Asia | [ASAP: Auto-generating Storyboard and Previz](https://doi.org/10.1145/3550453.3570124)† · [open copy](https://dl.acm.org/doi/pdf/10.1145/3550453.3570124) | text |  |  |  |  |
+| SII | [Integration of Gesture Generation System Using Gesture Library with DIY Robot Design Kit](https://doi.org/10.1109/sii52469.2022.9708837)† |  |  |  |  |  |
 | SII | [Labeling the Phrases of a Conversational Agent with a Unique Personalized Vocabulary](https://doi.org/10.1109/sii52469.2022.9708605)† · [open copy](https://arxiv.org/abs/2010.06194) | text |  |  |  |  |
 | TOG | [Rhythmic Gesticulator: Rhythm-Aware Co-Speech Gesture Synthesis with Hierarchical Neural Embeddings](https://doi.org/10.1145/3550454.3555435) · [open copy](https://arxiv.org/abs/2210.01448) · [project](https://pku-mocca.github.io/Rhythmic-Gesticulator-Page/) | audio, text, speaker-id | upper-body, hands | vq, autoregressive | monologue |  |
+| unknown | [A Tool for Extracting 3D Avatar-Ready Gesture Animations from Monocular Videos](https://doi.org/10.1145/3561975.3562953)† · [open copy](https://dl.acm.org/doi/pdf/10.1145/3561975.3562953) | video |  |  |  |  |
+| unknown | [S2M-Net: Speech Driven Three-party Conversational Motion Synthesis Networks](https://doi.org/10.1145/3561975.3562954)† | audio |  | gan | multi-party |  |
+
+### 2021
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| AAMAS | [A Framework for Integrating Gesture Generation Models into Interactive Conversational Agents](https://arxiv.org/abs/2102.12302) · [project](https://nagyrajmund.github.io/project/gesturebot/) · [video](https://www.youtube.com/watch?v=jhgUBS0125A) | text, audio | upper-body | autoregressive | monologue | [code](https://github.com/nagyrajmund/gesturebot) |
+| AAMAS | [CMCF: An Architecture for Realtime Gesture Generation by Clustering Gestures by Motion and Communicative Function](https://doi.org/10.65109/thwr5489)† · [open copy](http://eprints.gla.ac.uk/253967/1/253967.pdf) |  |  |  |  |  |
+| AAMAS | [It's A Match! Gesture Generation Using Expressive Parameter Matching](https://doi.org/10.65109/poxn8780)† · [open copy](https://arxiv.org/abs/2103.03130) | audio |  | retrieval | monologue |  |
+| ACM MM | [Speech2AffectiveGestures: Synthesizing Co-Speech Gestures with Generative Adversarial Affective Expression Learning](https://doi.org/10.1145/3474085.3475223) · [open copy](https://arxiv.org/abs/2108.00262) · [project](https://gamma.umd.edu/s2ag) | audio, text, speaker-id, seed-motion | upper-body | gan | monologue |  |
+| Applied Sciences | [Expressing Robot Personality through Talking Body Language](https://doi.org/10.3390/app11104639)† |  |  |  |  |  |
+| ARSO | [A GAN-based Approach to Communicative Gesture Generation for Social Robots](https://doi.org/10.1109/arso51874.2021.9542828)† · [open copy](https://dspace.jaist.ac.jp/dspace/bitstream/10119/17573/1/ARSO21_0048_FI.pdf) |  | upper-body | gan |  |  |
+| arXiv | [Toward Automated Generation of Affective Gestures from Text: A Theory-Driven Approach](https://arxiv.org/abs/2103.03079) | text |  | hybrid |  |  |
+| CAVW | [ExpressGesture: Expressive gesture generation from speech through database matching](https://onlinelibrary.wiley.com/doi/full/10.1002/cav.2016)† · [video](https://www.youtube.com/watch?v=9opZK-usETY) | audio |  | retrieval |  |  |
+| CHI | [Real-time Gesture Animation Generation from Speech for Virtual Human Interaction](https://doi.org/10.1145/3411763.3451554) · [open copy](https://arxiv.org/abs/2208.03244) | audio | upper-body, hands | gan | monologue | [code](https://github.com/mrebol/Gestures-From-Speech) |
+| CVMP | [Speech-Driven Conversational Agents using Conditional Flow-VAEs](https://doi.org/10.1145/3485441.3485647)† | audio | upper-body | vae, normalizing-flow |  |  |
+| Dialogue | [Audio and Text-Driven approach for Conversational Gestures Generation](https://doi.org/10.28995/2075-7182-2021-20-425-432)† | text, audio |  |  |  |  |
+| ECTI-CON | [Speech Gesture Generation from Acoustic and Textual Information using LSTMs](https://doi.org/10.1109/ecti-con51831.2021.9454931)† | audio, text | upper-body | regression | monologue |  |
+| Electronics | [Modeling the Conditional Distribution of Co-Speech Upper Body Gesture Jointly Using Conditional-GAN and Unrolled-GAN](https://www.mdpi.com/2079-9292/10/3/228)† | audio | upper-body | gan |  | [code](https://github.com/wubowen416/co-speech-gesture-generation-using-CGAN) |
+| FG | [The Importance of Qualitative Elements in Subjective Evaluation of Semantic Gestures](https://doi.org/10.1109/fg52635.2021.9667023)† | text |  | retrieval |  |  |
+| GENEA Workshop | [Crossmodal Clustered Contrastive Learning: Grounding of Spoken Language to Gesture](https://dl.acm.org/doi/abs/10.1145/3461615.3485408)† · [video](https://www.youtube.com/watch?v=L5dHXTpCkeI) | text |  |  |  | [code](https://github.com/dondongwon/CC_NCE_GENEA) |
+| HAL | [Development and Verification of a Gesture-generating Architecture for Conversational Humanoid Robots](https://hal.science/hal-03108169)† | text |  |  |  |  |
+| HAL | [Prediction of Gesture Timing and Study About Image Schema for Metaphoric Gestures](https://hal.science/tel-03589420v1)† | text, audio |  | other |  |  |
+| HCII | [Sequence-to-Sequence Predictive Model: From Prosody to Communicative Gestures](https://doi.org/10.1007/978-3-030-77817-0_25) · [open copy](https://arxiv.org/abs/2008.07643) | audio |  | other | monologue |  |
+| HRI | [Toward a One-interaction Data-driven Guide: Putting Co-speech Gesture Evidence to Work for Ambiguous Route Instructions](https://doi.org/10.1145/3434074.3447223)† · [open copy](https://dl.acm.org/doi/pdf/10.1145/3434074.3447223) |  |  |  |  |  |
+| ICASSP | [Double-DCCCAE: Estimation of Body Gestures From Speech Waveform](https://doi.org/10.1109/icassp39728.2021.9414660)† · [open copy](https://www.research.ed.ac.uk/en/publications/485da7e9-bae3-43dc-a697-5023f97d109f) | audio |  | other |  |  |
+| ICCV | [Audio2Gestures: Generating Diverse Gestures from Speech Audio with Conditional Variational Autoencoders](https://doi.org/10.1109/iccv48922.2021.01110) · [open copy](https://arxiv.org/abs/2108.06720) · [project](https://jingli513.github.io/audio2gestures) | audio | upper-body, hands | vae | monologue |  |
+| ICCV | [Speech Drives Templates: Co-Speech Gesture Synthesis with Learned Templates](https://openaccess.thecvf.com/content/ICCV2021/html/Qian_Speech_Drives_Templates_Co-Speech_Gesture_Synthesis_With_Learned_Templates_ICCV_2021_paper.html) · [open copy](https://arxiv.org/abs/2108.08020) | audio | upper-body, hands | other | monologue | [code](https://github.com/shenhanqian/speechdrivestemplates) |
+| ICMI | [Integrated Speech and Gesture Synthesis](https://doi.org/10.1145/3462244.3479914) · [open copy](https://arxiv.org/abs/2108.11436) · [project](https://swatsw.github.io/isg_icmi21/) | text | upper-body | autoregressive, normalizing-flow | monologue |  |
+| ICMI | [Probabilistic Human-like Gesture Synthesis from Speech using GRU-based WGAN](https://dl.acm.org/doi/abs/10.1145/3461615.3485407)† · [video](https://www.youtube.com/watch?v=PMhjX6cdIPE) | audio | upper-body | autoregressive, gan |  | [code](https://github.com/wubowen416/gesture-generation) |
+| IEEE VR | [Passing a Non-verbal Turing Test: Evaluating Gesture Animations Generated from Speech](https://doi.org/10.1109/vr50410.2021.00082) · [open copy](https://arxiv.org/abs/2107.00712) | audio | upper-body | gan | monologue | [code](https://github.com/mrebol/Gestures-From-Speech) |
+| IEEE VR | [Text2Gestures: A Transformer-Based Network for Generating Emotive Body Gestures for Virtual Agents](https://arxiv.org/abs/2101.11101) · [project](https://gamma.umd.edu/t2g) | text, emotion | full-body | other | monologue |  |
+| IJHCI | [Moving Fast and Slow: Analysis of Representations and Post-Processing in Speech-Driven Automatic Gesture Generation](https://www.tandfonline.com/doi/full/10.1080/10447318.2021.1883883) · [open copy](https://arxiv.org/abs/2007.09170) | audio | upper-body, full-body | regression | monologue | [code](https://github.com/GestureGeneration/Speech_driven_gesture_generation_with_autoencoder) |
+| International Journal of Computers and Communications | [TTS-driven Embodied Conversation Avatar for UMB-SmartTV](https://doi.org/10.46300/91013.2021.15.1) | text | upper-body, hands, face | rule-based | monologue |  |
+| ISMAR-Adjunct | [ASAP: Auto-generating Storyboard And Previz with Virtual Humans](https://doi.org/10.1109/ismar-adjunct54149.2021.00071)† | text |  | hybrid |  |  |
+| IVA | [Learning Speech-driven 3D Conversational Gestures from Video](https://dl.acm.org/doi/abs/10.1145/3472306.3478335) · [open copy](https://arxiv.org/abs/2102.06837) | audio | upper-body, hands, face | gan | monologue |  |
+| IVA | [Speech2Properties2Gestures: Gesture-Property Prediction as a Tool for Generating Representational Gestures from Speech](https://doi.org/10.1145/3472306.3478333) · [open copy](https://arxiv.org/abs/2106.14736) · [project](https://svito-zar.github.io/speech2properties2gestures/) | text, audio |  | normalizing-flow | monologue |  |
+| JIP | [Methods for Efficiently Constructing Text-dialogue-agent System using Existing Anime Characters](https://doi.org/10.2197/ipsjjip.29.30) · [open copy](https://www.jstage.jst.go.jp/article/ipsjjip/29/0/29_30/_pdf) | text | upper-body, hands | hybrid | monologue |  |
+| JMIR | [Development, Feasibility, Acceptability, and Utility of an Expressive Speech-Enabled Digital Health Agent to Deliver Online, Brief Motivational Interviewing for Alcohol Misuse: Descriptive Study](https://doi.org/10.2196/25837) |  |  |  |  |  |
+| Lecture Notes in Networks and Systems | [Towards Synchronous Model of Non-emotional Conversational Gesture Generation in Humanoids](https://doi.org/10.1007/978-3-030-80119-9_47)‡ |  |  |  |  |  |
+| Multimed. Tools Appl. | [Modeling and evaluating beat gestures for social robots](https://doi.org/10.1007/s11042-021-11289-x)† · [open copy](https://link.springer.com/content/pdf/10.1007/s11042-021-11289-x.pdf) |  |  | gan |  |  |
+| theses.fr | [Génération du Comportement du Robot et Compréhension du Comportement Humain dans L'interaction Naturelle Humain-Robot](https://hal.science/tel-03313805v1)† · [open copy](http://www.theses.fr/2021IPPAE009/document) | audio |  | gan |  |  |
+| TOG | [A Conversational Agent Framework with Multi-modal Personality Expression](https://doi.org/10.1145/3439795)† |  |  |  |  |  |
+| Trinity College Dublin | [Machine Learning For Plausible Gesture Generation From Speech For Virtual Humans](https://doi.org/10.2312/diss.20212633145)† · [open copy](http://hdl.handle.net/2262/96795) | audio |  | gan, retrieval, hybrid |  |  |
+| UIST | [SGToolkit: An Interactive Gesture Authoring Toolkit for Embodied Conversational Agents](https://doi.org/10.1145/3472749.3474789) · [open copy](https://arxiv.org/abs/2108.04636) | audio, text, speaker-id, style | upper-body | gan | monologue | [code](https://github.com/ai4r/SGToolkit) |
+
+### 2020
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| ACCV | [Speech2Video Synthesis with 3D Skeleton Regularization and Expressive Body Poses](https://doi.org/10.1007/978-3-030-69541-5_19) · [open copy](https://arxiv.org/abs/2007.09198) · [video](https://youtu.be/MUlRtgbGeUs) | audio, text | full-body, hands, face | regression, gan | monologue |  |
+| CAVW | [Automatic text‐to‐gesture rule generation for embodied conversational agents](https://onlinelibrary.wiley.com/doi/abs/10.1002/cav.1944)† · [video](https://www.youtube.com/watch?v=GIxaI9yTmMc) | text |  | rule-based |  |  |
+| CGF | [Statistics-based Motion Synthesis for Social Conversations](https://doi.org/10.1111/cgf.14114)† | audio |  | retrieval | dyadic |  |
+| CGF | [Style-Controllable Speech-Driven Gesture Synthesis Using Normalising Flows](https://doi.org/10.1111/cgf.13946)† · [open copy](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-279231) | audio, style | upper-body, full-body | normalizing-flow |  |  |
+| Complexity | [Realistic Speech-Driven Talking Video Generation with Personalized Pose](https://doi.org/10.1155/2020/6629634)† · [open copy](https://downloads.hindawi.com/journals/complexity/2020/6629634.pdf) | audio | face |  | monologue |  |
+| Computers & Graphics | [Adversarial gesture generation with realistic gesture phasing](https://doi.org/10.1016/j.cag.2020.04.007)† |  |  | gan |  |  |
+| Dialogue | [FineMotion - Audio and Text-Driven approach for Conversational Gestures Generation](https://www.dialog-21.ru/media/5526/korzunvaplusdimovinpluszharkovaa031.pdf)‡ |  |  |  |  | [code](https://github.com/FineMotion/GENEA_2020) |
+| ECCV | [Style Transfer for Co-Speech Gesture Animation: A Multi-Speaker Conditional-Mixture Approach](https://doi.org/10.1007/978-3-030-58523-5_15) · [open copy](https://arxiv.org/abs/2007.12553) · [project](https://chahuja.com/mix-stage) | audio, style | upper-body | gan | monologue | [code](https://github.com/chahuja/pats) |
+| EMNLP Findings | [No Gestures Left Behind: Learning Relationships between Spoken Language and Freeform Gestures](https://aclanthology.org/2020.findings-emnlp.170) | text, audio | upper-body, hands | gan | monologue | [code](https://github.com/chahuja/aisle) |
+| eScholarship | [Modeling Visual Minutiae: Gestures, Styles, and Temporal Patterns](https://escholarship.org/uc/item/3ws1647q)† | audio |  |  |  |  |
+| GENEA Workshop | [CGVU: Semantics-guided 3D Body Gesture Synthesis](https://zenodo.org/record/4090879)† · [video](https://www.youtube.com/watch?v=MBSX0OLHRRU) |  |  |  |  |  |
+| GENEA Workshop | [Double-DCCCAE: Estimation of Sequential Body Motion Using Wave-Form - AlltheSmooth](https://zenodo.org/record/4088376)‡ |  |  |  |  |  |
+| GENEA Workshop | [The FineMotion entry to the GENEA Challenge 2020](https://zenodo.org/record/4088609)‡ · [video](https://www.youtube.com/watch?v=q29d9Hfbifk) |  |  |  |  | [code](https://github.com/FineMotion/GENEA_2020) |
+| GENEA Workshop | [The Nectec Gesture Generation System entry to the GENEA Challenge 2020](https://zenodo.org/record/4088629)† · [video](https://www.youtube.com/watch?v=0m0wKkNmrgQ) |  |  |  |  |  |
+| GENEA Workshop | [The StyleGestures entry to the GENEA Challenge 2020](https://zenodo.org/record/4088600)‡ · [video](https://www.youtube.com/watch?v=JZgBlJKGFGk) |  |  |  |  |  |
+| HRI | [Generation and Evaluation of Audio-Visual Anger Emotional Expression for Android Robot](https://doi.org/10.1145/3371382.3378282)† |  |  |  |  |  |
+| ICARCV | [SRG3: Speech-driven Robot Gesture Generation with GAN](https://doi.org/10.1109/icarcv50220.2020.9305330)† · [open copy](https://hal.science/hal-03047565) | audio |  | gan |  |  |
+| ICMI | [Gesticulator: A framework for semantically-aware speech-driven gesture generation](https://doi.org/10.1145/3382507.3418815) · [open copy](https://arxiv.org/abs/2001.09326) · [project](https://svito-zar.github.io/gesticulator/) | text, audio | upper-body | autoregressive | monologue | [code](https://github.com/Svito-zar/gesticulator) |
+| IEEE Trans. Cybernetics | [Audio-Driven Robot Upper-Body Motion Synthesis](https://doi.org/10.1109/tcyb.2020.2966730)† · [open copy](https://kclpure.kcl.ac.uk/portal/en/publications/f517e727-c75e-4825-a929-e37bb98c0ab2) | audio | upper-body |  |  |  |
+| IJSC | [Multi-Platform Expansion of the Virtual Human Toolkit: Ubiquitous Conversational Agents](https://doi.org/10.1142/s1793351x20400127)† |  |  |  |  |  |
+| IVA | [Generating coherent spontaneous speech and gesture from text](https://doi.org/10.1145/3383652.3423874)† · [open copy](https://arxiv.org/abs/2101.05684) · [project](https://simonalexanderson.github.io/IVA2020/) | text | full-body |  | monologue |  |
+| IVA | [Impact of Personality on Nonverbal Behavior Generation](https://doi.org/10.1145/3383652.3423908)† | text |  |  |  |  |
+| IVA | [Understanding the Predictability of Gesture Parameters from Speech and their Perceptual Importance](https://doi.org/10.1145/3383652.3423882) · [open copy](https://arxiv.org/abs/2010.00995) · [video](https://youtu.be/aw6-_5kmLjY) | audio | hands | regression | monologue |  |
+| PRESENCE | [A Live Speech-Driven Avatar-Mediated Three-Party Telepresence System: Design and Evaluation](https://doi.org/10.1162/pres_a_00358)† | audio | upper-body, hands, face |  | multi-party |  |
+| RO-MAN | [Conditional Generative Adversarial Network for Generating Communicative Robot Gestures](https://doi.org/10.1109/ro-man47096.2020.9223498) · [open copy](https://dspace.jaist.ac.jp/dspace/bitstream/10119/16930/1/3336.pdf) | text | upper-body | gan |  |  |
+| Speech Communication | [Affective synthesis and animation of arm gestures from speech prosody](https://doi.org/10.1016/j.specom.2020.02.005)† | audio, emotion | upper-body | other | monologue |  |
+| TOG | [Speech Gesture Generation from the Trimodal Context of Text, Audio, and Speaker Identity](https://doi.org/10.1145/3414685.3417838) · [open copy](https://arxiv.org/abs/2009.02119) | text, audio, speaker-id | upper-body | gan | monologue | [code](https://github.com/ai4r/Gesture-Generation-from-Trimodal-Context) |
+| UR | [Learning from Humans to Generate Communicative Gestures for Social Robots](https://doi.org/10.1109/ur49135.2020.9144985) · [open copy](https://dspace.jaist.ac.jp/dspace/bitstream/10119/16711/1/C1_UR20_0013_FI.pdf) | text | upper-body | gan |  |  |
+
+### 2019
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| AAMAS | [On the Importance of Representations for Speech-Driven Gesture Generation](https://www.ifaamas.org/Proceedings/aamas2019/pdfs/p2072.pdf)† · [open copy](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-251460) | audio |  |  |  |  |
+| arXiv | [Design of conversational humanoid robot based on hardware independent gesture generation](https://arxiv.org/abs/1905.08702)† |  |  |  |  |  |
+| CVPR | [Learning Individual Styles of Conversational Gesture](https://doi.org/10.1109/cvpr.2019.00361)† · [open copy](https://arxiv.org/abs/1906.04160) | audio | upper-body, hands |  | monologue | [code](https://github.com/amirbar/speech2gesture) |
+| Frontiers in Robotics and AI | [Managing an Agent's Self-Presentational Strategies During an Interaction](https://doi.org/10.3389/frobt.2019.00093)† · [open copy](https://www.frontiersin.org/articles/10.3389/frobt.2019.00093/pdf) |  |  |  |  |  |
+| HCC | [User-Aware Shared Perception for Embodied Agents](https://doi.org/10.1109/hcc46620.2019.00015)† |  |  |  |  |  |
+| Humanoids | [Online processing for speech-driven gesture motion generation in android robots](https://doi.org/10.1109/humanoids43949.2019.9035066)† | audio |  |  |  |  |
+| ICMI | [Coalescing Narrative and Dialogue for Grounded Pose Forecasting](https://doi.org/10.1145/3340555.3356090)† |  |  |  |  |  |
+| ICMI | [Determining Iconic Gesture Forms based on Entity Image Representation](https://doi.org/10.1145/3340555.3353736)† · [open copy](https://dl.acm.org/doi/pdf/10.1145/3340555.3353736) | image |  |  |  |  |
+| ICMI | [To React or not to React: End-to-End Visual Pose Forecasting for Personalized Avatar during Dyadic Conversations](https://doi.org/10.1145/3340555.3353725)† · [open copy](https://dl.acm.org/doi/pdf/10.1145/3340555.3353725) | audio, interlocutor |  |  | dyadic |  |
+| ICRA | [Robots Learn Social Skills: End-to-End Learning of Co-Speech Gesture Generation for Humanoid Robots](https://doi.org/10.1109/icra.2019.8793720)† · [open copy](https://arxiv.org/abs/1810.12541) · [project](https://sites.google.com/view/youngwoo-yoon/projects/co-speech-gesture-generation) | text |  |  |  |  |
+| ICSR | [Learning to gesticulate by observation using a deep generative approach](https://doi.org/10.1007/978-3-030-35888-4_62)† · [open copy](https://arxiv.org/abs/1909.01768) |  |  | gan |  |  |
+| IEEE TLT | [Automatic Deictic Gestures for Animated Pedagogical Agents](https://doi.org/10.1109/tlt.2019.2922134)† | text, audio |  | rule-based |  |  |
+| IROS | [Towards More Realistic Human-Robot Conversation: A Seq2Seq-based Body Gesture Interaction System](https://doi.org/10.1109/iros40897.2019.8968038)† · [open copy](https://arxiv.org/abs/1905.01641) |  | upper-body |  |  |  |
+| IVA | [Analyzing Input and Output Representations for Speech-Driven Gesture Generation](https://doi.org/10.1145/3308532.3329472)† · [open copy](https://arxiv.org/abs/1903.03369) | audio |  | regression | monologue | [code](https://github.com/GestureGeneration/Speech_driven_gesture_generation_with_autoencoder) |
+| IVA | [Gesture Class Prediction by Recurrent Neural Network and Attention Mechanism](https://doi.org/10.1145/3308532.3329458)† · [open copy](https://hal.science/hal-02382428) | audio |  |  |  |  |
+| J Intell Robot Syst | [Part-of-Speech and Prosody-based Approaches for Robot Speech and Gesture Synchronization](https://doi.org/10.1007/s10846-019-01100-3)‡ |  |  |  |  |  |
+| MIG | [Multi-objective adversarial gesture generation](https://dl.acm.org/doi/abs/10.1145/3359566.3360053)† | audio |  | gan |  |  |
+| RAS | [Spontaneous talking gestures using Generative Adversarial Networks](https://doi.org/10.1016/j.robot.2018.11.024)† · [open copy](http://hdl.handle.net/10810/71576) |  | upper-body | gan |  |  |
+| RO-MAN | [Automatic Speech-Gesture Mapping and Engagement Evaluation in Human Robot Interaction](https://doi.org/10.1109/ro-man46459.2019.8956462)† · [open copy](https://arxiv.org/abs/1812.03484) |  |  |  |  |  |
+| Speech Communication | [Speech-driven Animation with Meaningful Behaviors](https://doi.org/10.1016/j.specom.2019.04.005)† · [open copy](https://arxiv.org/abs/1708.01640) | audio |  | other |  |  |
+| TJSAI | [Speech-to-Gesture Generation Using Bi-Directional LSTM Network](https://doi.org/10.1527/tjsai.c-j41)† · [open copy](https://www.jstage.jst.go.jp/article/tjsai/34/6/34_C-J41/_pdf) | audio |  | regression |  |  |
+| Wiley book chapter | [Generating Socio‐emotional Behaviors](https://doi.org/10.1002/9781119649403.ch5)† | text, audio |  | rule-based |  |  |
+
+### 2018
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| ICMI | [Data Driven Non-Verbal Behavior Generation for Humanoid Robots](https://dl.acm.org/doi/10.1145/3242969.3264970)† |  |  |  |  |  |
+| IVA | [Automatic Generation System of Virtual Agent's Motion using Natural Language](https://doi.org/10.1145/3267851.3267869)† | text | upper-body, hands, face |  |  |  |
+| IVA | [Evaluation of Speech-to-Gesture Generation Using Bi-Directional LSTM Network](https://dl.acm.org/doi/abs/10.1145/3267851.3267878)† | audio |  | regression |  |  |
+| IVA | [Generating Body Motions using Spoken Language in Dialogue](https://doi.org/10.1145/3267851.3267866)† | text | upper-body, hands, face |  |  |  |
+| IVA | [Investigating the use of recurrent motion modelling for speech gesture generation](https://doi.org/10.1145/3267851.3267898)† | audio |  |  |  |  |
+| RA-L | [A Speech-Driven Hand Gesture Generation Method and Evaluation in Android Robots](https://doi.org/10.1109/lra.2018.2856281)† | text, audio | hands |  |  |  |
+| RO-MAN | [Generation of Gestures During Presentation for Humanoid Robots](https://doi.org/10.1109/roman.2018.8525621)† | audio |  | regression | monologue |  |
+| unknown | [Automatic Nonverbal Behavior Generation from Image Schemas](https://doi.org/10.65109/nhje8666)† · [open copy](https://telecom-paris.hal.science/hal-02287759) |  |  |  |  |  |
+| Utrecht University | [Generating Audio-driven Emotional Gestures using Motion Graphs](https://dspace.library.uu.nl:8080/handle/1874/363578)† | audio, style |  | retrieval | monologue |  |
+| WSEAS Trans. Environ. Dev. | [A Novel Realizer of Conversational Behavior for Affective and Personalized Human Machine Interaction - EVA U-Realizer](https://www.wseas.org/multimedia/journals/environment/2018/a185915-aal.pdf)† |  |  |  |  |  |
+
+### 2017
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| CogInfoCom | [Multimodal dialogue system with NAO and VoiceXML dialogue manager](https://doi.org/10.1109/coginfocom.2017.8268286)† |  |  |  |  |  |
+| HAI | [Speech-to-Gesture Generation](https://doi.org/10.1145/3125739.3132594)† | audio |  | regression |  |  |
+| HAL | [The potential of Image Schemas for computing automatically metaphoric gestures for embodied conversational agents](https://telecom-paris.hal.science/hal-02287731)‡ |  |  |  |  |  |
+| HAL | [Towards the Generation of Expressive Co-Speech Gestures](https://hal.science/hal-01538185)‡ |  |  |  |  |  |
+| International Journal of Computers | [A Novel Unity-based Realizer for the Realization of Conversational Behavior on Embodied Conversational Agents](https://www.iaras.org/iaras/home/cijc/a-novel-unity-based-realizer-for-the-realization-of-conversational-behavior-on-embodied-conversational-agents)† |  |  |  |  |  |
+| Max Planck Digital Library | [Automatic Gesture Generation for Virtual Humans with Deep and Temporal Learning](https://hdl.handle.net/21.11116/0000-0000-C574-F)† |  |  |  |  |  |
+| Procedia CS | [Design of a Knowledge-Based Agent as a Social Companion](https://doi.org/10.1016/j.procs.2017.11.119)† |  |  |  |  |  |
+| TAC | [A Methodology for the Automatic Extraction and Generation of Non-Verbal Signals Sequences Conveying Interpersonal Attitudes](https://doi.org/10.1109/taffc.2017.2753777)† · [open copy](http://eprints.gla.ac.uk/269794/) |  |  |  |  |  |
+
+### 2016
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| CAVW | [Walk the talk: coordinating gesture with locomotion for conversational characters](https://doi.org/10.1002/cav.1703)† | seed-motion | full-body, locomotion |  | dyadic |  |
+| CogInfoCom | [Conducting neuropsychological tests with a humanoid robot: Design and evaluation](https://doi.org/10.1109/coginfocom.2016.7804572)† · [open copy](https://hal.science/hal-01385666) |  | hands, face |  |  |  |
+| CogSci | [From embodied metaphors to metaphoric gestures.](https://escholarship.org/uc/item/4w03x8cs)† |  |  |  |  |  |
+| Eng. Appl. Artif. Intell. | [The TTS-driven affective embodied conversational agent EVA, based on a novel conversational-behavior generation algorithm](https://doi.org/10.1016/j.engappai.2016.10.006)‡ |  |  |  |  |  |
+| HRI | [Generating iconic gestures based on graphic data analysis and clustering](https://doi.org/10.1109/hri.2016.7451799)† | text | hands |  |  |  |
+| IROS | [Motion generation in android robots during laughing speech](https://doi.org/10.1109/iros.2016.7759512)† | audio | upper-body, face |  |  |  |
+| PhD thesis | [Autonomous animation of humanoid robots](https://doi.org/10.32657/10356/69279)† · [open copy](https://figshare.com/articles/thesis/Autonomous_Animation_of_Humanoid_Robots/6714932) |  |  |  |  |  |
+| SIU | [Real-time speech driven gesture animation](https://doi.org/10.1109/siu.2016.7496140)† | audio |  |  |  |  |
+| Speech Communication | [Multimodal analysis of speech and arm motion for prosody-driven synthesis of beat gestures](https://doi.org/10.1016/j.specom.2016.10.004)‡ |  |  |  |  |  |
+
+### 2015
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| AAAI | [Cerebella: Automatic Generation of Nonverbal Behavior for Virtual Humans](https://ojs.aaai.org/index.php/AAAI/article/view/9778)† | text, audio |  |  |  |  |
+| AAMAS | [Greta: an Interactive Expressive Embodied Conversational Agent](http://www.ifaamas.org/Proceedings/aamas2015/aamas/p5.pdf)† |  |  |  |  |  |
+| ACII | [Effects of a robotic storyteller's moody gestures on storytelling perception](https://doi.org/10.1109/acii.2015.7344609)† |  |  |  |  |  |
+| Autonomous Robots | [Towards an intelligent system for generating an adapted verbal and nonverbal combined behavior in human–robot interaction](https://doi.org/10.1007/s10514-015-9444-1)‡ · [open copy](https://hal.science/hal-01203658) |  |  |  |  |  |
+| ICME | [Affect-expressive hand gestures synthesis and animation](https://doi.org/10.1109/icme.2015.7177478)† | audio | hands | other | monologue |  |
+| ICMI | [Retrieving Target Gestures Toward Speech Driven Animation with Meaningful Behaviors](https://doi.org/10.1145/2818346.2820750)† | audio |  | retrieval, other |  |  |
+| IROS | [Multimodal adapted robot behavior synthesis within a narrative human-robot interaction](https://doi.org/10.1109/iros.2015.7353789)† · [open copy](https://hal.science/hal-01203696) |  | upper-body, face |  |  |  |
+| IVA | [Predicting Co-verbal Gestures: A Deep and Temporal Modeling Approach](https://doi.org/10.1007/978-3-319-21996-7_17)‡ |  |  |  |  |  |
+| Lecture Notes in Computer Science | [Developing Embodied Agents for Education Applications with Accurate Synchronization of Gesture and Speech](https://doi.org/10.1007/978-3-319-27543-7_1)‡ |  |  |  |  |  |
+| TDX | [Animation and Interaction of Responsive, Expressive, and Tangible 3D Virtual Characters](https://dialnet.unirioja.es/servlet/tesis?codigo=73783)† | audio, text | face | rule-based, retrieval |  |  |
+
+### 2014
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| AAMAS | [Gesture generation with low-dimensional embeddings](https://dl.acm.org/citation.cfm?id=2615857)† | audio | hands |  |  |  |
+| AAMAS | [SimSensei kiosk: a virtual human interviewer for healthcare decision support](https://dl.acm.org/citation.cfm?id=2617415)† |  |  |  |  |  |
+| ACM | [Data-Driven Model of Nonverbal Behavior for Socially Assistive Human-Robot Interactions](https://doi.org/10.1145/2663204.2663263)† |  |  |  |  |  |
+| Applied Artificial Intelligence | [Describing and Animating Complex Communicative Verbal and Nonverbal Behavior Using Eva-Framework](https://doi.org/10.1080/08839514.2014.905819)† |  |  | rule-based |  |  |
+| HAL | [Towards an Interactive Human-Robot Relationship: Developing a Customized Robot Behavior to Human Profile.](https://pastel.archives-ouvertes.fr/tel-01128923)† | audio | upper-body | other |  |  |
+| HRI | [Learning-based modeling of multimodal behaviors for humanlike robots](https://doi.org/10.1145/2559636.2559668)† |  |  | other |  |  |
+| IVA | [Compound Gesture Generation: A Model Based on Ideational Units](https://doi.org/10.1007/978-3-319-09767-1_58)‡ |  |  |  |  |  |
+| SCITEPRESS | [Accurate Synchronization of Gesture and Speech for Conversational Agents using Motion Graphs](https://doi.org/10.5220/0004748400050014)† |  |  |  |  |  |
+| URAI | [Robotic gesture generation based on a cognitive basis for non-verbal communication](https://doi.org/10.1109/urai.2014.7057497)† |  |  |  |  |  |
+| USC | [Generating gestures from speech for virtual humans using machine learning approaches](https://doi.org/10.25549/usctheses-c3-447274)† | audio |  |  |  |  |
+
+### 2013
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| Bielefeld University | [Conceptual Motorics - Generation and Evaluation of Communicative Robot Gesture](https://pub.uni-bielefeld.de/record/2519214)† |  | hands |  |  |  |
+| Book chapter | [Co-speech Gesture Generation for Embodied Agents and its Effects on User Evaluation](https://doi.org/10.1201/b15477-10)‡ |  |  |  |  |  |
+| HRI | [A model for synthesizing a combined verbal and nonverbal behavior based on personality traits in human-robot interaction](https://doi.org/10.1109/hri.2013.6483606)† · [open copy](https://hal.science/hal-01284708) | text |  | rule-based |  |  |
+| HRI | [Generating finely synchronized gesture and speech for humanoid robots: a closed-loop approach](https://dl.acm.org/doi/10.5555/2447556.2447646)† |  |  |  |  |  |
+| ICASSP | [Multimodal analysis of speech prosody and upper body gestures using hidden semi-Markov models](https://doi.org/10.1109/icassp.2013.6638339)† | audio | upper-body |  |  |  |
+| SIU | [Speech rhythm-driven gesture animation](https://doi.org/10.1109/siu.2013.6531352)† | audio |  |  |  |  |
+| Speech Communication | [Gesture synthesis adapted to speech emphasis](https://doi.org/10.1016/j.specom.2013.06.005)‡ |  |  |  |  |  |
+
+### 2007
+
+| Venue | Paper | Input | Output | Approach | Setting | Code |
+|---|---|---|---|---|---|---|
+| IJVR | [Affective Multimodal Control of Virtual Characters](https://doi.org/10.20870/ijvr.2007.6.4.3864)† · [open copy](https://ijvr.eu/article/download/3864/12090) |  | upper-body, face | rule-based |  |  |
 <!-- END:papers -->
 
 ## Surveys, challenges and evaluation studies
@@ -483,7 +701,32 @@ Methods and systems, newest first, ordered by venue within each year.
 | 2023 | Zenodo | challenge | [GENEA Challenge 2023 Human-Likeness subjective evaluation data](https://doi.org/10.5281/zenodo.8434116)† | Human-likeness user-study responses from the GENEA Challenge 2023 with MATLAB scripts reproducing the analyses. |
 | 2023 | Zenodo | challenge | [GENEA Challenge 2023 submitted BVH files](https://doi.org/10.5281/zenodo.8146027)† | Test-set BVH motion submitted by all teams in the GENEA Challenge 2023, with timestamps of the segments used in the monadic and dyadic user studies. |
 | 2022 | ICMI | challenge | [The GENEA Challenge 2022: A large evaluation of data-driven co-speech gesture generation](https://doi.org/10.1145/3536221.3558058) · [open copy](https://arxiv.org/abs/2208.10441) · [project](https://youngwoo-yoon.github.io/GENEAchallenge2022/) | Reports the second GENEA Challenge, in which ten teams built gesture generators on a shared 18-hour dyadic mocap dataset, compared in crowdsourced human-likeness and appropriateness studies. |
+| 2022 | IEEE VR | evaluation | [Investigating how speech and animation realism influence the perceived personality of virtual characters and agents](https://doi.org/10.1109/vr51125.2022.00018)† · [open copy](https://arrow.tudublin.ie/creaart/155) | A perceptual study comparing performance-captured characters with characters driven by generated gestures and synthesized speech on perceived Big Five personality. |
+| 2022 | IJCGT | evaluation | [Automatic Quality Assessment of Speech-Driven Synthesized Gestures](https://doi.org/10.1155/2022/1828293)† · [open copy](https://downloads.hindawi.com/journals/ijcgt/2022/1828293.pdf) | A Bi-LSTM model with an adjusted attention mechanism gives an automatic quantitative quality assessment of synthesized gesture video. |
 | 2022 | IVA | evaluation | [Evaluating data-driven co-speech gestures of embodied conversational agents through real-time interaction](https://doi.org/10.1145/3514197.3549697) · [open copy](https://arxiv.org/abs/2210.06974) · [video](http://www.yaeh.io/research/hci/presentingbot) | Evaluates a Gesticulator-driven agent against a non-gesturing agent in a live within-subjects interaction study using questionnaires and gaze tracking. |
+| 2022 | Speech Communication | evaluation | [Arm motion symmetry in conversation](https://doi.org/10.1016/j.specom.2022.08.001)† · [open copy](https://ueaeprints.uea.ac.uk/id/eprint/87977/1/1_s2.0_S0167639322001054_main.pdf) | Analyses left-right arm symmetry of 36 speakers in dyadic conversation and tests with a speech-to-gesture model whether mirroring is valid as data augmentation. |
+| 2022 | THMS | survey | [A Review of Evaluation Practices of Gesture Generation in Embodied Conversational Agents](https://doi.org/10.1109/thms.2022.3149173) · [open copy](https://arxiv.org/abs/2101.03769) | A systematic review of 22 studies of co-speech gesture generation for embodied conversational agents that examines how they were evaluated and proposes evaluation recommendations and a reporting checklist. |
+| 2022 | THRI | survey | [The Design and Observed Effects of Robot-performed Manual Gestures: A Systematic Review](https://doi.org/10.1145/3549530)† · [open copy](https://dl.acm.org/doi/pdf/10.1145/3549530) | Systematic review of social robots that use manual gestures, covering the gesture production process (design and planning) and the effects of robot-performed gestures on human-robot interaction. |
+| 2021 | Autonomous Robots | evaluation | [Quantitative analysis of robot gesticulation behavior](https://doi.org/10.1007/s10514-020-09958-1) · [open copy](https://arxiv.org/abs/2010.11614) | Compares two GAN-based gesture generators for a Pepper robot using principal coordinate analysis, procrustes statistics and a Fréchet Gesture Distance adapted from FID. |
+| 2021 | HAI | survey | [Speech-based Gesture Generation for Robots and Embodied Agents: A Scoping Review](https://doi.org/10.1145/3472307.3484167)† | Scoping review of methods, datasets and objective and subjective evaluation measures for co-speech gesture generation for embodied agents and robots, collected by a Scopus term search. |
+| 2021 | Handbook on Socially Interactive Agents | survey | [Gesture Generation](https://doi.org/10.1145/3477322.3477330)‡ |  |
+| 2021 | ICMI | challenge | [GENEA Workshop 2021: The 2nd Workshop on Generation and Evaluation of Non-verbal Behaviour for Embodied Agents](https://dl.acm.org/doi/10.1145/3462244.3480983)† · [project](https://genea-workshop.github.io/2021/) | Workshop overview that brings the community together to discuss benchmarking and evaluation of non-verbal behaviour generation for embodied agents. |
+| 2021 | ICMI | evaluation | [HEMVIP: Human Evaluation of Multiple Videos in Parallel](https://doi.org/10.1145/3462244.3479957) · [open copy](https://arxiv.org/abs/2101.11898) | A framework for granular parallel rating of multiple video stimuli, validated against prior pairwise-comparison results on gesture generation videos. |
+| 2021 | ICMI | evaluation | [To Rate or Not To Rate: Investigating Evaluation Methods for Generated Co-Speech Gestures](https://doi.org/10.1145/3462244.3479889) · [open copy](https://arxiv.org/abs/2108.05709) · [project](http://svito-zar.github.io/gesticulator/) | Compares rating-based and pairwise-comparison crowdsourced evaluation of co-speech gestures generated by three models, in terms of ranking quality, reliability and effort. |
+| 2021 | ICRA | evaluation | [Which gesture generator performs better?](https://doi.org/10.1109/icra48506.2021.9561075)† | Compares two generative gesture methods with quantitative measures and shows the results correlate with subjective ratings from a sizable group of people. |
+| 2021 | IJHCI | survey | [Examining the Use of Nonverbal Communication in Virtual Agents](https://doi.org/10.1080/10447318.2021.1898851)† | Survey of the uses, outcomes and development of nonverbal communication in virtual agents. |
+| 2021 | IUI | challenge | [A Large, Crowdsourced Evaluation of Gesture Generation Systems on Common Data: The GENEA Challenge 2020](https://doi.org/10.1145/3397481.3450692) · [open copy](https://arxiv.org/abs/2102.11617) · [project](https://svito-zar.github.io/GENEAchallenge2020/) | A gesture-generation challenge in which teams built systems on a common speech-gesture dataset and all systems were compared in two parallel crowdsourced user studies using one rendering pipeline. |
+| 2021 | IVA | evaluation | [Human or Robot?](https://doi.org/10.1145/3472306.3478338)† · [open copy](https://dl.acm.org/doi/pdf/10.1145/3472306.3478338) | Two perceptual studies assess how realism of synthetic voice, gesture motion and visual appearance affects perceived speech-gesture match, likability and human-likeness of virtual agents. |
+| 2021 | RO-MAN | evaluation | [Factor exploration of gestural stroke choice in the context of ambiguous instruction utterances: challenges to synthesizing semantic gesture from speech alone](https://doi.org/10.1109/ro-man50785.2021.9515416)† | Analyses three challenge factors for speech-driven gesture synthesis: ambiguous utterances, choice of f-formation for spatial gestures, and readability of retargeted human motion under kinematic constraints. |
+| 2021 | The Handbook on Socially Interactive Agents | survey | [Multimodal Behavior Modeling for Socially Interactive Agents](https://doi.org/10.1145/3477322.3477331)‡ · [open copy](https://hal.science/hal-03999516) |  |
+| 2020 | GENEA Workshop | challenge | [The GENEA Challenge 2020: Benchmarking gesture-generation systems on common data](https://zenodo.org/record/4094697)‡ · [open copy](https://biblio.ugent.be/publication/8743221/file/8743222.pdf) |  |
+| 2020 | IVA | evaluation | [Can we trust online crowdworkers?: Comparing online and offline participants in a preference test of virtual agents](https://doi.org/10.1145/3383652.3423860) · [open copy](https://arxiv.org/abs/2009.10760) | Replicates a human-likeness preference test of two speech-driven gesture generation models with in-lab, Prolific and Amazon Mechanical Turk participants and finds no difference between the pools. |
+| 2019 | Ghent University Academic Bibliography | evaluation | [Should Beat Gestures Be Learned Or Designed? : A Benchmarking User Study](http://hdl.handle.net/1854/LU-8622805)† | User study comparing beat gestures from a speech-to-pose machine learning model with three hand-coded beat gesture methods on a humanoid agent, ranked by paired comparisons. |
+| 2018 | Frontiers in Psychology | survey | [Automating the Production of Communicative Gestures in Embodied Characters](https://doi.org/10.3389/fpsyg.2018.01144)† | Discusses challenges in modelling communicative gestures for embodied conversational agents, covering gesture placement, shape and timing, with a focus on a metaphor-based model. |
+| 2017 | Gesture Studies | survey | [Computational gesture research](https://doi.org/10.1075/gs.7.13kop)† | Book chapter reviewing approaches to synthesizing co-speech gestures for virtual characters and robots and experiments on the effects of such synthetic gesturing on human addressees. |
+| 2017 | Social Signal Processing | survey | [Body Movements Generation for Virtual Characters and Social Robots](https://doi.org/10.1017/9781316676202.020)† | Book chapter reviewing body language generation (postures, gestures, proxemics) for virtual humans and social robots, including synchronisation with speech. |
+| 2017 | TOG | evaluation | [Understanding the impact of animated gesture performance on personality perceptions](https://doi.org/10.1145/3072959.3073697)† | Perceptual studies of how edits to gesture motion properties change the perceived personality of an animated character, including with accompanying speech. |
+| 2014 | Handbook chapter | survey | [151. Body movements in robotics](https://doi.org/10.1515/9783110302028.1943)† | Overview chapter on body movements in robotics, covering communicative gesture, off-line and on-line motion generation, and transfer of multimodal motion scheduling from virtual agents to humanoid robots. |
 <!-- END:surveys -->
 
 ## Dataset papers
@@ -509,6 +752,21 @@ Papers whose main contribution is a dataset. The datasets themselves are compare
 | 2023 | HRI | dataset | [A Multimodal Dataset for Robot Learning to Imitate Social Human-Human Interaction](https://doi.org/10.1145/3568294.3580080)† | Introduces LISI-HHI, a dataset of dyadic human interactions recorded with motion capture, RGB-D cameras, eye trackers and microphones, as a benchmark for modelling nonverbal signals for social robots. |
 | 2023 | Zenodo | dataset | [GENEA Challenge 2023 Dataset Files](https://doi.org/10.5281/zenodo.8199132)† | Main dataset of the GENEA Challenge 2023, derived from Talking With Hands 16.2M, with audio, word-level transcripts and BVH full-body motion for a main agent and an interlocutor. |
 | 2022 | ECCV | dataset | [BEAT: A Large-Scale Semantic and Emotional Multi-Modal Dataset for Conversational Gestures Synthesis](https://doi.org/10.1007/978-3-031-20071-7_36) · [open copy](https://arxiv.org/abs/2203.05297) · [project](https://pantomatrix.github.io/BEAT/) | Releases a 76-hour motion capture dataset of 30 speakers with emotion and semantic annotations, plus a cascaded baseline (CaMN) and the SRGR metric. |
+| 2022 | Journal of Digital Contents Society | dataset | [KLSG : Korean-based Large-scale Co-Speech Gesture Dataset](https://doi.org/10.9728/dcs.2022.23.11.2269)‡ |  |
+| 2022 | Language Resources and Evaluation | dataset | [Understanding conversational interaction in multiparty conversations: the EVA Corpus](https://doi.org/10.1007/s10579-022-09627-y)† · [open copy](https://link.springer.com/content/pdf/10.1007/s10579-022-09627-y.pdf) | Multimodal multiparty conversation corpus for Slovenian with annotation layers for syntax, dialogue acts, emotions, non-verbal behaviour and gesture units, built to support embodied conversational agents. |
+| 2022 | Zenodo | dataset | [GENEA Challenge 2022 Dataset Files](https://zenodo.org/record/6998231) | Data release for the GENEA Challenge 2022 with audio, time-aligned transcripts and BVH motion capture derived from Talking With Hands 16.2M. |
+| 2021 | Hokkai-Gakuen Univ. Eng. Res. Rep. | dataset | [Extending a Japanese Speech−to−Gesture Dataset Towards Building a Pedagogical Agent for Second Language Learning](https://hokuga.repo.nii.ac.jp/records/2003686)† | Extends a Japanese speech and motion-capture gesture dataset with seven gesture-phase annotations on 240 sentences and tests Bi-directional LSTM gesture phase estimation to extend the annotations. |
+| 2021 | SPIE | dataset | [Automatic dataset collection for speech-driven gesture generation](https://doi.org/10.1117/12.2591375)† | Automatic method that extracts paired utterance and gesture data from online speech videos to build a co-speech gesture dataset, checked by training a speech-driven gesture network on it. |
+| 2019 | CVPR | dataset | [Towards Social Artificial Intelligence: Nonverbal Social Signal Prediction in a Triadic Interaction](https://doi.org/10.1109/cvpr.2019.01113)† · [open copy](https://arxiv.org/abs/1906.04158) | Introduces the social signal prediction task and a 3D motion capture dataset of triadic interactions with body, face and hand motion, with baselines predicting speaking status, formation and body gestures. |
+| 2019 | Lecture Notes in Electrical Engineering | dataset | [Development of a Repository of Virtual 3D Conversational Gestures and Expressions](https://doi.org/10.1007/978-3-030-21507-1_16)‡ |  |
+| 2018 | LREC | dataset | [A Corpus of Natural Multimodal Spatial Scene Descriptions](http://www.lrec-conf.org/proceedings/lrec2018/pdf/296.pdf)† | A corpus of speech and hand-motion data from participants giving spatial scene descriptions with abstract deictic and iconic gestures, intended for modelling multimodal descriptions and generating them. |
+| 2018 | Zenodo | dataset | [Partially Automatically Annotated Corpus To Predict Gestural Cues In Embodied Conversational Agents](https://doi.org/10.5281/zenodo.1316349)† · [open copy](https://zenodo.org/record/1316349) | A small corpus of Spanish political speeches with transcriptions, syntactic and communicative-structure annotation and beat versus no-gesture tags annotated from video. |
+| 2017 | CCIS | dataset | [Creating a Gesture-Speech Dataset for Speech-Based Automatic Gesture Generation](https://doi.org/10.1007/978-3-319-58750-9_28)‡ |  |
+| 2017 | International Journal of Computers | dataset | [A Corpus for Analyzing Linguistic and Paralinguistic Features in Multi-Speaker Spontaneous Conversations – EVA Corpus](https://www.iaras.org/iaras/home/cijc/a-corpus-for-analyzing-linguistic-and-paralinguistic-features-in-multi-speaker-spontaneous-conversations-eva-corpus)† | An annotated corpus of multi-speaker spontaneous conversations with linguistic, prosodic and co-verbal behavior annotation (hand gestures, head, gaze, emotion) for synthesizing co-verbal behavior in conversational agents. |
+| 2017 | WSEAS Transactions on Information Science and Applications | dataset | [A Corpus for Investigating the Multimodal Nature of Multi-Speaker Spontaneous Conversations – EVA Corpus](https://www.wseas.org/multimedia/journals/information/2017/a465909-076.pdf)† | An annotated corpus of spontaneous multi-speaker conversations linking linguistic and prosodic features to co-verbal behavior such as hand gestures, head movement and gaze, to support co-verbal behavior synthesis for agents. |
+| 2016 | LREC | dataset | [A Corpus of Gesture-Annotated Dialogues for Monologue-to-Dialogue Generation from Personal Narratives](https://www.aclweb.org/anthology/L16-1550.pdf)† | Presents the Story Dialogue with Gestures corpus of 50 personal narratives regenerated as dialogues with annotated gesture placement and gesture forms, plus gesture video clips and story intention graph annotations. |
+| 2016 | LREC | dataset | [A Multimodal Motion-Captured Corpus of Matched and Mismatched Extravert-Introvert Conversational Pairs](https://doi.org/10.63317/3b6bvobctc5u)† | Personality Dyads Corpus of three conversations in each of three extravert and introvert pairs, with optical body mocap, data-glove hands, transcripts and ANVIL gesture annotations released as BVH. |
+| 2015 | FG | dataset | [MSP-AVATAR corpus: Motion capture recordings to study the role of discourse functions in the design of intelligent virtual agents](https://doi.org/10.1109/fg.2015.7284885)† | A multimedia corpus of motion capture (upper-body skeleton and face), video and audio from four actors in dyadic improvised interactions, designed around discourse functions. |
 <!-- END:dataset-papers -->
 
 ## Datasets
@@ -518,21 +776,23 @@ Papers whose main contribution is a dataset. The datasets themselves are compare
 |---|---|---|---|---|---|---|---|---|
 | BEAT2 (BEATX) |  |  |  |  |  |  |  | 59 |
 | BEAT |  |  |  |  |  |  |  | 47 |
+| Trinity Speech-Gesture Dataset |  |  |  |  |  |  |  | 25 |
 | TalkSHOW dataset (SHOW) |  |  |  |  |  |  |  | 23 |
 | ZeroEGGS dataset (ZEGGS) |  |  |  |  |  |  |  | 21 |
+| TED Gesture |  |  |  |  |  |  |  | 20 |
 | GENEA Challenge 2023 data |  |  |  |  |  |  |  | 19 |
-| Trinity Speech-Gesture Dataset |  |  |  |  |  |  |  | 18 |
-| PATS (Pose, Audio, Transcript, Style) |  |  |  |  |  |  |  | 17 |
-| TED Gesture |  |  |  |  |  |  |  | 16 |
+| PATS (Pose, Audio, Transcript, Style) |  |  |  |  |  |  |  | 19 |
 | TED Expressive |  |  |  |  |  |  |  | 14 |
+| GENEA Challenge 2022 data |  |  |  |  |  |  |  | 12 |
 | HumanML3D |  |  |  |  |  |  |  | 11 |
-| Talking With Hands 16.2M |  |  |  |  |  |  |  | 11 |
+| Talking With Hands 16.2M |  |  |  |  |  |  |  | 10 |
+| Speech2Gesture (speaker-specific gesture dataset) |  |  |  |  |  |  |  | 7 |
 | AMASS |  |  |  |  |  |  |  | 5 |
-| GENEA Challenge 2022 data |  |  |  |  |  |  |  | 5 |
 | Audio2Photoreal conversations dataset |  |  |  |  |  |  |  | 4 |
+| GENEA Challenge 2020 data |  |  |  |  |  |  |  | 4 |
 | HDTF |  |  |  |  |  |  |  | 4 |
+| SaGA (Bielefeld Speech and Gesture Alignment corpus) |  |  |  |  |  |  |  | 4 |
 | Seamless Interaction |  |  |  |  |  |  |  | 3 |
-| Speech2Gesture (speaker-specific gesture dataset) |  |  |  |  |  |  |  | 3 |
 | Trinity Speech-Gesture Dataset II |  |  |  |  |  |  |  | 3 |
 | AIST++ |  |  |  |  |  |  |  | 2 |
 | Allo-AVA |  |  |  |  |  |  |  | 2 |
@@ -540,19 +800,20 @@ Papers whose main contribution is a dataset. The datasets themselves are compare
 | DnD Group Gesture |  |  |  |  |  |  |  | 2 |
 | Embody 3D |  |  |  |  |  |  |  | 2 |
 | Embody3D |  |  |  |  |  |  |  | 2 |
+| EVA Corpus |  |  |  |  |  |  |  | 2 |
 | InterAct |  |  |  |  |  |  |  | 2 |
 | MM-Conv |  |  |  |  |  |  |  | 2 |
-| SaGA (Bielefeld Speech and Gesture Alignment corpus) |  |  |  |  |  |  |  | 2 |
 | AffectMoCap |  |  |  |  |  |  |  | 1 |
 | AVSpeech |  |  |  |  |  |  |  | 1 |
 | BiGe dataset |  |  |  |  |  |  |  | 1 |
 | CNAS (Chinese News Anchor Speech dataset) |  |  |  |  |  |  |  | 1 |
 | CSG-405 |  |  |  |  |  |  |  | 1 |
 | FineDance |  |  |  |  |  |  |  | 1 |
-| GENEA Challenge 2020 data |  |  |  |  |  |  |  | 1 |
 | GES-Inter |  |  |  |  |  |  |  | 1 |
+| Gest-IS corpus |  |  |  |  |  |  |  | 1 |
 | HoCo |  |  |  |  |  |  |  | 1 |
 | IEMOCAP |  |  |  |  |  |  |  | 1 |
+| JESTKOD |  |  |  |  |  |  |  | 1 |
 | MENTOR |  |  |  |  |  |  |  | 1 |
 | Multi-TPC |  |  |  |  |  |  |  | 1 |
 | Multiple Culture Gesture Dataset (MCGD) |  |  |  |  |  |  |  | 1 |
@@ -569,6 +830,7 @@ Papers whose main contribution is a dataset. The datasets themselves are compare
 | TED-Culture Dataset |  |  |  |  |  |  |  | 1 |
 | TED4C-L |  |  |  |  |  |  |  | 1 |
 | TFHP |  |  |  |  |  |  |  | 1 |
+| USC CreativeIT database |  |  |  |  |  |  |  | 1 |
 | VENUS |  |  |  |  |  |  |  | 1 |
 | Whole-Body Benchmark Dataset (WB-DH) |  |  |  |  |  |  |  | 1 |
 | CMU Panoptic (Haggling) |  |  |  |  |  |  |  | 0 |
@@ -584,24 +846,24 @@ Objective metrics reported by the papers above. Human evaluation is recorded per
 <!-- BEGIN:metrics -->
 | Metric | Also written | Measures | Better | What it computes | Papers here using it |
 |---|---|---|---|---|---|
-| Fréchet Gesture Distance | FGD |  |  |  | 133 |
+| Fréchet Gesture Distance | FGD |  |  |  | 138 |
 | Beat Alignment / Beat Consistency | BeatAlign, BA, BC, Beat Consistency Score |  |  |  | 115 |
-| Diversity (average feature or pose distance between generated clips) | Div |  |  |  | 108 |
+| Diversity (average feature or pose distance between generated clips) | Div |  |  |  | 109 |
 | Fréchet Inception Distance (on motion or image features) | FID |  |  |  | 47 |
-| Joint position or rotation error against ground truth | MAE, APE, MPJPE, L1, MSE |  |  |  | 36 |
+| Joint position or rotation error against ground truth | MAE, APE, MPJPE, L1, MSE |  |  |  | 42 |
+| Acceleration and jerk statistics | MAJE, MAD, Jerk |  |  |  | 30 |
 | Fréchet Video Distance | FVD |  |  |  | 30 |
-| Face vertex or blendshape error | LVD, MSE (face), vertex MSE |  |  |  | 28 |
+| Face vertex or blendshape error | LVD, MSE (face), vertex MSE |  |  |  | 29 |
 | Frame-level image quality | PSNR, SSIM, LPIPS |  |  |  | 27 |
-| Acceleration and jerk statistics | MAJE, MAD, Jerk |  |  |  | 23 |
-| Lip synchronisation confidence or distance | Sync-C, Sync-D, LSE-C, LSE-D |  |  |  | 23 |
+| Lip synchronisation confidence or distance | Sync-C, Sync-D, LSE-C, LSE-D |  |  |  | 24 |
 | L1 Diversity | L1div |  |  |  | 18 |
 | Semantic-Relevant Gesture Recall | SRGR |  |  |  | 16 |
+| Percentage of Correct Keypoints | PCK |  |  |  | 9 |
 | Retrieval precision of motion from text or speech | R-Precision |  |  |  | 8 |
+| Multimodality (variation for the same input) | MM |  |  |  | 7 |
 | Fréchet Motion Distance | FMD |  |  |  | 6 |
-| Multimodality (variation for the same input) | MM |  |  |  | 6 |
-| Percentage of Correct Keypoints | PCK |  |  |  | 5 |
+| Velocity histogram distance (Hellinger distance) | HD |  |  |  | 6 |
 | Canonical Correlation Analysis against ground truth | CCA |  |  |  | 4 |
-| Velocity histogram distance (Hellinger distance) | HD |  |  |  | 3 |
 | Gesture Cluster Affinity | GCA |  |  |  | 1 |
 | Retrieval Recall@K (R@1, R@5, R@10) |  |  |  |  | 1 |
 | Smooth Beat Consistency (Smooth-BC) |  |  |  |  | 1 |

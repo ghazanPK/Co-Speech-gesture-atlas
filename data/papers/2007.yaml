@@ -1,0 +1,19 @@
+# Papers published in 2007. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: klesen2007affective
+  title: Affective Multimodal Control of Virtual Characters
+  authors: [Martin Klesen, Patrick Gebhard]
+  year: 2007
+  venue: IJVR
+  type: journal
+  category: system
+  doi: 10.20870/ijvr.2007.6.4.3864
+  links: {paper: 'https://doi.org/10.20870/ijvr.2007.6.4.3864', open: 'https://ijvr.eu/article/download/3864/12090'}
+  output: [upper-body, face]
+  approach: [rule-based]
+  summary: Uses the ALMA affect model and a Player Markup Language with an Action Encoder to map affect to facial expression, posture, gesture and speech actions of virtual humans.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false

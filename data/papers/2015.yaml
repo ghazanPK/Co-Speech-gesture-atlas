@@ -1,0 +1,168 @@
+# Papers published in 2015. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: aly2015adapted
+  title: Towards an intelligent system for generating an adapted verbal and nonverbal combined behavior in human–robot interaction
+  authors: [Amir Aly, Adriana Tapus]
+  year: 2015
+  venue: Autonomous Robots
+  type: journal
+  category: system
+  doi: 10.1007/s10514-015-9444-1
+  links: {paper: 'https://doi.org/10.1007/s10514-015-9444-1', open: 'https://hal.science/hal-01203658'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: aly2015multimodal
+  title: Multimodal adapted robot behavior synthesis within a narrative human-robot interaction
+  year: 2015
+  venue: IROS
+  type: conference
+  category: system
+  doi: 10.1109/iros.2015.7353789
+  links: {paper: 'https://doi.org/10.1109/iros.2015.7353789', open: 'https://hal.science/hal-01203696'}
+  output: [upper-body, face]
+  user_study: true
+  summary: A humanoid robot generates head-arm metaphoric gestures and facial expressions alongside Mary-TTS synthesized speech, adapted to the emotional content of a video discussed with the user.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: bozkurt2015affect
+  title: Affect-expressive hand gestures synthesis and animation
+  authors: [Elif Bozkurt, Engin Erzin, Y. Yemez]
+  year: 2015
+  venue: ICME
+  type: conference
+  category: method
+  doi: 10.1109/icme.2015.7177478
+  links: {paper: 'https://doi.org/10.1109/icme.2015.7177478'}
+  input: [audio]
+  output: [hands]
+  approach: [other]
+  setting: [monologue]
+  summary: Synthesizes hand gesture animations from spontaneous speech prosody, optionally with continuous affect (activation, valence, dominance), using hidden semi-Markov models.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: chiu2015predicting
+  title: 'Predicting Co-verbal Gestures: A Deep and Temporal Modeling Approach'
+  authors: [Chung-Cheng Chiu, Louis-Philippe Morency, Stacy Marsella]
+  year: 2015
+  venue: IVA
+  type: conference
+  category: method
+  doi: 10.1007/978-3-319-21996-7_17
+  links: {paper: 'https://doi.org/10.1007/978-3-319-21996-7_17'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: fernandezbaena2015bodyspeech
+  title: Animation and Interaction of Responsive, Expressive, and Tangible 3D Virtual Characters
+  authors: [Adso Fernández Baena]
+  year: 2015
+  venue: TDX
+  type: thesis
+  category: system
+  links: {paper: 'https://dialnet.unirioja.es/servlet/tesis?codigo=73783'}
+  input: [audio, text]
+  output: [face]
+  approach: [rule-based, retrieval]
+  summary: Thesis that relates gesture and pitch intensity to select gestures from a gesture motion graph for speech input, and presents BodySpeech, which generates gestures and facial animation from a speech signal.
+  notes: Thesis also covers body part motion graphs for locomotion and AvatARs (virtual characters in augmented reality); only the speech-gesture part is in scope. Gesture body parts not stated in the abstract.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: lhommet2015cerebella
+  title: 'Cerebella: Automatic Generation of Nonverbal Behavior for Virtual Humans'
+  authors: [Margot Lhommet, Yuyu Xu, Stacy Marsella]
+  year: 2015
+  venue: AAAI
+  type: conference
+  category: system
+  doi: 10.1609/aaai.v29i1.9778
+  links: {paper: 'https://ojs.aaai.org/index.php/AAAI/article/view/9778'}
+  input: [text, audio]
+  summary: Generates head movements, eye saccades and gesture animations based on co-articulation for virtual characters by analysing the acoustic, syntactic, semantic and rhetorical properties of an utterance's text and audio.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: pelachaud2015greta
+  title: 'Greta: an Interactive Expressive Embodied Conversational Agent'
+  authors: [Catherine Pélachaud]
+  year: 2015
+  venue: AAMAS
+  type: conference
+  category: system
+  doi: 10.5555/2772879.2772883
+  links: {paper: 'http://www.ifaamas.org/Proceedings/aamas2015/aamas/p5.pdf'}
+  summary: Describes the Greta embodied conversational agent platform, which produces socio-emotional and communicative behaviours as speaker or listener, built from corpus analysis, user studies and motion capture.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: sadoughi2015mspavatar
+  title: 'MSP-AVATAR corpus: Motion capture recordings to study the role of discourse functions in the design of intelligent virtual agents'
+  year: 2015
+  venue: FG
+  type: conference
+  category: dataset
+  doi: 10.1109/fg.2015.7284885
+  links: {paper: 'https://doi.org/10.1109/fg.2015.7284885'}
+  input: [audio]
+  output: [upper-body, hands, face]
+  setting: [dyadic]
+  summary: A multimedia corpus of motion capture (upper-body skeleton and face), video and audio from four actors in dyadic improvised interactions, designed around discourse functions.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: sadoughi2015retrieving
+  title: Retrieving Target Gestures Toward Speech Driven Animation with Meaningful Behaviors
+  authors: [Najmeh Sadoughi, Carlos Busso]
+  year: 2015
+  venue: ICMI
+  type: conference
+  category: method
+  doi: 10.1145/2818346.2820750
+  links: {paper: 'https://doi.org/10.1145/2818346.2820750'}
+  input: [audio]
+  approach: [retrieval, other]
+  summary: Detects target hand and head gestures in a motion capture corpus with one-class SVMs and dynamic time alignment kernel matching, then trains speech-driven dynamic Bayesian networks to synthesize them.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: xu2015embodied
+  title: Developing Embodied Agents for Education Applications with Accurate Synchronization of Gesture and Speech
+  authors: [Jianfeng Xu, Yuki Nagai, Shinya Takayama, Shigeyuki Sakazawa]
+  year: 2015
+  venue: Lecture Notes in Computer Science
+  type: conference
+  category: system
+  doi: 10.1007/978-3-319-27543-7_1
+  links: {paper: 'https://doi.org/10.1007/978-3-319-27543-7_1'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: xu2015moody
+  title: Effects of a robotic storyteller's moody gestures on storytelling perception
+  authors: [Junchao Xu, Joost Broekens, Koen V. Hindriks, Mark A. Neerincx]
+  year: 2015
+  venue: ACII
+  type: conference
+  category: system
+  doi: 10.1109/acii.2015.7344609
+  links: {paper: 'https://doi.org/10.1109/acii.2015.7344609'}
+  user_study: true
+  summary: A parameterized mood model is applied to the coverbal gestures of a robotic storyteller, and listeners rate congruent versus incongruent mood-modulated gestures.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false

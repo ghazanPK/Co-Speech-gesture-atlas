@@ -1,0 +1,166 @@
+# Papers published in 2014. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: admoni2014data
+  title: Data-Driven Model of Nonverbal Behavior for Socially Assistive Human-Robot Interactions
+  authors: [Henny Admoni, Brian Scassellati]
+  year: 2014
+  venue: ACM
+  type: conference
+  category: method
+  doi: 10.1145/2663204.2663263
+  links: {paper: 'https://doi.org/10.1145/2663204.2663263'}
+  summary: Builds a preliminary model of teacher and student nonverbal behaviour from human tutoring data that can both recognize context and generate robot nonverbal behaviour.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: aly2014robot
+  title: 'Towards an Interactive Human-Robot Relationship: Developing a Customized Robot Behavior to Human Profile.'
+  authors: [Amir Aly]
+  year: 2014
+  venue: HAL
+  type: thesis
+  category: method
+  links: {paper: 'https://pastel.archives-ouvertes.fr/tel-01128923'}
+  input: [audio]
+  output: [upper-body]
+  approach: [other]
+  user_study: true
+  summary: Generates head-arm metaphoric gestures for a robot from prosodic cues of human speech using Coupled Hidden Markov Models, within a personality- and emotion-adaptive multimodal behaviour system.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: chiu2014generating
+  title: Generating gestures from speech for virtual humans using machine learning approaches
+  year: 2014
+  venue: USC
+  type: thesis
+  category: method
+  doi: 10.25549/usctheses-c3-447274
+  links: {paper: 'https://doi.org/10.25549/usctheses-c3-447274'}
+  input: [audio]
+  summary: Learns a gesture generator from dyadic interview speech and motion capture by splitting the task into speech to gesture class and gesture class to gesture motion.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: chiu2014gesture
+  title: Gesture generation with low-dimensional embeddings
+  year: 2014
+  venue: AAMAS
+  type: conference
+  category: method
+  doi: 10.5555/2615731.2615857
+  links: {paper: 'https://dl.acm.org/citation.cfm?id=2615857'}
+  input: [audio]
+  output: [hands]
+  user_study: true
+  summary: Synthesizes coverbal hand gesture animation from speech audio by learning two mappings, speech to a gestural annotation and annotation to gesture motion.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: devault2014simsensei
+  title: 'SimSensei kiosk: a virtual human interviewer for healthcare decision support'
+  authors: [David DeVault, Ron Artstein, Grace Benn, Teresa Dey, Ed Fast, Alesia Gainer, Kallirroi Georgila, Jon Gratch, Arno Hartholt, Margaux Lhommet, Gale Lucas, Stacy Marsella]
+  year: 2014
+  venue: AAMAS
+  type: conference
+  category: system
+  doi: 10.5555/2615731.2617415
+  links: {paper: 'https://dl.acm.org/citation.cfm?id=2617415'}
+  user_study: true
+  summary: Describes a fully automatic virtual human interviewer, developed from human interaction analysis and a Wizard-of-Oz prototype, that produces spoken and gestural responses.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: huang2014learning
+  title: Learning-based modeling of multimodal behaviors for humanlike robots
+  authors: [Chien-Ming Huang, Bilge Mutlu]
+  year: 2014
+  venue: HRI
+  type: conference
+  category: method
+  doi: 10.1145/2559636.2559668
+  links: {paper: 'https://doi.org/10.1145/2559636.2559668'}
+  approach: [other]
+  user_study: true
+  summary: Models how humans coordinate speech, gaze and gesture in narration with a dynamic Bayesian network and uses it to drive coordinated robot behaviour.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: mlakar2014eva
+  title: Describing and Animating Complex Communicative Verbal and Nonverbal Behavior Using Eva-Framework
+  authors: [Izidor Mlakar, Zdravko Kačič, Matej Rojc]
+  year: 2014
+  venue: Applied Artificial Intelligence
+  type: journal
+  category: system
+  doi: 10.1080/08839514.2014.905819
+  links: {paper: 'https://doi.org/10.1080/08839514.2014.905819'}
+  approach: [rule-based]
+  summary: Synthesizes visual speech and nonverbal behavior for an embodied conversational agent from hierarchical XML-based behavioral events and adjustable motion templates (EVA-Script).
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: wachsmuth2014body
+  title: 151. Body movements in robotics
+  authors: [Ipke Wachsmuth, Maha Salem]
+  year: 2014
+  venue: Handbook chapter
+  type: thesis
+  category: survey
+  doi: 10.1515/9783110302028.1943
+  links: {paper: 'https://doi.org/10.1515/9783110302028.1943'}
+  summary: Overview chapter on body movements in robotics, covering communicative gesture, off-line and on-line motion generation, and transfer of multimodal motion scheduling from virtual agents to humanoid robots.
+  notes: Book chapter; type set to thesis only because no book-chapter value exists in the schema.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: xu2014accurate
+  title: Accurate Synchronization of Gesture and Speech for Conversational Agents using Motion Graphs
+  authors: [Jianfeng Xu, Yuki Nagai, Shinya Takayama, Shigeyuki Sakazawa]
+  year: 2014
+  venue: SCITEPRESS
+  type: conference
+  category: method
+  doi: 10.5220/0004748400050014
+  links: {paper: 'https://doi.org/10.5220/0004748400050014'}
+  user_study: true
+  summary: Synchronizes gesture with speech for conversational agents by coarse motion-graph synthesis under gesture-structure constraints, then refines timing by shifting and scaling the motion.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: xu2014compound
+  title: 'Compound Gesture Generation: A Model Based on Ideational Units'
+  authors: [Yuyu Xu, Catherine Pélachaud, Stacy Marsella]
+  year: 2014
+  venue: IVA
+  type: conference
+  category: method
+  doi: 10.1007/978-3-319-09767-1_58
+  links: {paper: 'https://doi.org/10.1007/978-3-319-09767-1_58'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: yang2014robotic
+  title: Robotic gesture generation based on a cognitive basis for non-verbal communication
+  year: 2014
+  venue: URAI
+  type: conference
+  category: method
+  doi: 10.1109/urai.2014.7057497
+  links: {paper: 'https://doi.org/10.1109/urai.2014.7057497'}
+  summary: Generates humanoid robot arm gestures by synthesizing predefined motion sets within virtual touchable spaces tied to cognitive and emotional events.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false

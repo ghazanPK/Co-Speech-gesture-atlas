@@ -1,0 +1,203 @@
+# Papers published in 2017. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: beck2017body
+  title: Body Movements Generation for Virtual Characters and Social Robots
+  authors: [Aryel Beck, Zerrin Yumak, Nadia Magnenat‐Thalmann]
+  year: 2017
+  venue: Social Signal Processing
+  type: journal
+  category: survey
+  doi: 10.1017/9781316676202.020
+  links: {paper: 'https://doi.org/10.1017/9781316676202.020'}
+  summary: Book chapter reviewing body language generation (postures, gestures, proxemics) for virtual humans and social robots, including synchronisation with speech.
+  notes: Book chapter (Cambridge University Press); abstract only was available.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: chollet2017methodology
+  title: A Methodology for the Automatic Extraction and Generation of Non-Verbal Signals Sequences Conveying Interpersonal Attitudes
+  authors: [Mathieu Chollet, Magalie Ochs, Catherine Pélachaud]
+  year: 2017
+  venue: TAC
+  type: journal
+  category: method
+  doi: 10.1109/taffc.2017.2753777
+  links: {paper: 'https://doi.org/10.1109/taffc.2017.2753777', open: 'http://eprints.gla.ac.uk/269794/'}
+  user_study: true
+  summary: Extracts sequences of non-verbal signals characteristic of social attitudes from a multimodal corpus and uses them in a behaviour planning model for a virtual recruiter that expresses attitudes.
+  notes: Abstract mentions smiles and gestures among the signals; whether arm or hand gesture is generated was not confirmed.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ferstl2017automatic
+  title: Automatic Gesture Generation for Virtual Humans with Deep and Temporal Learning
+  authors: [Ylva Ferstl, Rachel McDonnell]
+  year: 2017
+  venue: Max Planck Digital Library
+  type: conference
+  category: method
+  links: {paper: 'https://hdl.handle.net/21.11116/0000-0000-C574-F'}
+  summary: Generates gestures for virtual conversational agents from live speech, selecting gestural behaviour from prosodic, syntactic and semantic analysis with a deep model that includes temporal relations between gestures.
+  notes: Venue and publication type not stated in the abstract; entry is a Max Planck repository item.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: kopp2017computational
+  title: Computational gesture research
+  authors: [Stefan Kopp]
+  year: 2017
+  venue: Gesture Studies
+  type: journal
+  category: survey
+  doi: 10.1075/gs.7.13kop
+  links: {paper: 'https://doi.org/10.1075/gs.7.13kop'}
+  summary: Book chapter reviewing approaches to synthesizing co-speech gestures for virtual characters and robots and experiments on the effects of such synthetic gesturing on human addressees.
+  notes: Book chapter in the Gesture Studies series; type set to journal as the nearest allowed value. Mixes theory-oriented computational modelling discussion with human-agent interaction findings.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: mlakar2017evacorpus
+  title: A Corpus for Analyzing Linguistic and Paralinguistic Features in Multi-Speaker Spontaneous Conversations – EVA Corpus
+  authors: [Izidor Mlakar, Zdravko Kačič, Matej Rojc]
+  year: 2017
+  venue: International Journal of Computers
+  type: journal
+  category: dataset
+  links: {paper: 'https://www.iaras.org/iaras/home/cijc/a-corpus-for-analyzing-linguistic-and-paralinguistic-features-in-multi-speaker-spontaneous-conversations-eva-corpus'}
+  datasets: [eva-corpus]
+  summary: An annotated corpus of multi-speaker spontaneous conversations with linguistic, prosodic and co-verbal behavior annotation (hand gestures, head, gaze, emotion) for synthesizing co-verbal behavior in conversational agents.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: mlakar2017evamultimodal
+  title: A Corpus for Investigating the Multimodal Nature of Multi-Speaker Spontaneous Conversations – EVA Corpus
+  authors: [Izidor Mlakar, Zdravko Kačič, Matej Rojc]
+  year: 2017
+  venue: WSEAS Transactions on Information Science and Applications
+  type: journal
+  category: dataset
+  links: {paper: 'https://www.wseas.org/multimedia/journals/information/2017/a465909-076.pdf'}
+  datasets: [eva-corpus]
+  summary: An annotated corpus of spontaneous multi-speaker conversations linking linguistic and prosodic features to co-verbal behavior such as hand gestures, head movement and gaze, to support co-verbal behavior synthesis for agents.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: mlakar2017unity
+  title: A Novel Unity-based Realizer for the Realization of Conversational Behavior on Embodied Conversational Agents
+  authors: [Izidor Mlakar, Zdravko Kačič, Matej Borko, Matej Rojc]
+  year: 2017
+  venue: International Journal of Computers
+  type: journal
+  category: system
+  links: {paper: 'https://www.iaras.org/iaras/home/cijc/a-novel-unity-based-realizer-for-the-realization-of-conversational-behavior-on-embodied-conversational-agents'}
+  summary: A Unity-based realizer engine of the EVA Framework that interprets and manages dynamically generated co-verbal behavior animation for embodied conversational agents.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ondas2017multimodal
+  title: Multimodal dialogue system with NAO and VoiceXML dialogue manager
+  authors: [Stanislav Ondáš, Jozef Juhár, Matúš Pleva, Peter Fercak, Rastislav Husovsky]
+  year: 2017
+  venue: CogInfoCom
+  type: conference
+  category: system
+  doi: 10.1109/coginfocom.2017.8268286
+  links: {paper: 'https://doi.org/10.1109/coginfocom.2017.8268286'}
+  languages: [sk]
+  summary: A voice-controlled NAO robot dialogue system with a VoiceXML dialogue manager and a module that produces gestures together with speech in several modes.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ravenet2017imageschemas
+  title: The potential of Image Schemas for computing automatically metaphoric gestures for embodied conversational agents
+  authors: [Brian Ravenet, Chloé Clavel, Catherine Pélachaud]
+  year: 2017
+  venue: HAL
+  type: conference
+  category: method
+  links: {paper: 'https://telecom-paris.hal.science/hal-02287731'}
+  notes: Venue not obtained; source could not be fetched during verification.
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: ravenet2017towards
+  title: Towards the Generation of Expressive Co-Speech Gestures
+  authors: [Brian Ravenet, Chloé Clavel, Catherine Pélachaud]
+  year: 2017
+  venue: HAL
+  type: conference
+  category: method
+  links: {paper: 'https://hal.science/hal-01538185'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: smith2017personality
+  title: Understanding the impact of animated gesture performance on personality perceptions
+  authors: [Harrison Jesse Smith, Michael Neff]
+  year: 2017
+  venue: TOG
+  type: journal
+  category: evaluation
+  doi: 10.1145/3072959.3073697
+  links: {paper: 'https://doi.org/10.1145/3072959.3073697'}
+  user_study: true
+  summary: Perceptual studies of how edits to gesture motion properties change the perceived personality of an animated character, including with accompanying speech.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: takeuchi2017creating
+  title: Creating a Gesture-Speech Dataset for Speech-Based Automatic Gesture Generation
+  authors: [Kenta Takeuchi, Souichirou Kubota, Keisuke Suzuki, Dai Hasegawa, Hiroshi Sakuta]
+  year: 2017
+  venue: CCIS
+  type: conference
+  category: dataset
+  doi: 10.1007/978-3-319-58750-9_28
+  links: {paper: 'https://doi.org/10.1007/978-3-319-58750-9_28'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
+- id: takeuchi2017speech
+  title: Speech-to-Gesture Generation
+  authors: [Kenta Takeuchi, Dai Hasegawa, Shinichi Shirakawa, Naoshi Kaneko, Hiroshi Sakuta, Kazuhiko Sumi]
+  year: 2017
+  venue: HAI
+  type: conference
+  category: method
+  doi: 10.1145/3125739.3132594
+  links: {paper: 'https://doi.org/10.1145/3125739.3132594'}
+  input: [audio]
+  approach: [regression]
+  user_study: true
+  summary: Predicts time series of bone joint rotations from phonemic features of speech audio with a bidirectional LSTM, for creating gesture animation for embodied conversational agents.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: wanner2017companion
+  title: Design of a Knowledge-Based Agent as a Social Companion
+  authors: [Leo Wanner, Elisabeth André, Josep Blat, Stamatia Dasiopoulou, Mireia Farrús, Thiago Fraga, Eleni Kamateri, Florian Lingenfelser, Gerard Llorach, Oriol Martínez, Γεώργιος Μεδίτσκος, Simon Mille]
+  year: 2017
+  venue: Procedia CS
+  type: conference
+  category: system
+  doi: 10.1016/j.procs.2017.11.119
+  links: {paper: 'https://doi.org/10.1016/j.procs.2017.11.119'}
+  summary: Work-in-progress embodied conversational agent with an ontology-based knowledge model whose generation modules produce facial expressions, gestures and multilingual speech.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
