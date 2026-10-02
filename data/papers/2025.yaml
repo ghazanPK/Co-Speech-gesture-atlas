@@ -1,0 +1,25 @@
+# Papers published in 2025. One record per paper; one file per publication year.
+# The README tables are generated from these files. Field rules: docs/SCHEMA.md
+# (enforced by schema/schema.json and scripts/validate.py).
+
+- id: ali2025ridge
+  title: "RIDGE: Rule-Infused Deep Learning for Realistic Co-Speech Gesture Generation"
+  authors: [Ghazanfar Ali, HwangYoun Kim, Jae-In Hwang]
+  year: 2025
+  venue: CAVW
+  type: journal
+  category: method
+  doi: 10.1002/cav.70034
+  links:
+    paper: https://doi.org/10.1002/cav.70034
+  input: [text]
+  output: [upper-body]          # to confirm against the manuscript
+  approach: [hybrid, rule-based, retrieval]
+  setting: [monologue]
+  realtime: unreported          # to confirm
+  datasets: []                  # to fill
+  languages: [en]               # to confirm
+  metrics: []                   # to fill
+  summary: "Retrieves a motion-captured gesture from an LLM-built rule base when a text match is confident, and falls back to a contrastively trained text-gesture model otherwise."
+  added: "2026-10-02"
+  verified: false

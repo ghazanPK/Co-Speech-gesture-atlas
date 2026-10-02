@@ -1,0 +1,5 @@
+# One record per objective evaluation metric. Papers refer to these by `id` in
+# their `metrics` field; human evaluation is recorded with `user_study` instead.
+# Field rules: docs/SCHEMA.md (enforced by schema/schema.json and scripts/validate.py).
+
+[]

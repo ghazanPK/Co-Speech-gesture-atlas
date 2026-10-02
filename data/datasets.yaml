@@ -1,0 +1,4 @@
+# One record per dataset. Papers refer to these by `id` in their `datasets` field.
+# Field rules: docs/SCHEMA.md (enforced by schema/schema.json and scripts/validate.py).
+
+[]

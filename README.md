@@ -2,7 +2,7 @@
 
 A maintained, structured map of research on co-speech gesture generation: papers, datasets, metrics and code, with a comparison table per paper rather than a bare link.
 
-> Status: scaffold. The paper tables below are generated from `data/papers.yaml` and are not filled in yet.
+> Status: scaffold. The paper tables below are generated from `data/papers/` and are not filled in yet.
 
 ## Scope
 
@@ -37,7 +37,14 @@ Not included:
 
 ## Contributing
 
-Add one record to `data/papers.yaml` following the schema at the top of that file and open a pull request. Inclusion rule: the work must be publicly identifiable (DOI, arXiv ID or proceedings page) and fall inside the scope above.
+Add one record to `data/papers/<year>.yaml` following [docs/SCHEMA.md](docs/SCHEMA.md) and open a pull request. Inclusion rule: the work must be publicly identifiable (DOI, arXiv ID or proceedings page) and fall inside the scope above.
+
+Check your record before opening the pull request:
+
+```bash
+pip install -r requirements.txt
+python scripts/validate.py
+```
 
 ## License
 
