@@ -2,61 +2,6 @@
 # The README tables are generated from these files. Field rules: docs/SCHEMA.md
 # (enforced by schema/schema.json and scripts/validate.py).
 
-- id: abel2025stargate
-  title: 'Co-speech gesture synthesis : Towards a controllable and interpretable model using a graph deterministic approach'
-  authors: [Louis Abel]
-  year: 2025
-  venue: PhD thesis
-  type: thesis
-  category: method
-  doi: 10.70675/4b4d1808z33d7z4b7bz830bz71052e2093c2
-  links: {paper: 'https://doi.org/10.70675/4b4d1808z33d7z4b7bz830bz71052e2093c2'}
-  input: [audio, text, speaker-id]
-  approach: [autoregressive]
-  metrics: [fgd]
-  user_study: true
-  summary: STARGATE generates gestures autoregressively using CNN encoders for audio and text, an ST-GCN encoding the gesture history and a biRNN decoder, with a speaker embedding for style personalisation.
-  notes: Abstract is in French; the thesis also extends the model to finger motion and multiple speakers and derives a gesture boundary detector from the adjacency matrices.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
-- id: agrawal2025seamless
-  title: 'Seamless Interaction: Dyadic Audiovisual Motion Modeling and Large-Scale Dataset'
-  authors: [Vasu Agrawal, Akinniyi Akinyemi, Kathryn Alvero, Morteza Behrooz, Julia Buffalini, Fabio Maria Carlucci, Joy Chen, Jun-Ming Chen, Zhan Chen, Shi-Yang Cheng, P. Chowdary, Joe Chuang]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: dataset
-  arxiv: '2506.22554'
-  links: {paper: 'https://arxiv.org/abs/2506.22554', code: 'https://github.com/facebookresearch/seamless_interaction'}
-  input: [audio, text, interlocutor, emotion]
-  output: [full-body, hands, face]
-  approach: [diffusion]
-  setting: [dyadic]
-  realtime: unreported
-  datasets: [seamless-interaction]
-  languages: [en]
-  user_study: true
-  summary: Releases a 4,065-hour dyadic interaction dataset and diffusion transformer models that generate face and body motion from both participants' speech and the interlocutor's visual behavior.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
-- id: akamine2025video
-  title: Video-mediated communication modulates conversational features of speech more than gesture in novel referential communication
-  authors: [Sho Akamine, Mark Dingemanse, Antje S. Meyer, Aslı Özyürek]
-  year: 2025
-  venue: Unknown venue
-  type: preprint
-  category: theory
-  doi: 10.31234/osf.io/vjwpz_v1
-  links: {paper: 'https://doi.org/10.31234/osf.io/vjwpz_v1'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
-
 - id: akkan2025author
   title: 'Author response for "Talking Hands, Shifting Tongues: How Using Co-speech Gestures and Second Language Relate to Emotional Autobiographical Memory Narration?"'
   authors: [İbrahim Akkan, Çağla Aydın, Sami̇ Gülgöz, Tilbe Göksun]
@@ -268,29 +213,6 @@
   verified: false
   area: psycholinguistics
 
-- id: bian2025motioncraft
-  title: 'MotionCraft: Crafting Whole-Body Motion with Plug-and-Play Multimodal Controls'
-  authors: [Yuxuan Bian, Ailing Zeng, Xuan Ju, Xian Liu, Zhaoyang Zhang, Wei Liu, Qiang Xu]
-  year: 2025
-  venue: AAAI
-  type: conference
-  category: method
-  doi: 10.1609/aaai.v39i2.32183
-  arxiv: '2407.21136'
-  links: {paper: 'https://doi.org/10.1609/aaai.v39i2.32183', open: 'https://arxiv.org/abs/2407.21136', project: 'https://cure-lab.github.io/MotionCraft'}
-  input: [text, audio]
-  output: [full-body, hands, face]
-  representation: [smpl-x]
-  approach: [diffusion]
-  realtime: unreported
-  datasets: [humanml3d, beat2]
-  metrics: [fid, r-precision, diversity, beat-align, face-error, mm-dist]
-  summary: A unified diffusion transformer for whole-body SMPL-X motion from text, speech or music, trained coarse-to-fine with a text-to-motion pre-training stage and a multimodal control stage.
-  notes: 'Handles co-speech gestures (BEAT2) alongside text-to-motion and music-to-dance (FineDance); introduces the MC-Bench benchmark. Other metric: multi-modal distance.'
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
 - id: bonsignori2025action
   title: Action depiction in gestures and signs
   authors: [Chiara Bonsignori, Elena Tomasuolo, Pasquale Rinaldi, Virginia Volterra]
@@ -388,31 +310,6 @@
   checked: full-text
   verified: true
 
-- id: chen2025hunyuanvideoavatar
-  title: 'HunyuanVideo-Avatar: High-Fidelity Audio-Driven Human Animation for Multiple Characters'
-  authors: [Yi Chen, Sen Liang, Zi-Xiang Zhou, Zi-Yao Huang, Yi-Feng Ma, Junshu Tang, Qin Lin, Yuan Zhou, Qinglin Lu]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2505.20156'
-  links: {paper: 'https://arxiv.org/abs/2505.20156', code: 'https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar', project: 'https://hunyuanvideo-avatar.github.io'}
-  weights: true
-  input: [audio, image, emotion]
-  output: [upper-body, full-body, face]
-  representation: [video-pixels]
-  approach: [diffusion]
-  setting: [monologue, multi-party]
-  realtime: unreported
-  latency: about 60 minutes for a 10 s 720x1216 video with 50 inference steps
-  datasets: [celebv-hq, hdtf, custom]
-  metrics: [fid, fvd, image-quality, lip-sync, other]
-  user_study: true
-  summary: A multimodal diffusion transformer that generates audio-driven talking videos of one or several characters from a reference image and audio, including body motion.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
 - id: chen2025languageofmotion
   title: 'The Language of Motion: Unifying Verbal and Non-verbal Language of 3D Human Motion'
   authors: [Changan Chen, Juze Zhang, Shrinidhi K. Lakshmikanth, Yusu Fang, Ruizhi Shao, Gordon Wetzstein, Li Fei-Fei, Ehsan Adeli]
@@ -463,49 +360,6 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
-
-- id: chen2025talkcuts
-  title: 'TalkCuts: A Large-Scale Dataset for Multi-Shot Human Speech Video Generation'
-  authors: [Jiaben Chen, Zixin Wang, Ailing Zeng, Yang Fu, Xueyang Yu, Siyuan Cen, Julian Tanke, Yihang Chen, Koichi Saito, Yuki Mitsufuji, Chuang Gan]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: dataset
-  doi: 10.52202/085713-0646
-  arxiv: '2510.07249'
-  links: {paper: 'https://arxiv.org/abs/2510.07249', project: 'https://talkcuts.github.io/'}
-  input: [text, audio, image]
-  output: [upper-body, full-body, hands, face]
-  representation: [video-pixels, keypoints-2d, smpl-x]
-  approach: [llm, diffusion]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [custom]
-  metrics: [fid, fvd, image-quality, lip-sync]
-  user_study: false
-  summary: Dataset of 164k speech video clips (over 500 hours) with text descriptions, 2D keypoints and SMPL-X annotations, with an LLM-directed multi-shot video generation baseline (Orator).
-  notes: Dataset released under CC BY 4.0, drawn from talk shows, TED talks and stand-up comedy videos. The DOI is from the candidate metadata; the published venue was not confirmed.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
-- id: chen2025understanding
-  title: 'Understanding and Generating Multi-Modalities: Advancing Efficient, Generalized, and Interactive Human-Centered AI'
-  authors: [Junming Leo Chen]
-  year: 2025
-  venue: HKUST
-  type: thesis
-  category: method
-  doi: 10.14711/thesis-hdl167741
-  links: {paper: 'https://doi.org/10.14711/thesis-hdl167741'}
-  input: [audio]
-  output: [face]
-  approach: [diffusion]
-  summary: Doctoral thesis whose generation part presents a diffusion-based model producing synchronized, arbitrary-length holistic 3D facial expressions and body gestures from speech.
-  notes: Thesis also covers video denoising, federated domain generalization and unified multimodal LLMs; only the speech-to-gesture part is in scope. Abstract claims real-time generation but gives no figure.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: cheng2025conditional
   title: Conditional GAN for Enhancing Diffusion Models in Efficient and Authentic Global Gesture Generation from Audios
@@ -690,28 +544,6 @@
   checked: abstract
   verified: false
 
-- id: deichler2025grounded
-  title: 'Grounded Gesture Generation: Language, Motion, and Space'
-  authors: [Anna Deichler, Jim O'Regan, Teo Guichoux, David Johansson, Jonas Beskow]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: dataset
-  arxiv: '2507.04522'
-  links: {paper: 'https://arxiv.org/abs/2507.04522', project: 'https://groundedgestures.github.io/'}
-  input: [text]
-  output: [full-body]
-  representation: [joints-3d]
-  approach: [diffusion]
-  datasets: [custom, mm-conv]
-  metrics: [fid, other]
-  user_study: false
-  summary: Presents a synthetic dataset of spatially grounded pointing gestures and the MM-Conv VR dialogue dataset, with a fine-tuned diffusion model that adds joint-level spatial guidance for referential gestures.
-  notes: Accepted as a non-archival paper at the CVPR 2025 Humanoid Agents Workshop. About 7.7 hours of motion, speech and 3D scene data in HumanML3D format. Other metric is control L2 error.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
 - id: deng2025stereotalker
   title: 'Stereo-Talker: Audio-driven 3D Human Synthesis with Prior-Guided Mixture-of-Experts'
   authors: [Xiang Deng, Youxin Pang, Xiaochen Zhao, Chao Xu, Lizhen Wang, Hongjiang Xiao, Shi Tian Yan, Hongwen Zhang, Yebin Liu]
@@ -814,31 +646,6 @@
   checked: abstract
   verified: false
   area: development
-
-- id: fang2025coordspeaker
-  title: 'CoordSpeaker: Exploiting Gesture Captioning for Coordinated Caption-Empowered Co-Speech Gesture Generation'
-  authors: [Fengyi Fang, Sicheng Yang, Wenming Yang]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2511.22863'
-  links: {paper: 'https://arxiv.org/abs/2511.22863'}
-  input: [audio, text]
-  output: [full-body, hands]
-  representation: [smpl-x]
-  approach: [vae, diffusion]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [beat, humanml3d]
-  languages: [en]
-  metrics: [fgd, beat-align, accel-jerk, fid, diversity, l1-div, r-precision, mm-dist]
-  user_study: true
-  summary: Generates gestures with a latent diffusion model conditioned on speech and text captions, using a motion-language model to caption gestures at several granularities and a shared 55-joint representation across datasets.
-  notes: 'Reports 0.842 s average inference time per sentence on an RTX 3090. Other metric: MM-Dist.'
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
 
 - id: fang2025semgest
   title: 'SemGest: A Multimodal Feature Space Alignment and Fusion Framework for Semantic-aware Co-speech Gesture Generation'
@@ -978,29 +785,6 @@
   checked: full-text
   verified: false
 
-- id: gao2025sarges
-  title: 'SARGes: Semantically Aligned Reliable Gesture Generation via Intent Chain'
-  authors: [Nan Gao, Yihua Bao, Dongdong Weng, Jiayi Zhao, Jia Li, Yan Zhou, Pengfei Wan, Di Zhang]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  doi: 10.1145/3746268.3759436
-  arxiv: '2503.20202'
-  links: {paper: 'https://arxiv.org/abs/2503.20202', code: 'https://github.com/gesture-label/ethogram'}
-  input: [text]
-  approach: [llm]
-  realtime: unreported
-  latency: 0.4 s per inference for the fine-tuned label generator (about 3 s with GPT-4)
-  datasets: [custom]
-  metrics: [label-prediction]
-  user_study: false
-  summary: Uses an LLM with intent-chain reasoning over a gesture ethogram to turn speech text into semantic gesture labels, then a LoRA-fine-tuned Qwen model generates the labels that guide gesture synthesis.
-  notes: Generates gesture labels from text; the metric is a partial-overlap label accuracy. Published version has a DOI under ACM (10.1145/3746268.3759436); venue not confirmed from the text read.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
 - id: ghadekar2025translating
   title: 'Translating audio into movement: A semantic gesture generation approach using conditional GANs'
   authors: [Premanand Pralhad Ghadekar, Aditya Bodhankar, Ajinkya Mahajan, Shivani Mahajan, Diksha Prasad, Riya Dhakalkar]
@@ -1037,31 +821,6 @@
   user_study: true
   summary: Prompts GPT-4 with gestural intent descriptions and annotated examples to choose meaningful hand gestures and their timing for an utterance, output as BML for a virtual agent.
   notes: Evaluated by two expert annotators on about 6 minutes of annotated video of one speaker; output is gesture selection in Behavior Markup Language rather than raw motion.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
-- id: ghosh2025activelistener
-  title: 'Active Listener: Continuous Generation of Listener''s Head Motion Response in Dyadic Interactions'
-  authors: [Bishal Ghosh, Emma Li, Tanaya Guha]
-  year: 2025
-  venue: ICASSP
-  type: conference
-  category: method
-  doi: 10.1109/icassp49660.2025.10889429
-  arxiv: '2409.20188'
-  links: {paper: 'https://doi.org/10.1109/icassp49660.2025.10889429', open: 'https://arxiv.org/abs/2409.20188', code: 'https://github.com/bigzen/Active-Listener'}
-  input: [audio, interlocutor]
-  representation: [other]
-  approach: [other]
-  setting: [dyadic]
-  realtime: real-time
-  latency: 86 fps (eGEMAPS) to 18,490 fps (MFCC) depending on audio features
-  datasets: [iemocap]
-  metrics: [joint-error]
-  user_study: false
-  summary: Generates a listener's head pose angles (roll, pitch, yaw) continuously from the interlocutor's speech audio with a graph neural network encoder-decoder.
-  notes: Head motion only, no arm or hand gesture; graph neural network with SAGEConv and LSTM aggregation.
   added: '2026-10-03'
   checked: full-text
   verified: false
@@ -1242,52 +1001,6 @@
   checked: full-text
   verified: true
 
-- id: guo2025trimm
-  title: 'TRiMM: Transformer-Based Rich Motion Matching for Real-Time multi-modal Interaction in Digital Humans'
-  authors: [Yueqian Guo, Tianzhao Li, Xin Lyu, Jiehaolin Chen, Zhaohan Wang, Sirui Xiao, Yurun Chen, Yezi He, Helin Li, Fan Zhang]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2506.01077'
-  links: {paper: 'https://arxiv.org/abs/2506.01077', code: 'https://github.com/teroon/TRiMM-Transformer-Based-Rich-Motion-Matching'}
-  input: [text, audio]
-  output: [full-body]
-  representation: [joints-3d]
-  approach: [autoregressive, retrieval, hybrid]
-  setting: [monologue]
-  realtime: real-time
-  latency: 0.15 s per sentence (0.14 s on ZEGGS, 0.19 s on BEAT) on an RTX 3060; 120 fps
-  datasets: [beat, zeggs]
-  languages: [en]
-  metrics: [fgd, beat-align, diversity, other]
-  user_study: true
-  summary: Generates full-body BVH gestures from text and audio with a sliding-window autoregressive transformer, combined with K-NN retrieval from a library of atomic actions.
-  notes: The other metric is Average Inference Time per Sentence (AITS).
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
-- id: han2025llm
-  title: Can LLMs Generate Behaviors for Embodied Virtual Agents Based on Personality Traits?
-  authors: [Bin Han, Deuksin Kwon, Spencer Lin, Kaleen Shrestha, Jonathan Gratch]
-  year: 2025
-  venue: IVA
-  type: conference
-  category: system
-  doi: 10.1145/3717511.3747060
-  arxiv: '2508.21087'
-  links: {paper: 'https://doi.org/10.1145/3717511.3747060', open: 'https://arxiv.org/abs/2508.21087'}
-  input: [text]
-  approach: [llm]
-  languages: [en]
-  user_study: true
-  summary: Prompts an LLM with personality traits and conversation context to select verbal behaviour and gestures or postures from a predefined action list for virtual agents.
-  notes: Gestures are chosen per utterance from Mixamo and Reallusion animation clips and are not synchronised to individual words.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
 - id: hart2025speech
   title: Co-speech Gestures
   authors: [Christopher Hart]
@@ -1318,58 +1031,6 @@
   checked: full-text
   verified: true
 
-- id: hensel2025richlyb
-  title: A richly annotated dataset of in-context co-speech hand gestures across diverse speaker professions
-  authors: [Laura Birka Hensel, Stephanie Cheng, Stacy Marsella]
-  year: 2025
-  venue: Unknown venue
-  type: preprint
-  category: theory
-  doi: 10.31234/osf.io/2ep98_v2
-  links: {paper: 'https://doi.org/10.31234/osf.io/2ep98_v2'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
-- id: herbuela2025multimodal
-  title: Multimodal Emotion Coupling via Speech-to-Facial and Bodily Gestures in Dyadic Interaction
-  authors: [Von Ralph Dane Marquez Herbuela, Yukie Nagai]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: theory
-  arxiv: '2506.10010'
-  links: {paper: 'https://arxiv.org/abs/2506.10010'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
-
-- id: hoangminh2025deepgesture
-  title: A conversational gesture synthesis system based on emotions and semantics
-  authors: [Thanh Hoang-Minh]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2507.03147'
-  links: {paper: 'https://arxiv.org/abs/2507.03147', code: 'https://github.com/OHGesture/OHGesture'}
-  input: [text, audio, emotion, seed-motion]
-  output: [full-body, hands]
-  representation: [joints-3d]
-  approach: [diffusion]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [zeggs]
-  languages: [en]
-  metrics: [joint-error, fgd]
-  user_study: true
-  summary: Extends DiffuseStyleGesture with transcript-based semantic conditioning and emotion-guided classifier-free diffusion to generate BVH full-body gestures from speech, text, emotion and seed motion.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
 - id: hogue2025joint
   title: Joint Co-Speech Gesture and Expressive Talking Face Generation using Diffusion with Adapters
   authors: [Steven Hogue, Chenxu Zhang, Yapeng Tian, Xiaohu Guo]
@@ -1394,20 +1055,6 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
-
-- id: hong2025speech
-  title: Co-speech Pointing Gestures as the Visual Determiner in Early Word Learning
-  authors: [Xuancu Hong, Patrick C. M. Wong]
-  year: 2025
-  venue: Unknown venue
-  type: preprint
-  category: theory
-  doi: 10.31234/osf.io/ascyp_v1
-  links: {paper: 'https://doi.org/10.31234/osf.io/ascyp_v1'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: development
 
 - id: huan2025review
   title: A Review of Digital Human Gesture Generation Technology and Its Teaching Application Thinking
@@ -1461,31 +1108,6 @@
   checked: full-text
   verified: true
 
-- id: huang2025sigchat
-  title: 'SIG-Chat: Spatial Intent-Guided Conversational Gesture Generation Involving How, When and Where'
-  authors: [Yiheng Huang, Junran Peng, Silei Shen, Jingwei Yang, ZeJi Wei, ChenCheng Bai, Yonghao He, Wei Sui, Muyi Sun, Yan Liu, Xu-Cheng Yin, Man Zhang]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2509.23852'
-  links: {paper: 'https://arxiv.org/abs/2509.23852'}
-  input: [audio, text]
-  output: [full-body, hands]
-  representation: [smpl-x]
-  approach: [diffusion]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [sig-chat, beat2]
-  languages: [zh, en]
-  metrics: [fgd, beat-align, diversity, other]
-  user_study: true
-  summary: A diffusion transformer generates full-body motion from audio, transcript and 3D spatial intent targets, and is deployed on a humanoid robot.
-  notes: 'Also conditions on intent category and target position. Extra metrics: IAR@k, IoU@k, IAD for intent timing and spatial accuracy.'
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
 - id: inbar2025contrastive
   title: Contrastive negation constructions in Israeli Hebrew
   authors: [Anna Inbar]
@@ -1531,63 +1153,6 @@
   links: {paper: 'https://doi.org/10.1007/978-3-032-05994-9_10'}
   added: '2026-10-03'
   checked: metadata
-  verified: false
-
-- id: jimenez2025modeling
-  title: Modeling the Gesture-Speech Relation Through Novel Datasets for Multimodal Signal Analysis
-  authors: [Brian Herreño Jiménez, Sánchez Sánchez Raúl, Alcaraz Carrión Daniel, López Bernal Ariadna, Cristóbal Pagán Cánovas]
-  year: 2025
-  venue: Preprints.org
-  type: preprint
-  category: theory
-  doi: 10.20944/preprints202509.2141.v1
-  links: {paper: 'https://doi.org/10.20944/preprints202509.2141.v1'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
-- id: kalafatovich2025sgeag
-  title: 'SGEAG: Semantic-guided emotional-aware gesture generation from audio'
-  authors: [Jenifer Kalafatovich, Seong–Whan Lee]
-  year: 2025
-  venue: NeurIPS
-  type: poster
-  category: method
-  doi: 10.2139/ssrn.5929538
-  links: {paper: 'https://neurips.cc/virtual/2025/133721', open: 'https://doi.org/10.2139/ssrn.5929538'}
-  input: [audio]
-  output: [full-body, hands, face]
-  datasets: [beat2]
-  metrics: [fgd, beat-align, emotion-accuracy]
-  user_study: true
-  summary: Two modules, audio2face and audio2body, generate whole-body gestures from audio, with a semantic-guided mechanism weighting rhythm against semantic features and separate style and emotion adaptation for face and body.
-  notes: 'Poster at the Women in Machine Learning affinity event, NeurIPS 2025. Other metric: emotion classification accuracy.'
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
-- id: kim2025mars
-  title: 'Speaking Beyond Language: A Large-Scale Multimodal Dataset for Learning Nonverbal Cues from Video-Grounded Dialogues'
-  authors: [Youngmin Kim, Jiwan Chung, Jisoo Kim, Sunghyun Lee, Sangkyu Lee, Junhyeok Kim, Cheoljong Yang, Youngjae Yu]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2506.00958'
-  links: {paper: 'https://arxiv.org/abs/2506.00958', code: 'https://github.com/winston1214/nonverbal-conversation'}
-  input: [text]
-  output: [upper-body, hands, face]
-  representation: [smpl-x]
-  approach: [vq, autoregressive, llm]
-  datasets: [venus]
-  languages: [en]
-  metrics: [face-error, diversity, other]
-  user_study: false
-  summary: A multimodal language model that predicts text interleaved with vector-quantized FLAME face and SMPL-X upper-body tokens by next-token prediction, trained on the VENUS dataset of podcast videos.
-  notes: 'Also introduces the VENUS dataset (14,910 hours reported). Other metrics: perplexity, BERT-score, METEOR, NLL on nonverbal tokens.'
-  added: '2026-10-03'
-  checked: full-text
   verified: false
 
 - id: konderak2025embodied
@@ -1655,29 +1220,6 @@
   verified: false
   area: perception
 
-- id: li2025easygennet
-  title: 'EasyGenNet: An Efficient Framework for Audio-Driven Gesture Video Generation Based on Diffusion Model'
-  authors: [Renda Li, Xiaohua Qi, Qiang Ling, Jun Yu, Ziyi Chen, Peng Chang, Mei Han, Jing Xiao]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2504.08344'
-  links: {paper: 'https://arxiv.org/abs/2504.08344'}
-  input: [audio, speaker-id, image]
-  output: [full-body, hands, face]
-  representation: [smpl-x, keypoints-2d, video-pixels]
-  approach: [diffusion]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [show]
-  metrics: [image-quality, fvd]
-  user_study: false
-  summary: Synthesizes co-speech gesture videos by generating SMPL-X motion from audio, converting it to 2D skeleton maps, and rendering with a fine-tuned Stable Diffusion video generator with reference and pose control.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
 - id: li2025emodiffges
   title: 'EmoDiffGes: Emotion‐Aware Co‐Speech Holistic Gesture Generation with Progressive Synergistic Diffusion'
   authors: [Xinru Li, Jingzhong Lin, Bohao Zhang, Yuanyuan Qi, Changbo Wang, Gaoqi He]
@@ -1710,67 +1252,6 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
-
-- id: li2025omnimotion
-  title: 'OmniMotion: Multimodal Motion Generation with Continuous Masked Autoregression'
-  authors: [Zhe Li, Weihao Yuan, Weichao Shen, Siyu Zhu, Zilong Dong, Chang Xu]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2510.14954'
-  links: {paper: 'https://arxiv.org/abs/2510.14954'}
-  input: [text, audio]
-  output: [full-body, hands, face]
-  representation: [smpl-x]
-  approach: [masked-modeling, autoregressive, diffusion]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [humanml3d, beat2, finedance]
-  metrics: [fid, r-precision, beat-align, diversity, face-error, mm-dist]
-  user_study: false
-  summary: Generates whole-body SMPL-X motion from text, speech or music with a causal continuous masked autoregressive transformer whose outputs condition a diffusion head.
-  notes: Also covers text-to-motion and music-to-dance; metrics tagged other include MM-Distance. Code stated as to be released.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
-- id: li2025roboperform
-  title: Do You Have Freestyle? Expressive Humanoid Locomotion via Audio Control
-  authors: [Zhe Li, Yangyang Wei, Boan Zhu, Tao Huang, Zhenguo Sun, Yibo Peng, Pengwei Wang, Zhongyuan Wang, Fangzhou Liu, Chang Xu, Cheng Chi, Shanghang Zhang]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2512.23650'
-  links: {paper: 'https://arxiv.org/abs/2512.23650'}
-  input: [audio, text]
-  output: [full-body]
-  representation: [other]
-  approach: [diffusion, other]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [beat2]
-  metrics: [r-precision, joint-error, other, mm-dist]
-  user_study: false
-  summary: Controls a humanoid robot directly from audio to produce music-driven dance and speech-driven co-speech gestures, with a reinforcement-learned teacher policy and a diffusion student policy that injects audio style.
-  notes: Also trained on FineDance for dance. Metrics include success rate and MM-Dist. Paper cites two-step DDIM sampling for real-time deployment but gives no latency figure.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
-- id: li2025spatial
-  title: Spatial Skills and the Comprehension of Co-Speech Gestures for Spatial Language
-  authors: [Binglong Li, Tilbe Göksun, Demet Özer, Aslı Özyürek]
-  year: 2025
-  venue: OSF Preprints (OSF Preprints)
-  type: preprint
-  category: theory
-  links: {paper: 'https://osf.io/d6xzw'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: perception
 
 - id: lin2025omnihuman
   title: 'OmniHuman-1: Rethinking the Scaling-Up of One-Stage Conditioned Human Animation Models'
@@ -1844,31 +1325,6 @@
   metrics: [fgd, beat-align, l1-div, face-error]
   user_study: true
   summary: Tokenizes body regions with separate residual VQ codebooks and generates full-body gestures from speech and text with a flow-matching model using spatial-temporal attention and latent shortcut learning.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
-- id: liu2025intentional
-  title: 'Intentional Gesture: Deliver Your Intentions with Gestures for Speech'
-  authors: [Pinxin Liu, Haiyang Liu, Luchuan Song, Jason J. Corso, Chenliang Xu]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2505.15197'
-  links: {paper: 'https://arxiv.org/abs/2505.15197', project: 'https://andypinxinliu.github.io/Intentional-Gesture'}
-  input: [audio, text]
-  output: [full-body, hands]
-  representation: [smpl-x]
-  approach: [vq, diffusion]
-  setting: [monologue]
-  realtime: real-time
-  latency: 30.4 FPS on an H100 GPU
-  datasets: [beat2, audio2photoreal]
-  metrics: [fgd, l1-div, beat-align]
-  user_study: true
-  summary: Adds gesture-intention annotations to BEAT2 and injects them into a multi-codebook motion tokenizer, then generates full-body gestures from speech and intention embeddings with a diffusion model.
-  notes: Introduces the InG dataset (BEAT2 with VLM-generated intention annotations).
   added: '2026-10-03'
   checked: full-text
   verified: true
@@ -1980,61 +1436,6 @@
   checked: full-text
   verified: false
 
-- id: ma2025playmate2
-  title: 'Playmate2: Training-Free Multi-Character Audio-Driven Animation via Diffusion Transformer with Reward Feedback'
-  authors: ['Ma, Xingpei', 'Huang, Shenneng', 'Cai, Jiaran', Yuansheng Guan, 'Zheng, Shen', Haiyun Zhao, Qiang Matthew Zhang, 'Zhang, Shunsi']
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2510.12089'
-  links: {paper: 'https://arxiv.org/abs/2510.12089', project: 'https://playmate111.github.io/Playmate2/'}
-  input: [text, audio, image]
-  output: [upper-body, face]
-  representation: [video-pixels]
-  approach: [diffusion, flow-matching]
-  setting: [monologue, multi-party]
-  realtime: unreported
-  datasets: [celebv-hq, hdtf, avspeech, custom]
-  metrics: [fid, fvd, image-quality, lip-sync]
-  user_study: true
-  summary: A diffusion transformer fine-tuned with LoRA and preference optimisation that generates audio-driven videos with lip sync and body gestures, with a training-free mask guidance for several characters.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
-- id: marghetis2025speech
-  title: Co-speech gesture reveals the spatial foundation of children’s conceptions of time
-  authors: [Tyler Marghetis, Katharine A. Tillman, Mahesh Srinivasan]
-  year: 2025
-  venue: Unknown venue
-  type: preprint
-  category: theory
-  doi: 10.31234/osf.io/dnpeh_v1
-  links: {paper: 'https://doi.org/10.31234/osf.io/dnpeh_v1'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: development
-
-- id: mclean2025embody
-  title: 'Embody 3D: A Large-scale Multimodal Motion and Behavior Dataset'
-  authors: [Claire McLean, Makenzie Meendering, Tristan Swartz, Orri Gabbay, Alexandra Olsen, Rachel Jacobs, Nicholas Rosen, Philippe de Bree, Tony Garcia, Gadsden Merrill, Jake Sandakly, Julia Buffalini, Neham Jain, Steven Krenn, Moneish Kumar, Dejan Markovic, Evonne Ng, Fabian Prada, Andrew Saba, Siwei Zhang, Vasu Agrawal, Tim Godisart, Alexander Richard, Michael Zollhoefer]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: dataset
-  arxiv: '2510.16258'
-  links: {paper: 'https://arxiv.org/abs/2510.16258', project: 'https://www.meta.com/emerging-tech/codec-avatars/embody-3d'}
-  representation: [smpl-x]
-  setting: [monologue, dyadic, multi-party]
-  datasets: [embody-3d]
-  user_study: false
-  summary: A multi-camera capture of 500 individual hours of tracked 3D body and hand motion from 439 participants with per-participant audio and text annotations, including dyadic and multi-person conversations.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
 - id: meng2025echomimicv2
   title: 'EchoMimicV2: Towards Striking, Simplified, and Semi-Body Human Animation'
   authors: [Rang Meng, Xingyu Zhang, Yuming Li, Chenguang Ma]
@@ -2056,30 +1457,6 @@
   user_study: false
   summary: A latent video diffusion model animates a half-body reference image from audio and a hand pose sequence, using audio-pose harmonization during training.
   notes: Also trained on HumanVid; introduces the EMTD half-body benchmark built from TED videos.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
-- id: meng2025mirrorme
-  title: 'MirrorMe: Towards Realtime and High Fidelity Audio-Driven Halfbody Animation'
-  authors: [Dechao Meng, Steven Xiao, Xindi Zhang, Guangyuan Wang, Peng Zhang, Qi Wang, Bang Zhang, Liefeng Bo]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2506.22065'
-  links: {paper: 'https://arxiv.org/abs/2506.22065', video: 'https://youtu.be/5RxGawDro3s'}
-  input: [audio, image]
-  output: [upper-body, hands, face]
-  representation: [video-pixels]
-  approach: [diffusion]
-  setting: [monologue]
-  realtime: real-time
-  latency: 24 fps at 512x768 on NVIDIA H100/A100
-  metrics: [fid, fvd, image-quality, lip-sync, identity-similarity, hkc, hkv]
-  user_study: false
-  summary: Real-time audio-driven half-body video generation on the LTX video diffusion transformer, with a causal audio encoder and optional hand keypoint input for gesture control.
-  notes: Also reports facial identity similarity (CSIM), Hand Keypoint Confidence and Hand Keypoint Variance.
   added: '2026-10-03'
   checked: full-text
   verified: false
@@ -2151,20 +1528,6 @@
   checked: abstract
   verified: false
   area: psycholinguistics
-
-- id: momsen2025influence
-  title: The Influence of Co-Speech Gestures on Speech Envelope Tracking
-  authors: [Jacob Momsen, Ying Choon Wu, Seana Coulson]
-  year: 2025
-  venue: SSRN Electronic Journal
-  type: journal
-  category: theory
-  doi: 10.2139/ssrn.5287595
-  links: {paper: 'https://doi.org/10.2139/ssrn.5287595'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: neuroscience
 
 - id: momsen2025point
   title: 'Point-light Talkers: Multisensory Enhancement of Speech Tracking by Co-speech Movement Kinematics'
@@ -2309,29 +1672,6 @@
   verified: false
   area: perception
 
-- id: patapati2025geneca
-  title: 'GenECA: A General-Purpose Framework for Real-Time Adaptive Multimodal Embodied Conversational Agents'
-  authors: [Santosh Patapati, Murari Ambati, Aashrith Tatineni, Trisanth Srinivasan]
-  year: 2025
-  venue: engrXiv
-  type: preprint
-  category: system
-  doi: 10.31224/5199
-  links: {paper: 'https://doi.org/10.31224/5199', open: 'https://engrxiv.org/preprint/download/5199/8779/7307'}
-  input: [audio, video]
-  output: [upper-body, face]
-  approach: [retrieval, llm, rule-based]
-  setting: [dyadic]
-  realtime: unreported
-  datasets: []
-  metrics: []
-  user_study: false
-  summary: Real-time embodied conversational agent framework that analyses the user's audio and video and uses an LLM to select pre-authored gestures and facial animations synchronized with synthesized speech.
-  notes: Gestures are selected from an animation library by an LLM judge or generated via BML; lip sync is heuristic; rendered in Unity.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
 - id: peng2025twostage
   title: A Two‐Stage Controllable Co‐Speech Gesture Generation Method
   authors: [Zeyu Peng, Dan Ma, Xiangwei Lv]
@@ -2376,31 +1716,6 @@
   checked: abstract
   verified: false
   area: linguistics
-
-- id: qi2025chatanyone
-  title: 'ChatAnyone: Stylized Real-time Portrait Video Generation with Hierarchical Motion Diffusion Model'
-  authors: [Jinwei Qi, Chaonan Ji, Sheng Yong Xu, Peng Zhang, Bang Zhang, Liefeng Bo]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2503.21144'
-  links: {paper: 'https://arxiv.org/abs/2503.21144', project: 'https://humanaigc.github.io/chat-anyone/'}
-  input: [audio, image, video]
-  output: [upper-body, hands, face]
-  representation: [smpl-x, other, video-pixels]
-  approach: [diffusion, gan]
-  setting: [monologue]
-  realtime: real-time
-  latency: 30 fps at up to 512x768 on a 4090 GPU
-  datasets: [custom]
-  metrics: [image-quality, fid, fvd, lip-sync, diversity, hkc]
-  user_study: false
-  summary: Hierarchical motion diffusion models turn audio into head, expression and upper-body control signals, with MANO-rendered hand images guiding a warping-based GAN that produces the portrait video.
-  notes: 'Trained on about 20,000 talkshow clips (about 30 hours) from YouTube. Optional reference video gives style. Other metrics: hand keypoint confidence.'
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
 
 - id: qi2025co3gesture
   title: 'Co$^{3}$Gesture: Towards Coherent Concurrent Co-speech 3D Gesture Generation with Interactive Diffusion'
@@ -2582,30 +1897,6 @@
   checked: full-text
   verified: true
 
-- id: song2025graph
-  title: Co-speech Gesture Video Generation via Motion-Based Graph Retrieval
-  authors: [Yafei Song, Peng Zhang, Bang Zhang]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2512.02576'
-  links: {paper: 'https://arxiv.org/abs/2512.02576'}
-  input: [audio]
-  output: [upper-body]
-  representation: [smpl-x]
-  approach: [diffusion, retrieval]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [show]
-  metrics: [fvd, fmd, beat-align, diversity]
-  user_study: false
-  summary: Generates gesture motion with an audio-conditioned diffusion model, retrieves a matching path in a motion graph of existing video, and stitches the segments into a gesture video.
-  notes: Audio features include Mel-spectrogram, HuBERT and LLM semantic features from ASR text. Trained on the Oliver subset of SHOW. FVD reported as CD-FVD.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
 - id: stolpe2025spatial
   title: 'Spatial constructions of time: exploring Co-speech gestures in lectures on programming'
   authors: [Karin Stolpe, Marlene Johansson Falck, Andréas Larsson]
@@ -2634,30 +1925,6 @@
   verified: false
   area: psycholinguistics
 
-- id: sun2025streamavatar
-  title: 'StreamAvatar: Streaming Diffusion Models for Real-Time Interactive Human Avatars'
-  authors: [Zhiyao Sun, Ziqiao Peng, Yifeng Ma, Yi Chen, Zhengguang Zhou, Zixiang Zhou, Guozhen Zhang, Youliang Zhang, Yuan Zhou, Qinglin Lu, Yong-Jin Liu]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2512.22065'
-  links: {paper: 'https://arxiv.org/abs/2512.22065', project: 'https://streamavatar.github.io'}
-  input: [audio, image, text]
-  output: [full-body, hands, face]
-  representation: [video-pixels]
-  approach: [diffusion, autoregressive, gan]
-  realtime: real-time
-  latency: 25 FPS with about 1.20 s end-to-end latency on dual H800 GPUs
-  datasets: [custom]
-  metrics: [fid, fvd, lip-sync, hkv, nr-quality]
-  user_study: true
-  summary: Distils a human video diffusion model into a causal streaming generator with adversarial refinement to produce talking and listening avatar video with gestures from an image and audio.
-  notes: Trained on about 200 hours of SpeakerVid-5M and self-collected video; other metrics include hand keypoint variance and Q-Align.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
 - id: sung2025unraveling
   title: 'Unraveling temporally entangled multimodal interactions: investigating verbal and nonverbal contributions to collaborative construction of embodied math knowledge'
   authors: [Hanall Sung, Mitchell J. Nathan]
@@ -2672,19 +1939,6 @@
   verified: false
   area: education
 
-- id: susie2025childrens
-  title: 'Children’s Development of Speech and Gesture in Expressing Motion Events: Evidence from Mandarin Chinese'
-  authors: [Susie]
-  year: 2025
-  venue: OSF Preprints (OSF Preprints)
-  type: preprint
-  category: theory
-  links: {paper: 'https://osf.io/3j85q'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: development
-
 - id: thompson2025iconic
   title: 'Iconic hand gestures from ideophones exhibit stability and emergent phonological properties: an iterated learning study'
   authors: [Arthur Lewis Thompson, Thomas Van Hoey, Aaron Wing Cheung Chik, Youngah Do]
@@ -2698,30 +1952,6 @@
   checked: abstract
   verified: false
   area: linguistics
-
-- id: tian2025emo2
-  title: 'EMO2: End-Effector Guided Audio-Driven Avatar Video Generation'
-  authors: [Linrui Tian, Siqi Hu, Qi Wang, Bang Zhang, Liefeng Bo]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2501.10687'
-  links: {paper: 'https://arxiv.org/abs/2501.10687', project: 'https://humanaigc.github.io/emote-portrait-alive-2/'}
-  input: [audio, image]
-  output: [upper-body, hands, face]
-  representation: [smpl-x, keypoints-2d, video-pixels]
-  approach: [diffusion]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [custom]
-  metrics: [diversity, beat-align, pck, fgd, fid, fvd, image-quality, lip-sync, e-fid, hkc, hkv, identity-similarity]
-  user_study: false
-  summary: Generates hand poses from audio with a diffusion transformer in a first stage, then synthesizes talking video with face and body motion from a reference image using a second diffusion model conditioned on those poses.
-  notes: Training data are MOSEI, AVSPEECH and internet-collected videos (about 275 hours in total). Hand poses use MANO. Additional video metrics include EFID, HKC, HKV and CSIM.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
 
 - id: tutu2025action
   title: 'When Action Speaks Louder than Words: Exploring Non-Verbal and Paraverbal Features in Dyadic Collaborative VR'
@@ -2764,38 +1994,6 @@
   checked: abstract
   verified: false
   area: cognition
-
-- id: voss2025conveying
-  title: 'Conveying Meaning through Gestures: An Investigation into Semantic Co-Speech Gesture Generation'
-  authors: [Hendric Voss, Lisa Michelle Bohnenkamp, Stefan Kopp]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: evaluation
-  arxiv: '2510.17599'
-  links: {paper: 'https://arxiv.org/abs/2510.17599'}
-  input: [text, audio, speaker-id, seed-motion]
-  approach: [vq, gan]
-  realtime: unreported
-  datasets: [saga]
-  user_study: true
-  summary: Compares the AQ-GT gesture generator and its semantically augmented variant AQ-GT-a in a user study of concept recognition and human-likeness.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
-- id: wagner2025cross
-  title: Cross-modal speech-gesture synchronization
-  authors: [Petra Wagner]
-  year: 2025
-  venue: OSF Preprints (OSF Preprints)
-  type: preprint
-  category: theory
-  links: {paper: 'https://osf.io/bty8q'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
 
 - id: wagner2025speech
   title: From co-speech actions to co-speech gestures? Effects of visibility and information structure on cross-modal synchronization
@@ -2912,24 +2110,6 @@
   checked: full-text
   verified: true
 
-- id: wang2025script2screen
-  title: 'Script2Screen: Supporting Dialogue-Centric Scriptwriting with Interactive Audiovisual Generation'
-  authors: [Zhecheng Wang, Jiaju Ma, Eitan Grinspun, Tovi Grossman, Bryan K. Wang]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: system
-  doi: 10.1145/3742413.3789075
-  arxiv: '2504.14776'
-  links: {paper: 'https://arxiv.org/abs/2504.14776'}
-  input: [audio, style, emotion]
-  user_study: true
-  summary: An authoring tool that turns dialogue scripts into animated audiovisual scenes, using emotional speech synthesis and an existing co-speech gesture model (ZeroEGGS) with editable gesture styles.
-  notes: Integrates existing gesture generation rather than proposing a new model. DOI is of a published ACM version whose venue was not checked.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
 - id: wang2025ssgesture
   title: 'SSGesture: Multimodal Gesture Generation Framework for Human Animation Synthesis'
   authors: [Xinyi Wang, Shiguang Liu, Xu Yang]
@@ -2945,40 +2125,6 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
-
-- id: wang2025wbdh
-  title: 'Preview WB-DH: Towards Whole Body Digital Human Bench for the Generation of Whole-body Talking Avatar Videos'
-  authors: [Chaoyi Wang, Yifan Yang, Jun Pei, Lijie Xia, Jianpo Liu, Xiaobing Yuan, Xinhan Di]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: dataset
-  arxiv: '2508.08891'
-  links: {paper: 'https://arxiv.org/abs/2508.08891', code: 'https://github.com/deepreasonings/WholeBodyBenchmark'}
-  input: [audio, text, image]
-  output: [full-body, hands, face]
-  representation: [video-pixels]
-  datasets: [wb-dh]
-  metrics: [fid, fvd, image-quality, other, e-fid, identity-similarity, nr-quality]
-  user_study: false
-  summary: An open benchmark of whole-body talking avatar videos with multi-modal annotations and a 12-metric evaluation framework covering video generation and co-speech quality.
-  notes: 'Other metrics: E-FID, CSIM and general video-quality scores (subject and background consistency, motion smoothness, dynamic degree, aesthetic and imaging quality).'
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
-- id: wilho2025form
-  title: FORM-MEANING MAPPINGS OF CYCLIC GESTURES
-  authors: ['MacNeil, Wilho']
-  year: 2025
-  venue: UNM’s Digital Repository (University of New Mexico)
-  type: journal
-  category: theory
-  links: {paper: 'https://digitalrepository.unm.edu/ling_etds/90'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
 
 - id: wolfer2025speech
   title: Co-speech gesture comprehension in autistic children
@@ -3019,19 +2165,6 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
-
-- id: xuancu2025speech
-  title: Co-speech Deictic Gestures in Infants' Word Learning
-  authors: ['Hong, Xuancu']
-  year: 2025
-  venue: OSF Preprints (OSF Preprints)
-  type: preprint
-  category: theory
-  links: {paper: 'https://osf.io/gqdy5'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: development
 
 - id: xue2025identity
   title: Identity-Preserving Audio-Driven Holistic Human Motion Video Generation
@@ -3100,44 +2233,6 @@
   checked: full-text
   verified: true
 
-- id: yang2025industry
-  title: 'Toward Industry 5.0: Evaluating Multimodal Virtual Human Interaction for Smart Healthcare in Simulated VR Environments'
-  authors: [Han Yang, Qiuyu Tian, Xiaowen Gu]
-  year: 2025
-  venue: Internet Technology Letters
-  type: journal
-  category: system
-  doi: 10.1002/itl2.70190
-  links: {paper: 'https://doi.org/10.1002/itl2.70190'}
-  user_study: true
-  summary: A modular digital-human framework combining RAG, LLMs, speech synthesis, facial animation and gesture generation is evaluated in a VR hospital triage simulation with 45 participants.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
-- id: yang2025infinitetalk
-  title: 'InfiniteTalk: Audio-driven Video Generation for Sparse-Frame Video Dubbing'
-  authors: [Shaoshu Yang, Zining Kong, Feng Gao, Meng Cheng, Xiangyu Liu, Yong Zhang, Zhuoliang Kang, Wenhan Luo, Xunliang Cai, Ran He, Xiaoming Wei]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2508.14033'
-  links: {paper: 'https://arxiv.org/abs/2508.14033', code: 'https://github.com/MeiGen-AI/InfiniteTalk'}
-  input: [audio, video]
-  output: [upper-body, face]
-  representation: [video-pixels]
-  approach: [flow-matching, diffusion]
-  setting: [monologue]
-  realtime: unreported
-  metrics: [fid, fvd, lip-sync, identity-similarity]
-  user_study: true
-  summary: Streaming audio-driven video dubbing that regenerates lip, head and body motion of a source video from new audio, using a flow-matching diffusion transformer with reference keyframes and context frames.
-  notes: Evaluated on HDTF, CelebV-HQ and EMTD; also reports CSIM.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
 - id: ye2025auditory
   title: Effect of auditory cues to lexical stress on the visual perception of gestural timing
   authors: [Chengjia Ye, James M. McQueen, Hans Rutger Bosker]
@@ -3151,29 +2246,6 @@
   checked: abstract
   verified: false
   area: perception
-
-- id: yin2025m3g
-  title: 'M3G: Multi-Granular Gesture Generator for Audio-Driven Full-Body Human Motion Synthesis'
-  authors: [Zhizhuo Yin, Yuk Hang Tsui, Pan Hui]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2505.08293'
-  links: {paper: 'https://arxiv.org/abs/2505.08293'}
-  input: [audio, text]
-  output: [full-body, hands, face]
-  representation: [smpl-x]
-  approach: [vq]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [beat2]
-  metrics: [fgd, beat-align, diversity, joint-error, face-error]
-  user_study: true
-  summary: Tokenizes motion with a multi-granular VQ-VAE covering several temporal granularities and predicts the tokens from audio and text features.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
 
 - id: yin2025pyramotion
   title: 'PyraMotion: Attentional Pyramid-Structured Motion Integration for Co-Speech 3D Gesture Synthesis'
@@ -3222,28 +2294,6 @@
   summary: A VR dialogue-agent architecture for anime avatars with a dual-source animation mechanism for co-speech face and body animation and a textual command module for cross-modal animation.
   added: '2026-10-03'
   checked: abstract
-  verified: false
-
-- id: zabala2025pepper
-  title: 'Exploring multimodal collaborative storytelling with Pepper: a preliminary study with zero-shot LLMs'
-  authors: [Unai Zabala, Juan Echevarria, Igor Rodríguez, Elena Lazkano]
-  year: 2025
-  venue: Frontiers in Robotics and AI
-  type: journal
-  category: system
-  doi: 10.3389/frobt.2025.1662819
-  links: {paper: 'https://doi.org/10.3389/frobt.2025.1662819'}
-  input: [text, audio]
-  output: [upper-body]
-  approach: [hybrid, gan, retrieval]
-  setting: [monologue]
-  realtime: unreported
-  latency: gesture generation latency of 0.33 to 1.81 seconds depending on story segment
-  languages: [en]
-  user_study: true
-  summary: A Pepper robot narrates LLM-generated stories with beat gestures from a GAN driven by speech duration and semantic gestures retrieved from a word-linked database.
-  added: '2026-10-03'
-  checked: full-text
   verified: false
 
 - id: zamrazilova2025multimodal
@@ -3315,31 +2365,6 @@
   checked: full-text
   verified: true
 
-- id: zhang2025semantic
-  title: Semantic Co-Speech Gesture Synthesis and Real-Time Control for Humanoid Robots
-  authors: [Gang Zhang]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: system
-  arxiv: '2512.17183'
-  links: {paper: 'https://arxiv.org/abs/2512.17183'}
-  input: [audio, text]
-  output: [full-body]
-  representation: [joints-3d]
-  approach: [llm, retrieval, autoregressive, vq]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [zeggs]
-  languages: [en]
-  metrics: [joint-error]
-  user_study: false
-  summary: Combines LLM-based generative retrieval and an autoregressive Motion-GPT over residual VQ tokens to produce gestures from speech, retargets them with GMR and tracks them on a Unitree G1 robot with an imitation-learning policy.
-  notes: The paper describes the robot execution as real-time but gives no timing figure.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
 - id: zhang2025semtalk
   title: 'SemTalk: Holistic Co-speech Motion Generation with Frame-level Semantic Emphasis'
   authors: [Xiangyue Zhang, Jianfang Li, Jiaxu Zhang, Ziqiang Dang, Jianqiang Ren, Liefeng Bo, Zhigang Tu]
@@ -3405,24 +2430,6 @@
   checked: abstract
   verified: false
 
-- id: zhao2025echoactor
-  title: 'EchoActor: Audio-Driven Upper Body Speech Video Generation'
-  authors: ['Zhao, Jiantong']
-  year: 2025
-  venue: MBZUAI iRep
-  type: thesis
-  category: method
-  doi: 10.82419/173
-  links: {paper: 'https://doi.org/10.82419/173', code: 'https://github.com/zjt000125/zjt000125.github.io'}
-  input: [audio, image]
-  output: [upper-body, face]
-  representation: [video-pixels]
-  setting: [monologue]
-  summary: Generates upper-body speech videos from a reference image and audio, using a partial key-point sequence from an audio-to-gesture model to control motion and the audio to control facial expression, with an ID-Fusion reference network for the face.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: zhao2025emotion
   title: Emotion-Aware Personalized Co-Speech Motion Generation
   authors: [Jiayi Zhao, Nan Gao, Dongdong Weng, Yihua Bao, Xiaoqiang Liu, Yan Jun Zhou]
@@ -3451,31 +2458,6 @@
   added: '2026-10-03'
   checked: metadata
   verified: false
-
-- id: zhou2025paha
-  title: A Unit Enhancement and Guidance Framework for Audio-Driven Avatar Video Generation
-  authors: [Shouzeng Zhou, 'Wang, Y. B.', 'Wu, J. F.', 'Hu, T.', Jingyu Zhang]
-  year: 2025
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2505.03603'
-  links: {paper: 'https://arxiv.org/abs/2505.03603'}
-  input: [audio, image]
-  output: [upper-body, hands, face]
-  representation: [video-pixels]
-  approach: [diffusion]
-  setting: [monologue]
-  realtime: offline
-  datasets: [pats, cnas]
-  languages: [en, zh]
-  metrics: [fvd, fgd, beat-align, lip-sync, diversity]
-  user_study: true
-  summary: Generates upper-body talking video from speech audio and a reference image with a video diffusion model, using part-weighted training loss and regional audio-visual classifier guidance.
-  notes: Introduces the CNAS Chinese news anchor speech dataset; code and dataset stated as forthcoming.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
 
 - id: zhu2025fmri2ges
   title: 'fMRI2GES: Co-speech Gesture Reconstruction from fMRI Signal with Dual Brain Decoding Alignment'

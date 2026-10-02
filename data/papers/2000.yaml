@@ -253,20 +253,6 @@
   verified: false
   area: social-interaction
 
-- id: guerin2000sales
-  title: Conversational Sales Assistants
-  authors: [Frank Guérin, Kaveh Kamyab, Yasmine Arafa, Ebrahim H. Mamdani]
-  year: 2000
-  venue: CEUR Workshop Proceedings
-  type: workshop
-  category: system
-  links: {paper: 'http://sunsite.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-46/frankkaveh.pdf'}
-  approach: [rule-based]
-  summary: A BDI-based embodied sales agent for a virtual marketplace that plans communicative acts and integrates its speech and gestures through a script language.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: iverson2000relation
   title: The Relation Between Gesture and Speech in Congenitally Blind and Sighted Language-Learners
   authors: [Jana Marie Iverson, Heather L. Tencer, Jill Lany, Susan Goldin‐Meadow]
@@ -551,15 +537,3 @@
   checked: abstract
   verified: false
   area: psycholinguistics
-
-- id: yan2000paired
-  title: Paired speech and gesture generation in embodied conversational agents
-  authors: [Hao Yan]
-  year: 2000
-  venue: MIT
-  type: thesis
-  category: method
-  links: {paper: 'http://hdl.handle.net/1721.1/70733'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false

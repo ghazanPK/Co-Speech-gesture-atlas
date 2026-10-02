@@ -68,19 +68,6 @@
   verified: false
   area: cognition
 
-- id: boutet2016grammatical
-  title: 'Grammatical Aspect and Gesture in French: A kinesiological approach'
-  authors: [Dominique Boutet, Aliyah Morgenstern, Alan J. Cienki]
-  year: 2016
-  venue: HAL (Le Centre pour la Communication Scientifique Directe)
-  type: journal
-  category: theory
-  links: {paper: 'https://shs.hal.science/halshs-01423967'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: bozkurt2016prosody
   title: Multimodal analysis of speech and arm motion for prosody-driven synthesis of beat gestures
   authors: [Elif Bozkurt, Y. Yemez, Engin Erzin]
@@ -122,19 +109,6 @@
   verified: false
   area: education
 
-- id: cheung2016investigation
-  title: Investigation on whether co-verbal gesture use can facilitate lexical retrieval in connected speech in normal speakers and speakers with aphasia
-  authors: [Ka-yan Cheung, 張嘉欣]
-  year: 2016
-  venue: Unknown venue
-  type: thesis
-  category: theory
-  links: {paper: 'https://hub.hku.hk/handle/10722/272653'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: clinical
-
 - id: christy2016relation
   title: The relation of gesture to thought and language
   authors: [T. Craig Christy]
@@ -158,19 +132,6 @@
   category: theory
   doi: 10.1515/cog-2016-0063
   links: {paper: 'https://doi.org/10.1515/cog-2016-0063'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
-- id: cienki2016linguistic
-  title: Linguistic aspect and tense and gestural movement quality in French, German, and Russian utterances
-  authors: [Alan J. Cienki, Aliyah Morgenstern, F. Max Müller, Dominique Boutet]
-  year: 2016
-  venue: HAL (Le Centre pour la Communication Scientifique Directe)
-  type: journal
-  category: theory
-  links: {paper: 'https://hal.science/hal-02342910'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -245,19 +206,6 @@
   checked: metadata
   verified: false
   area: linguistics
-
-- id: dick2016human
-  title: r Human Brain Mapping 35:900–917 (2014) r Frontal and Temporal Contributions to Understanding the Iconic Co-Speech Gestures That Accompany Speech
-  authors: [Anthony Steven Dick, Eva H. Mok, Anjali Raja Beharelle, Susan Goldin‐Meadow, Steven L. Small]
-  year: 2016
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.706.6690'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: neuroscience
 
 - id: dimitrova2016beat
   title: 'Beat that Word: How Listeners Integrate Beat Gesture and Focus in Multimodal Speech Discourse'
@@ -353,19 +301,6 @@
   checked: abstract
   verified: false
   area: linguistics
-
-- id: geenen2016speech
-  title: Co-speech gesture in spontaneous and planned speech. Congruence between production fluency and structural integrity
-  authors: [Jarret Geenen, A. Koops]
-  year: 2016
-  venue: Radboud Repository (Radboud University)
-  type: journal
-  category: theory
-  links: {paper: 'http://hdl.handle.net/2066/162516'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: psycholinguistics
 
 - id: gluhareva2016training
   title: Training with rhythmic beat gestures benefits L2 pronunciation in discourse-demanding situations
@@ -737,19 +672,6 @@
   verified: false
   area: linguistics
 
-- id: koops2016structural
-  title: Structural Congruity in Co-Speech Gesture
-  authors: [A. Koops]
-  year: 2016
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://theses.ubn.ru.nl/handle/123456789/2426'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: linguistics
-
 - id: koppensteiner2016moving
   title: 'Moving speeches: Dominance, trustworthiness and competence in body motion'
   authors: [Markus Koppensteiner, Pia Stephan, Johannes Paul Michael Jäschke]
@@ -1028,19 +950,6 @@
   verified: false
   area: linguistics
 
-- id: ortega2016factors
-  title: 'Factors modulating mode of representation: Evidence from sign, pantomime and co-speech gestures in hearing adults and speakers with aphasia'
-  authors: [Gerardo Ortega]
-  year: 2016
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://pure.mpg.de/pubman/faces/ViewItemOverviewPage.jsp?itemId=item_2352843'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: clinical
-
 - id: ozcalskan2016learning
   title: Learning to think, talk, and gesture about motion in language-specific ways
   authors: [Şeyda Özçalışkan, Samantha N. Emerson]
@@ -1095,20 +1004,6 @@
   checked: abstract
   verified: false
   area: cognition
-
-- id: preisig2016aphasia
-  title: 'Aphasia and dialogue: What eye movements reveal about the processing of cospeech gestures and the prediction of turn transitions'
-  authors: [Basil Christoph Preisig]
-  year: 2016
-  venue: BORIS (University Library Bern)
-  type: thesis
-  category: theory
-  doi: 10.7892/boris.85149
-  links: {paper: 'https://doi.org/10.7892/boris.85149'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: clinical
 
 - id: redcay2016perceived
   title: Perceived communicative intent in gesture and language modulates the superior temporal sulcus
@@ -1275,21 +1170,6 @@
   verified: false
   area: education
 
-- id: tay2016autonomous
-  title: Autonomous animation of humanoid robots
-  authors: [Junyun Tay]
-  year: 2016
-  venue: PhD thesis
-  type: thesis
-  category: method
-  doi: 10.32657/10356/69279
-  links: {paper: 'https://doi.org/10.32657/10356/69279', open: 'https://figshare.com/articles/thesis/Autonomous_Animation_of_Humanoid_Robots/6714932'}
-  summary: Animates a NAO humanoid robot from a speech or music signal by labelling parameterized motions with meanings, selecting and synchronizing motion sequences, and checking their stability.
-  notes: Thesis covers both music-driven dance and speech-driven gesture; the abstract does not state the speech input is audio or text.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: tolins2016personality
   title: A Multimodal Motion-Captured Corpus of Matched and Mismatched Extravert-Introvert Conversational Pairs
   authors: [Jackson Tolins, Kris Liu, Yingying Wang, Jean E. Fox Tree, Marilyn A. Walker, Michael Neff]
@@ -1405,18 +1285,5 @@
   links: {paper: 'https://doi.org/10.1016/j.pragma.2016.05.004'}
   added: '2026-10-03'
   checked: metadata
-  verified: false
-  area: linguistics
-
-- id: wilson2016speech
-  title: What co-speech gestures do:investigating the communicative role ofvisual behaviour accompanyinglanguage use during reference ininteraction
-  authors: [Jack Wilson]
-  year: 2016
-  venue: Unknown venue
-  type: thesis
-  category: theory
-  links: {paper: 'https://etheses.whiterose.ac.uk/17319/'}
-  added: '2026-10-03'
-  checked: abstract
   verified: false
   area: linguistics

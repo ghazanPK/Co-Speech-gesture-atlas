@@ -303,19 +303,6 @@
   verified: false
   area: neuroscience
 
-- id: enfield2009anatomy
-  title: 'The anatomy of meaning: Speech, gesture, and composite utterances'
-  authors: [N. J. Enfield]
-  year: 2009
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://bvbr.bib-bvb.de:8991/F?func=service&amp;doc_library=BVB01&amp;local_base=BVB01&amp;doc_number=017320218&amp;sequence=000002&amp;line_number=0001&amp;func_code=DB_RECORDS&amp;service_type=MEDIA'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: enfield2009composite
   title: Composite utterances
   authors: [N. J. Enfield]
@@ -889,20 +876,6 @@
   verified: false
   area: education
 
-- id: robbel2009emotional
-  title: An integrated approach to emotional speech and gesture synthesis in humanoid robots
-  authors: [Philipp Robbel, Mohammed Ehsan Hoque, Cynthia Breazeal]
-  year: 2009
-  venue: unknown
-  type: conference
-  category: system
-  doi: 10.1145/1655260.1655266
-  links: {paper: 'https://doi.org/10.1145/1655260.1655266'}
-  summary: A humanoid robot detects affect in the user's speech and responds with emotionally chosen speech, gestures and facial expressions.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: rowe2009differences
   title: Differences in Early Gesture Explain SES Disparities in Child Vocabulary Size at School Entry
   authors: [Meredith L. Rowe, Susan Goldin‐Meadow]
@@ -1000,19 +973,6 @@
   verified: false
   area: linguistics
 
-- id: stefanini2009spoken
-  title: 'Spoken and gestural lexicon in a naming task: developmental data.'
-  authors: [Silvia Stefanini, Abdulrahman Mohammed Bello, Jana Marie Iverson, María Cristina Caselli, Virginia Volterra]
-  year: 2009
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://dissem.in/p/82048723/spoken-and-gestural-lexicon-in-a-naming-task-developmental-data'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: development
-
 - id: straube2009social
   title: Social cues, mentalizing and the neural processing of speech accompanied by gestures
   authors: [Benjamin Straube, Antonia Green, Andreas Jansen, Anjan Kumar Chatterjee, Tilo T. J. Kircher]
@@ -1082,20 +1042,6 @@
   checked: metadata
   verified: false
   area: development
-
-- id: visser2009function
-  title: The Function of Gesture in an Architectural Design Meeting
-  authors: [Willemien Visser]
-  year: 2009
-  venue: arXiv
-  type: preprint
-  category: theory
-  arxiv: '0908.3362'
-  links: {paper: 'https://arxiv.org/abs/0908.3362'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
 
 - id: wartenburger2009relationship
   title: On the relationship between fluid intelligence, gesture production, and brain structure

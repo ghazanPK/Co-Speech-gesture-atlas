@@ -2,19 +2,6 @@
 # The README tables are generated from these files. Field rules: docs/SCHEMA.md
 # (enforced by schema/schema.json and scripts/validate.py).
 
-- id: alahverdzhieva2012multimodal
-  title: Multimodal Grammar Implementation
-  authors: [Katya Alahverdzhieva, Dan Flickinger, Alex Lascarides]
-  year: 2012
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.374.2662'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: alamillo2012gesture
   title: 'Gesture and language in narratives and explanations: the effects of age and communicative activity on late multimodal discourse development'
   authors: [Asela Reig Alamillo, Jean-Marc Colletta, Michèle Guidetti]
@@ -242,36 +229,6 @@
   verified: false
   area: linguistics
 
-- id: chidambaram2012persuasive
-  title: 'Designing persuasive robots: How robots might persuade people using vocal and nonverbal cues'
-  authors: [Chidambaram, Chiang, Mutlu]
-  year: 2012
-  venue: unknown
-  type: conference
-  category: system
-  links: {paper: 'http://yadda.icm.edu.pl/yadda/element/bwmeta1.element.ieee-000006249570'}
-  user_study: true
-  summary: Evaluates how a humanlike robot's vocal and bodily nonverbal cues affect its persuasiveness and participants' compliance in a 32-participant experiment.
-  notes: Venue not determined; only the abstract was available.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
-- id: chidambaram2012persuasiveb
-  title: Designing persuasive robots
-  authors: [Vijay Chidambaram, Yueh-Hsuan Chiang, Bilge Mutlu]
-  year: 2012
-  venue: HRI
-  type: conference
-  category: system
-  doi: 10.1145/2157689.2157798
-  links: {paper: 'https://doi.org/10.1145/2157689.2157798'}
-  user_study: true
-  summary: Examines how a humanlike robot's vocal and bodily nonverbal cues affect persuasiveness and compliance in a 32-participant experiment.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: chui2012cross
   title: Cross-linguistic comparison of representations of motion in language and gesture
   authors: [Kawai Chui]
@@ -299,21 +256,6 @@
   checked: abstract
   verified: false
   area: linguistics
-
-- id: csapo2012multimodal
-  title: Multimodal conversational interaction with a humanoid robot
-  authors: [Ádám Csapó, Emer Gilmartin, Jonathan Grizou, Jingguang Han, Raveesh Meena, Dimitra Anastasiou, Kristiina Jokinen, Graham Wilcock]
-  year: 2012
-  venue: CogInfoCom
-  type: conference
-  category: system
-  doi: 10.1109/coginfocom.2012.6421935
-  links: {paper: 'https://doi.org/10.1109/coginfocom.2012.6421935'}
-  user_study: true
-  summary: A multimodal conversational system for the Nao robot that runs the WikiTalk open-domain spoken dialogue system together with face-tracking, nodding and communicative gesturing.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: debras2012uses
   title: Some Uses of Head Tilts and Shoulder Shrugs during Human Interaction, and Their Relation to Stancetaking
@@ -384,19 +326,6 @@
   verified: false
   area: linguistics
 
-- id: ferre2012criteres
-  title: Crit`eres de segmentation de la gestualit'e co-verbale (Segmentation criteria for the annotation of co-speech gestures) [in French]
-  authors: [Gaëlle Ferré]
-  year: 2012
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://www.aclweb.org/anthology/W12-1202/'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: linguistics
-
 - id: ferre2012functions
   title: Functions of three open-palm hand gestures
   authors: [Gaëlle Ferré]
@@ -424,19 +353,6 @@
   checked: abstract
   verified: false
   area: linguistics
-
-- id: gerholm2012gestures
-  title: Gestures and gestures in child language development
-  authors: [Tove Nilsson Gerholm]
-  year: 2012
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://www.diva-portal.org/smash/record.jsf?pid=diva2:687015'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: development
 
 - id: goldinmeadow2012doing
   title: Doing gesture promotes learning a mental transformation task better than seeing gesture
@@ -479,19 +395,6 @@
   checked: abstract
   verified: false
   area: cognition
-
-- id: gu2012chinese
-  title: Chinese hands of time. The effects of language and culture on temporal gestures and spatio-temporal reasoning
-  authors: [Yan Gu]
-  year: 2012
-  venue: Data Archiving and Networked Services (DANS)
-  type: thesis
-  category: theory
-  links: {paper: 'https://research.tilburguniversity.edu/en/publications/9cddcc1b-26d1-48a2-a8f2-3d211cf9eb09'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
 
 - id: guen2012metaphorical
   title: No Metaphorical Timeline in Gesture and Cognition Among Yucatec Mayas
@@ -642,19 +545,6 @@
   verified: false
   area: cognition
 
-- id: jelec2012investigating
-  title: Investigating the dual function of gesture in blind and visually impaired children. (Poster)
-  authors: [Anna Jelec, Zuzanna Fleischer, Dorota Jaworska]
-  year: 2012
-  venue: CogPrints (University of Southampton)
-  type: preprint
-  category: theory
-  links: {paper: 'http://cogprints.org/8979/1/jelec_ISGS5poster.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: development
-
 - id: jesse2012prosodic
   title: Prosodic temporal alignment of co-speech gestures to speech facilitates referent resolution.
   authors: [Alexandra Jesse, Elizabeth K. Johnson]
@@ -698,19 +588,6 @@
   links: {paper: 'https://doi.org/10.1371/journal.pone.0046108'}
   added: '2026-10-03'
   checked: abstract
-  verified: false
-  area: neuroscience
-
-- id: joue2012monomodal
-  title: 'Monomodal metaphors in speech and co-verbal gestures: an fMRI study'
-  authors: [Gina Joue, Irene Mittelberg, Vito Evola, Linda Boven, Klaus Willmes, Frank W. Schneider, Ute Habel]
-  year: 2012
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://novaresearch.unl.pt/en/publications/monomodal-metaphors-in-speech-and-co-verbal-gestures-an-fmri-stud'}
-  added: '2026-10-03'
-  checked: metadata
   verified: false
   area: neuroscience
 
@@ -830,19 +707,6 @@
   checked: metadata
   verified: false
 
-- id: kruijffkorbayova2012spoken
-  title: Spoken Language Processing in a Conversational System for Child-Robot Interaction
-  authors: [Ivana Kruijff‐Korbayová, Heriberto Cuayáhuitl, Bernd Kiefer, Marc L. Schröder, Piero Cosi, Giulio Paci, Giacomo Sommavilla, Fabio Tesser, Hichem Sahli, Γεώργιος Αθανασόπουλος, Weiyi Wang, Valentin Enescu, Werner Verhelst]
-  year: 2012
-  venue: WOCCI
-  type: workshop
-  category: system
-  links: {paper: 'https://researchportal.vub.be/en/publications/spoken-language-processing-in-a-conversational-system-for-child-r'}
-  summary: An event-based conversational system for child-robot interaction on the Nao robot that integrates speech and gesture recognition and generation, dialogue management and user modeling.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: kuhlen2012gesturing
   title: 'Gesturing integrates top-down and bottom-up information: Joint effects of speakers'' expectations and addressees'' feedback'
   authors: [Anna K. Kuhlen, Alexia Galati, Susan E. Brennano]
@@ -870,18 +734,6 @@
   checked: abstract
   verified: false
   area: clinical
-
-- id: le2012common
-  title: A Common Gesture and Speech Production Framework for Virtual and Physical Agents
-  authors: [Quôc Anh Lê, Jing Huang, C. Pelachaud]
-  year: 2012
-  venue: HAL
-  type: conference
-  category: system
-  links: {paper: 'https://hal.science/hal-00832583'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
 
 - id: le2012generating
   title: Generating Co-speech Gestures for the Humanoid Robot NAO through BML
@@ -980,20 +832,6 @@
   verified: false
   area: education
 
-- id: marsella2012modeling
-  title: Modeling nonverbal behaviors for virtual agents
-  authors: [Stacy Marsella, Jina Lee]
-  year: 2012
-  venue: Thesis
-  type: thesis
-  category: method
-  links: {paper: 'http://dl.acm.org/citation.cfm?id=2518573'}
-  approach: [rule-based]
-  summary: Derives models that generate virtual agent nonverbal behaviour such as head nods, eyebrow movements and arm gestures, using literature-based rules and probabilistic models learned from speaker behaviour.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: marshall2012gesture
   title: 'Gesture and Naming Therapy for People With Severe Aphasia: A Group Study'
   authors: [Jane Marshall, Wendy Best, Naomi Cocks, Madeline N. Cruice, Tim Pring, Gemma Bulcock, Gemma Creek, Nancy Eales, Alice Lockhart Mummery, Niina Matthews, Anna Caute]
@@ -1021,19 +859,6 @@
   checked: abstract
   verified: false
   area: social-interaction
-
-- id: mcneill2012language
-  title: 'How Language Began: Gesture and Speech in Human Evolution'
-  authors: [David M. McNeill]
-  year: 2012
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://bvbr.bib-bvb.de:443/F?func=service&doc_library=BVB01&local_base=BVB01&doc_number=024978243&sequence=000002&line_number=0001&func_code=DB_RECORDS&service_type=MEDIA'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
 
 - id: mcneill2012languageb
   title: How Language Began
@@ -1135,22 +960,6 @@
   checked: abstract
   verified: false
   area: development
-
-- id: nowinakrowicki2012engage
-  title: 'ENGAGE: Automated Gestures for Animated Characters'
-  authors: [Marcin Nowina-Krowicki, Andrew Zschorn, Michael Pilling, Steven Wark]
-  year: 2012
-  venue: unknown
-  type: conference
-  category: system
-  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.221.9064'}
-  input: [text]
-  approach: [rule-based]
-  summary: ENGAGE generates animation for embodied conversational agents from surface text using syntactic analysis and predefined behaviour models.
-  notes: Venue not determined; only the abstract was available.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: nunez2012facing
   title: 'Facing the Sunrise: Cultural Worldview Underlying Intrinsic‐Based Encoding of Absolute Frames of Reference in Aymara'
@@ -1278,45 +1087,6 @@
   verified: false
   area: neuroscience
 
-- id: rosario2012acquisition
-  title: 'Acquisition of gestures in prelinguistic communication: a theoretical approach Aquisição dos gestos na comunicação pré-linguística: uma abordagem teórica'
-  authors: [Etelvina do Rosário, Silva Lima, Anabela Cruz‐Santos]
-  year: 2012
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://scielo.br/pdf/rsbf/v17n4/en_22.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: development
-
-- id: rowbotham2012investigating
-  title: Investigating the association between pain catastrophising and co-speech gesture production during pain communication
-  authors: [Samantha J. Rowbotham, Alison J. Wearden, Judith Holler, Donna M. Lloyd]
-  year: 2012
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://pubman.mpdl.mpg.de/pubman/item/escidoc:1837464'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: clinical
-
-- id: rowbotham2012semantic
-  title: The semantic interplay of speech and co-speech gestures in the description of pain sensations
-  authors: [Samantha J. Rowbotham, Judith Holler, Alison J. Wearden, Donna M. Lloyd]
-  year: 2012
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://pure.mpg.de/pubman/faces/ViewItemOverviewPage.jsp?itemId=item_1837472'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: linguistics
-
 - id: rowe2012pictures
   title: The role of pictures and gestures as nonverbal aids in preschoolers’ word learning in a novel language
   authors: [Meredith L. Rowe, Rebecca D. Silverman, Bridget E. Mullan]
@@ -1385,19 +1155,6 @@
   checked: abstract
   verified: false
   area: psycholinguistics
-
-- id: smyrnaiou2012interactive
-  title: Interactive Movement and Talk in Generating Meanings from Science
-  authors: [Zacharoula Smyrnaiou, Chronis Kynigos]
-  year: 2012
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://www.ieeetclt.org/issues/october2012/Smyrnaiou.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: education
 
 - id: stec2012meaningful
   title: Meaningful shifts
@@ -1498,19 +1255,6 @@
   checked: abstract
   verified: false
 
-- id: theakston2012speech
-  title: The effect of co-speech gesture on children's comprehension and production of complex syntactic constructions
-  authors: [Anna Theakston, Judith Holler]
-  year: 2012
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://pubman.mpdl.mpg.de/pubman/item/escidoc:1837470'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: development
-
 - id: tsukamoto2012collection
   title: 'Collection and Analysis of Multimodal Interaction in Direction-Giving Dialogues: Towards an Automatic Gesture Selection Mechanism for Metaverse Avatars'
   authors: [Takeo Tsukamoto, Yumi Muroya, Masashi Okamoto, Yukiko Nakano]
@@ -1523,36 +1267,6 @@
   added: '2026-10-03'
   checked: metadata
   verified: false
-
-- id: vonbergmann2012gnetic
-  title: 'The Production of Co-Speech Iconic Gestures: Empirical Study and Computational Simulation with Virtual Agents'
-  authors: [Kirsten von Bergmann]
-  year: 2012
-  venue: Bielefeld University
-  type: thesis
-  category: method
-  links: {paper: 'https://pub.uni-bielefeld.de/record/2460005'}
-  approach: [hybrid]
-  user_study: true
-  summary: Develops GNetIc, a network model combining data-driven learning and rule-based decisions to generate speaker-specific iconic gestures for a virtual agent's speech.
-  notes: Only the abstract was available; the thesis page returned access denied.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
-- id: wodarczak2012listener
-  title: Listener head gestures and verbal feedback expressions in a distraction task
-  authors: [Marcin Włodarczak, Hendrik Buschmeier, Zofia Malisz, Stefan Kopp, Petra Wagner]
-  year: 2012
-  venue: PUB – Publications at Bielefeld University (Bielefeld University)
-  type: journal
-  category: theory
-  doi: 10.5281/zenodo.3234894
-  links: {paper: 'https://doi.org/10.5281/zenodo.3234894'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
 
 - id: yang2012emotional
   title: Multimodal emotion estimation and emotional synthesize for interaction virtual agent

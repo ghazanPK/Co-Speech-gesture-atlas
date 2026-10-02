@@ -214,19 +214,6 @@
   verified: false
   area: linguistics
 
-- id: casasanto2008conceptual
-  title: Conceptual affiliates of metaphorical gestures
-  authors: [Daniel J. Casasanto]
-  year: 2008
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.724.5259'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: casey2008speech
   title: Co-speech gesture in bimodal bilinguals
   authors: [Shannon Casey, Karen D. Emmorey]
@@ -240,19 +227,6 @@
   checked: abstract
   verified: false
   area: linguistics
-
-- id: chambers2008influence
-  title: The Influence of Kinetographic Gestures on Real-Time Referential Interpretation
-  authors: [Craig G. Chambers]
-  year: 2008
-  venue: SSRN Electronic Journal
-  type: preprint
-  category: theory
-  links: {paper: 'https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=1304445'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: perception
 
 - id: choi2008representation
   title: 'REPRESENTATION AND EMBODIMENT OF MEANING IN L2 COMMUNICATION: Motion Events in the Speech and Gesture of Advanced L2 Korean and L2 English Speakers'
@@ -323,32 +297,6 @@
   checked: abstract
   verified: false
   area: clinical
-
-- id: coulson2008constructing
-  title: 'Constructing Meaning in Discourse: ERP Studies of Iconic Co-Speech Gesture Comprehension'
-  authors: [Seana Coulson]
-  year: 2008
-  venue: SSRN Electronic Journal
-  type: preprint
-  category: theory
-  links: {paper: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1293763'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: neuroscience
-
-- id: cuffari2008like
-  title: 'Towards a Like-Minded Ontology: Gesture and the Embodied Nature of Thought in David Mcneill and Maurice Merleau-Ponty'
-  authors: [Elena Clare Cuffari]
-  year: 2008
-  venue: SSRN Electronic Journal
-  type: preprint
-  category: theory
-  links: {paper: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1292367'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: cognition
 
 - id: cutica2008deep
   title: 'The Deep Versus the Shallow: Effects of Co‐Speech Gestures in Learning From Discourse'
@@ -778,19 +726,6 @@
   verified: false
   area: development
 
-- id: narayanan2008multimodal
-  title: 'Multimodal analysis of expressive human communication: speech and gesture interplay'
-  authors: [Shrikanth Shri Narayanan, Carlos Busso]
-  year: 2008
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://dl.acm.org/citation.cfm?id=1559138'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: neff2008gesture
   title: Gesture modeling and animation based on a probabilistic re-creation of speaker style
   authors: [Michael Neff, Michael Kipp, Irene Albrecht, Hans-Peter Seidel]
@@ -1173,19 +1108,6 @@
   verified: false
   area: linguistics
 
-- id: taleghaninikazm2008gestures
-  title: 'Gestures in Foreign LanguageClassrooms: An Empirical Analysis of Their Organization and Function'
-  authors: [Carmen Taleghani‐Nikazm]
-  year: 2008
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://www.researchgate.net/profile/Carmen_Taleghani-Nikazm/publication/252826698_Gestures_in_Foreign_Language_Classrooms_An_Empirical_Analysis_of_Their_Organization_and_Function/links/55b6580908ae092e9655d96e.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: education
-
 - id: tellier2008gestures
   title: The effect of gestures on second language memorisation by young children
   authors: [Marion Tellier]
@@ -1243,19 +1165,6 @@
   checked: abstract
   verified: false
   area: perception
-
-- id: vendrame2008speech
-  title: 'Co-speech gestures and discourse comprehension: a useful support for oral deaf people?'
-  authors: [Mara Vendrame, Ilaria Cutica, Monica Bucciarelli]
-  year: 2008
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://iris.unito.it/handle/2318/62987'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: clinical
 
 - id: wachsmuth2008embodied
   title: Embodied Communication in Humans and Machines

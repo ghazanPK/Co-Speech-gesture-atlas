@@ -75,52 +75,6 @@
   verified: false
   area: clinical
 
-- id: bellifemine2019children
-  title: How children with developmental language disorder use co-speech gestures to communicate
-  authors: [Corrado Bellifemine]
-  year: 2019
-  venue: HAL (Le Centre pour la Communication Scientifique Directe)
-  type: journal
-  category: theory
-  links: {paper: 'https://hal.science/hal-03834362'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: clinical
-
-- id: biancardi2019selfpresentational
-  title: Managing an Agent's Self-Presentational Strategies During an Interaction
-  authors: [Béatrice Biancardi, Maurizio Mancini, Paul J. Lerner, Catherine Pélachaud]
-  year: 2019
-  venue: Frontiers in Robotics and AI
-  type: journal
-  category: system
-  doi: 10.3389/frobt.2019.00093
-  links: {paper: 'https://doi.org/10.3389/frobt.2019.00093'}
-  approach: [hybrid]
-  setting: [dyadic]
-  realtime: unreported
-  languages: [fr]
-  user_study: true
-  summary: An embodied conversational agent chooses among four self-presentational strategies, expressed through gestures, arm postures and other nonverbal behaviour, with a reinforcement learning algorithm that maximises the user's engagement.
-  notes: Behaviours are chosen from rules based on the authors' earlier annotation studies of the NoXi corpus; the learning part selects the strategy. Built on the Greta platform; evaluated with 75 museum visitors. Engagement is processed at 10 Hz, which is not a generation latency figure.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
-- id: bonilla2019multimodal
-  title: Multimodal perception of acoustic prominence in Spanish
-  authors: [Miguel Jiménez-Bravo Bonilla]
-  year: 2019
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://e-spacio.uned.es/fez/eserv/tesisuned:ED-Pg-Filologia-Mjimenez/JIMENEZ_BRAVO_BONILLA__Miguel_Tesis.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: borrascomes2019epistemic
   title: 'Epistemic intonation and epistemic gesture are mutually co-expressive: Empirical results from two intonation-gesture matching tasks'
   authors: [Joan Borràs-Comes, Evangelia Kiagia, Pilar Prieto]
@@ -148,20 +102,6 @@
   checked: abstract
   verified: false
   area: development
-
-- id: carrion2019time
-  title: Time gestures
-  authors: [Daniel Alcaraz Carrión]
-  year: 2019
-  venue: Lancaster EPrints (Lancaster University)
-  type: thesis
-  category: theory
-  doi: 10.17635/lancaster/thesis/567
-  links: {paper: 'https://doi.org/10.17635/lancaster/thesis/567'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: cognition
 
 - id: carstens2019advice
   title: 'Advice on the use of gestures in presentation skills manuals: alignment between theory, research and instruction'
@@ -204,23 +144,6 @@
   checked: abstract
   verified: false
   area: linguistics
-
-- id: clavel2019socioemotional
-  title: Generating Socio‐emotional Behaviors
-  authors: [Chloé Clavel]
-  year: 2019
-  venue: Wiley book chapter
-  type: thesis
-  category: method
-  doi: 10.1002/9781119649403.ch5
-  links: {paper: 'https://doi.org/10.1002/9781119649403.ch5'}
-  input: [text, audio]
-  approach: [rule-based]
-  summary: Chapter on generating prosody and co-verbal gestures for an embodied conversational agent from verbal and prosodic content, building on corpus analysis.
-  notes: Book chapter; abstract states the co-verbal gesture model was evaluated only qualitatively.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: coulson2019working
   title: Working Memory and Co-Speech Iconic Gestures.
@@ -646,20 +569,6 @@
   verified: false
   area: cognition
 
-- id: ikeuchi2019labanotation
-  title: Design of conversational humanoid robot based on hardware independent gesture generation
-  authors: [Katsushi Ikeuchi, David Baumert, Shunsuke Kudoh, Masaru Takizawa]
-  year: 2019
-  venue: arXiv
-  type: preprint
-  category: system
-  arxiv: '1905.08702'
-  links: {paper: 'https://arxiv.org/abs/1905.08702'}
-  summary: An integrated conversational humanoid robot system that produces gestures alongside spoken sentences using labanotation symbols so the same gestures transfer across robots.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: inbar2019covert
   title: 'Covert negation in Israeli Hebrew: Evidence from co-speech gestures'
   authors: [Anna Inbar, Leon Shor]
@@ -961,20 +870,6 @@
   verified: false
   area: clinical
 
-- id: mcneelywhite2019diana
-  title: User-Aware Shared Perception for Embodied Agents
-  authors: [David G. McNeely-White, Jaime Ruiz, Isaac Wang, Francisco Raul Ortega, J. Ross Beveridge, Bruce A. Draper, Rahul Bangar, Dhruva Patil, James D. Pustejovsky, Nikhil Krishnaswamy, Kyeongmin Rim]
-  year: 2019
-  venue: HCC
-  type: conference
-  category: system
-  doi: 10.1109/hcc46620.2019.00015
-  links: {paper: 'https://doi.org/10.1109/hcc46620.2019.00015'}
-  summary: Presents Diana, an embodied agent that perceives the user's gestures, gaze and words through video and depth sensors and responds with speech, gesture and emotive behaviour in a shared 3D virtual world.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: miranda2019spatial
   title: 'Spatial deixis in Brazilian Portuguese: an experimental pilot-study'
   authors: [Maíra Avelar Miranda]
@@ -1212,34 +1107,6 @@
   checked: metadata
   verified: false
 
-- id: pouw2019acoustic
-  title: 'Acoustic specification of upper limb movement in voicing: Exploratory data report and pre-registration'
-  authors: [Wim T. J. L. Pouw, Alexandra Paxton, Steven A. Harrison, James A. Dixon]
-  year: 2019
-  venue: Unknown venue
-  type: preprint
-  category: theory
-  doi: 10.31234/osf.io/5rcdu
-  links: {paper: 'https://doi.org/10.31234/osf.io/5rcdu'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
-- id: pouw2019energy
-  title: 'Energy flows in gesture-speech physics: Exploratory findings and pre-registration of confirmatory analysis'
-  authors: [Wim T. J. L. Pouw, Steven A. Harrison, Núria Esteve‐Gibert, James A. Dixon]
-  year: 2019
-  venue: Unknown venue
-  type: journal
-  category: theory
-  doi: 10.31234/osf.io/c7456
-  links: {paper: 'https://doi.org/10.31234/osf.io/c7456'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: pouw2019energyb
   title: 'Energy flows in gesture-speech physics: The respiratory-vocal system and its coupling with hand gestures'
   authors: [Wim T. J. L. Pouw, Steven J. Harrison, Núria Esteve‐Gibert, James A. Dixon]
@@ -1267,34 +1134,6 @@
   checked: abstract
   verified: false
   area: other
-
-- id: pouw2019materials
-  title: Materials Tutorial Gespin2019 - Using video-based motion tracking to quantify speech-gesture synchrony
-  authors: [Wim T. J. L. Pouw, James P. Trujillo]
-  year: 2019
-  venue: Unknown venue
-  type: preprint
-  category: theory
-  doi: 10.17605/osf.io/rxb8j
-  links: {paper: 'https://doi.org/10.17605/osf.io/rxb8j'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: psycholinguistics
-
-- id: pouw2019social
-  title: 'Social Resonance: Acoustic Information about Upper Limb Movement in Voicing'
-  authors: [W. Pouw, Alexandra Paxton, Steven J. Harrison, J. Dixon]
-  year: 2019
-  venue: Unknown venue
-  type: journal
-  category: theory
-  doi: 10.31234/osf.io/ny39e
-  links: {paper: 'https://doi.org/10.31234/osf.io/ny39e'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
 
 - id: rajeg2019linguistic
   title: Linguistic and co-speech gestural patterns of spatiotemporal metaphors in Indonesian
@@ -1631,19 +1470,6 @@
   added: '2026-10-03'
   checked: full-text
   verified: false
-
-- id: zlogar2019experimental
-  title: An Experimental Pragmatic Investigation of Depictive Co-Speech Gestures
-  authors: [Christina Zlogar]
-  year: 2019
-  venue: Digital Access to Scholarship at Harvard (DASH) (Harvard University)
-  type: thesis
-  category: theory
-  links: {paper: 'http://nrs.harvard.edu/urn-3:HUL.InstRepos:42013043'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
 
 - id: zvaigzne2019language
   title: How does language proficiency affect children’s iconic gesture use?

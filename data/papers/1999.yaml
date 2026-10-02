@@ -380,20 +380,6 @@
   verified: false
   area: development
 
-- id: rickel1999steve
-  title: 'Animated agents for procedural training in virtual reality: Perception, cognition, and motor control'
-  authors: [Jeff Rickel, W. Lewis Johnson]
-  year: 1999
-  venue: Applied Artificial Intelligence
-  type: journal
-  category: system
-  doi: 10.1080/088395199117315
-  links: {paper: 'https://doi.org/10.1080/088395199117315'}
-  summary: Describes the architecture of Steve, an animated agent whose motor control module drives voice, locomotion, gaze and gestures while teaching procedural tasks in a virtual world.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: thompson1999limits
   title: Some Limits on Encoding Visible Speech and Gestures Using a Dichotic Shadowing Task
   authors: [Laura A. Thompson, F. A. Guzman]

@@ -149,19 +149,6 @@
   checked: full-text
   verified: true
 
-- id: bianchini2021fonts
-  title: 'No fonts: no advantage for transcriptions and comparisons'
-  authors: [Claudia S. Bianchini, Claire Danet, Léa Chèvrefils, Fanny Catteau, Chloé Thomas, Morgane Rébulard, Adrien Contesse, Patrick Doan]
-  year: 2021
-  venue: HAL (Le Centre pour la Communication Scientifique Directe)
-  type: preprint
-  category: theory
-  links: {paper: 'https://hal.archives-ouvertes.fr/hal-02394497'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: other
-
 - id: bossche2021judgmental
   title: Judgmental perception of co-speech gestures in MDD
   authors: [Cathy Van den Bossche, Dhana Wolf, Linn-Marlen Rekittke, Irene Mittelberg, Klaus Mathiak]
@@ -175,21 +162,6 @@
   checked: abstract
   verified: false
   area: perception
-
-- id: boustani2021digital
-  title: 'Development, Feasibility, Acceptability, and Utility of an Expressive Speech-Enabled Digital Health Agent to Deliver Online, Brief Motivational Interviewing for Alcohol Misuse: Descriptive Study'
-  authors: [Maya M. Boustani, Stephanie Jill Lunn, Ubbo Visser, Christine Lisetti]
-  year: 2021
-  venue: JMIR
-  type: journal
-  category: system
-  doi: 10.2196/25837
-  links: {paper: 'https://doi.org/10.2196/25837'}
-  user_study: true
-  summary: A speech-enabled 3D digital health agent whose facial expressions and body gestures follow rule-based interaction states (neutral, explaining, asking, listening) delivers a brief alcohol intervention online, evaluated with 51 alcohol users.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
 
 - id: bressem2021repetitions
   title: Repetitions in Gesture
@@ -233,20 +205,6 @@
   verified: false
   area: cognition
 
-- id: cairney2021iconic
-  title: An ERP Study of the Effects of Iconic and Nonsense Gestures on Memory Formation
-  authors: [Brianna E. Cairney]
-  year: 2021
-  venue: Unknown venue
-  type: thesis
-  category: theory
-  doi: 10.31390/gradschool_theses.5439
-  links: {paper: 'https://doi.org/10.31390/gradschool_theses.5439'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: cognition
-
 - id: camiciottoli2021analyzing
   title: Analyzing Attitudinal Stance in OpenCourseWare Lectures
   authors: [Belinda Crawford Camiciottoli]
@@ -274,20 +232,6 @@
   checked: abstract
   verified: false
   area: development
-
-- id: carrion2021coming
-  title: 'Coming and going in time: a multimodal study'
-  authors: [Daniel Alcaraz Carrión, Javier Valenzuela]
-  year: 2021
-  venue: Unknown venue
-  type: preprint
-  category: theory
-  doi: 10.31234/osf.io/z47r9
-  links: {paper: 'https://doi.org/10.31234/osf.io/z47r9'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
 
 - id: carrion2021distant
   title: 'Distant time, distant gesture: speech and gesture correlate to express temporal distance'
@@ -373,20 +317,6 @@
   verified: false
   area: development
 
-- id: cuevas2021processing
-  title: 'The processing of semantic complexity and co-speech gestures in schizophrenia: a naturalistic, multimodal fMRI study'
-  authors: [Paulina Cuevas, Yifei He, Miriam Steines, Benjamin Straube]
-  year: 2021
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  type: preprint
-  category: theory
-  doi: 10.1101/2021.05.18.444612
-  links: {paper: 'https://doi.org/10.1101/2021.05.18.444612'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: neuroscience
-
 - id: czerwionka2021multimodal
   title: Multimodal and Co-Constructed Speech Acts
   authors: [Lori Czerwionka, Sydney Dickerson, Rodrigo Aragon-Bautista]
@@ -442,20 +372,6 @@
   checked: abstract
   verified: false
   area: clinical
-
-- id: dildar2021structural
-  title: Structural Transformation, Culture, and Women’s Labor Force Participation in Turkey
-  authors: [Yasemin Dildar]
-  year: 2021
-  venue: Scholarworks (University of Massachusetts Amherst)
-  type: thesis
-  category: theory
-  doi: 10.7275/7430513.0
-  links: {paper: 'https://doi.org/10.7275/7430513.0'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: cognition
 
 - id: ebert2021recovering
   title: Recovering gestured and spoken material in VP ellipsis and pro-forms
@@ -528,23 +444,6 @@
   links: {paper: 'https://doi.org/10.1145/3472306.3478338', open: 'https://dl.acm.org/doi/pdf/10.1145/3472306.3478338'}
   user_study: true
   summary: Two perceptual studies assess how realism of synthetic voice, gesture motion and visual appearance affects perceived speech-gesture match, likability and human-likeness of virtual agents.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
-- id: ferstl2021machine
-  title: Machine Learning For Plausible Gesture Generation From Speech For Virtual Humans
-  authors: [Ylva Ferstl]
-  year: 2021
-  venue: Trinity College Dublin
-  type: thesis
-  category: method
-  doi: 10.2312/diss.20212633145
-  links: {paper: 'https://doi.org/10.2312/diss.20212633145', open: 'http://hdl.handle.net/2262/96795'}
-  input: [audio]
-  approach: [gan, retrieval, hybrid]
-  datasets: [custom]
-  summary: Thesis exploring transfer learning, adversarial training and expressive gesture parameters for speech-to-gesture learning, presenting two speech and motion datasets and a system combining machine learning with database sampling.
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -749,20 +648,6 @@
   verified: false
   area: education
 
-- id: humphries2021speech
-  title: Co-speech gestures are a window into the effects of Parkinson’s disease on action representations
-  authors: [Stacey A. Humphries, Judith Holler, Trevor J. Crawford, Ellen Poliakoff]
-  year: 2021
-  venue: Journal of Experimental Psychology General
-  type: journal
-  category: theory
-  doi: 10.31234/osf.io/hjmry
-  links: {paper: 'https://doi.org/10.31234/osf.io/hjmry'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: clinical
-
 - id: ippolito2021contribution
   title: The Contribution of Gestures to the Semantics of Non-Canonical Questions
   authors: [Michela Ippolito]
@@ -815,20 +700,6 @@
   checked: abstract
   verified: false
   area: education
-
-- id: jenkins2021kinematic
-  title: A kinematic-acoustic analysis of gesture-speech coupling in persons with aphasia
-  authors: [Theodore Jenkins, Wim T. J. L. Pouw]
-  year: 2021
-  venue: Unknown venue
-  type: preprint
-  category: theory
-  doi: 10.31234/osf.io/457nd
-  links: {paper: 'https://doi.org/10.31234/osf.io/457nd'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: clinical
 
 - id: jonell2021hemvip
   title: 'HEMVIP: Human Evaluation of Multiple Videos in Parallel'
@@ -1285,20 +1156,6 @@
   verified: false
   area: cognition
 
-- id: pouw2021semantically
-  title: 'Semantically related gestures move alike: Towards a distributional semantics of gesture kinematics'
-  authors: [Wim T. J. L. Pouw, Jan de Wit, Sara Bögels, Marlou Rasenberg, Branka Milivojevic, Asli]
-  year: 2021
-  venue: Lecture notes in computer science
-  type: conference
-  category: theory
-  doi: 10.31219/osf.io/pgq6m
-  links: {paper: 'https://doi.org/10.31219/osf.io/pgq6m'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: pyers2021gesture
   title: 'Gesture Helps, Only If You Need It: Inhibiting Gesture Reduces Tip‐of‐the‐Tongue Resolution for Those With Weak Short‐Term Memory'
   authors: [Jennie E. Pyers, Rachel W. Magid, Tamar H. Gollan, Karen D. Emmorey]
@@ -1478,42 +1335,6 @@
   links: {paper: 'https://doi.org/10.1007/978-3-030-80119-9_47'}
   added: '2026-10-03'
   checked: metadata
-  verified: false
-
-- id: sonlu2021personality
-  title: A Conversational Agent Framework with Multi-modal Personality Expression
-  authors: [Sinan Sonlu, Uğur Güdükbay, Funda Durupınar]
-  year: 2021
-  venue: TOG
-  type: journal
-  category: system
-  doi: 10.1145/3439795
-  links: {paper: 'https://doi.org/10.1145/3439795'}
-  user_study: true
-  summary: A conversational virtual agent framework that expresses OCEAN personality through body movement, facial expressions, dialogue selection and voice, including new algorithms for Laban Shape and Effort qualities.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
-- id: spitale2021affective
-  title: 'Toward Automated Generation of Affective Gestures from Text: A Theory-Driven Approach'
-  authors: [Micol Spitale, Maja J Matarić]
-  year: 2021
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2103.03079'
-  links: {paper: 'https://arxiv.org/abs/2103.03079'}
-  input: [text]
-  approach: [hybrid]
-  realtime: unreported
-  datasets: []
-  metrics: []
-  user_study: false
-  summary: Generates speech-paired robot gestures from text and sentiment analysis by selecting gesture shape, intensity and speed with a theory-driven pipeline of word filtering, parameter extraction and gesture selection.
-  notes: Design proposal; no evaluation reported. Robot body parts not specified.
-  added: '2026-10-03'
-  checked: full-text
   verified: false
 
 - id: stark2021suggestions
@@ -1858,34 +1679,6 @@
   checked: abstract
   verified: false
 
-- id: watanabe2021gesture
-  title: Development and Verification of a Gesture-generating Architecture for Conversational Humanoid Robots
-  authors: [Miki Watanabe, 'Takizawa, Masaru', Yutaka Suzue, 'Baumert, David', Shunsuke Kudoh, Minako Nakamura, Takashi Suehiro, Hiroshi Ishiguro, Katsushi Ikeuchi]
-  year: 2021
-  venue: HAL
-  type: preprint
-  category: system
-  links: {paper: 'https://hal.science/hal-03108169'}
-  input: [text]
-  summary: Architecture that generates humanoid-robot gestures along with spoken sentences using speech semantics, with gestures described in Labanotation so they transfer across robots.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
-- id: weinrich2021gesture
-  title: Gesture Resolution and Definiteness
-  authors: [Jonathan Weinrich]
-  year: 2021
-  venue: Zenodo (CERN European Organization for Nuclear Research)
-  type: thesis
-  category: theory
-  doi: 10.5281/zenodo.5812035
-  links: {paper: 'https://doi.org/10.5281/zenodo.5812035'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: wolfert2021rate
   title: 'To Rate or Not To Rate: Investigating Evaluation Methods for Generated Co-Speech Gestures'
   authors: [Pieter Wolfert, Jeffrey M. Girard, Taras Kucherenko, Tony Belpaeme]
@@ -1979,23 +1772,6 @@
   verified: false
   area: other
 
-- id: yu2021generation
-  title: Génération du Comportement du Robot et Compréhension du Comportement Humain dans L'interaction Naturelle Humain-Robot
-  authors: [Chuang Yu]
-  year: 2021
-  venue: theses.fr
-  type: thesis
-  category: method
-  links: {paper: 'https://hal.science/tel-03313805v1', open: 'http://www.theses.fr/2021IPPAE009/document'}
-  input: [audio]
-  representation: [joints-3d]
-  approach: [gan]
-  datasets: [custom]
-  summary: Thesis that includes a temporal GAN mapping acoustic speech to humanoid robot gestures, trained on an audio-visual database with 3D poses extracted from RGB video, plus speech-driven face action synthesis.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: yunus2021prosody
   title: 'Sequence-to-Sequence Predictive Model: From Prosody to Communicative Gestures'
   authors: [Fajrian Yunus, Chloé Clavel, Catherine Pélachaud]
@@ -2019,24 +1795,6 @@
   notes: Predicts gesture classes (timing and type), not joint motion; evaluated with a custom sequence-comparison score.
   added: '2026-10-03'
   checked: full-text
-  verified: false
-
-- id: yunus2021timing
-  title: Prediction of Gesture Timing and Study About Image Schema for Metaphoric Gestures
-  authors: [Fajrian Yunus]
-  year: 2021
-  venue: HAL
-  type: thesis
-  category: method
-  doi: 10.13140/rg.2.2.35346.12480
-  links: {paper: 'https://hal.science/tel-03589420v1'}
-  input: [text, audio]
-  approach: [other]
-  user_study: true
-  summary: Dissertation on gesture generation for embodied conversational agents covering an attention-based RNN that predicts gesture timing, improved image-schema-based metaphoric gesture selection and vector representations of image schemas.
-  notes: Uses the Gest-IS corpus; full text not retrieved.
-  added: '2026-10-03'
-  checked: abstract
   verified: false
 
 - id: yurtsever2021production

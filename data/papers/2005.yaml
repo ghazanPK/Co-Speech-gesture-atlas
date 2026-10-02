@@ -99,19 +99,6 @@
   verified: false
   area: development
 
-- id: campana2005real
-  title: Real-time integration of gesture and speech during reference resolution
-  authors: [Ellen Campana, Michael K. Tanenhaus, Loisa Bennetto, Stephanie Packard]
-  year: 2005
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.596.4210'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: capirci2005action
   title: From action to language through gesture
   authors: [Olga Capirci, Annarita Contaldo, María Cristina Caselli, Virginia Volterra]
@@ -154,19 +141,6 @@
   verified: false
   area: clinical
 
-- id: cerrato2005acoustic
-  title: On the acoustic, prosodic and gestural characteristics of m-like sounds in Swedish
-  authors: [Loredana Cerrato]
-  year: 2005
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://www.diva-portal.org/smash/record.jsf?pid=diva2:465172'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: chieffi2005gesture
   title: Gesture Production and Text Structure
   authors: [Sergio Chieffi, Mariateresa Ricci]
@@ -180,34 +154,6 @@
   checked: abstract
   verified: false
   area: psycholinguistics
-
-- id: corradini2005animating
-  title: Animating an interactive conversational character for an educational game system
-  authors: [Andrea Corradini, Manish Mehta, Niels Ole Bernsen, Marcela Charfuelàn]
-  year: 2005
-  venue: unknown
-  type: conference
-  category: system
-  doi: 10.1145/1040830.1040872
-  links: {paper: 'https://doi.org/10.1145/1040830.1040872'}
-  summary: A conversational H.C. Andersen character for an educational game that generates and realizes speech, 3D body gestures and facial expressions.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
-- id: egges2005emotional
-  title: Emotional Communicative Body Animation for Multiple Characters
-  authors: [Arjan Egges, Nadia Magnenat‐Thalmann]
-  year: 2005
-  venue: unknown
-  type: journal
-  category: system
-  links: {paper: 'https://dspace.library.uu.nl/handle/1874/31251'}
-  approach: [hybrid]
-  summary: An animation system for interactive virtual humans synthesizes communicative body motion according to an emotional state by blending idle motions with gesture animations and computing dependent joint motions and balance shifts automatically.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: enfield2005body
   title: The Body as a Cognitive Artifact in Kinship Representations
@@ -321,21 +267,6 @@
   verified: false
   area: development
 
-- id: hartmann2005design
-  title: Design and evaluation of expressive gesture synthesis for embodied conversational agents
-  authors: [Björn Hartmann, Maurizio Mancini, Stéphanie Buisine, Catherine Pélachaud]
-  year: 2005
-  venue: unknown
-  type: conference
-  category: method
-  doi: 10.1145/1082473.1082640
-  links: {paper: 'https://doi.org/10.1145/1082473.1082640'}
-  user_study: true
-  summary: A behavior synthesis technique generates expressive gestures for embodied conversational agents using a small set of expressivity dimensions that characterize individual movement variability.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: hegarty2005gestures
   title: The Role of Gestures in Mental Animation
   authors: [Mary Hegarty, Sarah A. Mayer, Sarah Kriz, Madeleine Keehner]
@@ -349,19 +280,6 @@
   checked: abstract
   verified: false
   area: cognition
-
-- id: heylen2005challenges
-  title: 'Challenges ahead: head movements and other social acts during conversations'
-  authors: [Dirk Heylen]
-  year: 2005
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://eprints.eemcs.utwente.nl/1867/01/myAISB05-corrected.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
 
 - id: hustad2005aided
   title: Aided and Unaided Speech Supplementation Strategies
@@ -754,19 +672,6 @@
   verified: false
   area: perception
 
-- id: tellier2005teachers
-  title: How do teacher's gestures help young children in second language acquisition?
-  authors: [Marion Tellier]
-  year: 2005
-  venue: HAL (Le Centre pour la Communication Scientifique Directe)
-  type: journal
-  category: theory
-  links: {paper: 'https://hal.science/hal-00433380'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: education
-
 - id: vilhjalmsson2005augmenting
   title: Augmenting Online Conversation through Automated Discourse Tagging
   authors: [Hannes Högni Vilhjálmsson]
@@ -783,34 +688,6 @@
   checked: abstract
   verified: false
 
-- id: wasfy2005lecture
-  title: Web-Based Multimedia Lecture Delivery System With Text-to-Speech and Virtual Instructors
-  authors: [Ayman M. Wasfy, Tamer M. Wasfy, Hazim A. El-Mounayri, Daniel Aw]
-  year: 2005
-  venue: IDETC/CIE
-  type: conference
-  category: system
-  doi: 10.1115/detc2005-84692
-  links: {paper: 'https://doi.org/10.1115/detc2005-84692'}
-  input: [text]
-  summary: A web-based lecture system in which an animated human-like virtual instructor presents course content with text-to-speech and synchronized gestures and lip-synching.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
-- id: willems2005comprehension
-  title: The comprehension of gesture and speech
-  authors: [Roel M. Willems, Aslı Özyürek, Peter Hagoort]
-  year: 2005
-  venue: Radboud Repository (Radboud University)
-  type: journal
-  category: theory
-  links: {paper: 'http://hdl.handle.net/2066/54604'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: neuroscience
-
 - id: yasinnik2005gesture
   title: Gesture marking of disfluencies in spontaneous speech.
   authors: [Yelena Yasinnik, Stefanie Shattuck‐Hufnagel, Nanette M. Veilleux]
@@ -823,18 +700,3 @@
   checked: abstract
   verified: false
   area: psycholinguistics
-
-- id: yuan2005elva
-  title: 'Design and evaluation of Elva: an embodied tour guide in an interactive virtual art gallery'
-  authors: [Xiang Yuan, Yam San Chee]
-  year: 2005
-  venue: CAVW
-  type: journal
-  category: system
-  doi: 10.1002/cav.65
-  links: {paper: 'https://doi.org/10.1002/cav.65'}
-  user_study: true
-  summary: An embodied tour guide agent with a three-layer architecture that converses about gallery exhibits and behaves non-verbally using gesture and facial expression.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false

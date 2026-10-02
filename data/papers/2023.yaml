@@ -293,20 +293,6 @@
   verified: false
   area: linguistics
 
-- id: coulson2023sensorimotor
-  title: Sensorimotor Account of Multimodal Prosody
-  authors: [Seana Coulson]
-  year: 2023
-  venue: Unknown venue
-  type: preprint
-  category: theory
-  doi: 10.31234/osf.io/2sc68
-  links: {paper: 'https://doi.org/10.31234/osf.io/2sc68'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: neuroscience
-
 - id: deichler2023gestclip
   title: Diffusion-Based Co-Speech Gesture Generation Using Joint Text and Audio Representation
   authors: [Anna Deichler, Shivam Mehta, Simon Alexanderson, Jonas Beskow]
@@ -374,48 +360,6 @@
   verified: false
   area: linguistics
 
-- id: fares2023expressive
-  title: Multimodal Expressive Gesturing With Style
-  authors: [Mireille Fares]
-  year: 2023
-  venue: Thesis
-  type: thesis
-  category: method
-  doi: 10.70675/a1375d8dzd155z4b3ezb79azc121e1ceecad
-  links: {paper: 'https://doi.org/10.70675/a1375d8dzd155z4b3ezb79azc121e1ceecad'}
-  input: [text, audio, style]
-  output: [upper-body, face]
-  datasets: [pats]
-  summary: Thesis proposing zero-shot style-controlled upper-body and facial gesture synthesis from a speaker's speech content (ZS-MSTM) for embodied conversational agents.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
-- id: fares2023meta4
-  title: 'META4: Semantically-Aligned Generation of Metaphoric Gestures Using Self-Supervised Text and Speech Representation'
-  authors: [Mireille Fares, Catherine Pélachaud, Nicolas Obin]
-  year: 2023
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2311.05481'
-  links: {paper: 'https://arxiv.org/abs/2311.05481', code: 'https://github.com/mireillefares/META4/'}
-  input: [audio, text]
-  output: [upper-body]
-  representation: [keypoints-2d]
-  approach: [regression]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [pats]
-  languages: [en]
-  metrics: [joint-error, other, cosine-similarity]
-  user_study: false
-  summary: A transformer model generates 2D upper-body metaphoric gestures from speech spectrograms, text and image schemas computed from the text by a fine-tuned BERT classifier.
-  notes: The 'other' metrics are Pearson correlation and cosine similarity; fingers are not generated.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
 - id: fares2023zeroshot
   title: Zero-Shot Style Transfer for Multimodal Data-Driven Gesture Synthesis
   authors: [Mireille Fares, Catherine Pélachaud, Nicolas Obin]
@@ -459,30 +403,6 @@
   added: '2026-10-03'
   checked: full-text
   verified: false
-
-- id: fares2023zsmstm
-  title: 'ZS-MSTM: Zero-Shot Style Transfer for Gesture Animation driven by Text and Speech using Adversarial Disentanglement of Multimodal Style Encoding'
-  authors: [Mireille Fares, Catherine Pélachaud, Nicolas Obin]
-  year: 2023
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2305.12887'
-  links: {paper: 'https://arxiv.org/abs/2305.12887'}
-  input: [text, audio, style]
-  output: [upper-body]
-  representation: [keypoints-2d]
-  approach: [other]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [pats]
-  languages: [en]
-  metrics: [accel-jerk, pck, joint-error, other]
-  user_study: true
-  summary: A transformer with an adversarial fader network separates content from a multimodal style embedding to synthesize 2D upper-body gestures from text and speech in the style of seen or unseen speakers.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
 
 - id: floritpons2023multimodal
   title: 'Multimodal Development in Children''s Narrative Speech: Evidence for Tight Gesture–Speech Temporal Alignment Patterns as Early as 5 Years Old'
@@ -706,44 +626,6 @@
   verified: false
   area: clinical
 
-- id: ji2023c2g2
-  title: 'C2G2: Controllable Co-speech Gesture Generation with Latent Diffusion Model'
-  authors: [Longbin Ji, Pengfei Wei, Yi Ren, Jinglin Liu, Chen Zhang, Xiang Yin]
-  year: 2023
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2308.15016'
-  links: {paper: 'https://arxiv.org/abs/2308.15016', project: 'https://c2g2-gesture.github.io/c2_gesture'}
-  input: [audio, speaker-id]
-  output: [upper-body, hands]
-  representation: [joints-3d]
-  approach: [vq, diffusion]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [ted-gesture, ted-expressive]
-  languages: [en]
-  metrics: [fgd, beat-align, diversity]
-  user_study: true
-  summary: Generates upper-body gestures from audio with a temporal-aware VQ-VAE and a transformer latent diffusion model, with a speaker-specific decoder and a repainting strategy for editing.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
-- id: kadava2023gesture
-  title: Is gesture-speech physics at work in rhythmic pointing? Evidence from Polish counting-out rhymes
-  authors: [Šárka Kadavá, Aleksandra Ćwiek, Katarzyna Stoltmann, Susanne I. Fuchs, Wim T. J. L. Pouw]
-  year: 2023
-  venue: Unknown venue
-  type: preprint
-  category: theory
-  doi: 10.31219/osf.io/67fzc
-  links: {paper: 'https://doi.org/10.31219/osf.io/67fzc'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: kandemir2023multimodal
   title: Multimodal language in child-directed versus adult-directed speech
   authors: [Songül Kandemir, Demet Özer, Aslı Aktan‐Erciyes]
@@ -873,20 +755,6 @@
   verified: false
   area: cognition
 
-- id: kita2023origin
-  title: The origin of the term, "co-speech gesture"
-  authors: [Sotaro Kita]
-  year: 2023
-  venue: Unknown venue
-  type: preprint
-  category: theory
-  doi: 10.31234/osf.io/hdxzg
-  links: {paper: 'https://doi.org/10.31234/osf.io/hdxzg'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: other
-
 - id: kleine2023gesture
   title: 'Does Gesture Improve the Communication Success of People with Aphasia?: A Systematic Review'
   authors: [Naomi De Kleine, Miranda L. Rose, Michael Weinborn, Robert Knox, Nicolas Fay]
@@ -958,58 +826,6 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
-
-- id: kucherenko2023geneabvh
-  title: GENEA Challenge 2023 submitted BVH files
-  authors: [Taras Kucherenko, Rajmund Nagy, Youngwoo Yoon]
-  year: 2023
-  venue: Zenodo
-  type: preprint
-  category: challenge
-  doi: 10.5281/zenodo.8146027
-  links: {paper: 'https://doi.org/10.5281/zenodo.8146027'}
-  representation: [joints-3d]
-  setting: [monologue, dyadic]
-  datasets: [genea-2023]
-  summary: Test-set BVH motion submitted by all teams in the GENEA Challenge 2023, with timestamps of the segments used in the monadic and dyadic user studies.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
-- id: kucherenko2023geneadata
-  title: GENEA Challenge 2023 Dataset Files
-  authors: [Taras Kucherenko, Rajmund Nagy, Youngwoo Yoon]
-  year: 2023
-  venue: Zenodo
-  type: preprint
-  category: dataset
-  doi: 10.5281/zenodo.8199132
-  links: {paper: 'https://doi.org/10.5281/zenodo.8199132'}
-  input: [text, audio, interlocutor]
-  output: [full-body, hands]
-  representation: [joints-3d]
-  setting: [dyadic]
-  datasets: [genea-2023, talking-with-hands]
-  summary: Main dataset of the GENEA Challenge 2023, derived from Talking With Hands 16.2M, with audio, word-level transcripts and BVH full-body motion for a main agent and an interlocutor.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
-- id: kucherenko2023geneahumanlikeness
-  title: GENEA Challenge 2023 Human-Likeness subjective evaluation data
-  authors: [Taras Kucherenko, Rajmund Nagy, Youngwoo Yoon]
-  year: 2023
-  venue: Zenodo
-  type: preprint
-  category: challenge
-  doi: 10.5281/zenodo.8434116
-  links: {paper: 'https://doi.org/10.5281/zenodo.8434116'}
-  datasets: [genea-2023]
-  user_study: true
-  summary: Human-likeness user-study responses from the GENEA Challenge 2023 with MATLAB scripts reproducing the analyses.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: ladilova2023methodological
   title: Methodological aspects of the analysis of co-speech gestures in intercultural interactions
@@ -1093,30 +909,6 @@
   checked: full-text
   verified: true
 
-- id: ling2023mcm
-  title: 'MCM: Multi-condition Motion Synthesis Framework for Multi-scenario'
-  authors: [Zeyu Ling, Bo Han, Yongkang Wong, Mohan Kangkanhalli, Weidong Geng]
-  year: 2023
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2309.03031'
-  links: {paper: 'https://arxiv.org/abs/2309.03031', code: 'https://github.com/ZeyuLing/MCM'}
-  input: [text, audio, speaker-id]
-  output: [full-body]
-  representation: [joints-3d]
-  approach: [diffusion]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [humanml3d, aist-plus-plus, beat]
-  metrics: [fid, diversity, r-precision, multimodality, beat-align]
-  user_study: false
-  summary: A two-branch diffusion framework with a control branch adds multiple conditions (text, music, speech with speaker ID) to a text-to-motion diffusion model, covering speech-to-gesture on BEAT among other tasks.
-  notes: General multi-scenario motion synthesis; speech-to-gesture is one of three tasks and is evaluated only qualitatively. Code stated as to be released.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
 - id: ling2023mind
   title: 'How mind-body-world ecologies work: The use of gestures for idea generation in a Grade 4 composition class'
   authors: [Cheung Yin Ling]
@@ -1156,21 +948,6 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
-
-- id: liu2023survey
-  title: A Survey on Deep Multi-modal Learning for Body Language Recognition and Generation
-  authors: [Li Liu, Lufei Gao, Wentao Lei, Fengji Ma, Xiaotian Lin, Jinting Wang]
-  year: 2023
-  venue: arXiv
-  type: preprint
-  category: survey
-  arxiv: '2308.08849'
-  links: {paper: 'https://arxiv.org/abs/2308.08849', project: 'https://github.com/wentaoL86/awesome-body-language'}
-  summary: Surveys deep multi-modal learning for recognition and generation of sign language, cued speech, co-speech gesture and talking heads, with benchmark datasets and metrics.
-  notes: Covers sign language, cued speech and talking head as well as co-speech.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: lu2023discrete
   title: Co-Speech Gesture Synthesis using Discrete Gesture Token Learning
@@ -1224,20 +1001,6 @@
   verified: false
   area: psycholinguistics
 
-- id: mazzini2023autistic
-  title: Autistic individuals benefit from gestures during degraded speech comprehension
-  authors: [Sara Mazzini, Noor Seijdel, Linda Drijvers]
-  year: 2023
-  venue: Unknown venue
-  type: preprint
-  category: theory
-  doi: 10.31234/osf.io/u6y57
-  links: {paper: 'https://doi.org/10.31234/osf.io/u6y57'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: clinical
-
 - id: mehta2023difftts
   title: 'Diff-TTSG: Denoising probabilistic integrated speech and gesture synthesis'
   authors: [Shivam Mehta, Siyang Wang, Simon Alexanderson, Jonas Beskow, Éva Székely, Gustav Eje Henter]
@@ -1277,20 +1040,6 @@
   checked: abstract
   verified: false
   area: cognition
-
-- id: moryossef2023addressing
-  title: Addressing the Blind Spots in Spoken Language Processing
-  authors: [Amit Moryossef]
-  year: 2023
-  venue: arXiv
-  type: preprint
-  category: theory
-  arxiv: '2309.06572'
-  links: {paper: 'https://arxiv.org/abs/2309.06572'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: other
 
 - id: nyatsanga2023review
   title: A Comprehensive Review of Data-Driven Co-Speech Gesture Generation
@@ -1569,30 +1318,6 @@
   verified: false
   area: linguistics
 
-- id: teshima2023act2g
-  title: 'ACT2G: Attention-based Contrastive Learning for Text-to-Gesture Generation'
-  authors: [Hitoshi Teshima, Naoki Wake, Diego Thomas, Yuta Nakashima, Hiroshi Kawasaki, Katsushi Ikeuchi]
-  year: 2023
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2309.16162'
-  links: {paper: 'https://arxiv.org/abs/2309.16162'}
-  input: [text]
-  output: [upper-body]
-  representation: [joints-3d]
-  approach: [retrieval, vae]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [ted-gesture, trinity]
-  languages: [en]
-  metrics: [diversity, fgd, accel-jerk]
-  user_study: true
-  summary: Maps text and gesture features into a shared latent space by attention-weighted contrastive learning, then retrieves gestures from a library of VAE-clustered gesture types for the input text.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
 - id: tetnowski2023looking
   title: 'Looking at gesture: The reciprocal influence between gesture and conversation'
   authors: [Jennifer Thompson Tetnowski, Jennifer Thompson Tetnowski, John A. Tetnowski, John A. Tetnowski, Jack S. Damico]
@@ -1735,20 +1460,6 @@
   checked: abstract
   verified: false
 
-- id: urena2023characterizing
-  title: Characterizing iconic gesture during storytelling in chronic TBI recovery
-  authors: [Katelyn Urena, Brielle C. Stark]
-  year: 2023
-  venue: Unknown venue
-  type: preprint
-  category: theory
-  doi: 10.31219/osf.io/6chxf
-  links: {paper: 'https://doi.org/10.31219/osf.io/6chxf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: clinical
-
 - id: voss2023aqgt
   title: 'AQ-GT: a Temporally Aligned and Quantized GRU-Transformer for Co-Speech Gesture Synthesis'
   authors: [Hendric Voß, Stefan Kopp]
@@ -1799,25 +1510,6 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
-
-- id: wake2023gpt
-  title: 'GPT Models Meet Robotic Applications: Co-Speech Gesturing Chat System'
-  authors: [Naoki Wake, Atsushi Kanehira, Kazuhiro Sasabuchi, Jun Takamatsu, Katsushi Ikeuchi]
-  year: 2023
-  venue: arXiv
-  type: preprint
-  category: system
-  arxiv: '2306.01741'
-  links: {paper: 'https://arxiv.org/abs/2306.01741', code: 'https://github.com/microsoft/GPT-Enabled-HSR-CoSpeechGestures'}
-  input: [text]
-  approach: [hybrid, llm, retrieval]
-  realtime: unreported
-  languages: [en]
-  summary: Chatting robot system in which GPT-3 or ChatGPT produces replies and a gesture engine selects gestures from a predefined library by the conceptual meaning of the speech, stored as Labanotation.
-  notes: Also released for an in-house robot at https://github.com/microsoft/LabanotationSuite/tree/master/MSRAbotChatSimulation. Technical paper with no objective metrics reported.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
 
 - id: wang2023classroom
   title: 'Classroom gesture instruction on second language learners'' academic presentations: Evidence from Chinese intermediate English learners'
@@ -2119,30 +1811,6 @@
   checked: full-text
   verified: false
 
-- id: yin2023emog
-  title: 'EMoG: Synthesizing Emotive Co-speech 3D Gesture with Diffusion Model'
-  authors: [Lianying Yin, Yijun Wang, Tianyu He, Jinming Liu, Wei Zhao, Bohan Li, Xin Jin, Jianxin Lin]
-  year: 2023
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2306.11496'
-  links: {paper: 'https://arxiv.org/abs/2306.11496'}
-  input: [audio, emotion, speaker-id, seed-motion]
-  output: [upper-body, hands]
-  representation: [joints-3d]
-  approach: [diffusion]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [beat]
-  languages: [en]
-  metrics: [fgd, srgr, beat-align]
-  user_study: false
-  summary: A denoising diffusion model with a Joint Correlation-aware Transformer generates upper-body and hand gesture rotations from audio, guided by emotion cues extracted from the audio.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
 - id: yoon2023geneaworkshop
   title: 'GENEA Workshop 2023: The 4th Workshop on Generation and Evaluation of Non-verbal Behaviour for Embodied Agents'
   authors: [Youngwoo Yoon, Taras Kucherenko, Jieyeon Woo, Pieter Wolfert, Rajmund Nagy, Gustav Eje Henter]
@@ -2199,26 +1867,6 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
-
-- id: zhang2023diffmotionv2
-  title: 'Audio is all in one: speech-driven gesture synthetics using WavLM pre-trained model'
-  authors: [Fan Zhang, Naye Ji, Fuxing Gao, Siyuan Zhao, Zhaohan Wang, Shunman Li]
-  year: 2023
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2308.05995'
-  links: {paper: 'https://arxiv.org/abs/2308.05995'}
-  input: [audio]
-  output: [full-body]
-  approach: [diffusion]
-  datasets: [trinity, zeggs, beat]
-  user_study: true
-  summary: A speech-conditioned diffusion model with a non-autoregressive transformer and adaptive layer norm that uses WavLM audio features to produce stylized full-body gestures from raw speech only.
-  notes: diffmotion-v2. The arXiv comment says the article needs major revision.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: zhao2023diffugesture
   title: 'DiffuGesture: Generating Human Gesture From Two-person Dialogue With Diffusion Models'

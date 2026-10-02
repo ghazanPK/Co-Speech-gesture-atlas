@@ -169,20 +169,6 @@
   verified: false
   area: social-interaction
 
-- id: hackel2004humanoid
-  title: A HUMANOID INTERACTION ROBOT FOR INFORMATION, NEGOTIATION AND ENTERTAINMENT USE
-  authors: [Matthias Hackel, Stefan Schwope]
-  year: 2004
-  venue: IJHR
-  type: journal
-  category: system
-  doi: 10.1142/s0219843604000198
-  links: {paper: 'https://doi.org/10.1142/s0219843604000198'}
-  summary: A humanoid interaction robot answers user speech from an adaptive database while triggering pre-defined hand and arm gestures and face animation synchronously with its speech.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: hadar2004semantic
   title: The Semantic Specificity of Gesture
   authors: [Uri Hadar, Lian Pinchas-Zamir]

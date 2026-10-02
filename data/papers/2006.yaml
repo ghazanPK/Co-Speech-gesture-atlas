@@ -2,21 +2,6 @@
 # The README tables are generated from these files. Field rules: docs/SCHEMA.md
 # (enforced by schema/schema.json and scripts/validate.py).
 
-- id: albrecht2006imitation
-  title: Gesture modeling and animation by imitation
-  authors: [Irene Albrecht, Michael Kipp, Michael Neff, Hans‐Peter Seidel]
-  year: 2006
-  venue: MPI Research Report
-  type: preprint
-  category: method
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0014-6979-2'}
-  input: [text]
-  output: [full-body]
-  summary: Builds a statistical model of a performer's gesturing style from annotated video, generates a gesture script for tagged input text, and renders it as kinematic or physically simulated full-body animation.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: alibali2006dont
   title: Don't Just Tell Them, Show Them! Teachers Can Intentionally Alter their Instructional Gestures
   authors: [Martha Wagner Alibali, Kristen N. Bieda, Autumn B. Hostetter, Eric Knuth, Mitchell J. Nathan]
@@ -29,19 +14,6 @@
   checked: abstract
   verified: false
   area: education
-
-- id: allwood2006gestural
-  title: A study of gestural feedback expressions
-  authors: [Jens Allwood, Loredana Cerrato]
-  year: 2006
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.158.4379'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
 
 - id: bavelas2006nonverbal
   title: 'Nonverbal and Verbal Communication: Hand Gestures and Facial Displays as Part of Language Use in Face-to-Face Dialogue'
@@ -154,19 +126,6 @@
   checked: abstract
   verified: false
   area: psycholinguistics
-
-- id: furman2006learning
-  title: Learning to Express Causal Events across Languages. What do Speech and Gesture Patterns Reveal
-  authors: [Reyhan Furman, Aslı Özyürek, Shanley  E. M. Allen]
-  year: 2006
-  venue: Radboud Repository (Radboud University)
-  type: book
-  category: theory
-  links: {paper: 'https://hdl.handle.net/2066/159303'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
 
 - id: garciaperez2006intersubjectiv
   title: 'On Intersubjective Engagement in Autism: A Controlled Study of Nonverbal Aspects of Conversation'
@@ -489,19 +448,6 @@
   checked: metadata
   verified: false
 
-- id: kopp2006max
-  title: The virtual human Max – Modeling embodied conversation
-  authors: [Stefan Kopp, Christian Becker, Ipke Wachsmuth]
-  year: 2006
-  venue: Bielefeld University
-  type: conference
-  category: system
-  links: {paper: 'https://pub.uni-bielefeld.de/record/2634971'}
-  summary: Overview of the virtual human Max, an embodied agent for face-to-face conversation developed from a speech and gesture generation platform into receptionist, VR construction and museum guide applications.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: lascarides2006formal
   title: Formal Semantics for Iconic Gesture
   authors: [Alex Lascarides, Matthew Stone]
@@ -529,20 +475,6 @@
   realtime: unreported
   summary: Analyses the syntactic and semantic structure of the surface text and the agent's affective state and annotates the text with nonverbal behaviours using rules extracted from video clips of conversing people.
   notes: Abstract states the system works in real time but gives no figure. Rules are user extensible.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
-- id: lessmann2006situated
-  title: Situated interaction with a virtual human - perception, action, and cognition
-  authors: [Nadine Leßmann, Stefan Kopp, Ipke Wachsmuth]
-  year: 2006
-  venue: Situated Communication
-  type: book
-  category: system
-  doi: 10.1515/9783110197747.287
-  links: {paper: 'https://doi.org/10.1515/9783110197747.287'}
-  summary: Describes the architecture of the virtual human Max, which combines speech, gaze, facial expression and gesture with assembly actions for mixed-initiative dialogue in a construction task.
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -744,19 +676,6 @@
   verified: false
   area: clinical
 
-- id: quek2006mental
-  title: 'Mental imagery, language and gesture: multimodal access to human communication'
-  authors: [Francis K. H. Quek]
-  year: 2006
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://crpit.com/confpapers/CRPITV57Quek.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: raymer2006gestureverbal
   title: Effects of gesture+verbal treatment for noun and verb retrieval in aphasia
   authors: [Anastasia M. Raymer, Floris F. Singletary, Amy D. Rodriguez, Maribel Ciampitti, Kenneth M. Heilman, Leslie J. Gonzalez Rothi]
@@ -770,19 +689,6 @@
   checked: abstract
   verified: false
   area: clinical
-
-- id: rieser2006multi
-  title: Multi-modal Integration for Gesture and Speech
-  authors: [Hannes Rieser, Marc Staudacher]
-  year: 2006
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.558.102'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
 
 - id: rodriguez2006gestureverbal
   title: Effects of gesture+verbal and semantic‐phonologic treatments for verb retrieval in aphasia
@@ -855,20 +761,6 @@
   checked: abstract
   verified: false
 
-- id: seyfeddinipur2006disfluency
-  title: 'Disfluency: Interrupting speech and gesture'
-  authors: [Mandana Seyfeddinipur]
-  year: 2006
-  venue: Radboud Repository (Radboud University)
-  type: thesis
-  category: theory
-  doi: 10.17617/2.59337
-  links: {paper: 'https://doi.org/10.17617/2.59337'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: sidnell2006coordinating
   title: Coordinating Gesture, Talk, and Gaze in Reenactments
   authors: [Jack Sidnell]
@@ -897,19 +789,6 @@
   verified: false
   area: education
 
-- id: sowa2006understanding
-  title: Understanding Coverbal Ionic Gestures in Shape Descriptions
-  authors: [Timo Sowa]
-  year: 2006
-  venue: Unknown venue
-  type: thesis
-  category: theory
-  links: {paper: 'https://www.amazon.com/Understanding-Coverbal-Descriptions-Dissertations-Artificial/dp/1586035665'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: psycholinguistics
-
 - id: stam2006thinking
   title: 'Thinking for speaking about motion: L1 and L2 speech and gesture'
   authors: [Gale A. Stam]
@@ -937,20 +816,6 @@
   checked: abstract
   verified: false
   area: cognition
-
-- id: vankessel2006gestures
-  title: Gestures of a virtual guide
-  authors: [Marco van Kessel]
-  year: 2006
-  venue: University of Twente
-  type: thesis
-  category: system
-  links: {paper: 'http://hmi.ewi.utwente.nl/verslagen/afstudeer/KesselMarcovanFinalThesis.pdf'}
-  user_study: true
-  summary: Integrates existing dialogue, multimodal interface and agent software into a virtual guide that gives route descriptions in sentences and deictic pointing gestures.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: vermeerbergen2006sign
   title: Sign + Gesture = Speech + Gesture? Comparing aspects of simultaneity in Flemish Sign Language to instances of concurrent speech and gesture
@@ -992,19 +857,6 @@
   checked: abstract
   verified: false
   area: neuroscience
-
-- id: wu2006coordinated
-  title: 'Coordinated minds : how iconic co- speech gestures mediate communication'
-  authors: [Ying Choon Wu]
-  year: 2006
-  venue: eScholarship (California Digital Library)
-  type: thesis
-  category: theory
-  links: {paper: 'https://escholarship.org/uc/item/4ff658th'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
 
 - id: yoshioka2006gestural
   title: Gestural introduction of Ground reference in L2 narrative discourse

@@ -30,20 +30,6 @@
   verified: false
   area: clinical
 
-- id: bergenstrahle2003feedback
-  title: Feedback Gesture Generation for Embodied Conversational Agents
-  authors: [Malin Bergenstråhle, Yngve Sundblad]
-  year: 2003
-  venue: KTH
-  type: thesis
-  category: method
-  links: {paper: 'https://www.nada.kth.se/utbildning/grukth/exjobb/rapportlistor/2003/rapporter03/bergenstrahle_malin_03133.pdf'}
-  user_study: true
-  summary: Develops and implements an algorithm that generates feedback gestures for the non-speaking characters in multimodal dialogues produced by the NECA system, and evaluates their effect on viewers.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: caswell2003body
   title: Body Language for Competent Teachers
   authors: [Chris Caswell, Sean R. St J. Neill]
@@ -127,19 +113,6 @@
   checked: abstract
   verified: false
   area: linguistics
-
-- id: finlayson2003restriction
-  title: Effects of the restriction of hand gestures on disfluency.
-  authors: [Sheena Finlayson, Victoria Forrest, Robin J. Lickley, Janet Mackenzie Beck]
-  year: 2003
-  venue: Queen Margaret University Publications Repository (Queen Margaret University)
-  type: journal
-  category: theory
-  links: {paper: 'http://eresearch.qmu.ac.uk/2180/1/2180.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
 
 - id: gibbon2003computational
   title: A computational model of arm gestures in conversation
@@ -280,22 +253,6 @@
   verified: false
   area: neuroscience
 
-- id: kipp2003nova
-  title: 'Gesture generation by imitation : from human behavior to computer character animation'
-  authors: [Michael Kipp]
-  year: 2003
-  venue: Saarland University
-  type: thesis
-  category: method
-  doi: 10.22028/d291-25852
-  links: {paper: 'https://doi.org/10.22028/d291-25852'}
-  input: [text]
-  approach: [hybrid]
-  summary: Generates conversational gestures for an animated agent from annotated text by applying heuristic placement rules and filtering gestures with statistical gesture profiles of an individual speaker built from annotated TV talk show recordings.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: kita2003cross
   title: 'What does cross-linguistic variation in semantic coordination of speech and gesture reveal?: Evidence for an interface representation of spatial thinking and speaking'
   authors: [Sotaro Kita, Aslı Özyürek]
@@ -337,21 +294,6 @@
   verified: false
   area: psycholinguistics
 
-- id: lessmann2003architecture
-  title: A cognitively motivated architecture for an anthropomorphic artificial communicator
-  authors: [Nadine Leßmann, Ipke Wachsmuth]
-  year: 2003
-  venue: ICCM
-  type: poster
-  category: system
-  links: {paper: 'https://pub.uni-bielefeld.de/record/2611107'}
-  representation: [joints-3d]
-  summary: A poster describing an architecture for the virtual agent Max, which produces multimodal output including gestures, facial expressions and speech in a task-oriented dialogue, animated on a kinematic skeleton.
-  notes: Venue inferred from the poster file name on the author's page.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: li2003gestures
   title: Gestures Realization for Embodied Conversational Agents
   authors: [Qing Li, Yukiko Nakano, Toyoaki Nishida]
@@ -363,21 +305,6 @@
   links: {paper: 'https://ci.nii.ac.jp/naid/130004653274'}
   added: '2026-10-03'
   checked: metadata
-  verified: false
-
-- id: mori2003affective
-  title: Evaluation of an Embodied Conversational Agent with Affective Behavior
-  authors: [Junichiro Mori, Helmut Prendinger, Mitsuru Ishizuka]
-  year: 2003
-  venue: AAMAS Workshop
-  type: workshop
-  category: system
-  links: {paper: 'https://www.vhml.org/workshops/AAMAS2003/papers/mori/mori.pdf'}
-  user_study: true
-  summary: A user study of an embodied conversational agent that expresses affect through linguistic style and gestures, measuring the effect on users' emotional state from physiological signals.
-  notes: Venue inferred from the paper URL (AAMAS 2003 workshop).
-  added: '2026-10-03'
-  checked: abstract
   verified: false
 
 - id: nakano2003model

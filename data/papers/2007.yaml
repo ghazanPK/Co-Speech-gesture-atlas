@@ -56,57 +56,6 @@
   verified: false
   area: psycholinguistics
 
-- id: bennewitz2007fritz
-  title: Fritz - A Humanoid Communication Robot
-  authors: [Maren Bennewitz, Felix Faber, Dominik Joho, Sven Behnke]
-  year: 2007
-  venue: RO-MAN
-  type: conference
-  category: system
-  doi: 10.1109/roman.2007.4415240
-  links: {paper: 'https://doi.org/10.1109/roman.2007.4415240'}
-  output: [upper-body, face]
-  summary: A humanoid communication robot that interacts using speech, facial expressions, eye-gaze, arm gestures and pointing gestures, shifting attention between people.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
-- id: bennewitz2007fritzb
-  title: Intuitive Multimodal Interaction with Communication Robot Fritz
-  authors: [Maren Bennewitz, Felix Faber, Dominik Joho, Sven Behnke]
-  year: 2007
-  venue: Humanoid Robots, Human-like Machines (InTech)
-  type: book
-  category: system
-  doi: 10.5772/4826
-  links: {paper: 'https://doi.org/10.5772/4826', open: 'https://www.intechopen.com/citation-pdf-url/190'}
-  input: [text, audio]
-  output: [upper-body, face]
-  approach: [rule-based]
-  setting: [multi-party]
-  realtime: unreported
-  datasets: []
-  metrics: []
-  summary: A humanoid museum-guide robot performs predefined symbolic, batonic and pointing arm and head gestures with strokes synchronized to speech synthesis, shifts attention between several people, and shows emotion through facial expressions and speech.
-  notes: Evaluation is informal experience from public demonstrations; the questionnaire study reported was for the predecessor robot Alpha.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
-- id: braddock2007links
-  title: 'Links between language, gesture, and motor skill : a longitudinal study of communication recovery in adults with Broca''s aphasia'
-  authors: [Barbara A. Braddock]
-  year: 2007
-  venue: Unknown venue
-  type: thesis
-  category: theory
-  doi: 10.32469/10355/4656
-  links: {paper: 'https://doi.org/10.32469/10355/4656'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: clinical
-
 - id: breitfuss2007automated
   title: Automated generation of non-verbal behavior for virtual embodied characters
   authors: [Werner Breitfuß, Helmut Prendinger, Mitsuru Ishizuka]
@@ -136,19 +85,6 @@
   checked: abstract
   verified: false
   area: cognition
-
-- id: brown2007crosslinguisti
-  title: 'Crosslinguistic influence in first and second languages: Convergence in speech and gesture'
-  authors: [Amanda Brown]
-  year: 2007
-  venue: Max Planck Institute for Plasma Physics
-  type: thesis
-  category: theory
-  links: {paper: 'http://edoc.mpg.de/328104'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
 
 - id: buisine2007cooperation
   title: The effects of speech–gesture cooperation in animated agents’ behavior in multimedia presentations
@@ -385,19 +321,6 @@
   verified: false
   area: psycholinguistics
 
-- id: kendon2007agenda
-  title: An Agenda for Gesture Studies
-  authors: [Adam Kendon]
-  year: 2007
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://www.kuwi.europa-uni.de/de/lehrstuhl/sw/sw0/_texte/introgestureanalysis/An_Agenda_for_Gesture_Studies.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: other
-
 - id: kim2007steward
   title: Automatic Generation of Conversational Robot Gestures for Human-friendly Steward Robot
   authors: [Heon-Hui Kim, Hyong-Euk Lee, Yong-Hwi Kim, Kwang‐Hyun Park, Z. Zenn Bien]
@@ -485,22 +408,6 @@
   verified: false
   area: psycholinguistics
 
-- id: klesen2007affective
-  title: Affective Multimodal Control of Virtual Characters
-  authors: [Martin Klesen, Patrick Gebhard]
-  year: 2007
-  venue: IJVR
-  type: journal
-  category: system
-  doi: 10.20870/ijvr.2007.6.4.3864
-  links: {paper: 'https://doi.org/10.20870/ijvr.2007.6.4.3864', open: 'https://ijvr.eu/article/download/3864/12090'}
-  output: [upper-body, face]
-  approach: [rule-based]
-  summary: Uses the ALMA affect model and a Player Markup Language with an Action Encoder to map affect to facial expression, posture, gesture and speech actions of virtual humans.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: kopp2007architecture
   title: Towards an Architecture for Aligned Speech and Gesture Production
   authors: [Stefan Kopp, Kirsten Bergmann]
@@ -582,22 +489,6 @@
   checked: abstract
   verified: false
   area: linguistics
-
-- id: lopez2007eca
-  title: Design and validation of ECA gestures to improve dialogue system robustness
-  authors: [Beatriz López, Álvaro Hernández, David Araujo Díaz, Rubén Fernández Pozo, Luis Hernández, Doroteo Torre]
-  year: 2007
-  venue: ACL
-  type: workshop
-  category: system
-  doi: 10.3115/1610065.1610074
-  links: {paper: 'https://doi.org/10.3115/1610065.1610074', open: 'http://dl.acm.org/ft_gateway.cfm?id=1610074&type=pdf'}
-  approach: [rule-based]
-  user_study: true
-  summary: Designs a repertoire of embodied conversational agent gestures tied to dialogue stages and validates with users that they understand and accept them.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: maricchiolo2007hand
   title: 'Hand gestures in speech: studies on their roles in social interaction'
@@ -681,19 +572,6 @@
   checked: abstract
   verified: false
   area: neuroscience
-
-- id: moralesrodriguez2007kinesics
-  title: 'Modèle d''interaction sociale pour des agents conversationnels animés : application à la rééducation de patients cérébro-lésés'
-  authors: [María Lucila Morales-Rodríguez]
-  year: 2007
-  venue: HAL
-  type: thesis
-  category: method
-  links: {paper: 'https://theses.hal.science/tel-00660114'}
-  summary: A behavioural model selects speech acts and attitude, and a kinesics model selects facial, posture and gesture expressions for a virtual character in virtual therapy.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: muller2007gestures
   title: Gestures in human and nonhuman primates
@@ -794,19 +672,6 @@
   verified: false
   area: neuroscience
 
-- id: ozyurek2007linguistic
-  title: How does linguistic framing influence co-speech gestures? Insights from crosslinguistic differences and similarities
-  authors: [Aslı Özyürek, Sotaro Kita, Shanley  E. M. Allen, Reyhan Furman, Amanda Brown]
-  year: 2007
-  venue: Radboud Repository (Radboud University)
-  type: book
-  category: theory
-  links: {paper: 'http://hdl.handle.net/2066/44273'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: pine2007prohibiting
   title: The effects of prohibiting gestures on children's lexical retrieval ability
   authors: [Karen J. Pine, Hannah Bird, Elizabeth Kirk]
@@ -820,19 +685,6 @@
   checked: abstract
   verified: false
   area: development
-
-- id: pozzerardenghi2007look
-  title: '"Look at what I am saying": Multimodal science teaching'
-  authors: [Lilian Pozzer‐Ardenghi]
-  year: 2007
-  venue: UVic’s Research and Learning Repository (University of Victoria)
-  type: thesis
-  category: theory
-  links: {paper: 'http://hdl.handle.net/1828/212'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: education
 
 - id: richards2007activation
   title: Activation of intentional mechanisms through utilization of nonsymbolic movements in aphasia rehabilitation.
@@ -902,19 +754,6 @@
   verified: false
   area: clinical
 
-- id: shattuckhufnagel2007method
-  title: 'A Method for Studying the Time Alignment of Gestures and Prosody in American English: ‘Hits’ and Pitch Accents in Academic-Lecture-Style Speech'
-  authors: [Stefanie Shattuck‐Hufnagel, Yelena Yasinnik, Nanette M. Veilleux, Margaret E. L. Renwick]
-  year: 2007
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://ebooks.iospress.nl/volumearticle/8731'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: linguistics
-
 - id: skipper2007speech
   title: Speech-associated gestures, Broca’s area, and the human mirror system
   authors: [Jeremy I Skipper, Susan Goldin‐Meadow, Howard C. Nusbaum, Steven L. Small]
@@ -943,19 +782,6 @@
   verified: false
   area: clinical
 
-- id: strauss2007eric
-  title: Realtime Generation of Multimodal Affective Sports Commentary for Embodied Agents
-  authors: [M. Strauss, Wolfgang Wahlster, Michael Kipp]
-  year: 2007
-  venue: MPG.PuRe
-  type: thesis
-  category: system
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0027-D1A5-7'}
-  summary: ERIC is an agent framework that generates template-based real-time commentary and expresses affect through lexical choice, gestures and facial expressions.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: sunakawa2007adam
   title: 'Adam Kendon , Gesture: Visible action as utterance'
   authors: [Chiho Sunakawa]
@@ -969,19 +795,6 @@
   checked: abstract
   verified: false
   area: linguistics
-
-- id: swerts2007acoustic
-  title: Acoustic effects of visual beats
-  authors: [Marc G. J. Swerts, Emiel Krahmer]
-  year: 2007
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.399.4358'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
 
 - id: theune2007guide
   title: 'The virtual guide: a direction giving embodied conversational agent'

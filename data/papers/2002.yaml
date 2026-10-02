@@ -100,25 +100,6 @@
   verified: false
   area: psycholinguistics
 
-- id: cassell2002mack
-  title: 'MACK: Media lab Autonomous Conversational Kiosk'
-  authors: [Justine Cassell, Tom Stocky, Tim Bickmore, Yang Gao, Yukiko Nakano, Kimiko Ryokai, Dona Tversky, Catherine Vaucelle, Hannes Vilhjálmsson]
-  year: 2002
-  venue: Imagina'02
-  type: conference
-  category: system
-  links: {paper: 'https://www.media.mit.edu/gnl/pubs//imagina02.pdf'}
-  input: [text]
-  output: [upper-body, hands, face]
-  approach: [rule-based]
-  setting: [dyadic]
-  realtime: unreported
-  user_study: false
-  summary: Describes an embodied conversational kiosk agent that gives directions with speech, hand gesture and map projections, generating nonverbal behavior from template text with the rule-based BEAT toolkit.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
 - id: duncan2002gesture
   title: Gesture, verb aspect, and the nature of iconic imagery in natural discourse
   authors: [Susan Duncan]
@@ -188,19 +169,6 @@
   checked: metadata
   verified: false
   area: social-interaction
-
-- id: gao2002automatic
-  title: Automatic extraction of spatial location for gesture generation
-  authors: [Yang Gao]
-  year: 2002
-  venue: MIT
-  type: thesis
-  category: method
-  links: {paper: 'https://dspace.mit.edu/handle/1721.1/87236'}
-  notes: M.Eng. and S.B. thesis, MIT EECS. Only the repository record was read; no abstract available.
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
 
 - id: garber2002gesture
   title: Gesture offers insight into problem‐solving in adults and children
@@ -376,19 +344,6 @@
   checked: abstract
   verified: false
 
-- id: kshirsagar2002avatar
-  title: Avatar Markup Language
-  authors: [Sumedha Kshirsagar, Nadia Magnenat‐Thalmann, Anthony Guye-Vuillème, 'Thalmann, D.', 'Kamyab, K.', 'Mamdani, E.']
-  year: 2002
-  venue: EPFL Infoscience
-  type: preprint
-  category: system
-  links: {paper: 'http://infoscience.epfl.ch/record/98942'}
-  summary: An XML-based high-level animation language that unifies text-to-speech, facial animation and body animation with synchronization for avatars, using MPEG-4 low-level parameters.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: mccafferty2002gesture
   title: Gesture and Creating Zones of Proximal Development for Second Language Learning
   authors: [Steven G. McCafferty]
@@ -412,19 +367,6 @@
   category: theory
   doi: 10.2466/pms.2002.94.1.71
   links: {paper: 'https://doi.org/10.2466/pms.2002.94.1.71'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: development
-
-- id: nicoladis2002encoding
-  title: 'Encoding motion in gestures and speech: are there differences in bilingual children''s French and English'
-  authors: [Elena Nicoladis, Frank Brisard]
-  year: 2002
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.490.8648'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -540,19 +482,6 @@
   verified: false
   area: other
 
-- id: poyatos2002nonverbalc
-  title: 'Nonverbal Communication across Disciplines: Volume 2: Paralanguage, kinesics, silence, personal and environmental interaction'
-  authors: [Fernando Poyatos]
-  year: 2002
-  venue: Unknown venue
-  type: book
-  category: theory
-  links: {paper: 'https://www.amazon.com/Nonverbal-Communication-across-Disciplines-environmental/dp/1556197543'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: other
-
 - id: quek2002multimodal
   title: Multimodal human discourse
   authors: [Francis K. H. Quek, David M. McNeill, Robert Bryll, Susan Duncan, Xinfeng Ma, Cemil Kirbas, Karl E. McCullough, Rashid Ansari]
@@ -581,20 +510,6 @@
   verified: false
   area: clinical
 
-- id: stocky2002shared
-  title: Shared reality
-  authors: [Tom Stocky, Justine Cassell]
-  year: 2002
-  venue: IUI
-  type: conference
-  category: system
-  doi: 10.1145/502716.502768
-  links: {paper: 'https://doi.org/10.1145/502716.502768'}
-  summary: MACK, an embodied conversational kiosk agent, answers questions and gives directions using speech, gesture and indications on a paper map.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: tabensky2002gesture
   title: Gesture and speech rephrasings in conversation
   authors: [Alexis Tabensky]
@@ -608,20 +523,6 @@
   checked: abstract
   verified: false
   area: social-interaction
-
-- id: valbonesi2002multimodal
-  title: 'Multimodal Signal Analysis Of Prosody And Hand Motion: Temporal Correlation Of Speech And Gestures'
-  authors: [Lucia Valbonesi, Rashid Ansari, David M. McNeill, Francis K. H. Quek, Susan Duncan, Karl-Erik McCullough]
-  year: 2002
-  venue: Zenodo (CERN European Organization for Nuclear Research)
-  type: journal
-  category: theory
-  doi: 10.5281/zenodo.37993
-  links: {paper: 'https://doi.org/10.5281/zenodo.37993'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
 
 - id: wachsmuth2002lifelike
   title: Lifelike Gesture Synthesis and Timing for Conversational Agents

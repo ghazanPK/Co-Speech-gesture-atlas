@@ -30,19 +30,6 @@
   verified: false
   area: linguistics
 
-- id: andersen2018good
-  title: 'Good hand, bad hand: correlations between gesturing hand and speech valence'
-  authors: [Linea Brink Andersen]
-  year: 2018
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://lup.lub.lu.se/student-papers/record/8959153/file/8959154.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: arachchige2018verbal
   title: The effect of verbal working memory load in speech/gesture integration processing.
   authors: [Kendra Kandana Arachchige, Henning Holle, Isabelle Simoes Loureiro, Wivine Blekić, Mandy Rossignol, Laurent Lefebvre]
@@ -252,20 +239,6 @@
   verified: false
   area: linguistics
 
-- id: clough2018speech
-  title: Co-speech gesture integration in hippocampal amnesia
-  authors: [Sharice Clough, Karla Kay McGregor, Melissa Collins Duff, Susan Wagner Cook]
-  year: 2018
-  venue: Unknown venue
-  type: thesis
-  category: theory
-  doi: 10.17077/etd.89r2mell
-  links: {paper: 'https://doi.org/10.17077/etd.89r2mell'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: neuroscience
-
 - id: cocks2018integration
   title: Integration of speech and gesture in aphasia
   authors: [Naomi Cocks, Suzanne Byrne, Madeleine Pritchard, GARY S. MORGAN, Lucy T. Dipper]
@@ -450,19 +423,6 @@
   checked: abstract
   verified: false
 
-- id: fritz2018gesture
-  title: How gesture and speech interact during production and comprehension
-  authors: [Isabella Fritz]
-  year: 2018
-  venue: University of Birmingham Institutional Research Archive (University of Birmingham)
-  type: thesis
-  category: theory
-  links: {paper: 'http://etheses.bham.ac.uk/8084/1/Fritz18PhD.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: fritz2018information
   title: 'Information packaging in speech shapes information packaging in gesture: The role of speech planning units in the coordination of speech-gesture production'
   authors: [Isabella Fritz, Sotaro Kita, Jeannette Littlemore, Andrea Krott]
@@ -533,22 +493,6 @@
   verified: false
   area: linguistics
 
-- id: hadjicosti2018motiongraph
-  title: Generating Audio-driven Emotional Gestures using Motion Graphs
-  authors: [J. Hadjicosti]
-  year: 2018
-  venue: Utrecht University
-  type: thesis
-  category: method
-  links: {paper: 'https://dspace.library.uu.nl:8080/handle/1874/363578'}
-  input: [audio, style]
-  approach: [retrieval]
-  setting: [monologue]
-  summary: Builds a motion graph from segmented mocap and selects segments online using prosody features of live speech and a specified conversational attitude.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: han2018corpus
   title: A Corpus of Natural Multimodal Spatial Scene Descriptions
   authors: [Ting Han, David Schlangen]
@@ -572,19 +516,6 @@
   category: theory
   doi: 10.1017/9781108265065
   links: {paper: 'https://doi.org/10.1017/9781108265065'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
-- id: harrison2018impulseb
-  title: 'The Impulse to Gesture: Where Language, Minds, and Bodies Intersect'
-  authors: [Simon Harrison]
-  year: 2018
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://www.dietmardreier.de/annot/426F6F6B446174617C7C393738313130383430343639337C7C434F50.jpg?sq=2'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -720,19 +651,6 @@
   verified: false
   area: linguistics
 
-- id: hirrel2018cyclic
-  title: 'CYCLIC GESTURES AND MULTIMODAL SYMBOLIC ASSEMBLIES: AN ARGUMENT FOR SYMBOLIC COMPLEXITY IN GESTURE'
-  authors: [Laura A. Hirrel]
-  year: 2018
-  venue: UNM’s Digital Repository (University of New Mexico)
-  type: journal
-  category: theory
-  links: {paper: 'https://digitalrepository.unm.edu/ling_etds/57'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: hostetter2018seeing
   title: Does seeing gesture lighten or increase the load?
   authors: [Autumn B. Hostetter, Stuart H. Murch, Lyla Rothschild, Cierra S. Gillard]
@@ -760,19 +678,6 @@
   checked: abstract
   verified: false
   area: education
-
-- id: hubscher2018preschoolers
-  title: 'Preschoolers'' pragmatic development: how prosody and gesture lend a helping hand'
-  authors: [Iris Hübscher]
-  year: 2018
-  venue: LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)
-  type: thesis
-  category: theory
-  links: {paper: 'http://hdl.handle.net/10803/593503'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: development
 
 - id: hunter2018relating
   title: 'Relating gesture to speech: reflections on the role of conditional presuppositions'
@@ -1271,20 +1176,6 @@
   verified: false
   area: cognition
 
-- id: pouw2018delayed
-  title: 'Effects of delayed auditory feedback on gesture-speech synchrony: Pre-registration and exploratory study'
-  authors: [Wim T. J. L. Pouw, James A. Dixon]
-  year: 2018
-  venue: Unknown venue
-  type: preprint
-  category: theory
-  doi: 10.31234/osf.io/3uhpv
-  links: {paper: 'https://doi.org/10.31234/osf.io/3uhpv'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: pouw2018entrainment
   title: Entrainment and Modulation of Gesture–Speech Synchrony Under Delayed Auditory Feedback
   authors: [Wim T. J. L. Pouw, James A. Dixon]
@@ -1341,20 +1232,6 @@
   verified: false
   area: psycholinguistics
 
-- id: pouw2018stabilizing
-  title: Stabilizing Speech Production through Gesture-Speech Coordination
-  authors: [Wim T. J. L. Pouw, Lisette de Jonge‐Hoekstra, James A. Dixon]
-  year: 2018
-  venue: Unknown venue
-  type: preprint
-  category: theory
-  doi: 10.31234/osf.io/arzne
-  links: {paper: 'https://doi.org/10.31234/osf.io/arzne'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: preisig2018multimodal
   title: 'Multimodal Communication in Aphasia: Perception and Production of Co-speech Gestures During Face-to-Face Conversation'
   authors: [Basil Christoph Preisig, Noëmi Eggenberger, Dario Cazzoli, Thomas Nyffeler, Klemens Gutbrod, Jean‐Marie Annoni, Jurka R. Meichtry, Tobias Nef, René M. Müri]
@@ -1398,21 +1275,6 @@
   summary: Extracts image schemas from speech text with WordNet, maps them to gesture invariants through a dictionary, and realizes metaphoric gestures for an embodied conversational agent.
   added: '2026-10-03'
   checked: full-text
-  verified: false
-
-- id: ravenet2018imageschemas
-  title: Automatic Nonverbal Behavior Generation from Image Schemas
-  authors: [Brian Ravenet, Chloé Clavel, Catherine Pélachaud]
-  year: 2018
-  venue: unknown
-  type: conference
-  category: method
-  doi: 10.65109/nhje8666
-  links: {paper: 'https://doi.org/10.65109/nhje8666', open: 'https://telecom-paris.hal.science/hal-02287759'}
-  summary: A framework that links speech and metaphoric gestures for embodied conversational agents through shared image schemas, with steps from text analysis to gesture production.
-  notes: Venue not stated in the metadata or abstract. Preliminary results and demonstrations only.
-  added: '2026-10-03'
-  checked: abstract
   verified: false
 
 - id: rusiewicz2018time
@@ -1613,22 +1475,6 @@
   checked: abstract
   verified: false
   area: linguistics
-
-- id: tenventura2018corpus
-  title: Partially Automatically Annotated Corpus To Predict Gestural Cues In Embodied Conversational Agents
-  authors: [Carla Ten-Ventura]
-  year: 2018
-  venue: Zenodo
-  type: preprint
-  category: dataset
-  doi: 10.5281/zenodo.1316349
-  links: {paper: 'https://doi.org/10.5281/zenodo.1316349', open: 'https://zenodo.org/record/1316349'}
-  languages: [es]
-  summary: A small corpus of Spanish political speeches with transcriptions, syntactic and communicative-structure annotation and beat versus no-gesture tags annotated from video.
-  notes: Small, mostly manually annotated, annotation agreement not computed, per the authors.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: tieu2018speech
   title: 'Co-speech gesture projection: Evidence from inferential judgments'

@@ -30,19 +30,6 @@
   verified: false
   area: psycholinguistics
 
-- id: mcneill1980conceptual
-  title: Conceptual Representations in Language Activity and Gesture.
-  authors: [David M. McNeill, Elena T. Levy]
-  year: 1980
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://eric.ed.gov/?id=ED201202'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: psycholinguistics
-
 - id: wiens1980personality
   title: Personality correlates of nonverbal interview behavior
   authors: [Arthur N. Wiens, Robert G. Harper, Joseph D. Matarazzo]

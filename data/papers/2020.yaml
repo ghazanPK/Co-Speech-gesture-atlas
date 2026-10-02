@@ -50,21 +50,6 @@
   checked: full-text
   verified: true
 
-- id: ajibo2020generation
-  title: Generation and Evaluation of Audio-Visual Anger Emotional Expression for Android Robot
-  authors: [Chinenye Augustine Ajibo, Ryusuke Mikata, Chaoran Liu, Carlos Toshinori Ishi, Hiroshi Ishiguro]
-  year: 2020
-  venue: HRI
-  type: conference
-  category: system
-  doi: 10.1145/3371382.3378282
-  links: {paper: 'https://doi.org/10.1145/3371382.3378282'}
-  user_study: true
-  summary: Implements anger-related gestures on a humanoid robot based on analysis of a multimodal human-human corpus and subjectively evaluates which gesture suits which anger utterance type.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: aldugom2020gesture
   title: Gesture during math instruction specifically benefits learners with high visuospatial working memory capacity
   authors: [Mary Aldugom, Kimberly M. Fenn, Susan Wagner Cook]
@@ -121,29 +106,6 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
-
-- id: alexanderson2020stylegesturesb
-  title: The StyleGestures entry to the GENEA Challenge 2020
-  authors: [Simon Alexanderson]
-  year: 2020
-  venue: GENEA Workshop
-  type: workshop
-  category: method
-  doi: 10.5281/zenodo.4088600
-  links: {paper: 'https://zenodo.org/record/4088600', code: 'https://github.com/simonalexanderson/StyleGestures', video: 'https://www.youtube.com/watch?v=JZgBlJKGFGk'}
-  input: [audio]
-  output: [upper-body]
-  representation: [joints-3d]
-  approach: [normalizing-flow, autoregressive]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [genea-2020]
-  metrics: []
-  user_study: true
-  summary: Submits the StyleGestures probabilistic model, an autoregressive normalising flow with LSTM coupling layers that generates upper-body poses one step at a time from mel-spectrogram features, without text and without style control.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
 
 - id: ali2020rule
   title: Automatic text‐to‐gesture rule generation for embodied conversational agents
@@ -228,20 +190,6 @@
   checked: abstract
   verified: false
   area: clinical
-
-- id: bekke2020predictive
-  title: 'The predictive potential of hand gestures during conversation: An investigation of the timing of gestures in relation to speech'
-  authors: [Marlijn ter Bekke, Linda Drijvers, Judith Holler]
-  year: 2020
-  venue: Unknown venue
-  type: journal
-  category: theory
-  doi: 10.31234/osf.io/b5zq7
-  links: {paper: 'https://doi.org/10.31234/osf.io/b5zq7'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
 
 - id: billotvasquez2020emblem
   title: Emblem Gestures Improve Perception and Evaluation of Non-native Speech
@@ -447,20 +395,6 @@
   verified: false
   area: clinical
 
-- id: cooperrider2020fifteen
-  title: Fifteen ways of looking at a pointing gesture
-  authors: [Kensy Cooperrider]
-  year: 2020
-  venue: The public journal of semiotics
-  type: journal
-  category: theory
-  doi: 10.31234/osf.io/2vxft
-  links: {paper: 'https://doi.org/10.31234/osf.io/2vxft'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: other
-
 - id: dargue2020hands
   title: 'Two hands and a tale: When gestures benefit adult narrative comprehension'
   authors: [Nicole Dargue, Naomi Sweller]
@@ -617,21 +551,6 @@
   verified: false
   area: linguistics
 
-- id: ginosar2020modeling
-  title: 'Modeling Visual Minutiae: Gestures, Styles, and Temporal Patterns'
-  authors: [Shiry Ginosar]
-  year: 2020
-  venue: eScholarship
-  type: thesis
-  category: method
-  links: {paper: 'https://escholarship.org/uc/item/3ws1647q'}
-  input: [audio]
-  summary: Doctoral dissertation whose first part models conversational gestures from multi-modal correlations between audio and motion learned from video without human annotations.
-  notes: Only part of the thesis concerns co-speech gesture; remaining parts cover motion transfer, historical visual patterns and abstract art.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: guarino2020teaching
   title: Teaching Analogical Reasoning With Co-speech Gesture Shows Children Where to Look, but Only Boosts Learning for Some
   authors: [Katharine F. Guarino, Elizabeth M. Wakefield]
@@ -688,20 +607,6 @@
   verified: false
   area: education
 
-- id: hartholt2020multiplatform
-  title: 'Multi-Platform Expansion of the Virtual Human Toolkit: Ubiquitous Conversational Agents'
-  authors: [Arno Hartholt, Ed Fast, Adam Reilly, Wendy Whitcup, Matt Liewer, Sharon Mozgai]
-  year: 2020
-  venue: IJSC
-  type: journal
-  category: system
-  doi: 10.1142/s1793351x20400127
-  links: {paper: 'https://doi.org/10.1142/s1793351x20400127'}
-  summary: Extends the Virtual Human Toolkit, which includes nonverbal behavior generation and realization, to mobile, web, VR and AR platforms through microservices.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: hartman2020figurative
   title: 'Figurative meaning in multimodal work by an autistic artist: a cognitive semantic approach'
   authors: [Jenny Hartman, Carita Paradis]
@@ -743,20 +648,6 @@
   checked: abstract
   verified: false
   area: psycholinguistics
-
-- id: hinnell2020language
-  title: 'Language in the body: Multimodality in grammar and discourse'
-  authors: [Jennifer Hinnell]
-  year: 2020
-  venue: 'ERA: Education and Research Archive (University of Alberta)'
-  type: thesis
-  category: theory
-  doi: 10.7939/r3-1nhm-5c89
-  links: {paper: 'https://doi.org/10.7939/r3-1nhm-5c89'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
 
 - id: hoetjes2020gesture
   title: 'Using Gesture to Facilitate L2 Phoneme Acquisition: The Importance of Gesture and Phoneme Complexity'
@@ -921,20 +812,6 @@
   verified: false
   area: psycholinguistics
 
-- id: kim2020gesture
-  title: 'Gesture Production and Theory of Mind: Effective Disambiguation in Communication through Gesture'
-  authors: [Minju Kim, Adena Schachner]
-  year: 2020
-  venue: Unknown venue
-  type: journal
-  category: theory
-  doi: 10.31234/osf.io/xdsvj
-  links: {paper: 'https://doi.org/10.31234/osf.io/xdsvj'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: cognition
-
 - id: korzun2020finemotion
   title: FineMotion - Audio and Text-Driven approach for Conversational Gestures Generation
   year: 2020
@@ -945,44 +822,6 @@
   added: '2026-10-03'
   checked: metadata
   verified: false
-
-- id: korzun2020finemotionb
-  title: The FineMotion entry to the GENEA Challenge 2020
-  authors: [Vladislav Korzun, Ilya Dimov, Andrey Zharkov]
-  year: 2020
-  venue: GENEA Workshop
-  type: workshop
-  category: method
-  doi: 10.5281/zenodo.4088609
-  links: {paper: 'https://zenodo.org/record/4088609', code: 'https://github.com/FineMotion/GENEA_2020'}
-  input: [text, audio]
-  output: [upper-body]
-  representation: [joints-3d]
-  approach: [regression]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [genea-2020]
-  metrics: [joint-error]
-  user_study: true
-  summary: GRU sequence-to-sequence models with attention that predict upper-body joint rotations from MFCC audio features and GloVe word embeddings, with a context-window encoder and Savitzky-Golay smoothing.
-  notes: Entry to the GENEA Challenge 2020; an adversarial variant was tried but dropped from the final system. Joint error on a held-out recording is used only as a sanity check. Human evaluation was run by the challenge organizers.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
-- id: krishnaswamy2020formal
-  title: A Formal Analysis of Multimodal Referring Strategies Under Common Ground
-  authors: [Nikhil Krishnaswamy, James D. Pustejovsky]
-  year: 2020
-  venue: arXiv (Cornell University)
-  type: preprint
-  category: theory
-  arxiv: '2003.07385'
-  links: {paper: 'https://arxiv.org/abs/2003.07385'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
 
 - id: kruzic2020facial
   title: Facial expressions contribute more than body movements to conversational outcomes in avatar-mediated virtual environments
@@ -1010,24 +849,6 @@
   checked: abstract
   verified: false
   area: cognition
-
-- id: kucherenko2020genea
-  title: 'The GENEA Challenge 2020: Benchmarking gesture-generation systems on common data'
-  authors: [Taras Kucherenko, Patrik Jonell, Youngwoo Yoon, Pieter Wolfert, Gustav Eje Henter]
-  year: 2020
-  venue: GENEA Workshop
-  type: workshop
-  category: challenge
-  doi: 10.5281/zenodo.4094697
-  links: {paper: 'https://zenodo.org/record/4094697', open: 'https://biblio.ugent.be/publication/8743221/file/8743222.pdf', code: 'https://github.com/Svito-zar/genea_numerical_evaluations', project: 'https://genea-workshop.github.io/2020/'}
-  datasets: [genea-2020]
-  metrics: [accel-jerk, velocity-hist]
-  user_study: true
-  summary: Reports the first GENEA challenge, in which five teams and two baselines trained upper-body gesture generators on the same Trinity data and were rated together in large crowdsourced human-likeness and appropriateness studies.
-  notes: Presented at the GENEA Workshop 2020, part of IVA'20. 9 conditions evaluated by 125 participants per study in a MUSHRA-like interface; objective jerk and velocity histogram results were inconsistent with the subjective ratings.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
 
 - id: kucherenko2020gesticulator
   title: 'Gesticulator: A framework for semantically-aware speech-driven gesture generation'
@@ -1124,20 +945,6 @@
   verified: false
   area: cognition
 
-- id: longauerova2020frequency
-  title: The frequency, variation, and semantic integration of co-speech gesture production in verbal adolescents diagnosed with Autism Spectrum Disorder
-  authors: [Renata Longauerova]
-  year: 2020
-  venue: Unknown venue
-  type: journal
-  category: theory
-  doi: 10.31234/osf.io/qdxje
-  links: {paper: 'https://doi.org/10.31234/osf.io/qdxje'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: clinical
-
 - id: lopezozieblo2020proposing
   title: Proposing a revised functional classification of pragmatic gestures
   authors: [Renia López-Ozieblo]
@@ -1165,30 +972,6 @@
   checked: abstract
   verified: false
   area: linguistics
-
-- id: lu2020doubledcccae
-  title: 'Double-DCCCAE: Estimation of Sequential Body Motion Using Wave-Form - AlltheSmooth'
-  authors: [JinHong Lu, TianHang Liu, ShuZhuang Xu, Hiroshi Shimodaira]
-  year: 2020
-  venue: GENEA Workshop
-  type: workshop
-  category: method
-  doi: 10.5281/zenodo.4088376
-  links: {paper: 'https://zenodo.org/record/4088376'}
-  input: [audio]
-  output: [upper-body]
-  representation: [joints-3d]
-  approach: [regression]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [genea-2020]
-  metrics: [cca, joint-error]
-  user_study: true
-  summary: Two canonical-correlation-constrained autoencoders embed speech waveform and body motion, a feed-forward network maps the speech embedding to the motion embedding, and a neural post-filter smooths the decoded motion.
-  notes: GENEA Challenge 2020 entry (team SB in the paper). Human evaluation was run by the challenge organizers. MSE is used for the post-filter analysis and local CCA for feature analysis.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
 
 - id: luke2020integrated
   title: 'Integrated Communication System: Gesture and Language Acquisition in Typically Developing Children and Children With LD and DLD'
@@ -1437,59 +1220,6 @@
   verified: false
   area: linguistics
 
-- id: pang2020cgvu
-  title: 'CGVU: Semantics-guided 3D Body Gesture Synthesis'
-  authors: [Kunkun Pang, Taku Komura, Hanbyul Joo, Takaaki Shiratori]
-  year: 2020
-  venue: GENEA Workshop
-  type: workshop
-  category: method
-  doi: 10.5281/zenodo.4090879
-  links: {paper: 'https://zenodo.org/record/4090879', video: 'https://www.youtube.com/watch?v=MBSX0OLHRRU'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
-- id: polancec2020pragmatic
-  title: 'Pragmatic analysis of hand gestures: a case study of co-speech gestures in two different genres of videos'
-  authors: [Ivana Polančec]
-  year: 2020
-  venue: ODRAZ (University of Zagreb Faculty of Humanities and SocialSciences)
-  type: thesis
-  category: theory
-  links: {paper: 'https://repozitorij.ffzg.unizg.hr/islandora/object/ffzg:3412'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
-- id: pons2020temporal
-  title: 'Temporal integration of gesture and speech in narrative discourse: an insight into the development of co-speech gesture use'
-  authors: [Júlia Florit Pons]
-  year: 2020
-  venue: Unknown venue
-  type: thesis
-  category: theory
-  links: {paper: 'https://repositori.upf.edu/handle/10230/46884'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: development
-
-- id: pouw2020gesture
-  title: Gesture-speech physics in fluent speech and rhythmic upper limb movements
-  authors: [Wim T. J. L. Pouw, Lisette de Jonge‐Hoekstra, Steven A. Harrison, Alexandra Paxton, James A. Dixon]
-  year: 2020
-  venue: Annals of the New York Academy of Sciences
-  type: journal
-  category: theory
-  doi: 10.31234/osf.io/359te
-  links: {paper: 'https://doi.org/10.31234/osf.io/359te'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: prieto2020negation
   title: Negation, Prosody, and Gesture
   authors: [Pilar Prieto, M. Teresa Espinal]
@@ -1554,20 +1284,6 @@
   category: theory
   doi: 10.1075/gest.19007.saf
   links: {paper: 'https://doi.org/10.1075/gest.19007.saf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
-- id: schouwstra2020emergence
-  title: 'The emergence of word order conventions: improvisation, interaction and transmission'
-  authors: [Marieke Schouwstra, Kenny Smith, Simon Kirby]
-  year: 2020
-  venue: Unknown venue
-  type: preprint
-  category: theory
-  doi: 10.31234/osf.io/wdfu2
-  links: {paper: 'https://doi.org/10.31234/osf.io/wdfu2'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1671,30 +1387,6 @@
   verified: false
   area: cognition
 
-- id: thangthai2020nectec
-  title: The Nectec Gesture Generation System entry to the GENEA Challenge 2020
-  authors: [Ausdang Thangthai, Kwanchiva Thangthai, Arnon Namsanit, Sumonmas Thatphithakkul, Sittipong Saychum]
-  year: 2020
-  venue: GENEA Workshop
-  type: workshop
-  category: method
-  doi: 10.5281/zenodo.4088629
-  links: {paper: 'https://zenodo.org/record/4088629', video: 'https://www.youtube.com/watch?v=0m0wKkNmrgQ'}
-  input: [text, audio]
-  output: [upper-body]
-  representation: [joints-3d]
-  approach: [regression]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [genea-2020]
-  languages: [en]
-  metrics: []
-  user_study: true
-  summary: Predicts a 40-dimensional autoencoder encoding of 15 upper-body joints from phonetic, linguistic, word-embedding and acoustic features with an encoder-decoder bidirectional LSTM.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
 - id: tian2020chinese
   title: 'Chinese international students’ multicultural identity and second language development: gesture awareness and use'
   authors: [Lixian Tian, Steven G. McCafferty]
@@ -1708,20 +1400,6 @@
   checked: abstract
   verified: false
   area: development
-
-- id: trujillo2020evidence
-  title: 'Evidence for a Multimodal Lombard Effect: Speakers modulate not only speech but also gesture to overcome noise'
-  authors: [James P. Trujillo, Asli, Judith Holler, Linda Drijvers]
-  year: 2020
-  venue: Unknown venue
-  type: journal
-  category: theory
-  doi: 10.31234/osf.io/3jdmq
-  links: {paper: 'https://doi.org/10.31234/osf.io/3jdmq'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
 
 - id: tuyen2020conditional
   title: Conditional Generative Adversarial Network for Generating Communicative Robot Gestures
@@ -2005,20 +1683,6 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
-
-- id: zhang2020word
-  title: Word predictability, prosody, gesture and mouth movements in face-to-face language comprehension
-  authors: [Ye Zhang, Diego Frassinelli, Jyrki Tuomainen, Jeremy I Skipper, Gabriella Vigliocco]
-  year: 2020
-  venue: bioRxiv (Cold Spring Harbor Laboratory)
-  type: preprint
-  category: theory
-  doi: 10.1101/2020.01.08.896712
-  links: {paper: 'https://doi.org/10.1101/2020.01.08.896712'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: neuroscience
 
 - id: zhu2020commentary
   title: Commentary for “Sex Steroids as Modulators of Gestural Communication”

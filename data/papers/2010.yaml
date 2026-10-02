@@ -71,19 +71,6 @@
   verified: false
   area: perception
 
-- id: andren2010childrens
-  title: Children's Gestures from 18 to 30 Months
-  authors: [Mats Andrén]
-  year: 2010
-  venue: Lund University Publications (Lund University)
-  type: thesis
-  category: theory
-  links: {paper: 'https://lup.lub.lu.se/record/1700528'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: development
-
 - id: bach2010gesturing
   title: 'Gesturing Meaning: Non-action Words Activate the Motor System'
   authors: [Patric Bach, Debra Griffiths, Matthias Weigelt, Steven P. Tipper]
@@ -167,21 +154,6 @@
   checked: metadata
   verified: false
   area: neuroscience
-
-- id: bohus2010facilitating
-  title: Facilitating multiparty dialog with gaze, gesture, and speech
-  authors: [Dan Bohus, Eric Horvitz]
-  year: 2010
-  venue: ICMI
-  type: conference
-  category: system
-  doi: 10.1145/1891903.1891910
-  links: {paper: 'https://doi.org/10.1145/1891903.1891910'}
-  setting: [multi-party]
-  summary: An embodied conversational agent renders synchronized gaze, gesture and speech, built on a turn-taking framework, to shape the flow of multiparty conversations.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: boo2010efficacy
   title: The efficacy of repetition, semantic, and gesture treatments for verb retrieval and use in Broca's aphasia
@@ -390,19 +362,6 @@
   verified: false
   area: linguistics
 
-- id: duncan2010multi
-  title: Multi-modal Analysis of Interactional Rapport in Three Language/Cultural Groups
-  authors: [Susan Duncan, Tizziana Baldenebro, Gina‐Anne Levow]
-  year: 2010
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://projects.ict.usc.edu/mhcd2010/hcd-duncan.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
-
 - id: elms2010gesture
   title: Gesture-to-Speech Mismatch in the Construction of Problem Solving Insight
   authors: [J.T.E. Elms]
@@ -454,32 +413,6 @@
   verified: false
   area: neuroscience
 
-- id: ferre2010timing
-  title: Timing Relationships between Speech and Co-Verbal Gestures in Spontaneous French
-  authors: [Gaëlle Ferré]
-  year: 2010
-  venue: HAL (Le Centre pour la Communication Scientifique Directe)
-  type: journal
-  category: theory
-  links: {paper: 'https://hal.science/hal-00485797'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
-- id: furman2010early
-  title: Early language-specificity in Turkish children's caused motion event expressions in speech and gesture
-  authors: [Reyhan Furman, Aslı Özyürek, Ayli̇n C. Küntay]
-  year: 2010
-  venue: Radboud Repository (Radboud University)
-  type: book
-  category: theory
-  links: {paper: 'http://hdl.handle.net/2066/86070'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: development
-
 - id: galati2010speech
   title: The role of speech-gesture congruency and delay in remembering action events
   authors: [Alexia Galati, Arthur G. Samuel]
@@ -507,19 +440,6 @@
   checked: abstract
   verified: false
   area: other
-
-- id: giorgolo2010space
-  title: Space and Time in Our Hands
-  authors: [Gianluca Giorgolo]
-  year: 2010
-  venue: Utrecht University Repository (Utrecht University)
-  type: thesis
-  category: theory
-  links: {paper: 'https://dspace.library.uu.nl/handle/1874/179364'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
 
 - id: goldinmeadow2010actions
   title: 'Action’s Influence on Thought: The Case of Gesture'
@@ -771,19 +691,6 @@
   verified: false
   area: clinical
 
-- id: kunene2010comparative
-  title: A comparative study of the development of multimodal narratives in french and zulu children and adults
-  authors: [Ramona Nkosinathi Kunene]
-  year: 2010
-  venue: OpenGrey (Institut de l'Information Scientifique et Technique)
-  type: thesis
-  category: theory
-  links: {paper: 'http://hdl.handle.net/10068/856387'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: development
-
 - id: lempert2010candidate
   title: Candidate Brand Through Cospeech Gesture
   authors: [Michael P. Lempert]
@@ -912,19 +819,6 @@
   verified: false
   area: clinical
 
-- id: marghetis2010dynamic
-  title: 'Dynamic construals, static formalisms: Evidence from co-speech gesture during mathematical proving'
-  authors: [Tyler Marghetis, Rafael E. Núñez]
-  year: 2010
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://www.cogsci.ucsd.edu/~nunez/web/CRL-22-1.pdf'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: cognition
-
 - id: matoesian2010multimodality
   title: Multimodality and forensic linguistics* Multimodal aspects of victim’s narrative in direct examination
   authors: [Gregory M. Matoesian]
@@ -1023,19 +917,6 @@
   links: {paper: 'https://doi.org/10.1007/978-3-642-12553-9_1'}
   added: '2026-10-03'
   checked: metadata
-  verified: false
-  area: psycholinguistics
-
-- id: parkdoob2010gesturing
-  title: 'Gesturing Through Time: Holds and Intermodal Timing in the Stream of Speech'
-  authors: [Mischa Park-Doob]
-  year: 2010
-  venue: ProQuest Demo Repository
-  type: thesis
-  category: theory
-  links: {paper: 'http://pqdtopen.proquest.com/#viewpdf?dispub=3449059'}
-  added: '2026-10-03'
-  checked: abstract
   verified: false
   area: psycholinguistics
 
@@ -1308,19 +1189,6 @@
   checked: abstract
   verified: false
   area: neuroscience
-
-- id: tenchini2010reporting
-  title: 'Reporting Gesture and Voice in Reporting Speech: Co-verbal Language in Literature'
-  authors: [Maria Paola Tenchini]
-  year: 2010
-  venue: HAL (Le Centre pour la Communication Scientifique Directe)
-  type: journal
-  category: theory
-  links: {paper: 'https://hal.science/halshs-03658342v1'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
 
 - id: tomasello2010comparison
   title: A Comparison of the Gestural Communication of Apes and Human Infants

@@ -46,20 +46,6 @@
   checked: abstract
   verified: false
 
-- id: cassell2001embodied
-  title: 'Embodied conversational agents: representation and intelligence in user interfaces'
-  authors: [Justine Cassell]
-  year: 2001
-  venue: AI Magazine
-  type: journal
-  category: system
-  doi: 10.1609/aimag.v22i4.1593
-  links: {paper: 'https://doi.org/10.1609/aimag.v22i4.1593'}
-  summary: Discusses representation and intelligence in an embodied conversational agent that conveys information through voice and hand gestures using a modality-independent internal representation.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: cassell2001nonverbal
   title: Non-verbal cues for discourse structure
   authors: [Justine Cassell, Yukiko Nakano, Timothy Bickmore, Candace L. Sidner, Charles Rich]
@@ -397,17 +383,3 @@
   checked: abstract
   verified: false
   area: cognition
-
-- id: zhao2001laban
-  title: Synthesis and acquisition of laban movement analysis qualitative parameters for communicative gestures
-  authors: [Liwei Zhao, Norman I. Badler]
-  year: 2001
-  venue: University of Pennsylvania
-  type: thesis
-  category: method
-  links: {paper: 'https://repository.upenn.edu/dissertations/AAI3015399', open: 'https://repository.upenn.edu/cgi/viewcontent.cgi?article=1118&context=cis_reports'}
-  approach: [rule-based]
-  summary: The EMOTE system procedurally synthesizes communicative gestures from key poses and timing plus Laban Effort and Shape qualities, and extracts these qualities from motion capture or video.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false

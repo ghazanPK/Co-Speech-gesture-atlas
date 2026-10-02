@@ -2,19 +2,6 @@
 # The README tables are generated from these files. Field rules: docs/SCHEMA.md
 # (enforced by schema/schema.json and scripts/validate.py).
 
-- id: ahlsen2011integrated
-  title: Towards an integrated view of gestures related to speech
-  authors: [Elisabeth Ahlsén]
-  year: 2011
-  venue: DSpace repository (University of Tartu)
-  type: journal
-  category: theory
-  links: {paper: 'http://hdl.handle.net/10062/22549'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: other
-
 - id: alahverdzhieva2011hpsg
   title: An HPSG approach to synchronous speech and deixis
   authors: [Katya Alahverdzhieva, Alex Lascarides]
@@ -362,32 +349,6 @@
   verified: false
   area: cognition
 
-- id: cooperrider2011reference
-  title: 'Reference in action : links between pointing and language'
-  authors: [Kensy Cooperrider]
-  year: 2011
-  venue: eScholarship (California Digital Library)
-  type: thesis
-  category: theory
-  links: {paper: 'https://escholarship.org/uc/item/52g063b5'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
-- id: cuffari2011speech
-  title: Co-Speech Gesture in Communication and Cognition
-  authors: [Elena Clare Cuffari]
-  year: 2011
-  venue: Scholars' Bank (University of Oregon)
-  type: thesis
-  category: theory
-  links: {paper: 'http://hdl.handle.net/1794/12145'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: cognition
-
 - id: cutica2011gesture
   title: '“The More You Gesture, the Less I Gesture”: Co-Speech Gestures as a Measure of Mental Model Quality'
   authors: [Ilaria Cutica, Monica Bucciarelli]
@@ -526,20 +487,6 @@
   checked: abstract
   verified: false
   area: linguistics
-
-- id: gardner2011nonverbal
-  title: Nonverbal communication among Pointe Coupee Creoles
-  authors: [Elsie Gardner]
-  year: 2011
-  venue: Unknown venue
-  type: thesis
-  category: theory
-  doi: 10.31390/gradschool_dissertations.78
-  links: {paper: 'https://doi.org/10.31390/gradschool_dissertations.78'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
 
 - id: gerwing2011flexible
   title: The flexible semantic integration of gestures and words
@@ -706,19 +653,6 @@
   checked: abstract
   verified: false
   area: social-interaction
-
-- id: holroyd2011engagement
-  title: Generating Engagement Behaviors in Human-Robot Interaction
-  authors: [Aaron Holroyd]
-  year: 2011
-  venue: WPI
-  type: thesis
-  category: system
-  links: {paper: 'https://digitalcommons.wpi.edu/etd-theses/328'}
-  summary: A ROS module adds gaze and pointing gestures to referring phrases and other connection events for a humanoid robot, plus an event-driven BML realizer for robots.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: hostetter2011chapter
   title: Chapter 5. If you don’t already know, I’m certainly not going to show you!
@@ -943,19 +877,6 @@
   verified: false
   area: social-interaction
 
-- id: li2011speech
-  title: Do Speech-associated Gesture and Speech Share the Same Communication System?
-  authors: [Ma Li]
-  year: 2011
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://en.cnki.com.cn/Article_en/CJFDTOTAL-XLXD201107007.htm'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: lim2011converting
   title: Converting emotional voice to motion for robot telepresence
   authors: [Angelica Lim, Tetsuya Ogata, Hiroshi G. Okuno]
@@ -968,20 +889,6 @@
   input: [audio, emotion]
   user_study: true
   summary: Generates pose-independent affective robot movement for a NAO humanoid from a speed, intensity, regularity and extent (DESIRE) description of emotion, which can be derived from voice.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
-- id: lim2011robotic
-  title: Robotic gesture-speech synchronization
-  authors: ['Lim, Keck Soon.']
-  year: 2011
-  venue: DR-NTU
-  type: thesis
-  category: system
-  links: {paper: 'http://hdl.handle.net/10356/44964'}
-  input: [text]
-  summary: A text-to-speech-to-gesture engine that plans gestures, blends motions, generates beat gestures at run time and synchronises them with speech timings on the Olivia 2.1 robot.
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -999,19 +906,6 @@
   checked: abstract
   verified: false
   area: neuroscience
-
-- id: liu2011temporal
-  title: Temporal relation between speech and co-verbal iconic gestures in multimodal interface design
-  authors: [Jing Liu, Manolya Kavakli]
-  year: 2011
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://researchers.mq.edu.au/en/publications/temporal-relation-between-speech-and-co-verbal-iconic-gestures-in'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: psycholinguistics
 
 - id: lloberes2011pragmatic
   title: 'Pragmatic coherence as a multimodal feature: Illustrative cospeech gestures, events, and states'
@@ -1138,19 +1032,6 @@
   verified: false
   area: psycholinguistics
 
-- id: navarretta2011anaphora
-  title: Anaphora and Gestures in Multimodal Communication
-  authors: [Costanza Navarretta]
-  year: 2011
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.477.2737'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: niewiadomski2011crossmedia
   title: Cross-media agent platform
   authors: [Radosław Niewiadomski, Mohammad Obaid, Elisabetta Bevacqua, Julian Looser, Le Quoc Anh, Catherine Pélachaud]
@@ -1175,19 +1056,6 @@
   category: theory
   doi: 10.1177/1470357211398439
   links: {paper: 'https://doi.org/10.1177/1470357211398439'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
-- id: ott2011prominence
-  title: Prominence in gesture and speech in American English and Italian
-  authors: [A. Ott]
-  year: 2011
-  venue: Purdue e-Pubs (Purdue University System)
-  type: thesis
-  category: theory
-  links: {paper: 'https://docs.lib.purdue.edu/dissertations/AAI1510256'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1247,21 +1115,6 @@
   checked: abstract
   verified: false
   area: clinical
-
-- id: reidsma2011continuous
-  title: Continuous interaction with a virtual human
-  authors: [Dennis Reidsma, Iwan de Kok, Daniel Neiberg, Sathish Pammi, Bart van Straalen, Khiet P. Truong, Herwin van Welbergen]
-  year: 2011
-  venue: JMUI
-  type: journal
-  category: system
-  doi: 10.1007/s12193-011-0060-x
-  links: {paper: 'https://doi.org/10.1007/s12193-011-0060-x'}
-  user_study: true
-  summary: A virtual human that acts as an attentive speaker, scheduling and interrupting multimodal behavior and adapting to its partner's listener responses.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: rowbotham2011communicate
   title: How Do We Communicate About Pain? A Systematic Analysis of the Semantic Contribution of Co-speech Gestures in Pain-focused Conversations
@@ -1333,19 +1186,6 @@
   checked: abstract
   verified: false
   area: development
-
-- id: sikveland2011ordination
-  title: 'Co-ordination of speech and gesture in sequence and time : phonetic and non-verbal detail in face-to-face interaction'
-  authors: [Rein Ove Sikveland]
-  year: 2011
-  venue: White Rose eTheses Online (University of Leeds, The University of Sheffield, University of York)
-  type: thesis
-  category: theory
-  links: {paper: 'http://etheses.whiterose.ac.uk/1778/1/ReinSikvelandPhDThesis_2011.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
 
 - id: smithson2011bilingual
   title: Bilingual children’s gesture use
@@ -1431,19 +1271,6 @@
   verified: false
   area: development
 
-- id: welbergen2011behavior
-  title: 'Behavior generation for interpersonal coordination with virtual humans : on specifying, scheduling and realizing multimodal virtual human behavior'
-  authors: [van Herwin Welbergen]
-  year: 2011
-  venue: Thesis
-  type: thesis
-  category: system
-  doi: 10.3990/1.9789036532334
-  links: {paper: 'https://doi.org/10.3990/1.9789036532334', open: 'https://ris.utwente.nl/ws/files/6035043/thesis_H_van_Welbergen.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: wilkin2011chapter
   title: Chapter 22. Speakers’ use of ‘action’ and ‘entity’ gestures with definite and indefinite references
   authors: [Katie Wilkin, Judith Holler]
@@ -1471,30 +1298,3 @@
   checked: abstract
   verified: false
   area: neuroscience
-
-- id: xiaoqiong2011cognitive
-  title: Cognitive Interpretation of Metaphor on Co-speech Gesture
-  authors: [Yang Xiao-qiong]
-  year: 2011
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://en.cnki.com.cn/Article_en/CJFDTOTAL-CQGS201109019.htm'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
-- id: yang2011talking
-  title: 'The Talking Hands?: The Relation between Gesture and Language in Aphasic Patients'
-  authors: [Fu Ju Yang]
-  year: 2011
-  venue: Unitn-eprints PhD (University of Trento)
-  type: thesis
-  category: theory
-  doi: 10.15168/11572_368910
-  links: {paper: 'https://doi.org/10.15168/11572_368910'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: clinical

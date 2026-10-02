@@ -30,19 +30,6 @@
   verified: false
   area: development
 
-- id: kendon1990gesticulation
-  title: Gesticulation, Quotable Gestures, and Signs
-  authors: [Adam Kendon]
-  year: 1990
-  venue: Institutional Repositories DataBase (IRDB)
-  type: journal
-  category: theory
-  links: {paper: 'https://minpaku.repo.nii.ac.jp/records/3183'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: mcneill1990chapter
   title: Chapter 7 Speech and Gesture
   authors: [David M. McNeill, Laura Pedelty, Elena T. Levy]
@@ -56,19 +43,6 @@
   checked: metadata
   verified: false
   area: psycholinguistics
-
-- id: moerman1990studying
-  title: Studying Gestures in Social Context
-  authors: [Michael Moerman]
-  year: 1990
-  venue: Institutional Repositories DataBase (IRDB)
-  type: journal
-  category: theory
-  links: {paper: 'https://minpaku.repo.nii.ac.jp/records/3182'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
 
 - id: pitcairn1990nonverbal
   title: Non‐verbal cues in the self‐presentation of Parkinsonian patients

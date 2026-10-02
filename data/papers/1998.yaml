@@ -2,19 +2,6 @@
 # The README tables are generated from these files. Field rules: docs/SCHEMA.md
 # (enforced by schema/schema.json and scripts/validate.py).
 
-- id: adams1998gesture
-  title: Gesture in foreigner talk
-  authors: [Thomas W. Adams]
-  year: 1998
-  venue: Scholarly Commons (University of Pennsylvania)
-  type: thesis
-  category: theory
-  links: {paper: 'https://repository.upenn.edu/dissertations/AAI9829850'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: barcenas1998language
   title: 'Language and gesture in lower income and middle class Spanish-speaking children: Can parental report be used?'
   authors: [RosaPatricia Bárcenas, Donna Jackson‐Maldonado, Donna J. Thal]
@@ -225,19 +212,6 @@
   verified: false
   area: linguistics
 
-- id: gullberg1998gestureb
-  title: Gesture as a communication strategy in second language discourse
-  authors: [Marianne Gullberg]
-  year: 1998
-  venue: Unknown venue
-  type: book
-  category: theory
-  links: {paper: 'https://openlibrary.org/books/OL21882623M/Gesture_as_a_communication_strategy_in_second_language_discourse'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: linguistics
-
 - id: hadar1998gesture
   title: 'Gesture and the Processing of Speech: Neuropsychological Evidence'
   authors: [Uri Hadar, D. Wenkert-Olenik, Robert K. Krauss, Nachum Soroker]
@@ -363,19 +337,6 @@
   verified: false
   area: cognition
 
-- id: mcneill1998models
-  title: Models of Speaking (To Their Amazement) Meet Speech-Synchronized Gestures
-  authors: [David M. McNeill]
-  year: 1998
-  venue: CogPrints (University of Southampton)
-  type: preprint
-  category: theory
-  links: {paper: 'http://cogprints.org/665/1/McNeill_Catchments.html'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: namy1998words
   title: 'Words and Gestures: Infants'' Interpretations of Different Forms of Symbolic Reference'
   authors: [Laura L. Namy, Sandra R. Waxman]
@@ -430,20 +391,6 @@
   checked: metadata
   verified: false
   area: psycholinguistics
-
-- id: torres1998semantic
-  title: Producing semantically appropriate gestures in embodied language generation
-  authors: [Obed E. Torres]
-  year: 1998
-  venue: MIT
-  type: thesis
-  category: method
-  links: {paper: 'http://hdl.handle.net/1721.1/62627', open: 'https://dspace.mit.edu/bitstreams/c3c24bb6-7a36-47b7-9c77-49d6c57e4840/download'}
-  approach: [rule-based]
-  summary: Proposes hypotheses on distributing semantic information across speech and gesture and on realizing it in gestural forms, and builds a rule-based prototype to explore them.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: troisi1998nonverbal
   title: 'Non‐verbal behaviour deficits in schizophrenia: an ethological study of drug‐free patients'

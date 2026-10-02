@@ -57,21 +57,6 @@
   checked: abstract
   verified: false
 
-- id: cassell1994modeling
-  title: Modeling the Interaction between Speech and Gesture
-  authors: [Justine Cassell, Matthew Stone, Brett Douville, Scott Prevost, Brett Achorn, Mark J. Steedman, Norm Badler, Catherine Pélachaud]
-  year: 1994
-  venue: UPenn CIS technical report
-  type: preprint
-  category: system
-  doi: 10.21236/ada290549
-  links: {paper: 'http://doi.org/10.21236/ada290549', open: 'https://repository.upenn.edu/bitstreams/997b3ed2-edf6-4cc3-a650-2e378b7644cd/download'}
-  approach: [rule-based]
-  summary: A system that generates spoken dialogue with intonation and gesture between two cooperating agents, driving two animated 3D figures according to a theory of the speech-gesture relationship.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: chawla1994gesture
   title: Gesture and Speech in Spontaneous and Rehearsed Narratives
   authors: [Purnima Chawla, Robert M. Krauss]

@@ -16,23 +16,6 @@
   checked: abstract
   verified: false
 
-- id: aly2014robot
-  title: 'Towards an Interactive Human-Robot Relationship: Developing a Customized Robot Behavior to Human Profile.'
-  authors: [Amir Aly]
-  year: 2014
-  venue: HAL
-  type: thesis
-  category: method
-  links: {paper: 'https://pastel.archives-ouvertes.fr/tel-01128923'}
-  input: [audio]
-  output: [upper-body]
-  approach: [other]
-  user_study: true
-  summary: Generates head-arm metaphoric gestures for a robot from prosodic cues of human speech using Coupled Hidden Markov Models, within a personality- and emotion-adaptive multimodal behaviour system.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: andrews2014gestures
   title: 'Gestures as Requests for Information: Initiating Repair Operations in German Native-Speaker Conversation'
   authors: [Derek Andrews]
@@ -156,20 +139,6 @@
   verified: false
   area: development
 
-- id: chiu2014generating
-  title: Generating gestures from speech for virtual humans using machine learning approaches
-  year: 2014
-  venue: USC
-  type: thesis
-  category: method
-  doi: 10.25549/usctheses-c3-447274
-  links: {paper: 'https://doi.org/10.25549/usctheses-c3-447274'}
-  input: [audio]
-  summary: Learns a gesture generator from dyadic interview speech and motion capture by splitting the task into speech to gesture class and gesture class to gesture motion.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: chiu2014gesture
   title: Gesture generation with low-dimensional embeddings
   year: 2014
@@ -269,21 +238,6 @@
   checked: abstract
   verified: false
   area: development
-
-- id: devault2014simsensei
-  title: 'SimSensei kiosk: a virtual human interviewer for healthcare decision support'
-  authors: [David DeVault, Ron Artstein, Grace Benn, Teresa Dey, Ed Fast, Alesia Gainer, Kallirroi Georgila, Jon Gratch, Arno Hartholt, Margaux Lhommet, Gale Lucas, Stacy Marsella]
-  year: 2014
-  venue: AAMAS
-  type: conference
-  category: system
-  doi: 10.5555/2615731.2617415
-  links: {paper: 'https://dl.acm.org/citation.cfm?id=2617415'}
-  user_study: true
-  summary: Describes a fully automatic virtual human interviewer, developed from human interaction analysis and a Wizard-of-Oz prototype, that produces spoken and gestural responses.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: estevegibert2014gesture
   title: Are gesture and prosodic prominences always coordinated? Evidence from perception and production
@@ -509,19 +463,6 @@
   verified: false
   area: psycholinguistics
 
-- id: holler2014communicative
-  title: How communicative intent influences adults’ co-speech gestures
-  authors: [Judith Holler]
-  year: 2014
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://pure.mpg.de/pubman/faces/ViewItemOverviewPage.jsp?itemId=item_2351208'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: social-interaction
-
 - id: holler2014eyem
   title: 'Eye’m talking to you: speakers’ gaze direction modulates co-speech gesture processing in the right MTG'
   authors: [Judith Holler, Idil Kokal, Ivan Toni, Peter Hagoort, Spencer D. Kelly, Aslı Özyürek]
@@ -731,19 +672,6 @@
   verified: false
   area: psycholinguistics
 
-- id: lis2014classifying
-  title: Classifying the form of iconic hand gestures from the linguistic categorization of co-occurring verbs
-  authors: [Magdalena Lis, Costanza Navarretta]
-  year: 2014
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://www.ep.liu.se/ecp/101/005/ecp13101005.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: lucero2014beat
   title: Beat gestures facilitate speech production.
   authors: [Ché Lucero, Holly A. Zaharchuk, Daniel J. Casasanto]
@@ -924,19 +852,6 @@
   checked: abstract
   verified: false
   area: clinical
-
-- id: mathew2014hand
-  title: A Study of Hand Gestures in Adult Speakers of Malayalam
-  authors: [Mili Mary Mathew]
-  year: 2014
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://languageinindia.com/oct2014/milimalayalamgesturesfinal.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
 
 - id: mcneill2014gesturespeech
   title: Gesture–speech unity
@@ -1194,19 +1109,6 @@
   verified: false
   area: clinical
 
-- id: rowbotham2014feel
-  title: 'I see how you feel: Speakers’ gestures help people to understand their pain'
-  authors: [Samantha J. Rowbotham, Judith Holler, Alison J. Wearden, Donna M. Lloyd]
-  year: 2014
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://pure.mpg.de/pubman/faces/ViewItemOverviewPage.jsp?itemId=item_2351410'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: perception
-
 - id: rowbotham2014increased
   title: Increased Pain Intensity Is Associated with Greater Verbal Communication Difficulty and Increased Production of Speech and Co-Speech Gestures
   authors: [Samantha J. Rowbotham, April J. Wardy, Donna M. Lloyd, Alison J. Wearden, Judith Holler]
@@ -1261,19 +1163,6 @@
   checked: abstract
   verified: false
   area: social-interaction
-
-- id: schreer2014coding
-  title: Coding Hand Movement Behavior and Gesture with NEUROGES Supported by Automatic Video Analysis
-  authors: [Oliver Schreer, Stefano Masneri, Harald Skomroch, Hedda Lausberg, Fraunhofer Heinrich]
-  year: 2014
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://www.measuringbehavior.org/files/2014/Proceedings/Schreer,%20O.%20-%20MB2014.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: other
 
 - id: seyfeddinipur2014gesture
   title: From Gesture in Conversation to Visible Action as Utterance
@@ -1330,19 +1219,6 @@
   checked: metadata
   verified: false
   area: psycholinguistics
-
-- id: smotrova2014instructional
-  title: Instructional functions of speech and gesture in the L2 classroom
-  authors: [Tetyana Smotrova]
-  year: 2014
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://etda.libraries.psu.edu/catalog/22677'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: education
 
 - id: so2014development
   title: The development of co-speech gesture and its semantic integration with speech in 6- to 12-year-old children with autism spectrum disorders
@@ -1427,21 +1303,6 @@
   checked: abstract
   verified: false
   area: cognition
-
-- id: wachsmuth2014body
-  title: 151. Body movements in robotics
-  authors: [Ipke Wachsmuth, Maha Salem]
-  year: 2014
-  venue: Handbook chapter
-  type: thesis
-  category: survey
-  doi: 10.1515/9783110302028.1943
-  links: {paper: 'https://doi.org/10.1515/9783110302028.1943'}
-  summary: Overview chapter on body movements in robotics, covering communicative gesture, off-line and on-line motion generation, and transfer of multimodal motion scheduling from virtual agents to humanoid robots.
-  notes: Book chapter; type set to thesis only because no book-chapter value exists in the schema.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: williams2014hear
   title: 'Hear What They Say and Watch What They Do: Predicting Valid Mathematical Proofs Using Speech and Gesture'
@@ -1575,20 +1436,6 @@
   category: theory
   doi: 10.1515/cogsem-2014-0002
   links: {paper: 'https://doi.org/10.1515/cogsem-2014-0002'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: development
-
-- id: zvaigzne2014integrative
-  title: An integrative approach to understanding factors that influence monolingual and bilingual children's use of iconic co-speech gestures
-  authors: [Meghan Zvaigzne]
-  year: 2014
-  venue: eScholarship@McGill (McGill)
-  type: thesis
-  category: theory
-  doi: 10.82308/53093
-  links: {paper: 'https://doi.org/10.82308/53093'}
   added: '2026-10-03'
   checked: abstract
   verified: false

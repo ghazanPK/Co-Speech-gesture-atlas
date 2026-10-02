@@ -213,19 +213,6 @@
   verified: false
   area: linguistics
 
-- id: carro2015coming
-  title: 'Coming of age in gesture : A comparative study of gesturing and pantomiming in older children and adults'
-  authors: [Ingrid Masson Carro, Martijn B. Goudbeek, Emiel Krahmer]
-  year: 2015
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://pure.uvt.nl/ws/files/7707497/Masson_Goudbeek_Krahmer_2015.Coming_of_age_in_gesture_A_comparative_study.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: development
-
 - id: chiu2015predicting
   title: 'Predicting Co-verbal Gestures: A Deep and Temporal Modeling Approach'
   authors: [Chung-Cheng Chiu, Louis-Philippe Morency, Stacy Marsella]
@@ -297,19 +284,6 @@
   verified: false
   area: linguistics
 
-- id: dancygier2015viewpoint
-  title: 'Viewpoint in Language: A Multimodal Perspective'
-  authors: [Barbara Dancygier, Eve E. Sweetser]
-  year: 2015
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://bvbr.bib-bvb.de:8991/F?func=service&amp;doc_library=BVB01&amp;local_base=BVB01&amp;doc_number=024752652&amp;sequence=000002&amp;line_number=0001&amp;func_code=DB_RECORDS&amp;service_type=MEDIA'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: dimitrova2015parents
   title: Parents’ Translations of Child Gesture Facilitate Word Learning in Children with Autism, Down Syndrome and Typical Development
   authors: [Nevena Dimitrova, Şeyda Özçalışkan, Lauren B. Adamson]
@@ -337,23 +311,6 @@
   checked: abstract
   verified: false
   area: clinical
-
-- id: fernandezbaena2015bodyspeech
-  title: Animation and Interaction of Responsive, Expressive, and Tangible 3D Virtual Characters
-  authors: [Adso Fernández Baena]
-  year: 2015
-  venue: TDX
-  type: thesis
-  category: system
-  links: {paper: 'https://dialnet.unirioja.es/servlet/tesis?codigo=73783'}
-  input: [audio, text]
-  output: [face]
-  approach: [rule-based, retrieval]
-  summary: Thesis that relates gesture and pitch intensity to select gestures from a gesture motion graph for speech input, and presents BodySpeech, which generates gestures and facial animation from a speech signal.
-  notes: Thesis also covers body part motion graphs for locomotion and AvatARs (virtual characters in augmented reality); only the speech-gesture part is in scope. Gesture body parts not stated in the abstract.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: gentilucci2015gesture
   title: On gesture and speech
@@ -441,19 +398,6 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
-
-- id: hassemer2015theory
-  title: 'Towards a theory of gesture form analysis : imaginary forms as part of gesture conceptualisation, with empirical support from motion-capture data'
-  authors: [Julius Hassemer, Irene Mittelberg, Klaus Willmes, F. Max Müller]
-  year: 2015
-  venue: RWTH Publications (RWTH Aachen)
-  type: thesis
-  category: theory
-  links: {paper: 'https://publications.rwth-aachen.de/search?p=id:%22RWTH-2016-04020%22'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
 
 - id: he2015fmri
   title: 'The EEG and fMRI signatures of neural integration: An investigation of meaningful gestures and corresponding speech'
@@ -551,19 +495,6 @@
   verified: false
   area: cognition
 
-- id: house2015temporal
-  title: 'On the temporal domain of co-speech gestures: syllable, phrase or talk spurt?'
-  authors: [David House, Simon Alexanderson, Jonas Beskow]
-  year: 2015
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.726.5211'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: klooster2015gestures
   title: Gestures make memories, but what kind? Patients with impaired procedural memory display disruptions in gesture production and comprehension
   authors: [Nathaniel B. Klooster, Susan Wagner Cook, Ergun Y. Uc, Melissa Collins Duff]
@@ -604,19 +535,6 @@
   checked: metadata
   verified: false
   area: linguistics
-
-- id: lambrechts2015quantifying
-  title: Quantifying the Use of Gestures in Autism Spectrum Disorder
-  authors: [Anna Lambrechts, Kielan Yarrow, Katie Maras, Riccardo Fusaroli, Sebastian Gaigg]
-  year: 2015
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://pure.au.dk/portal/en/publications/b034b552-1bc7-40b6-b8be-ced87007093b'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: clinical
 
 - id: lapakko2015communication
   title: 'Communication is 93% Nonverbal: An Urban Legend Proliferates'
@@ -724,20 +642,6 @@
   checked: full-text
   verified: true
 
-- id: lin2015individual
-  title: Effects of individual differences and task demand on co-speech gesture
-  authors: [Shan-ju Lin, Amanda Owen Van Horne, Susan W. Cook, Melissa Collins Duff, Karla Kay McGregor, J. Bruce Tomblin]
-  year: 2015
-  venue: Unknown venue
-  type: thesis
-  category: theory
-  doi: 10.17077/etd.p3eh1usp
-  links: {paper: 'https://doi.org/10.17077/etd.p3eh1usp'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: lucking2015pointing
   title: Pointing and reference reconsidered
   authors: [Andy Lücking, Thies Pfeiffer, Hannes Rieser]
@@ -816,19 +720,6 @@
   category: theory
   doi: 10.1017/cbo9781316480526
   links: {paper: 'https://doi.org/10.1017/cbo9781316480526'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
-- id: mcneill2015gesturec
-  title: 'Why We Gesture: The Surprising Role of Hand Movements in Communication'
-  authors: [David M. McNeill]
-  year: 2015
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://bvbr.bib-bvb.de:443/F?func=service&doc_library=BVB01&local_base=BVB01&doc_number=028261102&sequence=000003&line_number=0001&func_code=DB_RECORDS&service_type=MEDIA'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1084,19 +975,6 @@
   checked: abstract
   verified: false
   area: clinical
-
-- id: pastena2015talking
-  title: 'Talking and gesturing: Relationships between spoken language and coverbal gesture'
-  authors: [Angela Di Pastena, Loris Schiaratura, Françoise Askevis-Leherpeux]
-  year: 2015
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://www.cairn-int.info/article-E_ANPSY_153_0463--talking-and-gesturing-relationships.htm'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
 
 - id: peeters2015electrophysiol
   title: Electrophysiological and Kinematic Correlates of Communicative Intent in the Planning and Production of Pointing Gestures and Speech

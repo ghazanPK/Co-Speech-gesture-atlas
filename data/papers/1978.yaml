@@ -43,16 +43,3 @@
   checked: abstract
   verified: false
   area: psycholinguistics
-
-- id: lock1978action
-  title: 'Action, gesture, and symbol : the emergence of language'
-  authors: [Andrew Lock]
-  year: 1978
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://bvbr.bib-bvb.de:443/F?func=service&doc_library=BVB01&local_base=BVB01&doc_number=002307637&sequence=000002&line_number=0001&func_code=DB_RECORDS&service_type=MEDIA'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: development

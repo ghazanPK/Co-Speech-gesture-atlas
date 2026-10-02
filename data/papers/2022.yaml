@@ -422,20 +422,6 @@
   verified: false
   area: linguistics
 
-- id: feng2022tool
-  title: A Tool for Extracting 3D Avatar-Ready Gesture Animations from Monocular Videos
-  authors: [Andrew Feng, Samuel Shin, Youngwoo Yoon]
-  year: 2022
-  venue: unknown
-  type: conference
-  category: system
-  doi: 10.1145/3561975.3562953
-  links: {paper: 'https://doi.org/10.1145/3561975.3562953', open: 'https://dl.acm.org/doi/pdf/10.1145/3561975.3562953'}
-  input: [video]
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: fibigerova2022iconicity
   title: Iconicity in gesture
   authors: [Kateřina Fibigerová, Michèle Guidetti]
@@ -589,20 +575,6 @@
   verified: false
   area: other
 
-- id: grzyb2022communicative
-  title: Communicative efficiency in multimodal language
-  authors: [Beata J. Grzyb, Stefan L. Frank, Gabriella Vigliocco]
-  year: 2022
-  venue: Unknown venue
-  type: preprint
-  category: theory
-  doi: 10.31234/osf.io/a9wt3
-  links: {paper: 'https://doi.org/10.31234/osf.io/a9wt3'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: habibie2022motionmatching
   title: A Motion Matching-based Framework for Controllable Gesture Synthesis from Speech
   authors: [Ikhsanul Habibie, Mohamed A. Elgharib, Kripasindhu Sarkar, Ahsan Abdullah, Simbarashe Nyatsanga, Michael Neff, Christian Theobalt]
@@ -752,26 +724,6 @@
   checked: abstract
   verified: false
 
-- id: jin2022s2mnet
-  title: 'S2M-Net: Speech Driven Three-party Conversational Motion Synthesis Networks'
-  authors: [Aobo Jin, Qixin Deng, Zhigang Deng]
-  year: 2022
-  venue: unknown
-  type: conference
-  category: method
-  doi: 10.1145/3561975.3562954
-  links: {paper: 'https://doi.org/10.1145/3561975.3562954'}
-  input: [audio]
-  approach: [gan]
-  setting: [multi-party]
-  datasets: [custom]
-  user_study: true
-  summary: A conditional GAN with an LSTM encoder and decoder that maps acoustic speech and speaker marking to three-party conversational gesture kinematics.
-  notes: Venue not stated in the available text; venue field needs checking.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: karadoller2022sign
   title: 'Sign advantage: Both children and adults’ spatial expressions in sign are more informative than those in speech and gestures combined'
   authors: [Dilay Z. Karadöller, Beyza Sümer, Ercenur Ünal, Aslı Özyürek]
@@ -882,20 +834,6 @@
   checked: abstract
   verified: false
   area: linguistics
-
-- id: lelandais2022prosody
-  title: The Role of Prosody and Gesture in the Perception of Boundaries in Speech
-  authors: [Manon Lelandais, Gabriel Thiberge]
-  year: 2022
-  venue: SSRN Electronic Journal
-  type: preprint
-  category: theory
-  doi: 10.2139/ssrn.4273422
-  links: {paper: 'https://doi.org/10.2139/ssrn.4273422'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: perception
 
 - id: liang2022seeg
   title: 'SEEG: Semantic Energized Co-speech Gesture Generation'
@@ -1061,41 +999,6 @@
   checked: abstract
   verified: false
   area: psycholinguistics
-
-- id: mlakar2022eva
-  title: 'Understanding conversational interaction in multiparty conversations: the EVA Corpus'
-  authors: [Izidor Mlakar, Darinka Verdonik, Simona Majhenič, Matej Rojc]
-  year: 2022
-  venue: Language Resources and Evaluation
-  type: journal
-  category: dataset
-  doi: 10.1007/s10579-022-09627-y
-  links: {paper: 'https://doi.org/10.1007/s10579-022-09627-y', open: 'https://link.springer.com/content/pdf/10.1007/s10579-022-09627-y.pdf'}
-  setting: [multi-party]
-  languages: [sl]
-  summary: Multimodal multiparty conversation corpus for Slovenian with annotation layers for syntax, dialogue acts, emotions, non-verbal behaviour and gesture units, built to support embodied conversational agents.
-  notes: Largely an annotation scheme and corpus-analysis paper on speech and gesture; relevance to generation rests on its stated aim of improving embodied agents.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
-- id: mohan2022nao
-  title: A System for Giving Presentations with the NAO Robot
-  authors: [P. Mohan, Michael A. Hosein]
-  year: 2022
-  venue: GEM
-  type: conference
-  category: system
-  doi: 10.1109/gem56474.2022.10017306
-  links: {paper: 'https://doi.org/10.1109/gem56474.2022.10017306'}
-  input: [text]
-  output: [hands]
-  approach: [rule-based]
-  languages: [en]
-  summary: A presentation system in which a Presentation Markup Language script specifies speech text and hand gestures from a gesture repository, and a program is generated to make a NAO robot deliver the presentation.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: nair2022technology
   title: New Technology, Language and Gesture in Contemporary Indian Political Discourse
@@ -1265,19 +1168,6 @@
   verified: false
   area: linguistics
 
-- id: rohrer2022analyse
-  title: 'Une analyse temporelle et pragmatique de l’association geste-parole : une approche basée sur un corpus utilisant le nouveau système d’annotation MultiModal MultiDimensionnel (M3D)'
-  authors: [Patrick Louis Rohrer]
-  year: 2022
-  venue: HAL (Le Centre pour la Communication Scientifique Directe)
-  type: thesis
-  category: theory
-  links: {paper: 'https://theses.hal.science/tel-03994053'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: rohrer2022children
   title: Children Use Non-referential Gestures in Narrative Speech to Mark Discourse Elements Which Update Common Ground
   authors: [Patrick Louis Rohrer, Júlia Florit‐Pons, Ingrid Vilà‐Giménez, Pilar Prieto]
@@ -1305,21 +1195,6 @@
   checked: abstract
   verified: false
   area: linguistics
-
-- id: seppelfelt2022humanoidbot
-  title: 'HumanoidBot: Full-Body Humanoid Chitchat System'
-  authors: [Gabriel D. C. Seppelfelt, Tomoki Asaka, Takayuki Nagai, Soh Yukizaki]
-  year: 2022
-  venue: Humanoids
-  type: conference
-  category: system
-  doi: 10.1109/humanoids53995.2022.10000209
-  links: {paper: 'https://doi.org/10.1109/humanoids53995.2022.10000209'}
-  output: [full-body]
-  summary: A full-body humanoid robot chitchat system that performs gestures simultaneously with speech utterances in face-to-face open-domain dialogue.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: shimoyama2022visture
   title: 'VISTURE: A System for Video-Based Gesture and Speech Generation by Robots'
@@ -1572,23 +1447,6 @@
   checked: abstract
   verified: false
 
-- id: wolfert2022challenge
-  title: GENEA Challenge 2022 Dataset Files
-  authors: [Pieter Wolfert]
-  year: 2022
-  venue: Zenodo
-  type: preprint
-  category: dataset
-  doi: 10.5281/zenodo.6998231
-  links: {paper: 'https://zenodo.org/record/6998231'}
-  input: [audio, text]
-  datasets: [genea-2022]
-  summary: Data release for the GENEA Challenge 2022 with audio, time-aligned transcripts and BVH motion capture derived from Talking With Hands 16.2M.
-  notes: Zenodo record, CC BY 4.0; test set contains audio and transcripts only.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
 - id: wolfert2022review
   title: A Review of Evaluation Practices of Gesture Generation in Embodied Conversational Agents
   authors: [Pieter Wolfert, Nicole Robinson, Tony Belpaeme]
@@ -1633,29 +1491,6 @@
   checked: abstract
   verified: false
   area: psycholinguistics
-
-- id: xu2022freemo
-  title: Freeform Body Motion Generation from Speech
-  authors: [Jing Xu, Wei Zhang, Yalong Bai, Qibin Sun, Tao Mei]
-  year: 2022
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2203.02291'
-  links: {paper: 'https://arxiv.org/abs/2203.02291', code: 'https://github.com/TheTempAccount/Co-Speech-Motion-Generation'}
-  input: [audio, text, seed-motion]
-  representation: [keypoints-2d]
-  approach: [vae]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [speech2gesture, ted-gesture]
-  metrics: [diversity, other]
-  user_study: true
-  summary: Generates body motion from speech with two branches, a conditional VAE for diverse pose modes and a convolutional branch for prosody-synced rhythmic dynamics.
-  notes: Other metrics are landmark velocity difference and a classifier-based quality score.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
 
 - id: yang2022reprgesture
   title: 'ReprGesture: The ReprGesture entry to the GENEA Challenge 2022'

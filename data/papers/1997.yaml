@@ -43,19 +43,6 @@
   checked: abstract
   verified: false
 
-- id: beskow1997olga
-  title: Olga - a Conversational Agent With Gestures
-  authors: [Jonas Beskow, Scott McGlashan]
-  year: 1997
-  venue: unpublished
-  type: preprint
-  category: system
-  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.3458'}
-  summary: An animated 3D human-like agent interface for information services that combines spoken dialogue, lip-synchronised synthetic speech and gesturing.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: blake1997communicative
   title: Are Communicative Gestures the Substrate of Language?
   authors: [Joanna Blake, Esther Olshansky, Grace Vitale, Silvana Macdonald]

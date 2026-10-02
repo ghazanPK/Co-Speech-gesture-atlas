@@ -16,45 +16,6 @@
   verified: false
   area: clinical
 
-- id: ahlsen2013whats
-  title: What’s in a gesture? On verbs; nouns; actions and objects as reflected in gestures of persons with and without aphasia
-  authors: [Elisabeth Ahlsén, Jens Allwood]
-  year: 2013
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://sskkii.gu.se/jens/publications/bfiles/B128%20What%20is%20in%20a%20gesture%20Ahlsen%20Allwood.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: clinical
-
-- id: alexanderson2013extracting
-  title: Extracting and analysing co-speech head gestures from motion-capture data
-  authors: [Simon Alexanderson, David House, Jonas Beskow]
-  year: 2013
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://www.liu.se/ikk/fonetik2013/proceedings/1.466766/Alexanderson_House_Beskow_Fonetik2013.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
-- id: alexanderson2013extractingb
-  title: Extracting and analyzing head movements accompanying spontaneous dialogue
-  authors: [Simon Alexanderson, David House, Jonas Beskow]
-  year: 2013
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.416.8335'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: alibali2013students
   title: Students learn more when their teacher has learned to gesture effectively
   authors: [Martha Wagner Alibali, Andrew G. Young, Noelle M. Crooks, Amelia Yeo, Matthew S. Wolfgram, Iasmine M. Ledesma, Mitchell J. Nathan, Ruth Breckinridge Church, Eric Knuth]
@@ -483,20 +444,6 @@
   verified: false
   area: development
 
-- id: devilbiss2013occupational
-  title: An Analysis of Occupational Therapists� Listening Behaviors During Treatment Sessions
-  authors: [Steven DeVilbiss, Andreanna Rodriquez, Maria Tolentino]
-  year: 2013
-  venue: Unknown venue
-  type: thesis
-  category: theory
-  doi: 10.33015/dominican.edu/2013.ot.09
-  links: {paper: 'https://doi.org/10.33015/dominican.edu/2013.ot.09'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
-
 - id: diessel2013where
   title: Where does language come from? Some reflections on the role of deictic gesture and demonstratives in the evolution of language
   authors: [Holger Diessel]
@@ -814,19 +761,6 @@
   verified: false
   area: psycholinguistics
 
-- id: holler2013gesture
-  title: 'Gesture use in social context: The influence of common ground on co-speech gesture production in dyadic interaction'
-  authors: [Judith Holler]
-  year: 2013
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://pubman.mpdl.mpg.de/pubman/item/escidoc:1837454'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: social-interaction
-
 - id: holler2013heres
   title: Here's not looking at you, kid! Unaddressed recipients benefit from co-speech gestures when speech processing suffers
   authors: [Judith Holler, Louise Schubotz, Spencer D. Kelly, Manuela Schuetze, Peter Hagoort, Aslı Özyürek]
@@ -839,19 +773,6 @@
   checked: abstract
   verified: false
   area: perception
-
-- id: holler2013multi
-  title: 'Multi-modal language comprehension as a joint activity: The influence of eye gaze on the processing of speech and co-speech gesture in multi-party communication'
-  authors: [Judith Holler, Louise Schubotz, Spencer D. Kelly, Peter Hagoort, Aslı Özyürek]
-  year: 2013
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://pubman.mpdl.mpg.de/pubman/item/escidoc:1824810'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: psycholinguistics
 
 - id: huang2013designing
   title: Designing effective multimodal behaviors for robots
@@ -952,21 +873,6 @@
   verified: false
   area: development
 
-- id: kondo2013construction
-  title: Construction of Reconfigurable Motion Database for Real-Time Human-Robot Interaction
-  authors: [Yutaka Kondo]
-  year: 2013
-  venue: NAIST
-  type: thesis
-  category: method
-  doi: 10.34413/dr.01107
-  links: {paper: 'https://naist.repo.nii.ac.jp/records/10705'}
-  approach: [retrieval]
-  summary: Generates an android's body gestures in real time by reconfiguring a large motion-capture database, classified by bag-of-words and dynamic programming matching.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: kopp2013automatic
   title: Automatic and strategic alignment of co-verbal gestures in dialogue
   authors: [Stefan Kopp, Kirsten Bergmann]
@@ -1022,20 +928,6 @@
   verified: false
   area: clinical
 
-- id: le2013modeles
-  title: Modèles de gestes expressifs
-  authors: [Quôc Anh Lê]
-  year: 2013
-  venue: HAL (Le Centre pour la Communication Scientifique Directe)
-  type: thesis
-  category: method
-  links: {paper: 'https://hal.science/tel-01181000v1', open: 'https://pastel.hal.science/tel-01181000/document'}
-  output: [hands]
-  summary: Computational model that encodes communicative gestures by hand shape, wrist position and trajectory, schedules them to speech and renders them with expressivity parameters on the Greta agent and the Nao robot.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: lebarton2013experimentally
   title: Experimentally Induced Increases in Early Gesture Lead to Increases in Spoken Vocabulary
   authors: [Eve Sauer LeBarton, Susan Goldin‐Meadow, Stephen W. Raudenbush]
@@ -1063,19 +955,6 @@
   checked: abstract
   verified: false
   area: development
-
-- id: liu2013correlation
-  title: The Correlation of speech and hand gestures for multimodal web interaction
-  authors: [Jing Liu, Manolya Kavakli]
-  year: 2013
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://researchers.mq.edu.au/en/publications/the-correlation-of-speech-and-hand-gestures-for-multimodal-web-in'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
 
 - id: macedonia2013learning
   title: Learning a Second Language Naturally the Voice Movement Icon Approach
@@ -1222,19 +1101,6 @@
   verified: false
   area: neuroscience
 
-- id: nispen2013people
-  title: 'What can people with aphasia communicate with their hands?: A study of representation techniques in pantomime and co-speech gesture'
-  authors: [Karin van Nispen]
-  year: 2013
-  venue: Data Archiving and Networked Services (DANS)
-  type: thesis
-  category: theory
-  links: {paper: 'https://research.tilburguniversity.edu/en/publications/753fb803-f80d-4077-84a6-dcd5a33f98dd'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: clinical
-
 - id: nispen2013should
   title: Should pantomime and gesticulation be assessed separately for their comprehensibility in aphasia? A case study
   authors: [Karin van Nispen, Mieke W.M.E. van de Sandt-Koenderman, Lisette Mol, Emiel Krahmer]
@@ -1262,19 +1128,6 @@
   checked: metadata
   verified: false
   area: neuroscience
-
-- id: ovendale2013gesture
-  title: 'The role of gesture in cross-cultural and cross-linguistic learning contexts : the effect of gesture on the learning of mathematics'
-  authors: [Alice Ovendale]
-  year: 2013
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'https://ujcontent.uj.ac.za/vital/access/services/Download/uj:7428/CONTENT1'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: education
 
 - id: ozcalskan2013iconic
   title: Do iconic gestures pave the way for children's early verbs?
@@ -1512,19 +1365,6 @@
   verified: false
   area: psycholinguistics
 
-- id: saintamand2013alignment
-  title: Alignment of Speech and Co-speech Gesture in a Constraint-based Grammar
-  authors: [Katya Saint-Amand, Katya Saint Amand, Katya Alahverdzhieva]
-  year: 2013
-  venue: Unknown venue
-  type: thesis
-  category: theory
-  links: {paper: 'https://era.ed.ac.uk/bitstream/1842/7623/1/Saint-Amand2013.pdf'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: salem2013closedloop
   title: 'Generating finely synchronized gesture and speech for humanoid robots: a closed-loop approach'
   authors: [Maha Salem, Stefan Kopp, Frank Joublin]
@@ -1550,22 +1390,6 @@
   links: {paper: 'https://doi.org/10.1007/978-3-319-02675-6_38'}
   added: '2026-10-03'
   checked: metadata
-  verified: false
-
-- id: salem2013conceptual
-  title: Conceptual Motorics - Generation and Evaluation of Communicative Robot Gesture
-  authors: [Maha Salem]
-  year: 2013
-  venue: Bielefeld University
-  type: thesis
-  category: method
-  links: {paper: 'https://pub.uni-bielefeld.de/record/2519214'}
-  output: [hands]
-  user_study: true
-  summary: A framework lets a humanoid robot produce synthetic speech and co-verbal hand and arm gestures at run-time, synchronised by a multimodal scheduler, and tests how humans evaluate such gestures in two studies.
-  notes: Doctoral thesis; arm gestures are also generated. Fields read from the abstract only.
-  added: '2026-10-03'
-  checked: abstract
   verified: false
 
 - id: sekine2013gesture
@@ -1607,19 +1431,6 @@
   links: {paper: 'https://doi.org/10.7490/f1000research.1093601.1'}
   added: '2026-10-03'
   checked: metadata
-  verified: false
-  area: neuroscience
-
-- id: skipper2013report
-  title: Report Gestures Orchestrate Brain Networks for Language Understanding
-  authors: [Jeremy I Skipper, Susan Goldin‐Meadow, Howard C. Nusbaum, Steven L. Small]
-  year: 2013
-  venue: Unknown venue
-  type: journal
-  category: theory
-  links: {paper: 'http://goldin-meadow-lab.uchicago.edu/sites/goldin-meadow-lab.uchicago.edu/files/uploads/PDFs/2009%20Skipper%2C%20GM%2C%20Nusbaum%2C%20Small.pdf'}
-  added: '2026-10-03'
-  checked: abstract
   verified: false
   area: neuroscience
 
