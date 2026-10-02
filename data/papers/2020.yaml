@@ -88,15 +88,21 @@
   category: method
   doi: 10.1145/3383652.3423874
   arxiv: '2101.05684'
-  links: {paper: 'https://doi.org/10.1145/3383652.3423874', open: 'https://arxiv.org/abs/2101.05684', project: 'https://simonalexanderson.github.io/IVA2020/'}
+  links: {paper: 'https://doi.org/10.1145/3383652.3423874', open: 'https://arxiv.org/abs/2101.05684', project: 'https://simonalexanderson.github.io/IVA2020/', video: 'https://www.youtube.com/watch?v=4_Gq9rU_yWg'}
   input: [text]
-  output: [full-body]
+  output: [full-body, hands, locomotion]
+  representation: [joints-3d]
+  approach: [normalizing-flow, autoregressive]
   setting: [monologue]
   realtime: unreported
-  summary: Proof-of-concept system that generates spontaneous-sounding speech and full-body gestures together from text, combining spontaneous-speech TTS with probabilistic speech-driven gesture generation trained on one speaker's audio and motion capture.
+  datasets: [trinity]
+  metrics: []
+  user_study: false
+  summary: Chains a Tacotron 2 spontaneous-speech synthesiser with a MoGlow normalising-flow gesture generator, so text input yields both speech and full-body gesture, trained on one actor's audio and motion capture.
+  notes: Proof-of-concept with 3 pages; evaluated by gesture-space visualisation and hand-velocity peak distributions, no objective metrics or user study. Spoken language not stated.
   added: '2026-10-03'
-  checked: abstract
-  verified: false
+  checked: full-text
+  verified: true
 
 - id: alexanderson2020stylegestures
   title: Style-Controllable Speech-Driven Gesture Synthesis Using Normalising Flows
@@ -124,10 +130,20 @@
   type: workshop
   category: method
   doi: 10.5281/zenodo.4088600
-  links: {paper: 'https://zenodo.org/record/4088600', video: 'https://www.youtube.com/watch?v=JZgBlJKGFGk'}
+  links: {paper: 'https://zenodo.org/record/4088600', code: 'https://github.com/simonalexanderson/StyleGestures', video: 'https://www.youtube.com/watch?v=JZgBlJKGFGk'}
+  input: [audio]
+  output: [upper-body]
+  representation: [joints-3d]
+  approach: [normalizing-flow, autoregressive]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [genea-2020]
+  metrics: []
+  user_study: true
+  summary: Submits the StyleGestures probabilistic model, an autoregressive normalising flow with LSTM coupling layers that generates upper-body poses one step at a time from mel-spectrogram features, without text and without style control.
   added: '2026-10-03'
-  checked: metadata
-  verified: false
+  checked: full-text
+  verified: true
 
 - id: ali2020rule
   title: Automatic text‐to‐gesture rule generation for embodied conversational agents
@@ -938,10 +954,21 @@
   type: workshop
   category: method
   doi: 10.5281/zenodo.4088609
-  links: {paper: 'https://zenodo.org/record/4088609', code: 'https://github.com/FineMotion/GENEA_2020', video: 'https://www.youtube.com/watch?v=q29d9Hfbifk'}
+  links: {paper: 'https://zenodo.org/record/4088609', code: 'https://github.com/FineMotion/GENEA_2020'}
+  input: [text, audio]
+  output: [upper-body]
+  representation: [joints-3d]
+  approach: [regression]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [genea-2020]
+  metrics: [joint-error]
+  user_study: true
+  summary: GRU sequence-to-sequence models with attention that predict upper-body joint rotations from MFCC audio features and GloVe word embeddings, with a context-window encoder and Savitzky-Golay smoothing.
+  notes: Entry to the GENEA Challenge 2020; an adversarial variant was tried but dropped from the final system. Joint error on a held-out recording is used only as a sanity check. Human evaluation was run by the challenge organizers.
   added: '2026-10-03'
-  checked: metadata
-  verified: false
+  checked: full-text
+  verified: true
 
 - id: krishnaswamy2020formal
   title: A Formal Analysis of Multimodal Referring Strategies Under Common Ground
@@ -992,9 +1019,14 @@
   type: workshop
   category: challenge
   doi: 10.5281/zenodo.4094697
-  links: {paper: 'https://zenodo.org/record/4094697', open: 'https://biblio.ugent.be/publication/8743221/file/8743222.pdf'}
+  links: {paper: 'https://zenodo.org/record/4094697', open: 'https://biblio.ugent.be/publication/8743221/file/8743222.pdf', code: 'https://github.com/Svito-zar/genea_numerical_evaluations', project: 'https://genea-workshop.github.io/2020/'}
+  datasets: [genea-2020]
+  metrics: [accel-jerk, velocity-hist]
+  user_study: true
+  summary: Reports the first GENEA challenge, in which five teams and two baselines trained upper-body gesture generators on the same Trinity data and were rated together in large crowdsourced human-likeness and appropriateness studies.
+  notes: Presented at the GENEA Workshop 2020, part of IVA'20. 9 conditions evaluated by 125 participants per study in a MUSHRA-like interface; objective jerk and velocity histogram results were inconsistent with the subjective ratings.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: kucherenko2020gesticulator
@@ -1143,9 +1175,20 @@
   category: method
   doi: 10.5281/zenodo.4088376
   links: {paper: 'https://zenodo.org/record/4088376'}
+  input: [audio]
+  output: [upper-body]
+  representation: [joints-3d]
+  approach: [regression]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [genea-2020]
+  metrics: [cca, joint-error]
+  user_study: true
+  summary: Two canonical-correlation-constrained autoencoders embed speech waveform and body motion, a feed-forward network maps the speech embedding to the motion embedding, and a neural post-filter smooths the decoded motion.
+  notes: GENEA Challenge 2020 entry (team SB in the paper). Human evaluation was run by the challenge organizers. MSE is used for the post-filter analysis and local CCA for feature analysis.
   added: '2026-10-03'
-  checked: metadata
-  verified: false
+  checked: full-text
+  verified: true
 
 - id: luke2020integrated
   title: 'Integrated Communication System: Gesture and Language Acquisition in Typically Developing Children and Children With LD and DLD'
@@ -1331,17 +1374,26 @@
   title: Audio-Driven Robot Upper-Body Motion Synthesis
   authors: [Jan Ondras, Oya Çeliktutan, Paul Bremner, Hatice Güneş]
   year: 2020
-  venue: IEEE Trans. Cybernetics
+  venue: TCYB
   type: journal
   category: method
   doi: 10.1109/tcyb.2020.2966730
-  links: {paper: 'https://doi.org/10.1109/tcyb.2020.2966730', open: 'https://kclpure.kcl.ac.uk/portal/en/publications/f517e727-c75e-4825-a929-e37bb98c0ab2'}
+  links: {paper: 'https://doi.org/10.1109/tcyb.2020.2966730', open: 'https://www.repository.cam.ac.uk/handle/1810/301038', code: 'https://github.com/jancio/Audio-driven-upper-body-motion-synthesis'}
   input: [audio]
   output: [upper-body]
-  summary: A neural network maps speech audio to head, hand and torso movements of a Pepper humanoid robot, with generic and person-specific models.
+  representation: [other]
+  approach: [regression]
+  setting: [monologue]
+  realtime: real-time
+  latency: Per-frame model inference 1 ms (MLP) and 41 ms (LSTM) plus about 9 ms other operations, on a quad-core 2.2 GHz i7 CPU
+  datasets: [custom]
+  metrics: [joint-error, cca, accel-jerk]
+  user_study: true
+  summary: MLP and LSTM regressors map audio features (MFCC or log filter banks) to 11 upper-body joint angles of a Pepper robot, trained on video-derived 3D pose, with filtering to the robot's joint limits.
+  notes: Trained on an existing audio-visual dataset (from the authors' cited prior work) of 20 subjects (hobby description and picture story tasks) with Big Five personality scores; subject-independent and subject-dependent models are compared. Output is robot joint angles (head, shoulders, elbows, hip roll).
   added: '2026-10-03'
-  checked: abstract
-  verified: false
+  checked: full-text
+  verified: true
 
 - id: overoye2020gesture
   title: Does Gesture Lighten the Load? The Case of Verbal Analogies
@@ -1628,9 +1680,20 @@
   category: method
   doi: 10.5281/zenodo.4088629
   links: {paper: 'https://zenodo.org/record/4088629', video: 'https://www.youtube.com/watch?v=0m0wKkNmrgQ'}
+  input: [text, audio]
+  output: [upper-body]
+  representation: [joints-3d]
+  approach: [regression]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [genea-2020]
+  languages: [en]
+  metrics: []
+  user_study: true
+  summary: Predicts a 40-dimensional autoencoder encoding of 15 upper-body joints from phonetic, linguistic, word-embedding and acoustic features with an encoder-decoder bidirectional LSTM.
   added: '2026-10-03'
-  checked: abstract
-  verified: false
+  checked: full-text
+  verified: true
 
 - id: tian2020chinese
   title: 'Chinese international students’ multicultural identity and second language development: gesture awareness and use'

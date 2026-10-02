@@ -89,7 +89,7 @@
   links: {paper: 'https://doi.org/10.3390/mti10050055'}
   input: [text, image]
   output: [upper-body, hands, face]
-  metrics: [fid, fvd, image-quality, lip-sync, other]
+  metrics: [fid, fvd, image-quality, lip-sync, hkc, hkv, identity-similarity, emotion-accuracy]
   summary: Generates upper-body avatar clips with synchronized facial expressions, hand gestures and speech from a short text, inferred emotion and a retrieved identity image.
   notes: Also reports HKC, HKV, CSIM and emotion accuracy.
   added: '2026-10-03'
@@ -340,7 +340,7 @@
   realtime: unreported
   datasets: [ted-expressive, beat, trinity, custom]
   languages: [en]
-  metrics: [fgd, other]
+  metrics: [fgd, style-accuracy]
   user_study: false
   summary: Personalizes the gesture style of a frozen audio-conditioned diffusion model by extracting a style embedding from about 10 seconds of enrollment motion, then retargets the motion to a NAO robot.
   notes: Other metric is Style Recognition Accuracy (SRA). Generating a 34-frame window took 0.755 s on an RTX 4070. Also releases a Quest 3 capture app and a ten-participant dataset with controlled access.
@@ -599,7 +599,7 @@
   realtime: unreported
   datasets: [beat2]
   languages: [en]
-  metrics: [fgd, beat-align, l1-div, other]
+  metrics: [fgd, beat-align, l1-div, other, wer]
   user_study: true
   summary: Jointly synthesizes speech and gestures from text with an autoregressive transformer over interleaved speech and RVQ gesture tokens, with a flow-matching gesture decoder; also supports gesture-only synthesis from speech.
   notes: 'Fingers are not generated. Reports a real-time factor of 1.47 on an A5000 GPU. Other metrics: word error rate, neural MOS, speaker similarity.'
@@ -718,7 +718,7 @@
   realtime: unreported
   datasets: [beat2]
   languages: [en, es, zh, ja]
-  metrics: [fgd, beat-align, diversity, other]
+  metrics: [fgd, beat-align, diversity, other, wer]
   user_study: true
   summary: Jointly generates speech and body and finger motion from text by coupling pretrained speech and motion token generators that exchange information on a shared 12.5 Hz timeline.
   notes: Other metrics are word and character error rate and speech naturalness scores. Training also used release910k and BONES-SEED.
@@ -785,7 +785,7 @@
   realtime: real-time
   latency: 160 FPS on a single RTX 4090 GPU
   datasets: [beat2, show]
-  metrics: [fgd, beat-align, diversity, smooth-bc, other]
+  metrics: [fgd, beat-align, diversity, smooth-bc, other, foot-sliding]
   user_study: false
   summary: Dual-stream diffusion transformer that fuses quantized audio tokens with motion features, with a jitter-suppression loss and probabilistic audio quantization for varied outputs.
   notes: 'Other metrics: jitter and foot sliding. Code stated as to be released.'
@@ -836,7 +836,7 @@
   latency: 0.3 s for about 6 s of output, with unlimited multi-turn streaming
   datasets: [custom, beat2]
   languages: [zh, en]
-  metrics: [fgd, fid, beat-align, diversity, other]
+  metrics: [fgd, fid, beat-align, diversity, other, retrieval-recall]
   user_study: true
   summary: Plan-then-infill model in which an LLM plans sparse motion-token keyframes from behavior labels and sparse audio tokens, and an audio-conditioned transformer fills in the frames, trained after pre-training on a large motion corpus.
   notes: 'Also introduces SuSuInterActs (21K clips, 37 hours, optical mocap, Chinese dialogue, single character). Other metrics: R@K recall, Event Sync Distance. English evaluation on BEATv2.'
@@ -864,7 +864,7 @@
   latency: RTF 0.67 without ONNX and 0.57 with ONNX on laptop-class CPU
   datasets: [custom]
   languages: [ja]
-  metrics: [other]
+  metrics: [other, label-prediction]
   user_study: true
   summary: Predicts listener nodding timing and kinematic parameters (range, speed, repetitions, swing-up) from both speakers' audio with a VAP-style dyadic attention network, then renders the head nod by rule-based spline interpolation.
   notes: Head nodding only. Trained on Japanese attentive-listening dialogues with the android ERICA (about 12 hours); objective metrics are F1 for timing and correlation/F1 for parameters. The batch metadata gives the first author as Kazuomi Kato; arXiv lists Kazushi Kato.
@@ -1033,7 +1033,7 @@
   latency: 5.96 ms per frame end-to-end on a Jetson AGX Orin
   datasets: [beat2]
   languages: [en]
-  metrics: [fgd, diversity, multimodality, beat-align, accel-jerk, other]
+  metrics: [fgd, diversity, multimodality, beat-align, accel-jerk, other, foot-sliding]
   user_study: true
   summary: Generates full-body humanoid robot motion directly in robot joint space from speech audio and timed transcripts with a rectified flow-matching diffusion transformer.
   notes: Motion is a 39-dimensional per-frame robot representation for a Unitree G1. Introduces a BEAT2-derived robot-space dataset and benchmark. Other metrics are foot-ground error and contact sliding.
@@ -1103,7 +1103,7 @@
   realtime: real-time
   latency: 2880 actions per second (APS)
   datasets: [beat2]
-  metrics: [fmd, diversity, joint-error, accel-jerk, other]
+  metrics: [fmd, diversity, joint-error, accel-jerk, other, foot-sliding]
   user_study: false
   summary: Predicts executable humanoid robot (Unitree G1) joint trajectories directly from speech with a one-step drift-field generator, trained on a robot-native dataset retargeted from human motion with a prosody-preserving IK procedure.
   notes: Representation is robot joint space, not a human body model. Other metrics include alignment, joint violation, foot contact distance and skating velocity.
@@ -1351,7 +1351,7 @@
   latency: RTF 0.78 (faster than real time)
   datasets: [beat2, custom]
   languages: [en]
-  metrics: [fgd, beat-align, diversity, lip-sync, face-error, other]
+  metrics: [fgd, beat-align, diversity, lip-sync, face-error, wer]
   user_study: true
   summary: A spoken dialogue LLM outputs speech and face, hand, upper- and lower-body motion tokens jointly from the hidden states that produce the speech, trained on pseudo-labelled speech-motion pairs.
   notes: 'Releases SwDA-500 and an evaluation protocol for open-ended full-body spoken dialogue; BEAT2 is the training data of the motion teacher and baselines; other metrics: word error rate.'
@@ -1464,7 +1464,7 @@
   realtime: real-time
   latency: 1.16 ms on GPU
   datasets: [beat2]
-  metrics: [other]
+  metrics: [other, label-prediction]
   user_study: false
   summary: Predicts word-level placement and intensity of iconic gestures from text and an emotion label with a lightweight transformer.
   notes: Predicts gesture placement and intensity rather than motion. Metrics are classification accuracy, F1 and RMSE against BEAT2 annotations.
@@ -1582,7 +1582,7 @@
   realtime: real-time
   latency: over 300 FPS inference; 60 fps in live VR deployment with 4-frame chunks
   datasets: [embody-3d]
-  metrics: [fgd, other]
+  metrics: [fgd, other, foot-sliding]
   user_study: false
   summary: Causal transformer VAE with a latent flow-matching model that generates full-body conversational motion from dyadic audio and the user's position, with classifier-free-guided gaze control.
   notes: 'Other metrics: FGD acceleration, foot sliding, wrist velocity variance, head angle alignment.'
@@ -1684,7 +1684,7 @@
   realtime: unreported
   datasets: [beat2]
   languages: [en]
-  metrics: [fgd, srgr, beat-align, diversity, face-error, other]
+  metrics: [fgd, srgr, beat-align, diversity, face-error, accel-jerk]
   user_study: true
   summary: Splits gesture synthesis into semantic and beat streams over region-wise quantized motion tokens, with a stochastic gate choosing between them and a biomechanical prior regularizing the beat stream.
   notes: Semantic features come from a text-to-motion encoder (TMR). Other metric is relative log dimensionless jerk.
@@ -1837,47 +1837,31 @@
   checked: full-text
   verified: true
 
-- id: rosenthal2026signature
-  title: 'SiGnature: Explicit Motion Diffusion for Stylized Semantic Gesture'
-  authors: [Adi Rosenthal, Tomer Koren, Nadav Shaked, Doron Friedman, Ariel Shamir]
-  year: 2026
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2606.15889'
-  links: {paper: 'https://arxiv.org/abs/2606.15889'}
-  input: [audio, text, speaker-id]
-  output: [full-body, hands]
-  representation: [smpl-x]
-  approach: [diffusion]
-  setting: [monologue]
-  realtime: real-time
-  latency: 55 FPS at 1,000 diffusion steps; 2,802 FPS at 20 steps
-  datasets: [amass, beat2, seg]
-  metrics: [fgd, diversity, beat-align, accel-jerk, joint-error, other]
-  user_study: true
-  summary: Diffusion model in explicit joint-rotation space with a training-free mechanism that injects external semantic gesture sequences into the sampling process while keeping the speaker's style.
-  notes: 'Pretrained on AMASS and fine-tuned on BEAT2; facial expressions excluded. Other metrics: semantic accuracy, injection fidelity, cross-identity FGD. Authors say code and models will be released on publication.'
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
 - id: rosenthal2026signatureb
   title: 'SiGnature: Explicit Motion Diffusion for Stylized Semantic Gesture Generation'
-  authors: [Adi Rosenthal, T. Koren, Nadav Shaked, Doron A. Friedman, Ariel Shamir]
+  authors: [Adi Rosenthal, Tomer Koren, Nadav Shaked, Doron A. Friedman, Ariel Shamir]
   year: 2026
   venue: CGF
   type: journal
   category: method
   doi: 10.1111/cgf.70557
-  links: {paper: 'https://doi.org/10.1111/cgf.70557', open: 'https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cgf.70557'}
-  representation: [joints-3d]
+  arxiv: '2606.15889'
+  links: {paper: 'https://doi.org/10.1111/cgf.70557', open: 'https://arxiv.org/abs/2606.15889'}
+  input: [audio, text]
+  output: [full-body, hands]
+  representation: [smpl-x]
   approach: [diffusion]
+  setting: [monologue]
+  realtime: real-time
+  latency: 2,802 FPS with 20 diffusion steps to 55 FPS with 1,000 steps
+  datasets: [amass, beat2, seg]
+  languages: [en]
+  metrics: [fgd, diversity, beat-align, accel-jerk, joint-error]
   user_study: true
-  summary: Diffusion model in explicit joint-rotation space with a training-free inference step that injects external semantic gesture motion into active joints while keeping the target speaker's style.
+  summary: A transformer diffusion model in explicit joint-rotation space generates speaker-styled gestures, with a training-free Joint Motion Integration step that injects external semantic gestures through automatically detected active joints.
   added: '2026-10-03'
-  checked: abstract
-  verified: false
+  checked: full-text
+  verified: true
 
 - id: saleem2026livegesture
   title: LiveGesture Streamable Co-Speech Gesture Generation Model
@@ -2030,7 +2014,7 @@
   setting: [monologue]
   realtime: unreported
   datasets: [pats, custom]
-  metrics: [fid, fvd, image-quality, other]
+  metrics: [fid, fvd, image-quality, other, identity-similarity, hkc]
   user_study: true
   summary: Generates gesture video in two stages, a discrete diffusion transformer maps audio to upper-body, face and hand motion codes and a continuous diffusion transformer renders video from that motion.
   notes: Other metrics are identity similarity and keypoint confidence scores. Own test set cannot be released for privacy reasons.
@@ -2052,7 +2036,7 @@
   approach: [diffusion]
   realtime: unreported
   datasets: [beat]
-  metrics: [other]
+  metrics: [other, accel-jerk]
   user_study: false
   summary: Estimates valence and arousal from text, visual and acoustic features, maps them to teaching acts, and conditions a diffusion motion generator on these acts for retargeting to a NAO robot.
   notes: Evaluation uses motion statistics (amplitude, velocity, jerk, energy) and pairwise distance analysis. CMU-MOSEI is used to train the affect estimator.
@@ -2736,7 +2720,7 @@
   setting: [monologue]
   realtime: unreported
   datasets: [beat2, zeggs]
-  metrics: [fgd, beat-align, other]
+  metrics: [fgd, beat-align, other, style-accuracy]
   user_study: true
   summary: Personalizes gestures for an unseen speaker from one reference clip by injecting speaker-memory tokens into a latent diffusion denoiser and correcting latent channel statistics after generation.
   notes: 'Other metrics: Style Feature Distance and ExtStyle Top-1 style identification accuracy. The arXiv versions 2 and 3 are marked withdrawn.'

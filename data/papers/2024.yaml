@@ -11,8 +11,19 @@
   category: method
   doi: 10.21437/interspeech.2024-302
   links: {paper: 'https://doi.org/10.21437/interspeech.2024-302', open: 'https://hal.science/hal-04667107/document'}
+  input: [text, audio, seed-motion]
+  representation: [joints-3d]
+  approach: [autoregressive]
+  setting: [monologue]
+  realtime: real-time
+  latency: 6.51 s to generate a 5 s sequence and 23.78 s for 80 s (raw waveform and sentence input, batch size 1, i7-11850H with RTX A3000 laptop GPU); 60 fps output
+  datasets: [beat]
+  metrics: [fgd]
+  user_study: true
+  summary: A chunked autoregressive encoder-decoder that generates gestures from audio, BERT text embeddings and past motion, using spatio-temporal graph convolutions with attention for the motion history and GRUs for decoding.
+  notes: Trained on speaker 1 of BEAT only (about 4 hours); compared with StyleGestures using FGD, inference time and a MOS study with 25 participants.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: abel2024stargate
@@ -425,7 +436,7 @@
   setting: [monologue]
   realtime: unreported
   datasets: [beat2, humanml3d]
-  metrics: [fgd, beat-align, diversity, r-precision, fid, other]
+  metrics: [fgd, beat-align, diversity, r-precision, fid, mm-dist]
   user_study: false
   summary: Generates full-body co-speech motion from speech and text prompts with a latent diffusion model over per-body-part RVQ-VAE codes, combining separate guidance for body parts at inference.
   notes: 'Other metric: MM-Dist. Text-to-motion data (HumanML3D) is used as an auxiliary training source.'
@@ -502,7 +513,7 @@
   realtime: unreported
   datasets: [beat]
   languages: [en]
-  metrics: [fgd, diversity, beat-align, srgr, other]
+  metrics: [fgd, diversity, beat-align, srgr, emotion-accuracy]
   user_study: true
   summary: A latent diffusion model generates SMPL-X upper-body gestures conditioned on three disentangled speech-derived latents for content, emotion and personal style.
   notes: The 'other' metric is gesture emotion accuracy.
@@ -1044,7 +1055,7 @@
   setting: [dyadic]
   realtime: unreported
   datasets: [interact]
-  metrics: [fid, diversity, face-error, other]
+  metrics: [fid, diversity, face-error, other, foot-sliding]
   summary: A motion-capture dataset of 241 two-person scenarios with audio, body and facial motion, plus a diffusion model that generates both persons' motion from their audio.
   notes: 'About 8.3 hours, 7 actors, 28-camera VICON capture with iPhone facial capture. Other metrics: foot sliding, face dynamics deviation.'
   added: '2026-10-03'
@@ -1401,7 +1412,7 @@
   realtime: offline
   latency: real-time factor of about 65 on a single A100
   datasets: [custom]
-  metrics: [fid, fvd, image-quality, lip-sync, other]
+  metrics: [fid, fvd, image-quality, lip-sync, hkc, hkv, identity-similarity]
   user_study: true
   summary: A one-stage latent video diffusion model animates a single reference image of a half-body human from speech audio, with region attention for face and hands.
   notes: Other metrics include hand keypoint confidence and variance and facial identity similarity.
@@ -1576,9 +1587,13 @@
   type: journal
   category: method
   doi: 10.1007/s10489-024-05769-4
-  links: {paper: 'https://doi.org/10.1007/s10489-024-05769-4'}
+  links: {paper: 'https://link.springer.com/article/10.1007/s10489-024-05769-4'}
+  input: [audio]
+  approach: [vae]
+  summary: Generates body motion from speech with a transformer network that combines an audio encoder, a motion encoder, a template VAE and a cross-modal transformer encoder.
+  notes: Abstract also proposes a new metric describing motion change trends in terms of distance.
   added: '2026-10-03'
-  checked: metadata
+  checked: abstract
   verified: false
 
 - id: lubis2024rulebased
@@ -1589,11 +1604,16 @@
   type: journal
   category: method
   doi: 10.26760/elkomika.v12i4.953
-  links: {paper: 'https://doi.org/10.26760/elkomika.v12i4.953'}
+  links: {paper: 'https://doi.org/10.26760/elkomika.v12i4.953', open: 'https://ejurnal.itenas.ac.id/index.php/elkomika/article/download/12524/3786'}
+  input: [text]
   approach: [rule-based]
-  summary: Rule-based virtual agent gesture model that gives context-specific gestures for short dialogues and emotion-based gestures for longer ones, compared against ground-truth, random and idle gestures.
+  realtime: unreported
+  datasets: [custom]
+  metrics: []
+  user_study: true
+  summary: A rule-based gesture selector for a virtual agent that picks pre-captured gesture clips by dialogue context (greeting, farewell, agreement) for short text and by emotional tone for long text.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: lucking2024spatial
@@ -1612,15 +1632,20 @@
 
 - id: mahapatra2024meshes
   title: Co-speech Gesture Video Generation with 3D Human Meshes
-  authors: [Aniruddha Mahapatra, Richa Mishra, Renda Li, Ziyi Chen, Boyang Ding, Shoulei Wang, Jun-Yan Zhu, Peng Chang, Mei Han, Jing Zhong Xiao]
+  authors: [Aniruddha Mahapatra, Richa Mishra, Ziyi Chen, Boyang Ding, Renda Li, Shoulei Wang, Jun-Yan Zhu, Peng Chang, Mei Han, Jing Xiao]
   year: 2024
   venue: ECCV
   type: conference
   category: method
   doi: 10.1007/978-3-031-73024-5_11
-  links: {paper: 'https://doi.org/10.1007/978-3-031-73024-5_11'}
+  links: {paper: 'https://doi.org/10.1007/978-3-031-73024-5_11', open: 'https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/12483.pdf'}
+  input: [audio]
+  representation: [video-pixels]
+  approach: [gan]
+  datasets: [show]
+  summary: Audio-driven pipeline that renders co-speech gesture video from 3D human meshes with a mesh texture-map optimization step followed by a conditional GAN.
   added: '2026-10-03'
-  checked: metadata
+  checked: abstract
   verified: false
 
 - id: malenica2024incongruence
@@ -1736,7 +1761,7 @@
   realtime: unreported
   datasets: [trinity2, talking-with-hands]
   languages: [en]
-  metrics: [other]
+  metrics: [wer]
   user_study: true
   summary: Pre-trains a joint text-to-speech-and-gesture flow-matching model on synthetic parallel data made by unimodal models, then fine-tunes it on real data.
   notes: Objective metric reported is word error rate of the synthesised speech.
@@ -1831,7 +1856,7 @@
   setting: [monologue]
   realtime: unreported
   datasets: [custom]
-  metrics: [other]
+  metrics: [other, diversity]
   user_study: false
   summary: A multi-scale GAN that synthesizes SMPL pose parameters from limited training sequences, conditioned on labels or on WavLM speech features for co-speech gestures.
   notes: Gesture experiment uses about 23 minutes from 3 subjects. Metrics are coverage plus global and local diversity.
@@ -2041,9 +2066,13 @@
   type: conference
   category: system
   doi: 10.1007/978-3-031-77318-1_25
-  links: {paper: 'https://doi.org/10.1007/978-3-031-77318-1_25'}
+  links: {paper: 'https://link.springer.com/chapter/10.1007/978-3-031-77318-1_25'}
+  input: [text, audio]
+  approach: [gan]
+  user_study: true
+  summary: Implements a GAN-based model that generates co-speech gestures from text and audio features for a Pepper robot telling stories, and evaluates it with 18 participants.
   added: '2026-10-03'
-  checked: metadata
+  checked: abstract
   verified: false
 
 - id: punjwani2024alloava
@@ -2092,23 +2121,6 @@
   checked: full-text
   verified: false
 
-- id: qi2024cocogesture
-  title: 'CoCoGesture: Toward Coherent Co-speech 3D Gesture Generation in the Wild'
-  authors: [Xingqun Qi, Hengyuan Zhang, Yatian Wang, Jiahao Pan, Chen Liu, Peng Li, Xiaowei Chi, Mengfei Li, Wei Xue, Shanghang Zhang, Wenhan Luo, Qifeng Liu, Yike Guo]
-  year: 2024
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2405.16874'
-  links: {paper: 'https://arxiv.org/abs/2405.16874', project: 'https://mattie-e.github.io/GES-X/'}
-  input: [audio]
-  approach: [diffusion]
-  summary: Pre-trains a 1B-parameter unconditional gesture diffusion model on a large 3D gesture dataset, then adds speech control through an audio ControlNet with a mixture-of-gesture-experts block.
-  notes: The authors withdrew the paper after submission to expand the study.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: qi2024emotiongesture
   title: 'EmotionGesture: Audio-Driven Diverse Emotional Co-Speech 3D Gesture Generation'
   authors: [Xingqun Qi, Chen Liu, Lincheng Li, Jie Hou, Haoran Xin, Xin Yu]
@@ -2126,7 +2138,7 @@
   realtime: unreported
   datasets: [beat, ted-emotion]
   languages: [en]
-  metrics: [joint-error, fgd, beat-align, diversity, other]
+  metrics: [joint-error, fgd, beat-align, diversity, emotion-accuracy]
   user_study: true
   summary: Generates emotional upper-body gestures from audio, transcript timing, emotion labels and an initial pose with a transformer and an emotion-conditioned VAE.
   notes: Also reports emotion accuracy (EA). Introduces a TED Emotion dataset.
@@ -2163,35 +2175,16 @@
   title: Dual-Path Transformer-Based GAN for Co-speech Gesture Synthesis
   authors: [Xinyuan Qian, Hao Tang, Jichen Yang, Hongxu Zhu, Xu-Cheng Yin]
   year: 2024
-  venue: International Journal of Social Robotics
+  venue: IJSR
   type: journal
   category: method
   doi: 10.1007/s12369-024-01136-y
   links: {paper: 'https://doi.org/10.1007/s12369-024-01136-y'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-
-- id: robrecht2024integrating
-  title: Integrating Representational Gestures into Automatically Generated Embodied Explanations and its Effects on Understanding and Interaction Quality
-  authors: [Amelie Sophie Robrecht, Hendric Voss, Lisa Gottschalk, Stefan Kopp]
-  year: 2024
-  venue: arXiv
-  type: preprint
-  category: system
-  arxiv: '2406.12544'
-  links: {paper: 'https://arxiv.org/abs/2406.12544'}
-  input: [text, audio]
-  output: [upper-body, hands]
-  approach: [retrieval]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [custom]
-  languages: [de]
+  approach: [gan]
   user_study: true
-  summary: A virtual explainer combines beat gestures retrieved from a graph index over speech features with manually captured iconic gestures, tested in a user study on understanding.
+  summary: Fuses gesture-related cues with parallel directional cross-modal transformers and a cascaded 2D attention module in an end-to-end GAN, and proposes metrics for gesture diversity and speech-gesture correspondence that need no 3D pose annotation.
   added: '2026-10-03'
-  checked: full-text
+  checked: abstract
   verified: false
 
 - id: robrecht2024representational
@@ -2202,10 +2195,21 @@
   type: conference
   category: system
   doi: 10.1145/3652988.3673919
-  links: {paper: 'https://doi.org/10.1145/3652988.3673919'}
+  arxiv: '2406.12544'
+  links: {paper: 'https://doi.org/10.1145/3652988.3673919', open: 'https://arxiv.org/abs/2406.12544'}
+  input: [text, audio]
+  output: [upper-body]
+  approach: [retrieval, hybrid]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [custom]
+  languages: [de]
+  metrics: []
+  user_study: true
+  summary: An embodied agent explains a board game using LLM-generated utterances, beat gestures from a graph-based speech-driven synthesis module and manually captured iconic gestures, evaluated for effects on understanding and interaction quality.
   added: '2026-10-03'
-  checked: metadata
-  verified: false
+  checked: full-text
+  verified: true
 
 - id: rosborough2024multimodality
   title: Multimodality and contingency teaching
@@ -2778,7 +2782,7 @@
   title: 'Audio2DiffuGesture: Generating a diverse co-speech gesture based on a diffusion model'
   authors: [Hongze Yao, Yingting Xu, Weitao WU, Huabin He, Wen Ren, Zhiming Cai]
   year: 2024
-  venue: ERA
+  venue: Electronic Research Archive
   type: journal
   category: method
   doi: 10.3934/era.2024250
@@ -2790,9 +2794,9 @@
   datasets: [ted-gesture, ted-expressive]
   metrics: [fgd]
   user_study: true
-  summary: Fuses raw-waveform and Mel-spectrogram audio features and feeds them to a Transformer-based diffusion model to generate co-speech gestures.
+  summary: A diffusion model that fuses raw-waveform and Mel-spectrogram audio features in a Transformer with cross-dimension attention to generate co-speech gestures.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: ye2024mmidm

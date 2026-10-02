@@ -96,11 +96,16 @@
   type: journal
   category: system
   doi: 10.3389/frobt.2019.00093
-  links: {paper: 'https://doi.org/10.3389/frobt.2019.00093', open: 'https://www.frontiersin.org/articles/10.3389/frobt.2019.00093/pdf'}
+  links: {paper: 'https://doi.org/10.3389/frobt.2019.00093'}
+  approach: [hybrid]
+  setting: [dyadic]
+  realtime: unreported
+  languages: [fr]
   user_study: true
-  summary: A computational model lets an embodied conversational agent choose among self-presentational strategies, expressed through verbal and non-verbal behaviour such as gesture type and arm rest poses, using reinforcement learning on user engagement.
+  summary: An embodied conversational agent chooses among four self-presentational strategies, expressed through gestures, arm postures and other nonverbal behaviour, with a reinforcement learning algorithm that maximises the user's engagement.
+  notes: Behaviours are chosen from rules based on the authors' earlier annotation studies of the NoXi corpus; the learning part selects the strategy. Built on the Greta platform; evaluated with 75 museum visitors. Engagement is processed at 10 Hz, which is not a generation latency figure.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: bonilla2019multimodal
@@ -465,11 +470,20 @@
   category: system
   doi: 10.1109/ro-man46459.2019.8956462
   arxiv: '1812.03484'
-  links: {paper: 'https://doi.org/10.1109/ro-man46459.2019.8956462', open: 'https://arxiv.org/abs/1812.03484'}
+  links: {paper: 'https://doi.org/10.1109/ro-man46459.2019.8956462', open: 'https://arxiv.org/abs/1812.03484', video: 'https://youtu.be/Ws3G2M6aLto'}
+  input: [audio, text]
+  output: [upper-body, hands]
+  representation: [other]
+  approach: [other]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [custom]
+  languages: [en]
+  metrics: []
   user_study: true
-  summary: A robot system maps dominant gestures of TED speakers, localised with CNNs, to speech context and adapts its speech to listener attention measured from camera feedback.
+  summary: A NAO robot maps speech to one of nine arm and hand gesture clusters mined from TED speakers with a random forest and adapts its speech using audience attention estimated from head pose.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: ginosar2019speech2gesture
@@ -481,15 +495,20 @@
   category: method
   doi: 10.1109/cvpr.2019.00361
   arxiv: '1906.04160'
-  links: {paper: 'https://doi.org/10.1109/cvpr.2019.00361', open: 'https://arxiv.org/abs/1906.04160', code: 'https://github.com/amirbar/speech2gesture'}
+  links: {paper: 'https://arxiv.org/abs/1906.04160', code: 'https://github.com/amirbar/speech2gesture', project: 'http://people.eecs.berkeley.edu/~shiry/speech2gesture'}
   input: [audio]
   output: [upper-body, hands]
+  representation: [keypoints-2d]
+  approach: [regression, gan]
   setting: [monologue]
+  realtime: unreported
   datasets: [speech2gesture]
-  summary: Translates monologue speech of a single speaker into that speaker's hand and arm gesture motion, trained on unlabeled videos with pseudo ground truth from automatic pose detection.
+  metrics: [joint-error, pck]
+  user_study: true
+  summary: A convolutional audio-encoder and 1D U-Net translates speech log-mel spectrograms into 2D arm and hand keypoint sequences for one speaker, trained with L1 regression plus an adversarial discriminator.
   added: '2026-10-03'
-  checked: abstract
-  verified: false
+  checked: full-text
+  verified: true
 
 - id: graziano2019referential
   title: 'How Referential Gestures Align With Speech: Evidence From Monolingual and Bilingual Speakers'
@@ -594,18 +613,24 @@
   year: 2019
   venue: IROS
   type: conference
-  category: system
+  category: method
   doi: 10.1109/iros40897.2019.8968038
   arxiv: '1905.01641'
   links: {paper: 'https://doi.org/10.1109/iros40897.2019.8968038', open: 'https://arxiv.org/abs/1905.01641'}
+  input: [text, interlocutor]
   output: [upper-body]
   representation: [joints-3d]
-  metrics: [joint-error, other]
-  summary: Listening and speaking seq2seq models trained on YouTube conversation videos synthesize upper-body keypoint gestures that drive a virtual avatar and a Pepper robot.
-  notes: Abstract reports mean squared error and cosine similarity on the test set.
+  approach: [autoregressive]
+  setting: [dyadic]
+  realtime: unreported
+  datasets: [custom]
+  metrics: [joint-error, cosine-similarity]
+  user_study: false
+  summary: Two LSTM encoder-decoder (seq2seq) models, one for listening (text plus the speaker's gestures) and one for speaking (text), generate twelve upper-body keypoints that drive a virtual avatar and a Pepper robot.
+  notes: Trained on clips from Ellen Show and Tonight Show YouTube videos. Cosine similarity is reported besides MSE.
   added: '2026-10-03'
-  checked: abstract
-  verified: false
+  checked: full-text
+  verified: true
 
 - id: iani2019gesture
   title: '«If you gesture I can''t forget what you say»: Co-speech gestures obstruct intentional forgetting'
@@ -687,11 +712,19 @@
   category: dataset
   doi: 10.1109/cvpr.2019.01113
   arxiv: '1906.04158'
-  links: {paper: 'https://doi.org/10.1109/cvpr.2019.01113', open: 'https://arxiv.org/abs/1906.04158'}
+  links: {paper: 'https://doi.org/10.1109/cvpr.2019.01113', open: 'https://arxiv.org/abs/1906.04158', project: 'http://domedb.perception.cs.cmu.edu/ssp'}
+  input: [interlocutor]
+  representation: [joints-3d]
+  approach: [regression]
   setting: [multi-party]
-  summary: Introduces the social signal prediction task and a 3D motion capture dataset of triadic interactions with body, face and hand motion, with baselines predicting speaking status, formation and body gestures.
+  realtime: unreported
+  datasets: [cmu-panoptic]
+  metrics: [joint-error]
+  user_study: false
+  summary: Introduces the social signal prediction task and a triadic haggling motion capture dataset, with convolutional baselines that predict a person's body gestures, speaking status and social formation from the other participants' signals.
+  notes: Inputs are the other people's body motion, face, position and speaking status; no speech audio is a model input. Networks are convolutional and autoencoder based (approach recorded as regression).
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: jouravlev2019speech
@@ -794,15 +827,21 @@
   category: method
   doi: 10.1145/3308532.3329472
   arxiv: '1903.03369'
-  links: {paper: 'https://doi.org/10.1145/3308532.3329472', open: 'https://arxiv.org/abs/1903.03369', code: 'https://github.com/GestureGeneration/Speech_driven_gesture_generation_with_autoencoder'}
+  links: {paper: 'https://arxiv.org/abs/1903.03369', code: 'https://github.com/GestureGeneration/Speech_driven_gesture_generation_with_autoencoder', project: 'https://svito-zar.github.io/audio2gestures/'}
   input: [audio]
+  output: [upper-body, hands]
   representation: [joints-3d]
   approach: [regression]
   setting: [monologue]
+  realtime: unreported
+  datasets: [custom]
+  languages: [ja]
+  metrics: [joint-error, accel-jerk]
   user_study: true
-  summary: Learns a low-dimensional motion representation with a denoising autoencoder and trains a speech encoder to map speech features to it, then decodes to 3D joint-coordinate gesture sequences.
+  summary: Learns a low-dimensional motion representation with a denoising autoencoder, then trains a speech encoder to map speech features (MFCCs, prosody) to that representation and decodes it to 3D joint sequences.
+  notes: Shorter version at AAMAS 2019. Trained on a Japanese interview dataset of two speakers (171 minutes at 20 fps).
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: kucherenko2019representations
@@ -813,13 +852,20 @@
   type: conference
   category: method
   doi: 10.65109/wnka2303
-  links: {paper: 'https://www.ifaamas.org/Proceedings/aamas2019/pdfs/p2072.pdf', open: 'http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-251460'}
+  links: {paper: 'https://www.ifaamas.org/Proceedings/aamas2019/pdfs/p2072.pdf', open: 'http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-251460', code: 'https://github.com/GestureGeneration/Speech_driven_gesture_generation_with_autoencoder'}
   input: [audio]
+  output: [upper-body]
   representation: [joints-3d]
+  approach: [regression]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [custom]
+  metrics: [accel-jerk]
   user_study: true
-  summary: Generates sequences of 3D joint coordinates from speech features with a data-driven deep model extended by representation learning.
+  summary: Extends data-driven speech-driven gesture generation with representation learning, taking speech features as input and producing sequences of 3D joint coordinates.
+  notes: Extended abstract; shorter version of the IVA 2019 paper kucherenko2019analyzing. Uses the gesture-speech dataset of Takeuchi et al. (171 minutes of training data); user study with 19 native Japanese speakers.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: lawler2019gesture
@@ -1319,13 +1365,19 @@
   arxiv: '1708.01640'
   links: {paper: 'https://doi.org/10.1016/j.specom.2019.04.005', open: 'https://arxiv.org/abs/1708.01640'}
   input: [audio]
+  output: [upper-body]
+  representation: [joints-3d]
   approach: [other]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [msp-avatar]
+  metrics: [cca, other]
   user_study: true
-  summary: Speech-driven behaviour generation with a dynamic Bayesian network constrained by a discrete variable (discourse function or prototypical behaviour such as head nods), usable as a behaviour realizer in rule-based systems.
-  notes: Approach is a dynamic Bayesian network. Abstract reports objective and subjective evaluations; body parts generated not stated in the abstract.
+  summary: A dynamic Bayesian network with an added discrete variable for discourse function or prototypical behavior generates head and arm joint rotations from speech prosody.
+  notes: 'Generates head, arm and forearm rotations. Other metrics: KL divergence and log likelihood rate. User study on Amazon Mechanical Turk. Language is English by implication only, so not recorded.'
   added: '2026-10-03'
-  checked: abstract
-  verified: false
+  checked: full-text
+  verified: true
 
 - id: saund2019multiple
   title: Multiple metaphors in metaphoric gesturing
@@ -1567,10 +1619,17 @@
   doi: 10.1007/978-3-030-35888-4_62
   arxiv: '1909.01768'
   links: {paper: 'https://doi.org/10.1007/978-3-030-35888-4_62', open: 'https://arxiv.org/abs/1909.01768'}
+  output: [upper-body, hands]
+  representation: [joints-3d]
   approach: [gan]
-  summary: Trains a GAN on human talking gestures recorded with a Kinect and maps the generated poses to humanoid robot joint positions by direct kinematics.
+  realtime: unreported
+  datasets: [custom]
+  metrics: []
+  user_study: false
+  summary: Trains a GAN on talking gestures of five people recorded with a Kinect and maps the generated human poses to joint positions of a Pepper humanoid robot by direct kinematics.
+  notes: Generator is driven by uniform random noise, not speech content. Evaluated only by demonstration videos.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: zlogar2019experimental

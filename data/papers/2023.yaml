@@ -72,14 +72,27 @@
 
 - id: anon2023diffusestyle
   title: DiffuseStyleGesture+ (SF) The DiffuseStyleGesture+ entry to the GENEA Challenge 2023
+  authors: [Sicheng Yang, Haiwei Xue, Zhiyong Wu, Minglei Li, Zonghong Dai, Zhensong Zhang, Songcen Xu, Xiaofei Wu]
   year: 2023
-  venue: GENEA Workshop
-  type: workshop
+  venue: ICMI
+  type: conference
   category: method
-  links: {paper: 'https://openreview.net/forum?id=zrcgseqv0n2', video: 'https://www.youtube.com/watch?v=PNKpvTgfh9Q'}
+  arxiv: '2308.13879'
+  links: {paper: 'https://arxiv.org/abs/2308.13879', code: 'https://github.com/YoungSeng/DiffuseStyleGesture/tree/DiffuseStyleGesturePlus/BEAT-TWH-main'}
+  input: [audio, text, speaker-id, seed-motion]
+  output: [full-body, hands]
+  representation: [joints-3d]
+  approach: [diffusion]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [genea-2023]
+  languages: [en]
+  metrics: [fgd]
+  user_study: true
+  summary: A diffusion model maps audio, text, speaker identity and seed gestures to a hidden space and denoises full-body gesture with cross-local attention, entered in the GENEA Challenge 2023.
   added: '2026-10-03'
-  checked: metadata
-  verified: false
+  checked: full-text
+  verified: true
 
 - id: anon2023genre
   title: Genre predetermined gesture behaviour in comedy staged discourse
@@ -113,7 +126,7 @@
   latency: About 1.5 seconds to generate a 1-second (60 frames) clip on a single Tesla V100
   datasets: [zeggs, beat]
   languages: [en]
-  metrics: [fgd, srgr, other]
+  metrics: [fgd, srgr, other, style-accuracy]
   user_study: true
   summary: Synthesizes stylized full-body co-speech gestures with a CLIP-guided latent diffusion model that takes style from text, motion clips or video.
   notes: 'Other metrics: semantic score and style recognition accuracy. Presented at SIGGRAPH 2023 (journal track).'
@@ -395,35 +408,10 @@
   realtime: unreported
   datasets: [pats]
   languages: [en]
-  metrics: [joint-error, other]
+  metrics: [joint-error, other, cosine-similarity]
   user_study: false
   summary: A transformer model generates 2D upper-body metaphoric gestures from speech spectrograms, text and image schemas computed from the text by a fine-tuned BERT classifier.
   notes: The 'other' metrics are Pearson correlation and cosine similarity; fingers are not generated.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
-- id: fares2023transtyler
-  title: 'TranSTYLer: Multimodal Behavioral Style Transfer for Facial and Body Gestures Generation'
-  authors: [Mireille Fares, Catherine Pelachaud, Nicolas Obin]
-  year: 2023
-  venue: arXiv
-  type: preprint
-  category: method
-  arxiv: '2308.10843'
-  links: {paper: 'https://arxiv.org/abs/2308.10843'}
-  input: [text, audio, style]
-  output: [upper-body, face]
-  representation: [keypoints-2d]
-  approach: [other]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [pats]
-  languages: [en]
-  metrics: [accel-jerk, other]
-  user_study: true
-  summary: A multimodal transformer with style and content disentanglement transfers the behaviour style of a target speaker onto the text and speech of a source speaker, producing 2D upper-body poses and facial landmarks.
-  notes: 'Trained on PATS extended with dialog acts and 2D facial landmarks. Other metrics: transfer strength and content preservation accuracy.'
   added: '2026-10-03'
   checked: full-text
   verified: true
@@ -612,7 +600,7 @@
   realtime: unreported
   datasets: [custom]
   languages: [en]
-  metrics: [other]
+  metrics: [other, label-prediction]
   summary: Prompts ChatGPT and GPT-4 with few-shot examples to suggest context-specific gestures for utterances, tested against annotated gestures from a political speech.
   notes: Metric is cosine similarity between BERT embeddings of annotated and suggested gestures plus prediction accuracy; outputs are gesture descriptions, not motion. Judged by two gesture researchers, not a participant study. The OSF link holds code and data.
   added: '2026-10-03'
@@ -1702,12 +1690,17 @@
   type: conference
   category: dataset
   doi: 10.1145/3568294.3580080
-  links: {paper: 'https://doi.org/10.1145/3568294.3580080'}
+  links: {paper: 'https://doi.org/10.1145/3568294.3580080', open: 'https://kclpure.kcl.ac.uk/ws/files/196446512/LISI_HHI_Dataset_LBR_Camera_Ready_.pdf'}
+  representation: [joints-3d]
   setting: [dyadic]
-  summary: Introduces LISI-HHI, a dataset of dyadic human interactions recorded with motion capture, RGB-D cameras, eye trackers and microphones, as a benchmark for modelling nonverbal signals for social robots.
+  datasets: [lisi-hhi]
+  languages: [en]
+  user_study: false
+  summary: Introduces LISI-HHI, 8.3 hours of dyadic conversations by 64 participants recorded with 120 fps Vicon motion capture (39 joints), RGB-D cameras, eye trackers and a microphone across five interaction scenarios.
+  notes: HRI 2023 Companion (late-breaking report). Participants were not given scripts; scenarios are small talk, meal planning, tangram game, role playing and way finding. The paper says the dataset is intended as a benchmark for modelling nonverbal signals and transferring them to social robots; no download link was seen in the paper.
   added: '2026-10-03'
-  checked: abstract
-  verified: false
+  checked: full-text
+  verified: true
 
 - id: tuyen2023nao
   title: 'Gesticulating with NAO: Real-time Context-Aware Co-Speech Gesture Generation for Human-Robot Interaction'
@@ -1859,17 +1852,22 @@
 
 - id: watsonsmith2023realtime
   title: Real Time Gesturing in Embodied Agents for Dynamic Content Creation
-  authors: [Hazel Watson-Smith, Felix Marcon Swadel, John R. Hutton, Kirstin Marcon, Mark Sagar, Shane Blackett, Tiago Rebeiro, Travers Biddle, Tim Wu]
+  authors: [Hazel Watson-Smith, Felix Marcon Swadel, Jo Hutton, Kirstin Marcon, Mark Sagar, Shane Blackett, Tiago Ribeiro, Travers Biddle, Tim Wu]
   year: 2023
   venue: AAMAS
   type: conference
   category: system
   doi: 10.5555/3545946.3599175
-  links: {paper: 'https://doi.org/10.5555/3545946.3599175'}
+  links: {paper: 'https://dl.acm.org/doi/10.5555/3545946.3599175', open: 'https://www.southampton.ac.uk/~eg/AAMAS2023/pdfs/p3068.pdf', video: 'https://youtu.be/j1F0R0SkRL4'}
   input: [text]
-  summary: System that parses raw text in real time to produce an emotional and gestural performance for an embodied agent, configurable for personality and markup tags.
+  output: [upper-body, hands, face]
+  approach: [rule-based]
+  realtime: unreported
+  user_study: false
+  summary: Parses plain text into a clause tree and lets modules propose beat, symbolic and facial behaviours, with a resolver choosing among them, to drive an embodied agent's gestures and expressions.
+  notes: 'Two-page demonstration-track paper from Soul Machines. The paper says the system computes in real time but gives no speed figure. Performance can be configured for personality traits and augmented with markup tags such as #Smile. The live demo connects to GPT-3.'
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: wei2023gestures
@@ -2007,30 +2005,6 @@
   checked: full-text
   verified: true
 
-- id: yang2023diffusestyleplus
-  title: The DiffuseStyleGesture+ entry to the GENEA Challenge 2023
-  authors: [Sicheng Yang, Haiwei Xue, Zhensong Zhang, Minglei Li, Zhiyong Wu, Xiaofei Wu, Songcen Xu, Zonghong Dai]
-  year: 2023
-  venue: ICMI
-  type: conference
-  category: method
-  doi: 10.1145/3577190.3616114
-  arxiv: '2308.13879'
-  links: {paper: 'https://doi.org/10.1145/3577190.3616114', open: 'https://arxiv.org/abs/2308.13879', code: 'https://github.com/YoungSeng/DiffuseStyleGesture/tree/DiffuseStyleGesturePlus/BEAT-TWH-main'}
-  input: [text, audio, speaker-id, seed-motion]
-  output: [full-body, hands]
-  representation: [joints-3d]
-  approach: [diffusion]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [genea-2023]
-  metrics: [fgd]
-  user_study: true
-  summary: A diffusion model conditioned on audio features, text embeddings, speaker ID and seed gestures generates 62-joint body and finger motion, submitted to the GENEA Challenge 2023.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
 - id: yang2023qpgesture
   title: 'QPGesture: Quantization-Based and Phase-Guided Motion Matching for Natural Speech-Driven Gesture Generation'
   authors: [Sicheng Yang, Zhiyong Wu, Minglei Li, Zhensong Zhang, Lei Hao, Weihong Bao, Haolin Zhuang]
@@ -2105,11 +2079,19 @@
   type: conference
   category: method
   doi: 10.1109/icassp49357.2023.10095304
-  links: {paper: 'https://doi.org/10.1109/icassp49357.2023.10095304'}
+  links: {paper: 'https://doi.org/10.1109/icassp49357.2023.10095304', open: 'https://hcsi.cs.tsinghua.edu.cn/Paper/Paper23/ICASSP23_YEZIJIE.pdf'}
+  input: [text, audio, seed-motion]
+  representation: [joints-3d]
   approach: [vq]
-  summary: Builds a discrete motion representation space and a multi-modal temporal-attention model that predicts its categorical distribution from speech context, and adds a salient-gesture benchmark and metric.
+  setting: [monologue]
+  realtime: unreported
+  datasets: [ted-gesture, lecgesture]
+  metrics: [fgd, sms, mvd]
+  user_study: true
+  summary: Learns a discrete motion representation of gestures with a VQ-VAE and predicts its categorical distribution from speech text, audio and seed motion with a temporal-attention model, then samples and decodes gestures.
+  notes: Also introduces the LecGesture dataset (4,240 clips, 5 speakers, 24 hours, from a Chinese lecture TV program) and the salient motion similarity metric. Mean-opinion-score user study with 17 participants rating 20 videos each.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: yi2023talkshow

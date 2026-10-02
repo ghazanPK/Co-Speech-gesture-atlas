@@ -794,7 +794,7 @@
   realtime: unreported
   datasets: [custom]
   languages: [ja]
-  metrics: [other]
+  metrics: [label-prediction]
   user_study: true
   summary: A text-chat agent for an existing anime character that predicts per-clause nod, head direction, hand gesture and upper-body posture labels from spoken-text features with decision trees, plus a few rule-based character-specific motions.
   notes: Metric is F-measure of predicted motion labels against a 24-participant Japanese two-party dialogue corpus collected by the authors. Whole paper also covers utterance generation.
@@ -1001,7 +1001,7 @@
   realtime: unreported
   datasets: [saga]
   languages: [de]
-  metrics: [other]
+  metrics: [label-prediction]
   summary: Predicts whether to gesture and the gesture properties from speech, then conditions a normalizing-flow gesture model on those properties to generate representational gestures.
   notes: Reported metric is F1 of gesture-property prediction.
   added: '2026-10-03'
@@ -1421,10 +1421,20 @@
   category: method
   doi: 10.65109/thwr5489
   links: {paper: 'https://doi.org/10.65109/thwr5489', open: 'http://eprints.gla.ac.uk/253967/1/253967.pdf'}
-  summary: Architecture for gesturing virtual agents that extracts rhetorical and other functional elements from speech with existing parsers, with an analysis clustering gestures by rhetorical class and by movement.
+  input: [text, audio]
+  output: [hands]
+  representation: [keypoints-2d]
+  approach: [retrieval, hybrid]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [speech2gesture]
+  metrics: [other]
+  user_study: false
+  summary: An architecture that tags utterances with rhetorical, semantic and affective functions using third-party parsers and selects gestures from clusters of video-derived hand motion built per function and then sub-clustered by motion features.
+  notes: Only the rhetorical branch is implemented and evaluated, with silhouette scores of the clusters. Speed in real time depends on the parsers and no figure is reported. The paper's own title is CCFM.
   added: '2026-10-03'
-  checked: abstract
-  verified: false
+  checked: full-text
+  verified: true
 
 - id: saund2021gesture
   title: Gesture Generation
@@ -1708,12 +1718,20 @@
   category: method
   doi: 10.1109/arso51874.2021.9542828
   links: {paper: 'https://doi.org/10.1109/arso51874.2021.9542828', open: 'https://dspace.jaist.ac.jp/dspace/bitstream/10119/17573/1/ARSO21_0048_FI.pdf'}
+  input: [text]
   output: [upper-body]
+  representation: [joints-3d]
   approach: [gan]
-  summary: Conditional GAN built on a convolutional network, with an action encoder and decoder, that generates upper-body communicative gestures for a social robot from input context.
+  setting: [monologue]
+  realtime: unreported
+  datasets: [msr-vtt-text2action, kit-motion-language]
+  metrics: [cosine-similarity]
+  user_study: false
+  summary: A conditional GAN with a convolutional generator and discriminator that maps a sentence embedding (skip-thought) to a 3D upper-body action, which is retargeted to a Pepper robot and played with its speech.
+  notes: Evaluation is the cosine similarity between covariance descriptors of generated and ground-truth actions. Text descriptions of motions rather than transcripts of speech are used for training.
   added: '2026-10-03'
-  checked: abstract
-  verified: false
+  checked: full-text
+  verified: true
 
 - id: urbanik2021action
   title: 'Action-Depicting Gestures and Morphosyntax: The Function of Gesture-Speech Alignment in the Conversational Turn'

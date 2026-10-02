@@ -235,8 +235,11 @@
   category: method
   doi: 10.1007/978-3-319-21996-7_17
   links: {paper: 'https://doi.org/10.1007/978-3-319-21996-7_17'}
+  input: [text, audio]
+  approach: [other]
+  summary: Predicts co-verbal gestures from utterance content and speech signal with Deep Conditional Neural Fields, which jointly learn a deep network and second-order linear-chain temporal dependencies between gestures.
   added: '2026-10-03'
-  checked: metadata
+  checked: abstract
   verified: false
 
 - id: chu2015thought
@@ -708,10 +711,18 @@
   doi: 10.1609/aaai.v29i1.9778
   links: {paper: 'https://ojs.aaai.org/index.php/AAAI/article/view/9778'}
   input: [text, audio]
-  summary: Generates head movements, eye saccades and gesture animations based on co-articulation for virtual characters by analysing the acoustic, syntactic, semantic and rhetorical properties of an utterance's text and audio.
+  output: [upper-body, hands, face]
+  approach: [rule-based]
+  setting: [monologue]
+  realtime: unreported
+  datasets: []
+  metrics: []
+  user_study: false
+  summary: Generates head movements, eye saccades and gesture animations for virtual characters from utterance text and audio, by deriving communicative functions with forward-chaining rules and mapping them to behaviours realized in SmartBody.
+  notes: Two-page demonstration paper; the demo lets users record a line that a Virtual Human Toolkit character then performs.
   added: '2026-10-03'
-  checked: abstract
-  verified: false
+  checked: full-text
+  verified: true
 
 - id: lin2015individual
   title: Effects of individual differences and task demand on co-speech gesture

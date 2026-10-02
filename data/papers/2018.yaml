@@ -1389,12 +1389,15 @@
   year: 2018
   venue: Frontiers in Psychology
   type: journal
-  category: survey
+  category: method
   doi: 10.3389/fpsyg.2018.01144
-  links: {paper: 'https://doi.org/10.3389/fpsyg.2018.01144'}
-  summary: Discusses challenges in modelling communicative gestures for embodied conversational agents, covering gesture placement, shape and timing, with a focus on a metaphor-based model.
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2018.01144', open: 'https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01144/pdf'}
+  input: [text]
+  approach: [rule-based]
+  user_study: false
+  summary: Extracts image schemas from speech text with WordNet, maps them to gesture invariants through a dictionary, and realizes metaphoric gestures for an embodied conversational agent.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: ravenet2018imageschemas

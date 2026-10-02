@@ -992,3 +992,31 @@
   hours: 0.95
   access: open
   license: CC BY-SA 4.0
+
+- {id: ges-x, added: '2026-10-02', verified: false, name: GES-X}
+
+- {id: lisi-hhi, added: '2026-10-02', verified: false, name: LISI-HHI}
+
+- id: lecgesture
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: LecGesture
+
+- id: msr-vtt-text2action
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: MSR-VTT subset with 3D upper-body actions and text descriptions (as used in the paper)
+
+- id: kit-motion-language
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: KIT Motion-Language Dataset
+
+- id: msp-avatar
+  links: {}
+  added: '2026-10-02'
+  verified: false
+  name: MSP-AVATAR corpus

@@ -231,3 +231,104 @@
   aka: [Smooth-BC]
   measures: synchrony
   better: higher
+
+- {id: sms, added: '2026-10-02', verified: false, name: Salient Motion Similarity (SMS)}
+
+- {id: mvd, added: '2026-10-02', verified: false, name: Mean Velocity Difference (MVD)}
+
+- id: hkc
+  added: '2026-10-03'
+  verified: false
+  name: Hand Keypoint Confidence
+  aka: [HKC, Hand-C, keypoint confidence]
+  measures: realism
+  better: higher
+
+- id: hkv
+  added: '2026-10-03'
+  verified: false
+  name: Hand Keypoint Variance
+  aka: [HKV, Hand-V, hand keypoint variance]
+  measures: diversity
+  better: higher
+
+- id: identity-similarity
+  added: '2026-10-03'
+  verified: false
+  name: Facial identity similarity
+  aka: [CSIM, identity similarity, identity cosine similarity, facial identity similarity]
+  measures: accuracy
+  better: higher
+
+- id: e-fid
+  added: '2026-10-03'
+  verified: false
+  name: Expression FID
+  aka: [E-FID, EFID]
+  measures: realism
+  better: lower
+
+- id: mm-dist
+  added: '2026-10-03'
+  verified: false
+  name: Multimodal Distance
+  aka: [MM-Dist, MM-Distance, multi-modal distance]
+  measures: semantics
+  better: lower
+
+- id: foot-sliding
+  added: '2026-10-03'
+  verified: false
+  name: Foot sliding (skating)
+  aka: [foot sliding, Skate, skating, skating velocity, contact sliding]
+  measures: realism
+  better: lower
+
+- id: emotion-accuracy
+  added: '2026-10-03'
+  verified: false
+  name: Emotion recognition accuracy
+  aka: [EA, emotion accuracy, emotion classification accuracy, gesture emotion accuracy]
+  measures: other
+  better: higher
+
+- id: style-accuracy
+  added: '2026-10-03'
+  verified: false
+  name: Style recognition accuracy
+  aka: [SRA, Style Recognition Accuracy, style identification accuracy, ExtStyle Top-1]
+  measures: other
+  better: higher
+
+- id: wer
+  added: '2026-10-03'
+  verified: false
+  name: Word Error Rate of synthesised speech
+  aka: [WER, word error rate, character error rate, CER]
+  measures: other
+  better: lower
+
+- id: label-prediction
+  summary: Compares predicted gesture labels (such as gesture type, property or timing) with annotated reference labels and reports F1, precision, recall or accuracy.
+  added: '2026-10-03'
+  verified: false
+  name: Gesture label prediction F1, precision, recall or accuracy
+  aka: [F1, macro F1, F-measure, F-score, precision, recall, classification accuracy, label accuracy, prediction accuracy]
+  measures: accuracy
+  better: higher
+
+- id: cosine-similarity
+  added: '2026-10-03'
+  verified: false
+  name: Cosine similarity to ground-truth motion
+  aka: [cosine similarity]
+  measures: accuracy
+  better: higher
+
+- id: nr-quality
+  added: '2026-10-03'
+  verified: false
+  name: No-reference image or video quality and aesthetic scores
+  aka: [IQA, ASE, Q-Align, VQAA, VQAT, aesthetic quality, imaging quality]
+  measures: realism
+  better: higher

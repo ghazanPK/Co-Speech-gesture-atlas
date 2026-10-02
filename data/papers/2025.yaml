@@ -284,7 +284,7 @@
   approach: [diffusion]
   realtime: unreported
   datasets: [humanml3d, beat2]
-  metrics: [fid, r-precision, diversity, beat-align, face-error, other]
+  metrics: [fid, r-precision, diversity, beat-align, face-error, mm-dist]
   summary: A unified diffusion transformer for whole-body SMPL-X motion from text, speech or music, trained coarse-to-fine with a text-to-motion pre-training stage and a multimodal control stage.
   notes: 'Handles co-speech gestures (BEAT2) alongside text-to-motion and music-to-dance (FineDance); introduces the MC-Bench benchmark. Other metric: multi-modal distance.'
   added: '2026-10-03'
@@ -566,36 +566,21 @@
   type: conference
   category: method
   doi: 10.1109/3dv66043.2025.00074
-  links: {paper: 'https://doi.org/10.1109/3dv66043.2025.00074'}
-  input: [audio, text]
-  approach: [diffusion]
-  summary: Diffusion-based co-speech gesture generator that combines a motion prior learned from large human motion datasets with audio conditioning and a shared embedding space aligning gestures with transcript text.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
-- id: cheng2025hologest
-  title: 'HoloGest: Decoupled Diffusion and Motion Priors for Generating Holisticly Expressive Co-speech Gestures'
-  authors: [Yongkang Cheng, Shaoli Huang]
-  year: 2025
-  venue: 3DV
-  type: conference
-  category: method
   arxiv: '2503.13229'
-  links: {paper: 'https://arxiv.org/abs/2503.13229', project: 'https://cyk990422.github.io/HoloGest.github.io/'}
+  links: {paper: 'https://doi.org/10.1109/3dv66043.2025.00074', open: 'https://arxiv.org/abs/2503.13229', project: 'https://cyk990422.github.io/HoloGest.github.io/'}
   input: [audio, text]
-  output: [full-body, hands]
+  output: [full-body, hands, locomotion]
   representation: [smpl-x]
   approach: [diffusion, gan]
   setting: [monologue]
   realtime: unreported
-  latency: 0.88 s to generate a 2-second gesture sequence
+  latency: 0.88 seconds to generate a 2-second gesture sequence
   datasets: [beat2, amass]
   languages: [en]
-  metrics: [fgd, beat-align, diversity, other]
+  metrics: [fgd, beat-align, diversity, other, foot-sliding]
   user_study: true
-  summary: A decoupled diffusion model with GAN-based constraints generates SMPL-X full-body and finger gestures from audio and text, using motion priors learned from large motion datasets.
-  notes: Acceptance at 3DV 2025 is taken from the arXiv comment. Priors also use 100STYLE and SignAvatars. Other metrics are skating, floating and semantic alignment.
+  summary: Decoupled diffusion denoisers for upper body, lower body and fingers, with semi-implicit constraints for fewer sampling steps and pretrained motion priors, generate SMPL-X gestures from audio with a gesture-text shared embedding for semantics.
+  notes: 'Other metrics reported: Skate, Float and a proposed Semantic Alignment score. Additional prior datasets: 100STYLE and SignAvatars. Project page lists the title as HoloGest.'
   added: '2026-10-03'
   checked: full-text
   verified: true
@@ -847,7 +832,7 @@
   realtime: unreported
   datasets: [beat, humanml3d]
   languages: [en]
-  metrics: [fgd, beat-align, accel-jerk, fid, diversity, l1-div, r-precision, other]
+  metrics: [fgd, beat-align, accel-jerk, fid, diversity, l1-div, r-precision, mm-dist]
   user_study: true
   summary: Generates gestures with a latent diffusion model conditioned on speech and text captions, using a motion-language model to caption gestures at several granularities and a shared 55-joint representation across datasets.
   notes: 'Reports 0.842 s average inference time per sentence on an RTX 3090. Other metric: MM-Dist.'
@@ -880,14 +865,22 @@
   type: journal
   category: method
   doi: 10.1016/j.specom.2025.103286
+  arxiv: '2308.10843'
   links: {paper: 'https://doi.org/10.1016/j.specom.2025.103286', open: 'https://hal.science/hal-05222862'}
   input: [text, audio, style]
+  output: [upper-body, face]
+  representation: [keypoints-2d]
+  approach: [other]
+  setting: [monologue]
+  realtime: unreported
   datasets: [pats]
+  metrics: [accel-jerk, other]
   user_study: true
-  summary: Multimodal transformer that synthesises a source speaker's facial and body behaviour in the style of a target speaker, using style-content disentanglement.
+  summary: A multimodal transformer with style-content disentanglement that transfers a target speaker's behaviour style onto a source speaker's text and speech to produce 2D upper-body and facial landmark motion.
+  notes: 'Fields read from the arXiv version (2308.10843); the published journal version may differ. Skeleton has 11 upper-body joints and 15 facial landmarks, no fingers. PATS was extended with dialogue acts and 2D facial landmarks. Other metrics: transfer strength accuracy and content preservation.'
   added: '2026-10-03'
-  checked: abstract
-  verified: false
+  checked: full-text
+  verified: true
 
 - id: favali2025expressive
   title: 'Towards More Expressive Human-Robot Interactions: Combining Latent Representations and Diffusion Models for Co-speech Gesture Generation'
@@ -933,7 +926,7 @@
   latency: Average end-to-end execution time of about 0.67 to 1.02 s across approaches with remote processing
   datasets: [custom]
   languages: [en]
-  metrics: [other]
+  metrics: [label-prediction]
   user_study: false
   summary: Labels a robot's utterances with gesture types using LSTM-CRF or fine-tuned transformer classifiers, then a rule-based module synchronises the selected gestures with speech chunks.
   notes: Gesture labels are predicted, not motion; gestures are played on a tabletop robot with five joints. Dataset of 2,600 utterances from the Cornell Movie Dialogs Corpus with 21 gesture and 28 intention labels. Metrics are F-score, precision, recall and accuracy of label prediction. A 15-participant validation of gesture-utterance matching was run, but no user study of the system.
@@ -956,7 +949,7 @@
   approach: [llm]
   realtime: unreported
   datasets: [custom]
-  metrics: [other]
+  metrics: [other, label-prediction]
   user_study: false
   summary: Adds lightweight robot-specific gesture heads to a small language model so that high-level communicative intentions are predicted in parallel with text and mapped to Furhat and Pepper expressions.
   notes: Predicts high-level communicative intentions mapped to platform-specific expressions, not joint trajectories. Evaluated on SODA dialogues with synthetically generated gesture labels; metrics are error rate, accuracy, F1 and overlap. Edge speed (e.g. 5.47 tokens/s for an 8B int4 model on a Jetson) is for text generation.
@@ -1000,7 +993,7 @@
   realtime: unreported
   latency: 0.4 s per inference for the fine-tuned label generator (about 3 s with GPT-4)
   datasets: [custom]
-  metrics: [other]
+  metrics: [label-prediction]
   user_study: false
   summary: Uses an LLM with intent-chain reasoning over a gesture ethogram to turn speech text into semantic gesture labels, then a LoRA-fine-tuned Qwen model generates the labels that guide gesture synthesis.
   notes: Generates gesture labels from text; the metric is a partial-overlap label accuracy. Published version has a DOI under ACM (10.1145/3746268.3759436); venue not confirmed from the text read.
@@ -1176,7 +1169,7 @@
   setting: [monologue]
   realtime: unreported
   datasets: [custom, pats]
-  metrics: [image-quality, fid, fvd, beat-align, other]
+  metrics: [image-quality, fid, fvd, beat-align, other, hkc, hkv, identity-similarity]
   user_study: false
   summary: Generates holistic human videos from a reference image and audio with a cascade of diffusion transformers, a whole-body DiT followed by a regional refinement DiT for hands and face.
   notes: Output also includes body movement in video; other metrics are FID-VID, Body-C, Hand-C, Hand-V and identity cosine similarity. Training set is about 300 hours of speaking-human video; PATS clips used in testing.
@@ -1558,13 +1551,20 @@
   title: 'SGEAG: Semantic-guided emotional-aware gesture generation from audio'
   authors: [Jenifer Kalafatovich, Seong–Whan Lee]
   year: 2025
-  venue: SSRN
-  type: preprint
+  venue: NeurIPS
+  type: poster
   category: method
   doi: 10.2139/ssrn.5929538
-  links: {paper: 'https://doi.org/10.2139/ssrn.5929538'}
+  links: {paper: 'https://neurips.cc/virtual/2025/133721', open: 'https://doi.org/10.2139/ssrn.5929538'}
+  input: [audio]
+  output: [full-body, hands, face]
+  datasets: [beat2]
+  metrics: [fgd, beat-align, emotion-accuracy]
+  user_study: true
+  summary: Two modules, audio2face and audio2body, generate whole-body gestures from audio, with a semantic-guided mechanism weighting rhythm against semantic features and separate style and emotion adaptation for face and body.
+  notes: 'Poster at the Women in Machine Learning affinity event, NeurIPS 2025. Other metric: emotion classification accuracy.'
   added: '2026-10-03'
-  checked: metadata
+  checked: abstract
   verified: false
 
 - id: kim2025mars
@@ -1727,7 +1727,7 @@
   setting: [monologue]
   realtime: unreported
   datasets: [humanml3d, beat2, finedance]
-  metrics: [fid, r-precision, beat-align, diversity, face-error, other]
+  metrics: [fid, r-precision, beat-align, diversity, face-error, mm-dist]
   user_study: false
   summary: Generates whole-body SMPL-X motion from text, speech or music with a causal continuous masked autoregressive transformer whose outputs condition a diffusion head.
   notes: Also covers text-to-motion and music-to-dance; metrics tagged other include MM-Distance. Code stated as to be released.
@@ -1751,7 +1751,7 @@
   setting: [monologue]
   realtime: unreported
   datasets: [beat2]
-  metrics: [r-precision, joint-error, other]
+  metrics: [r-precision, joint-error, other, mm-dist]
   user_study: false
   summary: Controls a humanoid robot directly from audio to produce music-driven dance and speech-driven co-speech gestures, with a reinforcement-learned teacher policy and a diffusion student policy that injects audio style.
   notes: Also trained on FineDance for dance. Metrics include success rate and MM-Dist. Paper cites two-step DDIM sampling for real-time deployment but gives no latency figure.
@@ -1789,7 +1789,7 @@
   setting: [monologue]
   realtime: unreported
   datasets: [custom]
-  metrics: [fid, fvd, lip-sync, other]
+  metrics: [fid, fvd, lip-sync, nr-quality, hkc, hkv]
   user_study: false
   summary: Diffusion transformer that generates human video from a reference image and audio, with text and pose conditions mixed into training to scale up data.
   notes: Also reports IQA, ASE, and hand keypoint confidence and variance; evaluated on CelebV-HQ, RAVDESS and CyberHost.
@@ -1815,7 +1815,7 @@
   realtime: unreported
   datasets: [pats, beat2]
   languages: [en]
-  metrics: [fgd, beat-align, diversity, fvd, other]
+  metrics: [fgd, beat-align, diversity, fvd, other, nr-quality]
   user_study: true
   summary: Generates co-speech gesture videos by tokenizing 2D face and upper-body keypoints with speech-aware residual VQ, predicting tokens with a masked transformer, and refining frames with a structure-aware warping module.
   notes: 'Other metrics: VQAA, VQAT (video aesthetic and technical quality) and PCM. Reports about 3 s inference for a 10 s video.'
@@ -1972,7 +1972,7 @@
   latency: 25.31 FPS on an NVIDIA H100
   datasets: [show, custom]
   languages: [en]
-  metrics: [fid, fvd, image-quality, lip-sync, other]
+  metrics: [fid, fvd, image-quality, lip-sync, other, e-fid, hkc]
   user_study: true
   summary: Distills a many-step diffusion video model into a few-step student for co-speech video, using pose-keypoint-guided sparse attention and distillation losses, with poses generated from audio by EMAGE.
   notes: Other metrics are E-FID, HKC and HKD.
@@ -2076,7 +2076,7 @@
   setting: [monologue]
   realtime: real-time
   latency: 24 fps at 512x768 on NVIDIA H100/A100
-  metrics: [fid, fvd, image-quality, lip-sync, other]
+  metrics: [fid, fvd, image-quality, lip-sync, identity-similarity, hkc, hkv]
   user_study: false
   summary: Real-time audio-driven half-body video generation on the LTX video diffusion transformer, with a causal audio encoder and optional hand keypoint input for gesture control.
   notes: Also reports facial identity similarity (CSIM), Hand Keypoint Confidence and Hand Keypoint Variance.
@@ -2319,10 +2319,17 @@
   doi: 10.31224/5199
   links: {paper: 'https://doi.org/10.31224/5199', open: 'https://engrxiv.org/preprint/download/5199/8779/7307'}
   input: [audio, video]
+  output: [upper-body, face]
+  approach: [retrieval, llm, rule-based]
+  setting: [dyadic]
   realtime: unreported
-  summary: A modular embodied conversational agent framework that analyses the user's audio and video, generates context-aware dialogue and synchronizes the agent's speech with gestures and backchannel facial animation.
+  datasets: []
+  metrics: []
+  user_study: false
+  summary: Real-time embodied conversational agent framework that analyses the user's audio and video and uses an LLM to select pre-authored gestures and facial animations synchronized with synthesized speech.
+  notes: Gestures are selected from an animation library by an LLM judge or generated via BML; lip sync is heuristic; rendered in Unity.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: peng2025twostage
@@ -2387,7 +2394,7 @@
   realtime: real-time
   latency: 30 fps at up to 512x768 on a 4090 GPU
   datasets: [custom]
-  metrics: [image-quality, fid, fvd, lip-sync, diversity, other]
+  metrics: [image-quality, fid, fvd, lip-sync, diversity, hkc]
   user_study: false
   summary: Hierarchical motion diffusion models turn audio into head, expression and upper-body control signals, with MANO-rendered hand images guiding a warping-based GAN that produces the portrait video.
   notes: 'Trained on about 20,000 talkshow clips (about 30 hours) from YouTube. Optional reference video gives style. Other metrics: hand keypoint confidence.'
@@ -2428,13 +2435,21 @@
   type: journal
   category: method
   doi: 10.1016/j.inffus.2025.103613
-  links: {paper: 'https://doi.org/10.1016/j.inffus.2025.103613'}
+  arxiv: '2405.16874'
+  links: {paper: 'https://doi.org/10.1016/j.inffus.2025.103613', open: 'https://arxiv.org/abs/2405.16874', project: 'https://mattie-e.github.io/GES-X/'}
   input: [audio]
+  output: [upper-body, hands, face]
+  representation: [smpl-x]
   approach: [diffusion]
-  summary: Pretrains a 1B-parameter unconditional gesture diffusion model on the large GES-X 3D gesture dataset, then adds an audio ControlNet to condition gestures on speech.
-  notes: Introduces the GES-X dataset (over 40M meshed posture instances, 4.3K speakers).
+  setting: [monologue]
+  realtime: unreported
+  datasets: [ges-x, beat2, show]
+  metrics: [fgd, beat-align, diversity]
+  user_study: true
+  summary: Pre-trains a 1B-parameter unconditional gesture diffusion model on the new GES-X dataset, then fine-tunes it with an audio ControlNet and Mixture-of-Gesture-Experts blocks for speech-driven gesture synthesis.
+  notes: Fields read from the arXiv version (withdrawn by the authors in favour of the journal version), not the journal text.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: qin2025versaanimator
@@ -2453,7 +2468,7 @@
   approach: [vq, diffusion]
   setting: [monologue]
   datasets: [custom, humanml3d]
-  metrics: [fid, fvd, image-quality, lip-sync, r-precision, multimodality, other]
+  metrics: [fid, fvd, image-quality, lip-sync, r-precision, multimodality, e-fid, identity-similarity, mm-dist]
   user_study: true
   summary: A two-stage framework in which a dual-branch transformer generates whole-body SMPL motion tokens from audio and text prompts, and a pose- and audio-controlled video diffusion model renders the talking human video.
   notes: 'Training data is about 40 hours of news broadcast videos plus HumanML3D for text control. Other metrics: E-FID, CSIM, MM-Dist. arXiv lists the fourth author as Tianqi Li.'
@@ -2635,7 +2650,7 @@
   realtime: real-time
   latency: 25 FPS with about 1.20 s end-to-end latency on dual H800 GPUs
   datasets: [custom]
-  metrics: [fid, fvd, lip-sync, other]
+  metrics: [fid, fvd, lip-sync, hkv, nr-quality]
   user_study: true
   summary: Distils a human video diffusion model into a causal streaming generator with adversarial refinement to produce talking and listening avatar video with gestures from an image and audio.
   notes: Trained on about 200 hours of SpeakerVid-5M and self-collected video; other metrics include hand keypoint variance and Q-Align.
@@ -2700,7 +2715,7 @@
   setting: [monologue]
   realtime: unreported
   datasets: [custom]
-  metrics: [diversity, beat-align, pck, fgd, fid, fvd, image-quality, lip-sync, other]
+  metrics: [diversity, beat-align, pck, fgd, fid, fvd, image-quality, lip-sync, e-fid, hkc, hkv, identity-similarity]
   user_study: false
   summary: Generates hand poses from audio with a diffusion transformer in a first stage, then synthesizes talking video with face and body motion from a reference image using a second diffusion model conditioned on those poses.
   notes: Training data are MOSEI, AVSPEECH and internet-collected videos (about 275 hours in total). Hand poses use MANO. Additional video metrics include EFID, HKC, HKV and CSIM.
@@ -2944,7 +2959,7 @@
   output: [full-body, hands, face]
   representation: [video-pixels]
   datasets: [wb-dh]
-  metrics: [fid, fvd, image-quality, other]
+  metrics: [fid, fvd, image-quality, other, e-fid, identity-similarity, nr-quality]
   user_study: false
   summary: An open benchmark of whole-body talking avatar videos with multi-modal annotations and a 12-metric evaluation framework covering video generation and co-speech quality.
   notes: 'Other metrics: E-FID, CSIM and general video-quality scores (subject and background consistency, motion smoothness, dynamic degree, aesthetic and imaging quality).'
@@ -3115,7 +3130,7 @@
   approach: [flow-matching, diffusion]
   setting: [monologue]
   realtime: unreported
-  metrics: [fid, fvd, lip-sync, other]
+  metrics: [fid, fvd, lip-sync, identity-similarity]
   user_study: true
   summary: Streaming audio-driven video dubbing that regenerates lip, head and body motion of a source video from new audio, using a flow-matching diffusion transformer with reference keyframes and context frames.
   notes: Evaluated on HDTF, CelebV-HQ and EMTD; also reports CSIM.
@@ -3299,19 +3314,6 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
-
-- id: zhang2025fasttalker
-  title: 'FastTalker: An unified framework for generating speech and conversational gestures from text'
-  authors: [Jian Zhang, Zixin Guo, Minggui He, Osamu Yoshie]
-  year: 2025
-  venue: Neurocomputing
-  type: journal
-  category: method
-  doi: 10.1016/j.neucom.2025.130074
-  links: {paper: 'https://doi.org/10.1016/j.neucom.2025.130074'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
 
 - id: zhang2025semantic
   title: Semantic Co-Speech Gesture Synthesis and Real-Time Control for Humanoid Robots
