@@ -21,8 +21,9 @@ Fields marked **always** are required on every record. Fields marked **verified*
 | `authors` | verified | List, in published order. |
 | `year` | always | Publication year. Must match the file name. |
 | `venue` | always | Short venue name: `SIGGRAPH`, `CVPR`, `ICMI`, `CAVW`, `arXiv`. |
-| `type` | always | `journal`, `conference`, `workshop`, `poster`, `preprint`, `thesis` |
-| `category` | always | `method`, `dataset`, `survey`, `challenge`, `evaluation`, `system` |
+| `type` | always | `journal`, `conference`, `workshop`, `poster`, `preprint`, `thesis`, `book` (a book or book chapter) |
+| `category` | always | `method`, `dataset`, `survey`, `challenge`, `evaluation`, `system`, `theory` |
+| `area` | | For `theory` records, the discipline: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neuroscience`, `social-interaction`, `clinical`, `education`, `perception`, `other` |
 | `doi` | one identifier | Bare DOI, `10.1002/cav.70034`. |
 | `arxiv` | one identifier | Bare identifier in quotes, `"2303.09119"`, no version suffix. |
 | `links.paper` | one identifier | Publisher or proceedings page. |
@@ -52,6 +53,7 @@ At least one of `doi`, `arxiv` or `links.paper` must be present.
 
 ### Choosing values
 
+- **Theory versus practice**: `theory` is for studies of human gesture itself (why and how people gesture when they speak, how gesture relates to speech and thought, how it is perceived) that build no generation system. Every other category is practical work on generating gesture. Theory records carry only identifying fields, `area` and, where available, a summary.
 - **`category`**: `method` proposes a generation model. `system` describes an integrated agent or application built on existing methods. `evaluation` studies metrics or evaluation practice.
 - **`output` and `representation`** answer different questions: which parts of the body move, and in what form the motion is produced. A model that renders video frames directly is `representation: [video-pixels]`.
 - **`approach`** lists every technique that matters to how the method generates motion. A VQ tokenizer with a diffusion prior is `[vq, diffusion]`. Use `hybrid` when learned and non-learned components are combined.

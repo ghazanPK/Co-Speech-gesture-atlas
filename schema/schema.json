@@ -46,10 +46,14 @@
         "year": { "type": "integer", "minimum": 1990, "maximum": 2100 },
         "venue": { "type": "string", "minLength": 1 },
         "type": {
-          "enum": ["journal", "conference", "workshop", "poster", "preprint", "thesis"]
+          "enum": ["journal", "conference", "workshop", "poster", "preprint", "thesis", "book"]
         },
         "category": {
-          "enum": ["method", "dataset", "survey", "challenge", "evaluation", "system"]
+          "enum": ["method", "dataset", "survey", "challenge", "evaluation", "system", "theory"]
+        },
+        "area": {
+          "description": "For theory records: the discipline the study belongs to",
+          "enum": ["psycholinguistics", "linguistics", "cognition", "development", "neuroscience", "social-interaction", "clinical", "education", "perception", "other"]
         },
         "doi": { "$ref": "#/$defs/doi" },
         "arxiv": {

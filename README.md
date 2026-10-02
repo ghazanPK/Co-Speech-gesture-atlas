@@ -3,7 +3,7 @@
 A maintained, structured map of research on co-speech gesture generation: papers, datasets, metrics and code, with a comparison row per paper rather than a bare link.
 
 <!-- BEGIN:stats -->
-**632 papers** (2007–2026), 63 datasets, 22 metrics. 274 records were filled from the full text, 303 from the abstract only (†), 55 from bibliographic metadata only (‡). 174 have been independently verified.
+**632 papers on gesture generation** and **0 on gesture theory** (2007–2026), 63 datasets, 22 metrics. 274 records were filled from the full text, 303 from the abstract only (†), 55 from bibliographic metadata only (‡). 174 have been independently verified.
 <!-- END:stats -->
 
 ## Contents
@@ -16,6 +16,10 @@ A maintained, structured map of research on co-speech gesture generation: papers
 - [Datasets](#datasets)
 - [Evaluation metrics](#evaluation-metrics)
 - [Contributing](#contributing)
+
+Elsewhere:
+- [Gesture theory](THEORY.md): studies of human gesture (psychology, linguistics, neuroscience) that the generation work builds on.
+- [Citation graph](docs/citations.html): which papers in the atlas cite which. Edge list in [`data/citations.csv`](data/citations.csv).
 
 ## Scope
 
@@ -884,4 +888,4 @@ python scripts/build_readme.py
 
 ## License
 
-List content: CC0. Scripts: MIT.
+List content (the data, the README tables and the documentation): CC0 1.0, see [LICENSE-DATA](LICENSE-DATA). Scripts: MIT, see [LICENSE](LICENSE).

@@ -127,14 +127,27 @@ def build_metrics(metrics, papers):
     return table(["Metric", "Also written", "Measures", "Better", "What it computes", "Papers here using it"], rows)
 
 
+def build_theory(papers):
+    group = sorted((p for p in papers if p["category"] == "theory"), key=lambda p: (p["year"], p["title"].lower()))
+    if not group:
+        return "*No records yet.*"
+    out = []
+    for start in sorted({p["year"] // 10 * 10 for p in group}):
+        rows = [[str(p["year"]), p.get("area", ""), paper_link(p), cell(p["venue"])] for p in group if p["year"] // 10 * 10 == start]
+        out.append(f"## {start}s\n\n" + table(["Year", "Area", "Paper", "Venue"], rows))
+    return "\n\n".join(out)
+
+
 def build_stats(papers, datasets, metrics):
+    theory = sum(1 for p in papers if p["category"] == "theory")
+    counts = f"**{len(papers) - theory} papers on gesture generation** and **{theory} on gesture theory**"
     full = sum(1 for p in papers if p.get("checked") == "full-text")
     abstract = sum(1 for p in papers if p.get("checked") == "abstract")
     meta = sum(1 for p in papers if p.get("checked") == "metadata")
     verified = sum(1 for p in papers if p.get("verified"))
     years = [p["year"] for p in papers]
     span = f"{min(years)}–{max(years)}" if years else "none"
-    return (f"**{len(papers)} papers** ({span}), {len([d for d in datasets if d['id'] != 'custom'])} datasets, "
+    return (f"{counts} ({span}), {len([d for d in datasets if d['id'] != 'custom'])} datasets, "
             f"{len([m for m in metrics if m['id'] != 'other'])} metrics. "
             f"{full} records were filled from the full text, {abstract} from the abstract only (†), "
             f"{meta} from bibliographic metadata only (‡). {verified} have been independently verified.")
@@ -151,22 +164,25 @@ def main():
         "datasets": build_datasets(datasets, papers),
         "metrics": build_metrics(metrics, papers),
     }
-    text = old = README.read_text(encoding="utf-8")
-    for name, body in blocks.items():
-        pattern = re.compile(rf"(<!-- BEGIN:{name} -->\n).*?(<!-- END:{name} -->)", re.S)
-        if not pattern.search(text):
-            print(f"README.md has no {name} markers")
-            return 1
-        text = pattern.sub(lambda m: m.group(1) + body + "\n" + m.group(2), text)
-    if text == old:
-        print("README.md is up to date.")
-        return 0
-    if "--check" in sys.argv:
-        print("README.md is out of date; run python scripts/build_readme.py")
-        return 1
-    README.write_text(text, encoding="utf-8", newline="\n")
-    print("README.md updated.")
-    return 0
+    status = 0
+    for path, names in ((README, list(blocks)), (ROOT / "THEORY.md", ["theory"])):
+        text = old = path.read_text(encoding="utf-8")
+        for name in names:
+            body = blocks[name] if name in blocks else build_theory(papers)
+            pattern = re.compile(rf"(<!-- BEGIN:{name} -->\n).*?(<!-- END:{name} -->)", re.S)
+            if not pattern.search(text):
+                print(f"{path.name} has no {name} markers")
+                return 1
+            text = pattern.sub(lambda m: m.group(1) + body + "\n" + m.group(2), text)
+        if text == old:
+            print(f"{path.name} is up to date.")
+        elif "--check" in sys.argv:
+            print(f"{path.name} is out of date; run python scripts/build_readme.py")
+            status = 1
+        else:
+            path.write_text(text, encoding="utf-8", newline="\n")
+            print(f"{path.name} updated.")
+    return status
 
 
 if __name__ == "__main__":
