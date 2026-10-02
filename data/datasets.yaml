@@ -1,4 +1,137 @@
 # One record per dataset. Papers refer to these by `id` in their `datasets` field.
 # Field rules: docs/SCHEMA.md (enforced by schema/schema.json and scripts/validate.py).
 
-[]
+- id: trinity
+  name: Trinity Speech-Gesture Dataset
+  added: '2026-10-02'
+  verified: false
+
+- id: trinity2
+  name: Trinity Speech-Gesture Dataset II
+  added: '2026-10-02'
+  verified: false
+
+- id: ted-gesture
+  name: TED Gesture
+  added: '2026-10-02'
+  verified: false
+
+- id: ted-expressive
+  name: TED Expressive
+  added: '2026-10-02'
+  verified: false
+
+- id: speech2gesture
+  name: Speech2Gesture (speaker-specific gesture dataset)
+  added: '2026-10-02'
+  verified: false
+
+- id: pats
+  name: PATS (Pose, Audio, Transcript, Style)
+  added: '2026-10-02'
+  verified: false
+
+- id: beat
+  name: BEAT
+  added: '2026-10-02'
+  verified: false
+
+- id: beat2
+  name: BEAT2 (BEATX)
+  added: '2026-10-02'
+  verified: false
+
+- id: show
+  name: TalkSHOW dataset (SHOW)
+  added: '2026-10-02'
+  verified: false
+
+- id: zeggs
+  name: ZeroEGGS dataset (ZEGGS)
+  added: '2026-10-02'
+  verified: false
+
+- id: talking-with-hands
+  name: Talking With Hands 16.2M
+  added: '2026-10-02'
+  verified: false
+
+- id: genea-2020
+  name: GENEA Challenge 2020 data
+  added: '2026-10-02'
+  verified: false
+
+- id: genea-2022
+  name: GENEA Challenge 2022 data
+  added: '2026-10-02'
+  verified: false
+
+- id: genea-2023
+  name: GENEA Challenge 2023 data
+  added: '2026-10-02'
+  verified: false
+
+- id: audio2photoreal
+  name: Audio2Photoreal conversations dataset
+  added: '2026-10-02'
+  verified: false
+
+- id: dnd-group-gesture
+  name: DnD Group Gesture
+  added: '2026-10-02'
+  verified: false
+
+- id: seamless-interaction
+  name: Seamless Interaction
+  added: '2026-10-02'
+  verified: false
+
+- id: saga
+  name: SaGA (Bielefeld Speech and Gesture Alignment corpus)
+  added: '2026-10-02'
+  verified: false
+
+- id: youtube-gesture
+  name: YouTube Gesture Dataset
+  added: '2026-10-02'
+  verified: false
+
+- id: aist-plus-plus
+  name: AIST++
+  added: '2026-10-02'
+  verified: false
+
+- id: amass
+  name: AMASS
+  added: '2026-10-02'
+  verified: false
+
+- id: humanml3d
+  name: HumanML3D
+  added: '2026-10-02'
+  verified: false
+
+- id: motion-x
+  name: Motion-X
+  added: '2026-10-02'
+  verified: false
+
+- id: cmu-panoptic
+  name: CMU Panoptic (Haggling)
+  added: '2026-10-02'
+  verified: false
+
+- id: iemocap
+  name: IEMOCAP
+  added: '2026-10-02'
+  verified: false
+
+- id: vico
+  name: ViCo (listening head dataset)
+  added: '2026-10-02'
+  verified: false
+
+- id: custom
+  name: Dataset collected by the authors and not named or released
+  added: '2026-10-02'
+  verified: false

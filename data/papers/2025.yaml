@@ -12,14 +12,20 @@
   doi: 10.1002/cav.70034
   links:
     paper: https://doi.org/10.1002/cav.70034
+    project: https://www.mrlab.co.kr/research/ridge
   input: [text]
-  output: [upper-body]          # to confirm against the manuscript
+  output: [upper-body]
+  representation: [joints-3d]
   approach: [hybrid, rule-based, retrieval]
   setting: [monologue]
-  realtime: unreported          # to confirm
-  datasets: []                  # to fill
-  languages: [en]               # to confirm
-  metrics: []                   # to fill
+  realtime: real-time
+  latency: "milliseconds per text segment, as stated; no benchmark table"
+  datasets: [beat]
+  languages: [en]
+  metrics: [gca]
+  user_study: false
   summary: "Retrieves a motion-captured gesture from an LLM-built rule base when a text match is confident, and falls back to a contrastively trained text-gesture model otherwise."
+  notes: "Pre-trained on about 300 hours of pose-estimated online video before fine-tuning on BEAT."
   added: "2026-10-02"
+  checked: full-text
   verified: false

@@ -45,7 +45,8 @@ Fields marked **always** are required on every record. Fields marked **verified*
 | `summary` | verified | One plain sentence saying what the method does. 300 characters at most. |
 | `notes` | | Anything a reader should know that has no field. |
 | `added` | always | Date the record was added, quoted: `"2026-10-02"`. |
-| `verified` | always | `true` once every field has been checked against the paper itself. |
+| `checked` | always | What the fields were read from: `full-text`, `abstract` (the full text was behind a paywall or otherwise unavailable) or `metadata` (title, venue and links only). |
+| `verified` | always | `true` once every field has been confirmed against the full text by two independent readings or by a maintainer. Requires `checked: full-text`. |
 
 At least one of `doi`, `arxiv` or `links.paper` must be present.
 

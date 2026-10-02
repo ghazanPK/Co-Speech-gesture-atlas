@@ -2,4 +2,156 @@
 # their `metrics` field; human evaluation is recorded with `user_study` instead.
 # Field rules: docs/SCHEMA.md (enforced by schema/schema.json and scripts/validate.py).
 
-[]
+- id: fgd
+  name: Fréchet Gesture Distance
+  aka:
+  - FGD
+  added: '2026-10-02'
+  verified: false
+
+- id: fid
+  name: Fréchet Inception Distance (on motion or image features)
+  aka:
+  - FID
+  added: '2026-10-02'
+  verified: false
+
+- id: fvd
+  name: Fréchet Video Distance
+  aka:
+  - FVD
+  added: '2026-10-02'
+  verified: false
+
+- id: fmd
+  name: Fréchet Motion Distance
+  aka:
+  - FMD
+  added: '2026-10-02'
+  verified: false
+
+- id: beat-align
+  name: Beat Alignment / Beat Consistency
+  aka:
+  - BeatAlign
+  - BA
+  - BC
+  - Beat Consistency Score
+  added: '2026-10-02'
+  verified: false
+
+- id: diversity
+  name: Diversity (average feature or pose distance between generated clips)
+  aka:
+  - Div
+  added: '2026-10-02'
+  verified: false
+
+- id: l1-div
+  name: L1 Diversity
+  aka:
+  - L1div
+  added: '2026-10-02'
+  verified: false
+
+- id: multimodality
+  name: Multimodality (variation for the same input)
+  aka:
+  - MM
+  added: '2026-10-02'
+  verified: false
+
+- id: srgr
+  name: Semantic-Relevant Gesture Recall
+  aka:
+  - SRGR
+  added: '2026-10-02'
+  verified: false
+
+- id: joint-error
+  name: Joint position or rotation error against ground truth
+  aka:
+  - MAE
+  - APE
+  - MPJPE
+  - L1
+  - MSE
+  added: '2026-10-02'
+  verified: false
+
+- id: pck
+  name: Percentage of Correct Keypoints
+  aka:
+  - PCK
+  added: '2026-10-02'
+  verified: false
+
+- id: accel-jerk
+  name: Acceleration and jerk statistics
+  aka:
+  - MAJE
+  - MAD
+  - Jerk
+  added: '2026-10-02'
+  verified: false
+
+- id: velocity-hist
+  name: Velocity histogram distance (Hellinger distance)
+  aka:
+  - HD
+  added: '2026-10-02'
+  verified: false
+
+- id: cca
+  name: Canonical Correlation Analysis against ground truth
+  aka:
+  - CCA
+  added: '2026-10-02'
+  verified: false
+
+- id: face-error
+  name: Face vertex or blendshape error
+  aka:
+  - LVD
+  - MSE (face)
+  - vertex MSE
+  added: '2026-10-02'
+  verified: false
+
+- id: r-precision
+  name: Retrieval precision of motion from text or speech
+  aka:
+  - R-Precision
+  added: '2026-10-02'
+  verified: false
+
+- id: image-quality
+  name: Frame-level image quality
+  aka:
+  - PSNR
+  - SSIM
+  - LPIPS
+  added: '2026-10-02'
+  verified: false
+
+- id: lip-sync
+  name: Lip synchronisation confidence or distance
+  aka:
+  - Sync-C
+  - Sync-D
+  - LSE-C
+  - LSE-D
+  added: '2026-10-02'
+  verified: false
+
+- id: gca
+  name: Gesture Cluster Affinity
+  aka:
+  - GCA
+  added: '2026-10-02'
+  verified: false
+
+- id: other
+  name: A metric not yet listed here; named in the paper record's notes
+  added: '2026-10-02'
+  verified: false

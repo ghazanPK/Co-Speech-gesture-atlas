@@ -30,7 +30,7 @@
     "paper": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "title", "year", "venue", "type", "category", "added", "verified"],
+      "required": ["id", "title", "year", "venue", "type", "category", "added", "checked", "verified"],
       "properties": {
         "id": {
           "description": "First author's family name, year, one keyword from the title or method name",
@@ -133,9 +133,21 @@
         "summary": { "type": "string", "minLength": 1, "maxLength": 300 },
         "notes": { "type": "string" },
         "added": { "$ref": "#/$defs/date" },
+        "checked": {
+          "description": "What the record's fields were read from",
+          "enum": ["full-text", "abstract", "metadata"]
+        },
         "verified": { "type": "boolean" }
       },
       "allOf": [
+        {
+          "description": "Only a record read from the full text can be verified",
+          "if": {
+            "required": ["verified"],
+            "properties": { "verified": { "const": true } }
+          },
+          "then": { "properties": { "checked": { "const": "full-text" } } }
+        },
         {
           "description": "Every record must be publicly identifiable",
           "anyOf": [
