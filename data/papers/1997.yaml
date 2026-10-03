@@ -187,8 +187,8 @@
   title: Movement phases in signs and co-speech gestures, and their transcription by human coders
   authors: [Sotaro Kita, Ingeborg van Gijn, Harry van der Hülst]
   year: 1997
-  venue: Lecture notes in computer science
-  type: conference
+  venue: LNCS
+  type: book
   category: theory
   doi: 10.1007/bfb0052986
   links: {paper: 'https://doi.org/10.1007/bfb0052986'}
@@ -215,7 +215,7 @@
   title: Growth points cross-linguistically
   authors: [David Moreno McNeill]
   year: 1997
-  venue: Cambridge University Press eBooks
+  venue: Language and Conceptualization
   type: book
   category: theory
   doi: 10.1017/cbo9781139086677.008

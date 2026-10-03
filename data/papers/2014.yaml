@@ -6,7 +6,7 @@
   title: Data-Driven Model of Nonverbal Behavior for Socially Assistive Human-Robot Interactions
   authors: [Henny Admoni, Brian Scassellati]
   year: 2014
-  venue: ACM
+  venue: 16th International Conference on Multimodal Interaction
   type: conference
   category: method
   doi: 10.1145/2663204.2663263
@@ -119,10 +119,11 @@
   title: Gestures in native Mexico and Central America
   authors: [Penelope Brown]
   year: 2014
-  venue: MPG.PuRe (Max Planck Society)
+  venue: 'Body - Language - Communication: An International Handbook on Multimodality in Human Interaction (vol. 2)'
   type: book
   category: theory
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0014-C80A-F'}
+  doi: 10.1515/9783110302028.1206
+  links: {paper: 'https://www.degruyterbrill.com/document/doi/10.1515/9783110302028.1206/html?lang=en'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -288,7 +289,7 @@
   title: Language, society, and history Towards a unified approach?
   authors: [Paja Faudree, Magnus Pharao Hansen]
   year: 2014
-  venue: Cambridge University Press eBooks
+  venue: The Cambridge Handbook of Linguistic Anthropology
   type: book
   category: theory
   doi: 10.1017/cbo9781139342872.011
@@ -372,7 +373,7 @@
   title: Gesture in all its forms
   authors: [Susan Goldin‐Meadow]
   year: 2014
-  venue: John Benjamins Publishing Company eBooks
+  venue: From Gesture in Conversation to Visible Action as Utterance
   type: book
   category: theory
   doi: 10.1075/z.188.13gol
@@ -414,7 +415,7 @@
   title: Production of Speech-Accompanying Gesture
   authors: [Matthew Goldrick, Victor S. Ferreira, Michele Miozzo, Sotaro Kita]
   year: 2014
-  venue: Oxford University Press eBooks
+  venue: The Oxford Handbook of Language Production
   type: book
   category: theory
   doi: 10.1093/oxfordhb/9780199735471.013.027
@@ -428,7 +429,7 @@
   title: The development of two pragmatic gestures of the so-called Open Hand Supine family in Italian children
   authors: [Maria Graziano]
   year: 2014
-  venue: John Benjamins Publishing Company eBooks
+  venue: From Gesture in Conversation to Visible Action as Utterance
   type: book
   category: theory
   doi: 10.1075/z.188.14gra
@@ -565,19 +566,6 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
-
-- id: humphries2014representing
-  title: Representing actions in co-speech gestures in Parkinson's Disease
-  authors: [Stacey A. Humphries, Judith Holler, Trevor J. Crawford, Ellen Poliakoff]
-  year: 2014
-  venue: Max Planck Digital Library
-  type: journal
-  category: theory
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-002B-87F4-6'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: clinical
 
 - id: kang2014coordinating
   title: 'Coordinating Gesture, Word, and Diagram: Explanations for Experts and Novices'
@@ -734,8 +722,8 @@
   title: Beat gestures facilitate speech production.
   authors: [Ché Lucero, Holly A. Zaharchuk, Daniel J. Casasanto]
   year: 2014
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
   links: {paper: 'https://escholarship.org/uc/item/8pw1x0sx'}
   added: '2026-10-03'
@@ -1265,7 +1253,7 @@
   title: From Gesture in Conversation to Visible Action as Utterance
   authors: [Mandana Seyfeddinipur, Marianne Gullberg]
   year: 2014
-  venue: John Benjamins Publishing Company eBooks
+  venue: John Benjamins Publishing Company
   type: book
   category: theory
   doi: 10.1075/z.188
@@ -1530,10 +1518,10 @@
   title: 'Gesture and Speech Input are Interlocking Pieces: The Development of Children’s Jigsaw Puzzle Assembly Ability'
   authors: [Christopher Neil Young, Erica A. Cartmill, Susan Cohen Levine, Susan Goldin‐Meadow]
   year: 2014
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
-  links: {paper: 'https://escholarship.org/uc/item/3h2198h1'}
+  links: {paper: 'https://cogsci.mindmodeling.org/2014/papers/316/'}
   added: '2026-10-03'
   checked: abstract
   verified: false

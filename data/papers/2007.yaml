@@ -32,7 +32,7 @@
   title: The Gestural Origin of Language
   authors: [David Armstrong, Sherman E. Wilcox]
   year: 2007
-  venue: Oxford University Press eBooks
+  venue: Oxford University Press
   type: book
   category: theory
   doi: 10.1093/acprof:oso/9780195163483.001.0001
@@ -74,7 +74,7 @@
   title: Automated generation of non-verbal behavior for virtual embodied characters
   authors: [Werner Breitfuß, Helmut Prendinger, Mitsuru Ishizuka]
   year: 2007
-  venue: ACM
+  venue: 9th international conference on Multimodal interfaces
   type: conference
   category: method
   doi: 10.1145/1322192.1322247
@@ -198,19 +198,6 @@
   verified: false
   area: linguistics
 
-- id: flechagarcia2007verbal
-  title: 'Non-verbal Communication in Dialogue: Alignment between Eyebrow Raises and Pitch Accents in English'
-  authors: [María Luisa Flecha-García]
-  year: 2007
-  venue: eScholarship (California Digital Library)
-  type: journal
-  category: theory
-  links: {paper: 'https://escholarship.org/uc/item/1wg4x76b'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: gentilucci2007motor
   title: The motor system and the relationships between speech and gesture
   authors: [Maurizio Gentilucci, Riccardo Dalla Volta]
@@ -308,19 +295,6 @@
   verified: false
   area: social-interaction
 
-- id: holler2007gesture
-  title: 'Gesture use in social interaction: how speakers'' gestures can reflect listeners'' thinking.'
-  authors: [Judith Holler, Beattie Geoffrey]
-  year: 2007
-  venue: MPG.PuRe (Max Planck Society)
-  type: journal
-  category: theory
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0012-CF50-8'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
-
 - id: hostetter2007raise
   title: Raise your hand if you’re spatial
   authors: [Autumn B. Hostetter, Martha Wagner Alibali]
@@ -339,8 +313,8 @@
   title: Does Sitting on Your Hands Make You Bite Your Tongue? The Effects of Gesture Prohibition on Speech During Motor Descriptions
   authors: [Autumn B. Hostetter, Martha Wagner Alibali, Sotaro Kita]
   year: 2007
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
   links: {paper: 'https://escholarship.org/uc/item/6g02f7bv'}
   added: '2026-10-03'
@@ -757,10 +731,10 @@
   title: Some multimodal signals in humans
   authors: [Jan Jaap de Ruiter, I. van der Sluis, M. Theune, E. Reiter, E.J. Krahmer]
   year: 2007
-  venue: MPG.PuRe (Max Planck Society)
-  type: journal
+  venue: MOG 2007 (Workshop on Multimodal Output Generation)
+  type: workshop
   category: theory
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0013-1741-4'}
+  links: {paper: 'https://www.mpi.nl/publications/item57689/some-multimodal-signals-humans'}
   added: '2026-10-03'
   checked: abstract
   verified: false

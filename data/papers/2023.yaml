@@ -60,8 +60,8 @@
   title: 'The multimodal nature of prominence: some directions for the study of the relation between gestures and pitch accents'
   authors: [Gilbert Ambrazaitis, David House]
   year: 2023
-  venue: Sciendo eBooks
-  type: journal
+  venue: 13th International Conference of Nordic Prosody
+  type: book
   category: theory
   doi: 10.2478/9788366675728-024
   links: {paper: 'https://doi.org/10.2478/9788366675728-024'}
@@ -601,15 +601,15 @@
   checked: abstract
   verified: false
 
-- id: jenkins2023gesturespeech
-  title: 'Gesture–speech coupling in persons with aphasia: A kinematic-acoustic analysis.'
+- id: jenkins2021kinematic
+  title: A kinematic-acoustic analysis of gesture-speech coupling in persons with aphasia
   authors: [Theodore Jenkins, Wim T. J. L. Pouw]
   year: 2023
-  venue: Journal of Experimental Psychology General
+  venue: 'Journal of Experimental Psychology: General'
   type: journal
   category: theory
   doi: 10.1037/xge0001346
-  links: {paper: 'https://doi.org/10.1037/xge0001346'}
+  links: {paper: 'https://www.ovid.com/journals/jepge/fulltext/10.1037/xge0001346~gesturespeech-coupling-in-persons-with-aphasia-a'}
   added: '2026-10-03'
   checked: abstract
   verified: false

@@ -30,19 +30,6 @@
   verified: false
   area: psycholinguistics
 
-- id: burgoon1994nonverbal
-  title: 'Nonverbal communication : the unspoken dialogue'
-  authors: [Judee K. Burgoon, David B. Buller, W. Gill Woodall]
-  year: 1994
-  venue: Medical Entomology and Zoology
-  type: book
-  category: theory
-  links: {paper: 'http://ci.nii.ac.jp/ncid/BA29902578'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
-
 - id: cassell1994animated
   title: Animated conversation
   authors: [Justine Cassell, Catherine Pélachaud, Norman I. Badler, Mark J. Steedman, Brett Achorn, Tripp Becket, Brett Douville, Scott Prevost, Matthew Stone]
@@ -75,7 +62,7 @@
   title: FACIAL PARALANGUAGE AND GESTURE
   authors: [Alan J. Fridlund]
   year: 1994
-  venue: Elsevier eBooks
+  venue: Human Facial Expression
   type: book
   category: theory
   doi: 10.1016/b978-0-12-267630-7.50017-4
@@ -172,10 +159,10 @@
   title: 'Bodytalk: A World Guide to Gestures'
   authors: [Desmond Morris]
   year: 1994
-  venue: Medical Entomology and Zoology
+  venue: 'Bodytalk: A World Guide to Gestures'
   type: book
   category: theory
-  links: {paper: 'https://ci.nii.ac.jp/ncid/BA24012562'}
+  links: {paper: 'https://books.google.com/books/about/Bodytalk.html?id=MQ5-AAAAMAAJ'}
   added: '2026-10-03'
   checked: abstract
   verified: false

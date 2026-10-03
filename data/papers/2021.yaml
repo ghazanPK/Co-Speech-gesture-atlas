@@ -140,7 +140,7 @@
   title: Gesture and Prosody in Multimodal Communication
   authors: [Lucien Brown, Pilar Prieto]
   year: 2021
-  venue: Cambridge University Press eBooks
+  venue: The Cambridge Handbook of Sociopragmatics
   type: book
   category: theory
   doi: 10.1017/9781108954105.023
@@ -901,8 +901,8 @@
   title: Tracking Discourse Topics in Co-speech Gesture
   authors: [Schuyler Laparle]
   year: 2021
-  venue: Lecture notes in computer science
-  type: conference
+  venue: LNCS
+  type: book
   category: theory
   doi: 10.1007/978-3-030-77817-0_18
   links: {paper: 'https://doi.org/10.1007/978-3-030-77817-0_18'}
@@ -1041,8 +1041,8 @@
   title: Sensory Modality of Input Influences the Encoding of Motion Events in Speech But Not Co-Speech Gestures
   authors: [Ezgi Mamus, Laura Jane Speed, Aslı Özyürek, Asifa Majid]
   year: 2021
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
   links: {paper: 'https://escholarship.org/uc/item/1xn2c4k8'}
   added: '2026-10-03'
@@ -1333,7 +1333,7 @@
   authors: [Aditi Singh, Arvind Kumar Bansal]
   year: 2021
   venue: Lecture Notes in Networks and Systems
-  type: conference
+  type: book
   category: method
   doi: 10.1007/978-3-030-80119-9_47
   links: {paper: 'https://doi.org/10.1007/978-3-030-80119-9_47'}
@@ -1524,8 +1524,8 @@
   title: 'Visual Information in Computer-Mediated Interaction Matters: Investigating the Association Between the Availability of Gesture and Turn Transition Timing in Conversation'
   authors: [James P. Trujillo, Stephen C. Levinson, Judith Holler]
   year: 2021
-  venue: Lecture notes in computer science
-  type: conference
+  venue: LNCS
+  type: book
   category: theory
   doi: 10.1007/978-3-030-78468-3_44
   links: {paper: 'https://doi.org/10.1007/978-3-030-78468-3_44'}
@@ -1658,8 +1658,8 @@
   title: 'It’s a Joint Effort: Understanding Speech and Gesture in Collaborative Tasks'
   authors: [Isaac Wang, Pradyumna Narayana, Dhruva Patil, Rahul Bangar, Bruce A. Draper, Ross Beveridge, Jaime Ruiz]
   year: 2021
-  venue: Lecture notes in computer science
-  type: conference
+  venue: LNCS
+  type: book
   category: theory
   doi: 10.1007/978-3-030-78465-2_13
   links: {paper: 'https://doi.org/10.1007/978-3-030-78465-2_13'}

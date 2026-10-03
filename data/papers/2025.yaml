@@ -96,11 +96,11 @@
   title: 'Gestural Relativity of Spatial Cognition: Speakers’ co-speech gestures shape listeners’ spatial frame of reference'
   authors: [Cognitive Science Society 2025, Tyler Marghetis, Shervin Nosrati]
   year: 2025
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
   doi: 10.48448/fxt0-1b68
-  links: {paper: 'https://doi.org/10.48448/fxt0-1b68'}
+  links: {paper: 'https://escholarship.org/uc/item/6cz8h14q'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -673,7 +673,7 @@
   title: 'SemGest: A Multimodal Feature Space Alignment and Fusion Framework for Semantic-aware Co-speech Gesture Generation'
   authors: [Yo-Hsin Fang, Vijay John, Yasutomo Kawanishi]
   year: 2025
-  venue: ACM
+  venue: International Workshop on Generation and Evaluation of Non-verbal Behaviour for Embodied Agents
   type: conference
   category: method
   doi: 10.1145/3746268.3759433
@@ -932,7 +932,7 @@
   title: 'Evaluating Automatic Hand-Gesture Generation Using Multimodal Corpus Annotations: The Benefits of a Multidisciplinary Approach'
   authors: [Mickaëlla Grondin-Verdon, Domitille Caillat, Louis Abel, Slim Ouni]
   year: 2025
-  venue: ACM
+  venue: International Workshop on Generation and Evaluation of Non-verbal Behaviour for Embodied Agents
   type: conference
   category: evaluation
   doi: 10.1145/3746268.3759430
@@ -1050,7 +1050,7 @@
   title: Co-speech Gestures
   authors: [Christopher Hart]
   year: 2025
-  venue: Cambridge University Press eBooks
+  venue: Language, Image, Gesture
   type: book
   category: theory
   doi: 10.1017/9781009257572.008
@@ -1171,7 +1171,7 @@
   title: Impact of Personality on Generation of Co-speech Nonverbal Behaviors Represented by 3D Skeleton Pose
   authors: [Ryo Ishii, Shin-ichiro Eitoku, Yoshihide Sato]
   year: 2025
-  venue: ACM
+  venue: 13th International Conference on Human-Agent Interaction
   type: conference
   category: method
   doi: 10.1145/3765766.3765785
@@ -1192,7 +1192,7 @@
   authors: [Haruki Ito, Akinori Ito, Takashi Nose]
   year: 2025
   venue: Lecture Notes in Networks and Systems
-  type: conference
+  type: book
   category: method
   doi: 10.1007/978-3-032-05994-9_10
   links: {paper: 'https://doi.org/10.1007/978-3-032-05994-9_10'}
@@ -1488,7 +1488,7 @@
   title: 'SemGesture: Synthesizing Semantically Enhanced and Coherent Gestures'
   authors: [Pengsheng Liu, Zhaojie Chu, Xiaofen Xing, Xiangmin Xu]
   year: 2025
-  venue: ACM
+  venue: 33rd ACM International Conference on Multimedia
   type: conference
   category: method
   doi: 10.1145/3746027.3755753
@@ -1779,8 +1779,8 @@
   title: What Insights Human Cognition Can Offer to Enhance Computational Models of Multimodal Language Generation?
   authors: [Aslı Özyürek]
   year: 2025
-  venue: Unknown venue
-  type: journal
+  venue: International Workshop on Generation and Evaluation of Non-verbal Behaviour for Embodied Agents
+  type: conference
   category: theory
   doi: 10.1145/3746268.3759438
   links: {paper: 'https://doi.org/10.1145/3746268.3759438'}
@@ -1951,7 +1951,7 @@
   title: Generating Half-Body Virtual Avatars of Teachers in E-learning Contexts
   authors: [Domenico Roberto, Berardina Nadja De Carolis]
   year: 2025
-  venue: Conference
+  venue: 16th Biannual Conference of the Italian SIGCHI Chapter
   type: conference
   category: system
   doi: 10.1145/3750069.3750298
@@ -2477,8 +2477,8 @@
   title: '“Are Multimodal Signals Synchronous?”: Temporal Relation of Declarative Gestures and Language Instructions in Human Robot Interaction'
   authors: [Karina Zamrazilova, Michal Vavrečka, Sofiia Ostapenko, Gabriela Šejnová, Júlia Škovierová]
   year: 2025
-  venue: Unknown venue
-  type: journal
+  venue: 2025 IEEE International Conference on Development and Learning (ICDL)
+  type: conference
   category: theory
   doi: 10.1109/icdl63968.2025.11204382
   links: {paper: 'https://doi.org/10.1109/icdl63968.2025.11204382'}
@@ -2680,7 +2680,7 @@
   title: Construction Grammar and Gesture
   authors: [Elisabeth Zima]
   year: 2025
-  venue: Cambridge University Press eBooks
+  venue: The Cambridge Handbook of Construction Grammar
   type: book
   category: theory
   doi: 10.1017/9781009049139.016

@@ -450,19 +450,6 @@
   verified: false
   area: development
 
-- id: gunter2008whats
-  title: What's the point of gesture? ERPs during co-speech pointing in abstract space
-  authors: [Thomas C. Gunter, Henning Holle, J. E. Douglas Weinbrenner]
-  year: 2008
-  venue: Max Planck Digital Library
-  type: journal
-  category: theory
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0010-F44D-7'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: neuroscience
-
 - id: hofs2008virtual
   title: Multimodal Interaction with a Virtual Guide
   authors: [Dennis H. W. Hofs, Mariët Theune, H.J.A. op den Akker]
@@ -527,19 +514,6 @@
   category: theory
   doi: 10.1177/0142723707087736
   links: {paper: 'https://doi.org/10.1177/0142723707087736'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: development
-
-- id: jesse2008audiovisual
-  title: Audiovisual alignment in child-directed speech facilitates word learning
-  authors: [Alexandra Jesse, Elizabeth K. Johnson]
-  year: 2008
-  venue: Max Planck Digital Library
-  type: journal
-  category: theory
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0013-1FDA-A'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -646,7 +620,7 @@
   title: Effects of different types of hand gestures in persuasive speech on receivers’ evaluations
   authors: [Fridanna Maricchiolo, Augusto Gnisci, Marino Bonaiuto, Gianluca Ficca]
   year: 2008
-  venue: Psychology Press eBooks
+  venue: Speech Accompanying-Gesture
   type: book
   category: theory
   doi: 10.4324/9781003059783-5
@@ -888,7 +862,7 @@
   title: Persuasion and the expressivity of gestures in humans and machines
   authors: [Isabella Poggi, Catherine Pélachaud]
   year: 2008
-  venue: Oxford University Press eBooks
+  venue: Embodied Communication in Humans and Machines
   type: book
   category: theory
   doi: 10.1093/acprof:oso/9780199231751.003.0017
@@ -1000,7 +974,7 @@
   title: Implementing a non-modular theory of language production in an embodied conversational agent
   authors: [Timo Sowa, Stefan Kopp, Susan Duncan, David M. McNeill, Ipke Wachsmuth]
   year: 2008
-  venue: Oxford University Press eBooks
+  venue: Embodied Communication in Humans and Machines
   type: book
   category: theory
   doi: 10.1093/acprof:oso/9780199231751.003.0018
@@ -1197,7 +1171,7 @@
   title: Embodied Communication in Humans and Machines
   authors: [Ipke Wachsmuth, Günther Knoblich]
   year: 2008
-  venue: Oxford University Press eBooks
+  venue: Oxford University Press
   type: book
   category: theory
   doi: 10.1093/acprof:oso/9780199231751.001.0001

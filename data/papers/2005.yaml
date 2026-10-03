@@ -34,8 +34,8 @@
   title: Focusing Attention with Deictic Gestures and Linguistic Expressions
   authors: [Adrian Bangerter, Max M. Louwerse]
   year: 2005
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
   links: {paper: 'https://escholarship.org/uc/item/201422tj'}
   added: '2026-10-03'
@@ -460,19 +460,6 @@
   checked: metadata
   verified: false
   area: psycholinguistics
-
-- id: mouri2005experimental
-  title: 'Experimental research on communicative function of co-speech gestures : Do gestures convey information, if they are not attended to by interlocutors?'
-  authors: [Shinsuke Mouri, Sakiko Yoshikawa]
-  year: 2005
-  venue: Medical Entomology and Zoology
-  type: journal
-  category: theory
-  links: {paper: 'https://ci.nii.ac.jp/naid/110003498145'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: perception
 
 - id: nishitani2005brocas
   title: 'Broca’s Region: From Action to Language'

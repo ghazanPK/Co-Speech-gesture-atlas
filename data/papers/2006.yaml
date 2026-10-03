@@ -2,19 +2,6 @@
 # The README tables are generated from these files. Field rules: docs/SCHEMA.md
 # (enforced by schema/schema.json and scripts/validate.py).
 
-- id: alibali2006dont
-  title: Don't Just Tell Them, Show Them! Teachers Can Intentionally Alter their Instructional Gestures
-  authors: [Martha Wagner Alibali, Kristen N. Bieda, Autumn B. Hostetter, Eric Knuth, Mitchell J. Nathan]
-  year: 2006
-  venue: eScholarship (California Digital Library)
-  type: journal
-  category: theory
-  links: {paper: 'https://escholarship.org/uc/item/0cn8z2ht'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: education
-
 - id: bavelas2006nonverbal
   title: 'Nonverbal and Verbal Communication: Hand Gestures and Facial Displays as Part of Language Use in Face-to-Face Dialogue'
   authors: [Janet Beavin Bavelas, Nicole Chovil]
@@ -89,8 +76,8 @@
   title: Gesture Expressivity Modulations in an ECA Application
   authors: [Nicolas Ech Chafai, Catherine Pélachaud, Danielle Pelé, Gaspard Breton]
   year: 2006
-  venue: Lecture notes in computer science
-  type: conference
+  venue: LNCS
+  type: book
   category: method
   doi: 10.1007/11821830_15
   links: {paper: 'https://doi.org/10.1007/11821830_15'}
@@ -554,7 +541,7 @@
   title: Gesture and Communication
   authors: [David Moreno McNeill]
   year: 2006
-  venue: Elsevier eBooks
+  venue: Encyclopedia of Language &amp; Linguistics
   type: book
   category: theory
   doi: 10.1016/b0-08-044854-2/00798-7
@@ -689,6 +676,19 @@
   checked: abstract
   verified: false
   area: clinical
+
+- id: rieser2006multi
+  title: Multi-modal Integration for Gesture and Speech
+  authors: [Hannes Rieser, Marc Staudacher]
+  year: 2006
+  venue: SemDial (Workshop on the Semantics and Pragmatics of Dialogue)
+  type: workshop
+  category: theory
+  links: {paper: 'http://semdial.org/anthology/018_Luecking_semdial2006_brandial_proceedings.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: rodriguez2006gestureverbal
   title: Effects of gesture+verbal and semantic‐phonologic treatments for verb retrieval in aphasia
@@ -943,8 +943,8 @@
   title: Automated Gesturing for Embodied Agents
   authors: [Goranka Zorić, Karlo Šmid, Igor Sunday Pandzic]
   year: 2006
-  venue: Lecture Notes in Computer Science
-  type: conference
+  venue: LNCS
+  type: book
   category: method
   doi: 10.1007/11780496_42
   links: {paper: 'https://doi.org/10.1007/11780496_42'}

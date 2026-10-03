@@ -152,7 +152,7 @@
   title: Gesturing for the Addressee
   authors: [Janet Beavin Bavelas]
   year: 2024
-  venue: Cambridge University Press eBooks
+  venue: The Cambridge Handbook of Gesture Studies
   type: book
   category: theory
   doi: 10.1017/9781108638869.023
@@ -161,6 +161,20 @@
   checked: abstract
   verified: false
   area: social-interaction
+
+- id: bekke2020predictive
+  title: 'The predictive potential of hand gestures during conversation: An investigation of the timing of gestures in relation to speech'
+  authors: [Marlijn ter Bekke, Linda Drijvers, Judith Holler]
+  year: 2024
+  venue: Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1111/cogs.13407
+  links: {paper: 'https://onlinelibrary.wiley.com/doi/10.1111/cogs.13407'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
 
 - id: bekke2024gestures
   title: Gestures speed up responses to questions
@@ -175,20 +189,6 @@
   checked: abstract
   verified: false
   area: psycholinguistics
-
-- id: bekke2024hand
-  title: 'Hand Gestures Have Predictive Potential During Conversation: An Investigation of the Timing of Gestures in Relation to Speech'
-  authors: [Marlijn ter Bekke, Linda Drijvers, Judith Holler]
-  year: 2024
-  venue: Cognitive Science
-  type: journal
-  category: theory
-  doi: 10.1111/cogs.13407
-  links: {paper: 'https://doi.org/10.1111/cogs.13407'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
 
 - id: bellifemine2024investigating
   title: Investigating pausing and gesturing patterns in children with and without developmental language disorder
@@ -248,7 +248,7 @@
   title: 'The Gestural Sign: A Concrete and Reasoned Analysis of Co-Speech Gesture'
   authors: [Geneviève Calbris, Mary M. Copple]
   year: 2024
-  venue: Cambridge University Press eBooks
+  venue: The Cambridge Handbook of Gesture Studies
   type: book
   category: theory
   doi: 10.1017/9781108638869.010
@@ -613,8 +613,8 @@
   title: Indexicality, Deixis, and Space in Gesture
   authors: [Ellen Fricke]
   year: 2024
-  venue: Cambridge University Press eBooks
-  type: journal
+  venue: The Cambridge Handbook of Gesture Studies
+  type: book
   category: theory
   doi: 10.1017/9781108638869.005
   links: {paper: 'https://doi.org/10.1017/9781108638869.005'}
@@ -937,8 +937,8 @@
   title: Co-speech Gesture Generation with Variational Auto Encoder
   authors: [Shinichi Ka, Koichi Shinoda]
   year: 2024
-  venue: Lecture Notes in Computer Science
-  type: conference
+  venue: LNCS
+  type: book
   category: method
   doi: 10.1007/978-3-031-53311-2_12
   links: {paper: 'https://doi.org/10.1007/978-3-031-53311-2_12'}
@@ -1483,7 +1483,7 @@
   title: The Growth Point
   authors: [David McNeill]
   year: 2024
-  venue: Cambridge University Press eBooks
+  venue: The Cambridge Handbook of Gesture Studies
   type: book
   category: theory
   doi: 10.1017/9781108638869.019
@@ -1577,7 +1577,7 @@
   title: Multimodality in Conversation Analysis
   authors: [Lorenza Mondada]
   year: 2024
-  venue: Cambridge University Press eBooks
+  venue: The Cambridge Handbook of Methods in Conversation Analysis
   type: book
   category: theory
   doi: 10.1017/9781108936583.025
@@ -1615,7 +1615,7 @@
   title: A Toolbox of Methods for Gesture Analysis
   authors: [F. Max Müller]
   year: 2024
-  venue: Cambridge University Press eBooks
+  venue: The Cambridge Handbook of Gesture Studies
   type: book
   category: theory
   doi: 10.1017/9781108638869.009
@@ -1746,7 +1746,7 @@
   authors: [Lorenzo Pugi, Alessandra Sorrentino, Laura Fiorini, Filippo Cavallo]
   year: 2024
   venue: Lecture Notes in Bioengineering
-  type: conference
+  type: book
   category: system
   doi: 10.1007/978-3-031-77318-1_25
   links: {paper: 'https://link.springer.com/chapter/10.1007/978-3-031-77318-1_25'}
@@ -1890,8 +1890,8 @@
   title: 'PIDM: Personality-Aware Interaction Diffusion Model for Gesture Generation'
   authors: [Takahiro Shibasaki, Yutaka Nakamura, Yuya Okadome]
   year: 2024
-  venue: Lecture Notes in Computer Science
-  type: conference
+  venue: LNCS
+  type: book
   category: method
   doi: 10.1007/978-3-031-72356-8_2
   links: {paper: 'https://doi.org/10.1007/978-3-031-72356-8_2'}
@@ -2081,8 +2081,8 @@
   title: Optimized Conversational Gesture Generation with Enhanced Motion Feature Extraction and Cascaded Generator
   authors: [Xiang Wang, Yifeng Peng, Zhaoxiang Liu, Shijie Dong, Ruitao Liu, Kai Wang, Shiguo Lian]
   year: 2024
-  venue: Lecture Notes in Computer Science
-  type: conference
+  venue: LNCS
+  type: book
   category: method
   doi: 10.1007/978-981-97-9437-9_29
   links: {paper: 'https://doi.org/10.1007/978-981-97-9437-9_29'}

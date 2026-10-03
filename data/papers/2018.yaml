@@ -337,6 +337,33 @@
   verified: false
   area: neuroscience
 
+- id: drijvers2016native
+  title: Native language status modulates the neural integration of speech and gesture in clear and adverse listening conditions
+  authors: [Linda Drijvers, Aslı Özyürek]
+  year: 2018
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.6084/m9.figshare.4203051.v1
+  links: {paper: 'https://www.sciencedirect.com/science/article/pii/S0093934X1730041X'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
+- id: drijvers2016nativeb
+  title: Native language status of the listener modulates the neural integration of speech and gesture in clear and adverse listening conditions
+  authors: [Linda Drijvers, Aslı Özyürek]
+  year: 2018
+  venue: Brain and Language
+  type: journal
+  category: theory
+  links: {paper: 'https://www.sciencedirect.com/science/article/pii/S0093934X1730041X'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
 - id: drijvers2018alpha
   title: Alpha and Beta Oscillations Index Semantic Congruency between Speech and Gestures in Clear and Degraded Speech
   authors: [Linda Drijvers, Aslı Özyürek, Ole Jensen]
@@ -554,7 +581,7 @@
   title: The Impulse to Gesture
   authors: [Simon Harrison]
   year: 2018
-  venue: Cambridge University Press eBooks
+  venue: Cambridge University Press
   type: book
   category: theory
   doi: 10.1017/9781108265065
@@ -1536,7 +1563,7 @@
   title: Gestural Cues to a Target
   authors: [Léonard Talmy]
   year: 2018
-  venue: The MIT Press eBooks
+  venue: The Targeting System of Language
   type: book
   category: theory
   doi: 10.7551/mitpress/9780262036979.003.0005

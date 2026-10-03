@@ -133,19 +133,6 @@
   verified: false
   area: neuroscience
 
-- id: argyriou2013left
-  title: The Effect of Left-Hand Gestures on Metaphor Explanation
-  authors: [Paraskevi Argyriou, Sotaro Kita]
-  year: 2013
-  venue: eScholarship (California Digital Library)
-  type: journal
-  category: theory
-  links: {paper: 'https://escholarship.org/uc/item/5jt143s0'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: cognition
-
 - id: bavelas2013reconciling
   title: Reconciling the effects of mutual visibility on gesturing
   authors: [Janet Beavin Bavelas, Sara Healing]
@@ -280,8 +267,8 @@
   title: English/Italian Bilinguals Switch Gesture Parameters when they Switch Languages
   authors: [Federica Cavicchio, Sotaro Kita]
   year: 2013
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
   links: {paper: 'https://escholarship.org/uc/item/6tp989dh'}
   added: '2026-10-03'
@@ -307,8 +294,8 @@
   title: Producing gestures facilitates encoding of spatial relation.
   authors: [Amy Lee Chong, Ben C. F. Choi, Elena Kwong, Jennifer Chan, Irina Chong, Mavis Ip, Christopher Yeung, Wing‐Chee So]
   year: 2013
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
   links: {paper: 'https://escholarship.org/uc/item/3mg475gn'}
   added: '2026-10-03'
@@ -530,10 +517,10 @@
   title: A ‘Composite Utterances’ approach to meaning
   authors: [N. J. Enfield]
   year: 2013
-  venue: MPG.PuRe (Max Planck Society)
+  venue: Handbook Body - Language - Communication, Vol. 1
   type: book
   category: theory
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-000F-AA56-5'}
+  links: {paper: 'https://www.semanticscholar.org/paper/A-%E2%80%98Composite-Utterances%E2%80%99-approach-to-meaning-Enfield/7d559d804de411346b20d187f4acdc40ebc548c6'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -640,7 +627,7 @@
   title: 'Hand Gestures and speech production in the booth: do simultaneous interpreters imitate the speaker?'
   authors: [Elena Zagar Galvão]
   year: 2013
-  venue: Imprensa da Universidade de Coimbra eBooks
+  venue: Estudos de linguística
   type: book
   category: theory
   doi: 10.14195/978-989-26-0714-6_7
@@ -805,10 +792,10 @@
   title: Here's not looking at you, kid! Unaddressed recipients benefit from co-speech gestures when speech processing suffers
   authors: [Judith Holler, Louise Schubotz, Spencer D. Kelly, Manuela Schuetze, Peter Hagoort, Aslı Özyürek]
   year: 2013
-  venue: MPG.PuRe (Max Planck Society)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
-  links: {paper: 'https://hdl.handle.net/11858/00-001M-0000-000E-EDF6-F'}
+  links: {paper: 'https://cogsci.mindmodeling.org/2013/papers/0463/index.html'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -876,10 +863,10 @@
   title: 'Channels of multimodal communication: Relative contributions to discourse understanding'
   authors: [Аndrej А. Kibrik, Natalia Molchanova]
   year: 2013
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
-  links: {paper: 'http://www.escholarship.org/uc/item/65b134r8'}
+  links: {paper: 'https://escholarship.org/uc/item/65b134r8'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -946,8 +933,8 @@
   title: A spreading-activation model of the semantic coordination of speech and gesture
   authors: [Stefan Kopp, Kirsten von Bergmann, Sebastian Kahl]
   year: 2013
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
   links: {paper: 'https://escholarship.org/uc/item/3vv1t6vv'}
   added: '2026-10-03'
@@ -1674,7 +1661,7 @@
   title: 'Describing Adjacency Along the Lateral Axis: the Complementary Roles of Speech and Gesture'
   authors: [Mark Tutton]
   year: 2013
-  venue: Oxford University Press eBooks
+  venue: The Construal of Spatial Meaning
   type: book
   category: theory
   doi: 10.1093/acprof:oso/9780199641635.003.0007
@@ -1705,19 +1692,6 @@
   type: journal
   category: theory
   links: {paper: 'https://research.tilburguniversity.edu/en/publications/6b407a13-30cd-4b26-b4fc-b2981e3db655'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: development
-
-- id: vogt2013rural
-  title: Rural and urban differences in language socialization and early vocabulary development in Mozambique
-  authors: [Paul Vogt, J.D. Mastin]
-  year: 2013
-  venue: eScholarship (California Digital Library)
-  type: journal
-  category: theory
-  links: {paper: 'https://escholarship.org/uc/item/5tn4654w'}
   added: '2026-10-03'
   checked: abstract
   verified: false

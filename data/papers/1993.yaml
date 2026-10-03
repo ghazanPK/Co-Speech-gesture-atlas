@@ -100,19 +100,6 @@
   verified: false
   area: linguistics
 
-- id: kita1993language
-  title: 'Language and thought interface: a study of spontaneous gestures and Japanese mimetics'
-  authors: [Sotaro Kita]
-  year: 1993
-  venue: Medical Entomology and Zoology
-  type: journal
-  category: theory
-  links: {paper: 'https://ci.nii.ac.jp/naid/10009705447'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: linguistics
-
 - id: leroigourhan1993gesture
   title: Gesture and speech
   authors: [André Leroi‐Gourhan, Anna Bostock Berger, Randall A. White]

@@ -489,8 +489,8 @@
   title: On Speech and Gestures Synchrony
   authors: [Anna Aurelia Esposito, Antonietta M. Esposito]
   year: 2011
-  venue: Lecture notes in computer science
-  type: conference
+  venue: LNCS
+  type: book
   category: theory
   doi: 10.1007/978-3-642-25775-9_25
   links: {paper: 'https://doi.org/10.1007/978-3-642-25775-9_25'}
@@ -601,7 +601,7 @@
   title: 5. Thinking, Speaking and Gesturing about Motion in more than One Language
   authors: [Marianne Gullberg]
   year: 2011
-  venue: Multilingual Matters eBooks
+  venue: Thinking and Speaking in Two Languages
   type: book
   category: theory
   doi: 10.21832/9781847693389-007
@@ -684,10 +684,10 @@
   title: Co-speech gestures in the process of meaning coordination
   authors: [Judith Holler, Mark Tutton, Katie Wilkin]
   year: 2011
-  venue: MPG.PuRe (Max Planck Society)
-  type: journal
+  venue: GESPIN 2011 (2nd Gesture and Speech in Interaction)
+  type: workshop
   category: theory
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0012-1BAF-A'}
+  links: {paper: 'https://www.mpi.nl/publications/item1105560/co-speech-gestures-process-meaning-coordination'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -752,8 +752,8 @@
   title: Gesture During Mental Rotation
   authors: [Autumn B. Hostetter, Martha Wagner Alibali, Anne Bartholomew]
   year: 2011
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
   links: {paper: 'https://escholarship.org/uc/item/4n13k9t6'}
   added: '2026-10-03'
@@ -1155,7 +1155,7 @@
   title: Cross-media agent platform
   authors: [Radosław Niewiadomski, Mohammad Obaid, Elisabetta Bevacqua, Julian Looser, Le Quoc Anh, Catherine Pélachaud]
   year: 2011
-  venue: ACM
+  venue: 16th International Conference on 3D Web Technology
   type: conference
   category: system
   doi: 10.1145/2010425.2010428
@@ -1227,8 +1227,8 @@
   title: 'Grammatical aspect in language production: Using gesture to reveal event representations.'
   authors: [Fey Parrill, Benjamin K. Bergen, Patricia Lichtenstein]
   year: 2011
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
   links: {paper: 'https://escholarship.org/uc/item/4gf344vx'}
   added: '2026-10-03'

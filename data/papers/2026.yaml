@@ -72,19 +72,6 @@
   verified: false
   area: social-interaction
 
-- id: bayram2026code
-  title: 'Code-Switching and Multimodal Language Production: The Interaction of Code-Switching, Speech Disfluency, and Gestures'
-  authors: [Berkay Bayram, Can Avcı, Tilbe Göksun]
-  year: 2026
-  venue: eScholarship (California Digital Library)
-  type: journal
-  category: theory
-  links: {paper: 'https://escholarship.org/uc/item/17q5h3jc'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: bosker2026foreign
   title: Foreign Language Learners Show a Kinematic Accent in Their Co-Speech Hand Movements
   authors: [Hans Rutger Bosker, Marieke Hoetjes, Doenja Hustin, Wim T. J. L. Pouw, Lieke van Maastricht]
@@ -431,7 +418,7 @@
   title: 'NeRAG: Neuro-Explicit Retrieval-Augmented Generation for Real-Time Interaction in Digital Humans'
   authors: [Yutao Guo, Tianzhao Li, Xin Lyu, J Chen, Zhaohan Wang, Yurun Chen, Sirui Xiao, Yezi He, Hui Li, Fan Zhang]
   year: 2026
-  venue: ACM
+  venue: 2026 International Conference on Multimedia Retrieval
   type: conference
   category: method
   doi: 10.1145/3805622.3810842
@@ -448,7 +435,7 @@
   title: A Preliminary Analysis of Situation and Personality in LLM-Generated Gesture Representations for Virtual Agents
   authors: [Bin Han, Jonathan S. Gratch]
   year: 2026
-  venue: ACM
+  venue: 26th ACM International Conference on Intelligent Virtual Agents
   type: conference
   category: evaluation
   doi: 10.1145/3806774.3832786
@@ -464,8 +451,8 @@
   title: 'FaceCapGes: Real-Time Frame-by-Frame Gesture Generation from Audio, Facial Capture, and Head Pose'
   authors: [Jun Hanaizumi, Cheng Shang, Xubo Yang]
   year: 2026
-  venue: Lecture Notes in Computer Science
-  type: conference
+  venue: LNCS
+  type: book
   category: method
   doi: 10.1007/978-3-032-22267-1_33
   links: {paper: 'https://doi.org/10.1007/978-3-032-22267-1_33'}
@@ -931,7 +918,7 @@
   title: The Sensorimotor Account of Multimodal Prosody
   authors: [Jacob P. Momsen, Seana Coulson]
   year: 2026
-  venue: Cambridge University Press eBooks
+  venue: Rhythms of Speech and Language
   type: book
   category: theory
   doi: 10.1017/9781009295888.006
@@ -1054,7 +1041,7 @@
   title: Holistic LLM-Based Expressive Behavior Generation for Robots
   authors: [Eric Nichols, Miguel Mejia Tobar, Randy Gómez]
   year: 2026
-  venue: ACM
+  venue: Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction
   type: conference
   category: system
   doi: 10.1145/3776734.3794507
@@ -1086,7 +1073,7 @@
   title: An Interaction Motion Generation Model Based on A Diffusion Model and Graph Attention for Back-Channel Behavior Synthesis
   authors: [Yuya Okadome, Yutaka Nakamura]
   year: 2026
-  venue: ACM
+  venue: Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction
   type: conference
   category: method
   doi: 10.1145/3776734.3794490
@@ -1267,7 +1254,7 @@
   title: 'Body-Grounded Speech Rhythm: Ubiquitous Interactions between Speech, Breathing, and Limb Movements'
   authors: [H Serre, Amélie Rochet‐Capellan]
   year: 2026
-  venue: Cambridge University Press eBooks
+  venue: Rhythms of Speech and Language
   type: book
   category: theory
   doi: 10.1017/9781009295888.003
@@ -1492,8 +1479,8 @@
   title: 'CtrlCoMo: Controllable Co-speech Motion Generation with Gesture–Action Disentanglement'
   authors: [Xinghan Wang, Ming Zhou, Yanbo Zheng, Youjiang Xu, Yuan Zhang, Mingyuan Gao, Nan Zhuang, Yadong Mu]
   year: 2026
-  venue: Lecture Notes in Computer Science
-  type: conference
+  venue: LNCS
+  type: book
   category: method
   doi: 10.1007/978-3-032-37211-6_15
   links: {paper: 'https://doi.org/10.1007/978-3-032-37211-6_15'}
@@ -1595,19 +1582,6 @@
   added: '2026-10-03'
   checked: full-text
   verified: false
-
-- id: werning2026iconic
-  title: 'How do iconic co-speech gestures contribute to the truth-conditions of assertions: A surprisal-based ERP investigation targeting N400 and late positivity effects'
-  authors: [Markus Werning, Ludmila Reimer, 'Wieder, Thomas', Carla Zenk, Maria Spychalska]
-  year: 2026
-  venue: eScholarship (California Digital Library)
-  type: journal
-  category: theory
-  links: {paper: 'https://escholarship.org/uc/item/6nt3r3x5'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: neuroscience
 
 - id: wright2026perceiving
   title: 'Perceiving an Avatar''s Epistemic Stance: A Parametric Reverse-Correlation Study of Visual Gestures'

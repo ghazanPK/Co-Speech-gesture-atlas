@@ -226,19 +226,6 @@
   verified: false
   area: development
 
-- id: gullberg1998gesture
-  title: 'Gesture as a Communication Strategy in Second Language Discourse: A Study of Learners of French and Swedish'
-  authors: [Marianne Gullberg]
-  year: 1998
-  venue: Max Planck Digital Library
-  type: book
-  category: theory
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0013-3109-1'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: gullberg1998gestureb
   title: Gesture as a communication strategy in second language discourse
   authors: [Marianne Gullberg]
@@ -417,20 +404,6 @@
   checked: metadata
   verified: false
   area: education
-
-- id: ruiter1998gesture
-  title: Gesture and speech production
-  authors: [De Ruiter, J. Peter]
-  year: 1998
-  venue: Max Planck Digital Library
-  type: journal
-  category: theory
-  doi: 10.17617/2.2057686
-  links: {paper: 'https://doi.org/10.17617/2.2057686'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: psycholinguistics
 
 - id: torres1998semantic
   title: Producing semantically appropriate gestures in embodied language generation

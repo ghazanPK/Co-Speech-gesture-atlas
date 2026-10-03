@@ -176,19 +176,6 @@
   checked: abstract
   verified: false
 
-- id: coulson2019working
-  title: Working Memory and Co-Speech Iconic Gestures.
-  authors: [Seana Coulson, Ying Choon Wu]
-  year: 2019
-  venue: eScholarship (California Digital Library)
-  type: journal
-  category: theory
-  links: {paper: 'https://escholarship.org/uc/item/2zr762d2'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: cravotta2019encouraging
   title: Effects of Encouraging the Use of Gestures on Speech
   authors: [Alice Cravotta, María Grazia Busà, Pilar Prieto]
@@ -948,7 +935,7 @@
   authors: [Izidor Mlakar, Zdravko Kačič, Matej Borko, Aleksandra Zögling, Matej Rojc]
   year: 2019
   venue: Lecture Notes in Electrical Engineering
-  type: conference
+  type: book
   category: dataset
   doi: 10.1007/978-3-030-21507-1_16
   links: {paper: 'https://doi.org/10.1007/978-3-030-21507-1_16'}
@@ -1179,20 +1166,6 @@
   checked: abstract
   verified: false
   area: other
-
-- id: rajeg2019linguistic
-  title: Linguistic and co-speech gestural patterns of spatiotemporal metaphors in Indonesian
-  authors: [Gede Primahadi Wijaya Rajeg, Poppy Siahaan, Alice R. Gaby]
-  year: 2019
-  venue: Figshare
-  type: journal
-  category: theory
-  doi: 10.26180/5c660c9786cef
-  links: {paper: 'https://doi.org/10.26180/5c660c9786cef'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
 
 - id: ramoscabo2019gesture
   title: 'Gesture and Language Trajectories in Early Development: An Overview From the Autism Spectrum Disorder Perspective'

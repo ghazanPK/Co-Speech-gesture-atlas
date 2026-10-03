@@ -90,7 +90,7 @@
   title: Language, Gesture, and Space
   authors: [K. Emmorey, J. Reilly]
   year: 1996
-  venue: Psychology Press eBooks
+  venue: Psychology Press
   type: book
   category: theory
   doi: 10.4324/9780203773413
@@ -168,24 +168,11 @@
   checked: abstract
   verified: false
 
-- id: nobe1996representation
-  title: 'Representational gestures, cognitive rhythms, and acoustic aspects of speech: A network threshold model of gesture production'
-  authors: [Sensho Nobe]
-  year: 1996
-  venue: Medical Entomology and Zoology
-  type: journal
-  category: theory
-  links: {paper: 'http://ci.nii.ac.jp/naid/10009705498'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: psycholinguistics
-
 - id: ochs1996come
   title: '“When I come down I''m in the domain state”: grammar and graphic representation in the interpretive activity of physicists'
   authors: [Elinor Ochs, Patrick Gonzales, Sally Jacoby]
   year: 1996
-  venue: Cambridge University Press eBooks
+  venue: Interaction and Grammar
   type: book
   category: theory
   doi: 10.1017/cbo9780511620874.007

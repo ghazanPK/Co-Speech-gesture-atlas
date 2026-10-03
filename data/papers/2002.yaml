@@ -485,10 +485,10 @@
   title: Speech-gesture relationship across languages and in second language learners. Implications for spatial thinking and speaking
   authors: [Aslı Özyürek]
   year: 2002
-  venue: Max Planck Digital Library
-  type: journal
+  venue: Proceedings of the 26th Boston University Conference on Language Development (BUCLD)
+  type: conference
   category: theory
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0013-30F2-C'}
+  links: {paper: 'https://www.mpi.nl/publications/item68322/speech-gesture-relationship-across-languages-and-second-language-learners'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -512,7 +512,7 @@
   title: Nonverbal Communication across Disciplines
   authors: [Fernando Poyatos]
   year: 2002
-  venue: John Benjamins Publishing Company eBooks
+  venue: John Benjamins Publishing Company
   type: book
   category: theory
   doi: 10.1075/z.ncad2
@@ -526,10 +526,10 @@
   title: 'Nonverbal Communication across Disciplines: Volume 1: Culture, sensory interaction, speech, conversation'
   authors: [Fernando Poyatos]
   year: 2002
-  venue: Medical Entomology and Zoology
+  venue: 'Nonverbal Communication across Disciplines, Volume 1: Culture, sensory interaction, speech, conversation'
   type: book
   category: theory
-  links: {paper: 'http://ci.nii.ac.jp/ncid/BA5662678X'}
+  links: {paper: 'https://www.jbe-platform.com/content/books/9789027297129'}
   added: '2026-10-03'
   checked: abstract
   verified: false

@@ -29,20 +29,6 @@
   verified: false
   area: linguistics
 
-- id: alamillo2010reference
-  title: 'Reference-Tracking in Gesture and Speech : A Developmental Study on French Narratives.'
-  authors: [Asela Reig Alamillo, Ramuna N. Kunene, Jean-Marc Colletta]
-  year: 2010
-  venue: Unknown venue
-  type: journal
-  category: theory
-  doi: 10.1400/152610
-  links: {paper: 'https://doi.org/10.1400/152610'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: development
-
 - id: alibali2010gesture
   title: Gesture highlights perceptually present information for speakers
   authors: [Martha Wagner Alibali, Sotaro Kita]
@@ -375,6 +361,19 @@
   verified: false
   area: linguistics
 
+- id: duncan2010multi
+  title: Multi-modal Analysis of Interactional Rapport in Three Language/Cultural Groups
+  authors: [Susan Duncan, Tizziana Baldenebro, Gina‐Anne Levow]
+  year: 2010
+  venue: Workshop on Modeling Human Communication Dynamics (MHCD 2010)
+  type: workshop
+  category: theory
+  links: {paper: 'http://projects.ict.usc.edu/mhcd2010/hcd-duncan.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
 - id: elms2010gesture
   title: Gesture-to-Speech Mismatch in the Construction of Problem Solving Insight
   authors: [J.T.E. Elms]
@@ -426,6 +425,19 @@
   verified: false
   area: neuroscience
 
+- id: ferre2010timing
+  title: Timing Relationships between Speech and Co-Verbal Gestures in Spontaneous French
+  authors: [Gaëlle Ferré]
+  year: 2010
+  venue: LREC 2010 Workshop on Multimodal Corpora
+  type: workshop
+  category: theory
+  links: {paper: 'https://hal.science/hal-00485797v1/document'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: furman2010early
   title: Early language-specificity in Turkish children's caused motion event expressions in speech and gesture
   authors: [Reyhan Furman, Aslı Özyürek, Ayli̇n C. Küntay]
@@ -457,7 +469,7 @@
   title: 'The importance of listening with one''s eyes: a case study of multimodality in simultaneous interpreting'
   authors: [Elena Zagar Galvão, Isabel Maria Galhano Rodrigues]
   year: 2010
-  venue: Unknown venue
+  venue: New Insights into Audiovisual Translation and Media Accessibility
   type: book
   category: theory
   doi: 10.1163/9789042031814_018
@@ -526,7 +538,7 @@
   title: Language-specific encoding of placement events in gestures
   authors: [Marianne Gullberg]
   year: 2010
-  venue: Cambridge University Press eBooks
+  venue: Event Representation in Language and Cognition
   type: book
   category: theory
   doi: 10.1017/cbo9780511782039.008
@@ -554,7 +566,7 @@
   title: What Does It Mean to Compare Language and Gesture? Modalities and Contrasts
   authors: [Jiansheng Guo, Elena Lieven, Nancy Budwig, Susan Ervin-Tripp, Keiko Nakamura, Seyda Ozcaliskan]
   year: 2010
-  venue: Psychology Press eBooks
+  venue: Crosslinguistic Approaches to the Psychology of Language
   type: book
   category: theory
   doi: 10.4324/9780203837887-41
@@ -633,28 +645,15 @@
   checked: abstract
   verified: false
 
-- id: holler2010speakers
-  title: Speakers’ Use of Interactive Gestures as Markers of Common Ground
-  authors: [Judith Holler]
-  year: 2010
-  venue: Lecture notes in computer science
-  type: conference
-  category: theory
-  doi: 10.1007/978-3-642-12553-9_2
-  links: {paper: 'https://doi.org/10.1007/978-3-642-12553-9_2'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: social-interaction
-
 - id: holler2010speakersb
   title: Speakers’ use of interactive gestures to mark common ground
   authors: [Judith Holler]
   year: 2010
-  venue: MPG.PuRe (Max Planck Society)
-  type: journal
+  venue: Gesture in Embodied Communication and Human-Computer Interaction (GW 2009, LNAI 5934)
+  type: book
   category: theory
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0012-CF5F-A'}
+  doi: 10.1007/978-3-642-12553-9_2
+  links: {paper: 'https://link.springer.com/chapter/10.1007/978-3-642-12553-9_2'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -871,6 +870,19 @@
   verified: false
   area: clinical
 
+- id: marghetis2010dynamic
+  title: 'Dynamic construals, static formalisms: Evidence from co-speech gesture during mathematical proving'
+  authors: [Tyler Marghetis, Rafael E. Núñez]
+  year: 2010
+  venue: AISB 2010 Symposium on Mathematical Practice and Cognition
+  type: workshop
+  category: theory
+  links: {paper: 'https://philpapers.org/rec/PEAPOA-2'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: cognition
+
 - id: matoesian2010multimodality
   title: Multimodality and forensic linguistics* Multimodal aspects of victim’s narrative in direct examination
   authors: [Gregory M. Matoesian]
@@ -889,7 +901,7 @@
   title: 14 Geometric and image-schematic patterns in gesture space
   authors: [Irene Mittelberg]
   year: 2010
-  venue: University of Toronto Press eBooks
+  venue: Language Cognition and Space
   type: book
   category: theory
   doi: 10.3138/9781845535032-016
@@ -962,8 +974,8 @@
   title: 'The Role of Iconic Gestures in Production and Comprehension of Language: Evidence from Brain and Behavior'
   authors: [Aslı Özyürek]
   year: 2010
-  venue: Lecture notes in computer science
-  type: conference
+  venue: LNCS
+  type: book
   category: theory
   doi: 10.1007/978-3-642-12553-9_1
   links: {paper: 'https://doi.org/10.1007/978-3-642-12553-9_1'}

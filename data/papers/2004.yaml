@@ -44,19 +44,6 @@
   verified: false
   area: social-interaction
 
-- id: brown2004speech
-  title: 'What co-speech gestures reveal about L2 proficiency: A study of Japanese Learners of English'
-  authors: [A. Brown, S. Allen, A. Özyürek, S. Kita, T. Ishizuka, R. Furman]
-  year: 2004
-  venue: MPG.PuRe (Max Planck Society)
-  type: journal
-  category: theory
-  links: {paper: 'https://hdl.handle.net/21.11116/0000-0013-2AEA-5'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: linguistics
-
 - id: camaioni2004declarative
   title: The Role of Declarative Pointing in Developing a Theory of Mind
   authors: [Luigia Camaioni, Paola Perucchini, Francesca Bellagamba, Cristina Colonnesi]
@@ -187,10 +174,11 @@
   title: The interaction of iconic gesture and speech
   authors: [Judith Holler, Geoffrey W. Beattie]
   year: 2004
-  venue: MPG.PuRe (Max Planck Society)
-  type: journal
+  venue: Gesture-Based Communication in Human-Computer Interaction (GW 2003, Springer LNCS)
+  type: workshop
   category: theory
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0012-CF47-D'}
+  doi: 10.1007/978-3-540-24598-8_6
+  links: {paper: 'https://link.springer.com/chapter/10.1007/978-3-540-24598-8_6'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -200,8 +188,8 @@
   title: 'On the Tip of the Mind: Gesture as a Key to Conceptualization'
   authors: [Autumn B. Hostetter, Martha Wagner Alibali]
   year: 2004
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
   links: {paper: 'https://escholarship.org/uc/item/0bq3923m'}
   added: '2026-10-03'
@@ -241,7 +229,7 @@
   title: Deployments of gesture in the utterance
   authors: [Adam Kendon]
   year: 2004
-  venue: Cambridge University Press eBooks
+  venue: Gesture Visible Action as Utterance
   type: book
   category: theory
   doi: 10.1017/cbo9780511807572.008

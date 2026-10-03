@@ -229,7 +229,7 @@
   title: '(Im)politeness: Prosody and Gesture'
   authors: [Lucien Brown, Pilar Prieto]
   year: 2017
-  venue: Palgrave Macmillan UK eBooks
+  venue: The Palgrave Handbook of Linguistic (Im)politeness
   type: book
   category: theory
   doi: 10.1057/978-1-137-37508-7_14
@@ -248,19 +248,6 @@
   category: theory
   doi: 10.1075/lia.8.1.03car
   links: {paper: 'https://doi.org/10.1075/lia.8.1.03car'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: development
-
-- id: cartmill2017mapping
-  title: Mapping hand to world; Development of iconic representation in gesture and homesign.
-  authors: [Erica A. Cartmill, Lilia Rissman, Miriam Alana Novack, Susan Goldin‐Meadow]
-  year: 2017
-  venue: eScholarship (California Digital Library)
-  type: journal
-  category: theory
-  links: {paper: 'https://escholarship.org/uc/item/6wn7n5c5'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -370,7 +357,7 @@
   title: Gesture, Language, and Cognition
   authors: [Kensy Cooperrider, Susan Goldin‐Meadow]
   year: 2017
-  venue: Cambridge University Press eBooks
+  venue: The Cambridge Handbook of Cognitive Linguistics
   type: book
   category: theory
   doi: 10.1017/9781316339732.009
@@ -478,25 +465,11 @@
   verified: false
   area: linguistics
 
-- id: ferstl2017automatic
-  title: Automatic Gesture Generation for Virtual Humans with Deep and Temporal Learning
-  authors: [Ylva Ferstl, Rachel McDonnell]
-  year: 2017
-  venue: Max Planck Digital Library
-  type: conference
-  category: method
-  links: {paper: 'https://hdl.handle.net/21.11116/0000-0000-C574-F'}
-  summary: Generates gestures for virtual conversational agents from live speech, selecting gestural behaviour from prosodic, syntactic and semantic analysis with a deep model that includes temporal relations between gestures.
-  notes: Venue and publication type not stated in the abstract; entry is a Max Planck repository item.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: feyaerts2017multimodality
   title: Multimodality in Interaction
   authors: [Kurt Feyaerts, Geert Brône, Bert Oben]
   year: 2017
-  venue: Cambridge University Press eBooks
+  venue: The Cambridge Handbook of Cognitive Linguistics
   type: book
   category: theory
   doi: 10.1017/9781316339732.010
@@ -622,7 +595,7 @@
   title: Environmentally Coupled Gestures
   authors: [Charles Goodwin]
   year: 2017
-  venue: Cambridge University Press eBooks
+  venue: Co-Operative Action
   type: book
   category: theory
   doi: 10.1017/9781139016735.017
@@ -1472,7 +1445,7 @@
   title: Self-Making Man
   authors: [Jürgen Streeck]
   year: 2017
-  venue: Cambridge University Press eBooks
+  venue: Cambridge University Press
   type: book
   category: theory
   doi: 10.1017/9781139149341

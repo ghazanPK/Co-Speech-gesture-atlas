@@ -6,8 +6,8 @@
   title: Disfluency production in speech and gesture.
   authors: [Niloofar Akhavan, Tilbe Göksun, Nazbanou Nozari]
   year: 2016
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
   links: {paper: 'https://escholarship.org/uc/item/6h35g0np'}
   added: '2026-10-03'
@@ -59,8 +59,8 @@
   title: Temporal Expressions in Speech and Gesture.
   authors: [İdil Bostan, Ahmet Börütecene, Oğuzhan Özcan, Tilbe Göksun]
   year: 2016
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
   links: {paper: 'https://escholarship.org/uc/item/54n6s609'}
   added: '2026-10-03'
@@ -247,46 +247,6 @@
   verified: false
   area: psycholinguistics
 
-- id: drijvers2016gestural
-  title: Gestural enhancement of degraded speech comprehension engages the language network, motor and visual cortex as reflected by a decrease in the alpha and beta band
-  authors: [Linda Drijvers, Aslı Özyürek, 'Jensen, O.']
-  year: 2016
-  venue: Max Planck Digital Library
-  type: journal
-  category: theory
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-002B-0BE4-3'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: neuroscience
-
-- id: drijvers2016native
-  title: Native language status modulates the neural integration of speech and gesture in clear and adverse listening conditions
-  authors: [Linda Drijvers, Aslı Özyürek]
-  year: 2016
-  venue: Figshare
-  type: journal
-  category: theory
-  doi: 10.6084/m9.figshare.4203051.v1
-  links: {paper: 'https://doi.org/10.6084/m9.figshare.4203051.v1'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: neuroscience
-
-- id: drijvers2016nativeb
-  title: Native language status of the listener modulates the neural integration of speech and gesture in clear and adverse listening conditions
-  authors: [Linda Drijvers, Aslı Özyürek]
-  year: 2016
-  venue: Max Planck Digital Library
-  type: journal
-  category: theory
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-002B-0BEC-4'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: neuroscience
-
 - id: drijvers2016visual
   title: 'Visual Context Enhanced: The Joint Contribution of Iconic Gestures and Visible Speech to Degraded Speech Comprehension'
   authors: [Linda Drijvers, Aslı Özyürek]
@@ -319,7 +279,7 @@
   title: 'Hold + Stroke Gesture Sequences as Cohesion Devices: Examples from Danish Narratives'
   authors: [Anne Therese Frederiksen]
   year: 2016
-  venue: eScholarship (California Digital Library)
+  venue: San Diego Linguistic Papers
   type: journal
   category: theory
   links: {paper: 'https://escholarship.org/uc/item/8fg0p51c'}
@@ -530,7 +490,7 @@
   title: 'How Co-Speech Gestures are Rendered in Audio Description: A Case Study'
   authors: [Anna Magdalena Jankowska, Monika Zabrocka]
   year: 2016
-  venue: Palgrave Macmillan UK eBooks
+  venue: Researching Audio Description
   type: book
   category: theory
   doi: 10.1057/978-1-137-56917-2_9
@@ -1002,24 +962,11 @@
   verified: false
   area: psycholinguistics
 
-- id: ozyurek2016language
-  title: 'Language in the visual modality: Co-speech Gesture and Sign'
-  authors: [Aslı Özyürek, Gerardo Ortega]
-  year: 2016
-  venue: Max Planck Digital Library
-  type: book
-  category: theory
-  links: {paper: 'http://hdl.handle.net/21.11116/0000-0001-837F-D'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: pouw2016gesture
   title: Gesture as predictive action
   authors: [Wim T. J. L. Pouw, Autumn B. Hostetter]
   year: 2016
-  venue: MPG.PuRe (Max Planck Society)
+  venue: Reti, Saperi, Linguaggi
   type: journal
   category: theory
   doi: 10.12832/83918
@@ -1084,6 +1031,19 @@
   verified: false
   area: clinical
 
+- id: rowbotham2014feel
+  title: 'I see how you feel: Speakers'' gestures help people to understand their pain'
+  authors: [Samantha J. Rowbotham, Judith Holler, Alison J. Wearden, Donna M. Lloyd]
+  year: 2016
+  venue: Patient Education and Counseling
+  type: journal
+  category: theory
+  links: {paper: 'https://www.sciencedirect.com/science/article/abs/pii/S0738399116301112'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: perception
+
 - id: rowbotham2016feel
   title: 'I see how you feel: Recipients obtain additional information from speakers’ gestures about pain'
   authors: [Samantha J. Rowbotham, Judith Holler, Alison J. Wearden, Donna M. Lloyd]
@@ -1112,19 +1072,6 @@
   verified: false
   area: clinical
 
-- id: schubotz2016cocktail
-  title: 'The cocktail party effect revisited in older and younger adults: When do iconic co-speech gestures help?'
-  authors: [Louise Schubotz, Linda Drijvers, Judith Holler, Aslı Özyürek]
-  year: 2016
-  venue: MPG.PuRe (Max Planck Society)
-  type: journal
-  category: theory
-  links: {paper: 'http://hdl.handle.net/21.11116/0000-0002-6199-4'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: perception
-
 - id: schulke2016modulating
   title: Modulating the assessment of semantic speech–gesture relatedness via transcranial direct current stimulation of the left frontal cortex
   authors: [Rasmus Schülke, Benjamin Straube]
@@ -1152,19 +1099,6 @@
   checked: abstract
   verified: false
   area: linguistics
-
-- id: stickles2016interaction
-  title: 'The interaction of syntax and metaphor in gesture: A corpus-experimental approach'
-  authors: [Elise Stickles]
-  year: 2016
-  venue: eScholarship (California Digital Library)
-  type: book
-  category: theory
-  links: {paper: 'https://escholarship.org/uc/item/2763w05b'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: cognition
 
 - id: stieff2016gesture
   title: Gesture Supports Spatial Thinking in STEM

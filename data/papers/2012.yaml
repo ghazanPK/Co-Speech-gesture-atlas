@@ -81,11 +81,11 @@
   title: Co-speech gestures modulate prefrontal activity in face-to-face communication situations
   authors: [齋藤 洋典, 趙 文雋, 大井 京]
   year: 2012
-  venue: Unknown venue
-  type: journal
+  venue: Japanese Society for Cognitive Psychology, 10th Conference
+  type: conference
   category: theory
   doi: 10.14875/cogpsy.2012.0_15
-  links: {paper: 'https://doi.org/10.14875/cogpsy.2012.0_15'}
+  links: {paper: 'https://www.jstage.jst.go.jp/article/cogpsy/2012/0/2012_15/_article'}
   added: '2026-10-03'
   checked: metadata
   verified: false
@@ -94,7 +94,7 @@
 - id: anon2012viewpoint
   title: Viewpoint in Language
   year: 2012
-  venue: Cambridge University Press eBooks
+  venue: Cambridge University Press
   type: book
   category: theory
   doi: 10.1017/cbo9781139084727
@@ -149,8 +149,8 @@
   title: Gestural Alignment in Natural Dialogue
   authors: [Kirsten von Bergmann, Stefan Kopp]
   year: 2012
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
   links: {paper: 'https://escholarship.org/uc/item/73z0q063'}
   added: '2026-10-03'
@@ -490,19 +490,6 @@
   verified: false
   area: psycholinguistics
 
-- id: holler2012gestures
-  title: 'When gestures catch the eye: The influence of gaze direction on co-speech gesture comprehension in triadic communication'
-  authors: [Judith Holler, Spencer D. Kelly, Peter Hagoort, Aslı Özyürek]
-  year: 2012
-  venue: eScholarship (California Digital Library)
-  type: journal
-  category: theory
-  links: {paper: 'https://escholarship.org/uc/item/0vt435ns'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: perception
-
 - id: hostetter2012personality
   title: Effects of personality and social situation on representational gesture production
   authors: [Autumn B. Hostetter, Andrea L. Potthoff]
@@ -531,51 +518,12 @@
   verified: false
   area: clinical
 
-- id: humphreys2012action
-  title: Action representation in co-speech gestures in Parkinson's Disease
-  authors: [S. Humphreys, Ellen Poliakoff, Judith Holler]
-  year: 2012
-  venue: MPG.PuRe (Max Planck Society)
-  type: journal
-  category: theory
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0014-59D2-C'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: clinical
-
-- id: humphries2012action
-  title: Action representation actions in co-speech gestures in Parkinson's Disease
-  authors: [Stacey A. Humphries, Ellen Poliakoff, Judith Holler]
-  year: 2012
-  venue: Max Planck Digital Library
-  type: journal
-  category: theory
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-002B-87F2-A'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: clinical
-
-- id: humphries2012parkinsons
-  title: How does Parkinson’s Disease affect the way people use gestures to communicate about actions?
-  authors: [Stacey A. Humphries, Ellen Poliakoff, Judith Holler]
-  year: 2012
-  venue: Max Planck Digital Library
-  type: journal
-  category: theory
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-002B-85F9-C'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: clinical
-
 - id: jamalian2012gestures
   title: Gestures Alter Thinking About Time
   authors: [Azadeh Jamalian, Barbara Tversky]
   year: 2012
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
   links: {paper: 'https://escholarship.org/uc/item/3372k7gs'}
   added: '2026-10-03'
@@ -1057,7 +1005,7 @@
   title: Interactions between discourse status and viewpoint inco-speech gesture
   authors: [Fey Parrill]
   year: 2012
-  venue: Cambridge University Press eBooks
+  venue: Viewpoint in Language
   type: book
   category: theory
   doi: 10.1017/cbo9781139084727.008
@@ -1085,8 +1033,8 @@
   title: 'Interaction between Speech and Gesture: Strategies for Pointing to Distant Objects'
   authors: [Thies Pfeiffer]
   year: 2012
-  venue: Lecture notes in computer science
-  type: conference
+  venue: LNCS
+  type: book
   category: theory
   doi: 10.1007/978-3-642-34182-3_22
   links: {paper: 'https://doi.org/10.1007/978-3-642-34182-3_22'}
@@ -1306,7 +1254,7 @@
   title: 'Introduction: viewpoint and perspectivein language and gesture, from the Grounddown'
   authors: [Eve E. Sweetser]
   year: 2012
-  venue: Cambridge University Press eBooks
+  venue: Viewpoint in Language
   type: book
   category: theory
   doi: 10.1017/cbo9781139084727.002

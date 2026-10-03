@@ -2,19 +2,6 @@
 # The README tables are generated from these files. Field rules: docs/SCHEMA.md
 # (enforced by schema/schema.json and scripts/validate.py).
 
-- id: duncan1985interaction
-  title: Interaction Structure and Strategy
-  authors: [Starkey Duncan, Donald W. Fiske]
-  year: 1985
-  venue: Medical Entomology and Zoology
-  type: book
-  category: theory
-  links: {paper: 'http://ci.nii.ac.jp/ncid/BA0102534X'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
-
 - id: goldinmeadow1985gesture
   title: 'Gesture in Early Child Language: Studies of Deaf and Hearing Children.'
   authors: [Susan Goldin‐Meadow, Marolyn Morford]
@@ -60,7 +47,7 @@
   title: On some gestures' relation to talk
   authors: [Emanuel A. Schegloff]
   year: 1985
-  venue: Cambridge University Press eBooks
+  venue: Structures of Social Action
   type: book
   category: theory
   doi: 10.1017/cbo9780511665868.018

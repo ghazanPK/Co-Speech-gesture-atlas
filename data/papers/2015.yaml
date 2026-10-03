@@ -200,6 +200,19 @@
   verified: false
   area: linguistics
 
+- id: carro2015coming
+  title: 'Coming of age in gesture : A comparative study of gesturing and pantomiming in older children and adults'
+  authors: [Ingrid Masson Carro, Martijn B. Goudbeek, Emiel Krahmer]
+  year: 2015
+  venue: GESPIN 2015
+  type: conference
+  category: theory
+  links: {paper: 'https://research.tilburguniversity.edu/en/publications/coming-of-age-in-gesture-a-comparative-study-of-gesturing-and-pan/'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
 - id: chiu2015predicting
   title: 'Predicting Co-verbal Gestures: A Deep and Temporal Modeling Approach'
   authors: [Chung-Cheng Chiu, Louis-Philippe Morency, Stacy Marsella]
@@ -248,10 +261,10 @@
   title: 'More than Meets the Eye: Gesture Changes Thought, even without Visual Feedback.'
   authors: [Kensy Cooperrider, Elizabeth M. Wakefield, Susan Goldin‐Meadow]
   year: 2015
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
-  links: {paper: 'https://escholarship.org/uc/item/0kc1s4jp'}
+  links: {paper: 'https://cogsci.mindmodeling.org/2015/papers/0085/index.html'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -390,7 +403,7 @@
   title: The University of Edinburgh Speaker Personality and MoCap Dataset
   authors: [Kathrin Haag, Hiroshi Shimodaira]
   year: 2015
-  venue: ACM
+  venue: Facial Analysis and Animation
   type: conference
   category: dataset
   doi: 10.1145/2813852.2813860
@@ -484,19 +497,6 @@
   checked: metadata
   verified: false
   area: development
-
-- id: holler2015gesture
-  title: Gesture, gaze, and the body in the organisation of turn-taking for conversation.
-  authors: [Judith Holler, Kobin H. Kendrick]
-  year: 2015
-  venue: Max Planck Digital Library
-  type: journal
-  category: theory
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-002B-8551-4'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
 
 - id: hostetter2015gestures
   title: 'Gestures Occur With Spatial and Motoric Knowledge: It''s More Than Just Coincidence'
@@ -626,10 +626,10 @@
   title: Measuring Time Gestures with the Microsoft Kinect.
   authors: [Daniel Lenzen]
   year: 2015
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
-  links: {paper: 'https://escholarship.org/uc/item/8gc886gt'}
+  links: {paper: 'https://cogsci.mindmodeling.org/2015/papers/0226/index.html'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -704,8 +704,8 @@
   title: The mental number-line spreads by gestural contagion
   authors: [Tyler Marghetis, Luke Eberle, Benjamin K. Bergen]
   year: 2015
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
   links: {paper: 'https://escholarship.org/uc/item/75q3g0s4'}
   added: '2026-10-03'
@@ -731,7 +731,7 @@
   title: Brain
   authors: [David M. McNeill]
   year: 2015
-  venue: Cambridge University Press eBooks
+  venue: Why We Gesture
   type: book
   category: theory
   doi: 10.1017/cbo9781316480526.009
@@ -759,7 +759,7 @@
   title: Why We Gesture
   authors: [David M. McNeill]
   year: 2015
-  venue: Cambridge University Press eBooks
+  venue: Cambridge University Press
   type: book
   category: theory
   doi: 10.1017/cbo9781316480526
@@ -1265,10 +1265,10 @@
   title: '"The baking stick thing": Automatization of co-speech gesture during lexical access.'
   authors: [Prakaiwan Vajrabhaya, Eric R. A. Pederson]
   year: 2015
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
-  links: {paper: 'https://escholarship.org/uc/item/1tb852vz'}
+  links: {paper: 'https://cogsci.mindmodeling.org/2015/papers/0654/index.html'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1362,8 +1362,8 @@
   title: Developing Embodied Agents for Education Applications with Accurate Synchronization of Gesture and Speech
   authors: [Jianfeng Xu, Yuki Nagai, Shinya Takayama, Shigeyuki Sakazawa]
   year: 2015
-  venue: Lecture Notes in Computer Science
-  type: conference
+  venue: LNCS
+  type: book
   category: system
   doi: 10.1007/978-3-319-27543-7_1
   links: {paper: 'https://doi.org/10.1007/978-3-319-27543-7_1'}

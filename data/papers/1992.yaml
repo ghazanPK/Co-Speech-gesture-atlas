@@ -5,7 +5,7 @@
 - id: anon1992advances
   title: Advances in Non-Verbal Communication
   year: 1992
-  venue: John Benjamins Publishing Company eBooks
+  venue: John Benjamins Publishing Company
   type: book
   category: theory
   doi: 10.1075/z.60
@@ -168,19 +168,6 @@
   checked: metadata
   verified: false
   area: cognition
-
-- id: streeck1992previews
-  title: 'Previews: Gestures at the transition place'
-  authors: [Jürgen Streeck, Ulrike Hartge]
-  year: 1992
-  venue: Medical Entomology and Zoology
-  type: journal
-  category: theory
-  links: {paper: 'https://ci.nii.ac.jp/naid/10009705476'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: social-interaction
 
 - id: thal1992communicative
   title: Communicative Gestures in Children With Delayed Onset of Oral Expressive Vocabulary

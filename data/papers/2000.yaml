@@ -89,7 +89,7 @@
   title: 'Gesture and the transition from one- to two-word speech: when hand and mouth come together'
   authors: [Cynthia Butcher, Susan Goldin‐Meadow]
   year: 2000
-  venue: Cambridge University Press eBooks
+  venue: Language and Gesture
   type: book
   category: theory
   doi: 10.1017/cbo9780511620850.015
@@ -142,24 +142,11 @@
   verified: false
   area: linguistics
 
-- id: engle2000theory
-  title: Toward a theory of multimodal communication combining speech, gestures, diagrams, and demonstrations in instructional explanations
-  authors: [Randi A. Engle]
-  year: 2000
-  venue: Medical Entomology and Zoology
-  type: book
-  category: theory
-  links: {paper: 'http://ci.nii.ac.jp/ncid/BB01456054?l=en'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: education
-
 - id: furuyama2000gestural
   title: Gestural interaction between the instructor and the learner in origami instruction
   authors: [Nobuhiro Furuyama]
   year: 2000
-  venue: Cambridge University Press eBooks
+  venue: Language and Gesture
   type: book
   category: theory
   doi: 10.1017/cbo9780511620850.007
@@ -215,7 +202,7 @@
   title: The role of gesture and mimetic representation in making language the province of speech
   authors: [Susan Goldin‐Meadow, David M. McNeill]
   year: 2000
-  venue: Oxford University Press eBooks
+  venue: The Descent of MindPsychological Perspectives on Hominid Evolution
   type: book
   category: theory
   doi: 10.1093/acprof:oso/9780192632593.003.0009
@@ -285,7 +272,7 @@
   title: How representational gestures help speaking
   authors: [Sotaro Kita]
   year: 2000
-  venue: Cambridge University Press eBooks
+  venue: Language and Gesture
   type: book
   category: theory
   doi: 10.1017/cbo9780511620850.011
@@ -330,7 +317,7 @@
   title: 'Lexical gestures and lexical access: a process model'
   authors: [Robert M. Krauss, Yihsiu Chen, Rebecca F. Gottesman]
   year: 2000
-  venue: Cambridge University Press eBooks
+  venue: Language and Gesture
   type: book
   category: theory
   doi: 10.1017/cbo9780511620850.017
@@ -372,7 +359,7 @@
   title: Gestures, knowledge, and the world
   authors: [Curtis LeBaron, Jürgen Streeck]
   year: 2000
-  venue: Cambridge University Press eBooks
+  venue: Language and Gesture
   type: book
   category: theory
   doi: 10.1017/cbo9780511620850.008
@@ -386,7 +373,7 @@
   title: The role of gestures and other graded language forms in the grounding of reference in perception
   authors: [Elena T. Levy, Carol A. Fowler]
   year: 2000
-  venue: Cambridge University Press eBooks
+  venue: Language and Gesture
   type: book
   category: theory
   doi: 10.1017/cbo9780511620850.014
@@ -428,7 +415,7 @@
   title: 'Catchments and contexts: non-modular factors in speech and gesture production'
   authors: [David M. McNeill]
   year: 2000
-  venue: Cambridge University Press eBooks
+  venue: Language and Gesture
   type: book
   category: theory
   doi: 10.1017/cbo9780511620850.019
@@ -442,7 +429,7 @@
   title: Gesture in thought
   authors: [David M. McNeill]
   year: 2000
-  venue: Cambridge University Press eBooks
+  venue: Language and Gesture
   type: book
   category: theory
   doi: 10.1017/cbo9780511620850.009
@@ -470,7 +457,7 @@
   title: Where do most spontaneous representational gestures actually occur with respect to speech?
   authors: [Shuichi Nobe]
   year: 2000
-  venue: Cambridge University Press eBooks
+  venue: Language and Gesture
   type: book
   category: theory
   doi: 10.1017/cbo9780511620850.012
@@ -500,7 +487,7 @@
   title: The influence of addressee location on spatial language and representational gestures of direction
   authors: [Aslı Özyürek]
   year: 2000
-  venue: Cambridge University Press eBooks
+  venue: Language and Gesture
   type: book
   category: theory
   doi: 10.1017/cbo9780511620850.005
@@ -528,7 +515,7 @@
   title: The production of gesture and speech
   authors: [Jan P. de Ruiter]
   year: 2000
-  venue: Cambridge University Press eBooks
+  venue: Language and Gesture
   type: book
   category: theory
   doi: 10.1017/cbo9780511620850.018

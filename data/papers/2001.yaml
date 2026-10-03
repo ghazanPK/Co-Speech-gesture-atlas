@@ -116,19 +116,6 @@
   verified: false
   area: education
 
-- id: furuyama2001syntacticizing
-  title: 'De-syntacticizing the theories of reference maintenance from the viewpoint of poetic function of language and gesture : a case of Japanese discourse'
-  authors: [Nobuhiro Furuyama]
-  year: 2001
-  venue: Medical Entomology and Zoology
-  type: book
-  category: theory
-  links: {paper: 'http://ci.nii.ac.jp/ncid/BA70629686'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: linguistics
-
 - id: goldinmeadow2001explaining
   title: 'Explaining Math: Gesturing Lightens the Load'
   authors: [Susan Goldin‐Meadow, Howard C. Nusbaum, Spencer D. Kelly, Susan Wagner]
@@ -230,10 +217,11 @@
   title: What do speech-gesture mismatches reveal about language specific processing? A comparison of Turkish and English
   authors: [Aslı Özyürek]
   year: 2001
-  venue: Max Planck Digital Library
-  type: journal
+  venue: BLS
+  type: conference
   category: theory
-  links: {paper: 'http://hdl.handle.net/11858/00-001M-0000-0013-30EF-5'}
+  doi: 10.3765/bls.v27i1.1117
+  links: {paper: 'https://journals.linguisticsociety.org/proceedings/index.php/BLS/article/view/1117'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -336,25 +324,6 @@
   checked: abstract
   verified: false
   area: psycholinguistics
-
-- id: wachsmuth2001timing
-  title: Timing and Rhythm in Multimodal Communication for Conversational Agents
-  authors: [Ipke Wachsmuth]
-  year: 2001
-  venue: eScholarship
-  type: conference
-  category: system
-  links: {paper: 'https://escholarship.org/uc/item/91h8h0vn'}
-  input: [text]
-  output: [upper-body, hands]
-  representation: [joints-3d]
-  approach: [rule-based]
-  realtime: unreported
-  summary: Describes an articulated communicator that plans lifelike gesture animations from a gestuary and synchronizes gesture strokes with text-to-speech output.
-  notes: Venue is not stated in the text read; the paper is hosted on eScholarship.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
 
 - id: wang2001teachers
   title: Effects of Teachers' Verbal and Non-verbal Scaffolding on Everyday Classroom Performances of Students with Down Syndrome Effets du Soutien Verbal et Non Verbal des Enseignants sur les Performances Quotidiennes en Classe des E´le ¤ ves Trisomiques Efectos de 'Scaffolding' Verbal y No Verbal de los Profesores en las Actuaciones Cotidianas en las Clases de Estudiantes con el S´ L ndrome de Down

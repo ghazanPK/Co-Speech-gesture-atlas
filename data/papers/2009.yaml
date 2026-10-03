@@ -44,19 +44,6 @@
   verified: false
   area: linguistics
 
-- id: ashley2009musical
-  title: Musical structure and spatial cognition as revealed in gesture and talk
-  authors: [Richard D. Ashley]
-  year: 2009
-  venue: eScholarship (California Digital Library)
-  type: journal
-  category: theory
-  links: {paper: 'https://escholarship.org/uc/item/4qc258zr'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: cognition
-
 - id: bergmann2009gnetic
   title: GNetIc – Using Bayesian Decision Networks for Iconic Gesture Generation
   authors: [Kirsten Bergmann, Stefan Kopp]
@@ -129,10 +116,10 @@
   title: 'Emotional valence is body-specific: Evidence from spontaneous gestures during US presidential debates'
   authors: [Daniel J. Casasanto, Kyle M. Jasmin]
   year: 2009
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
-  links: {paper: 'https://escholarship.org/uc/item/5d4693m4'}
+  links: {paper: 'https://www.mpi.nl/publications/item101966/emotional-valence-body-specific-evidence-spontaneous-gestures-during-us'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -169,10 +156,10 @@
   title: 'Co-speech gestures do not originate from speech production processes: Evidence from the relationship between co-thought and co-speech gestures'
   authors: [Mingyuan Chu, Sotaro Kita]
   year: 2009
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
-  links: {paper: 'http://www.escholarship.org/uc/item/9cz069mh'}
+  links: {paper: 'https://pure.mpg.de/rest/items/item_1448784/component/file_1448783/content'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -223,8 +210,8 @@
   title: Multi-track Annotation of Child Language and Gestures
   authors: [Jean-Marc Colletta, Ramona Kunene Nicolas, Aurélie Venouil, Virginie Kaufmann, Jean-Pascal Simon]
   year: 2009
-  venue: Lecture notes in computer science
-  type: conference
+  venue: LNCS
+  type: book
   category: theory
   doi: 10.1007/978-3-642-04793-0_4
   links: {paper: 'https://doi.org/10.1007/978-3-642-04793-0_4'}
@@ -320,7 +307,7 @@
   title: Composite utterances
   authors: [N. J. Enfield]
   year: 2009
-  venue: Cambridge University Press eBooks
+  venue: The Anatomy of Meaning
   type: book
   category: theory
   doi: 10.1017/cbo9780511576737.002
@@ -525,19 +512,6 @@
   verified: false
   area: clinical
 
-- id: hubbard2009giving
-  title: 'Giving speech a hand : fMRI of co-speech beat gesture processing in adult native English speakers, Japanese English as a second language speakers, typically-developing children, and children with autism spectrum disorder'
-  authors: [Amy Lynn Hubbard]
-  year: 2009
-  venue: Medical Entomology and Zoology
-  type: book
-  category: theory
-  links: {paper: 'http://ci.nii.ac.jp/ncid/BB04016105'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: neuroscience
-
 - id: kelly2009integrating
   title: 'Integrating Speech and Iconic Gestures in a Stroop-like Task: Evidence for Automatic Processing'
   authors: [Spencer D. Kelly, Peter Creigh, James Bartolotti]
@@ -626,8 +600,8 @@
   title: Communicative Gestures and Memory Load
   authors: [Emiel Krahmer, Alfons Maes, Lisette Mol, Marc G. J. Swerts]
   year: 2009
-  venue: eScholarship (California Digital Library)
-  type: journal
+  venue: CogSci
+  type: conference
   category: theory
   links: {paper: 'https://escholarship.org/uc/item/4wx1k0n2'}
   added: '2026-10-03'
@@ -715,8 +689,8 @@
   title: On Factoring Out a Gesture Typology from the Bielefeld Speech-and-Gesture-Alignment Corpus (SAGA)
   authors: [Andy Lücking, Kirsten Bergmann, Florian Hahn, Stefan Kopp, H. Rieser]
   year: 2009
-  venue: Lecture notes in computer science
-  type: conference
+  venue: LNCS
+  type: book
   category: theory
   doi: 10.1007/978-3-642-12553-9_5
   links: {paper: 'https://doi.org/10.1007/978-3-642-12553-9_5'}
@@ -962,7 +936,7 @@
   title: A Computational Model for the Representation and Processing of Shape in Coverbal Iconic Gestures 1
   authors: [Timo Sowa, Ipke Wachsmuth]
   year: 2009
-  venue: Oxford University Press eBooks
+  venue: Spatial Language and Dialogue
   type: book
   category: theory
   doi: 10.1093/acprof:oso/9780199554201.003.0010
@@ -971,6 +945,19 @@
   checked: abstract
   verified: false
   area: linguistics
+
+- id: stefanini2009spoken
+  title: 'Spoken and gestural lexicon in a naming task: developmental data.'
+  authors: [Silvia Stefanini, Abdulrahman Mohammed Bello, Jana Marie Iverson, María Cristina Caselli, Virginia Volterra]
+  year: 2009
+  venue: Language and Cognitive Processes
+  type: journal
+  category: theory
+  links: {paper: 'https://www.researchgate.net/publication/247514100_Co-speech_gestures_in_a_naming_task_Developmental_data'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
 
 - id: straube2009social
   title: Social cues, mentalizing and the neural processing of speech accompanied by gestures
@@ -1042,6 +1029,20 @@
   verified: false
   area: development
 
+- id: visser2009function
+  title: The Function of Gesture in an Architectural Design Meeting
+  authors: [Willemien Visser]
+  year: 2009
+  venue: 'About: Designing. Analysing Design Meetings (Taylor & Francis)'
+  type: book
+  category: theory
+  arxiv: '0908.3362'
+  links: {paper: 'https://inria.hal.science/inria-00410315', open: 'https://arxiv.org/abs/0908.3362'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
 - id: wartenburger2009relationship
   title: On the relationship between fluid intelligence, gesture production, and brain structure
   authors: [Isabell Wartenburger, Esther Kühn, Uta Sassenberg, Manja Foth, Elizabeth A. Franz, Elke van der Meer]
@@ -1060,7 +1061,7 @@
   title: Pragmatics and Non-Verbal Communication
   authors: [Tim Wharton]
   year: 2009
-  venue: Cambridge University Press eBooks
+  venue: Cambridge University Press
   type: book
   category: theory
   doi: 10.1017/cbo9780511635649

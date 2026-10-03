@@ -48,7 +48,7 @@
   title: 'From Hand to Mouth: The Gestural Origins of Language'
   authors: [Michael C. Corballis]
   year: 2003
-  venue: Oxford University Press eBooks
+  venue: Language Evolution
   type: book
   category: theory
   doi: 10.1093/acprof:oso/9780199244843.003.0011
@@ -340,7 +340,7 @@
   title: 'Do Real Numbers Really Move? Language, Thought, and Gesture: The Embodied Cognitive Foundations of Mathematics'
   authors: [Rafael E. Núñez]
   year: 2003
-  venue: Lecture notes in computer science
+  venue: LNCS
   type: book
   category: theory
   doi: 10.1007/978-3-540-27833-7_4
@@ -349,19 +349,6 @@
   checked: metadata
   verified: false
   area: cognition
-
-- id: richmond2003nonverbal
-  title: Nonverbal Behavior in Interpersonal Relations
-  authors: [VIRGINIA PECK RICHMOND, James C. McCroskey]
-  year: 2003
-  venue: Medical Entomology and Zoology
-  type: book
-  category: theory
-  links: {paper: 'https://ci.nii.ac.jp/ncid/BB06155984'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
 
 - id: rose2003limb
   title: 'Limb apraxia, pantomine, and lexical gesture in aphasic speakers: Preliminary findings'
@@ -381,7 +368,7 @@
   title: Why Pointing With the Index Finger Is Not a Universal (in Sociocultural and Semiotic Terms)
   authors: [David P. Wilkins]
   year: 2003
-  venue: Psychology Press eBooks
+  venue: Pointing
   type: book
   category: theory
   doi: 10.4324/9781410607744-12

@@ -127,7 +127,7 @@
 - id: anon2020speech
   title: Speech Accompanying-Gesture
   year: 2020
-  venue: Psychology Press eBooks
+  venue: Psychology Press
   type: book
   category: theory
   doi: 10.4324/9781003059783
@@ -866,19 +866,6 @@
   verified: false
   area: social-interaction
 
-- id: ksa2020speech
-  title: 'Co-speech gestures reflect non-linguistic thinking: evidence from mental abacus.'
-  authors: [Yağmur Deniz Kısa, Neon Blue Brooks, Susan Goldin‐Meadow]
-  year: 2020
-  venue: eScholarship (California Digital Library)
-  type: journal
-  category: theory
-  links: {paper: 'https://escholarship.org/uc/item/5xp2j4kh'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: cognition
-
 - id: kucherenko2020gesticulator
   title: 'Gesticulator: A framework for semantically-aware speech-driven gesture generation'
   authors: [Taras Kucherenko, Patrik Jonell, Sanne van Waveren, Gustav Eje Henter, Simon Alexanderson, Iolanda Leite, Hedvig Kjellström]
@@ -1025,19 +1012,6 @@
   category: theory
   doi: 10.3389/fpsyg.2020.575952
   links: {paper: 'https://doi.org/10.3389/fpsyg.2020.575952'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: development
-
-- id: marentette2020pantomimeb
-  title: 'Pantomime (but not silent gesture) shows gesture-speech integration: Evidence from children’s narratives'
-  authors: [P. Marentette, R. Furman, M. Suvanto, E. Nicoladis]
-  year: 2020
-  venue: MPG.PuRe (Max Planck Society)
-  type: journal
-  category: theory
-  links: {paper: 'https://hdl.handle.net/21.11116/0000-0013-258D-3'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1239,8 +1213,8 @@
   title: 'Expressing manner and path in English and Turkish: Differences in speech, gesture, and conceptualization'
   authors: [Aslı Özyürek, Sotaro Kita]
   year: 2020
-  venue: Psychology Press eBooks
-  type: journal
+  venue: Twenty First Annual Conference of the Cognitive Science Society
+  type: book
   category: theory
   doi: 10.4324/9781410603494-94
   links: {paper: 'https://doi.org/10.4324/9781410603494-94'}
@@ -1279,7 +1253,7 @@
   title: Negation, Prosody, and Gesture
   authors: [Pilar Prieto, M. Teresa Espinal]
   year: 2020
-  venue: Oxford University Press eBooks
+  venue: The Oxford Handbook of Negation
   type: book
   category: theory
   doi: 10.1093/oxfordhb/9780198830528.013.34
