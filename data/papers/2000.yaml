@@ -537,3 +537,15 @@
   checked: abstract
   verified: false
   area: psycholinguistics
+
+- id: yan2000paired
+  title: Paired speech and gesture generation in embodied conversational agents
+  authors: [Hao Yan]
+  year: 2000
+  venue: MIT
+  type: thesis
+  category: method
+  links: {paper: 'http://hdl.handle.net/1721.1/70733'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false

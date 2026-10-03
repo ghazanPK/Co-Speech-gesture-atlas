@@ -396,6 +396,19 @@
   verified: false
   area: cognition
 
+- id: gu2012chinese
+  title: Chinese hands of time. The effects of language and culture on temporal gestures and spatio-temporal reasoning
+  authors: [Yan Gu]
+  year: 2012
+  venue: Data Archiving and Networked Services (DANS)
+  type: thesis
+  category: theory
+  links: {paper: 'https://research.tilburguniversity.edu/en/publications/9cddcc1b-26d1-48a2-a8f2-3d211cf9eb09'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
 - id: guen2012metaphorical
   title: No Metaphorical Timeline in Gesture and Cognition Among Yucatec Mayas
   authors: [Olivier Le Guen, Lorena Ildefonsa Pool Balam]
@@ -844,6 +857,20 @@
   verified: false
   area: education
 
+- id: marsella2012modeling
+  title: Modeling nonverbal behaviors for virtual agents
+  authors: [Stacy Marsella, Jina Lee]
+  year: 2012
+  venue: Thesis
+  type: thesis
+  category: method
+  links: {paper: 'http://dl.acm.org/citation.cfm?id=2518573'}
+  approach: [rule-based]
+  summary: Derives models that generate virtual agent nonverbal behaviour such as head nods, eyebrow movements and arm gestures, using literature-based rules and probabilistic models learned from speaker behaviour.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: marshall2012gesture
   title: 'Gesture and Naming Therapy for People With Severe Aphasia: A Group Study'
   authors: [Jane Marshall, Wendy Best, Naomi Cocks, Madeline N. Cruice, Tim Pring, Gemma Bulcock, Gemma Creek, Nancy Eales, Alice Lockhart Mummery, Niina Matthews, Anna Caute]
@@ -1278,6 +1305,22 @@
   links: {paper: 'https://doi.org/10.1007/978-3-642-32326-3_6'}
   added: '2026-10-03'
   checked: metadata
+  verified: false
+
+- id: vonbergmann2012gnetic
+  title: 'The Production of Co-Speech Iconic Gestures: Empirical Study and Computational Simulation with Virtual Agents'
+  authors: [Kirsten von Bergmann]
+  year: 2012
+  venue: Bielefeld University
+  type: thesis
+  category: method
+  links: {paper: 'https://pub.uni-bielefeld.de/record/2460005'}
+  approach: [hybrid]
+  user_study: true
+  summary: Develops GNetIc, a network model combining data-driven learning and rule-based decisions to generate speaker-specific iconic gestures for a virtual agent's speech.
+  notes: Only the abstract was available; the thesis page returned access denied.
+  added: '2026-10-03'
+  checked: abstract
   verified: false
 
 - id: yang2012emotional

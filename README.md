@@ -3,7 +3,7 @@
 A maintained, structured map of research on co-speech gesture generation: papers, datasets, metrics and code, with a comparison row per paper rather than a bare link.
 
 <!-- BEGIN:stats -->
-**621 papers on gesture generation** and **1983 on gesture theory** (1965–2026), 69 datasets, 36 metrics. 219 records were filled from the full text, 2030 from the abstract only (†), 355 from bibliographic metadata only (‡). 132 have been independently verified.
+**621 papers on gesture generation**, **1983 on gesture theory** and **83 theses** (1965–2026), 69 datasets, 36 metrics. 219 records were filled from the full text, 2107 from the abstract only (†), 361 from bibliographic metadata only (‡). 132 have been independently verified.
 <!-- END:stats -->
 
 ## Contents
@@ -13,6 +13,7 @@ A maintained, structured map of research on co-speech gesture generation: papers
 - [Papers](#papers)
 - [Surveys, challenges and evaluation studies](#surveys-challenges-and-evaluation-studies)
 - [Dataset papers](#dataset-papers)
+- [Theses](#theses)
 - [Datasets](#datasets)
 - [Evaluation metrics](#evaluation-metrics)
 - [Contributing](#contributing)
@@ -854,19 +855,111 @@ Papers whose main contribution is a dataset. The datasets themselves are compare
 | 2010 | LREC Workshop on Multimodal Corpora | dataset | [The Bielefeld Speech and Gesture Alignment Corpus (SaGA)](https://doi.org/10.13140/2.1.4216.1922)‡ · [open copy](https://pub.uni-bielefeld.de/record/2001935) |  |
 <!-- END:dataset-papers -->
 
+## Theses
+
+Doctoral and master's theses on gesture generation and on gesture theory. They are examined rather than peer reviewed, so they are listed apart from the papers.
+
+<!-- BEGIN:theses -->
+| Year | Thesis | Institution | Kind | Summary |
+|---|---|---|---|---|
+| 2026 | [AI-Based Gesture Generation for Humanoid Robots from Speech Transcriptions](https://etd.adm.unipi.it/theses/available/etd-05072026-144420/)† | University of Pisa | method | Generates co-speech gestures for a humanoid robot from text transcriptions using a discrete gesture vocabulary built with VQ-VAE and GRU or Transformer models with a latent-space Kalman filter. |
+| 2026 | [More Than Just Natural. Contextually Relevant and Semantically Meaningful Gesture Generation](https://doi.org/10.4119/unibi/3016358)† · [open copy](https://nbn-resolving.org/urn:nbn:de:0070-pub-30163585) | Bielefeld University | method | A thesis proposing context-driven gesture generation, covering AQ-GT and AQ-GT-A for beat and annotation-guided gestures, the TF-JAX-IK inverse kinematics solver, and the ImaGGen semantic planning framework driven by visual input. |
+| 2026 | [Reinforcement Learning and Virtual Human Animation: A novel approach to data-driven animation, portraying dynamic, flexible human-like behaviours](https://doi.org/10.21427/aw1h-3j07)† · [open copy](https://arrow.tudublin.ie/scschcomdis/286) | TU Dublin | method | Model-based reinforcement learning framework (RLAnimate) with latent state space models that generates frame-by-frame upper-body behaviours including speech-driven beat gestures. |
+| 2026 | [Spatially Grounded Communication in Embodied Agents : From Gesture Generation to Referential Understanding](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-382200)† | KTH | method | Thesis on semantic and spatial co-speech gesture generation using contrastive speech-motion pretraining, reinforcement learning with adversarial motion priors for pointing, and flow matching, plus referential grounding datasets. |
+| 2026 | [Synthesizing Speech and Gesture for Embodied Conversational Agents](http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-388651)† | KTH | method | Thesis on spontaneous text-to-speech, joint generation of speech and co-speech gesture in one Tacotron2-based model (ISG), and a layered evaluation protocol for conversational synthesis. |
+| 2026 | [Towards Coherent Co-speech Gesture Generation: Multimodal Approaches for Emotional, Generalized, and Interactive Modeling](https://doi.org/10.14711/thesis-hdl172486)† | HKUST | method | Thesis on 3D co-speech gesture generation covering emotional transitions, in-the-wild speech (CoCoGesture, GES-X) and two-person conversation (Co3Gesture, GES-Inter). |
+| 2026 | [Vers une approche interdisciplinaire fondée sur les données pour l’analyse multimodale et la modélisation computationnelle du geste co-verbal](https://hal.science/tel-05630737v1)† | HAL | evaluation | Thesis re-annotating part of the BEAT corpus (reBeat-14), analysing STARGATE-generated gestures with movement criteria, and proposing automatic gesture annotation and a CNN-GRU segmentation model (COSMOS). |
+| 2025 | [Co-speech gesture synthesis : Towards a controllable and interpretable model using a graph deterministic approach](https://doi.org/10.70675/4b4d1808z33d7z4b7bz830bz71052e2093c2)† | PhD thesis | method | STARGATE generates gestures autoregressively using CNN encoders for audio and text, an ST-GCN encoding the gesture history and a biRNN decoder, with a speaker embedding for style personalisation. |
+| 2025 | [EchoActor: Audio-Driven Upper Body Speech Video Generation](https://doi.org/10.82419/173)† | MBZUAI iRep | method | Generates upper-body speech videos from a reference image and audio, using a partial key-point sequence from an audio-to-gesture model to control motion and the audio to control facial expression, with an ID-Fusion reference network for the face. |
+| 2025 | [Understanding and Generating Multi-Modalities: Advancing Efficient, Generalized, and Interactive Human-Centered AI](https://doi.org/10.14711/thesis-hdl167741)† | HKUST | method | Doctoral thesis whose generation part presents a diffusion-based model producing synchronized, arbitrary-length holistic 3D facial expressions and body gestures from speech. |
+| 2024 | [Parallel-marking particles and co-speech gestures in Japanese](http://www.nusl.cz/ntk/nusl-622777)† | Digital Repository (National Repository of Grey Literature) | theory |  |
+| 2024 | [Speech-driven expressive gesture generation for virtual agents](https://doi.org/10.47749/t/unicamp.2024.1499174)‡ | UNICAMP | method |  |
+| 2024 | [The effects of learning sign language on co-speech gesture](http://www.nusl.cz/ntk/nusl-622671)† | Digital Repository (National Repository of Grey Literature) | theory |  |
+| 2023 | [Multimodal Expressive Gesturing With Style](https://doi.org/10.70675/a1375d8dzd155z4b3ezb79azc121e1ceecad)† | Thesis | method | Thesis proposing zero-shot style-controlled upper-body and facial gesture synthesis from a speaker's speech content (ZS-MSTM) for embodied conversational agents. |
+| 2022 | [Une analyse temporelle et pragmatique de l'association geste-parole : une approche basée sur un corpus utilisant le nouveau système d'annotation MultiModal MultiDimensionnel (M3D)](https://theses.hal.science/tel-03994053)† | HAL (Le Centre pour la Communication Scientifique Directe) | theory |  |
+| 2021 | [An ERP Study of the Effects of Iconic and Nonsense Gestures on Memory Formation](https://doi.org/10.31390/gradschool_theses.5439)† | Unknown venue | theory |  |
+| 2021 | [Gesture Resolution and Definiteness](https://doi.org/10.5281/zenodo.5812035)† | Zenodo (CERN European Organization for Nuclear Research) | theory |  |
+| 2021 | [Génération du Comportement du Robot et Compréhension du Comportement Humain dans L'interaction Naturelle Humain-Robot](https://hal.science/tel-03313805v1)† · [open copy](http://www.theses.fr/2021IPPAE009/document) | theses.fr | method | Thesis that includes a temporal GAN mapping acoustic speech to humanoid robot gestures, trained on an audio-visual database with 3D poses extracted from RGB video, plus speech-driven face action synthesis. |
+| 2021 | [Machine Learning For Plausible Gesture Generation From Speech For Virtual Humans](https://doi.org/10.2312/diss.20212633145)† · [open copy](http://hdl.handle.net/2262/96795) | Trinity College Dublin | method | Thesis exploring transfer learning, adversarial training and expressive gesture parameters for speech-to-gesture learning, presenting two speech and motion datasets and a system combining machine learning with database sampling. |
+| 2021 | [Prediction of Gesture Timing and Study About Image Schema for Metaphoric Gestures](https://hal.science/tel-03589420v1)† | HAL | method | Dissertation on gesture generation for embodied conversational agents covering an attention-based RNN that predicts gesture timing, improved image-schema-based metaphoric gesture selection and vector representations of image schemas. |
+| 2021 | [Structural Transformation, Culture, and Women's Labor Force Participation in Turkey](https://doi.org/10.7275/7430513.0)† | Scholarworks (University of Massachusetts Amherst) | theory |  |
+| 2020 | [Language in the body: Multimodality in grammar and discourse](https://doi.org/10.7939/r3-1nhm-5c89)† | ERA: Education and Research Archive (University of Alberta) | theory |  |
+| 2020 | [Modeling Visual Minutiae: Gestures, Styles, and Temporal Patterns](https://escholarship.org/uc/item/3ws1647q)† | eScholarship | method | Doctoral dissertation whose first part models conversational gestures from multi-modal correlations between audio and motion learned from video without human annotations. |
+| 2020 | [Pragmatic analysis of hand gestures: a case study of co-speech gestures in two different genres of videos](https://repozitorij.ffzg.unizg.hr/islandora/object/ffzg:3412)† | ODRAZ (University of Zagreb Faculty of Humanities and SocialSciences) | theory |  |
+| 2020 | [Temporal integration of gesture and speech in narrative discourse: an insight into the development of co-speech gesture use](https://repositori.upf.edu/handle/10230/46884)‡ | Unknown venue | theory |  |
+| 2019 | [An Experimental Pragmatic Investigation of Depictive Co-Speech Gestures](http://nrs.harvard.edu/urn-3:HUL.InstRepos:42013043)† | Digital Access to Scholarship at Harvard (DASH) (Harvard University) | theory |  |
+| 2019 | [Generating Socio‐emotional Behaviors](https://doi.org/10.1002/9781119649403.ch5)† | Wiley book chapter | method | Chapter on generating prosody and co-verbal gestures for an embodied conversational agent from verbal and prosodic content, building on corpus analysis. |
+| 2019 | [Time gestures](https://doi.org/10.17635/lancaster/thesis/567)† | Lancaster EPrints (Lancaster University) | theory |  |
+| 2018 | [Co-speech gesture integration in hippocampal amnesia](https://doi.org/10.17077/etd.89r2mell)† | Unknown venue | theory |  |
+| 2018 | [Generating Audio-driven Emotional Gestures using Motion Graphs](https://dspace.library.uu.nl:8080/handle/1874/363578)† | Utrecht University | method | Builds a motion graph from segmented mocap and selects segments online using prosody features of live speech and a specified conversational attitude. |
+| 2018 | [How gesture and speech interact during production and comprehension](http://etheses.bham.ac.uk/8084/1/Fritz18PhD.pdf)† | University of Birmingham Institutional Research Archive (University of Birmingham) | theory |  |
+| 2018 | [Preschoolers' pragmatic development: how prosody and gesture lend a helping hand](http://hdl.handle.net/10803/593503)† | LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas) | theory |  |
+| 2017 | [An exploration of the integration of speech with co-speech gesture with non-invasive brain stimulation](https://hull-repository.worktribe.com/file/4220574/1/Thesis)† | Repository@Hull (Worktribe) (University of Hull) | theory |  |
+| 2017 | [Cognition in action C-i-A: Rethinking gesture in neuro-atypical young people: A conceptual framework for embodied, embedded, extended and enacted intentionality](https://openaccess.city.ac.uk/id/eprint/15292/1/Panayi%2C%20Marilyn.pdf)† | City Research Online (City University London) | theory |  |
+| 2017 | [O sistema de referenciação multimodal de crianças com síndrome de down em engajamento conjunto](https://repositorio.ufpb.br/jspui/handle/123456789/12051)† | Americanae (AECID Library) | theory |  |
+| 2017 | [The use of gestures in the conversations of people with aphasia](https://openaccess.city.ac.uk/id/eprint/18031/1/Kistner%2C%20Judith_Redacted.pdf)† | City Research Online (City University London) | theory |  |
+| 2016 | [Aphasia and dialogue: What eye movements reveal about the processing of cospeech gestures and the prediction of turn transitions](https://doi.org/10.7892/boris.85149)† | BORIS (University Library Bern) | theory |  |
+| 2016 | [Autonomous animation of humanoid robots](https://doi.org/10.32657/10356/69279)† · [open copy](https://figshare.com/articles/thesis/Autonomous_Animation_of_Humanoid_Robots/6714932) | PhD thesis | method | Animates a NAO humanoid robot from a speech or music signal by labelling parameterized motions with meanings, selecting and synchronizing motion sequences, and checking their stability. |
+| 2016 | [Investigation on whether co-verbal gesture use can facilitate lexical retrieval in connected speech in normal speakers and speakers with aphasia](https://hub.hku.hk/handle/10722/272653)‡ | Unknown venue | theory |  |
+| 2016 | [What co-speech gestures do:investigating the communicative role ofvisual behaviour accompanyinglanguage use during reference ininteraction](https://etheses.whiterose.ac.uk/17319/)† | Unknown venue | theory |  |
+| 2015 | [Animation and Interaction of Responsive, Expressive, and Tangible 3D Virtual Characters](https://dialnet.unirioja.es/servlet/tesis?codigo=73783)† | TDX | system | Thesis that relates gesture and pitch intensity to select gestures from a gesture motion graph for speech input, and presents BodySpeech, which generates gestures and facial animation from a speech signal. |
+| 2015 | [Effects of individual differences and task demand on co-speech gesture](https://doi.org/10.17077/etd.p3eh1usp)† | Unknown venue | theory |  |
+| 2015 | [Towards a theory of gesture form analysis : imaginary forms as part of gesture conceptualisation, with empirical support from motion-capture data](https://publications.rwth-aachen.de/search?p=id:%22RWTH-2016-04020%22)† | RWTH Publications (RWTH Aachen) | theory |  |
+| 2014 | [151. Body movements in robotics](https://doi.org/10.1515/9783110302028.1943)† | Handbook chapter | survey | Overview chapter on body movements in robotics, covering communicative gesture, off-line and on-line motion generation, and transfer of multimodal motion scheduling from virtual agents to humanoid robots. |
+| 2014 | [An integrative approach to understanding factors that influence monolingual and bilingual children's use of iconic co-speech gestures](https://doi.org/10.82308/53093)† | eScholarship@McGill (McGill) | theory |  |
+| 2014 | [Generating gestures from speech for virtual humans using machine learning approaches](https://doi.org/10.25549/usctheses-c3-447274)† | USC | method | Learns a gesture generator from dyadic interview speech and motion capture by splitting the task into speech to gesture class and gesture class to gesture motion. |
+| 2014 | [Towards an Interactive Human-Robot Relationship: Developing a Customized Robot Behavior to Human Profile.](https://pastel.archives-ouvertes.fr/tel-01128923)† | HAL | method | Generates head-arm metaphoric gestures for a robot from prosodic cues of human speech using Coupled Hidden Markov Models, within a personality- and emotion-adaptive multimodal behaviour system. |
+| 2013 | [Alignment of Speech and Co-speech Gesture in a Constraint-based Grammar](https://era.ed.ac.uk/bitstream/1842/7623/1/Saint-Amand2013.pdf)† | Unknown venue | theory |  |
+| 2013 | [An Analysis of Occupational Therapists� Listening Behaviors During Treatment Sessions](https://doi.org/10.33015/dominican.edu/2013.ot.09)† | Unknown venue | theory |  |
+| 2013 | [Conceptual Motorics - Generation and Evaluation of Communicative Robot Gesture](https://pub.uni-bielefeld.de/record/2519214)† | Bielefeld University | method | A framework lets a humanoid robot produce synthetic speech and co-verbal hand and arm gestures at run-time, synchronised by a multimodal scheduler, and tests how humans evaluate such gestures in two studies. |
+| 2013 | [Construction of Reconfigurable Motion Database for Real-Time Human-Robot Interaction](https://naist.repo.nii.ac.jp/records/10705)† | NAIST | method | Generates an android's body gestures in real time by reconfiguring a large motion-capture database, classified by bag-of-words and dynamic programming matching. |
+| 2013 | [Modèles de gestes expressifs](https://hal.science/tel-01181000v1)† · [open copy](https://pastel.hal.science/tel-01181000/document) | HAL (Le Centre pour la Communication Scientifique Directe) | method | Computational model that encodes communicative gestures by hand shape, wrist position and trajectory, schedules them to speech and renders them with expressivity parameters on the Greta agent and the Nao robot. |
+| 2013 | [What can people with aphasia communicate with their hands?: A study of representation techniques in pantomime and co-speech gesture](https://research.tilburguniversity.edu/en/publications/753fb803-f80d-4077-84a6-dcd5a33f98dd)‡ | Data Archiving and Networked Services (DANS) | theory |  |
+| 2012 | [Chinese hands of time. The effects of language and culture on temporal gestures and spatio-temporal reasoning](https://research.tilburguniversity.edu/en/publications/9cddcc1b-26d1-48a2-a8f2-3d211cf9eb09)† | Data Archiving and Networked Services (DANS) | theory |  |
+| 2012 | [Modeling nonverbal behaviors for virtual agents](http://dl.acm.org/citation.cfm?id=2518573)† | Thesis | method | Derives models that generate virtual agent nonverbal behaviour such as head nods, eyebrow movements and arm gestures, using literature-based rules and probabilistic models learned from speaker behaviour. |
+| 2012 | [The Production of Co-Speech Iconic Gestures: Empirical Study and Computational Simulation with Virtual Agents](https://pub.uni-bielefeld.de/record/2460005)† | Bielefeld University | method | Develops GNetIc, a network model combining data-driven learning and rule-based decisions to generate speaker-specific iconic gestures for a virtual agent's speech. |
+| 2011 | [Behavior generation for interpersonal coordination with virtual humans : on specifying, scheduling and realizing multimodal virtual human behavior](https://doi.org/10.3990/1.9789036532334)† · [open copy](https://ris.utwente.nl/ws/files/6035043/thesis_H_van_Welbergen.pdf) | Thesis | system |  |
+| 2011 | [Co-ordination of speech and gesture in sequence and time : phonetic and non-verbal detail in face-to-face interaction](http://etheses.whiterose.ac.uk/1778/1/ReinSikvelandPhDThesis_2011.pdf)† | White Rose eTheses Online (University of Leeds, The University of Sheffield, University of York) | theory |  |
+| 2011 | [Co-Speech Gesture in Communication and Cognition](http://hdl.handle.net/1794/12145)† | Scholars' Bank (University of Oregon) | theory |  |
+| 2011 | [Generating Engagement Behaviors in Human-Robot Interaction](https://digitalcommons.wpi.edu/etd-theses/328)† | WPI | system | A ROS module adds gaze and pointing gestures to referring phrases and other connection events for a humanoid robot, plus an event-driven BML realizer for robots. |
+| 2011 | [Nonverbal communication among Pointe Coupee Creoles](https://doi.org/10.31390/gradschool_dissertations.78)† | Unknown venue | theory |  |
+| 2011 | [Prominence in gesture and speech in American English and Italian](https://docs.lib.purdue.edu/dissertations/AAI1510256)† | Purdue e-Pubs (Purdue University System) | theory |  |
+| 2011 | [Reference in action : links between pointing and language](https://escholarship.org/uc/item/52g063b5)† | eScholarship (California Digital Library) | theory |  |
+| 2011 | [Robotic gesture-speech synchronization](http://hdl.handle.net/10356/44964)† | DR-NTU | system | A text-to-speech-to-gesture engine that plans gestures, blends motions, generates beat gestures at run time and synchronises them with speech timings on the Olivia 2.1 robot. |
+| 2011 | [The Talking Hands?: The Relation between Gesture and Language in Aphasic Patients](https://doi.org/10.15168/11572_368910)† | Unitn-eprints PhD (University of Trento) | theory |  |
+| 2010 | [A comparative study of the development of multimodal narratives in french and zulu children and adults](http://hdl.handle.net/10068/856387)† | OpenGrey (Institut de l'Information Scientifique et Technique) | theory |  |
+| 2010 | [Children's Gestures from 18 to 30 Months](https://lup.lub.lu.se/record/1700528)† | Lund University Publications (Lund University) | theory |  |
+| 2010 | [Gesturing Through Time: Holds and Intermodal Timing in the Stream of Speech](http://pqdtopen.proquest.com/#viewpdf?dispub=3449059)† | ProQuest Demo Repository | theory |  |
+| 2010 | [Space and Time in Our Hands](https://dspace.library.uu.nl/handle/1874/179364)† | Utrecht University Repository (Utrecht University) | theory |  |
+| 2007 | ["Look at what I am saying": Multimodal science teaching](http://hdl.handle.net/1828/212)† | UVic’s Research and Learning Repository (University of Victoria) | theory |  |
+| 2007 | [Crosslinguistic influence in first and second languages: Convergence in speech and gesture](http://edoc.mpg.de/328104)† | Max Planck Institute for Plasma Physics | theory |  |
+| 2007 | [Links between language, gesture, and motor skill : a longitudinal study of communication recovery in adults with Broca's aphasia](https://doi.org/10.32469/10355/4656)† | Unknown venue | theory |  |
+| 2006 | [Coordinated minds : how iconic co- speech gestures mediate communication](https://escholarship.org/uc/item/4ff658th)† | eScholarship (California Digital Library) | theory |  |
+| 2006 | [Disfluency: Interrupting speech and gesture](https://doi.org/10.17617/2.59337)† | Radboud Repository (Radboud University) | theory |  |
+| 2006 | [Gestures of a virtual guide](http://hmi.ewi.utwente.nl/verslagen/afstudeer/KesselMarcovanFinalThesis.pdf)† | University of Twente | system | Integrates existing dialogue, multimodal interface and agent software into a virtual guide that gives route descriptions in sentences and deictic pointing gestures. |
+| 2006 | [Understanding Coverbal Ionic Gestures in Shape Descriptions](https://www.amazon.com/Understanding-Coverbal-Descriptions-Dissertations-Artificial/dp/1586035665)‡ | Unknown venue | theory |  |
+| 2003 | [Feedback Gesture Generation for Embodied Conversational Agents](https://www.nada.kth.se/utbildning/grukth/exjobb/rapportlistor/2003/rapporter03/bergenstrahle_malin_03133.pdf)† | KTH | method | Develops and implements an algorithm that generates feedback gestures for the non-speaking characters in multimodal dialogues produced by the NECA system, and evaluates their effect on viewers. |
+| 2003 | [Gesture generation by imitation : from human behavior to computer character animation](https://doi.org/10.22028/d291-25852)† | Saarland University | method | Generates conversational gestures for an animated agent from annotated text by applying heuristic placement rules and filtering gestures with statistical gesture profiles of an individual speaker built from annotated TV talk show recordings. |
+| 2002 | [Automatic extraction of spatial location for gesture generation](https://dspace.mit.edu/handle/1721.1/87236)‡ | MIT | method |  |
+| 2001 | [Synthesis and acquisition of laban movement analysis qualitative parameters for communicative gestures](https://repository.upenn.edu/dissertations/AAI3015399)† · [open copy](https://repository.upenn.edu/cgi/viewcontent.cgi?article=1118&context=cis_reports) | University of Pennsylvania | method | The EMOTE system procedurally synthesizes communicative gestures from key poses and timing plus Laban Effort and Shape qualities, and extracts these qualities from motion capture or video. |
+| 2000 | [Paired speech and gesture generation in embodied conversational agents](http://hdl.handle.net/1721.1/70733)† | MIT | method |  |
+| 1998 | [Gesture in foreigner talk](https://repository.upenn.edu/dissertations/AAI9829850)† | Scholarly Commons (University of Pennsylvania) | theory |  |
+| 1998 | [Producing semantically appropriate gestures in embodied language generation](http://hdl.handle.net/1721.1/62627)† · [open copy](https://dspace.mit.edu/bitstreams/c3c24bb6-7a36-47b7-9c77-49d6c57e4840/download) | MIT | method | Proposes hypotheses on distributing semantic information across speech and gesture and on realizing it in gestural forms, and builds a rule-based prototype to explore them. |
+<!-- END:theses -->
+
 ## Datasets
 
 <!-- BEGIN:datasets -->
 | Dataset | Year | Modalities | Capture | Hours | Languages | Setting | Access | Papers here using it |
 |---|---|---|---|---|---|---|---|---|
-| [BEAT (Body-Expression-Audio-Text)](https://arxiv.org/abs/2203.05297) | 2022 | audio, text, body-motion, hand-motion, face-motion, annotations | mocap | 76 | en, zh, es, ja | monologue, dyadic | open | 36 |
+| [BEAT (Body-Expression-Audio-Text)](https://arxiv.org/abs/2203.05297) | 2022 | audio, text, body-motion, hand-motion, face-motion, annotations | mocap | 76 | en, zh, es, ja | monologue, dyadic | open | 37 |
 | [BEAT2 (BEAT-SMPLX-FLAME)](https://arxiv.org/abs/2401.00374) | 2024 | audio, text, body-motion, hand-motion, face-motion | mocap | 60 |  | monologue, dyadic | open | 36 |
 | [Trinity Speech-Gesture Dataset](http://www.tara.tcd.ie/handle/2262/91094) | 2018 | audio, body-motion, hand-motion | mocap | 4.07 | en | monologue | on-request | 23 |
 | [SHOW (TalkSHOW dataset)](https://arxiv.org/abs/2212.04420) | 2023 | audio, body-motion, hand-motion, face-motion | pose-estimation | 26.9 |  |  | open | 21 |
 | [TED Gesture Dataset](https://arxiv.org/abs/2009.02119) | 2020 | audio, text, body-motion | pose-estimation | 97 |  | monologue | open | 19 |
 | [GENEA Challenge 2023 dataset](https://arxiv.org/abs/2308.12646) | 2023 | audio, text, body-motion, hand-motion | mocap | 18 | en | dyadic | open | 16 |
+| [PATS (Pose, Audio, Transcript, Style)](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630239.pdf) | 2020 | audio, text, body-motion | pose-estimation | 251 |  | monologue | open | 14 |
 | [ZEGGS dataset (ZeroEGGS)](https://onlinelibrary.wiley.com/doi/10.1111/cgf.14734) | 2022 | audio, body-motion, hand-motion | mocap | 2.24 | en | monologue | open | 14 |
-| [PATS (Pose, Audio, Transcript, Style)](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630239.pdf) | 2020 | audio, text, body-motion | pose-estimation | 251 |  | monologue | open | 13 |
 | [GENEA Challenge 2022 dataset](https://arxiv.org/abs/2208.10441) | 2022 | audio, text, body-motion, hand-motion | mocap | 19.3 | en | dyadic | open | 11 |
 | [Talking With Hands 16.2M](https://openaccess.thecvf.com/content_ICCV_2019/papers/Lee_Talking_With_Hands_16.2M_A_Large-Scale_Dataset_of_Synchronized_Body-Finger_ICCV_2019_paper.pdf) | 2019 | audio, body-motion, hand-motion | mocap | 50 |  | dyadic | open | 9 |
 | [TED-Expressive](https://arxiv.org/abs/2203.13161) | 2022 | audio, text, video, body-motion, hand-motion | pose-estimation | 100.8 |  | monologue | open | 9 |
@@ -937,7 +1030,7 @@ Objective metrics reported by the papers above. Human evaluation is recorded per
 <!-- BEGIN:metrics -->
 | Metric | Also written | Measures | Better | What it computes | Papers here using it |
 |---|---|---|---|---|---|
-| Fréchet Gesture Distance | FGD | realism | lower | Computes the Fréchet distance between Gaussians fitted to latent features of real and generated gesture sequences, using the encoder of a pose-sequence autoencoder as the feature extractor. | 107 |
+| Fréchet Gesture Distance | FGD | realism | lower | Computes the Fréchet distance between Gaussians fitted to latent features of real and generated gesture sequences, using the encoder of a pose-sequence autoencoder as the feature extractor. | 108 |
 | Beat Alignment / Beat Consistency | BeatAlign, BA, BC, Beat Consistency Score, Beat Alignment Score | synchrony | higher | Detects motion beats (kinematic or bone-angle-change extrema) and audio beats (onsets) and averages a Gaussian-weighted distance between each beat and its nearest beat in the other stream. | 84 |
 | Diversity (average feature or pose distance between generated clips) | Div | diversity | higher | Encodes generated gesture clips with the same feature extractor used for FGD and averages the feature distance over randomly paired clips. | 81 |
 | Joint position or rotation error against ground truth | MAE, APE, MPJPE, L1, MSE | accuracy | lower | Averages the distance (L1, L2 or squared) between generated and ground-truth joint positions or rotations over joints and frames. | 33 |
@@ -977,7 +1070,7 @@ Objective metrics reported by the papers above. Human evaluation is recorded per
 
 ## Contributing
 
-Add one record to `data/papers/<year>.yaml` following [docs/SCHEMA.md](docs/SCHEMA.md) and open a pull request. Inclusion rule: the work must be peer reviewed (journal, conference, workshop or book chapter), publicly identifiable (DOI or proceedings page) and inside the scope above. The validator rejects `type: preprint`.
+Add one record to `data/papers/<year>.yaml` following [docs/SCHEMA.md](docs/SCHEMA.md) and open a pull request. Inclusion rule: the work must be peer reviewed (journal, conference, workshop or book chapter) or an examined thesis, publicly identifiable (DOI or proceedings page) and inside the scope above. The validator rejects `type: preprint`.
 
 Check your record and regenerate the tables before opening the pull request:
 

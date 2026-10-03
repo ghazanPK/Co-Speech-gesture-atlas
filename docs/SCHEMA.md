@@ -21,7 +21,7 @@ Fields marked **always** are required on every record. Fields marked **verified*
 | `authors` | verified | List, in published order. |
 | `year` | always | Publication year. Must match the file name. |
 | `venue` | always | Short venue name: `SIGGRAPH`, `CVPR`, `ICMI`, `CAVW`, `arXiv`. |
-| `type` | always | `journal`, `conference`, `workshop`, `poster`, `book` (a book or book chapter). `preprint` and `thesis` exist in the schema for the maintainers' private watch list; the public data holds peer-reviewed work only and the validator rejects preprints. |
+| `type` | always | `journal`, `conference`, `workshop`, `poster`, `book` (a book or book chapter). `thesis` for an examined doctoral or master's thesis (listed in its own README section). `preprint` exists only for the maintainers' private watch list; the public data holds peer-reviewed work and theses, and the validator rejects preprints. |
 | `category` | always | `method`, `dataset`, `survey`, `challenge`, `evaluation`, `system`, `theory` |
 | `area` | | For `theory` records, the discipline: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neuroscience`, `social-interaction`, `clinical`, `education`, `perception`, `other` |
 | `doi` | one identifier | Bare DOI, `10.1002/cav.70034`. |

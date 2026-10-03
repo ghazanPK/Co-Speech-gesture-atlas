@@ -30,6 +30,20 @@
   verified: false
   area: clinical
 
+- id: bergenstrahle2003feedback
+  title: Feedback Gesture Generation for Embodied Conversational Agents
+  authors: [Malin Bergenstråhle, Yngve Sundblad]
+  year: 2003
+  venue: KTH
+  type: thesis
+  category: method
+  links: {paper: 'https://www.nada.kth.se/utbildning/grukth/exjobb/rapportlistor/2003/rapporter03/bergenstrahle_malin_03133.pdf'}
+  user_study: true
+  summary: Develops and implements an algorithm that generates feedback gestures for the non-speaking characters in multimodal dialogues produced by the NECA system, and evaluates their effect on viewers.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: caswell2003body
   title: Body Language for Competent Teachers
   authors: [Chris Caswell, Sean R. St J. Neill]
@@ -252,6 +266,22 @@
   checked: metadata
   verified: false
   area: neuroscience
+
+- id: kipp2003nova
+  title: 'Gesture generation by imitation : from human behavior to computer character animation'
+  authors: [Michael Kipp]
+  year: 2003
+  venue: Saarland University
+  type: thesis
+  category: method
+  doi: 10.22028/d291-25852
+  links: {paper: 'https://doi.org/10.22028/d291-25852'}
+  input: [text]
+  approach: [hybrid]
+  summary: Generates conversational gestures for an animated agent from annotated text by applying heuristic placement rules and filtering gestures with statistical gesture profiles of an individual speaker built from annotated TV talk show recordings.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: kita2003cross
   title: 'What does cross-linguistic variation in semantic coordination of speech and gesture reveal?: Evidence for an interface representation of spatial thinking and speaking'

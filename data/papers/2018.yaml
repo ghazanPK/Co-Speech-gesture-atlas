@@ -239,6 +239,20 @@
   verified: false
   area: linguistics
 
+- id: clough2018speech
+  title: Co-speech gesture integration in hippocampal amnesia
+  authors: [Sharice Clough, Karla Kay McGregor, Melissa Collins Duff, Susan Wagner Cook]
+  year: 2018
+  venue: Unknown venue
+  type: thesis
+  category: theory
+  doi: 10.17077/etd.89r2mell
+  links: {paper: 'https://doi.org/10.17077/etd.89r2mell'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
 - id: cocks2018integration
   title: Integration of speech and gesture in aphasia
   authors: [Naomi Cocks, Suzanne Byrne, Madeleine Pritchard, GARY S. MORGAN, Lucy T. Dipper]
@@ -423,6 +437,19 @@
   checked: abstract
   verified: false
 
+- id: fritz2018gesture
+  title: How gesture and speech interact during production and comprehension
+  authors: [Isabella Fritz]
+  year: 2018
+  venue: University of Birmingham Institutional Research Archive (University of Birmingham)
+  type: thesis
+  category: theory
+  links: {paper: 'http://etheses.bham.ac.uk/8084/1/Fritz18PhD.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: fritz2018information
   title: 'Information packaging in speech shapes information packaging in gesture: The role of speech planning units in the coordination of speech-gesture production'
   authors: [Isabella Fritz, Sotaro Kita, Jeannette Littlemore, Andrea Krott]
@@ -492,6 +519,22 @@
   checked: abstract
   verified: false
   area: linguistics
+
+- id: hadjicosti2018motiongraph
+  title: Generating Audio-driven Emotional Gestures using Motion Graphs
+  authors: [J. Hadjicosti]
+  year: 2018
+  venue: Utrecht University
+  type: thesis
+  category: method
+  links: {paper: 'https://dspace.library.uu.nl:8080/handle/1874/363578'}
+  input: [audio, style]
+  approach: [retrieval]
+  setting: [monologue]
+  summary: Builds a motion graph from segmented mocap and selects segments online using prosody features of live speech and a specified conversational attitude.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: han2018corpus
   title: A Corpus of Natural Multimodal Spatial Scene Descriptions
@@ -678,6 +721,19 @@
   checked: abstract
   verified: false
   area: education
+
+- id: hubscher2018preschoolers
+  title: 'Preschoolers'' pragmatic development: how prosody and gesture lend a helping hand'
+  authors: [Iris Hübscher]
+  year: 2018
+  venue: LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)
+  type: thesis
+  category: theory
+  links: {paper: 'http://hdl.handle.net/10803/593503'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
 
 - id: hunter2018relating
   title: 'Relating gesture to speech: reflections on the role of conditional presuppositions'

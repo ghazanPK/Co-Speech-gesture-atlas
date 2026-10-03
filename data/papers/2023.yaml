@@ -360,6 +360,23 @@
   verified: false
   area: linguistics
 
+- id: fares2023expressive
+  title: Multimodal Expressive Gesturing With Style
+  authors: [Mireille Fares]
+  year: 2023
+  venue: Thesis
+  type: thesis
+  category: method
+  doi: 10.70675/a1375d8dzd155z4b3ezb79azc121e1ceecad
+  links: {paper: 'https://doi.org/10.70675/a1375d8dzd155z4b3ezb79azc121e1ceecad'}
+  input: [text, audio, style]
+  output: [upper-body, face]
+  datasets: [pats]
+  summary: Thesis proposing zero-shot style-controlled upper-body and facial gesture synthesis from a speaker's speech content (ZS-MSTM) for embodied conversational agents.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: fares2023zeroshot
   title: Zero-Shot Style Transfer for Multimodal Data-Driven Gesture Synthesis
   authors: [Mireille Fares, Catherine Pélachaud, Nicolas Obin]

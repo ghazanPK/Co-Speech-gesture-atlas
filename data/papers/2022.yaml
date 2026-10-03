@@ -1202,6 +1202,19 @@
   verified: false
   area: linguistics
 
+- id: rohrer2022analyse
+  title: 'Une analyse temporelle et pragmatique de l''association geste-parole : une approche basée sur un corpus utilisant le nouveau système d''annotation MultiModal MultiDimensionnel (M3D)'
+  authors: [Patrick Louis Rohrer]
+  year: 2022
+  venue: HAL (Le Centre pour la Communication Scientifique Directe)
+  type: thesis
+  category: theory
+  links: {paper: 'https://theses.hal.science/tel-03994053'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: rohrer2022children
   title: Children Use Non-referential Gestures in Narrative Speech to Mark Discourse Elements Which Update Common Ground
   authors: [Patrick Louis Rohrer, Júlia Florit‐Pons, Ingrid Vilà‐Giménez, Pilar Prieto]

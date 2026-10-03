@@ -1314,6 +1314,19 @@
   checked: full-text
   verified: true
 
+- id: ljubonka2024parallel
+  title: Parallel-marking particles and co-speech gestures in Japanese
+  authors: [Sofie Ljuboňka]
+  year: 2024
+  venue: Digital Repository (National Repository of Grey Literature)
+  type: thesis
+  category: theory
+  links: {paper: 'http://www.nusl.cz/ntk/nusl-622777'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: lu2024engages
   title: 'EngaGes: An Engagement Fused Co-Speech Gesture Synthesis Model'
   authors: [Haipeng Lu, Nan Xie, Zhengxu Li, Wei Pang, Yongming Zhang]
@@ -1963,6 +1976,19 @@
   verified: false
   area: education
 
+- id: tonoli2024expressive
+  title: Speech-driven expressive gesture generation for virtual agents
+  authors: [Rodolfo Luis Tonoli]
+  year: 2024
+  venue: UNICAMP
+  type: thesis
+  category: method
+  doi: 10.47749/t/unicamp.2024.1499174
+  links: {paper: 'https://doi.org/10.47749/t/unicamp.2024.1499174'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
 - id: tonoli2024gesture
   title: Gesture Area Coverage to Assess Gesture Expressiveness and Human-Likeness
   authors: [Rodolfo Luis Tonoli, Paula Dornhofer Paro Costa, Leonardo B. de M. M. Marques, Lucas Hideki Ueda]
@@ -2006,6 +2032,19 @@
   checked: abstract
   verified: false
   area: clinical
+
+- id: veronika2024learning
+  title: The effects of learning sign language on co-speech gesture
+  authors: ['Trčková, Veronika']
+  year: 2024
+  venue: Digital Repository (National Repository of Grey Literature)
+  type: thesis
+  category: theory
+  links: {paper: 'http://www.nusl.cz/ntk/nusl-622671'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
 
 - id: wang2024cmq
   title: Cross-Modal Quantization for Co-Speech Gesture Generation

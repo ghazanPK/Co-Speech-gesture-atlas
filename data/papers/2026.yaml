@@ -206,6 +206,21 @@
   verified: false
   area: education
 
+- id: deichler2026spatially
+  title: 'Spatially Grounded Communication in Embodied Agents : From Gesture Generation to Referential Understanding'
+  authors: [Anna Deichler]
+  year: 2026
+  venue: KTH
+  type: thesis
+  category: method
+  links: {paper: 'http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-382200'}
+  input: [audio]
+  approach: [flow-matching, other]
+  summary: Thesis on semantic and spatial co-speech gesture generation using contrastive speech-motion pretraining, reinforcement learning with adversarial motion priors for pointing, and flow matching, plus referential grounding datasets.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: du2026reality
   title: 'Reality Check: How Avatar and Face Representation Affect the Perceptual Evaluation of Synthesized Gestures'
   authors: [Haoyang Du, Yinghan Xu, John Dingliana, Brian Keegan, Rachel McDonnell, Cathy Ennis]
@@ -282,6 +297,26 @@
   checked: abstract
   verified: false
 
+- id: gamage2026rlanimate
+  title: 'Reinforcement Learning and Virtual Human Animation: A novel approach to data-driven animation, portraying dynamic, flexible human-like behaviours'
+  authors: [Vihanga Gamage]
+  year: 2026
+  venue: TU Dublin
+  type: thesis
+  category: method
+  doi: 10.21427/aw1h-3j07
+  links: {paper: 'https://doi.org/10.21427/aw1h-3j07', open: 'https://arrow.tudublin.ie/scschcomdis/286'}
+  input: [audio]
+  output: [upper-body]
+  representation: [joints-3d]
+  approach: [other]
+  user_study: true
+  summary: Model-based reinforcement learning framework (RLAnimate) with latent state space models that generates frame-by-frame upper-body behaviours including speech-driven beat gestures.
+  notes: Thesis; beat gesture generation from speech is the fourth research question, earlier ones cover waving and pointing.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: ghobadi2026navigating
   title: 'Navigating through space in speech and gesture: Effects of speaker proficiency, language type, and event type'
   authors: [Armita Ghobadi, Şeyda Özçalışkan]
@@ -350,6 +385,21 @@
   checked: abstract
   verified: false
   area: psycholinguistics
+
+- id: grondinverdon2026approche
+  title: Vers une approche interdisciplinaire fondée sur les données pour l’analyse multimodale et la modélisation computationnelle du geste co-verbal
+  authors: [Mickaëlla Grondin-Verdon]
+  year: 2026
+  venue: HAL
+  type: thesis
+  category: evaluation
+  doi: 10.70675/6c1affc9za506z41baz9807z7a2517c6a73a
+  links: {paper: 'https://hal.science/tel-05630737v1'}
+  datasets: [beat]
+  summary: Thesis re-annotating part of the BEAT corpus (reBeat-14), analysing STARGATE-generated gestures with movement criteria, and proposing automatic gesture annotation and a CNN-GRU segmentation model (COSMOS).
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: guichoux2026gelina
   title: 'Gelina: Unified Speech and Gesture Synthesis via Interleaved Token Prediction'
@@ -1009,6 +1059,22 @@
   checked: abstract
   verified: false
 
+- id: palumbo2026abel
+  title: AI-Based Gesture Generation for Humanoid Robots from Speech Transcriptions
+  authors: [PAOLO PALUMBO]
+  year: 2026
+  venue: University of Pisa
+  type: thesis
+  category: method
+  links: {paper: 'https://etd.adm.unipi.it/theses/available/etd-05072026-144420/'}
+  input: [text]
+  approach: [vq]
+  summary: Generates co-speech gestures for a humanoid robot from text transcriptions using a discrete gesture vocabulary built with VQ-VAE and GRU or Transformer models with a latent-space Kalman filter.
+  notes: Full text is not viewable (embargoed); fields are read from the abstract only.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: pan2026relational
   title: Communicating Object Relations through Robot Gestures
   authors: [Xiang Pan, Malcolm Doering, Takayuki Kanda]
@@ -1072,6 +1138,21 @@
   notes: Wraps a pretrained GestureLSM generator. The arXiv comment reads ECCV 2026 Workshop - Interactive Social Avatars. Spatial control errors (average control, location, trajectory error) are reported as additional metrics.
   added: '2026-10-03'
   checked: full-text
+  verified: false
+
+- id: qi2026coherent
+  title: 'Towards Coherent Co-speech Gesture Generation: Multimodal Approaches for Emotional, Generalized, and Interactive Modeling'
+  authors: [Xingqun Qi]
+  year: 2026
+  venue: HKUST
+  type: thesis
+  category: method
+  doi: 10.14711/thesis-hdl172486
+  links: {paper: 'https://doi.org/10.14711/thesis-hdl172486'}
+  approach: [diffusion]
+  summary: Thesis on 3D co-speech gesture generation covering emotional transitions, in-the-wild speech (CoCoGesture, GES-X) and two-person conversation (Co3Gesture, GES-Inter).
+  added: '2026-10-03'
+  checked: abstract
   verified: false
 
 - id: rajan2026interactalker
@@ -1271,6 +1352,20 @@
   verified: false
   area: development
 
+- id: voss2026context
+  title: More Than Just Natural. Contextually Relevant and Semantically Meaningful Gesture Generation
+  authors: [Hendric Voß]
+  year: 2026
+  venue: Bielefeld University
+  type: thesis
+  category: method
+  doi: 10.4119/unibi/3016358
+  links: {paper: 'https://doi.org/10.4119/unibi/3016358', open: 'https://nbn-resolving.org/urn:nbn:de:0070-pub-30163585'}
+  summary: A thesis proposing context-driven gesture generation, covering AQ-GT and AQ-GT-A for beat and annotation-guided gestures, the TF-JAX-IK inverse kinematics solver, and the ImaGGen semantic planning framework driven by visual input.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: voss2026imaggen
   title: 'ImaGGen: Zero-Shot Generation of Co-Speech Semantic Gestures Grounded in Language and Image Input'
   authors: [Hendric Voss, Stefan Kopp]
@@ -1418,6 +1513,19 @@
   notes: 'Representation is robot joint space. Other metric: collision rate. Also introduces the RoboGesture dataset and a SemanticBEAT test set. Published in a Springer Lecture Notes in Computer Science proceedings volume; the conference was not confirmed from the text read.'
   added: '2026-10-03'
   checked: full-text
+  verified: false
+
+- id: wang2026synthesizing
+  title: Synthesizing Speech and Gesture for Embodied Conversational Agents
+  authors: [Siyang Wang]
+  year: 2026
+  venue: KTH
+  type: thesis
+  category: method
+  links: {paper: 'http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-388651'}
+  summary: Thesis on spontaneous text-to-speech, joint generation of speech and co-speech gesture in one Tacotron2-based model (ISG), and a layered evaluation protocol for conversational synthesis.
+  added: '2026-10-03'
+  checked: abstract
   verified: false
 
 - id: wei2026mamba

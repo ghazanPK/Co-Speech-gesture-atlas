@@ -16,6 +16,23 @@
   checked: abstract
   verified: false
 
+- id: aly2014robot
+  title: 'Towards an Interactive Human-Robot Relationship: Developing a Customized Robot Behavior to Human Profile.'
+  authors: [Amir Aly]
+  year: 2014
+  venue: HAL
+  type: thesis
+  category: method
+  links: {paper: 'https://pastel.archives-ouvertes.fr/tel-01128923'}
+  input: [audio]
+  output: [upper-body]
+  approach: [other]
+  user_study: true
+  summary: Generates head-arm metaphoric gestures for a robot from prosodic cues of human speech using Coupled Hidden Markov Models, within a personality- and emotion-adaptive multimodal behaviour system.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: andrews2014gestures
   title: 'Gestures as Requests for Information: Initiating Repair Operations in German Native-Speaker Conversation'
   authors: [Derek Andrews]
@@ -124,6 +141,20 @@
   checked: abstract
   verified: false
   area: development
+
+- id: chiu2014generating
+  title: Generating gestures from speech for virtual humans using machine learning approaches
+  year: 2014
+  venue: USC
+  type: thesis
+  category: method
+  doi: 10.25549/usctheses-c3-447274
+  links: {paper: 'https://doi.org/10.25549/usctheses-c3-447274'}
+  input: [audio]
+  summary: Learns a gesture generator from dyadic interview speech and motion capture by splitting the task into speech to gesture class and gesture class to gesture motion.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: chiu2014gesture
   title: Gesture generation with low-dimensional embeddings
@@ -1304,6 +1335,21 @@
   verified: false
   area: cognition
 
+- id: wachsmuth2014body
+  title: 151. Body movements in robotics
+  authors: [Ipke Wachsmuth, Maha Salem]
+  year: 2014
+  venue: Handbook chapter
+  type: thesis
+  category: survey
+  doi: 10.1515/9783110302028.1943
+  links: {paper: 'https://doi.org/10.1515/9783110302028.1943'}
+  summary: Overview chapter on body movements in robotics, covering communicative gesture, off-line and on-line motion generation, and transfer of multimodal motion scheduling from virtual agents to humanoid robots.
+  notes: Book chapter; type set to thesis only because no book-chapter value exists in the schema.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: williams2014hear
   title: 'Hear What They Say and Watch What They Do: Predicting Valid Mathematical Proofs Using Speech and Gesture'
   authors: [Caroline C. Williams]
@@ -1436,6 +1482,20 @@
   category: theory
   doi: 10.1515/cogsem-2014-0002
   links: {paper: 'https://doi.org/10.1515/cogsem-2014-0002'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: zvaigzne2014integrative
+  title: An integrative approach to understanding factors that influence monolingual and bilingual children's use of iconic co-speech gestures
+  authors: [Meghan Zvaigzne]
+  year: 2014
+  venue: eScholarship@McGill (McGill)
+  type: thesis
+  category: theory
+  doi: 10.82308/53093
+  links: {paper: 'https://doi.org/10.82308/53093'}
   added: '2026-10-03'
   checked: abstract
   verified: false

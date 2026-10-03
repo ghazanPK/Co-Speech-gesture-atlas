@@ -551,6 +551,21 @@
   verified: false
   area: linguistics
 
+- id: ginosar2020modeling
+  title: 'Modeling Visual Minutiae: Gestures, Styles, and Temporal Patterns'
+  authors: [Shiry Ginosar]
+  year: 2020
+  venue: eScholarship
+  type: thesis
+  category: method
+  links: {paper: 'https://escholarship.org/uc/item/3ws1647q'}
+  input: [audio]
+  summary: Doctoral dissertation whose first part models conversational gestures from multi-modal correlations between audio and motion learned from video without human annotations.
+  notes: Only part of the thesis concerns co-speech gesture; remaining parts cover motion transfer, historical visual patterns and abstract art.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: guarino2020teaching
   title: Teaching Analogical Reasoning With Co-speech Gesture Shows Children Where to Look, but Only Boosts Learning for Some
   authors: [Katharine F. Guarino, Elizabeth M. Wakefield]
@@ -648,6 +663,20 @@
   checked: abstract
   verified: false
   area: psycholinguistics
+
+- id: hinnell2020language
+  title: 'Language in the body: Multimodality in grammar and discourse'
+  authors: [Jennifer Hinnell]
+  year: 2020
+  venue: 'ERA: Education and Research Archive (University of Alberta)'
+  type: thesis
+  category: theory
+  doi: 10.7939/r3-1nhm-5c89
+  links: {paper: 'https://doi.org/10.7939/r3-1nhm-5c89'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: hoetjes2020gesture
   title: 'Using Gesture to Facilitate L2 Phoneme Acquisition: The Importance of Gesture and Phoneme Complexity'
@@ -1219,6 +1248,32 @@
   checked: abstract
   verified: false
   area: linguistics
+
+- id: polancec2020pragmatic
+  title: 'Pragmatic analysis of hand gestures: a case study of co-speech gestures in two different genres of videos'
+  authors: [Ivana Polančec]
+  year: 2020
+  venue: ODRAZ (University of Zagreb Faculty of Humanities and SocialSciences)
+  type: thesis
+  category: theory
+  links: {paper: 'https://repozitorij.ffzg.unizg.hr/islandora/object/ffzg:3412'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: pons2020temporal
+  title: 'Temporal integration of gesture and speech in narrative discourse: an insight into the development of co-speech gesture use'
+  authors: [Júlia Florit Pons]
+  year: 2020
+  venue: Unknown venue
+  type: thesis
+  category: theory
+  links: {paper: 'https://repositori.upf.edu/handle/10230/46884'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
 
 - id: prieto2020negation
   title: Negation, Prosody, and Gesture

@@ -2,6 +2,25 @@
 # The README tables are generated from these files. Field rules: docs/SCHEMA.md
 # (enforced by schema/schema.json and scripts/validate.py).
 
+- id: abel2025stargate
+  title: 'Co-speech gesture synthesis : Towards a controllable and interpretable model using a graph deterministic approach'
+  authors: [Louis Abel]
+  year: 2025
+  venue: PhD thesis
+  type: thesis
+  category: method
+  doi: 10.70675/4b4d1808z33d7z4b7bz830bz71052e2093c2
+  links: {paper: 'https://doi.org/10.70675/4b4d1808z33d7z4b7bz830bz71052e2093c2'}
+  input: [audio, text, speaker-id]
+  approach: [autoregressive]
+  metrics: [fgd]
+  user_study: true
+  summary: STARGATE generates gestures autoregressively using CNN encoders for audio and text, an ST-GCN encoding the gesture history and a biRNN decoder, with a speaker embedding for style personalisation.
+  notes: Abstract is in French; the thesis also extends the model to finger motion and multiple speakers and derives a gesture boundary detector from the adjacency matrices.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: akkan2025talking
   title: 'Talking Hands, Shifting Tongues: How Does the Use of Co-speech Gestures and Second Language Relate to Emotional Autobiographical Memory Narration?'
   authors: [İbrahim Akkan, Çağla Aydın, Sami̇ Gülgöz, Tilbe Göksun]
@@ -344,6 +363,24 @@
   notes: Dataset released under CC BY 4.0, drawn from talk shows, TED talks and stand-up comedy videos. The DOI is from the candidate metadata; the published venue was not confirmed.
   added: '2026-10-03'
   checked: full-text
+  verified: false
+
+- id: chen2025understanding
+  title: 'Understanding and Generating Multi-Modalities: Advancing Efficient, Generalized, and Interactive Human-Centered AI'
+  authors: [Junming Leo Chen]
+  year: 2025
+  venue: HKUST
+  type: thesis
+  category: method
+  doi: 10.14711/thesis-hdl167741
+  links: {paper: 'https://doi.org/10.14711/thesis-hdl167741'}
+  input: [audio]
+  output: [face]
+  approach: [diffusion]
+  summary: Doctoral thesis whose generation part presents a diffusion-based model producing synchronized, arbitrary-length holistic 3D facial expressions and body gestures from speech.
+  notes: Thesis also covers video denoising, federated domain generalization and unified multimodal LLMs; only the speech-to-gesture part is in scope. Abstract claims real-time generation but gives no figure.
+  added: '2026-10-03'
+  checked: abstract
   verified: false
 
 - id: cheng2025conditional
@@ -2552,6 +2589,24 @@
   links: {paper: 'https://doi.org/10.1109/icassp49660.2025.10888507'}
   approach: [diffusion]
   summary: A diffusion framework that fuses multimodal inputs with a cross-modal fusion module and models long-range speech-gesture dependencies with an xLSTM.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: zhao2025echoactor
+  title: 'EchoActor: Audio-Driven Upper Body Speech Video Generation'
+  authors: ['Zhao, Jiantong']
+  year: 2025
+  venue: MBZUAI iRep
+  type: thesis
+  category: method
+  doi: 10.82419/173
+  links: {paper: 'https://doi.org/10.82419/173', code: 'https://github.com/zjt000125/zjt000125.github.io'}
+  input: [audio, image]
+  output: [upper-body, face]
+  representation: [video-pixels]
+  setting: [monologue]
+  summary: Generates upper-body speech videos from a reference image and audio, using a partial key-point sequence from an audio-to-gesture model to control motion and the audio to control facial expression, with an ID-Fusion reference network for the face.
   added: '2026-10-03'
   checked: abstract
   verified: false

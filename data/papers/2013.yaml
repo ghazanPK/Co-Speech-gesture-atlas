@@ -444,6 +444,20 @@
   verified: false
   area: development
 
+- id: devilbiss2013occupational
+  title: An Analysis of Occupational Therapists� Listening Behaviors During Treatment Sessions
+  authors: [Steven DeVilbiss, Andreanna Rodriquez, Maria Tolentino]
+  year: 2013
+  venue: Unknown venue
+  type: thesis
+  category: theory
+  doi: 10.33015/dominican.edu/2013.ot.09
+  links: {paper: 'https://doi.org/10.33015/dominican.edu/2013.ot.09'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
 - id: diessel2013where
   title: Where does language come from? Some reflections on the role of deictic gesture and demonstratives in the evolution of language
   authors: [Holger Diessel]
@@ -873,6 +887,21 @@
   verified: false
   area: development
 
+- id: kondo2013construction
+  title: Construction of Reconfigurable Motion Database for Real-Time Human-Robot Interaction
+  authors: [Yutaka Kondo]
+  year: 2013
+  venue: NAIST
+  type: thesis
+  category: method
+  doi: 10.34413/dr.01107
+  links: {paper: 'https://naist.repo.nii.ac.jp/records/10705'}
+  approach: [retrieval]
+  summary: Generates an android's body gestures in real time by reconfiguring a large motion-capture database, classified by bag-of-words and dynamic programming matching.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: kopp2013automatic
   title: Automatic and strategic alignment of co-verbal gestures in dialogue
   authors: [Stefan Kopp, Kirsten Bergmann]
@@ -927,6 +956,20 @@
   checked: abstract
   verified: false
   area: clinical
+
+- id: le2013modeles
+  title: Modèles de gestes expressifs
+  authors: [Quôc Anh Lê]
+  year: 2013
+  venue: HAL (Le Centre pour la Communication Scientifique Directe)
+  type: thesis
+  category: method
+  links: {paper: 'https://hal.science/tel-01181000v1', open: 'https://pastel.hal.science/tel-01181000/document'}
+  output: [hands]
+  summary: Computational model that encodes communicative gestures by hand shape, wrist position and trajectory, schedules them to speech and renders them with expressivity parameters on the Greta agent and the Nao robot.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: lebarton2013experimentally
   title: Experimentally Induced Increases in Early Gesture Lead to Increases in Spoken Vocabulary
@@ -1100,6 +1143,19 @@
   checked: abstract
   verified: false
   area: neuroscience
+
+- id: nispen2013people
+  title: 'What can people with aphasia communicate with their hands?: A study of representation techniques in pantomime and co-speech gesture'
+  authors: [Karin van Nispen]
+  year: 2013
+  venue: Data Archiving and Networked Services (DANS)
+  type: thesis
+  category: theory
+  links: {paper: 'https://research.tilburguniversity.edu/en/publications/753fb803-f80d-4077-84a6-dcd5a33f98dd'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
 
 - id: nispen2013should
   title: Should pantomime and gesticulation be assessed separately for their comprehensibility in aphasia? A case study
@@ -1365,6 +1421,19 @@
   verified: false
   area: psycholinguistics
 
+- id: saintamand2013alignment
+  title: Alignment of Speech and Co-speech Gesture in a Constraint-based Grammar
+  authors: [Katya Saint-Amand, Katya Saint Amand, Katya Alahverdzhieva]
+  year: 2013
+  venue: Unknown venue
+  type: thesis
+  category: theory
+  links: {paper: 'https://era.ed.ac.uk/bitstream/1842/7623/1/Saint-Amand2013.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: salem2013closedloop
   title: 'Generating finely synchronized gesture and speech for humanoid robots: a closed-loop approach'
   authors: [Maha Salem, Stefan Kopp, Frank Joublin]
@@ -1390,6 +1459,22 @@
   links: {paper: 'https://doi.org/10.1007/978-3-319-02675-6_38'}
   added: '2026-10-03'
   checked: metadata
+  verified: false
+
+- id: salem2013conceptual
+  title: Conceptual Motorics - Generation and Evaluation of Communicative Robot Gesture
+  authors: [Maha Salem]
+  year: 2013
+  venue: Bielefeld University
+  type: thesis
+  category: method
+  links: {paper: 'https://pub.uni-bielefeld.de/record/2519214'}
+  output: [hands]
+  user_study: true
+  summary: A framework lets a humanoid robot produce synthetic speech and co-verbal hand and arm gestures at run-time, synchronised by a multimodal scheduler, and tests how humans evaluate such gestures in two studies.
+  notes: Doctoral thesis; arm gestures are also generated. Fields read from the abstract only.
+  added: '2026-10-03'
+  checked: abstract
   verified: false
 
 - id: sekine2013gesture

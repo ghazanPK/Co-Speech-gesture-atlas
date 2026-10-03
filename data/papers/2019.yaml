@@ -103,6 +103,20 @@
   verified: false
   area: development
 
+- id: carrion2019time
+  title: Time gestures
+  authors: [Daniel Alcaraz Carrión]
+  year: 2019
+  venue: Lancaster EPrints (Lancaster University)
+  type: thesis
+  category: theory
+  doi: 10.17635/lancaster/thesis/567
+  links: {paper: 'https://doi.org/10.17635/lancaster/thesis/567'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
 - id: carstens2019advice
   title: 'Advice on the use of gestures in presentation skills manuals: alignment between theory, research and instruction'
   authors: [Adelia Carstens]
@@ -144,6 +158,23 @@
   checked: abstract
   verified: false
   area: linguistics
+
+- id: clavel2019socioemotional
+  title: Generating Socio‐emotional Behaviors
+  authors: [Chloé Clavel]
+  year: 2019
+  venue: Wiley book chapter
+  type: thesis
+  category: method
+  doi: 10.1002/9781119649403.ch5
+  links: {paper: 'https://doi.org/10.1002/9781119649403.ch5'}
+  input: [text, audio]
+  approach: [rule-based]
+  summary: Chapter on generating prosody and co-verbal gestures for an embodied conversational agent from verbal and prosodic content, building on corpus analysis.
+  notes: Book chapter; abstract states the co-verbal gesture model was evaluated only qualitatively.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: coulson2019working
   title: Working Memory and Co-Speech Iconic Gestures.
@@ -1470,6 +1501,19 @@
   added: '2026-10-03'
   checked: full-text
   verified: false
+
+- id: zlogar2019experimental
+  title: An Experimental Pragmatic Investigation of Depictive Co-Speech Gestures
+  authors: [Christina Zlogar]
+  year: 2019
+  venue: Digital Access to Scholarship at Harvard (DASH) (Harvard University)
+  type: thesis
+  category: theory
+  links: {paper: 'http://nrs.harvard.edu/urn-3:HUL.InstRepos:42013043'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: zvaigzne2019language
   title: How does language proficiency affect children’s iconic gesture use?

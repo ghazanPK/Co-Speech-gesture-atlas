@@ -109,6 +109,19 @@
   verified: false
   area: education
 
+- id: cheung2016investigation
+  title: Investigation on whether co-verbal gesture use can facilitate lexical retrieval in connected speech in normal speakers and speakers with aphasia
+  authors: [Ka-yan Cheung, 張嘉欣]
+  year: 2016
+  venue: Unknown venue
+  type: thesis
+  category: theory
+  links: {paper: 'https://hub.hku.hk/handle/10722/272653'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
 - id: christy2016relation
   title: The relation of gesture to thought and language
   authors: [T. Craig Christy]
@@ -990,6 +1003,20 @@
   verified: false
   area: cognition
 
+- id: preisig2016aphasia
+  title: 'Aphasia and dialogue: What eye movements reveal about the processing of cospeech gestures and the prediction of turn transitions'
+  authors: [Basil Christoph Preisig]
+  year: 2016
+  venue: BORIS (University Library Bern)
+  type: thesis
+  category: theory
+  doi: 10.7892/boris.85149
+  links: {paper: 'https://doi.org/10.7892/boris.85149'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
 - id: redcay2016perceived
   title: Perceived communicative intent in gesture and language modulates the superior temporal sulcus
   authors: [Elizabeth Redcay, Kayla R. Velnoskey, Meredith L. Rowe]
@@ -1155,6 +1182,21 @@
   verified: false
   area: education
 
+- id: tay2016autonomous
+  title: Autonomous animation of humanoid robots
+  authors: [Junyun Tay]
+  year: 2016
+  venue: PhD thesis
+  type: thesis
+  category: method
+  doi: 10.32657/10356/69279
+  links: {paper: 'https://doi.org/10.32657/10356/69279', open: 'https://figshare.com/articles/thesis/Autonomous_Animation_of_Humanoid_Robots/6714932'}
+  summary: Animates a NAO humanoid robot from a speech or music signal by labelling parameterized motions with meanings, selecting and synchronizing motion sequences, and checking their stability.
+  notes: Thesis covers both music-driven dance and speech-driven gesture; the abstract does not state the speech input is audio or text.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: tolins2016personality
   title: A Multimodal Motion-Captured Corpus of Matched and Mismatched Extravert-Introvert Conversational Pairs
   authors: [Jackson Tolins, Kris Liu, Yingying Wang, Jean E. Fox Tree, Marilyn A. Walker, Michael Neff]
@@ -1270,5 +1312,18 @@
   links: {paper: 'https://doi.org/10.1016/j.pragma.2016.05.004'}
   added: '2026-10-03'
   checked: metadata
+  verified: false
+  area: linguistics
+
+- id: wilson2016speech
+  title: What co-speech gestures do:investigating the communicative role ofvisual behaviour accompanyinglanguage use during reference ininteraction
+  authors: [Jack Wilson]
+  year: 2016
+  venue: Unknown venue
+  type: thesis
+  category: theory
+  links: {paper: 'https://etheses.whiterose.ac.uk/17319/'}
+  added: '2026-10-03'
+  checked: abstract
   verified: false
   area: linguistics

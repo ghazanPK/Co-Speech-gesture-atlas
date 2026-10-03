@@ -69,8 +69,17 @@ def venue_key(p):
     return (p["venue"].lower(), p["title"].lower())
 
 
+def build_theses(papers):
+    group = sorted((p for p in papers if p["type"] == "thesis"), key=lambda p: (-p["year"], p["title"].lower()))
+    if not group:
+        return "*No records yet.*"
+    rows = [[str(p["year"]), paper_link(p), cell(p["venue"]), "theory" if p["category"] == "theory" else p["category"],
+             cell(p.get("summary", ""))] for p in group]
+    return table(["Year", "Thesis", "Institution", "Kind", "Summary"], rows)
+
+
 def build_papers(papers):
-    methods = [p for p in papers if p["category"] in ("method", "system")]
+    methods = [p for p in papers if p["category"] in ("method", "system") and p["type"] != "thesis"]
     out = []
     for year in sorted({p["year"] for p in methods}, reverse=True):
         group = sorted((p for p in methods if p["year"] == year), key=venue_key)
@@ -81,7 +90,7 @@ def build_papers(papers):
 
 
 def build_other(papers, categories):
-    group = sorted((p for p in papers if p["category"] in categories), key=lambda p: (-p["year"], venue_key(p)))
+    group = sorted((p for p in papers if p["category"] in categories and p["type"] != "thesis"), key=lambda p: (-p["year"], venue_key(p)))
     if not group:
         return "*No records yet.*"
     rows = [[str(p["year"]), cell(p["venue"]), p["category"], paper_link(p), cell(p.get("summary", ""))] for p in group]
@@ -128,7 +137,7 @@ def build_metrics(metrics, papers):
 
 
 def build_theory(papers):
-    group = sorted((p for p in papers if p["category"] == "theory"), key=lambda p: (p["year"], p["title"].lower()))
+    group = sorted((p for p in papers if p["category"] == "theory" and p["type"] != "thesis"), key=lambda p: (p["year"], p["title"].lower()))
     if not group:
         return "*No records yet.*"
     out = []
@@ -139,8 +148,9 @@ def build_theory(papers):
 
 
 def build_stats(papers, datasets, metrics):
-    theory = sum(1 for p in papers if p["category"] == "theory")
-    counts = f"**{len(papers) - theory} papers on gesture generation** and **{theory} on gesture theory**"
+    theses = sum(1 for p in papers if p["type"] == "thesis")
+    theory = sum(1 for p in papers if p["category"] == "theory" and p["type"] != "thesis")
+    counts = f"**{len(papers) - theory - theses} papers on gesture generation**, **{theory} on gesture theory** and **{theses} theses**"
     full = sum(1 for p in papers if p.get("checked") == "full-text")
     abstract = sum(1 for p in papers if p.get("checked") == "abstract")
     meta = sum(1 for p in papers if p.get("checked") == "metadata")
@@ -161,6 +171,7 @@ def main():
         "papers": build_papers(papers),
         "surveys": build_other(papers, ("survey", "challenge", "evaluation")),
         "dataset-papers": build_other(papers, ("dataset",)),
+        "theses": build_theses(papers),
         "datasets": build_datasets(datasets, papers),
         "metrics": build_metrics(metrics, papers),
     }

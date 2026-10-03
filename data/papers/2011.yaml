@@ -349,6 +349,32 @@
   verified: false
   area: cognition
 
+- id: cooperrider2011reference
+  title: 'Reference in action : links between pointing and language'
+  authors: [Kensy Cooperrider]
+  year: 2011
+  venue: eScholarship (California Digital Library)
+  type: thesis
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/52g063b5'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: cuffari2011speech
+  title: Co-Speech Gesture in Communication and Cognition
+  authors: [Elena Clare Cuffari]
+  year: 2011
+  venue: Scholars' Bank (University of Oregon)
+  type: thesis
+  category: theory
+  links: {paper: 'http://hdl.handle.net/1794/12145'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
 - id: cutica2011gesture
   title: '“The More You Gesture, the Less I Gesture”: Co-Speech Gestures as a Measure of Mental Model Quality'
   authors: [Ilaria Cutica, Monica Bucciarelli]
@@ -487,6 +513,20 @@
   checked: abstract
   verified: false
   area: linguistics
+
+- id: gardner2011nonverbal
+  title: Nonverbal communication among Pointe Coupee Creoles
+  authors: [Elsie Gardner]
+  year: 2011
+  venue: Unknown venue
+  type: thesis
+  category: theory
+  doi: 10.31390/gradschool_dissertations.78
+  links: {paper: 'https://doi.org/10.31390/gradschool_dissertations.78'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
 
 - id: gerwing2011flexible
   title: The flexible semantic integration of gestures and words
@@ -653,6 +693,19 @@
   checked: abstract
   verified: false
   area: social-interaction
+
+- id: holroyd2011engagement
+  title: Generating Engagement Behaviors in Human-Robot Interaction
+  authors: [Aaron Holroyd]
+  year: 2011
+  venue: WPI
+  type: thesis
+  category: system
+  links: {paper: 'https://digitalcommons.wpi.edu/etd-theses/328'}
+  summary: A ROS module adds gaze and pointing gestures to referring phrases and other connection events for a humanoid robot, plus an event-driven BML realizer for robots.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: hostetter2011chapter
   title: Chapter 5. If you don’t already know, I’m certainly not going to show you!
@@ -893,6 +946,20 @@
   checked: abstract
   verified: false
 
+- id: lim2011robotic
+  title: Robotic gesture-speech synchronization
+  authors: ['Lim, Keck Soon.']
+  year: 2011
+  venue: DR-NTU
+  type: thesis
+  category: system
+  links: {paper: 'http://hdl.handle.net/10356/44964'}
+  input: [text]
+  summary: A text-to-speech-to-gesture engine that plans gestures, blends motions, generates beat gestures at run time and synchronises them with speech timings on the Olivia 2.1 robot.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: lindenberg2011communication
   title: 'Communication with emblematic gestures: Shared and distinct neural correlates of expression and reception'
   authors: [Robert Lindenberg, Marie Uhlig, Dag Scherfeld, Gottfried Schlaug, Ruediger J. Seitz]
@@ -1077,6 +1144,19 @@
   checked: abstract
   verified: false
 
+- id: ott2011prominence
+  title: Prominence in gesture and speech in American English and Italian
+  authors: [A. Ott]
+  year: 2011
+  venue: Purdue e-Pubs (Purdue University System)
+  type: thesis
+  category: theory
+  links: {paper: 'https://docs.lib.purdue.edu/dissertations/AAI1510256'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: ozcalskan2011chapter
   title: Chapter 12. Is there an iconic gesture spurt at 26 months?
   authors: [Şeyda Özçalışkan, Susan Goldin‐Meadow]
@@ -1203,6 +1283,19 @@
   verified: false
   area: development
 
+- id: sikveland2011ordination
+  title: 'Co-ordination of speech and gesture in sequence and time : phonetic and non-verbal detail in face-to-face interaction'
+  authors: [Rein Ove Sikveland]
+  year: 2011
+  venue: White Rose eTheses Online (University of Leeds, The University of Sheffield, University of York)
+  type: thesis
+  category: theory
+  links: {paper: 'http://etheses.whiterose.ac.uk/1778/1/ReinSikvelandPhDThesis_2011.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
 - id: smithson2011bilingual
   title: Bilingual children’s gesture use
   authors: [Lisa Smithson, Elena Nicoladis, Paula Marentette]
@@ -1287,6 +1380,19 @@
   verified: false
   area: development
 
+- id: welbergen2011behavior
+  title: 'Behavior generation for interpersonal coordination with virtual humans : on specifying, scheduling and realizing multimodal virtual human behavior'
+  authors: [van Herwin Welbergen]
+  year: 2011
+  venue: Thesis
+  type: thesis
+  category: system
+  doi: 10.3990/1.9789036532334
+  links: {paper: 'https://doi.org/10.3990/1.9789036532334', open: 'https://ris.utwente.nl/ws/files/6035043/thesis_H_van_Welbergen.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: wilkin2011chapter
   title: Chapter 22. Speakers’ use of ‘action’ and ‘entity’ gestures with definite and indefinite references
   authors: [Katie Wilkin, Judith Holler]
@@ -1314,3 +1420,17 @@
   checked: abstract
   verified: false
   area: neuroscience
+
+- id: yang2011talking
+  title: 'The Talking Hands?: The Relation between Gesture and Language in Aphasic Patients'
+  authors: [Fu Ju Yang]
+  year: 2011
+  venue: Unitn-eprints PhD (University of Trento)
+  type: thesis
+  category: theory
+  doi: 10.15168/11572_368910
+  links: {paper: 'https://doi.org/10.15168/11572_368910'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical

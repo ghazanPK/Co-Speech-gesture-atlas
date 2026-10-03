@@ -86,6 +86,19 @@
   verified: false
   area: cognition
 
+- id: avilanobrega2017sistema
+  title: O sistema de referenciação multimodal de crianças com síndrome de down em engajamento conjunto
+  authors: [Paulo Vinícius Ávila-Nóbrega]
+  year: 2017
+  venue: Americanae (AECID Library)
+  type: thesis
+  category: theory
+  links: {paper: 'https://repositorio.ufpb.br/jspui/handle/123456789/12051'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
 - id: beck2017body
   title: Body Movements Generation for Virtual Characters and Social Robots
   authors: [Aryel Beck, Zerrin Yumak, Nadia Magnenat‐Thalmann]
@@ -842,6 +855,19 @@
   verified: false
   area: linguistics
 
+- id: kistner2017gestures
+  title: The use of gestures in the conversations of people with aphasia
+  authors: [Judith Kistner]
+  year: 2017
+  venue: City Research Online (City University London)
+  type: thesis
+  category: theory
+  links: {paper: 'https://openaccess.city.ac.uk/id/eprint/18031/1/Kistner%2C%20Judith_Redacted.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
 - id: kita2017gestures
   title: How do gestures influence thinking and speaking? The gesture-for-conceptualization hypothesis.
   authors: [Sotaro Kita, Martha Wagner Alibali, Mingyuan Chu]
@@ -1274,6 +1300,19 @@
   verified: false
   area: psycholinguistics
 
+- id: panayi2017cognition
+  title: 'Cognition in action C-i-A: Rethinking gesture in neuro-atypical young people: A conceptual framework for embodied, embedded, extended and enacted intentionality'
+  authors: [Marilyn Panayi]
+  year: 2017
+  venue: City Research Online (City University London)
+  type: thesis
+  category: theory
+  links: {paper: 'https://openaccess.city.ac.uk/id/eprint/15292/1/Panayi%2C%20Marilyn.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
 - id: parrill2017gestures
   title: Gestures of the abstract
   authors: [Fey Parrill, Kashmiri Stec]
@@ -1639,6 +1678,19 @@
   checked: abstract
   verified: false
   area: education
+
+- id: zhao2017exploration
+  title: An exploration of the integration of speech with co-speech gesture with non-invasive brain stimulation
+  authors: [Wanying Zhao]
+  year: 2017
+  venue: Repository@Hull (Worktribe) (University of Hull)
+  type: thesis
+  category: theory
+  links: {paper: 'https://hull-repository.worktribe.com/file/4220574/1/Thesis'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
 
 - id: zima2017multimodal
   title: Multimodal constructional resemblance

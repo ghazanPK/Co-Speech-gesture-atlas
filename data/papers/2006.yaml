@@ -761,6 +761,20 @@
   checked: abstract
   verified: false
 
+- id: seyfeddinipur2006disfluency
+  title: 'Disfluency: Interrupting speech and gesture'
+  authors: [Mandana Seyfeddinipur]
+  year: 2006
+  venue: Radboud Repository (Radboud University)
+  type: thesis
+  category: theory
+  doi: 10.17617/2.59337
+  links: {paper: 'https://doi.org/10.17617/2.59337'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: sidnell2006coordinating
   title: Coordinating Gesture, Talk, and Gaze in Reenactments
   authors: [Jack Sidnell]
@@ -789,6 +803,19 @@
   verified: false
   area: education
 
+- id: sowa2006understanding
+  title: Understanding Coverbal Ionic Gestures in Shape Descriptions
+  authors: [Timo Sowa]
+  year: 2006
+  venue: Unknown venue
+  type: thesis
+  category: theory
+  links: {paper: 'https://www.amazon.com/Understanding-Coverbal-Descriptions-Dissertations-Artificial/dp/1586035665'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
+
 - id: stam2006thinking
   title: 'Thinking for speaking about motion: L1 and L2 speech and gesture'
   authors: [Gale A. Stam]
@@ -816,6 +843,20 @@
   checked: abstract
   verified: false
   area: cognition
+
+- id: vankessel2006gestures
+  title: Gestures of a virtual guide
+  authors: [Marco van Kessel]
+  year: 2006
+  venue: University of Twente
+  type: thesis
+  category: system
+  links: {paper: 'http://hmi.ewi.utwente.nl/verslagen/afstudeer/KesselMarcovanFinalThesis.pdf'}
+  user_study: true
+  summary: Integrates existing dialogue, multimodal interface and agent software into a virtual guide that gives route descriptions in sentences and deictic pointing gestures.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: vermeerbergen2006sign
   title: Sign + Gesture = Speech + Gesture? Comparing aspects of simultaneity in Flemish Sign Language to instances of concurrent speech and gesture
@@ -857,6 +898,19 @@
   checked: abstract
   verified: false
   area: neuroscience
+
+- id: wu2006coordinated
+  title: 'Coordinated minds : how iconic co- speech gestures mediate communication'
+  authors: [Ying Choon Wu]
+  year: 2006
+  venue: eScholarship (California Digital Library)
+  type: thesis
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/4ff658th'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
 
 - id: yoshioka2006gestural
   title: Gestural introduction of Ground reference in L2 narrative discourse

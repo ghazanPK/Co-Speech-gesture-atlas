@@ -56,6 +56,20 @@
   verified: false
   area: psycholinguistics
 
+- id: braddock2007links
+  title: 'Links between language, gesture, and motor skill : a longitudinal study of communication recovery in adults with Broca''s aphasia'
+  authors: [Barbara A. Braddock]
+  year: 2007
+  venue: Unknown venue
+  type: thesis
+  category: theory
+  doi: 10.32469/10355/4656
+  links: {paper: 'https://doi.org/10.32469/10355/4656'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
 - id: breitfuss2007automated
   title: Automated generation of non-verbal behavior for virtual embodied characters
   authors: [Werner Breitfuß, Helmut Prendinger, Mitsuru Ishizuka]
@@ -85,6 +99,19 @@
   checked: abstract
   verified: false
   area: cognition
+
+- id: brown2007crosslinguisti
+  title: 'Crosslinguistic influence in first and second languages: Convergence in speech and gesture'
+  authors: [Amanda Brown]
+  year: 2007
+  venue: Max Planck Institute for Plasma Physics
+  type: thesis
+  category: theory
+  links: {paper: 'http://edoc.mpg.de/328104'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: buisine2007cooperation
   title: The effects of speech–gesture cooperation in animated agents’ behavior in multimedia presentations
@@ -685,6 +712,19 @@
   checked: abstract
   verified: false
   area: development
+
+- id: pozzerardenghi2007look
+  title: '"Look at what I am saying": Multimodal science teaching'
+  authors: [Lilian Pozzer‐Ardenghi]
+  year: 2007
+  venue: UVic’s Research and Learning Repository (University of Victoria)
+  type: thesis
+  category: theory
+  links: {paper: 'http://hdl.handle.net/1828/212'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
 
 - id: richards2007activation
   title: Activation of intentional mechanisms through utilization of nonsymbolic movements in aphasia rehabilitation.

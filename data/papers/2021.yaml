@@ -192,6 +192,20 @@
   verified: false
   area: cognition
 
+- id: cairney2021iconic
+  title: An ERP Study of the Effects of Iconic and Nonsense Gestures on Memory Formation
+  authors: [Brianna E. Cairney]
+  year: 2021
+  venue: Unknown venue
+  type: thesis
+  category: theory
+  doi: 10.31390/gradschool_theses.5439
+  links: {paper: 'https://doi.org/10.31390/gradschool_theses.5439'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
 - id: camiciottoli2021analyzing
   title: Analyzing Attitudinal Stance in OpenCourseWare Lectures
   authors: [Belinda Crawford Camiciottoli]
@@ -360,6 +374,20 @@
   verified: false
   area: clinical
 
+- id: dildar2021structural
+  title: Structural Transformation, Culture, and Women's Labor Force Participation in Turkey
+  authors: [Yasemin Dildar]
+  year: 2021
+  venue: Scholarworks (University of Massachusetts Amherst)
+  type: thesis
+  category: theory
+  doi: 10.7275/7430513.0
+  links: {paper: 'https://doi.org/10.7275/7430513.0'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
 - id: ebert2021recovering
   title: Recovering gestured and spoken material in VP ellipsis and pro-forms
   authors: [Cornelia Ebert, Andreas Konietzko, Thomas Weskott]
@@ -431,6 +459,23 @@
   links: {paper: 'https://doi.org/10.1145/3472306.3478338', open: 'https://dl.acm.org/doi/pdf/10.1145/3472306.3478338'}
   user_study: true
   summary: Two perceptual studies assess how realism of synthetic voice, gesture motion and visual appearance affects perceived speech-gesture match, likability and human-likeness of virtual agents.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: ferstl2021machine
+  title: Machine Learning For Plausible Gesture Generation From Speech For Virtual Humans
+  authors: [Ylva Ferstl]
+  year: 2021
+  venue: Trinity College Dublin
+  type: thesis
+  category: method
+  doi: 10.2312/diss.20212633145
+  links: {paper: 'https://doi.org/10.2312/diss.20212633145', open: 'http://hdl.handle.net/2262/96795'}
+  input: [audio]
+  approach: [gan, retrieval, hybrid]
+  datasets: [custom]
+  summary: Thesis exploring transfer learning, adversarial training and expressive gesture parameters for speech-to-gesture learning, presenting two speech and motion datasets and a system combining machine learning with database sampling.
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1666,6 +1711,20 @@
   checked: abstract
   verified: false
 
+- id: weinrich2021gesture
+  title: Gesture Resolution and Definiteness
+  authors: [Jonathan Weinrich]
+  year: 2021
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+  type: thesis
+  category: theory
+  doi: 10.5281/zenodo.5812035
+  links: {paper: 'https://doi.org/10.5281/zenodo.5812035'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: wolfert2021rate
   title: 'To Rate or Not To Rate: Investigating Evaluation Methods for Generated Co-Speech Gestures'
   authors: [Pieter Wolfert, Jeffrey M. Girard, Taras Kucherenko, Tony Belpaeme]
@@ -1759,6 +1818,23 @@
   verified: false
   area: other
 
+- id: yu2021generation
+  title: Génération du Comportement du Robot et Compréhension du Comportement Humain dans L'interaction Naturelle Humain-Robot
+  authors: [Chuang Yu]
+  year: 2021
+  venue: theses.fr
+  type: thesis
+  category: method
+  links: {paper: 'https://hal.science/tel-03313805v1', open: 'http://www.theses.fr/2021IPPAE009/document'}
+  input: [audio]
+  representation: [joints-3d]
+  approach: [gan]
+  datasets: [custom]
+  summary: Thesis that includes a temporal GAN mapping acoustic speech to humanoid robot gestures, trained on an audio-visual database with 3D poses extracted from RGB video, plus speech-driven face action synthesis.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: yunus2021prosody
   title: 'Sequence-to-Sequence Predictive Model: From Prosody to Communicative Gestures'
   authors: [Fajrian Yunus, Chloé Clavel, Catherine Pélachaud]
@@ -1782,6 +1858,24 @@
   notes: Predicts gesture classes (timing and type), not joint motion; evaluated with a custom sequence-comparison score.
   added: '2026-10-03'
   checked: full-text
+  verified: false
+
+- id: yunus2021timing
+  title: Prediction of Gesture Timing and Study About Image Schema for Metaphoric Gestures
+  authors: [Fajrian Yunus]
+  year: 2021
+  venue: HAL
+  type: thesis
+  category: method
+  doi: 10.13140/rg.2.2.35346.12480
+  links: {paper: 'https://hal.science/tel-03589420v1'}
+  input: [text, audio]
+  approach: [other]
+  user_study: true
+  summary: Dissertation on gesture generation for embodied conversational agents covering an attention-based RNN that predicts gesture timing, improved image-schema-based metaphoric gesture selection and vector representations of image schemas.
+  notes: Uses the Gest-IS corpus; full text not retrieved.
+  added: '2026-10-03'
+  checked: abstract
   verified: false
 
 - id: yurtsever2021production

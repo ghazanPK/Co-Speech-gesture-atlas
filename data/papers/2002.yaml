@@ -170,6 +170,19 @@
   verified: false
   area: social-interaction
 
+- id: gao2002automatic
+  title: Automatic extraction of spatial location for gesture generation
+  authors: [Yang Gao]
+  year: 2002
+  venue: MIT
+  type: thesis
+  category: method
+  links: {paper: 'https://dspace.mit.edu/handle/1721.1/87236'}
+  notes: M.Eng. and S.B. thesis, MIT EECS. Only the repository record was read; no abstract available.
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
 - id: garber2002gesture
   title: Gesture offers insight into problem‐solving in adults and children
   authors: [Philip Garber, Susan Goldin‐Meadow]
