@@ -14,9 +14,11 @@ import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from validate import DATA, ROOT, Loader  # noqa: E402
+from build_applications import load_audit, readme_summary  # noqa: E402
 
 README = ROOT / "README.md"
 MARKS = {"abstract": "†", "metadata": "‡"}
+APPLICATION_METHODS = {r['method_id'] for r in load_audit()['records']}
 
 
 def load(path):
@@ -39,7 +41,8 @@ def paper_link(p):
     if not url and p.get("arxiv"):
         url = f"https://arxiv.org/abs/{p['arxiv']}"
     title = cell(p["title"])
-    text = f"[{title}]({url})" if url else title
+    anchor = f'<a id="paper-{p["id"]}"></a>' if p['id'] in APPLICATION_METHODS else ''
+    text = anchor + (f"[{title}]({url})" if url else title)
     extra = []
     open_url = links.get("open") or (f"https://arxiv.org/abs/{p['arxiv']}" if p.get("arxiv") and "arxiv.org" not in (url or "") else None)
     if open_url and open_url != url:
@@ -182,6 +185,7 @@ def main():
     datasets, metrics = load(DATA / "datasets.yaml"), load(DATA / "metrics.yaml")
     blocks = {
         "stats": build_stats(papers, datasets, metrics),
+        "applications": readme_summary(generation_papers=sum(p['category'] != 'theory' and p['type'] != 'thesis' for p in papers)),
         "papers": build_papers(papers),
         "surveys": build_other(papers, ("survey", "challenge", "evaluation")),
         "dataset-papers": build_other(papers, ("dataset",)),

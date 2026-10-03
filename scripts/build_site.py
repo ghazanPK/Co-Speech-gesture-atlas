@@ -14,6 +14,7 @@ import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from validate import DATA, ROOT, Loader  # noqa: E402
+from build_applications import main as build_applications  # noqa: E402
 
 DOCS = ROOT / "docs"
 FIELDS = ["id", "title", "authors", "year", "venue", "type", "category", "area", "doi", "arxiv", "links", "weights", "input",
@@ -91,6 +92,8 @@ def main():
     (DOCS / "data.json").write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     chart(papers)
     print(f"docs/data.json: {len(rows)} papers, {len(datasets)} datasets, {len(metrics)} metrics; chart written.")
+    if build_applications():
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":
