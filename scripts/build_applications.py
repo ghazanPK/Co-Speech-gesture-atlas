@@ -54,16 +54,16 @@ def readme_summary(data=None, citation_prefix='', generation_papers=None):
  if generation_papers is None:
   catalogue=json.loads((ROOT/'docs/data.json').read_text(encoding='utf-8'))['papers']
   generation_papers=sum(p['category']!='theory' and p['type']!='thesis' for p in catalogue)
- lines=[f"Across the atlas’s **{generation_papers} gesture-generation papers**, our audit identifies only **{s['repeated_methods']} method papers across {s['repeated_groups']} groups** with repeated reuse in applications and related studies, including **museum guides, healthcare counselors and conversational robots**. The strongest documented interactive reuse remains concentrated in older **BEAT/REA** pipelines, showing why application uptake matters alongside the number of new methods published. [Where and how are they used? →](APPLICATIONS.md#method-group-counts)",'', '| Method group / papers with ≥2 uses | Method years | Functional interactive papers | Adjacent usage papers¹ |','|---|---|---:|---:|']
+ lines=[f"Across the atlas’s **{generation_papers} gesture-generation papers**, our audit identifies only **{s['repeated_methods']} method papers across {s['repeated_groups']} groups** with repeated reuse in applications and related studies, including **museum guides, healthcare counselors and conversational robots**. The strongest documented interactive reuse remains concentrated in older **BEAT/REA** pipelines, showing why application uptake matters alongside the number of new methods published. [Where and how are they used? →](APPLICATIONS.md#method-group-counts)",'', '| Method group / represented method papers | Method years | Functional interactive papers | Adjacent usage papers¹ |','|---|---|---:|---:|']
  short={'Cassell / Vilhjalmsson / Bickmore: BEAT and REA':'BEAT / REA','Marsella / USC ICT: NVBG, Cerebella and learned gestures':'NVBG / Cerebella / USC ICT','Meena / WikiTalk':'WikiTalk','Ali / Hwang and collaborators: rule-map lineage':'Ali / Hwang Hybrid rule-map lineage','Tuyen / Chong / Celiktutan: cGAN lineage':'Tuyen / Chong / Celiktutan cGAN'}
  short.update({'Pelachaud / Greta and collaborators':'Greta / Pelachaud','TalkSHOW / MPI and collaborators':'TalkSHOW / MPI'})
  qualifying=set(s['repeated_method_ids'])
  for g in groups:
-  methods=sorted({(r['method_year'],r['method_id']) for r in data['records'] if r['family']==g['family'] and r['method_id'] in qualifying})
-  if not methods: continue
+  if not any(r['family']==g['family'] and r['method_id'] in qualifying for r in data['records']): continue
+  methods=sorted({(r['method_year'],r['method_id']) for r in data['records'] if r['family']==g['family']})
   citations=' · '.join(f'[{year}]({citation_prefix}#paper-{mid})' for year,mid in methods)
   lines.append(f"| {short.get(g['family'],g['family'])}<br><sub>{citations}</sub> | {g['years']} | **{g['functional']}** | {g['other_applications']+g['comparison']} |")
- lines+=['','¹ Live comparisons, content/presentation applications and prepared-stimulus studies. Counts cover each group; linked papers individually meet the two-use threshold.']
+ lines+=['','¹ Live comparisons, content/presentation applications and prepared-stimulus studies. Counts and links cover each group; the headline counts only method papers individually meeting the two-use threshold.']
  return '\n'.join(lines)
 
 def column_definitions():

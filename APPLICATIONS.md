@@ -2,18 +2,18 @@
 
 Across the atlas’s **619 gesture-generation papers**, our audit identifies only **10 method papers across 8 groups** with repeated reuse in applications and related studies, including **museum guides, healthcare counselors and conversational robots**. The strongest documented interactive reuse remains concentrated in older **BEAT/REA** pipelines, showing why application uptake matters alongside the number of new methods published. [Where and how are they used? →](APPLICATIONS.md#method-group-counts)
 
-| Method group / papers with ≥2 uses | Method years | Functional interactive papers | Adjacent usage papers¹ |
+| Method group / represented method papers | Method years | Functional interactive papers | Adjacent usage papers¹ |
 |---|---|---:|---:|
-| BEAT / REA<br><sub>[2001](README.md#paper-cassell2001beat)</sub> | 1999–2008 | **32** | 6 |
-| NVBG / Cerebella / USC ICT<br><sub>[2006](README.md#paper-lee2006nonverbal) · [2013](README.md#paper-marsella2013virtual) · [2015](README.md#paper-lhommet2015cerebella)</sub> | 2006–2015 | **7** | 4 |
+| BEAT / REA<br><sub>[1999](README.md#paper-cassell1999embodiment) · [2000](README.md#paper-cassell2000coordination) · [2001](README.md#paper-cassell2001beat) · [2008](README.md#paper-bickmore2008document)</sub> | 1999–2008 | **32** | 6 |
+| NVBG / Cerebella / USC ICT<br><sub>[2006](README.md#paper-lee2006nonverbal) · [2013](README.md#paper-marsella2013virtual) · [2014](README.md#paper-chiu2014gesture) · [2015](README.md#paper-lhommet2015cerebella)</sub> | 2006–2015 | **7** | 4 |
 | WikiTalk<br><sub>[2012](README.md#paper-meena2012integration)</sub> | 2012 | **6** | 0 |
-| Ali / Hwang Hybrid rule-map lineage<br><sub>[2020](README.md#paper-ali2020rule)</sub> | 2020–2025 | **3** | 2 |
+| Ali / Hwang Hybrid rule-map lineage<br><sub>[2020](README.md#paper-ali2020rule) · [2022](README.md#paper-ali2022wild) · [2025](README.md#paper-ali2025multilingual)</sub> | 2020–2025 | **3** | 2 |
 | Tuyen / Chong / Celiktutan cGAN<br><sub>[2020](README.md#paper-tuyen2020conditional)</sub> | 2020 | **2** | 0 |
-| Greta / Pelachaud<br><sub>[2009](README.md#paper-pelachaud2009studies)</sub> | 2002–2023 | **1** | 3 |
+| Greta / Pelachaud<br><sub>[2002](README.md#paper-hartmann2002formational) · [2005](README.md#paper-pelachaud2005multimodal) · [2009](README.md#paper-pelachaud2009studies) · [2011](README.md#paper-niewiadomski2011crossmedia) · [2015](README.md#paper-pelachaud2015greta) · [2018](README.md#paper-ravenet2018automating) · [2018](README.md#paper-ravenet2018imageschemas) · [2023](README.md#paper-fares2023zeroshotb)</sub> | 2002–2023 | **1** | 3 |
 | QPGesture<br><sub>[2023](README.md#paper-yang2023qpgesture)</sub> | 2023 | **0** | 2 |
 | TalkSHOW / MPI<br><sub>[2023](README.md#paper-yi2023talkshow)</sub> | 2023 | **0** | 2 |
 
-¹ Live comparisons, content/presentation applications and prepared-stimulus studies. Counts cover each group; linked papers individually meet the two-use threshold.
+¹ Live comparisons, content/presentation applications and prepared-stimulus studies. Counts and links cover each group; the headline counts only method papers individually meeting the two-use threshold.
 
 ## What this audit finds
 
