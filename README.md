@@ -1,10 +1,41 @@
-# Co-Speech Gesture Atlas
+<h1 align="center">Co-Speech Gesture Atlas</h1>
 
-A maintained, structured map of research on co-speech gesture generation: papers, datasets, metrics and code, with a comparison row per paper rather than a bare link.
+<p align="center"><b>The map of research on making characters gesture while they speak.</b><br>
+Every paper as a comparison row, not a bare link. Every dataset and metric defined. The theory the field builds on, side by side with the methods. Sixty years of it, linked by who cites whom.</p>
+
+<p align="center">
+<a href="https://ghazanpk.github.io/Co-Speech-gesture-atlas/"><b>Explore with filters</b></a> ·
+<a href="https://ghazanpk.github.io/Co-Speech-gesture-atlas/citations.html"><b>Citation graph</b></a> ·
+<a href="THEORY.md"><b>Gesture theory</b></a> ·
+<a href="#contributing"><b>Add a paper</b></a>
+</p>
 
 <!-- BEGIN:stats -->
-**621 papers on gesture generation**, **2025 on gesture theory** and **82 theses** (1965–2026), 69 datasets, 36 metrics. 219 records were filled from the full text, 2142 from the abstract only (†), 367 from bibliographic metadata only (‡). 132 have been independently verified.
+<p align="center">
+<img alt="papers" src="https://img.shields.io/badge/papers-2%2C728-2a6f97">
+<img alt="datasets" src="https://img.shields.io/badge/datasets-69-2a6f97">
+<img alt="metrics" src="https://img.shields.io/badge/metrics-36-2a6f97">
+<img alt="citation links" src="https://img.shields.io/badge/citation%20links-32%2C281-2a6f97">
+<img alt="years" src="https://img.shields.io/badge/years-1965–2026-555">
+<img alt="data" src="https://img.shields.io/badge/data-CC0-c9a227">
+<img alt="scripts" src="https://img.shields.io/badge/scripts-MIT-c9a227">
+</p>
+
+| Gesture generation | Gesture theory | Theses | With code | Read from full text | Verified twice |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| **621** papers | **2025** papers | **82** | **77** | **219** | **132** |
+
+2142 records were filled from the abstract only (†) and 367 from bibliographic metadata only (‡), mostly where the full text is behind a paywall.
 <!-- END:stats -->
+
+<p align="center"><img src="docs/papers-per-year.svg" alt="Papers in the atlas by publication year" width="960"></p>
+
+## What you can do here
+
+- **Compare methods at a glance.** Each paper's row shows what it takes in (text, audio, speaker identity, a conversation partner), what it moves (upper body, hands, face, full body), how (diffusion, VQ tokens, rules, retrieval), in which setting, and whether code is out.
+- **Filter, don't scroll.** The [explorer](https://ghazanpk.github.io/Co-Speech-gesture-atlas/) filters all of this by any field, with shareable links. The same data is in [`data/`](data/) as plain YAML, CC0, ready to load.
+- **Follow the lineage.** The [citation graph](https://ghazanpk.github.io/Co-Speech-gesture-atlas/citations.html) shows which papers cite which, from the 1990s rule-based agents to today's diffusion models, with the psychology and linguistics they draw on.
+- **Trust what you read, or see why not.** Only peer-reviewed work is listed. Each record says whether it was filled from the full text, the abstract or metadata only, and whether a second independent reading confirmed it.
 
 ## Contents
 
@@ -20,7 +51,7 @@ A maintained, structured map of research on co-speech gesture generation: papers
 
 Elsewhere:
 - [Gesture theory](THEORY.md): studies of human gesture (psychology, linguistics, neuroscience) that the generation work builds on.
-- [Citation graph](docs/citations.html): which papers in the atlas cite which. Edge list in [`data/citations.csv`](data/citations.csv).
+- [Explorer](https://ghazanpk.github.io/Co-Speech-gesture-atlas/) and [citation graph](https://ghazanpk.github.io/Co-Speech-gesture-atlas/citations.html) (GitHub Pages, from [`docs/`](docs/)). Edge list in [`data/citations.csv`](data/citations.csv).
 
 ## Scope
 
@@ -1077,6 +1108,7 @@ Check your record and regenerate the tables before opening the pull request:
 pip install -r requirements.txt
 python scripts/validate.py
 python scripts/build_readme.py
+python scripts/build_site.py
 ```
 
 ## License

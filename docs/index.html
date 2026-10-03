@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Co-Speech Gesture Atlas · explorer</title>
+<meta name="description" content="Filter and search every paper, dataset and metric in the Co-Speech Gesture Atlas.">
+<style>
+  :root { --bg:#fbfbf9; --fg:#1d1f23; --muted:#6b7280; --line:#e1e3e8; --panel:#ffffff; --accent:#2a6f97; --accent-bg:#e4eef5; --chip:#eef0f3; --chip-on:#2a6f97; --chip-on-fg:#fff; --mark:#c9a227; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#14161a; --fg:#e7e9ee; --muted:#9aa1ad; --line:#2c3038; --panel:#1c1f25; --accent:#7fb3d5; --accent-bg:#1e2b36; --chip:#262a32; --chip-on:#7fb3d5; --chip-on-fg:#14161a; --mark:#e0b84a; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:14px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  a { color:var(--accent); }
+  header { padding:16px 20px 10px; border-bottom:1px solid var(--line); display:flex; flex-wrap:wrap; gap:8px 20px; align-items:baseline; }
+  header h1 { font-size:18px; margin:0; font-weight:650; }
+  header nav a { margin-right:14px; }
+  header .meta { color:var(--muted); margin-left:auto; }
+  main { display:grid; grid-template-columns:270px 1fr; min-height:calc(100vh - 56px); }
+  aside { border-right:1px solid var(--line); padding:14px 16px; overflow:auto; max-height:calc(100vh - 56px); position:sticky; top:0; }
+  section.content { padding:14px 20px; min-width:0; }
+  .tabs { display:flex; gap:4px; margin-bottom:12px; flex-wrap:wrap; }
+  .tabs button { border:1px solid var(--line); background:var(--panel); color:var(--fg); padding:6px 12px; border-radius:6px; cursor:pointer; font:inherit; }
+  .tabs button[aria-selected=true] { background:var(--accent-bg); border-color:var(--accent); color:var(--accent); font-weight:600; }
+  input[type=search], select { width:100%; padding:7px 9px; border:1px solid var(--line); border-radius:6px; background:var(--panel); color:var(--fg); font:inherit; }
+  .facet { margin:12px 0; }
+  .facet h3 { font-size:12px; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); margin:0 0 6px; display:flex; justify-content:space-between; }
+  .facet h3 button { border:0; background:none; color:var(--accent); cursor:pointer; font:inherit; font-size:12px; text-transform:none; letter-spacing:0; }
+  .chips { display:flex; flex-wrap:wrap; gap:5px; }
+  .chip { border:0; border-radius:999px; padding:3px 9px; background:var(--chip); color:var(--fg); cursor:pointer; font:inherit; font-size:12.5px; }
+  .chip[aria-pressed=true] { background:var(--chip-on); color:var(--chip-on-fg); }
+  .chip small { opacity:.7; margin-left:3px; }
+  .count { color:var(--muted); margin:0 0 10px; display:flex; gap:14px; flex-wrap:wrap; align-items:center; }
+  .count .sort { margin-left:auto; display:flex; gap:6px; align-items:center; }
+  .count select { width:auto; }
+  table { width:100%; border-collapse:collapse; }
+  th, td { text-align:left; vertical-align:top; padding:7px 8px; border-bottom:1px solid var(--line); }
+  th { font-size:12px; color:var(--muted); font-weight:600; position:sticky; top:0; background:var(--bg); z-index:1; }
+  td.t { min-width:280px; }
+  td.t a { font-weight:550; text-decoration:none; }
+  td.t a:hover { text-decoration:underline; }
+  .tags { color:var(--muted); font-size:12.5px; }
+  .mark { color:var(--mark); font-weight:700; }
+  .detail { display:none; background:var(--panel); padding:10px 12px; border-radius:6px; margin-top:6px; }
+  tr.open .detail { display:block; }
+  .detail dl { display:grid; grid-template-columns:130px 1fr; gap:4px 10px; margin:0; }
+  .detail dt { color:var(--muted); }
+  .detail dd { margin:0; }
+  .more { border:0; background:none; color:var(--muted); cursor:pointer; font:inherit; font-size:12px; padding:0; }
+  .empty { padding:30px; color:var(--muted); text-align:center; }
+  .hint { color:var(--muted); font-size:12.5px; }
+  @media (max-width: 860px) { main { grid-template-columns:1fr; } aside { position:static; max-height:none; border-right:0; border-bottom:1px solid var(--line); } td.t { min-width:0; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Co-Speech Gesture Atlas</h1>
+  <nav><a href="https://github.com/ghazanPK/Co-Speech-gesture-atlas">Repository</a><a href="citations.html">Citation graph</a><a href="https://github.com/ghazanPK/Co-Speech-gesture-atlas/blob/main/THEORY.md">Theory list</a><a href="https://github.com/ghazanPK/Co-Speech-gesture-atlas/blob/main/docs/SCHEMA.md">Schema</a></nav>
+  <span class="meta" id="meta"></span>
+</header>
+<main>
+  <aside id="filters"></aside>
+  <section class="content">
+    <div class="tabs" role="tablist" id="tabs"></div>
+    <div class="count"><span id="count"></span><span class="hint">Click a row for details. Filters are kept in the page address, so a filtered view can be shared.</span>
+      <span class="sort">Sort <select id="sort"><option value="year-desc">newest first</option><option value="year-asc">oldest first</option><option value="cited">most cited in atlas</option><option value="title">title</option><option value="venue">venue</option></select></span></div>
+    <div id="out"></div>
+  </section>
+</main>
+<script>
+(async function () {
+  const data = await fetch("data.json").then(r => r.json());
+  const papers = data.papers;
+  const MARK = { abstract: "†", metadata: "‡" };
+  const TABS = {
+    generation: { label: "Generation", rows: papers.filter(p => p.category !== "theory" && p.type !== "thesis") },
+    theory: { label: "Theory", rows: papers.filter(p => p.category === "theory" && p.type !== "thesis") },
+    theses: { label: "Theses", rows: papers.filter(p => p.type === "thesis") },
+    datasets: { label: "Datasets", rows: data.datasets.filter(d => d.id !== "custom") },
+    metrics: { label: "Metrics", rows: data.metrics.filter(m => m.id !== "other") },
+  };
+  const FACETS = {
+    generation: [["category", "Kind"], ["input", "Input"], ["output", "Output"], ["approach", "Approach"], ["setting", "Setting"], ["representation", "Representation"], ["datasets", "Dataset"], ["metrics", "Metric"], ["realtime", "Real-time"], ["user_study", "User study"], ["code", "Code"], ["checked", "Read from"], ["verified", "Verified"], ["venue", "Venue"]],
+    theory: [["area", "Area"], ["checked", "Read from"], ["venue", "Venue"]],
+    theses: [["category", "Kind"], ["venue", "Institution"]],
+    datasets: [["modalities", "Modalities"], ["capture", "Capture"], ["setting", "Setting"], ["access", "Access"], ["languages", "Language"]],
+    metrics: [["measures", "Measures"], ["better", "Better"]],
+  };
+  const dsName = Object.fromEntries(data.datasets.map(d => [d.id, d.name]));
+  const mName = Object.fromEntries(data.metrics.map(m => [m.id, m.name]));
+  document.getElementById("meta").textContent = `${papers.length} papers · ${data.datasets.length - 1} datasets · ${data.metrics.length - 1} metrics · ${data.citations} citation links · data as of ${data.generated}`;
+
+  // state lives in the URL hash: #tab=generation&q=diffusion&approach=diffusion,vq&year=2020-2026
+  const state = { tab: "generation", q: "", year: null, sel: {} };
+  function readHash() {
+    const h = new URLSearchParams(location.hash.slice(1));
+    state.tab = TABS[h.get("tab")] ? h.get("tab") : "generation";
+    state.q = h.get("q") || "";
+    state.year = h.get("year") ? h.get("year").split("-").map(Number) : null;
+    state.sel = {};
+    for (const [k, v] of h) if (!["tab", "q", "year", "sort"].includes(k) && v) state.sel[k] = new Set(v.split(","));
+    document.getElementById("sort").value = h.get("sort") || "year-desc";
+  }
+  function writeHash() {
+    const h = new URLSearchParams();
+    h.set("tab", state.tab);
+    if (state.q) h.set("q", state.q);
+    if (state.year) h.set("year", state.year.join("-"));
+    for (const [k, s] of Object.entries(state.sel)) if (s.size) h.set(k, [...s].join(","));
+    const sort = document.getElementById("sort").value;
+    if (sort !== "year-desc") h.set("sort", sort);
+    history.replaceState(null, "", "#" + h.toString());
+  }
+  function valuesOf(row, key) {
+    if (key === "code") return [row.links && row.links.code ? (row.weights ? "code + weights" : "code") : "none"];
+    if (key === "verified" || key === "user_study") return row[key] === undefined ? [] : [row[key] ? "yes" : "no"];
+    const v = row[key];
+    return v === undefined || v === null ? [] : Array.isArray(v) ? v.map(String) : [String(v)];
+  }
+  function label(key, v) {
+    if (key === "datasets") return dsName[v] || v;
+    if (key === "metrics") return mName[v] || v;
+    return v;
+  }
+  function matches(row, exceptKey) {
+    const rows = TABS[state.tab];
+    if (state.q) {
+      const q = state.q.toLowerCase();
+      const hay = [row.title, row.name, row.summary, row.id, (row.authors || []).join(" "), row.venue, (row.aka || []).join(" ")].join(" ").toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    if (state.year && row.year !== undefined && (row.year < state.year[0] || row.year > state.year[1])) return false;
+    for (const [k, s] of Object.entries(state.sel)) {
+      if (k === exceptKey || !s.size) continue;
+      const vs = valuesOf(row, k);
+      if (![...s].some(x => vs.includes(x))) return false;
+    }
+    return true;
+  }
+  function renderFilters() {
+    const rows = TABS[state.tab].rows, aside = document.getElementById("filters");
+    aside.innerHTML = "";
+    const search = document.createElement("input"); search.type = "search"; search.placeholder = "Search title, author, venue, summary"; search.value = state.q;
+    search.addEventListener("input", () => { state.q = search.value.trim(); update(); });
+    aside.append(search);
+    const years = rows.map(r => r.year).filter(Boolean);
+    if (years.length) {
+      const lo = Math.min(...years), hi = Math.max(...years), f = facet("Years");
+      const wrap = document.createElement("div"); wrap.style.display = "flex"; wrap.style.gap = "6px";
+      for (const [i, ph] of [[0, "from"], [1, "to"]]) {
+        const inp = document.createElement("input"); inp.type = "number"; inp.min = lo; inp.max = hi; inp.placeholder = `${ph} (${i ? hi : lo})`; inp.style.cssText = "width:50%;padding:6px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--fg);font:inherit";
+        inp.value = state.year ? state.year[i] : "";
+        inp.addEventListener("change", () => { const a = wrap.children[0].value, b = wrap.children[1].value; state.year = a || b ? [Number(a) || lo, Number(b) || hi] : null; update(); });
+        wrap.append(inp);
+      }
+      f.append(wrap); aside.append(f);
+    }
+    for (const [key, title] of FACETS[state.tab]) {
+      const counts = new Map();
+      for (const r of rows) if (matches(r, key)) for (const v of valuesOf(r, key)) counts.set(v, (counts.get(v) || 0) + 1);
+      if (!counts.size) continue;
+      const sel = state.sel[key] || new Set();
+      let entries = [...counts].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+      const big = entries.length > 14, f = facet(title, sel.size ? () => { delete state.sel[key]; update(); } : null);
+      const chips = document.createElement("div"); chips.className = "chips";
+      const draw = all => {
+        chips.innerHTML = "";
+        for (const [v, n] of (all || !big ? entries : entries.slice(0, 14))) {
+          const b = document.createElement("button"); b.className = "chip"; b.setAttribute("aria-pressed", sel.has(v));
+          b.innerHTML = `${escapeHtml(label(key, v))}<small>${n}</small>`;
+          b.addEventListener("click", () => { const s = state.sel[key] || (state.sel[key] = new Set()); s.has(v) ? s.delete(v) : s.add(v); update(); });
+          chips.append(b);
+        }
+        if (big && !all) { const m = document.createElement("button"); m.className = "chip"; m.textContent = `+${entries.length - 14} more`; m.addEventListener("click", () => draw(true)); chips.append(m); }
+      };
+      draw(false); f.append(chips); aside.append(f);
+    }
+  }
+  function facet(title, clear) {
+    const f = document.createElement("div"); f.className = "facet";
+    const h = document.createElement("h3"); h.textContent = title;
+    if (clear) { const b = document.createElement("button"); b.textContent = "clear"; b.addEventListener("click", clear); h.append(b); }
+    f.append(h); return f;
+  }
+  function escapeHtml(s) { return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+  function link(p) {
+    const l = p.links || {};
+    return l.paper || (p.doi ? `https://doi.org/${p.doi}` : p.arxiv ? `https://arxiv.org/abs/${p.arxiv}` : l.page || l.download || null);
+  }
+  function sorted(rows) {
+    const s = document.getElementById("sort").value;
+    const key = { "year-desc": (a, b) => (b.year || 0) - (a.year || 0) || cmp(a, b), "year-asc": (a, b) => (a.year || 0) - (b.year || 0) || cmp(a, b),
+      cited: (a, b) => (b.cited || 0) - (a.cited || 0) || cmp(a, b), title: cmp, venue: (a, b) => (a.venue || "").localeCompare(b.venue || "") || cmp(a, b) }[s];
+    return rows.slice().sort(key);
+    function cmp(a, b) { return (a.title || a.name).localeCompare(b.title || b.name); }
+  }
+  function renderRows() {
+    const tab = state.tab, rows = sorted(TABS[tab].rows.filter(r => matches(r)));
+    document.getElementById("count").textContent = `${rows.length} of ${TABS[tab].rows.length}`;
+    const out = document.getElementById("out");
+    if (!rows.length) { out.innerHTML = '<p class="empty">Nothing matches these filters.</p>'; return; }
+    const cols = { generation: ["Year", "Venue", "Paper", "Input", "Output", "Approach", "Setting", "Code"], theory: ["Year", "Area", "Paper", "Venue"],
+      theses: ["Year", "Thesis", "Institution", "Kind"], datasets: ["Dataset", "Year", "Modalities", "Capture", "Hours", "Languages", "Setting", "Access"],
+      metrics: ["Metric", "Also written", "Measures", "Better", "What it computes"] }[tab];
+    const tb = document.createElement("table"); tb.innerHTML = `<thead><tr>${cols.map(c => `<th>${c}</th>`).join("")}</tr></thead>`;
+    const body = document.createElement("tbody");
+    for (const r of rows) {
+      const tr = document.createElement("tr");
+      const t = (text) => { const td = document.createElement("td"); td.textContent = text == null ? "" : Array.isArray(text) ? text.join(", ") : text; return td; };
+      const title = () => {
+        const td = document.createElement("td"); td.className = "t";
+        const a = document.createElement("a"); a.textContent = r.title || r.name; const u = link(r); if (u) { a.href = u; a.target = "_blank"; a.rel = "noopener"; } else a.removeAttribute("href");
+        td.append(a);
+        if (MARK[r.checked]) { const m = document.createElement("span"); m.className = "mark"; m.title = r.checked === "abstract" ? "filled from the abstract only" : "metadata only"; m.textContent = MARK[r.checked]; td.append(m); }
+        if (r.cited) { const c = document.createElement("span"); c.className = "tags"; c.textContent = ` · cited by ${r.cited} here`; td.append(c); }
+        td.append(detail(r));
+        return td;
+      };
+      if (tab === "generation") tr.append(t(r.year), t(r.venue), title(), t(r.input), t(r.output), t(r.approach), t(r.setting), t(r.links && r.links.code ? (r.weights ? "code + weights" : "code") : ""));
+      else if (tab === "theory") tr.append(t(r.year), t(r.area), title(), t(r.venue));
+      else if (tab === "theses") tr.append(t(r.year), title(), t(r.venue), t(r.category));
+      else if (tab === "datasets") tr.append(title(), t(r.year), t(r.modalities), t(r.capture), t(r.hours), t(r.languages), t(r.setting), t(r.access));
+      else tr.append(title(), t(r.aka), t(r.measures), t(r.better), t(r.summary));
+      tr.addEventListener("click", e => { if (e.target.tagName !== "A") tr.classList.toggle("open"); });
+      body.append(tr);
+    }
+    tb.append(body); out.innerHTML = ""; out.append(tb);
+  }
+  function detail(r) {
+    const d = document.createElement("div"); d.className = "detail";
+    const dl = document.createElement("dl");
+    const add = (k, v) => { if (v === undefined || v === null || v === "" || (Array.isArray(v) && !v.length)) return; const dt = document.createElement("dt"); dt.textContent = k; const dd = document.createElement("dd"); dd.append(v); dl.append(dt, dd); };
+    const links = r.links || {};
+    add("Authors", (r.authors || []).join(", "));
+    add("Summary", r.summary);
+    add("Representation", (r.representation || []).join(", "));
+    add("Datasets", (r.datasets || []).map(x => dsName[x] || x).join(", "));
+    add("Metrics", (r.metrics || []).map(x => mName[x] || x).join(", "));
+    add("Languages", (r.languages || []).join(", "));
+    add("Real-time", r.realtime ? r.realtime + (r.latency ? ` (${r.latency})` : "") : undefined);
+    add("User study", r.user_study === undefined ? undefined : r.user_study ? "yes" : "no");
+    add("Notes", r.notes); add("Caveats", r.caveats); add("License", r.license); add("Speakers", r.speakers);
+    const ls = document.createElement("span");
+    for (const [k, u] of Object.entries(links)) { const a = document.createElement("a"); a.href = u; a.target = "_blank"; a.rel = "noopener"; a.textContent = k; ls.append(a, " "); }
+    if (r.arxiv && !Object.values(links).some(u => u.includes(r.arxiv))) { const a = document.createElement("a"); a.href = `https://arxiv.org/abs/${r.arxiv}`; a.target = "_blank"; a.rel = "noopener"; a.textContent = "arxiv"; ls.append(a, " "); }
+    if (ls.childNodes.length) add("Links", ls);
+    add("Record", `${r.id} · read from ${r.checked || "n/a"} · ${r.verified ? "verified by a second reading" : "not yet verified"}`);
+    d.append(dl); return d;
+  }
+  function renderTabs() {
+    const el = document.getElementById("tabs"); el.innerHTML = "";
+    for (const [k, t] of Object.entries(TABS)) {
+      const b = document.createElement("button"); b.setAttribute("role", "tab"); b.setAttribute("aria-selected", k === state.tab); b.textContent = `${t.label} (${t.rows.length})`;
+      b.addEventListener("click", () => { state.tab = k; state.sel = {}; state.q = ""; state.year = null; update(true); });
+      el.append(b);
+    }
+  }
+  function update(full) { writeHash(); if (full) renderTabs(); renderFilters(); renderRows(); }
+  document.getElementById("sort").addEventListener("change", () => update());
+  window.addEventListener("hashchange", () => { readHash(); update(true); });
+  readHash(); update(true);
+})();
+</script>
+</body>
+</html>

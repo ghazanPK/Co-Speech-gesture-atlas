@@ -150,17 +150,31 @@ def build_theory(papers):
 def build_stats(papers, datasets, metrics):
     theses = sum(1 for p in papers if p["type"] == "thesis")
     theory = sum(1 for p in papers if p["category"] == "theory" and p["type"] != "thesis")
-    counts = f"**{len(papers) - theory - theses} papers on gesture generation**, **{theory} on gesture theory** and **{theses} theses**"
+    gen = len(papers) - theory - theses
     full = sum(1 for p in papers if p.get("checked") == "full-text")
     abstract = sum(1 for p in papers if p.get("checked") == "abstract")
     meta = sum(1 for p in papers if p.get("checked") == "metadata")
     verified = sum(1 for p in papers if p.get("verified"))
+    code = sum(1 for p in papers if (p.get("links") or {}).get("code"))
     years = [p["year"] for p in papers]
     span = f"{min(years)}–{max(years)}" if years else "none"
-    return (f"{counts} ({span}), {len([d for d in datasets if d['id'] != 'custom'])} datasets, "
-            f"{len([m for m in metrics if m['id'] != 'other'])} metrics. "
-            f"{full} records were filled from the full text, {abstract} from the abstract only (†), "
-            f"{meta} from bibliographic metadata only (‡). {verified} have been independently verified.")
+    edges_path = ROOT / "data" / "citations.csv"
+    edges = edges_path.read_text(encoding="utf-8").count("\n") - 1 if edges_path.exists() else 0
+    n_d, n_m = len([d for d in datasets if d["id"] != "custom"]), len([m for m in metrics if m["id"] != "other"])
+    badge = lambda label, value, color: f'<img alt="{label}" src="https://img.shields.io/badge/{label.replace(" ", "%20")}-{str(value).replace(",", "%2C")}-{color}">'
+    return "\n".join([
+        '<p align="center">',
+        badge("papers", f"{len(papers):,}", "2a6f97"), badge("datasets", n_d, "2a6f97"), badge("metrics", n_m, "2a6f97"),
+        badge("citation links", f"{edges:,}", "2a6f97"), badge("years", span, "555"),
+        badge("data", "CC0", "c9a227"), badge("scripts", "MIT", "c9a227"),
+        "</p>",
+        "",
+        "| Gesture generation | Gesture theory | Theses | With code | Read from full text | Verified twice |",
+        "|:---:|:---:|:---:|:---:|:---:|:---:|",
+        f"| **{gen}** papers | **{theory}** papers | **{theses}** | **{code}** | **{full}** | **{verified}** |",
+        "",
+        f"{abstract} records were filled from the abstract only (†) and {meta} from bibliographic metadata only (‡), mostly where the full text is behind a paywall.",
+    ])
 
 
 def main():
