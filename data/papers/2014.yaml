@@ -29,20 +29,6 @@
   verified: false
   area: social-interaction
 
-- id: anon2014prosody
-  title: Prosody in the hands of the speaker
-  authors: [Bahia GuellaÃ ̄, Alan Langus, Marina Nespor]
-  year: 2014
-  venue: Frontiers in Psychology
-  type: journal
-  category: theory
-  doi: 10.3389/fpsyg.2014.00700
-  links: {paper: 'https://doi.org/10.3389/fpsyg.2014.00700'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: austin2014presentation
   title: 'Presentation and production: The role of gesture in spatial communication'
   authors: [Elizabeth E. Austin, Naomi Sweller]
@@ -406,6 +392,20 @@
   checked: abstract
   verified: false
   area: development
+
+- id: guellai2014prosody
+  title: Prosody in the hands of the speaker
+  authors: [Bahia Guellaï, Alan Langus, Marina Nespor]
+  year: 2014
+  venue: Frontiers in Psychology
+  type: journal
+  category: theory
+  doi: 10.3389/fpsyg.2014.00700
+  links: {paper: 'https://doi.org/10.3389/fpsyg.2014.00700'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: hansen2014visual
   title: 'Visual motion energy signal usage in gesture and speech integration: The role of semantic categorization and task demands'

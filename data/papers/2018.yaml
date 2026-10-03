@@ -1277,6 +1277,21 @@
   checked: full-text
   verified: false
 
+- id: ravenet2018imageschemas
+  title: Automatic Nonverbal Behavior Generation from Image Schemas
+  authors: [Brian Ravenet, Chloé Clavel, Catherine Pélachaud]
+  year: 2018
+  venue: AAMAS
+  type: conference
+  category: method
+  doi: 10.65109/nhje8666
+  links: {paper: 'https://ifaamas.org/Proceedings/aamas2018/pdfs/p1667.pdf', open: 'https://telecom-paris.hal.science/hal-02287759'}
+  summary: A framework that links speech and metaphoric gestures for embodied conversational agents through shared image schemas, with steps from text analysis to gesture production.
+  notes: Venue not stated in the metadata or abstract. Preliminary results and demonstrations only.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: rusiewicz2018time
   title: Set in time
   authors: [Heather Leavy Rusiewicz, Núria Esteve‐Gibert]

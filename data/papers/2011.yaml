@@ -1061,6 +1061,22 @@
   verified: false
   area: linguistics
 
+- id: nowinakrowicki2012engage
+  title: 'ENGAGE: Automated Gestures for Animated Characters'
+  authors: [Marcin Nowina-Krowicki, Andrew Zschorn, Michael Pilling, Steven Wark]
+  year: 2011
+  venue: ALTA Workshop
+  type: workshop
+  category: system
+  links: {paper: 'https://aclanthology.org/U11-1021/'}
+  input: [text]
+  approach: [rule-based]
+  summary: ENGAGE generates animation for embodied conversational agents from surface text using syntactic analysis and predefined behaviour models.
+  notes: Venue not determined; only the abstract was available.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: ozcalskan2011chapter
   title: Chapter 12. Is there an iconic gesture spurt at 26 months?
   authors: [Şeyda Özçalışkan, Susan Goldin‐Meadow]

@@ -15,6 +15,7 @@ from jsonschema import Draft202012Validator
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
+GARBLED = re.compile(r"Ã.|Ä[^\s]|Å[^\s]|â€.|Â.")
 
 
 class Loader(yaml.SafeLoader):
@@ -88,6 +89,11 @@ def main():
             papers.append((record, location))
             if record.get("year") != int(path.stem):
                 errors.append(f"{location}: year {record.get('year')} does not match the file name")
+            if record.get("type") == "preprint":
+                errors.append(f"{location}: preprints are not listed; add the paper once a peer-reviewed version exists")
+            garbled = GARBLED.search(f"{record.get('title', '')} {' '.join(record.get('authors') or [])} {record.get('summary', '')}")
+            if garbled:
+                errors.append(f"{location}: garbled characters ('{garbled.group(0)}'), probably a wrong text encoding")
 
     datasets = load_records(DATA / "datasets.yaml", errors)
     check_schema(datasets, "dataset", "data/datasets.yaml", defs, errors)

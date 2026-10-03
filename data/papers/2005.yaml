@@ -155,6 +155,20 @@
   verified: false
   area: psycholinguistics
 
+- id: corradini2005animating
+  title: Animating an interactive conversational character for an educational game system
+  authors: [Andrea Corradini, Manish Mehta, Niels Ole Bernsen, Marcela Charfuelàn]
+  year: 2005
+  venue: IUI
+  type: conference
+  category: system
+  doi: 10.1145/1040830.1040872
+  links: {paper: 'https://doi.org/10.1145/1040830.1040872'}
+  summary: A conversational H.C. Andersen character for an educational game that generates and realizes speech, 3D body gestures and facial expressions.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: enfield2005body
   title: The Body as a Cognitive Artifact in Kinship Representations
   authors: [N. J. Enfield]
@@ -266,6 +280,21 @@
   checked: abstract
   verified: false
   area: development
+
+- id: hartmann2005design
+  title: Design and evaluation of expressive gesture synthesis for embodied conversational agents
+  authors: [Björn Hartmann, Maurizio Mancini, Stéphanie Buisine, Catherine Pélachaud]
+  year: 2005
+  venue: AAMAS
+  type: conference
+  category: method
+  doi: 10.1145/1082473.1082640
+  links: {paper: 'https://dl.acm.org/doi/10.1145/1082473.1082640'}
+  user_study: true
+  summary: A behavior synthesis technique generates expressive gestures for embodied conversational agents using a small set of expressivity dimensions that characterize individual movement variability.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
 
 - id: hegarty2005gestures
   title: The Role of Gestures in Mental Animation

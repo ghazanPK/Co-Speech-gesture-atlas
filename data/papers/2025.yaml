@@ -2,20 +2,6 @@
 # The README tables are generated from these files. Field rules: docs/SCHEMA.md
 # (enforced by schema/schema.json and scripts/validate.py).
 
-- id: akkan2025author
-  title: 'Author response for "Talking Hands, Shifting Tongues: How Using Co-speech Gestures and Second Language Relate to Emotional Autobiographical Memory Narration?"'
-  authors: [İbrahim Akkan, Çağla Aydın, Sami̇ Gülgöz, Tilbe Göksun]
-  year: 2025
-  venue: Unknown venue
-  type: journal
-  category: theory
-  doi: 10.1177/17470218251405232/v2/response1
-  links: {paper: 'https://doi.org/10.1177/17470218251405232/v2/response1'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: cognition
-
 - id: akkan2025talking
   title: 'Talking Hands, Shifting Tongues: How Does the Use of Co-speech Gestures and Second Language Relate to Emotional Autobiographical Memory Narration?'
   authors: [İbrahim Akkan, Çağla Aydın, Sami̇ Gülgöz, Tilbe Göksun]
@@ -87,19 +73,6 @@
   verified: false
   area: linguistics
 
-- id: anon2025decision
-  title: 'Decision letter for "Talking Hands, Shifting Tongues: How Using Co-speech Gestures and Second Language Relate to Emotional Autobiographical Memory Narration?"'
-  year: 2025
-  venue: Unknown venue
-  type: journal
-  category: theory
-  doi: 10.1177/17470218251405232/v1/decision1
-  links: {paper: 'https://doi.org/10.1177/17470218251405232/v1/decision1'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: cognition
-
 - id: anon2025gestural
   title: 'Gestural Relativity of Spatial Cognition: Speakers’ co-speech gestures shape listeners’ spatial frame of reference'
   authors: [Cognitive Science Society 2025, Tyler Marghetis, Shervin Nosrati]
@@ -125,19 +98,6 @@
   links: {paper: 'https://doi.org/10.48448/szgw-yp56'}
   added: '2026-10-03'
   checked: abstract
-  verified: false
-  area: cognition
-
-- id: anon2025review
-  title: 'Review for "Talking Hands, Shifting Tongues: How Using Co-speech Gestures and Second Language Relate to Emotional Autobiographical Memory Narration?"'
-  year: 2025
-  venue: Unknown venue
-  type: journal
-  category: theory
-  doi: 10.1177/17470218251405232/v1/review1
-  links: {paper: 'https://doi.org/10.1177/17470218251405232/v1/review1'}
-  added: '2026-10-03'
-  checked: metadata
   verified: false
   area: cognition
 
@@ -360,6 +320,31 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
+
+- id: chen2025talkcuts
+  title: 'TalkCuts: A Large-Scale Dataset for Multi-Shot Human Speech Video Generation'
+  authors: [Jiaben Chen, Zixin Wang, Ailing Zeng, Yang Fu, Xueyang Yu, Siyuan Cen, Julian Tanke, Yihang Chen, Koichi Saito, Yuki Mitsufuji, Chuang Gan]
+  year: 2025
+  venue: NeurIPS 2025 (Datasets and Benchmarks)
+  type: conference
+  category: dataset
+  doi: 10.52202/085713-0646
+  arxiv: '2510.07249'
+  links: {paper: 'https://openreview.net/forum?id=4a0w7AkrY7', open: 'https://arxiv.org/abs/2510.07249', project: 'https://talkcuts.github.io/'}
+  input: [text, audio, image]
+  output: [upper-body, full-body, hands, face]
+  representation: [video-pixels, keypoints-2d, smpl-x]
+  approach: [llm, diffusion]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [custom]
+  metrics: [fid, fvd, image-quality, lip-sync]
+  user_study: false
+  summary: Dataset of 164k speech video clips (over 500 hours) with text descriptions, 2D keypoints and SMPL-X annotations, with an LLM-directed multi-shot video generation baseline (Orator).
+  notes: Dataset released under CC BY 4.0, drawn from talk shows, TED talks and stand-up comedy videos. The DOI is from the candidate metadata; the published venue was not confirmed.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
 
 - id: cheng2025conditional
   title: Conditional GAN for Enhancing Diffusion Models in Efficient and Authentic Global Gesture Generation from Audios
@@ -785,6 +770,29 @@
   checked: full-text
   verified: false
 
+- id: gao2025sarges
+  title: 'SARGes: Semantically Aligned Reliable Gesture Generation via Intent Chain'
+  authors: [Nan Gao, Yihua Bao, Dongdong Weng, Jiayi Zhao, Jia Li, Yan Zhou, Pengfei Wan, Di Zhang]
+  year: 2025
+  venue: GENEA Workshop (ACM ICMI)
+  type: workshop
+  category: method
+  doi: 10.1145/3746268.3759436
+  arxiv: '2503.20202'
+  links: {paper: 'https://dl.acm.org/doi/10.1145/3746268.3759436', open: 'https://arxiv.org/abs/2503.20202', code: 'https://github.com/gesture-label/ethogram'}
+  input: [text]
+  approach: [llm]
+  realtime: unreported
+  latency: 0.4 s per inference for the fine-tuned label generator (about 3 s with GPT-4)
+  datasets: [custom]
+  metrics: [label-prediction]
+  user_study: false
+  summary: Uses an LLM with intent-chain reasoning over a gesture ethogram to turn speech text into semantic gesture labels, then a LoRA-fine-tuned Qwen model generates the labels that guide gesture synthesis.
+  notes: Generates gesture labels from text; the metric is a partial-overlap label accuracy. Published version has a DOI under ACM (10.1145/3746268.3759436); venue not confirmed from the text read.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
 - id: ghadekar2025translating
   title: 'Translating audio into movement: A semantic gesture generation approach using conditional GANs'
   authors: [Premanand Pralhad Ghadekar, Aditya Bodhankar, Ajinkya Mahajan, Shivani Mahajan, Diksha Prasad, Riya Dhakalkar]
@@ -1155,6 +1163,30 @@
   checked: metadata
   verified: false
 
+- id: kim2025mars
+  title: 'Speaking Beyond Language: A Large-Scale Multimodal Dataset for Learning Nonverbal Cues from Video-Grounded Dialogues'
+  authors: [Youngmin Kim, Jiwan Chung, Jisoo Kim, Sunghyun Lee, Sangkyu Lee, Junhyeok Kim, Cheoljong Yang, Youngjae Yu]
+  year: 2025
+  venue: ACL
+  type: conference
+  category: method
+  doi: 10.18653/v1/2025.acl-long.112
+  arxiv: '2506.00958'
+  links: {paper: 'https://aclanthology.org/2025.acl-long.112/', open: 'https://arxiv.org/abs/2506.00958', code: 'https://github.com/winston1214/nonverbal-conversation'}
+  input: [text]
+  output: [upper-body, hands, face]
+  representation: [smpl-x]
+  approach: [vq, autoregressive, llm]
+  datasets: [venus]
+  languages: [en]
+  metrics: [face-error, diversity, other]
+  user_study: false
+  summary: A multimodal language model that predicts text interleaved with vector-quantized FLAME face and SMPL-X upper-body tokens by next-token prediction, trained on the VENUS dataset of podcast videos.
+  notes: 'Also introduces the VENUS dataset (14,910 hours reported). Other metrics: perplexity, BERT-score, METEOR, NLL on nonverbal tokens.'
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
 - id: konderak2025embodied
   title: 'Embodied Polysemiotic Communication: A Cognitive Semiotic Perspective on Speech and Gestures'
   authors: [Piotr Konderak]
@@ -1253,6 +1285,31 @@
   checked: abstract
   verified: false
 
+- id: lin2024cyberhost
+  title: 'CyberHost: Taming Audio-driven Avatar Diffusion Model with Region Codebook Attention'
+  authors: [Gaojie Lin, Jianwen Jiang, Chao Liang, Tianyun Zhong, Jiaqi Yang, Yan-Bo Zheng]
+  year: 2025
+  venue: ICLR
+  type: conference
+  category: method
+  arxiv: '2409.01876'
+  links: {paper: 'https://arxiv.org/abs/2409.01876', project: 'https://cyberhost.github.io/'}
+  input: [audio, image]
+  output: [upper-body, hands, face]
+  representation: [video-pixels]
+  approach: [diffusion]
+  setting: [monologue]
+  realtime: offline
+  latency: real-time factor of about 65 on a single A100
+  datasets: [custom]
+  metrics: [fid, fvd, image-quality, lip-sync, hkc, hkv, identity-similarity]
+  user_study: true
+  summary: A one-stage latent video diffusion model animates a single reference image of a half-body human from speech audio, with region attention for face and hands.
+  notes: Other metrics include hand keypoint confidence and variance and facial identity similarity.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
 - id: lin2025omnihuman
   title: 'OmniHuman-1: Rethinking the Scaling-Up of One-Stage Conditioned Human Animation Models'
   authors: [Gaojie Lin, Jianwen Jiang, Jiaqi Yang, Zerong Zheng, Chao Liang, Yuan Zhang, Jingtuo Liu]
@@ -1277,6 +1334,29 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
+
+- id: liu2024tango
+  title: 'TANGO: Co-Speech Gesture Video Reenactment with Hierarchical Audio Motion Embedding and Diffusion Interpolation'
+  authors: [Haiyang Liu, Xingchao Yang, Tomoya Akiyama, Yuantian Huang, Qiaoge Li, Shigeru Kuriyama, Takafumi Taketomi]
+  year: 2025
+  venue: ICLR
+  type: conference
+  category: method
+  arxiv: '2410.04221'
+  links: {paper: 'https://proceedings.iclr.cc/paper_files/paper/2025/file/81a0a519bf7ef7757ff46df2065e7051-Paper-Conference.pdf', open: 'https://arxiv.org/abs/2410.04221', project: 'https://pantomatrix.github.io/TANGO/'}
+  input: [audio, video]
+  representation: [video-pixels]
+  approach: [retrieval, diffusion]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [show, custom]
+  metrics: [fvd, fgd, beat-align, diversity, image-quality]
+  user_study: true
+  summary: Retrieves reference video clips from a motion graph using a joint audio-motion embedding and fills transitions with a diffusion-based frame interpolation model to produce speech-synchronized body gesture videos.
+  notes: Also trained and evaluated on a new YouTube Business set (12 speakers, about 1 hour) collected by the authors. Candidate metadata from one source lists ICLR; not confirmed in the text read, so recorded as preprint.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
 
 - id: liu2025contextual
   title: 'Contextual Gesture: Co-Speech Gesture Video Generation through Context-aware Gesture Representation'
@@ -1671,6 +1751,31 @@
   checked: abstract
   verified: false
   area: perception
+
+- id: pang2024llm
+  title: 'LLM Gesticulator: Leveraging Large Language Models for Scalable and Controllable Co-Speech Gesture Synthesis'
+  authors: [Haozhou Pang, Tianwei Ding, Lanshan He, Ming Tao, Lu Zhang, Qi Gan]
+  year: 2025
+  venue: SPIE ICCGV
+  type: conference
+  category: method
+  doi: 10.1117/12.3060395
+  arxiv: '2410.10851'
+  links: {paper: 'https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13557/3060395/LLM-Gesticulator--leveraging-large-language-models-for-scalable-and/10.1117/12.3060395.full', open: 'https://arxiv.org/abs/2410.10851'}
+  input: [audio, text, speaker-id]
+  output: [full-body, hands]
+  representation: [joints-3d]
+  approach: [vq, llm, autoregressive]
+  setting: [monologue]
+  realtime: offline
+  datasets: [beat, zeggs]
+  metrics: [fgd, beat-align, diversity]
+  user_study: true
+  summary: Fine-tunes a Qwen LLM to translate speech audio tokens and optional text prompts into residual-VQ motion tokens for full-body gesture.
+  notes: A 2025 conference version exists under DOI 10.1117/12.3060395; venue not confirmed.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
 
 - id: peng2025twostage
   title: A Two‐Stage Controllable Co‐Speech Gesture Generation Method
@@ -2124,6 +2229,27 @@
   summary: Diffusion-based gesture generator with three-layer cross-modal attention and interpolation-based style control through a prompt-aligned adaptive normalization layer.
   added: '2026-10-03'
   checked: abstract
+  verified: false
+
+- id: wang2025wbdh
+  title: 'Preview WB-DH: Towards Whole Body Digital Human Bench for the Generation of Whole-body Talking Avatar Videos'
+  authors: [Chaoyi Wang, Yifan Yang, Jun Pei, Lijie Xia, Jianpo Liu, Xiaobing Yuan, Xinhan Di]
+  year: 2025
+  venue: ICCV 2025 Workshop MMFM4
+  type: workshop
+  category: dataset
+  arxiv: '2508.08891'
+  links: {paper: 'https://arxiv.org/abs/2508.08891', code: 'https://github.com/deepreasonings/WholeBodyBenchmark'}
+  input: [audio, text, image]
+  output: [full-body, hands, face]
+  representation: [video-pixels]
+  datasets: [wb-dh]
+  metrics: [fid, fvd, image-quality, other, e-fid, identity-similarity, nr-quality]
+  user_study: false
+  summary: An open benchmark of whole-body talking avatar videos with multi-modal annotations and a 12-metric evaluation framework covering video generation and co-speech quality.
+  notes: 'Other metrics: E-FID, CSIM and general video-quality scores (subject and background consistency, motion smoothness, dynamic degree, aesthetic and imaging quality).'
+  added: '2026-10-03'
+  checked: full-text
   verified: false
 
 - id: wolfer2025speech

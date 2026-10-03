@@ -2,6 +2,31 @@
 # The README tables are generated from these files. Field rules: docs/SCHEMA.md
 # (enforced by schema/schema.json and scripts/validate.py).
 
+- id: agarwal2026emody
+  title: 'EMODY Flow: Emotion-Aware Audio-Driven Full-Body Motion Generation'
+  authors: [Harsh Agarwal, Xavier Alameda-Pineda, Olivier Perrotin]
+  year: 2026
+  venue: JAV-CG @ ACM Multimedia 2026
+  type: workshop
+  category: method
+  arxiv: '2609.16011'
+  links: {paper: 'https://arxiv.org/abs/2609.16011', code: 'https://github.com/krag-harsh/EMODY-Flow'}
+  input: [audio, emotion]
+  output: [full-body, face]
+  representation: [smpl-x]
+  approach: [flow-matching]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat2]
+  languages: [en]
+  metrics: [fgd, beat-align, diversity, face-error]
+  user_study: false
+  summary: Flow-matching DiT generators for SMPL-X body pose and FLAME expressions, conditioned on audio embeddings from a frozen Qwen-3 Omni model and an emotion label, with an auxiliary emotion classifier during training.
+  notes: The paper is formatted for the JAV-CG '26 workshop; acceptance was not confirmed in the text read, so it is kept as a preprint. Zero-shot facial evaluation on TFHP.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
 - id: alon2026words
   title: When words don't come easy - How speakers cope with communicatively challenging situations using verbal creativity and co-speech gesture
   authors: ['Fishman, Alon', 'Lisa ; https://orcid.org/0009-0007-8084-4439 Gottschalk', Stefan Kopp, Joana Cholin]
@@ -198,6 +223,31 @@
   user_study: true
   summary: Runs controlled perceptual studies comparing mocap and generated co-speech gestures across seven avatar renderings and face presentations to measure their effect on motion judgments.
   notes: Generated motion from HoloGest, Semantic Gesticulator and GestureLSM; three experiments with 131, 180 and 164 participants.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: fang2025coordspeaker
+  title: 'CoordSpeaker: Exploiting Gesture Captioning for Coordinated Caption-Empowered Co-Speech Gesture Generation'
+  authors: [Fengyi Fang, Sicheng Yang, Wenming Yang]
+  year: 2026
+  venue: CVPR
+  type: conference
+  category: method
+  arxiv: '2511.22863'
+  links: {paper: 'https://youngseng.github.io/publications/', open: 'https://arxiv.org/abs/2511.22863'}
+  input: [audio, text]
+  output: [full-body, hands]
+  representation: [smpl-x]
+  approach: [vae, diffusion]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat, humanml3d]
+  languages: [en]
+  metrics: [fgd, beat-align, accel-jerk, fid, diversity, l1-div, r-precision, mm-dist]
+  user_study: true
+  summary: Generates gestures with a latent diffusion model conditioned on speech and text captions, using a motion-language model to caption gestures at several granularities and a shared 55-joint representation across datasets.
+  notes: 'Reports 0.842 s average inference time per sentence on an RTX 3090. Other metric: MM-Dist.'
   added: '2026-10-03'
   checked: full-text
   verified: false
@@ -729,6 +779,29 @@
   checked: abstract
   verified: false
 
+- id: ma2025playmate2
+  title: 'Playmate2: Training-Free Multi-Character Audio-Driven Animation via Diffusion Transformer with Reward Feedback'
+  authors: ['Ma, Xingpei', 'Huang, Shenneng', 'Cai, Jiaran', Yuansheng Guan, 'Zheng, Shen', Haiyun Zhao, Qiang Matthew Zhang, 'Zhang, Shunsi']
+  year: 2026
+  venue: AAAI
+  type: conference
+  category: method
+  arxiv: '2510.12089'
+  links: {paper: 'https://arxiv.org/abs/2510.12089', project: 'https://playmate111.github.io/Playmate2/'}
+  input: [text, audio, image]
+  output: [upper-body, face]
+  representation: [video-pixels]
+  approach: [diffusion, flow-matching]
+  setting: [monologue, multi-party]
+  realtime: unreported
+  datasets: [celebv-hq, hdtf, avspeech, custom]
+  metrics: [fid, fvd, image-quality, lip-sync]
+  user_study: true
+  summary: A diffusion transformer fine-tuned with LoRA and preference optimisation that generates audio-driven videos with lip sync and body gestures, with a training-free mask guidance for several characters.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
 - id: ma2026multicharacter
   title: Training-Free Multi-Character Audio-Driven Animation via Diffusion Transformer with Reward Feedback
   authors: [Xingpei Ma, Shenneng Huang, Jiaran Cai, Yuansheng Guan, Shen Zheng, Hanfeng Zhao, Qiang Zhang, Shunsi Zhang]
@@ -953,6 +1026,54 @@
   checked: abstract
   verified: false
 
+- id: peng2026dyadit
+  title: 'DyaDiT: A Multi-Modal Diffusion Transformer for Socially Favorable Dyadic Gesture Generation'
+  authors: [Yichen Peng, Jyun-Ting Song, Siyeol Jung, Ruofan Liu, Haiyang Liu, Xuangeng Chu, Ruicong Liu, Erwin Wu, Hideki Koike, Kris Kitani]
+  year: 2026
+  venue: CVPR
+  type: conference
+  category: method
+  arxiv: '2602.23165'
+  links: {paper: 'https://openaccess.thecvf.com/content/CVPR2026/html/Peng_DyaDiT_A_Multi-Modal_Diffusion_Transformer_for_Socially_Favorable_Dyadic_Gesture_CVPR_2026_paper.html', open: 'https://arxiv.org/abs/2602.23165', project: 'https://puckikk1202.github.io/dyadit_hp/'}
+  input: [audio, interlocutor]
+  output: [upper-body, hands]
+  representation: [joints-3d]
+  approach: [vq, diffusion]
+  setting: [dyadic]
+  realtime: unreported
+  datasets: [seamless-interaction]
+  metrics: [beat-align, fgd, diversity]
+  user_study: true
+  summary: Generates one speaker's upper-body motion from both speakers' audio with a diffusion transformer, optionally conditioned on social-context tokens and the partner's gestures.
+  notes: Social context tokens are relationship type and personality scores.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
+- id: pinyoanuntapong2026interactgesture
+  title: 'InteractGesture: Progressive Chunk Guidance for Continuous Streaming Co-Speech Gesture Control'
+  authors: [Ekkasit Pinyoanuntapong, Ajinkya Deogade, Paul Streli, Wenjing Zhang, Joanna Materzynska, Pu Wang, Vittorio Ferrari, Jie Shen]
+  year: 2026
+  venue: ECCV 2026 Workshop on Interactive Social Avatars
+  type: workshop
+  category: method
+  arxiv: '2608.25734'
+  links: {paper: 'https://www.ekkasit.com/interactgesture-page/', open: 'https://arxiv.org/abs/2608.25734', project: 'https://exitudio.github.io/interactgesture-page'}
+  input: [audio]
+  output: [full-body]
+  representation: [smpl-x]
+  approach: [vq, diffusion]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat2]
+  metrics: [fgd, beat-align, diversity, other]
+  user_study: false
+  summary: An inference-time method that backpropagates spatial joint-control gradients through an RVQ-VAE decoder into a diffusion sampler's latents, with a chunk-window strategy for streaming generation.
+  notes: Wraps a pretrained GestureLSM generator. The arXiv comment reads ECCV 2026 Workshop - Interactive Social Avatars. Spatial control errors (average control, location, trajectory error) are reported as additional metrics.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
 - id: rajan2026interactalker
   title: 'InteracTalker: Prompt-Based Human-Object Interaction with Co-Speech Gesture Generation'
   authors: [Sreehari Rajan, Kunal Bhosikar, Charu Sharma]
@@ -1031,6 +1152,30 @@
   checked: abstract
   verified: false
   area: psycholinguistics
+
+- id: sun2025streamavatar
+  title: 'StreamAvatar: Streaming Diffusion Models for Real-Time Interactive Human Avatars'
+  authors: [Zhiyao Sun, Ziqiao Peng, Yifeng Ma, Yi Chen, Zhengguang Zhou, Zixiang Zhou, Guozhen Zhang, Youliang Zhang, Yuan Zhou, Qinglin Lu, Yong-Jin Liu]
+  year: 2026
+  venue: CVPR
+  type: conference
+  category: method
+  arxiv: '2512.22065'
+  links: {paper: 'https://arxiv.org/abs/2512.22065', project: 'https://streamavatar.github.io'}
+  input: [audio, image, text]
+  output: [full-body, hands, face]
+  representation: [video-pixels]
+  approach: [diffusion, autoregressive, gan]
+  realtime: real-time
+  latency: 25 FPS with about 1.20 s end-to-end latency on dual H800 GPUs
+  datasets: [custom]
+  metrics: [fid, fvd, lip-sync, hkv, nr-quality]
+  user_study: true
+  summary: Distils a human video diffusion model into a causal streaming generator with adversarial refinement to produce talking and listening avatar video with gestures from an image and audio.
+  notes: Trained on about 200 hours of SpeakerVid-5M and self-collected video; other metrics include hand keypoint variance and Q-Align.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
 
 - id: sun2026coshdit
   title: 'Cosh-DiT: Co-Speech Gesture Video Synthesis via Hybrid Audio-Visual Diffusion Transformers'

@@ -43,32 +43,6 @@
   checked: abstract
   verified: false
 
-- id: anon2024decision
-  title: Decision letter for "Co-Speech Hand Gestures Are Used to Predict Upcoming Meaning"
-  year: 2024
-  venue: Unknown venue
-  type: journal
-  category: theory
-  doi: 10.1177/09567976251331041/v1/decision1
-  links: {paper: 'https://doi.org/10.1177/09567976251331041/v1/decision1'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: psycholinguistics
-
-- id: anon2024review
-  title: Review for "Co-Speech Hand Gestures Are Used to Predict Upcoming Meaning"
-  year: 2024
-  venue: Unknown venue
-  type: journal
-  category: theory
-  doi: 10.1177/09567976251331041/v1/review1
-  links: {paper: 'https://doi.org/10.1177/09567976251331041/v1/review1'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: psycholinguistics
-
 - id: arbib2024pantomime
   title: Pantomime within and beyond the evolution of language
   authors: [Michael A. Arbib]
@@ -187,20 +161,6 @@
   checked: abstract
   verified: false
   area: social-interaction
-
-- id: bekke2024author
-  title: Author response for "Co-Speech Hand Gestures Are Used to Predict Upcoming Meaning"
-  authors: [Marlijn ter Bekke, Linda Drijvers, Judith Holler]
-  year: 2024
-  venue: Unknown venue
-  type: journal
-  category: theory
-  doi: 10.1177/09567976251331041/v2/response1
-  links: {paper: 'https://doi.org/10.1177/09567976251331041/v2/response1'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: psycholinguistics
 
 - id: bekke2024gestures
   title: Gestures speed up responses to questions
@@ -1967,6 +1927,28 @@
   verified: false
   area: education
 
+- id: tang2024trimodal
+  title: Gesture Generation from Trimodal Context for Humanoid Robots
+  authors: [Shiyi Tang, Christian Dondrup]
+  year: 2024
+  venue: HAI
+  type: conference
+  category: system
+  doi: 10.1145/3687272.3690905
+  arxiv: '2409.05010'
+  links: {paper: 'https://doi.org/10.1145/3687272.3690905', open: 'https://arxiv.org/abs/2409.05010'}
+  input: [audio, text, speaker-id]
+  output: [upper-body]
+  representation: [joints-3d]
+  realtime: unreported
+  metrics: [fgd, other]
+  user_study: true
+  summary: Reproduces a trimodal (audio, text, speaker identity) gesture generation model and maps its 3D poses to joint angles on a Pepper robot.
+  notes: Motion variance is reported alongside FGD. A DOI for a published version is listed in the candidate metadata, but the venue could not be read, so the record stays as the preprint.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
+
 - id: tian2024cognitive
   title: 'The cognitive-emotional dialectics in second language development: speech and co-speech gestures of Chinese learners of English'
   authors: [Lixian Tian, Steven G. McCafferty, Man Zhu]
@@ -2484,6 +2466,32 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
+
+- id: zhao2024editing
+  title: A Unified Editing Method for Co-Speech Gesture Generation via Diffusion Inversion
+  authors: [Zeyu Zhao, Nan Gao, Zhi Zeng, Guixuan Zhang, Jie Liu, Shuwu Zhang]
+  year: 2024
+  venue: ACM Multimedia Asia (MMAsia)
+  type: conference
+  category: method
+  doi: 10.1145/3696409.3700261
+  arxiv: '2404.02411'
+  links: {paper: 'https://dl.acm.org/doi/10.1145/3696409.3700261', open: 'https://arxiv.org/abs/2404.02411'}
+  input: [audio, text, speaker-id, seed-motion]
+  output: [full-body]
+  representation: [joints-3d]
+  approach: [diffusion]
+  setting: [monologue]
+  realtime: unreported
+  latency: About 500 ms for inversion (50 steps) plus 4000 ms for regeneration (1000 steps); noise optimization typically under 3 steps
+  datasets: [beat]
+  metrics: [fgd]
+  user_study: true
+  summary: Edits co-speech gestures without retraining by inverting a diffusion model to recover noise, then regenerating or optimizing the input noise under loss functions for joint rotation or velocity.
+  notes: Built on DiffuseStyleGesture+. A published version exists under the DOI; its venue was not confirmed.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false
 
 - id: zhao2024memory
   title: Improving diversity of speech‐driven gesture generation with memory networks as dynamic dictionaries

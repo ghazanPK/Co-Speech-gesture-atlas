@@ -893,21 +893,6 @@
   verified: false
   area: social-interaction
 
-- id: nguyen2016neuropsychological
-  title: 'Conducting neuropsychological tests with a humanoid robot: Design and evaluation'
-  authors: [Duc-Canh Nguyen, Gérard Bailly, Frédéric Elisei]
-  year: 2016
-  venue: CogInfoCom
-  type: conference
-  category: system
-  doi: 10.1109/coginfocom.2016.7804572
-  links: {paper: 'https://doi.org/10.1109/coginfocom.2016.7804572', open: 'https://hal.science/hal-01385666'}
-  output: [hands, face]
-  summary: Drives an iCub robot's speech, facial displays and hand gestures from multimodal events captured on a professional demonstrator performing a neuropsychological interview.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: nicolas2016cross
   title: A cross-linguistic study of the development of gesture and speech in Zulu and French oral narratives
   authors: [Ramona Kunene Nicolas, Michèle Guidetti, Jean-Marc Colletta]

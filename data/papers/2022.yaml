@@ -422,6 +422,20 @@
   verified: false
   area: linguistics
 
+- id: feng2022tool
+  title: A Tool for Extracting 3D Avatar-Ready Gesture Animations from Monocular Videos
+  authors: [Andrew Feng, Samuel Shin, Youngwoo Yoon]
+  year: 2022
+  venue: MIG
+  type: conference
+  category: system
+  doi: 10.1145/3561975.3562953
+  links: {paper: 'https://dl.acm.org/doi/pdf/10.1145/3561975.3562953', open: 'https://dl.acm.org/doi/pdf/10.1145/3561975.3562953'}
+  input: [video]
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: fibigerova2022iconicity
   title: Iconicity in gesture
   authors: [Kateřina Fibigerová, Michèle Guidetti]
@@ -720,6 +734,26 @@
   metrics: [accel-jerk]
   user_study: true
   summary: A sequence-to-sequence gesture generator with a Tacotron2 backbone and a locality-constraint attention mechanism, mapping text, audio and speaker identity to body motion.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: jin2022s2mnet
+  title: 'S2M-Net: Speech Driven Three-party Conversational Motion Synthesis Networks'
+  authors: [Aobo Jin, Qixin Deng, Zhigang Deng]
+  year: 2022
+  venue: MIG
+  type: conference
+  category: method
+  doi: 10.1145/3561975.3562954
+  links: {paper: 'https://dl.acm.org/doi/fullHtml/10.1145/3561975.3562954'}
+  input: [audio]
+  approach: [gan]
+  setting: [multi-party]
+  datasets: [custom]
+  user_study: true
+  summary: A conditional GAN with an LSTM encoder and decoder that maps acoustic speech and speaker marking to three-party conversational gesture kinematics.
+  notes: Venue not stated in the available text; venue field needs checking.
   added: '2026-10-03'
   checked: abstract
   verified: false

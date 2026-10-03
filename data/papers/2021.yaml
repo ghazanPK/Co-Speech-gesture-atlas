@@ -16,19 +16,6 @@
   verified: false
   area: development
 
-- id: anon2021supplemental
-  title: Supplemental Material for Cospeech Gestures Are a Window Into the Effects of Parkinson’s Disease on Action Representations
-  year: 2021
-  venue: Journal of Experimental Psychology General
-  type: journal
-  category: theory
-  doi: 10.1037/xge0001002.supp
-  links: {paper: 'https://doi.org/10.1037/xge0001002.supp'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: clinical
-
 - id: arachchige2021high
   title: High verbal working memory load impairs gesture-speech integration
   authors: [Kendra Kandana Arachchige, Henning Holle, Mandy Rossignol, Isabelle Simoes Loureiro, Laurent Lefèbvre]

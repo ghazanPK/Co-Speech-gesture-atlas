@@ -735,6 +735,18 @@
   verified: false
   area: clinical
 
+- id: le2012common
+  title: A Common Gesture and Speech Production Framework for Virtual and Physical Agents
+  authors: [Quôc Anh Lê, Jing Huang, C. Pelachaud]
+  year: 2012
+  venue: ICMI
+  type: conference
+  category: system
+  links: {paper: 'https://www.semanticscholar.org/paper/A-Common-Gesture-and-Speech-Production-Framework-L%C3%AA-Huang/6e4fc97e4ac99de2fdab755befc675f54970b9bb'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+
 - id: le2012generating
   title: Generating Co-speech Gestures for the Humanoid Robot NAO through BML
   authors: [Quôc Anh Lê, Catherine Pélachaud]

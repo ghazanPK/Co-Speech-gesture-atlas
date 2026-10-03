@@ -1261,20 +1261,6 @@
   verified: false
   area: social-interaction
 
-- id: rutger2020supplementary
-  title: Supplementary material from "Beat gestures influence which speech sounds you hear"
-  authors: ['Bosker, Hans Rutger', 'Peeters, David']
-  year: 2020
-  venue: Figshare
-  type: journal
-  category: theory
-  doi: 10.6084/m9.figshare.c.5251460.v1
-  links: {paper: 'https://doi.org/10.6084/m9.figshare.c.5251460.v1'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: perception
-
 - id: safar2020were
   title: “When you were that little…”
   authors: [Josefina Safar]

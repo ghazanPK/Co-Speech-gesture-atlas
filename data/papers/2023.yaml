@@ -640,21 +640,6 @@
   verified: false
   area: social-interaction
 
-- id: kang2023ips
-  title: 'IPS: Integrating Pose with Speech for enhancement of body pose estimation in VR remote collaboration'
-  authors: [Seoyoung Kang, Sungwoo Jeon, Woontack Woo]
-  year: 2023
-  venue: IEEE VRW
-  type: workshop
-  category: system
-  doi: 10.1109/vrw58643.2023.00161
-  links: {paper: 'https://doi.org/10.1109/vrw58643.2023.00161'}
-  input: [audio, video]
-  summary: When the camera loses sight of the user, analyses speech to choose a target pose and connects it to the last camera-captured pose, for avatars in VR remote collaboration.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: kelly2023exploring
   title: Exploring the Emotional Functions of Co‐Speech Hand Gesture in Language and Communication
   authors: [Spencer D. Kelly, Quang‐Anh Ngo Tran]
@@ -1304,19 +1289,30 @@
   checked: full-text
   verified: false
 
-- id: szawerna2023editorial
-  title: 'Editorial: Theoretical and Analytical Explorations of Multimodality'
-  authors: [Michał Szawerna]
+- id: teshima2023act2g
+  title: 'ACT2G: Attention-based Contrastive Learning for Text-to-Gesture Generation'
+  authors: [Hitoshi Teshima, Naoki Wake, Diego Thomas, Yuta Nakashima, Hiroshi Kawasaki, Katsushi Ikeuchi]
   year: 2023
-  venue: Anglica Wratislaviensia
+  venue: PACM CGIT (SCA)
   type: journal
-  category: theory
-  doi: 10.19195/0301-7966.61.1.1
-  links: {paper: 'https://doi.org/10.19195/0301-7966.61.1.1'}
+  category: method
+  doi: 10.1145/3606940
+  arxiv: '2309.16162'
+  links: {paper: 'https://dl.acm.org/doi/10.1145/3606940', open: 'https://arxiv.org/abs/2309.16162'}
+  input: [text]
+  output: [upper-body]
+  representation: [joints-3d]
+  approach: [retrieval, vae]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [ted-gesture, trinity]
+  languages: [en]
+  metrics: [diversity, fgd, accel-jerk]
+  user_study: true
+  summary: Maps text and gesture features into a shared latent space by attention-weighted contrastive learning, then retrieves gestures from a library of VAE-clustered gesture types for the input text.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
-  area: linguistics
 
 - id: tetnowski2023looking
   title: 'Looking at gesture: The reciprocal influence between gesture and conversation'

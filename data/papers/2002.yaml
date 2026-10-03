@@ -344,6 +344,19 @@
   checked: abstract
   verified: false
 
+- id: kshirsagar2002avatar
+  title: Avatar Markup Language
+  authors: [Sumedha Kshirsagar, Nadia Magnenat‐Thalmann, Anthony Guye-Vuillème, 'Thalmann, D.', 'Kamyab, K.', 'Mamdani, E.']
+  year: 2002
+  venue: Eurographics Workshop on Virtual Environments
+  type: workshop
+  category: system
+  links: {paper: 'https://diglib.eg.org/items/73cc35d6-df6a-401e-8703-c466a6ecf7e0'}
+  summary: An XML-based high-level animation language that unifies text-to-speech, facial animation and body animation with synchronization for avatars, using MPEG-4 low-level parameters.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: mccafferty2002gesture
   title: Gesture and Creating Zones of Proximal Development for Second Language Learning
   authors: [Steven G. McCafferty]
