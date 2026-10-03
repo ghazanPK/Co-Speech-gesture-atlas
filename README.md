@@ -12,7 +12,7 @@ Every paper as a comparison row, not a bare link. Every dataset and metric defin
 
 <!-- BEGIN:stats -->
 <p align="center">
-<img alt="papers" src="https://img.shields.io/badge/papers-2%2C689-2a6f97">
+<img alt="papers" src="https://img.shields.io/badge/papers-2%2C690-2a6f97">
 <img alt="datasets" src="https://img.shields.io/badge/datasets-69-2a6f97">
 <img alt="metrics" src="https://img.shields.io/badge/metrics-36-2a6f97">
 <img alt="citation links" src="https://img.shields.io/badge/citation%20links-32%2C161-2a6f97">
@@ -23,9 +23,9 @@ Every paper as a comparison row, not a bare link. Every dataset and metric defin
 
 | Gesture generation | Gesture theory | Theses | With code | Read from full text | Verified twice |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **619** papers | **1989** papers | **81** | **77** | **219** | **132** |
+| **619** papers | **1989** papers | **82** | **77** | **219** | **132** |
 
-2119 records were filled from the abstract only (†) and 351 from bibliographic metadata only (‡), mostly where the full text is behind a paywall.
+2120 records were filled from the abstract only (†) and 351 from bibliographic metadata only (‡), mostly where the full text is behind a paywall.
 <!-- END:stats -->
 
 <p align="center"><img src="docs/papers-per-year.svg" alt="Papers in the atlas by publication year" width="960"></p>
@@ -905,6 +905,7 @@ Doctoral and master's theses on gesture generation and on gesture theory. They a
 | 2024 | [Speech-driven expressive gesture generation for virtual agents](https://doi.org/10.47749/t/unicamp.2024.1499174)‡ | UNICAMP | method |  |
 | 2024 | [The effects of learning sign language on co-speech gesture](http://www.nusl.cz/ntk/nusl-622671)† | Digital Repository (National Repository of Grey Literature) | theory |  |
 | 2023 | [Multimodal Expressive Gesturing With Style](https://doi.org/10.70675/a1375d8dzd155z4b3ezb79azc121e1ceecad)† | Thesis | method | Thesis proposing zero-shot style-controlled upper-body and facial gesture synthesis from a speaker's speech content (ZS-MSTM) for embodied conversational agents. |
+| 2023 | [Scalable Hybrid Approach of Co-speech Text-to-Gesture Generation for Interactive Digital Humans](https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=DIKO0016851621)† | KIST School, University of Science and Technology | method | Builds text-to-gesture generation for digital humans in stages, from an automated rule-based mapping mined from public video, through contrastive matching of 2D poses to 3D gesture units (GestureCLR) and cross-lingual clustering, to retrieval with zero-shot speaker style adaptation (ConGRets). |
 | 2022 | [Une analyse temporelle et pragmatique de l'association geste-parole : une approche basée sur un corpus utilisant le nouveau système d'annotation MultiModal MultiDimensionnel (M3D)](https://theses.hal.science/tel-03994053)† | HAL (Le Centre pour la Communication Scientifique Directe) | theory |  |
 | 2021 | [An ERP Study of the Effects of Iconic and Nonsense Gestures on Memory Formation](https://doi.org/10.31390/gradschool_theses.5439)† | Louisiana State University | theory |  |
 | 2021 | [Gesture Resolution and Definiteness](https://doi.org/10.5281/zenodo.5812035)† | Zenodo (CERN European Organization for Nuclear Research) | theory |  |

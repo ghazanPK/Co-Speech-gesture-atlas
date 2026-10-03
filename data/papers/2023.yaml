@@ -56,6 +56,25 @@
   checked: full-text
   verified: true
 
+- id: ali2023scalable
+  title: Scalable Hybrid Approach of Co-speech Text-to-Gesture Generation for Interactive Digital Humans
+  authors: [Ghazanfar Ali]
+  year: 2023
+  venue: KIST School, University of Science and Technology
+  type: thesis
+  category: method
+  links: {paper: 'https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=DIKO0016851621'}
+  input: [text, style]
+  representation: [joints-3d]
+  approach: [hybrid, rule-based, retrieval]
+  setting: [monologue]
+  realtime: unreported
+  languages: [en, ko]
+  summary: Builds text-to-gesture generation for digital humans in stages, from an automated rule-based mapping mined from public video, through contrastive matching of 2D poses to 3D gesture units (GestureCLR) and cross-lingual clustering, to retrieval with zero-shot speaker style adaptation (ConGRets).
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: ambrazaitis2023multimodal
   title: 'The multimodal nature of prominence: some directions for the study of the relation between gestures and pitch accents'
   authors: [Gilbert Ambrazaitis, David House]
