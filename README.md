@@ -34,20 +34,20 @@ Every paper as a comparison row, not a bare link. Every dataset and metric defin
 ## Finding: methods used in applications
 
 <!-- BEGIN:applications -->
-Across the atlas’s **619 gesture-generation papers**, our audit identifies only **10 method papers across 8 groups** with repeated reuse in applications and related studies, including **museum guides, healthcare counselors and conversational robots**. The strongest documented interactive reuse remains concentrated in older **BEAT/REA** pipelines, showing why application uptake matters alongside the number of new methods published. [Where and how are they used? →](APPLICATIONS.md#method-group-counts)
+Across the atlas’s **619 gesture-generation papers**, our audit identifies only **16 method papers across 8 groups**, with each group reused in **two or more applications or related studies**, including **museum guides, healthcare counselors and conversational robots**. The strongest documented interactive reuse remains concentrated in older **BEAT/REA** pipelines, showing why application uptake matters alongside the number of new methods published. [Where and how are they used? →](APPLICATIONS.md#method-group-counts)
 
-| Method group / represented method papers | Method years | Functional interactive papers | Adjacent usage papers¹ |
+| Method group / methods used | Method years | Functional interactive papers | Adjacent usage papers¹ |
 |---|---|---:|---:|
-| BEAT / REA<br><sub>[1999](#paper-cassell1999embodiment) · [2000](#paper-cassell2000coordination) · [2001](#paper-cassell2001beat) · [2008](#paper-bickmore2008document)</sub> | 1999–2008 | **32** | 6 |
+| BEAT / REA<br><sub>[2000](#paper-cassell2000coordination) · [2001](#paper-cassell2001beat)</sub> | 2000–2001 | **32** | 6 |
 | NVBG / Cerebella / USC ICT<br><sub>[2006](#paper-lee2006nonverbal) · [2013](#paper-marsella2013virtual) · [2014](#paper-chiu2014gesture) · [2015](#paper-lhommet2015cerebella)</sub> | 2006–2015 | **7** | 4 |
 | WikiTalk<br><sub>[2012](#paper-meena2012integration)</sub> | 2012 | **6** | 0 |
 | Ali / Hwang Hybrid rule-map lineage<br><sub>[2020](#paper-ali2020rule) · [2022](#paper-ali2022wild) · [2025](#paper-ali2025multilingual)</sub> | 2020–2025 | **3** | 2 |
 | Tuyen / Chong / Celiktutan cGAN<br><sub>[2020](#paper-tuyen2020conditional)</sub> | 2020 | **2** | 0 |
-| Greta / Pelachaud<br><sub>[2002](#paper-hartmann2002formational) · [2005](#paper-pelachaud2005multimodal) · [2009](#paper-pelachaud2009studies) · [2011](#paper-niewiadomski2011crossmedia) · [2015](#paper-pelachaud2015greta) · [2018](#paper-ravenet2018automating) · [2018](#paper-ravenet2018imageschemas) · [2023](#paper-fares2023zeroshotb)</sub> | 2002–2023 | **1** | 3 |
+| Greta / Pelachaud<br><sub>[2009](#paper-pelachaud2009studies) · [2018](#paper-ravenet2018automating) · [2018](#paper-ravenet2018imageschemas)</sub> | 2009–2018 | **1** | 3 |
 | QPGesture<br><sub>[2023](#paper-yang2023qpgesture)</sub> | 2023 | **0** | 2 |
 | TalkSHOW / MPI<br><sub>[2023](#paper-yi2023talkshow)</sub> | 2023 | **0** | 2 |
 
-¹ Live comparisons, content/presentation applications and prepared-stimulus studies. Counts and links cover each group; the headline counts only method papers individually meeting the two-use threshold.
+¹ Live comparisons, content/presentation applications and prepared-stimulus studies. Links and method years identify only methods contributing to the usage counts in each row. A usage paper can use multiple methods; the headline counts all linked methods with at least one counted usage in the eight groups shown.
 <!-- END:applications -->
 
 ## What you can do here

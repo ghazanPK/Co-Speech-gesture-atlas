@@ -28,6 +28,9 @@ def load_audit():
    assert r['method_role'] in {'generator_or_planner','adapted_generator'}
  return data
 
+def counted_usage(r):
+ return r['counts_as_functional_generator_adoption'] or (r['category'] in {'offline','live_content_application','presentation_application','interactive_comparison'} and r['technical_reuse_supported'] and r['method_role'] in {'generator_or_planner','adapted_generator'})
+
 def summarize(data):
  rows=data['records']
  groups=[]
@@ -43,10 +46,11 @@ def summarize(data):
  stats.update(application_methods=len({r['method_id'] for r in applications}),application_groups=len({r['family'] for r in applications}),application_papers=len({r['paper_key'] for r in applications}))
  repeated={}
  for r in rows:
-  if r['counts_as_functional_generator_adoption'] or (r['category'] in {'offline','live_content_application','presentation_application','interactive_comparison'} and r['technical_reuse_supported'] and r['method_role'] in {'generator_or_planner','adapted_generator'}):
+  if counted_usage(r):
    repeated.setdefault(r['method_id'],set()).add(r['paper_key'])
  mids={mid for mid,papers in repeated.items() if len(papers)>=2}
- stats.update(repeated_methods=len(mids),repeated_groups=len({r['family'] for r in rows if r['method_id'] in mids}),repeated_method_ids=sorted(mids))
+ repeated_families={r['family'] for r in rows if r['method_id'] in mids}
+ stats.update(repeated_methods=len(mids),repeated_groups=len(repeated_families),repeated_method_ids=sorted(mids),used_methods_in_repeated_groups=len({r['method_id'] for r in rows if r['family'] in repeated_families and counted_usage(r)}))
  return groups,stats
 
 def readme_summary(data=None, citation_prefix='', generation_papers=None):
@@ -54,16 +58,18 @@ def readme_summary(data=None, citation_prefix='', generation_papers=None):
  if generation_papers is None:
   catalogue=json.loads((ROOT/'docs/data.json').read_text(encoding='utf-8'))['papers']
   generation_papers=sum(p['category']!='theory' and p['type']!='thesis' for p in catalogue)
- lines=[f"Across the atlas’s **{generation_papers} gesture-generation papers**, our audit identifies only **{s['repeated_methods']} method papers across {s['repeated_groups']} groups** with repeated reuse in applications and related studies, including **museum guides, healthcare counselors and conversational robots**. The strongest documented interactive reuse remains concentrated in older **BEAT/REA** pipelines, showing why application uptake matters alongside the number of new methods published. [Where and how are they used? →](APPLICATIONS.md#method-group-counts)",'', '| Method group / represented method papers | Method years | Functional interactive papers | Adjacent usage papers¹ |','|---|---|---:|---:|']
+ lines=[f"Across the atlas’s **{generation_papers} gesture-generation papers**, our audit identifies only **{s['used_methods_in_repeated_groups']} method papers across {s['repeated_groups']} groups**, with each group reused in **two or more applications or related studies**, including **museum guides, healthcare counselors and conversational robots**. The strongest documented interactive reuse remains concentrated in older **BEAT/REA** pipelines, showing why application uptake matters alongside the number of new methods published. [Where and how are they used? →](APPLICATIONS.md#method-group-counts)",'', '| Method group / methods used | Method years | Functional interactive papers | Adjacent usage papers¹ |','|---|---|---:|---:|']
  short={'Cassell / Vilhjalmsson / Bickmore: BEAT and REA':'BEAT / REA','Marsella / USC ICT: NVBG, Cerebella and learned gestures':'NVBG / Cerebella / USC ICT','Meena / WikiTalk':'WikiTalk','Ali / Hwang and collaborators: rule-map lineage':'Ali / Hwang Hybrid rule-map lineage','Tuyen / Chong / Celiktutan: cGAN lineage':'Tuyen / Chong / Celiktutan cGAN'}
  short.update({'Pelachaud / Greta and collaborators':'Greta / Pelachaud','TalkSHOW / MPI and collaborators':'TalkSHOW / MPI'})
  qualifying=set(s['repeated_method_ids'])
  for g in groups:
   if not any(r['family']==g['family'] and r['method_id'] in qualifying for r in data['records']): continue
-  methods=sorted({(r['method_year'],r['method_id']) for r in data['records'] if r['family']==g['family']})
+  methods=sorted({(r['method_year'],r['method_id']) for r in data['records'] if r['family']==g['family'] and counted_usage(r)})
+  years=sorted({year for year,mid in methods})
+  method_years=str(years[0]) if len(years)==1 else f'{years[0]}–{years[-1]}'
   citations=' · '.join(f'[{year}]({citation_prefix}#paper-{mid})' for year,mid in methods)
-  lines.append(f"| {short.get(g['family'],g['family'])}<br><sub>{citations}</sub> | {g['years']} | **{g['functional']}** | {g['other_applications']+g['comparison']} |")
- lines+=['','¹ Live comparisons, content/presentation applications and prepared-stimulus studies. Counts and links cover each group; the headline counts only method papers individually meeting the two-use threshold.']
+  lines.append(f"| {short.get(g['family'],g['family'])}<br><sub>{citations}</sub> | {method_years} | **{g['functional']}** | {g['other_applications']+g['comparison']} |")
+ lines+=['','¹ Live comparisons, content/presentation applications and prepared-stimulus studies. Links and method years identify only methods contributing to the usage counts in each row. A usage paper can use multiple methods; the headline counts all linked methods with at least one counted usage in the eight groups shown.']
  return '\n'.join(lines)
 
 def column_definitions():
@@ -83,7 +89,7 @@ def column_definitions():
  ]
 
 def markdown(data,groups,s):
- lines=['# From Methods to Applications','',readme_summary(data,citation_prefix='README.md'),'','## What this audit finds','', 'Published downstream reuse is concentrated in a small subset of the methods represented in this audit. The BEAT/REA family has 32 functional interactive application papers. Learned generators also reach interactive applications, including HumanoidBot, elder-care services and collaborative robot storytelling. The findings support examining transfer into applications; they do not establish that other methods are unusable or that research without documented adoption is wasted.','', '**Application scenario and generation timing must be recorded separately.** A script, recorded speech, or presentation study does not by itself establish precomputed gestures or an offline-only method. A runtime-capable generator may be evaluated in a presentation, while an interactive agent may play prepared utterance animations.','', '## Method-group counts','', f"The headline identifies **{s['repeated_methods']} method papers across {s['repeated_groups']} groups**, each with at least two distinct downstream usage papers. Adjacent uses include live comparisons, presentations, live script-driven content, offline animation and prepared stimuli. Platform-only, component-only, candidate and unresolved records do not contribute to this threshold. This is a finding within the audited collection, not a field-wide adoption rate.",'',f"In total, this audit records functional interactive reuse for **{s['methods']} method papers across {s['groups']} groups** in **{s['papers']} distinct application papers**. **{s['online']}** functional papers have runtime evidence, including **{s['author_online']}** based on author clarification. Counts below are distinct paper reports within each group; they are not deployment counts, and groups can share papers.",'','Column meanings:','']
+ lines=['# From Methods to Applications','',readme_summary(data,citation_prefix='README.md'),'','## What this audit finds','', 'Published downstream reuse is concentrated in a small subset of the methods represented in this audit. The BEAT/REA family has 32 functional interactive application papers. Learned generators also reach interactive applications, including HumanoidBot, elder-care services and collaborative robot storytelling. The findings support examining transfer into applications; they do not establish that other methods are unusable or that research without documented adoption is wasted.','', '**Application scenario and generation timing must be recorded separately.** A script, recorded speech, or presentation study does not by itself establish precomputed gestures or an offline-only method. A runtime-capable generator may be evaluated in a presentation, while an interactive agent may play prepared utterance animations.','', '## Method-group counts','', f"The headline identifies **{s['used_methods_in_repeated_groups']} method papers across {s['repeated_groups']} groups**, each method with at least one counted downstream usage. These groups contain at least one method with two or more distinct usage papers; {s['repeated_methods']} of the {s['used_methods_in_repeated_groups']} methods individually meet that threshold. Adjacent uses include live comparisons, presentations, live script-driven content, offline animation and prepared stimuli. Platform-only, component-only, candidate and unresolved records do not contribute to this threshold. This is a finding within the audited collection, not a field-wide adoption rate.",'',f"In total, this audit records functional interactive reuse for **{s['methods']} method papers across {s['groups']} groups** in **{s['papers']} distinct application papers**. **{s['online']}** functional papers have runtime evidence, including **{s['author_online']}** based on author clarification. Counts below are distinct paper reports within each group; they are not deployment counts, and groups can share papers.",'','Column meanings:','']
  lines += ['- **'+name+'** — '+meaning for name,meaning in column_definitions()]
  lines += ['', '| Method group | Method years | Functional | Runtime | Prepared | Timing unknown | Other applications | Live comparisons | Candidates | Platform | Components | Unresolved |','|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|']
  for g in groups: lines.append('| '+' | '.join(str(g[k]) for k in ['family','years','functional','online','prepared','timing_unknown','other_applications','comparison','candidates','platform','components','unresolved'])+' |')
