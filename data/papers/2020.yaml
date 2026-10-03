@@ -124,19 +124,6 @@
   checked: abstract
   verified: false
 
-- id: anon2020speech
-  title: Speech Accompanying-Gesture
-  year: 2020
-  venue: Psychology Press
-  type: book
-  category: theory
-  doi: 10.4324/9781003059783
-  links: {paper: 'https://doi.org/10.4324/9781003059783'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: other
-
 - id: arachchige2020investigating
   title: 'Investigating the temporality of gesture/speech integration with Transcranial Magnetic Stimulation: building of a study.'
   authors: [Kendra Kandana Arachchige, Isabelle Simoes Loureiro, Laurent Lefebvre]
@@ -509,6 +496,19 @@
   checked: full-text
   verified: true
 
+- id: floritpons2020temporal
+  title: 'Temporal integration of gesture and speech in narrative discourse: an insight into the development of co-speech gesture use'
+  authors: [Júlia Florit Pons]
+  year: 2020
+  venue: Universitat Pompeu Fabra
+  type: thesis
+  category: theory
+  links: {paper: 'https://repositori.upf.edu/handle/10230/46884'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
+
 - id: fritz2020multimodal
   title: 'Multimodal language processing: How preceding discourse constrains gesture interpretation and affects gesture integration when gestures do not synchronise with semantic affiliates'
   authors: [Isabella Fritz, Sotaro Kita, Jeannette Littlemore, Andrea Krott]
@@ -826,6 +826,19 @@
   checked: abstract
   verified: false
   area: psycholinguistics
+
+- id: kita2020speech
+  title: Speech Accompanying-Gesture
+  year: 2020
+  venue: Psychology Press
+  type: book
+  category: theory
+  doi: 10.4324/9781003059783
+  links: {paper: 'https://doi.org/10.4324/9781003059783'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
 
 - id: korzun2020finemotion
   title: FineMotion - Audio and Text-Driven approach for Conversational Gestures Generation
@@ -1235,19 +1248,6 @@
   checked: abstract
   verified: false
   area: linguistics
-
-- id: pons2020temporal
-  title: 'Temporal integration of gesture and speech in narrative discourse: an insight into the development of co-speech gesture use'
-  authors: [Júlia Florit Pons]
-  year: 2020
-  venue: Unknown venue
-  type: thesis
-  category: theory
-  links: {paper: 'https://repositori.upf.edu/handle/10230/46884'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: development
 
 - id: prieto2020negation
   title: Negation, Prosody, and Gesture

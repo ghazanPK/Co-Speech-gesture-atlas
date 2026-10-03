@@ -30,19 +30,6 @@
   verified: false
   area: cognition
 
-- id: anon1999original
-  title: 'Original signs: gesture, sign, and the sources of language'
-  year: 1999
-  venue: Choice Reviews Online
-  type: journal
-  category: theory
-  doi: 10.5860/choice.37-1627
-  links: {paper: 'https://doi.org/10.5860/choice.37-1627'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: beattie1999experimental
   title: An experimental investigation of the role of iconic gestures in lexical access using the tip‐of‐the‐tongue phenomenon
   authors: [Geoffrey W. Beattie, Jane Coughlan]

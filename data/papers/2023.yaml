@@ -70,44 +70,6 @@
   verified: false
   area: linguistics
 
-- id: anon2023diffusestyle
-  title: DiffuseStyleGesture+ (SF) The DiffuseStyleGesture+ entry to the GENEA Challenge 2023
-  authors: [Sicheng Yang, Haiwei Xue, Zhiyong Wu, Minglei Li, Zonghong Dai, Zhensong Zhang, Songcen Xu, Xiaofei Wu]
-  year: 2023
-  venue: ICMI
-  type: conference
-  category: method
-  arxiv: '2308.13879'
-  links: {paper: 'https://arxiv.org/abs/2308.13879', code: 'https://github.com/YoungSeng/DiffuseStyleGesture/tree/DiffuseStyleGesturePlus/BEAT-TWH-main'}
-  input: [audio, text, speaker-id, seed-motion]
-  output: [full-body, hands]
-  representation: [joints-3d]
-  approach: [diffusion]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [genea-2023]
-  languages: [en]
-  metrics: [fgd]
-  user_study: true
-  summary: A diffusion model maps audio, text, speaker identity and seed gestures to a hidden space and denoises full-body gesture with cross-local attention, entered in the GENEA Challenge 2023.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
-
-- id: anon2023genre
-  title: Genre predetermined gesture behaviour in comedy staged discourse
-  authors: [А.А. Ржешевская]
-  year: 2023
-  venue: Иностранные языки в высшей школе
-  type: journal
-  category: theory
-  doi: 10.37724/rsu.2023.65.2.006
-  links: {paper: 'https://doi.org/10.37724/rsu.2023.65.2.006'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: other
-
 - id: ao2023gesturediffuclip
   title: 'GestureDiffuCLIP: Gesture Diffusion Model with CLIP Latents'
   authors: [Tenglong Ao, Zeyi Zhang, Libin Liu]
@@ -1168,6 +1130,20 @@
   verified: false
   area: psycholinguistics
 
+- id: rzheshevskaya2023genre
+  title: Genre predetermined gesture behaviour in comedy staged discourse
+  authors: [А.А. Ржешевская]
+  year: 2023
+  venue: Иностранные языки в высшей школе
+  type: journal
+  category: theory
+  doi: 10.37724/rsu.2023.65.2.006
+  links: {paper: 'https://doi.org/10.37724/rsu.2023.65.2.006'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
 - id: salcedo2023gert
   title: 'GERT: Transformers for Co-speech Gesture Prediction in Social Robots'
   authors: [Javier Sevilla Salcedo, Enrique Fernández-Rodicio, José Carlos Castillo, Álvaro Castro-González, Miguel Angel Salichs]
@@ -1655,6 +1631,30 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
+
+- id: yang2023diffusestyle
+  title: DiffuseStyleGesture+ (SF) The DiffuseStyleGesture+ entry to the GENEA Challenge 2023
+  authors: [Sicheng Yang, Haiwei Xue, Zhiyong Wu, Minglei Li, Zonghong Dai, Zhensong Zhang, Songcen Xu, Xiaofei Wu]
+  year: 2023
+  venue: ICMI
+  type: conference
+  category: method
+  arxiv: '2308.13879'
+  links: {paper: 'https://arxiv.org/abs/2308.13879', code: 'https://github.com/YoungSeng/DiffuseStyleGesture/tree/DiffuseStyleGesturePlus/BEAT-TWH-main'}
+  input: [audio, text, speaker-id, seed-motion]
+  output: [full-body, hands]
+  representation: [joints-3d]
+  approach: [diffusion]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [genea-2023]
+  languages: [en]
+  metrics: [fgd]
+  user_study: true
+  summary: A diffusion model maps audio, text, speaker identity and seed gestures to a hidden space and denoises full-body gesture with cross-local attention, entered in the GENEA Challenge 2023.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
 
 - id: yang2023diffusestylegesture
   title: 'DiffuseStyleGesture: Stylized Audio-Driven Co-Speech Gesture Generation with Diffusion Models'

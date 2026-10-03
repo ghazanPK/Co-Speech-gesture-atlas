@@ -2,32 +2,6 @@
 # The README tables are generated from these files. Field rules: docs/SCHEMA.md
 # (enforced by schema/schema.json and scripts/validate.py).
 
-- id: anon2007gestural
-  title: Gestural Communication in Nonhuman and Human Primates
-  year: 2007
-  venue: Benjamins current topics
-  type: book
-  category: theory
-  doi: 10.1075/bct.10
-  links: {paper: 'https://doi.org/10.1075/bct.10'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: other
-
-- id: anon2007sage
-  title: The SAGE handbook of nonverbal communication
-  year: 2007
-  venue: Choice Reviews Online
-  type: journal
-  category: theory
-  doi: 10.5860/choice.44-3718
-  links: {paper: 'https://doi.org/10.5860/choice.44-3718'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: social-interaction
-
 - id: armstrong2007gestural
   title: The Gestural Origin of Language
   authors: [David Armstrong, Sherman E. Wilcox]
@@ -60,7 +34,7 @@
   title: 'Links between language, gesture, and motor skill : a longitudinal study of communication recovery in adults with Broca''s aphasia'
   authors: [Barbara A. Braddock]
   year: 2007
-  venue: Unknown venue
+  venue: University of Missouri
   type: thesis
   category: theory
   doi: 10.32469/10355/4656
@@ -476,6 +450,19 @@
   checked: metadata
   verified: false
   area: clinical
+
+- id: liebal2007gestural
+  title: Gestural Communication in Nonhuman and Human Primates
+  year: 2007
+  venue: Benjamins current topics
+  type: book
+  category: theory
+  doi: 10.1075/bct.10
+  links: {paper: 'https://doi.org/10.1075/bct.10'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
 
 - id: loehr2007aspects
   title: Aspects of rhythm in gesture and speech

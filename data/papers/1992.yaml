@@ -2,19 +2,6 @@
 # The README tables are generated from these files. Field rules: docs/SCHEMA.md
 # (enforced by schema/schema.json and scripts/validate.py).
 
-- id: anon1992advances
-  title: Advances in Non-Verbal Communication
-  year: 1992
-  venue: John Benjamins Publishing Company
-  type: book
-  category: theory
-  doi: 10.1075/z.60
-  links: {paper: 'https://doi.org/10.1075/z.60'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
-
 - id: bavelas1992interactive
   title: Interactive gestures
   authors: [Janet Beavin Bavelas, Nicole Chovil, Douglas A. Lawrie, Allan Wade]
@@ -168,6 +155,19 @@
   checked: metadata
   verified: false
   area: cognition
+
+- id: poyatos1992advances
+  title: Advances in Non-Verbal Communication
+  year: 1992
+  venue: John Benjamins Publishing Company
+  type: book
+  category: theory
+  doi: 10.1075/z.60
+  links: {paper: 'https://doi.org/10.1075/z.60'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
 
 - id: thal1992communicative
   title: Communicative Gestures in Children With Delayed Onset of Oral Expressive Vocabulary

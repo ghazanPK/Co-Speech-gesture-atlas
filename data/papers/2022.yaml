@@ -61,23 +61,6 @@
   verified: false
   area: linguistics
 
-- id: anon2022transgesture
-  title: 'TransGesture: Autoregressive Gesture Generation with RNN-Transducer'
-  authors: [Naoshi Kaneko, Yuna Mitsubayashi, Geng Mu]
-  year: 2022
-  venue: ICMI
-  type: conference
-  category: method
-  doi: 10.1145/3536221.3558061
-  links: {paper: 'https://doi.org/10.1145/3536221.3558061'}
-  approach: [autoregressive]
-  datasets: [genea-2022]
-  user_study: true
-  summary: Gesture generation model for the GENEA Challenge 2022 built on an RNN-transducer with encoder, prediction and joint networks, trained with MSE plus statistical losses on motion statistics.
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-
 - id: ao2022rhythmic
   title: 'Rhythmic Gesticulator: Rhythm-Aware Co-Speech Gesture Synthesis with Hierarchical Neural Embeddings'
   authors: [Tenglong Ao, Qingzhe Gao, Yuke Lou, Baoquan Chen, Libin Liu]
@@ -768,6 +751,23 @@
   user_study: true
   summary: A conditional GAN with an LSTM encoder and decoder that maps acoustic speech and speaker marking to three-party conversational gesture kinematics.
   notes: Venue not stated in the available text; venue field needs checking.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
+- id: kaneko2022transgesture
+  title: 'TransGesture: Autoregressive Gesture Generation with RNN-Transducer'
+  authors: [Naoshi Kaneko, Yuna Mitsubayashi, Geng Mu]
+  year: 2022
+  venue: ICMI
+  type: conference
+  category: method
+  doi: 10.1145/3536221.3558061
+  links: {paper: 'https://doi.org/10.1145/3536221.3558061'}
+  approach: [autoregressive]
+  datasets: [genea-2022]
+  user_study: true
+  summary: Gesture generation model for the GENEA Challenge 2022 built on an RNN-transducer with encoder, prediction and joint networks, trained with MSE plus statistical losses on motion statistics.
   added: '2026-10-03'
   checked: abstract
   verified: false

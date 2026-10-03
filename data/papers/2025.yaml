@@ -92,34 +92,6 @@
   verified: false
   area: linguistics
 
-- id: anon2025gestural
-  title: 'Gestural Relativity of Spatial Cognition: Speakers’ co-speech gestures shape listeners’ spatial frame of reference'
-  authors: [Cognitive Science Society 2025, Tyler Marghetis, Shervin Nosrati]
-  year: 2025
-  venue: CogSci
-  type: conference
-  category: theory
-  doi: 10.48448/fxt0-1b68
-  links: {paper: 'https://escholarship.org/uc/item/6cz8h14q'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: cognition
-
-- id: anon2025gesture
-  title: Gesture Use Contributes to Autobiographical Remembering
-  authors: [Cognitive Science Society 2025, İbrahim Akkan, Çağla Aydın, tilbe göksun, Yağmur Damla Şentürk, Selma Berfin Tanis]
-  year: 2025
-  venue: Sabanci University
-  type: journal
-  category: theory
-  doi: 10.48448/szgw-yp56
-  links: {paper: 'https://doi.org/10.48448/szgw-yp56'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: cognition
-
 - id: archibold2025speech
   title: Co-speech gesture provides a window onto intraindividual conflict during embodied sensemaking
   authors: [Estelle Elena Archibold, Fey Parrill]
@@ -1713,6 +1685,20 @@
   checked: full-text
   verified: true
 
+- id: nosrati2025gestural
+  title: 'Gestural Relativity of Spatial Cognition: Speakers’ co-speech gestures shape listeners’ spatial frame of reference'
+  authors: [Shervin Nosrati, Tyler Marghetis]
+  year: 2025
+  venue: CogSci
+  type: conference
+  category: theory
+  doi: 10.48448/fxt0-1b68
+  links: {paper: 'https://escholarship.org/uc/item/6cz8h14q'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
 - id: okadome2025interaction
   title: Generating interaction gestures in dyadic conversations using a diffusion model
   authors: [Yuya Okadome, Yazan Alkatshah, Yutaka Nakamura]
@@ -2094,6 +2080,20 @@
   checked: abstract
   verified: false
   area: education
+
+- id: tanis2025gesture
+  title: Gesture Use Contributes to Autobiographical Remembering
+  authors: [Selma Berfin Tanis, Yağmur Damla Şentürk, İbrahim Akkan, Tilbe Göksun, Çağla Aydın]
+  year: 2025
+  venue: CogSci
+  type: conference
+  category: theory
+  doi: 10.48448/szgw-yp56
+  links: {paper: 'https://doi.org/10.48448/szgw-yp56'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
 
 - id: thompson2025iconic
   title: 'Iconic hand gestures from ideophones exhibit stability and emergent phonological properties: an iterated learning study'

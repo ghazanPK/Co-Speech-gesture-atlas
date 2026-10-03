@@ -28,19 +28,6 @@
   verified: false
   area: linguistics
 
-- id: anon2016handbook
-  title: APA handbook of nonverbal communication
-  year: 2016
-  venue: Choice Reviews Online
-  type: journal
-  category: theory
-  doi: 10.5860/choice.195950
-  links: {paper: 'https://doi.org/10.5860/choice.195950'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: social-interaction
-
 - id: biau2016hand
   title: 'Hand gestures as visual prosody: BOLD responses to audio–visual alignment are modulated by the communicative nature of the stimuli'
   authors: [Emmanuel Biau, Luis Morís Fernández, Henning Holle, César Ávila, Salvador Soto‐Faraco]
@@ -121,19 +108,6 @@
   checked: abstract
   verified: false
   area: education
-
-- id: cheung2016investigation
-  title: Investigation on whether co-verbal gesture use can facilitate lexical retrieval in connected speech in normal speakers and speakers with aphasia
-  authors: [Ka-yan Cheung, 張嘉欣]
-  year: 2016
-  venue: Unknown venue
-  type: thesis
-  category: theory
-  links: {paper: 'https://hub.hku.hk/handle/10722/272653'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: clinical
 
 - id: christy2016relation
   title: The relation of gesture to thought and language
@@ -1279,7 +1253,7 @@
   title: What co-speech gestures do:investigating the communicative role ofvisual behaviour accompanyinglanguage use during reference ininteraction
   authors: [Jack Wilson]
   year: 2016
-  venue: Unknown venue
+  venue: University of Leeds
   type: thesis
   category: theory
   links: {paper: 'https://etheses.whiterose.ac.uk/17319/'}

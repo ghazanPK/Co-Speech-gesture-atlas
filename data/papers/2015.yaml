@@ -44,33 +44,6 @@
   checked: abstract
   verified: false
 
-- id: anon2015brain
-  title: Brain Systems for Action Perception in Understanding Co‐Speech Gesture And Signed Languages
-  year: 2015
-  venue: Psychophysiology
-  type: journal
-  category: theory
-  doi: 10.1111/psyp.12489
-  links: {paper: 'https://doi.org/10.1111/psyp.12489'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: neuroscience
-
-- id: anon2015prosodic
-  title: Prosodic and kinetic means of aggressive impact in political communication
-  authors: [Н. В. Петлюченко]
-  year: 2015
-  venue: Writings in Romance-Germanic Philology
-  type: journal
-  category: theory
-  doi: 10.18524/2307-4604.2015.1(34).51933
-  links: {paper: 'https://doi.org/10.18524/2307-4604.2015.1(34).51933'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: atit2015student
   title: Student Gestures Aid Penetrative Thinking
   authors: [Kinnari Atit, Kristin Michod Gagnier, Thomas F. Shipley]
@@ -674,9 +647,9 @@
 
 - id: lin2015individual
   title: Effects of individual differences and task demand on co-speech gesture
-  authors: [Shan-ju Lin, Amanda Owen Van Horne, Susan W. Cook, Melissa Collins Duff, Karla Kay McGregor, J. Bruce Tomblin]
+  authors: [Shan-ju Lin]
   year: 2015
-  venue: Unknown venue
+  venue: University of Iowa
   type: thesis
   category: theory
   doi: 10.17077/etd.p3eh1usp
@@ -1070,6 +1043,20 @@
   category: theory
   doi: 10.1111/tops.12127
   links: {paper: 'https://doi.org/10.1111/tops.12127'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: petlyuchenko2015prosodic
+  title: Prosodic and kinetic means of aggressive impact in political communication
+  authors: [Н. В. Петлюченко]
+  year: 2015
+  venue: Writings in Romance-Germanic Philology
+  type: journal
+  category: theory
+  doi: 10.18524/2307-4604.2015.1(34).51933
+  links: {paper: 'https://doi.org/10.18524/2307-4604.2015.1(34).51933'}
   added: '2026-10-03'
   checked: abstract
   verified: false

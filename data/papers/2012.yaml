@@ -77,33 +77,6 @@
   verified: false
   area: neuroscience
 
-- id: anon2012speech
-  title: Co-speech gestures modulate prefrontal activity in face-to-face communication situations
-  authors: [齋藤 洋典, 趙 文雋, 大井 京]
-  year: 2012
-  venue: Japanese Society for Cognitive Psychology, 10th Conference
-  type: conference
-  category: theory
-  doi: 10.14875/cogpsy.2012.0_15
-  links: {paper: 'https://www.jstage.jst.go.jp/article/cogpsy/2012/0/2012_15/_article'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: neuroscience
-
-- id: anon2012viewpoint
-  title: Viewpoint in Language
-  year: 2012
-  venue: Cambridge University Press
-  type: book
-  category: theory
-  doi: 10.1017/cbo9781139084727
-  links: {paper: 'https://doi.org/10.1017/cbo9781139084727'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: arnold2012dialogic
   title: 'Dialogic Embodied Action: Using Gesture to Organize Sequence and Participation in Instructional Interaction'
   authors: [Lynnette Arnold]
@@ -265,6 +238,19 @@
   category: theory
   doi: 10.1075/gest.12.2.01coo
   links: {paper: 'https://doi.org/10.1075/gest.12.2.01coo'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: dancygier2012viewpoint
+  title: Viewpoint in Language
+  year: 2012
+  venue: Cambridge University Press
+  type: book
+  category: theory
+  doi: 10.1017/cbo9781139084727
+  links: {paper: 'https://doi.org/10.1017/cbo9781139084727'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1139,6 +1125,20 @@
   checked: abstract
   verified: false
   area: psycholinguistics
+
+- id: saito2012speech
+  title: Co-speech gestures modulate prefrontal activity in face-to-face communication situations
+  authors: [齋藤 洋典, 趙 文雋, 大井 京]
+  year: 2012
+  venue: Japanese Society for Cognitive Psychology, 10th Conference
+  type: conference
+  category: theory
+  doi: 10.14875/cogpsy.2012.0_15
+  links: {paper: 'https://www.jstage.jst.go.jp/article/cogpsy/2012/0/2012_15/_article'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: neuroscience
 
 - id: salem2012generation
   title: Generation and Evaluation of Communicative Robot Gesture
