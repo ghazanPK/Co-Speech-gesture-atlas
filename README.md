@@ -3,7 +3,7 @@
 A maintained, structured map of research on co-speech gesture generation: papers, datasets, metrics and code, with a comparison row per paper rather than a bare link.
 
 <!-- BEGIN:stats -->
-**621 papers on gesture generation**, **1983 on gesture theory** and **83 theses** (1965–2026), 69 datasets, 36 metrics. 219 records were filled from the full text, 2107 from the abstract only (†), 361 from bibliographic metadata only (‡). 132 have been independently verified.
+**621 papers on gesture generation**, **2001 on gesture theory** and **82 theses** (1965–2026), 69 datasets, 36 metrics. 219 records were filled from the full text, 2121 from the abstract only (†), 364 from bibliographic metadata only (‡). 132 have been independently verified.
 <!-- END:stats -->
 
 ## Contents
@@ -937,7 +937,6 @@ Doctoral and master's theses on gesture generation and on gesture theory. They a
 | 2006 | [Coordinated minds : how iconic co- speech gestures mediate communication](https://escholarship.org/uc/item/4ff658th)† | eScholarship (California Digital Library) | theory |  |
 | 2006 | [Disfluency: Interrupting speech and gesture](https://doi.org/10.17617/2.59337)† | Radboud Repository (Radboud University) | theory |  |
 | 2006 | [Gestures of a virtual guide](http://hmi.ewi.utwente.nl/verslagen/afstudeer/KesselMarcovanFinalThesis.pdf)† | University of Twente | system | Integrates existing dialogue, multimodal interface and agent software into a virtual guide that gives route descriptions in sentences and deictic pointing gestures. |
-| 2006 | [Understanding Coverbal Ionic Gestures in Shape Descriptions](https://www.amazon.com/Understanding-Coverbal-Descriptions-Dissertations-Artificial/dp/1586035665)‡ | Unknown venue | theory |  |
 | 2003 | [Feedback Gesture Generation for Embodied Conversational Agents](https://www.nada.kth.se/utbildning/grukth/exjobb/rapportlistor/2003/rapporter03/bergenstrahle_malin_03133.pdf)† | KTH | method | Develops and implements an algorithm that generates feedback gestures for the non-speaking characters in multimodal dialogues produced by the NECA system, and evaluates their effect on viewers. |
 | 2003 | [Gesture generation by imitation : from human behavior to computer character animation](https://doi.org/10.22028/d291-25852)† | Saarland University | method | Generates conversational gestures for an animated agent from annotated text by applying heuristic placement rules and filtering gestures with statistical gesture profiles of an individual speaker built from annotated TV talk show recordings. |
 | 2002 | [Automatic extraction of spatial location for gesture generation](https://dspace.mit.edu/handle/1721.1/87236)‡ | MIT | method |  |

@@ -380,6 +380,20 @@
   verified: false
   area: development
 
+- id: quek2003gesture
+  title: Gesture cues for conversational interaction in monocular video
+  authors: [Francis K. H. Quek, David Moreno McNeill, Rashid Ansari, Xinfeng Ma, Robert Bryll, Susan Duncan, Karl E. McCullough]
+  year: 1999
+  venue: ICCV'99 Workshop on Recognition, Analysis, and Tracking of Faces and Gestures in Real-Time Systems (RATFG-RTS)
+  type: workshop
+  category: theory
+  doi: 10.1109/ratfg.1999.799234
+  links: {paper: 'https://ieeexplore.ieee.org/abstract/document/799234'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: thompson1999limits
   title: Some Limits on Encoding Visible Speech and Gestures Using a Dichotic Shadowing Task
   authors: [Laura A. Thompson, F. A. Guzman]

@@ -100,6 +100,20 @@
   verified: false
   area: psycholinguistics
 
+- id: chen2003gesture
+  title: Gesture patterns during speech repairs
+  authors: [L. Chen, Mary P. Harper, Francis K. H. Quek]
+  year: 2002
+  venue: ICMI 2002
+  type: conference
+  category: theory
+  doi: 10.1109/icmi.2002.1166985
+  links: {paper: 'https://ieeexplore.ieee.org/document/1166985'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: duncan2002gesture
   title: Gesture, verb aspect, and the nature of iconic imagery in natural discourse
   authors: [Susan Duncan]

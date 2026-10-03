@@ -68,6 +68,19 @@
   verified: false
   area: cognition
 
+- id: boutet2016grammatical
+  title: 'Grammatical Aspect and Gesture in French: A kinesiological approach'
+  authors: [Dominique Boutet, Aliyah Morgenstern, Alan J. Cienki]
+  year: 2016
+  venue: Russian Journal of Linguistics (Vestnik RUDN, Seriya Lingvistika)
+  type: journal
+  category: theory
+  links: {paper: 'https://research.vu.nl/en/publications/grammatical-aspect-and-gesture-in-french-a-kinesiological-approac'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: bozkurt2016prosody
   title: Multimodal analysis of speech and arm motion for prosody-driven synthesis of beat gestures
   authors: [Elif Bozkurt, Y. Yemez, Engin Erzin]
@@ -503,11 +516,11 @@
   title: A multimodal analysis of synchrony during dyadic interaction using a metric based on sequential pattern mining
   authors: [Anil Jakkam, Carlos Busso]
   year: 2016
-  venue: Unknown venue
-  type: journal
+  venue: ICASSP 2016
+  type: conference
   category: theory
   doi: 10.1109/icassp.2016.7472846
-  links: {paper: 'https://doi.org/10.1109/icassp.2016.7472846'}
+  links: {paper: 'https://ieeexplore.ieee.org/document/7472846/'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -703,11 +716,11 @@
   title: Speech and manual gesture coordination in a pointing task
   authors: [Jelena Krivokapić, Mark Tiede, Martha E. Tyrone, Dolly Goldenberg]
   year: 2016
-  venue: Unknown venue
-  type: journal
+  venue: Speech Prosody 2016
+  type: conference
   category: theory
   doi: 10.21437/speechprosody.2016-255
-  links: {paper: 'https://doi.org/10.21437/speechprosody.2016-255'}
+  links: {paper: 'https://www.isca-archive.org/speechprosody_2016/krivokapic16_speechprosody.html'}
   added: '2026-10-03'
   checked: metadata
   verified: false
@@ -717,11 +730,11 @@
   title: The effects of pitch accentuation and beat gestures on information recall in contrastive discourse
   authors: [Olga Kushch, Pilar Prieto]
   year: 2016
-  venue: Unknown venue
-  type: journal
+  venue: Speech Prosody 2016
+  type: conference
   category: theory
   doi: 10.21437/speechprosody.2016-189
-  links: {paper: 'https://doi.org/10.21437/speechprosody.2016-189'}
+  links: {paper: 'https://www.isca-speech.org/archive/speechprosody_2016/kushch16_speechprosody.html'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -896,11 +909,11 @@
   title: Predicting an individual's gestures from the interlocutor's co-occurring gestures and related speech
   authors: [Costanza Navarretta]
   year: 2016
-  venue: Unknown venue
-  type: journal
+  venue: CogInfoCom 2016
+  type: conference
   category: theory
   doi: 10.1109/coginfocom.2016.7804554
-  links: {paper: 'https://doi.org/10.1109/coginfocom.2016.7804554'}
+  links: {paper: 'https://ieeexplore.ieee.org/document/7804554'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1117,11 +1130,11 @@
   title: 'Non-referential gestures in adult and child speech: Are they prosodic?'
   authors: [Stefanie Shattuck‐Hufnagel, Ada Ren, Mili Mary Mathew, Ivan Yuen, Katherine Demuth]
   year: 2016
-  venue: Unknown venue
-  type: journal
+  venue: Speech Prosody 2016
+  type: conference
   category: theory
   doi: 10.21437/speechprosody.2016-171
-  links: {paper: 'https://doi.org/10.21437/speechprosody.2016-171'}
+  links: {paper: 'https://www.isca-archive.org/speechprosody_2016/shattuckhufnagel16_speechprosody.html'}
   added: '2026-10-03'
   checked: abstract
   verified: false

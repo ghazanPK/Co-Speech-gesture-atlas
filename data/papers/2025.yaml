@@ -1200,6 +1200,20 @@
   checked: metadata
   verified: false
 
+- id: jam2023cloze
+  title: 'Cloze test: Co-speech hand gestures are used to predict upcoming meaning'
+  authors: ['Holler, J.A.M.', 'ter Bekke, M.E.']
+  year: 2025
+  venue: Psychological Science
+  type: journal
+  category: theory
+  doi: 10.34973/168v-gh93
+  links: {paper: 'https://www.psychologicalscience.org/journals/psychological-science/09567976251331041/'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: kim2025mars
   title: 'Speaking Beyond Language: A Large-Scale Multimodal Dataset for Learning Nonverbal Cues from Video-Grounded Dialogues'
   authors: [Youngmin Kim, Jiwan Chung, Jisoo Kim, Sunghyun Lee, Sangkyu Lee, Junhyeok Kim, Cheoljong Yang, Youngjae Yu]
@@ -1553,6 +1567,20 @@
   checked: full-text
   verified: false
 
+- id: mazzini2023autistic
+  title: Autistic individuals benefit from gestures during degraded speech comprehension
+  authors: [Sara Mazzini, Noor Seijdel, Linda Drijvers]
+  year: 2025
+  venue: Autism
+  type: journal
+  category: theory
+  doi: 10.1177/13623613241286570
+  links: {paper: 'https://journals.sagepub.com/doi/10.1177/13623613241286570'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
 - id: meng2025echomimicv2
   title: 'EchoMimicV2: Towards Striking, Simplified, and Semi-Body Human Animation'
   authors: [Rang Meng, Xingyu Zhang, Yuming Li, Chenguang Ma]
@@ -1659,20 +1687,6 @@
   checked: abstract
   verified: false
   area: neuroscience
-
-- id: morett2025concluding
-  title: 308309A concluding synthesis of the role of gesture in L2 acquisition and pedagogy
-  authors: [Laura M. Morett, Solène Inceoglu]
-  year: 2025
-  venue: Unknown venue
-  type: book
-  category: theory
-  doi: 10.1515/9783111568645-015
-  links: {paper: 'https://doi.org/10.1515/9783111568645-015'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: education
 
 - id: mughal2025rag
   title: 'Retrieving Semantics from the Deep: an RAG Solution for Gesture Synthesis'

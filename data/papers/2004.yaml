@@ -159,11 +159,11 @@
   title: As Others See Us
   authors: [Ellen Goldman]
   year: 2004
-  venue: Unknown venue
+  venue: 'As Others See Us: Body Movement and the Art of Successful Communication'
   type: book
   category: theory
   doi: 10.4324/9780203490556
-  links: {paper: 'https://doi.org/10.4324/9780203490556'}
+  links: {paper: 'https://www.routledge.com/As-Others-See-Us-Body-Movement-and-the-Art-of-Successful-Communication/Goldman/p/book/9780415949187'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -255,11 +255,11 @@
   title: Gesture units, gesture phrases and speech
   authors: [A. Kendon]
   year: 2004
-  venue: Unknown venue
-  type: journal
+  venue: 'Gesture: Visible Action as Utterance'
+  type: book
   category: theory
   doi: 10.1017/cbo9780511807572.007
-  links: {paper: 'https://doi.org/10.1017/cbo9780511807572.007'}
+  links: {paper: 'https://www.cambridge.org/core/books/abs/gesture/gesture-units-gesture-phrases-and-speech/C213E7FFB6A5E999711A2C6DB5276C08'}
   added: '2026-10-03'
   checked: metadata
   verified: false
@@ -534,11 +534,11 @@
   title: The influence of target size and distance on the production of speech and gesture in multimodal referring expressions
   authors: [Ielka van der Sluis, Emiel Krahmer]
   year: 2004
-  venue: Unknown venue
-  type: journal
+  venue: Interspeech 2004 (ICSLP)
+  type: conference
   category: theory
   doi: 10.21437/interspeech.2004-358
-  links: {paper: 'https://doi.org/10.21437/interspeech.2004-358'}
+  links: {paper: 'https://www.isca-archive.org/interspeech_2004/sluis04_interspeech.html'}
   added: '2026-10-03'
   checked: abstract
   verified: false

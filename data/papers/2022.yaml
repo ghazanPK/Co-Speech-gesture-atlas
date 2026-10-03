@@ -205,6 +205,34 @@
   verified: false
   area: social-interaction
 
+- id: beaupoilhourdel2021embodying
+  title: '7 Embodying Language Complexity: Co-Speech Gestures Between Age 3 and 4'
+  authors: [Pauline Beaupoil-Hourdel]
+  year: 2022
+  venue: 'Gesture in Language: Development Across the Lifespan'
+  type: book
+  category: theory
+  doi: 10.1515/9783110567526-007
+  links: {paper: 'https://www.degruyterbrill.com/document/doi/10.1515/9783110567526/html'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development
+
+- id: beaupoilhourdel2021embodyingb
+  title: 'Embodying language complexity: Co-speech gestures between age 3 and 4.'
+  authors: [Pauline Beaupoil-Hourdel]
+  year: 2022
+  venue: 'Gesture in Language: Development Across the Lifespan'
+  type: book
+  category: theory
+  doi: 10.1037/0000269-007
+  links: {paper: 'https://www.degruyterbrill.com/document/doi/10.1515/9783110567526/html'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
 - id: bekke2022speaking
   title: 'Speaking but not gesturing predicts event memory: a cross-linguistic comparison'
   authors: [Marlijn ter Bekke, Aslı Özyürek, Ercenur Ünal]
@@ -223,11 +251,11 @@
   title: 2 Voice and Hand
   authors: [Ingo Berensmeyer]
   year: 2022
-  venue: Unknown venue
+  venue: A Short Media History of English Literature
   type: book
   category: theory
   doi: 10.1515/9783110784459-002
-  links: {paper: 'https://doi.org/10.1515/9783110784459-002'}
+  links: {paper: 'https://www.degruyterbrill.com/document/doi/10.1515/9783110784459-002/html?lang=en'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -408,20 +436,6 @@
   checked: abstract
   verified: false
 
-- id: engle2022channels
-  title: 'Not Channels But Composite Signals: Speech, Gesture, Diagrams and Object Demonstrations Are Integrated in Multimodal Explanations'
-  authors: [Randi A. Engle]
-  year: 2022
-  venue: Unknown venue
-  type: journal
-  category: theory
-  doi: 10.4324/9781315782416-65
-  links: {paper: 'https://doi.org/10.4324/9781315782416-65'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
-
 - id: feng2022tool
   title: A Tool for Extracting 3D Avatar-Ready Gesture Animations from Monocular Videos
   authors: [Andrew Feng, Samuel Shin, Youngwoo Yoon]
@@ -530,11 +544,11 @@
   title: 12. The pragmatics of gesture and space
   authors: [Ellen Fricke]
   year: 2022
-  venue: Unknown venue
+  venue: Pragmatics of Space
   type: book
   category: theory
   doi: 10.1515/9783110693713-012
-  links: {paper: 'https://doi.org/10.1515/9783110693713-012'}
+  links: {paper: 'https://www.degruyter.com/document/doi/10.1515/9783110693713-012/html'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1034,6 +1048,20 @@
   verified: false
   area: psycholinguistics
 
+- id: morgenstern2021gesture
+  title: Gesture in Language
+  authors: [Aliyah Morgenstern, Susan Goldin-Meadow]
+  year: 2022
+  venue: 'Gesture in Language: Development Across the Lifespan'
+  type: book
+  category: theory
+  doi: 10.1515/9783110567526
+  links: {paper: 'https://www.degruyterbrill.com/document/doi/10.1515/9783110567526/html'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
 - id: nair2022technology
   title: New Technology, Language and Gesture in Contemporary Indian Political Discourse
   authors: [Rukmini Bhaya Nair]
@@ -1233,11 +1261,11 @@
   title: 'Motion and Meaning: Data-Driven Analyses of The Relationship Between Gesture and Communicative Semantics'
   authors: [Carolyn Saund, Haley Matuszak, Anna Weinstein, Stacy Marsella]
   year: 2022
-  venue: Unknown venue
-  type: journal
+  venue: HAI 2022 (Proceedings of the 10th International Conference on Human-Agent Interaction)
+  type: conference
   category: theory
   doi: 10.1145/3527188.3561941
-  links: {paper: 'https://doi.org/10.1145/3527188.3561941'}
+  links: {paper: 'https://dl.acm.org/doi/abs/10.1145/3527188.3561941'}
   added: '2026-10-03'
   checked: abstract
   verified: false

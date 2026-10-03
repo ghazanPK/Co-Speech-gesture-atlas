@@ -322,11 +322,11 @@
   title: 11. Creativity in the forms and functions of spontaneous gestures with speech
   authors: [Alan J. Cienki, Irene Mittelberg]
   year: 2013
-  venue: Unknown venue
+  venue: Creativity and the Agile Mind (De Gruyter Mouton)
   type: book
   category: theory
   doi: 10.1515/9783110295290.231
-  links: {paper: 'https://doi.org/10.1515/9783110295290.231'}
+  links: {paper: 'https://www.degruyterbrill.com/document/doi/10.1515/9783110295290.231/html?lang=en'}
   added: '2026-10-03'
   checked: metadata
   verified: false
@@ -572,11 +572,11 @@
   title: '46. Towards a unified grammar of gesture and speech: A multimodal approach'
   authors: [Ellen Fricke]
   year: 2013
-  venue: Unknown venue
+  venue: 'Body - Language - Communication: An International Handbook on Multimodality in Human Interaction, Vol. 1'
   type: book
   category: theory
   doi: 10.1515/9783110261318.733
-  links: {paper: 'https://doi.org/10.1515/9783110261318.733'}
+  links: {paper: 'https://www.degruyter.com/document/doi/10.1515/9783110261318.733/html'}
   added: '2026-10-03'
   checked: metadata
   verified: false
@@ -765,11 +765,11 @@
   title: 52. Experimental methods in co-speech gesture research
   authors: [Judith Holler]
   year: 2013
-  venue: Unknown venue
+  venue: 'Body - Language - Communication: An International Handbook on Multimodality in Human Interaction, Vol. 1'
   type: book
   category: theory
   doi: 10.1515/9783110261318.837
-  links: {paper: 'https://doi.org/10.1515/9783110261318.837'}
+  links: {paper: 'https://www.degruyterbrill.com/document/doi/10.1515/9783110261318.837/html?lang=en'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -999,6 +999,19 @@
   verified: false
   area: development
 
+- id: liu2013correlation
+  title: The Correlation of speech and hand gestures for multimodal web interaction
+  authors: [Jing Liu, Manolya Kavakli]
+  year: 2013
+  venue: WORLDCOMP 2013
+  type: conference
+  category: theory
+  links: {paper: 'https://researchers.mq.edu.au/en/publications/the-correlation-of-speech-and-hand-gestures-for-multimodal-web-in'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: macedonia2013learning
   title: Learning a Second Language Naturally the Voice Movement Icon Approach
   authors: [Manuela Macedonia]
@@ -1049,11 +1062,11 @@
   title: 32. The co-evolution of gesture and speech, and downstream consequences
   authors: [David Moreno McNeill]
   year: 2013
-  venue: Unknown venue
+  venue: 'Body - Language - Communication: An International Handbook on Multimodality in Human Interaction, Vol. 1'
   type: book
   category: theory
   doi: 10.1515/9783110261318.480
-  links: {paper: 'https://doi.org/10.1515/9783110261318.480'}
+  links: {paper: 'https://www.degruyterbrill.com/document/doi/10.1515/9783110261318.480/html?lang=en'}
   added: '2026-10-03'
   checked: metadata
   verified: false
@@ -1063,11 +1076,11 @@
   title: 8. The growth point hypothesis of language and gesture as a dynamic and integrated system
   authors: [David M. McNeill]
   year: 2013
-  venue: Unknown venue
+  venue: 'Body - Language - Communication: An International Handbook on Multimodality in Human Interaction, Vol. 1'
   type: book
   category: theory
   doi: 10.1515/9783110261318.135
-  links: {paper: 'https://doi.org/10.1515/9783110261318.135'}
+  links: {paper: 'https://www.degruyterbrill.com/document/doi/10.1515/9783110261318.135/html?lang=en'}
   added: '2026-10-03'
   checked: metadata
   verified: false
@@ -1077,11 +1090,11 @@
   title: '47. The exbodied mind: Cognitive-semiotic principles as motivating forces in gesture'
   authors: [Irene Mittelberg]
   year: 2013
-  venue: Unknown venue
+  venue: 'Body - Language - Communication: An International Handbook on Multimodality in Human Interaction, Vol. 1'
   type: book
   category: theory
   doi: 10.1515/9783110261318.755
-  links: {paper: 'https://doi.org/10.1515/9783110261318.755'}
+  links: {paper: 'https://www.degruyterbrill.com/document/doi/10.1515/9783110261318.755/html'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1120,11 +1133,11 @@
   title: '3. Gestures and speech from a linguistic perspective: A new field and its history'
   authors: [F. Max Müller, Silva H. Ladewig, Jana Bressem]
   year: 2013
-  venue: Unknown venue
+  venue: 'Body - Language - Communication: An International Handbook on Multimodality in Human Interaction, Vol. 1'
   type: book
   category: theory
   doi: 10.1515/9783110261318.55
-  links: {paper: 'https://doi.org/10.1515/9783110261318.55'}
+  links: {paper: 'https://www.degruyterbrill.com/document/doi/10.1515/9783110261318.55/html'}
   added: '2026-10-03'
   checked: metadata
   verified: false

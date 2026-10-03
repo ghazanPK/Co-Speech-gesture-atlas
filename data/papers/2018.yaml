@@ -159,11 +159,11 @@
   title: Gestures and gesturing on the African continent
   authors: [Heather Brookes]
   year: 2018
-  venue: Unknown venue
+  venue: The Routledge Handbook of African Linguistics
   type: book
   category: theory
   doi: 10.4324/9781315392981-23
-  links: {paper: 'https://doi.org/10.4324/9781315392981-23'}
+  links: {paper: 'https://www.taylorfrancis.com/chapters/edit/10.4324/9781315392981-23/gestures-gesturing-african-continent-heather-brookes'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -299,11 +299,11 @@
   title: 'Restraining and encouraging the use of hand gestures: Effects on speech'
   authors: [Alice Cravotta, María Grazia Busà, Pilar Prieto]
   year: 2018
-  venue: Unknown venue
-  type: journal
+  venue: Speech Prosody 2018
+  type: conference
   category: theory
   doi: 10.21437/speechprosody.2018-42
-  links: {paper: 'https://doi.org/10.21437/speechprosody.2018-42'}
+  links: {paper: 'https://www.isca-archive.org/speechprosody_2018/cravotta18_speechprosody.html'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -559,6 +559,19 @@
   category: theory
   doi: 10.1017/9781108265065
   links: {paper: 'https://doi.org/10.1017/9781108265065'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
+- id: harrison2018impulseb
+  title: 'The Impulse to Gesture: Where Language, Minds, and Bodies Intersect'
+  authors: [Simon Harrison]
+  year: 2018
+  venue: 'The Impulse to Gesture: Where Language, Minds, and Bodies Intersect'
+  type: book
+  category: theory
+  links: {paper: 'https://www.cambridge.org/us/universitypress/subjects/languages-linguistics/sign-language/impulse-gesture-where-language-minds-and-bodies-intersect'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1110,11 +1123,11 @@
   title: The Automatic Annotation of the Semiotic Type of Hand Gestures in Obama’ s Humorous Speeches
   authors: [Costanza Navarretta]
   year: 2018
-  venue: Unknown venue
-  type: journal
+  venue: LREC 2018
+  type: conference
   category: theory
   doi: 10.63317/529up4ibamzw
-  links: {paper: 'https://doi.org/10.63317/529up4ibamzw'}
+  links: {paper: 'https://aclanthology.org/L18-1172.pdf'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1152,11 +1165,11 @@
   title: 'Role of gesture in language processing: Towards a unified account for production and comprehension'
   authors: [Asli Ozyurek]
   year: 2018
-  venue: Unknown venue
-  type: journal
+  venue: The Oxford Handbook of Psycholinguistics (2nd ed.)
+  type: book
   category: theory
   doi: 10.1093/oxfordhb/9780198786825.013.25
-  links: {paper: 'https://doi.org/10.1093/oxfordhb/9780198786825.013.25'}
+  links: {paper: 'https://academic.oup.com/edited-volume/34648/chapter-abstract/295226678?redirectedFrom=fulltext'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1231,20 +1244,6 @@
   checked: abstract
   verified: false
   area: cognition
-
-- id: pouw2018entrainment
-  title: Entrainment and Modulation of Gesture–Speech Synchrony Under Delayed Auditory Feedback
-  authors: [Wim T. J. L. Pouw, James A. Dixon]
-  year: 2018
-  venue: Cognitive Science
-  type: journal
-  category: theory
-  doi: 10.1111/cogs.12721
-  links: {paper: 'https://doi.org/10.1111/cogs.12721'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
 
 - id: pouw2018gesture
   title: Does gesture strengthen sensorimotor knowledge of objects? The case of the size-weight illusion
@@ -1509,11 +1508,11 @@
   title: Gesture as a Window Onto Conceptualization in Second Language Acquisition
   authors: [Gale A. Stam]
   year: 2018
-  venue: Unknown venue
+  venue: The Routledge Handbook of Sociocultural Theory and Second Language Development
   type: book
   category: theory
   doi: 10.4324/9781315624747-11
-  links: {paper: 'https://doi.org/10.4324/9781315624747-11'}
+  links: {paper: 'https://www.taylorfrancis.com/chapters/edit/10.4324/9781315624747-11/gesture-window-onto-conceptualization-second-language-acquisition-gale-stam'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1579,11 +1578,11 @@
   title: 'Making Meaning from Multimodality: Embodied Communication in a Business Pitch Setting'
   authors: [Rowena Viney, Jean Siobhan Clarke, Joep Cornelissen]
   year: 2018
-  venue: Unknown venue
+  venue: 'The SAGE Handbook of Qualitative Business and Management Research Methods: Methods and Challenges'
   type: book
   category: theory
   doi: 10.4135/9781526430236.n18
-  links: {paper: 'https://doi.org/10.4135/9781526430236.n18'}
+  links: {paper: 'https://uk.sagepub.com/en-gb/eur/the-sage-handbook-of-qualitative-business-and-management-research-methods/book259056'}
   added: '2026-10-03'
   checked: abstract
   verified: false

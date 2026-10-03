@@ -114,6 +114,20 @@
   verified: false
   area: linguistics
 
+- id: engle2022channels
+  title: 'Not Channels But Composite Signals: Speech, Gesture, Diagrams and Object Demonstrations Are Integrated in Multimodal Explanations'
+  authors: [Randi A. Engle]
+  year: 1998
+  venue: CogSci (Proceedings of the Twentieth Annual Conference of the Cognitive Science Society)
+  type: conference
+  category: theory
+  doi: 10.4324/9781315782416-65
+  links: {paper: 'https://www.taylorfrancis.com/chapters/edit/10.4324/9781315782416-65/channels-composite-signals-speech-gesture-diagrams-object-demonstrations-integrated-multimodal-explanations-randi-engle'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: fex1998gestures
   title: The use of gestures as a compensatory strategy in adults with acquired aphasia compared to children with specific language impairment (SLI)
   authors: [Bibi Fex, Ann-Christin Månsson]

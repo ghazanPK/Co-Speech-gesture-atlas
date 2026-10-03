@@ -862,11 +862,11 @@
   title: Multimodality and forensic linguistics* Multimodal aspects of victim’s narrative in direct examination
   authors: [Gregory M. Matoesian]
   year: 2010
-  venue: Unknown venue
+  venue: The Routledge Handbook of Forensic Linguistics
   type: book
   category: theory
   doi: 10.4324/9780203855607-53
-  links: {paper: 'https://doi.org/10.4324/9780203855607-53'}
+  links: {paper: 'https://www.taylorfrancis.com/chapters/edit/10.4324/9780203855607-53/multimodality-forensic-linguistics-multimodal-aspects-victim-narrative-direct-examination-gregory-matoesian'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1060,11 +1060,11 @@
   title: 'Gesture and speech coordination: the influence of the relationship between manual gesture and speech'
   authors: [Benjamin Roustan, Marion Dohen]
   year: 2010
-  venue: Unknown venue
-  type: journal
+  venue: Interspeech 2010
+  type: conference
   category: theory
   doi: 10.21437/interspeech.2010-207
-  links: {paper: 'https://doi.org/10.21437/interspeech.2010-207'}
+  links: {paper: 'https://www.isca-archive.org/interspeech_2010/roustan10_interspeech.html'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1074,11 +1074,11 @@
   title: 'Co-production of contrastive prosodic focus and manual gestures: temporal coordination and effects on the acoustic and articulatory correlates of focus'
   authors: [Benjamin Roustan, Marion Dohen]
   year: 2010
-  venue: Unknown venue
-  type: journal
+  venue: Speech Prosody 2010
+  type: conference
   category: theory
   doi: 10.21437/speechprosody.2010-246
-  links: {paper: 'https://doi.org/10.21437/speechprosody.2010-246'}
+  links: {paper: 'https://www.isca-archive.org/speechprosody_2010/roustan10_speechprosody.html'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1317,11 +1317,11 @@
   title: Where are you pointing?
   authors: [Nelson L. Wong, Carl A. Gutwin]
   year: 2010
-  venue: Unknown venue
-  type: journal
+  venue: CHI 2010 (Proceedings of the SIGCHI Conference on Human Factors in Computing Systems)
+  type: conference
   category: theory
   doi: 10.1145/1753326.1753480
-  links: {paper: 'https://doi.org/10.1145/1753326.1753480'}
+  links: {paper: 'https://dl.acm.org/doi/10.1145/1753326.1753480'}
   added: '2026-10-03'
   checked: abstract
   verified: false

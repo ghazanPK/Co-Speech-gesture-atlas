@@ -163,11 +163,11 @@
   title: 'DEGELS1: A comparable corpus of French Sign Language and co-speech gestures'
   authors: [Annelies Braffort, Leïla Boutora]
   year: 2012
-  venue: Unknown venue
-  type: journal
+  venue: LREC
+  type: conference
   category: theory
   doi: 10.63317/5dgbo563rhvs
-  links: {paper: 'https://doi.org/10.63317/5dgbo563rhvs'}
+  links: {paper: 'https://lrec.elra.info/lrec2012-main-432'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -261,11 +261,11 @@
   title: Some Uses of Head Tilts and Shoulder Shrugs during Human Interaction, and Their Relation to Stancetaking
   authors: [Camille Debras, Alan J. Cienki]
   year: 2012
-  venue: Unknown venue
-  type: journal
+  venue: ASE/IEEE International Conference on Social Computing (SocialCom/PASSAT)
+  type: conference
   category: theory
   doi: 10.1109/socialcom-passat.2012.136
-  links: {paper: 'https://doi.org/10.1109/socialcom-passat.2012.136'}
+  links: {paper: 'http://ieeexplore.ieee.org/document/6406348/'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -303,11 +303,11 @@
   title: Gesture-plus-word combinations, transitional forms, and language development
   authors: [M. Fasolo, L. D’odorico]
   year: 2012
-  venue: Unknown venue
+  venue: Gesture
   type: journal
   category: theory
   doi: 10.1075/gest.12.1.01fas
-  links: {paper: 'https://doi.org/10.1075/gest.12.1.01fas'}
+  links: {paper: 'http://www.jbe-platform.com/content/journals/10.1075/gest.12.1.01fas'}
   added: '2026-10-03'
   checked: metadata
   verified: false
@@ -321,6 +321,19 @@
   type: book
   category: theory
   links: {paper: 'https://eric.ed.gov/?id=ED549144'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
+- id: ferre2012criteres
+  title: Crit`eres de segmentation de la gestualit'e co-verbale (Segmentation criteria for the annotation of co-speech gestures) [in French]
+  authors: [Gaëlle Ferré]
+  year: 2012
+  venue: JEP-TALN-RECITAL 2012 Workshop DEGELS (Defi GEste Langue des Signes)
+  type: workshop
+  category: theory
+  links: {paper: 'https://aclanthology.org/W12-1202/'}
   added: '2026-10-03'
   checked: metadata
   verified: false
@@ -427,11 +440,11 @@
   title: Bilingualism and Gesture
   authors: [Marianne Gullberg]
   year: 2012
-  venue: Unknown venue
-  type: journal
+  venue: The Handbook of Bilingualism and Multilingualism, 2nd ed. (Wiley-Blackwell)
+  type: book
   category: theory
   doi: 10.1002/9781118332382.ch17
-  links: {paper: 'https://doi.org/10.1002/9781118332382.ch17'}
+  links: {paper: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/9781118332382.ch17'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -777,11 +790,11 @@
   title: Influencing gestural representation of eventualities
   authors: [Magdalena Lis]
   year: 2012
-  venue: Unknown venue
-  type: journal
+  venue: ICMI 2012
+  type: conference
   category: theory
   doi: 10.1145/2388676.2388733
-  links: {paper: 'https://doi.org/10.1145/2388676.2388733'}
+  links: {paper: 'https://dl.acm.org/doi/10.1145/2388676.2388733'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -889,11 +902,11 @@
   title: 'Nonverbal Communication: Science and Applications'
   authors: [David Matsumoto, Mark Gregory Frank, Hyisung C. Hwang]
   year: 2012
-  venue: Unknown venue
+  venue: 'Nonverbal Communication: Science and Applications (SAGE)'
   type: book
   category: theory
   doi: 10.4135/9781452244037
-  links: {paper: 'https://doi.org/10.4135/9781452244037'}
+  links: {paper: 'https://sk.sagepub.com/book/edvol/nonverbal-communication/toc'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1194,6 +1207,19 @@
   checked: abstract
   verified: false
   area: psycholinguistics
+
+- id: smyrnaiou2012interactive
+  title: Interactive Movement and Talk in Generating Meanings from Science
+  authors: [Zacharoula Smyrnaiou, Chronis Kynigos]
+  year: 2012
+  venue: Bulletin of the IEEE Technical Committee on Learning Technology
+  type: journal
+  category: theory
+  links: {paper: 'https://www.ieeetclt.org/issues/october2012/Smyrnaiou.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
 
 - id: stec2012meaningful
   title: Meaningful shifts

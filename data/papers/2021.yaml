@@ -58,34 +58,6 @@
   verified: false
   area: linguistics
 
-- id: beaupoilhourdel2021embodying
-  title: '7 Embodying Language Complexity: Co-Speech Gestures Between Age 3 and 4'
-  authors: [Pauline Beaupoil-Hourdel]
-  year: 2021
-  venue: Unknown venue
-  type: book
-  category: theory
-  doi: 10.1515/9783110567526-007
-  links: {paper: 'https://doi.org/10.1515/9783110567526-007'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: development
-
-- id: beaupoilhourdel2021embodyingb
-  title: 'Embodying language complexity: Co-speech gestures between age 3 and 4.'
-  authors: [Pauline Beaupoil-Hourdel]
-  year: 2021
-  venue: Unknown venue
-  type: book
-  category: theory
-  doi: 10.1037/0000269-007
-  links: {paper: 'https://doi.org/10.1037/0000269-007'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: development
-
 - id: bhattacharya2021speech2affectivegestures
   title: 'Speech2AffectiveGestures: Synthesizing Co-Speech Gestures with Generative Adversarial Affective Expression Learning'
   authors: [Uttaran Bhattacharya, Elizabeth Childs, Nicholas Rewkowski, Dinesh Manocha]
@@ -154,11 +126,11 @@
   title: Repetitions in Gesture
   authors: [Jana Bressem]
   year: 2021
-  venue: Unknown venue
+  venue: 'Repetitions in Gesture: A Cognitive-Linguistic and Usage-Based Perspective'
   type: book
   category: theory
   doi: 10.1515/9783110697902
-  links: {paper: 'https://doi.org/10.1515/9783110697902'}
+  links: {paper: 'https://www.degruyter.com/document/doi/10.1515/9783110697902/html'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -210,11 +182,11 @@
   title: Analyzing Attitudinal Stance in OpenCourseWare Lectures
   authors: [Belinda Crawford Camiciottoli]
   year: 2021
-  venue: Unknown venue
+  venue: Multimodal Literacies Across Digital Learning Contexts
   type: book
   category: theory
   doi: 10.4324/9781003134244-16
-  links: {paper: 'https://doi.org/10.4324/9781003134244-16'}
+  links: {paper: 'https://www.taylorfrancis.com/chapters/edit/10.4324/9781003134244-16/analyzing-attitudinal-stance-opencourseware-lectures-belinda-crawford-camiciottoli'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -322,11 +294,11 @@
   title: Multimodal and Co-Constructed Speech Acts
   authors: [Lori Czerwionka, Sydney Dickerson, Rodrigo Aragon-Bautista]
   year: 2021
-  venue: Unknown venue
+  venue: 'Contexts of Co-Constructed Discourse: Interaction, Pragmatics, and Second Language Applications'
   type: book
   category: theory
   doi: 10.4324/9781003025092-7
-  links: {paper: 'https://doi.org/10.4324/9781003025092-7'}
+  links: {paper: 'https://www.taylorfrancis.com/chapters/edit/10.4324/9781003025092-7/multimodal-co-constructed-speech-acts-lori-czerwionka-sydney-dickerson-rodrigo-aragon-bautista'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -593,6 +565,20 @@
   checked: abstract
   verified: false
   area: perception
+
+- id: hanamoto2020improving
+  title: Improving spatial and temporal attention through the use of spontaneous gestures in dyadic English as lingua franca interactions
+  authors: [Hiroki Hanamoto]
+  year: 2021
+  venue: Second language pragmatics and English language education in East Asia (Routledge)
+  type: book
+  category: theory
+  doi: 10.4324/9781003008903-9
+  links: {paper: 'https://www.taylorfrancis.com/books/9781000225327/chapters/10.4324/9781003008903-9'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
 
 - id: hart2021gesture
   title: Gesture and legitimation in the anti-immigration discourse of Nigel Farage
@@ -1092,20 +1078,6 @@
   verified: false
   area: psycholinguistics
 
-- id: morgenstern2021gesture
-  title: Gesture in Language
-  authors: [Aliyah Morgenstern, Susan Goldin-Meadow]
-  year: 2021
-  venue: Unknown venue
-  type: book
-  category: theory
-  doi: 10.1515/9783110567526
-  links: {paper: 'https://doi.org/10.1515/9783110567526'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: development
-
 - id: nagi2021automatic
   title: Automatic dataset collection for speech-driven gesture generation
   authors: [Takafumi Nagi, Naoshi Kaneko, Seiya Ito, Kazuhiko Sumi]
@@ -1429,11 +1401,11 @@
   title: Is it Pointless? Modeling and Evaluation of Category Transitions of Spatial Gestures
   authors: [Adam Stogsdill, Grace A. Clark, Aly Ranucci, Thao Phung, Tom Williams]
   year: 2021
-  venue: Unknown venue
-  type: journal
+  venue: HRI 2021 Companion (late-breaking reports)
+  type: conference
   category: theory
   doi: 10.1145/3434074.3447199
-  links: {paper: 'https://doi.org/10.1145/3434074.3447199'}
+  links: {paper: 'https://mirrorlab.mines.edu/publications/stogsdill2021hrilbr/'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1534,15 +1506,15 @@
   verified: false
   area: linguistics
 
-- id: trujillo2021speakers
-  title: Speakers exhibit a multimodal Lombard effect in noise
-  authors: [James P. Trujillo, Aslı Özyürek, Judith Holler, Linda Drijvers]
+- id: trujillo2020evidence
+  title: 'Evidence for a Multimodal Lombard Effect: Speakers modulate not only speech but also gesture to overcome noise'
+  authors: [James P. Trujillo, Asli, Judith Holler, Linda Drijvers]
   year: 2021
   venue: Scientific Reports
   type: journal
   category: theory
   doi: 10.1038/s41598-021-95791-0
-  links: {paper: 'https://doi.org/10.1038/s41598-021-95791-0'}
+  links: {paper: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8373897/'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1963,19 +1935,19 @@
   checked: abstract
   verified: false
 
-- id: zhang2021words
-  title: 'More than words: word predictability, prosody, gesture and mouth movements in natural language comprehension'
+- id: zhang2020word
+  title: Word predictability, prosody, gesture and mouth movements in face-to-face language comprehension
   authors: [Ye Zhang, Diego Frassinelli, Jyrki Tuomainen, Jeremy I Skipper, Gabriella Vigliocco]
   year: 2021
-  venue: Proceedings of the Royal Society B Biological Sciences
-  type: conference
+  venue: Proceedings of the Royal Society B
+  type: journal
   category: theory
   doi: 10.1098/rspb.2021.0500
-  links: {paper: 'https://doi.org/10.1098/rspb.2021.0500'}
+  links: {paper: 'https://discovery.ucl.ac.uk/id/eprint/10131972/'}
   added: '2026-10-03'
   checked: abstract
   verified: false
-  area: psycholinguistics
+  area: neuroscience
 
 - id: zhao2021reveals
   title: TMS Reveals Dynamic Interaction between Inferior Frontal Gyrus and Posterior Middle Temporal Gyrus in Gesture-Speech Semantic Integration

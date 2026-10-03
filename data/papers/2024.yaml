@@ -430,6 +430,20 @@
   checked: full-text
   verified: true
 
+- id: chick2023speech
+  title: Co-speech Gesture Production in Spoken Discourse Among Speakers with Acquired Language Disorders
+  authors: [Isobel Chick, Peter Garrard, Laurel J. Buxbaum, Gabriella Vigliocco]
+  year: 2024
+  venue: Spoken Discourse Impairments in the Neurogenic Populations
+  type: book
+  category: theory
+  doi: 10.1007/978-3-031-45190-4_10
+  links: {paper: 'https://link.springer.com/chapter/10.1007/978-3-031-45190-4_10'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: clinical
+
 - id: cienki2024variable
   title: Variable embodiment of stance-taking and footing in simultaneous interpreting
   authors: [Alan J. Cienki]
@@ -1549,11 +1563,11 @@
   title: The role of multimodal competence in ‘doing EMI lecturing’
   authors: [Balbina Moncada-Comas, Maria Sabaté Dalmau]
   year: 2024
-  venue: Unknown venue
+  venue: Current Trends in EMI and Multimodality in Higher Education (Routledge)
   type: book
   category: theory
   doi: 10.4324/9781003205517-7
-  links: {paper: 'https://doi.org/10.4324/9781003205517-7'}
+  links: {paper: 'https://www.taylorfrancis.com/books/9781003205517/chapters/10.4324/9781003205517-7'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1838,11 +1852,11 @@
   title: Multimodality and contingency teaching
   authors: [Alessandro Rosborough, Jennifer J. Wimmer]
   year: 2024
-  venue: Unknown venue
+  venue: Multimodality across Epistemologies in Second Language Research
   type: book
   category: theory
   doi: 10.4324/9781003355670-5
-  links: {paper: 'https://doi.org/10.4324/9781003355670-5'}
+  links: {paper: 'https://www.taylorfrancis.com/chapters/edit/10.4324/9781003355670-5/multimodality-contingency-teaching-alessandro-rosborough-jennifer-wimmer'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -2019,15 +2033,15 @@
   checked: metadata
   verified: false
 
-- id: urena2024characterizing
-  title: Characterizing iconic gesture during narratives in chronic traumatic brain injury recovery
+- id: urena2023characterizing
+  title: Characterizing iconic gesture during storytelling in chronic TBI recovery
   authors: [Katelyn Urena, Brielle C. Stark]
   year: 2024
   venue: Frontiers in Human Neuroscience
   type: journal
   category: theory
   doi: 10.3389/fnhum.2024.1393284
-  links: {paper: 'https://doi.org/10.3389/fnhum.2024.1393284'}
+  links: {paper: 'https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2024.1393284/full'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -2096,6 +2110,20 @@
   added: '2026-10-03'
   checked: full-text
   verified: true
+
+- id: werner2024movements
+  title: Arm movements increase acoustic markers of expiratory flow
+  authors: [Raphael Werner, Luc P. J. Selen, Wim T. J. L. Pouw]
+  year: 2024
+  venue: Speech Prosody 2024
+  type: conference
+  category: theory
+  doi: 10.21437/speechprosody.2024-143
+  links: {paper: 'https://www.isca-archive.org/speechprosody_2024/werner24_speechprosody.html'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
 
 - id: windle2024llanimation
   title: 'LLAniMAtion: LLAMA Driven Gesture Animation'

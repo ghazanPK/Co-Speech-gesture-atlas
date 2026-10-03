@@ -271,11 +271,11 @@
   title: Variation in the Fine Timing of Co-Speech Gestures Among Bilingual Speakers
   authors: [Kathryn Franich]
   year: 2026
-  venue: Unknown venue
-  type: journal
+  venue: Speech Prosody 2026
+  type: conference
   category: theory
   doi: 10.21437/speechprosody.2026-18
-  links: {paper: 'https://doi.org/10.21437/speechprosody.2026-18'}
+  links: {paper: 'https://www.isca-archive.org/speechprosody_2026/franich26_speechprosody.html'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -376,11 +376,11 @@
   title: Theoretical Aspects of Multimodal Processing
   authors: [Angela Grimminger, Hendrik Buschmeier]
   year: 2026
-  venue: Unknown venue
+  venue: Social Explainable AI
   type: book
   category: theory
   doi: 10.1007/978-981-96-5290-7_18
-  links: {paper: 'https://doi.org/10.1007/978-981-96-5290-7_18'}
+  links: {paper: 'https://link.springer.com/chapter/10.1007/978-981-96-5290-7_18'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -532,11 +532,11 @@
   title: Evaluation of Co-Speech Gesture Tracking Techniques in Naturalistic Interactions
   authors: [Victoria Ivanova, Naomi Harte]
   year: 2026
-  venue: Unknown venue
-  type: journal
+  venue: LREC 2026
+  type: conference
   category: theory
   doi: 10.63317/2k233c5pnfsi
-  links: {paper: 'https://doi.org/10.63317/2k233c5pnfsi'}
+  links: {paper: 'https://aclanthology.org/2026.lrec-1.497/'}
   added: '2026-10-03'
   checked: metadata
   verified: false
@@ -870,6 +870,21 @@
   checked: abstract
   verified: false
 
+- id: maeda2026gesturing
+  title: 'Gesturing Toward Abstraction: Multimodal Convention Formation in Collaborative Physical Tasks'
+  authors: [Kiyosu Maeda, William P. McCarthy, Ching-Yi Tsai, Jeffrey Mu, Haoliang Wang, Robert D. Hawkins, Judith E. Fan, Parastoo Abtahi]
+  year: 2026
+  venue: CHI 2026
+  type: conference
+  category: theory
+  doi: 10.1145/3772318.3790618
+  arxiv: '2602.08914'
+  links: {paper: 'https://dl.acm.org/doi/10.1145/3772318.3790618', open: 'https://arxiv.org/abs/2602.08914'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
+
 - id: mamus2026visuospatial
   title: 'Visuospatial experience shapes the form of gestures: Blind speakers gesture with more precise spatial tracking of motion than sighted speakers'
   authors: [Ezgi Mamus, Mounika Kanakanti, Sho Akamine, Asli Ozyurek]
@@ -897,6 +912,20 @@
   checked: metadata
   verified: false
   area: development
+
+- id: momsen2025influence
+  title: The Influence of Co-Speech Gestures on Speech Envelope Tracking
+  authors: [Jacob Momsen, Ying Choon Wu, Seana Coulson]
+  year: 2026
+  venue: Brain and Language
+  type: journal
+  category: theory
+  doi: 10.1016/j.bandl.2026.105745
+  links: {paper: 'https://pubmed.ncbi.nlm.nih.gov/41887027/'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
 
 - id: momsen2026sensorimotor
   title: The Sensorimotor Account of Multimodal Prosody
@@ -935,6 +964,20 @@
   added: '2026-10-03'
   checked: full-text
   verified: false
+
+- id: morett2025concluding
+  title: 308309A concluding synthesis of the role of gesture in L2 acquisition and pedagogy
+  authors: [Laura M. Morett, Solène Inceoglu]
+  year: 2026
+  venue: Gesture in second language acquisition and pedagogy
+  type: book
+  category: theory
+  doi: 10.1515/9783111568645-015
+  links: {paper: 'https://doi.org/10.1515/9783111568645-015'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
 
 - id: mughal2026miburi
   title: 'MIBURI: Towards Expressive Interactive Gesture Synthesis'
@@ -1314,11 +1357,11 @@
   title: 'Examining the role of prosody and information structure in Hungarian speech and co-speech gestural coordination: An EMA study'
   authors: [Csilla Tatár, Ezra Keshet, Jelena Krivokapić]
   year: 2026
-  venue: Unknown venue
-  type: journal
+  venue: Speech Prosody 2026
+  type: conference
   category: theory
   doi: 10.21437/speechprosody.2026-100
-  links: {paper: 'https://doi.org/10.21437/speechprosody.2026-100'}
+  links: {paper: 'https://www.isca-archive.org/speechprosody_2026/tatar26_speechprosody.html'}
   added: '2026-10-03'
   checked: abstract
   verified: false

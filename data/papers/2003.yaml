@@ -44,34 +44,6 @@
   checked: abstract
   verified: false
 
-- id: caswell2003body
-  title: Body Language for Competent Teachers
-  authors: [Chris Caswell, Sean R. St J. Neill]
-  year: 2003
-  venue: Unknown venue
-  type: book
-  category: theory
-  doi: 10.4324/9780203392690
-  links: {paper: 'https://doi.org/10.4324/9780203392690'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: education
-
-- id: chen2003gesture
-  title: Gesture patterns during speech repairs
-  authors: [L. Chen, Mary P. Harper, Francis K. H. Quek]
-  year: 2003
-  venue: Unknown venue
-  type: journal
-  category: theory
-  doi: 10.1109/icmi.2002.1166985
-  links: {paper: 'https://doi.org/10.1109/icmi.2002.1166985'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: corballis2003hand
   title: 'From Hand to Mouth: The Gestural Origins of Language'
   authors: [Michael C. Corballis]
@@ -128,15 +100,28 @@
   verified: false
   area: linguistics
 
+- id: finlayson2003restriction
+  title: Effects of the restriction of hand gestures on disfluency.
+  authors: [Sheena Finlayson, Victoria Forrest, Robin J. Lickley, Janet Mackenzie Beck]
+  year: 2003
+  venue: DiSS 2003 (Disfluency in Spontaneous Speech Workshop)
+  type: workshop
+  category: theory
+  links: {paper: 'https://www.isca-archive.org/diss_2003/finlayson03_diss.html'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: gibbon2003computational
   title: A computational model of arm gestures in conversation
   authors: [Dafydd Gibbon, Ulrike B. Gut, Benjamin Hell, Karin Looks, Alexandra Thies, Thorsten Trippel]
   year: 2003
-  venue: Unknown venue
-  type: journal
+  venue: Eurospeech 2003
+  type: conference
   category: theory
   doi: 10.21437/eurospeech.2003-182
-  links: {paper: 'https://doi.org/10.21437/eurospeech.2003-182'}
+  links: {paper: 'https://www.isca-archive.org/eurospeech_2003/gibbon03b_eurospeech.html'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -341,11 +326,11 @@
   title: Towards a model of face-to-face grounding
   authors: [Yukiko Nakano, Gabe Reinstein, Tom Stocky, Justine Cassell]
   year: 2003
-  venue: Unknown venue
-  type: journal
+  venue: ACL 2003
+  type: conference
   category: theory
   doi: 10.3115/1075096.1075166
-  links: {paper: 'https://doi.org/10.3115/1075096.1075166'}
+  links: {paper: 'https://aclanthology.org/P03-1070/'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -364,20 +349,6 @@
   checked: metadata
   verified: false
   area: cognition
-
-- id: quek2003gesture
-  title: Gesture cues for conversational interaction in monocular video
-  authors: [Francis K. H. Quek, David Moreno McNeill, Rashid Ansari, Xinfeng Ma, Robert Bryll, Susan Duncan, Karl E. McCullough]
-  year: 2003
-  venue: Unknown venue
-  type: journal
-  category: theory
-  doi: 10.1109/ratfg.1999.799234
-  links: {paper: 'https://doi.org/10.1109/ratfg.1999.799234'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: linguistics
 
 - id: richmond2003nonverbal
   title: Nonverbal Behavior in Interpersonal Relations

@@ -794,6 +794,19 @@
   verified: false
   area: clinical
 
+- id: shattuckhufnagel2007method
+  title: 'A Method for Studying the Time Alignment of Gestures and Prosody in American English: ''Hits'' and Pitch Accents in Academic-Lecture-Style Speech'
+  authors: [Stefanie Shattuck‐Hufnagel, Yelena Yasinnik, Nanette M. Veilleux, Margaret E. L. Renwick]
+  year: 2007
+  venue: Fundamentals of Verbal and Nonverbal Communication and the Biometric Issue (NATO Security through Science Series E, vol. 18)
+  type: book
+  category: theory
+  links: {paper: 'https://ebooks.iospress.nl/volumearticle/8731'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
 - id: skipper2007speech
   title: Speech-associated gestures, Broca’s area, and the human mirror system
   authors: [Jeremy I Skipper, Susan Goldin‐Meadow, Howard C. Nusbaum, Steven L. Small]

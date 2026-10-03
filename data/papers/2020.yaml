@@ -209,11 +209,11 @@
   title: Intrapersonal dependencies in multimodal behavior
   authors: [Pieter A. Blomsma, Guido M. Linders, Julija Vaitonyté, Max M. Louwerse]
   year: 2020
-  venue: Unknown venue
-  type: journal
+  venue: IVA (ACM International Conference on Intelligent Virtual Agents)
+  type: conference
   category: theory
   doi: 10.1145/3383652.3423872
-  links: {paper: 'https://doi.org/10.1145/3383652.3423872'}
+  links: {paper: 'https://research.tilburguniversity.edu/en/publications/intrapersonal-dependencies-in-multimodal-behavior'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -399,11 +399,11 @@
   title: 'Two hands and a tale: When gestures benefit adult narrative comprehension'
   authors: [Nicole Dargue, Naomi Sweller]
   year: 2020
-  venue: Unknown venue
+  venue: Learning and Instruction
   type: journal
   category: theory
   doi: 10.1016/j.learninstruc.2020.101331
-  links: {paper: 'https://doi.org/10.1016/j.learninstruc.2020.101331'}
+  links: {paper: 'https://www.sciencedirect.com/science/article/abs/pii/S0959475219306905'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -579,20 +579,6 @@
   checked: abstract
   verified: false
   area: education
-
-- id: hanamoto2020improving
-  title: Improving spatial and temporal attention through the use of spontaneous gestures in dyadic English as lingua franca interactions
-  authors: [Hiroki Hanamoto]
-  year: 2020
-  venue: Unknown venue
-  type: book
-  category: theory
-  doi: 10.4324/9781003008903-9
-  links: {paper: 'https://doi.org/10.4324/9781003008903-9'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: social-interaction
 
 - id: hanamoto2020occurring
   title: How Do Co-occurring Speech and Gestures Express Meaning in a Dyadic Face-to-Face ELF Interaction?
@@ -1061,11 +1047,11 @@
   title: Empirical Evidence for the Claim That the Vocal Theory of Language Origins and the Gestural Theory of Language Origins Are Not Incompatible with One Another
   authors: [Nobuo Masataka]
   year: 2020
-  venue: Unknown venue
+  venue: 'The Origins of Language Revisited: Differentiation from Music and the Emergence of Neurodiversity and Autism'
   type: book
   category: theory
   doi: 10.1007/978-981-15-4250-3_1
-  links: {paper: 'https://doi.org/10.1007/978-981-15-4250-3_1'}
+  links: {paper: 'https://link.springer.com/book/10.1007/978-981-15-4250-3'}
   added: '2026-10-03'
   checked: metadata
   verified: false
@@ -1103,11 +1089,11 @@
   title: Multimodality in legal interaction
   authors: [Gregory M. Matoesian, Kristin Enola Gilbert]
   year: 2020
-  venue: Unknown venue
+  venue: Routledge book (DOI prefix 10.4324/9780429030581)
   type: book
   category: theory
   doi: 10.4324/9780429030581-20
-  links: {paper: 'https://doi.org/10.4324/9780429030581-20'}
+  links: {paper: 'https://www.taylorfrancis.com/books/9780429641428/chapters/10.4324/9780429030581-20'}
   added: '2026-10-03'
   checked: abstract
   verified: false

@@ -19,11 +19,11 @@
   title: 'Nonverbal and Verbal Communication: Hand Gestures and Facial Displays as Part of Language Use in Face-to-Face Dialogue'
   authors: [Janet Beavin Bavelas, Nicole Chovil]
   year: 2006
-  venue: Unknown venue
+  venue: The SAGE Handbook of Nonverbal Communication
   type: book
   category: theory
   doi: 10.4135/9781412976152.n6
-  links: {paper: 'https://doi.org/10.4135/9781412976152.n6'}
+  links: {paper: 'https://sk.sagepub.com/hnbk/edvol/hdbk_nonverbalcomm/chpt/nonverbal-verbal-communication-hand-gestures-facial'}
   added: '2026-10-03'
   checked: metadata
   verified: false
@@ -526,11 +526,11 @@
   title: Culture and Nonverbal Behavior
   authors: [David Matsumoto]
   year: 2006
-  venue: Unknown venue
+  venue: The SAGE Handbook of Nonverbal Communication
   type: book
   category: theory
   doi: 10.4135/9781412976152.n12
-  links: {paper: 'https://doi.org/10.4135/9781412976152.n12'}
+  links: {paper: 'https://sk.sagepub.com/reference/hdbk_nonverbalcomm/n12.xml'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -807,10 +807,10 @@
   title: Understanding Coverbal Ionic Gestures in Shape Descriptions
   authors: [Timo Sowa]
   year: 2006
-  venue: Unknown venue
-  type: thesis
+  venue: Understanding Coverbal Iconic Gestures in Shape Descriptions (Dissertations in Artificial Intelligence, AKA/IOS Press)
+  type: book
   category: theory
-  links: {paper: 'https://www.amazon.com/Understanding-Coverbal-Descriptions-Dissertations-Artificial/dp/1586035665'}
+  links: {paper: 'https://www.iospress.com/node15242/books/understanding-coverbal-ionic-gestures-in-shape-descriptions'}
   added: '2026-10-03'
   checked: metadata
   verified: false
@@ -875,11 +875,11 @@
   title: 'Not Crazy, Just Talking On The Phone: Gestures And Mobile Phone Conversations'
   authors: [Carolyn Y. Wei]
   year: 2006
-  venue: Unknown venue
-  type: journal
+  venue: IEEE International Professional Communication Conference (IPCC)
+  type: conference
   category: theory
   doi: 10.1109/ipcc.2006.320363
-  links: {paper: 'https://doi.org/10.1109/ipcc.2006.320363'}
+  links: {paper: 'https://ieeexplore.ieee.org/document/4114174/'}
   added: '2026-10-03'
   checked: abstract
   verified: false

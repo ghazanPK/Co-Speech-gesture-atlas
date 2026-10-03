@@ -260,11 +260,11 @@
   title: Are gesture and prosodic prominences always coordinated? Evidence from perception and production
   authors: [Núria Esteve‐Gibert, Ferrán Pons, Laura Bosch, Pilar Prieto]
   year: 2014
-  venue: Unknown venue
-  type: journal
+  venue: Speech Prosody 2014
+  type: conference
   category: theory
   doi: 10.21437/speechprosody.2014-32
-  links: {paper: 'https://doi.org/10.21437/speechprosody.2014-32'}
+  links: {paper: 'https://www.isca-archive.org/speechprosody_2014/'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -288,11 +288,11 @@
   title: '122. Kinesthemes: Morphological complexity in co-speech gestures'
   authors: [Ellen Fricke]
   year: 2014
-  venue: Unknown venue
+  venue: Body - Language - Communication (HSK 38.2), De Gruyter Mouton
   type: book
   category: theory
   doi: 10.1515/9783110302028.1618
-  links: {paper: 'https://doi.org/10.1515/9783110302028.1618'}
+  links: {paper: 'https://www.degruyterbrill.com/document/doi/10.1515/9783110302028.1618/html'}
   added: '2026-10-03'
   checked: metadata
   verified: false
@@ -302,11 +302,11 @@
   title: '125. Syntactic complexity in co-speech gestures: Constituency and recursion'
   authors: [Ellen Fricke]
   year: 2014
-  venue: Unknown venue
+  venue: Body - Language - Communication (HSK 38.2), De Gruyter Mouton
   type: book
   category: theory
   doi: 10.1515/9783110302028.1650
-  links: {paper: 'https://doi.org/10.1515/9783110302028.1650'}
+  links: {paper: 'https://www.degruyterbrill.com/document/doi/10.1515/9783110302028.1650/html'}
   added: '2026-10-03'
   checked: metadata
   verified: false
@@ -818,11 +818,11 @@
   title: '109. Co-speech gestures: Structures and functions'
   authors: [Fridanna Maricchiolo, Stefano De Dominicis, Uberta Ganucci Cancellieri, Angiola Di Conza, Augusto Gnisci, Marino Bonaiuto]
   year: 2014
-  venue: Unknown venue
+  venue: Body - Language - Communication (HSK 38.2), De Gruyter Mouton
   type: book
   category: theory
   doi: 10.1515/9783110302028.1461
-  links: {paper: 'https://doi.org/10.1515/9783110302028.1461'}
+  links: {paper: 'https://www.degruyterbrill.com/document/doi/10.1515/9783110302028.1461/html?lang=en'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1126,6 +1126,19 @@
   verified: false
   area: linguistics
 
+- id: rowbotham2012semantic
+  title: The semantic interplay of speech and co-speech gestures in the description of pain sensations
+  authors: [Samantha J. Rowbotham, Judith Holler, Alison J. Wearden, Donna M. Lloyd]
+  year: 2014
+  venue: Speech Communication
+  type: journal
+  category: theory
+  links: {paper: 'https://www.sciencedirect.com/science/article/abs/pii/S0167639313000447'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
 - id: rowbotham2014externalizing
   title: 'Externalizing the Private Experience of Pain: A Role for Co-Speech Gestures in Pain Communication?'
   authors: [Samantha J. Rowbotham, Donna M. Lloyd, Judith Holler, Alison J. Wearden]
@@ -1171,11 +1184,11 @@
   title: '81. Gestures in native Northern America: Bimodal talk in Arapaho'
   authors: [Richard Sandoval]
   year: 2014
-  venue: Unknown venue
+  venue: Body - Language - Communication (HSK 38.2), De Gruyter Mouton
   type: book
   category: theory
   doi: 10.1515/9783110302028.1215
-  links: {paper: 'https://doi.org/10.1515/9783110302028.1215'}
+  links: {paper: 'https://www.degruyterbrill.com/document/doi/10.1515/9783110302028.1215/html'}
   added: '2026-10-03'
   checked: metadata
   verified: false
@@ -1437,11 +1450,11 @@
   title: Analysis of interaction attitudes using data-driven hand gesture phrases
   authors: [Zhaojun Yang, Angeliki Metallinou, Engin Erzin, Shrikanth S. Narayanan]
   year: 2014
-  venue: Unknown venue
-  type: journal
+  venue: ICASSP 2014
+  type: conference
   category: theory
   doi: 10.1109/icassp.2014.6853686
-  links: {paper: 'https://doi.org/10.1109/icassp.2014.6853686'}
+  links: {paper: 'https://ieeexplore.ieee.org/abstract/document/6853686'}
   added: '2026-10-03'
   checked: abstract
   verified: false

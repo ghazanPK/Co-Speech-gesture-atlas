@@ -89,11 +89,11 @@
   title: A Nod in the Right Direction? Designing a Study to Assess an Instructor's Ability to Interpret Student Comprehension from Nonverbal Communication
   authors: [Brock E. Barry, Daniel Fox, Robert Wendel]
   year: 2015
-  venue: Unknown venue
-  type: journal
+  venue: ASEE Annual Conference & Exposition 2015
+  type: conference
   category: theory
   doi: 10.18260/p.23417
-  links: {paper: 'https://doi.org/10.18260/p.23417'}
+  links: {paper: 'https://peer.asee.org/a-nod-in-the-right-direction-designing-a-study-to-assess-an-instructor-s-ability-to-interpret-student-comprehension-from-nonverbal-communication'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -320,11 +320,11 @@
   title: On gesture and speech
   authors: [M. Gentilucci, D. De Marco, E. De Stefani]
   year: 2015
-  venue: Unknown venue
-  type: journal
+  venue: New Frontiers in Mirror Neurons Research, Oxford University Press
+  type: book
   category: theory
   doi: 10.1093/acprof:oso/9780199686155.003.0008
-  links: {paper: 'https://doi.org/10.1093/acprof:oso/9780199686155.003.0008'}
+  links: {paper: 'https://academic.oup.com/book/6851/chapter/151051391'}
   added: '2026-10-03'
   checked: metadata
   verified: false
@@ -732,11 +732,11 @@
   title: Gesture in Discourse
   authors: [David M. McNeill, Elena T. Levy, Susan Duncan]
   year: 2015
-  venue: Unknown venue
-  type: journal
+  venue: The Handbook of Discourse Analysis
+  type: book
   category: theory
   doi: 10.1002/9781118584194.ch12
-  links: {paper: 'https://doi.org/10.1002/9781118584194.ch12'}
+  links: {paper: 'https://onlinelibrary.wiley.com/doi/10.1002/9781118584194.ch12'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -816,11 +816,11 @@
   title: Pauses delimiting semantic boundaries
   authors: [Costanza Navarretta]
   year: 2015
-  venue: Unknown venue
-  type: journal
+  venue: CogInfoCom 2015
+  type: conference
   category: theory
   doi: 10.1109/coginfocom.2015.7390650
-  links: {paper: 'https://doi.org/10.1109/coginfocom.2015.7390650'}
+  links: {paper: 'https://ieeexplore.ieee.org/document/7390650/'}
   added: '2026-10-03'
   checked: abstract
   verified: false

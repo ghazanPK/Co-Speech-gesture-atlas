@@ -398,11 +398,11 @@
   title: GESTURES AND SECOND LANGUAGE ACQUISITION
   authors: [Marianne Gullberg]
   year: 2008
-  venue: Unknown venue
+  venue: Handbook of Cognitive Linguistics and Second Language Acquisition
   type: book
   category: theory
   doi: 10.4324/9780203938560-21
-  links: {paper: 'https://doi.org/10.4324/9780203938560-21'}
+  links: {paper: 'https://portal.research.lu.se/en/publications/gestures-and-second-language-acquisition-2'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -832,11 +832,11 @@
   title: 'Conversational Pointing Gestures for Virtual Reality Interaction: Implications from an Empirical Study'
   authors: [Thies Pfeiffer, Marc Erich Latoschik, Ipke Wachsmuth]
   year: 2008
-  venue: Unknown venue
-  type: journal
+  venue: IEEE Virtual Reality Conference (IEEE VR)
+  type: conference
   category: theory
   doi: 10.1109/vr.2008.4480801
-  links: {paper: 'https://doi.org/10.1109/vr.2008.4480801'}
+  links: {paper: 'https://downloads.hci.informatik.uni-wuerzburg.de/conversational-pointing-IEEEVR08.pdf'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -898,6 +898,20 @@
   verified: false
   area: linguistics
 
+- id: quinlisk2009nonverbal
+  title: 'Nonverbal Communication, Gesture, and Second Language Classrooms: A Review'
+  authors: [Carla Chamberlin Quinlisk]
+  year: 2008
+  venue: 'Gestures: Second Language Acquisition and Classroom Research'
+  type: book
+  category: theory
+  doi: 10.4324/9780203866993-8
+  links: {paper: 'https://www.taylorfrancis.com/chapters/edit/10.4324/9780203866993-8/nonverbal-communication-gesture-second-language-classrooms-review-carla-chamberlin-quinlisk'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: education
+
 - id: rose2008semantic
   title: The effects of semantic and gesture treatments on verb retrieval and verb use in aphasia
   authors: [Miranda L. Rose, Grace Sussmilch]
@@ -958,11 +972,11 @@
   title: '''Because of her gesture, it''s very easy to understand''- learners'' perceptions of teachers'' gestures in the foreign language class'
   authors: [Daniela Sime]
   year: 2008
-  venue: 'Strathprints: The University of Strathclyde institutional repository (University of Strathclyde)'
+  venue: 'Gesture: Second Language Acquisition and Classroom Research'
   type: book
   category: theory
   doi: 10.4324/9780203866993-22
-  links: {paper: 'https://doi.org/10.4324/9780203866993-22'}
+  links: {paper: 'https://www.taylorfrancis.com/chapters/edit/10.4324/9780203866993-22/gesture-easy-understand-learners-perceptions-teachers-gestures-foreign-language-class-daniela-sime'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1014,11 +1028,11 @@
   title: 'Gesture Studies and Second Language Acquisition: A Review'
   authors: [Gale A. Stam, Steven G. McCafferty]
   year: 2008
-  venue: Unknown venue
-  type: journal
+  venue: 'Gesture: Second Language Acquisition and Classroom Research'
+  type: book
   category: theory
   doi: 10.4324/9780203866993-7
-  links: {paper: 'https://doi.org/10.4324/9780203866993-7'}
+  links: {paper: 'https://www.routledge.com/Gesture-Second-Language-Acquistion-and-Classroom-Research/McCafferty-Stam/p/book/9780805860535'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1098,11 +1112,11 @@
   title: 'Personal and interpersonal gesture spaces: Functional contrasts in language and gesture'
   authors: [Eve E. Sweetser, Marisa L. Sizemore]
   year: 2008
-  venue: Unknown venue
+  venue: 'Language in the Context of Use: Discourse and Cognitive Approaches to Language'
   type: book
   category: theory
   doi: 10.1515/9783110199123.1.25
-  links: {paper: 'https://doi.org/10.1515/9783110199123.1.25'}
+  links: {paper: 'https://www.degruyterbrill.com/document/doi/10.1515/9783110199123.1.25/html'}
   added: '2026-10-03'
   checked: metadata
   verified: false

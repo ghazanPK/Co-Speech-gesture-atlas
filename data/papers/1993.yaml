@@ -30,6 +30,20 @@
   verified: false
   area: development
 
+- id: caswell2003body
+  title: Body Language for Competent Teachers
+  authors: [Chris Caswell, Sean R. St J. Neill]
+  year: 1993
+  venue: Body Language for Competent Teachers (Routledge)
+  type: book
+  category: theory
+  doi: 10.4324/9780203392690
+  links: {paper: 'https://books.google.com/books/about/Body_Language_for_Competent_Teachers.html?id=nNGADKza_ZQC'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
 - id: feyereisen1993hand
   title: 'Hand and Mind: What Gestures Reveal About Thought.'
   authors: [Pierre Feyereisen, David M. McNeill]

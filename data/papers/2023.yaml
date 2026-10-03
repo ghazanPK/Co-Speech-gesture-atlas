@@ -223,20 +223,6 @@
   verified: false
   area: linguistics
 
-- id: chick2023speech
-  title: Co-speech Gesture Production in Spoken Discourse Among Speakers with Acquired Language Disorders
-  authors: [Isobel Chick, Peter Garrard, Laurel J. Buxbaum, Gabriella Vigliocco]
-  year: 2023
-  venue: Unknown venue
-  type: book
-  category: theory
-  doi: 10.1007/978-3-031-45190-4_10
-  links: {paper: 'https://doi.org/10.1007/978-3-031-45190-4_10'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false
-  area: clinical
-
 - id: chui2023visuo
   title: The visuo-sensorimotor substrate of co-speech gesture processing
   authors: [Kawai Chui, Chan-Tat Ng, Ting‐Ting Chang]
@@ -548,11 +534,11 @@
   title: 'Reaching Across the Communication Gap: Evaluating How Augmented Reality Shared Gestural Spaces Impact Gesture and Language Usage'
   authors: [Glen Hordemann, Francis Quek, Larry Powell]
   year: 2023
-  venue: Unknown venue
-  type: journal
+  venue: FIE 2023 (IEEE Frontiers in Education Conference)
+  type: conference
   category: theory
   doi: 10.1109/fie58773.2023.10343016
-  links: {paper: 'https://doi.org/10.1109/fie58773.2023.10343016'}
+  links: {paper: 'https://ieeexplore.ieee.org/document/10343016/'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -614,20 +600,6 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
-
-- id: jam2023cloze
-  title: 'Cloze test: Co-speech hand gestures are used to predict upcoming meaning'
-  authors: ['Holler, J.A.M.', 'ter Bekke, M.E.']
-  year: 2023
-  venue: Unknown venue
-  type: journal
-  category: theory
-  doi: 10.34973/168v-gh93
-  links: {paper: 'https://doi.org/10.34973/168v-gh93'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
 
 - id: jenkins2023gesturespeech
   title: 'Gesture–speech coupling in persons with aphasia: A kinematic-acoustic analysis.'
@@ -833,7 +805,7 @@
   title: Methodological aspects of the analysis of co-speech gestures in intercultural interactions
   authors: [Anna Ladilova]
   year: 2023
-  venue: Unknown venue
+  venue: Multimodal Communication in Intercultural Interaction (Routledge)
   type: book
   category: theory
   doi: 10.4324/9781003227281-6
@@ -979,11 +951,11 @@
   title: The co-use of laughter and head gestures across speech styles
   authors: [Bogdan Ludusan, Marin Schröer, Martina Rossi, Petra Wagner]
   year: 2023
-  venue: Unknown venue
-  type: journal
+  venue: Interspeech 2023
+  type: conference
   category: theory
   doi: 10.21437/interspeech.2023-240
-  links: {paper: 'https://doi.org/10.21437/interspeech.2023-240'}
+  links: {paper: 'https://www.isca-archive.org/interspeech_2023/ludusan23_interspeech.html'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1186,11 +1158,11 @@
   title: Co-Speech Gesture
   authors: [Jan P. de Ruiter]
   year: 2023
-  venue: Unknown venue
+  venue: Language Production (Routledge)
   type: book
   category: theory
   doi: 10.4324/9781003145790-11
-  links: {paper: 'https://doi.org/10.4324/9781003145790-11'}
+  links: {paper: 'https://www.taylorfrancis.com/chapters/edit/10.4324/9781003145790-11/co-speech-gesture-de-ruiter'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1579,11 +1551,11 @@
   title: 'When Gestures and Words Synchronize: Exploring A Human Lecturer''s Multimodal Interaction for the Design of Embodied Pedagogical Agents'
   authors: [Lai Wei, Kenny K. N. Chow]
   year: 2023
-  venue: Unknown venue
-  type: journal
+  venue: CSCW 2023 Companion
+  type: conference
   category: theory
   doi: 10.1145/3584931.3607010
-  links: {paper: 'https://doi.org/10.1145/3584931.3607010'}
+  links: {paper: 'https://dl.acm.org/doi/10.1145/3584931.3607010'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1741,11 +1713,11 @@
   title: 'Spontaneous gestures encoded by hand positions improve language models: An Information-Theoretic motivated study'
   authors: [Xu Yang, Cheng Hong Yang]
   year: 2023
-  venue: Unknown venue
-  type: journal
+  venue: Findings of ACL 2023
+  type: conference
   category: theory
   doi: 10.18653/v1/2023.findings-acl.600
-  links: {paper: 'https://doi.org/10.18653/v1/2023.findings-acl.600'}
+  links: {paper: 'https://aclanthology.org/2023.findings-acl.600/'}
   added: '2026-10-03'
   checked: abstract
   verified: false

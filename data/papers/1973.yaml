@@ -20,11 +20,11 @@
   title: The Language of Gestures
   authors: [Wilhelm Max Wundt]
   year: 1973
-  venue: Unknown venue
+  venue: The Language of Gestures (Approaches to Semiotics 6, Mouton)
   type: book
   category: theory
   doi: 10.1515/9783110808285
-  links: {paper: 'https://doi.org/10.1515/9783110808285'}
+  links: {paper: 'https://www.degruyter.com/document/doi/10.1515/9783110808285/html'}
   added: '2026-10-03'
   checked: metadata
   verified: false

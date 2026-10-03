@@ -2,6 +2,19 @@
 # The README tables are generated from these files. Field rules: docs/SCHEMA.md
 # (enforced by schema/schema.json and scripts/validate.py).
 
+- id: ahlsen2011integrated
+  title: Towards an integrated view of gestures related to speech
+  authors: [Elisabeth Ahlsén]
+  year: 2011
+  venue: 3rd Nordic Symposium on Multimodal Communication (NEALT Proceedings)
+  type: conference
+  category: theory
+  links: {paper: 'https://dspace.ut.ee/bitstreams/56614a44-0b39-41fb-ae1c-82f8d97b3533/download'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
 - id: alahverdzhieva2011hpsg
   title: An HPSG approach to synchronous speech and deixis
   authors: [Katya Alahverdzhieva, Alex Lascarides]
@@ -186,8 +199,8 @@
   title: Studying Gesture
   authors: [Erica A. Cartmill, Özlem Ece Demir, Susan Goldin‐Meadow]
   year: 2011
-  venue: Unknown venue
-  type: journal
+  venue: 'Research Methods in Child Language: A Practical Guide'
+  type: book
   category: theory
   doi: 10.1002/9781444344035.ch14
   links: {paper: 'https://doi.org/10.1002/9781444344035.ch14'}
@@ -794,11 +807,11 @@
   title: Pointing gestures do not influence the perception of lexical stress
   authors: [Alexandra Jesse, Holger Mitterer]
   year: 2011
-  venue: Unknown venue
-  type: journal
+  venue: Interspeech 2011
+  type: conference
   category: theory
   doi: 10.21437/interspeech.2011-586
-  links: {paper: 'https://doi.org/10.21437/interspeech.2011-586'}
+  links: {paper: 'https://www.isca-archive.org/interspeech_2011/jesse11_interspeech.pdf'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -930,6 +943,19 @@
   verified: false
   area: social-interaction
 
+- id: li2011speech
+  title: Do Speech-associated Gesture and Speech Share the Same Communication System?
+  authors: [Ma Li]
+  year: 2011
+  venue: Advances in Psychological Science
+  type: journal
+  category: theory
+  links: {paper: 'https://journal.psych.ac.cn/adps/EN/abstract/abstract1960.shtml'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: lim2011converting
   title: Converting emotional voice to motion for robot telepresence
   authors: [Angelica Lim, Tetsuya Ogata, Hiroshi G. Okuno]
@@ -978,11 +1004,11 @@
   title: 'Pragmatic coherence as a multimodal feature: Illustrative cospeech gestures, events, and states'
   authors: [Marina Lloberes, Lluís Payrató]
   year: 2011
-  venue: Unknown venue
+  venue: The Pragmatics of Catalan
   type: book
   category: theory
   doi: 10.1515/9783110238693.215
-  links: {paper: 'https://doi.org/10.1515/9783110238693.215'}
+  links: {paper: 'https://www.degruyterbrill.com/document/doi/10.1515/9783110238693/html'}
   added: '2026-10-03'
   checked: metadata
   verified: false
@@ -1098,6 +1124,19 @@
   checked: abstract
   verified: false
   area: psycholinguistics
+
+- id: navarretta2011anaphora
+  title: Anaphora and Gestures in Multimodal Communication
+  authors: [Costanza Navarretta]
+  year: 2011
+  venue: Proceedings of the 8th Discourse Anaphora and Anaphor Resolution Colloquium (DAARC 2011)
+  type: conference
+  category: theory
+  links: {paper: 'https://researchprofiles.ku.dk/en/publications/anaphora-and-gestures-in-multimodal-communication/'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: niewiadomski2011crossmedia
   title: Cross-media agent platform

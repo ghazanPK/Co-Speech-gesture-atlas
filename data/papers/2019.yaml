@@ -149,11 +149,11 @@
   title: 'A Synergy Study of Metaphoric Gestures on Rhetorical Behavior Construction: Based on the Corpus of “AI”-themed Public Speeches'
   authors: [Lang Che, Liqin Zha]
   year: 2019
-  venue: Unknown venue
-  type: journal
+  venue: ICMI 2019 workshop NeuroManagement and Intelligent Computing Method on Multimodal Interaction
+  type: workshop
   category: theory
   doi: 10.1145/3357160.3357669
-  links: {paper: 'https://doi.org/10.1145/3357160.3357669'}
+  links: {paper: 'https://dl.acm.org/doi/10.1145/3357160.3357669'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -878,11 +878,11 @@
   title: Do gestures during training facilitate L2 lexical stress acquisition by Dutch learners of Spanish?
   authors: [Lieke van Maastricht, Marieke Hoetjes, Ellen van Drie]
   year: 2019
-  venue: Unknown venue
-  type: journal
+  venue: AVSP 2019
+  type: conference
   category: theory
   doi: 10.21437/avsp.2019-2
-  links: {paper: 'https://doi.org/10.21437/avsp.2019-2'}
+  links: {paper: 'https://www.isca-archive.org/avsp_2019/maastricht19_avsp.html'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1002,11 +1002,11 @@
   title: Form and Function of Hand Gestures for Interpretation and Generation
   authors: [Costanza Navarretta]
   year: 2019
-  venue: Unknown venue
-  type: journal
+  venue: IEEE CogInfoCom 2019
+  type: conference
   category: theory
   doi: 10.1109/coginfocom47531.2019.9089929
-  links: {paper: 'https://doi.org/10.1109/coginfocom47531.2019.9089929'}
+  links: {paper: 'https://ieeexplore.ieee.org/document/9089929/'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1138,6 +1138,20 @@
   checked: metadata
   verified: false
 
+- id: pouw2018delayed
+  title: 'Effects of delayed auditory feedback on gesture-speech synchrony: Pre-registration and exploratory study'
+  authors: [Wim T. J. L. Pouw, James A. Dixon]
+  year: 2019
+  venue: Cognitive Science
+  type: journal
+  category: theory
+  doi: 10.1111/cogs.12721
+  links: {paper: 'https://onlinelibrary.wiley.com/doi/full/10.1111/cogs.12721'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: pouw2019energyb
   title: 'Energy flows in gesture-speech physics: The respiratory-vocal system and its coupling with hand gestures'
   authors: [Wim T. J. L. Pouw, Steven J. Harrison, Núria Esteve‐Gibert, James A. Dixon]
@@ -1253,11 +1267,11 @@
   title: Multiple metaphors in metaphoric gesturing
   authors: [Carolyn Saund, Marion Roth, Mathieu Chollet, Stacy Marsella]
   year: 2019
-  venue: Unknown venue
-  type: journal
+  venue: ACII
+  type: conference
   category: theory
   doi: 10.1109/acii.2019.8925435
-  links: {paper: 'https://doi.org/10.1109/acii.2019.8925435'}
+  links: {paper: 'https://ieeexplore.ieee.org/document/8925435/'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1322,11 +1336,11 @@
   title: A Cognitive Model for the Representation and Processing of Shape-Related Gestures
   authors: [Timo Sowa, Stefan Kopp]
   year: 2019
-  venue: Unknown venue
+  venue: Taylor & Francis book (ISBN 9781315782362)
   type: book
   category: theory
   doi: 10.4324/9781315782362-144
-  links: {paper: 'https://doi.org/10.4324/9781315782362-144'}
+  links: {paper: 'https://www.taylorfrancis.com/books/9781317708292/chapters/10.4324/9781315782362-144'}
   added: '2026-10-03'
   checked: abstract
   verified: false
