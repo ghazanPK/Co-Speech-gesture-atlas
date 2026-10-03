@@ -878,6 +878,19 @@
   verified: false
   area: education
 
+- id: mcneill2015gesturec
+  title: 'Why We Gesture: The Surprising Role of Hand Movements in Communication'
+  authors: [David M. McNeill]
+  year: 2016
+  venue: 'Why We Gesture: The Surprising Role of Hand Movements in Communication'
+  type: book
+  category: theory
+  links: {paper: 'https://books.google.com/books/about/Why_We_Gesture.html?id=fHLjCgAAQBAJ'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: mondada2016challenges
   title: 'Challenges of multimodality: Language and the body in social interaction'
   authors: [Lorenza Mondada]

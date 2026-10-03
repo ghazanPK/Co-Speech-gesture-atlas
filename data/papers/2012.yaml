@@ -2,6 +2,19 @@
 # The README tables are generated from these files. Field rules: docs/SCHEMA.md
 # (enforced by schema/schema.json and scripts/validate.py).
 
+- id: alahverdzhieva2012multimodal
+  title: Multimodal Grammar Implementation
+  authors: [Katya Alahverdzhieva, Dan Flickinger, Alex Lascarides]
+  year: 2012
+  venue: NAACL HLT 2012
+  type: conference
+  category: theory
+  links: {paper: 'https://aclanthology.org/N12-1070/'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: alamillo2012gesture
   title: 'Gesture and language in narratives and explanations: the effects of age and communicative activity on late multimodal discourse development'
   authors: [Asela Reig Alamillo, Jean-Marc Colletta, Michèle Guidetti]
@@ -257,6 +270,19 @@
   verified: false
   area: linguistics
 
+- id: dancygier2015viewpoint
+  title: 'Viewpoint in Language: A Multimodal Perspective'
+  authors: [Barbara Dancygier, Eve E. Sweetser]
+  year: 2012
+  venue: 'Viewpoint in Language: A Multimodal Perspective'
+  type: book
+  category: theory
+  links: {paper: 'https://books.google.com/books/about/Viewpoint_in_Language.html?id=4-aeCs5GijMC'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: debras2012uses
   title: Some Uses of Head Tilts and Shoulder Shrugs during Human Interaction, and Their Relation to Stancetaking
   authors: [Camille Debras, Alan J. Cienki]
@@ -270,20 +296,6 @@
   checked: abstract
   verified: false
   area: social-interaction
-
-- id: dick2012frontal
-  title: Frontal and temporal contributions to understanding the iconic co‐speech gestures that accompany speech
-  authors: [Anthony Steven Dick, Eva H. Mok, Anjali Raja Beharelle, Susan Goldin‐Meadow, Steven L. Small]
-  year: 2012
-  venue: Human Brain Mapping
-  type: journal
-  category: theory
-  doi: 10.1002/hbm.22222
-  links: {paper: 'https://doi.org/10.1002/hbm.22222'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: neuroscience
 
 - id: estevegibert2012prosodic
   title: Prosodic Structure Shapes the Temporal Realization of Intonation and Manual Gesture Movements
@@ -330,7 +342,7 @@
   title: Crit`eres de segmentation de la gestualit'e co-verbale (Segmentation criteria for the annotation of co-speech gestures) [in French]
   authors: [Gaëlle Ferré]
   year: 2012
-  venue: JEP-TALN-RECITAL 2012 Workshop DEGELS (Defi GEste Langue des Signes)
+  venue: JEP-TALN-RECITAL 2012 Workshop DEGELS
   type: workshop
   category: theory
   links: {paper: 'https://aclanthology.org/W12-1202/'}
@@ -912,15 +924,15 @@
   verified: false
   area: social-interaction
 
-- id: mcneill2012languageb
-  title: How Language Began
-  authors: [David Moreno McNeill]
+- id: mcneill2012language
+  title: 'How Language Began: Gesture and Speech in Human Evolution'
+  authors: [David M. McNeill]
   year: 2012
-  venue: Cambridge University Press eBooks
+  venue: 'How Language Began: Gesture and Speech in Human Evolution'
   type: book
   category: theory
   doi: 10.1017/cbo9781139108669
-  links: {paper: 'https://doi.org/10.1017/cbo9781139108669'}
+  links: {paper: 'https://www.cambridge.org/core/product/identifier/9781139108669/type/book'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1138,6 +1150,19 @@
   checked: abstract
   verified: false
   area: neuroscience
+
+- id: rosario2012acquisition
+  title: 'Acquisition of gestures in prelinguistic communication: a theoretical approach Aquisição dos gestos na comunicação pré-linguística: uma abordagem teórica'
+  authors: [Etelvina do Rosário, Silva Lima, Anabela Cruz‐Santos]
+  year: 2012
+  venue: Revista da Sociedade Brasileira de Fonoaudiologia
+  type: journal
+  category: theory
+  links: {paper: 'https://www.scielo.br/scielo.php?script=sci_abstract&pid=S1516-80342012000400022&lng=pt&nrm=iso&tlng=en'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
 
 - id: rowe2012pictures
   title: The role of pictures and gestures as nonverbal aids in preschoolers’ word learning in a novel language

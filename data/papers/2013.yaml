@@ -16,6 +16,32 @@
   verified: false
   area: clinical
 
+- id: ahlsen2013whats
+  title: What's in a gesture? On verbs; nouns; actions and objects as reflected in gestures of persons with and without aphasia
+  authors: [Elisabeth Ahlsén, Jens Allwood]
+  year: 2013
+  venue: 4th Nordic Symposium on Multimodal Communication (NEALT Proceedings)
+  type: workshop
+  category: theory
+  links: {paper: 'https://ep.liu.se/ecp/093/003/ecp12093003.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: clinical
+
+- id: alexanderson2013extracting
+  title: Extracting and analysing co-speech head gestures from motion-capture data
+  authors: [Simon Alexanderson, David House, Jonas Beskow]
+  year: 2013
+  venue: Fonetik 2013
+  type: conference
+  category: theory
+  links: {paper: 'https://roberteklund.info/conferences/fonetik2013/pdf/Fonetik2013_Proceedings.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: alibali2013students
   title: Students learn more when their teacher has learned to gesture effectively
   authors: [Martha Wagner Alibali, Andrew G. Young, Noelle M. Crooks, Amelia Yeo, Matthew S. Wolfgram, Iasmine M. Ledesma, Mitchell J. Nathan, Ruth Breckinridge Church, Eric Knuth]
@@ -1003,10 +1029,10 @@
   title: The Correlation of speech and hand gestures for multimodal web interaction
   authors: [Jing Liu, Manolya Kavakli]
   year: 2013
-  venue: WORLDCOMP 2013
+  venue: WORLDCOMP 2013 (World Congress in Computer Science, Computer Engineering, and Applied Computing)
   type: conference
   category: theory
-  links: {paper: 'https://researchers.mq.edu.au/en/publications/the-correlation-of-speech-and-hand-gestures-for-multimodal-web-in'}
+  links: {paper: 'http://worldcomp-proceedings.com/proc/p2013/EEE3414.pdf'}
   added: '2026-10-03'
   checked: abstract
   verified: false

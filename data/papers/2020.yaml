@@ -838,6 +838,20 @@
   checked: metadata
   verified: false
 
+- id: krishnaswamy2020formal
+  title: A Formal Analysis of Multimodal Referring Strategies Under Common Ground
+  authors: [Nikhil Krishnaswamy, James D. Pustejovsky]
+  year: 2020
+  venue: LREC 2020
+  type: conference
+  category: theory
+  arxiv: '2003.07385'
+  links: {paper: 'https://aclanthology.org/2020.lrec-1.725/', open: 'https://arxiv.org/abs/2003.07385'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: kruzic2020facial
   title: Facial expressions contribute more than body movements to conversational outcomes in avatar-mediated virtual environments
   authors: [Catherine Oh Kruzic, David Kruzic, Fernanda Herrera, Jeremy N. Bailenson]

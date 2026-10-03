@@ -426,6 +426,19 @@
   verified: false
   area: neuroscience
 
+- id: furman2010early
+  title: Early language-specificity in Turkish children's caused motion event expressions in speech and gesture
+  authors: [Reyhan Furman, Aslı Özyürek, Ayli̇n C. Küntay]
+  year: 2010
+  venue: Proceedings of the 34th Boston University Conference on Language Development
+  type: conference
+  category: theory
+  links: {paper: 'https://www.mpi.nl/publications/item124726/early-language-specificity-turkish-childrens-caused-motion-event'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
 - id: galati2010speech
   title: The role of speech-gesture congruency and delay in remembering action events
   authors: [Alexia Galati, Arthur G. Samuel]

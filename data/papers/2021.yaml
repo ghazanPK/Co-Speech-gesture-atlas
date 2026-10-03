@@ -1514,7 +1514,7 @@
   type: journal
   category: theory
   doi: 10.1038/s41598-021-95791-0
-  links: {paper: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC8373897/'}
+  links: {paper: 'https://www.nature.com/articles/s41598-021-95791-0'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -1943,7 +1943,7 @@
   type: journal
   category: theory
   doi: 10.1098/rspb.2021.0500
-  links: {paper: 'https://discovery.ucl.ac.uk/id/eprint/10131972/'}
+  links: {paper: 'https://discovery.ucl.ac.uk/id/eprint/10131972/1/rspb.2021.0500.pdf'}
   added: '2026-10-03'
   checked: abstract
   verified: false

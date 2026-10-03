@@ -99,6 +99,19 @@
   verified: false
   area: development
 
+- id: campana2005real
+  title: Real-time integration of gesture and speech during reference resolution
+  authors: [Ellen Campana, Michael K. Tanenhaus, Loisa Bennetto, Stephanie Packard]
+  year: 2005
+  venue: Proceedings of the 27th Annual Meeting of the Cognitive Science Society (CogSci 2005)
+  type: conference
+  category: theory
+  links: {paper: 'https://www.academia.edu/2739101/Newell_Simon_Hall_5000_Forbes_Avenue_Pittsburgh_PA_15213_USA'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: capirci2005action
   title: From action to language through gesture
   authors: [Olga Capirci, Annarita Contaldo, María Cristina Caselli, Virginia Volterra]
@@ -309,6 +322,19 @@
   checked: abstract
   verified: false
   area: cognition
+
+- id: heylen2005challenges
+  title: 'Challenges ahead: head movements and other social acts during conversations'
+  authors: [Dirk Heylen]
+  year: 2005
+  venue: AISB'05 Joint Symposium on Virtual Social Agents
+  type: workshop
+  category: theory
+  links: {paper: 'https://aisb.org.uk/wp-content/uploads/2019/12/10_Virt_Final.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: social-interaction
 
 - id: hustad2005aided
   title: Aided and Unaided Speech Supplementation Strategies

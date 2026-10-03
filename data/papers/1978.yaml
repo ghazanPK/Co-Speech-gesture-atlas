@@ -43,3 +43,16 @@
   checked: abstract
   verified: false
   area: psycholinguistics
+
+- id: lock1978action
+  title: 'Action, gesture, and symbol : the emergence of language'
+  authors: [Andrew Lock]
+  year: 1978
+  venue: 'Action, Gesture and Symbol: The Emergence of Language (Academic Press)'
+  type: book
+  category: theory
+  links: {paper: 'https://www.amazon.com/Action-Gesture-Symbol-Emergence-Language/dp/0124540503'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: development

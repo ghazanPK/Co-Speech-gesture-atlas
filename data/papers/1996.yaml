@@ -114,6 +114,19 @@
   verified: false
   area: development
 
+- id: kendon2007agenda
+  title: An Agenda for Gesture Studies
+  authors: [Adam Kendon]
+  year: 1996
+  venue: Semiotic Review of Books
+  type: journal
+  category: theory
+  links: {paper: 'http://projects.chass.utoronto.ca/semiotics/srb/gesture.html'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
 - id: krauss1996nonverbal
   title: 'Nonverbal Behavior and Nonverbal Communication: What do Conversational Hand Gestures Tell Us?'
   authors: [Robert M. Krauss, Yihsiu Chen, Purnima Chawla]

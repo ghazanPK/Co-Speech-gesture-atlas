@@ -256,6 +256,20 @@
   verified: false
   area: development
 
+- id: dick2016human
+  title: r Human Brain Mapping 35:900–917 (2014) r Frontal and Temporal Contributions to Understanding the Iconic Co-Speech Gestures That Accompany Speech
+  authors: [Anthony Steven Dick, Eva H. Mok, Anjali Raja Beharelle, Susan Goldin‐Meadow, Steven L. Small]
+  year: 2014
+  venue: Human Brain Mapping
+  type: journal
+  category: theory
+  doi: 10.1002/hbm.22222
+  links: {paper: 'https://www.semanticscholar.org/paper/Frontal-and-temporal-contributions-to-understanding-Dick-Mok/efbf06134add6c0817b844175d99e25c3c7aad6e'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: neuroscience
+
 - id: estevegibert2014gesture
   title: Are gesture and prosodic prominences always coordinated? Evidence from perception and production
   authors: [Núria Esteve‐Gibert, Ferrán Pons, Laura Bosch, Pilar Prieto]
@@ -703,6 +717,19 @@
   verified: false
   area: psycholinguistics
 
+- id: lis2014classifying
+  title: Classifying the form of iconic hand gestures from the linguistic categorization of co-occurring verbs
+  authors: [Magdalena Lis, Costanza Navarretta]
+  year: 2014
+  venue: 1st European Symposium on Multimodal Communication (MMSym 2013), Linkoping Electronic Conference Proceedings 101
+  type: conference
+  category: theory
+  links: {paper: 'https://ep.liu.se/konferensartikel.aspx?series=ecp&issue=101&Article_No=5'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: lucero2014beat
   title: Beat gestures facilitate speech production.
   authors: [Ché Lucero, Holly A. Zaharchuk, Daniel J. Casasanto]
@@ -883,6 +910,19 @@
   checked: abstract
   verified: false
   area: clinical
+
+- id: mathew2014hand
+  title: A Study of Hand Gestures in Adult Speakers of Malayalam
+  authors: [Mili Mary Mathew]
+  year: 2014
+  venue: Language in India
+  type: journal
+  category: theory
+  links: {paper: 'http://languageinindia.com/oct2014/milimalayalamgesturesfinal.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
 
 - id: mcneill2014gesturespeech
   title: Gesture–speech unity
@@ -1207,6 +1247,19 @@
   checked: abstract
   verified: false
   area: social-interaction
+
+- id: schreer2014coding
+  title: Coding Hand Movement Behavior and Gesture with NEUROGES Supported by Automatic Video Analysis
+  authors: [Oliver Schreer, Stefano Masneri, Harald Skomroch, Hedda Lausberg, Fraunhofer Heinrich]
+  year: 2014
+  venue: Measuring Behavior 2014
+  type: conference
+  category: theory
+  links: {paper: 'https://archive.measuringbehavior.org/mb2014/proceedings.html'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
 
 - id: seyfeddinipur2014gesture
   title: From Gesture in Conversation to Visible Action as Utterance

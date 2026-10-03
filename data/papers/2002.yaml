@@ -412,6 +412,19 @@
   verified: false
   area: development
 
+- id: nicoladis2002encoding
+  title: 'Encoding motion in gestures and speech: are there differences in bilingual children''s French and English'
+  authors: [Elena Nicoladis, Frank Brisard]
+  year: 2002
+  venue: 'Space in Language: Proceedings of the 31st Stanford Child Language Research Forum (CSLI Publications)'
+  type: conference
+  category: theory
+  links: {paper: 'https://web.stanford.edu/group/cslipublications/cslipublications/CLRF/2002/CLRF-2002-toc.html'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
 - id: nicoladis2002gestures
   title: 'Some Gestures Develop in Conjunction with Spoken Language Development and Others Don''t: Evidence from Bilingual Preschoolers'
   authors: [Elena Nicoladis]
@@ -517,6 +530,19 @@
   type: book
   category: theory
   links: {paper: 'http://ci.nii.ac.jp/ncid/BA5662678X'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
+- id: poyatos2002nonverbalc
+  title: 'Nonverbal Communication across Disciplines: Volume 2: Paralanguage, kinesics, silence, personal and environmental interaction'
+  authors: [Fernando Poyatos]
+  year: 2002
+  venue: Nonverbal Communication across Disciplines, Volume 2 (John Benjamins)
+  type: book
+  category: theory
+  links: {paper: 'https://benjamins.com/catalog/z.ncad2.c5'}
   added: '2026-10-03'
   checked: abstract
   verified: false

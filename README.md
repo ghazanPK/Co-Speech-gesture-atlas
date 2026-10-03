@@ -3,7 +3,7 @@
 A maintained, structured map of research on co-speech gesture generation: papers, datasets, metrics and code, with a comparison row per paper rather than a bare link.
 
 <!-- BEGIN:stats -->
-**621 papers on gesture generation**, **2001 on gesture theory** and **82 theses** (1965–2026), 69 datasets, 36 metrics. 219 records were filled from the full text, 2121 from the abstract only (†), 364 from bibliographic metadata only (‡). 132 have been independently verified.
+**621 papers on gesture generation**, **2025 on gesture theory** and **82 theses** (1965–2026), 69 datasets, 36 metrics. 219 records were filled from the full text, 2142 from the abstract only (†), 367 from bibliographic metadata only (‡). 132 have been independently verified.
 <!-- END:stats -->
 
 ## Contents

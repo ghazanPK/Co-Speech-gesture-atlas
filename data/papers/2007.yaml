@@ -849,6 +849,19 @@
   verified: false
   area: linguistics
 
+- id: swerts2007acoustic
+  title: Acoustic effects of visual beats
+  authors: [Marc G. J. Swerts, Emiel Krahmer]
+  year: 2007
+  venue: AVSP 2007 (Auditory-Visual Speech Processing)
+  type: conference
+  category: theory
+  links: {paper: 'https://www.isca-archive.org/avsp_2007/swerts07_avsp.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: theune2007guide
   title: 'The virtual guide: a direction giving embodied conversational agent'
   authors: [Mariët Theune, Dennis H. W. Hofs, Marco van Kessel]

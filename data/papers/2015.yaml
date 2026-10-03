@@ -512,6 +512,19 @@
   verified: false
   area: cognition
 
+- id: house2015temporal
+  title: 'On the temporal domain of co-speech gestures: syllable, phrase or talk spurt?'
+  authors: [David House, Simon Alexanderson, Jonas Beskow]
+  year: 2015
+  venue: Fonetik 2015
+  type: conference
+  category: theory
+  links: {paper: 'http://kth.diva-portal.org/smash/record.jsf?pid=diva2%3A893729'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: klooster2015gestures
   title: Gestures make memories, but what kind? Patients with impaired procedural memory display disruptions in gesture production and comprehension
   authors: [Nathaniel B. Klooster, Susan Wagner Cook, Ergun Y. Uc, Melissa Collins Duff]
@@ -1006,6 +1019,19 @@
   checked: abstract
   verified: false
   area: clinical
+
+- id: pastena2015talking
+  title: 'Talking and gesturing: Relationships between spoken language and coverbal gesture'
+  authors: [Angela Di Pastena, Loris Schiaratura, Françoise Askevis-Leherpeux]
+  year: 2015
+  venue: L'Annee psychologique
+  type: journal
+  category: theory
+  links: {paper: 'https://www.cairn-int.info/article-E_ANPSY_153_0463--talking-and-gesturing-relationships.htm'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
 
 - id: peeters2015electrophysiol
   title: Electrophysiological and Kinematic Correlates of Communicative Intent in the Planning and Production of Pointing Gestures and Speech

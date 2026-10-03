@@ -1122,6 +1122,19 @@
   verified: false
   area: linguistics
 
+- id: taleghaninikazm2008gestures
+  title: 'Gestures in Foreign LanguageClassrooms: An Empirical Analysis of Their Organization and Function'
+  authors: [Carmen Taleghani‐Nikazm]
+  year: 2008
+  venue: Selected Proceedings of the 2007 Second Language Research Forum
+  type: conference
+  category: theory
+  links: {paper: 'https://www.lingref.com/cpp/slrf/2007/paper1747.pdf'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: education
+
 - id: tellier2008gestures
   title: The effect of gestures on second language memorisation by young children
   authors: [Marion Tellier]

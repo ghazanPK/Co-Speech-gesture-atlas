@@ -239,6 +239,19 @@
   verified: false
   area: linguistics
 
+- id: gullberg1998gestureb
+  title: Gesture as a communication strategy in second language discourse
+  authors: [Marianne Gullberg]
+  year: 1998
+  venue: Gesture as a communication strategy in second language discourse (Lund University Press)
+  type: book
+  category: theory
+  links: {paper: 'https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/abs/gesture-as-a-communication-strategy-in-second-language-discourse-a-study-of-learners-of-french-and-swedishmarianne-gullberg-lund-sweden-lund-university-press-1998-pp-253/E3DE9BEDAF2562DE9713A2120B8E8E8B'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: linguistics
+
 - id: hadar1998gesture
   title: 'Gesture and the Processing of Speech: Neuropsychological Evidence'
   authors: [Uri Hadar, D. Wenkert-Olenik, Robert K. Krauss, Nachum Soroker]

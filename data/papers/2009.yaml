@@ -303,6 +303,19 @@
   verified: false
   area: neuroscience
 
+- id: enfield2009anatomy
+  title: 'The anatomy of meaning: Speech, gesture, and composite utterances'
+  authors: [N. J. Enfield]
+  year: 2009
+  venue: 'The anatomy of meaning: Speech, gesture, and composite utterances (Cambridge University Press)'
+  type: book
+  category: theory
+  links: {paper: 'https://www.mpi.nl/publications/item66263/anatomy-meaning-speech-gesture-and-composite-utterances'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: enfield2009composite
   title: Composite utterances
   authors: [N. J. Enfield]

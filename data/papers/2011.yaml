@@ -6,10 +6,10 @@
   title: Towards an integrated view of gestures related to speech
   authors: [Elisabeth Ahlsén]
   year: 2011
-  venue: 3rd Nordic Symposium on Multimodal Communication (NEALT Proceedings)
+  venue: Proceedings of the 3rd Nordic Symposium on Multimodal Communication (NEALT Proceedings Series 15)
   type: conference
   category: theory
-  links: {paper: 'https://dspace.ut.ee/bitstreams/56614a44-0b39-41fb-ae1c-82f8d97b3533/download'}
+  links: {paper: 'https://dspace.ut.ee/handle/10062/22549'}
   added: '2026-10-03'
   checked: abstract
   verified: false
@@ -999,6 +999,19 @@
   checked: abstract
   verified: false
   area: neuroscience
+
+- id: liu2011temporal
+  title: Temporal relation between speech and co-verbal iconic gestures in multimodal interface design
+  authors: [Jing Liu, Manolya Kavakli]
+  year: 2011
+  venue: GESPIN 2011 (Gesture and Speech in Interaction)
+  type: conference
+  category: theory
+  links: {paper: 'https://researchers.mq.edu.au/en/publications/temporal-relation-between-speech-and-co-verbal-iconic-gestures-in'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: psycholinguistics
 
 - id: lloberes2011pragmatic
   title: 'Pragmatic coherence as a multimodal feature: Illustrative cospeech gestures, events, and states'
