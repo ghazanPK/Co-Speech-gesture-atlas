@@ -1,0 +1,1118 @@
+{
+  "source_commit": "8878e5f85511053c9ec32b14bcd86b5c69b9539d",
+  "inputs_sha256": {
+    "data/papers/1965.yaml": "5502cc50d2fee04fc61bfbf86fb858ec6556ffb0ab536fb6654ba3d21a625d3a",
+    "data/papers/1966.yaml": "62ba4a1b57a9ef5d334c1f05b852b9decc10b3b5b5f424cd5c2a508d4bd3e5fd",
+    "data/papers/1969.yaml": "acfca801f44dfabc46a4f03090c34b5d3cf3e1fca1402073487237e30c6fbb67",
+    "data/papers/1971.yaml": "2c137583037c4db67c5bcbc0db44913f71b4731e675d44ab158e5cf4bb38f243",
+    "data/papers/1972.yaml": "8a9d566c034c2a959fd0b9ead8e03c23484a29c1a4e089a8a748aba5d4c90a2b",
+    "data/papers/1973.yaml": "16292f34bc78262ed216139e9742fb8ea85261bf5c2fdaa594ba9098e08d92b1",
+    "data/papers/1974.yaml": "47cbe00b258adad61b03e58d952e9a63234c043d7b05ada76ef217271500c97c",
+    "data/papers/1975.yaml": "87d6a29f8e6d88a4520123ab97ed1ba83a992f2359d287d618194b2c2f199c66",
+    "data/papers/1976.yaml": "2a7d6d9121fe2e1358936f6c9ff782fc48ae09141d77bb42272db70a2ed5ac41",
+    "data/papers/1977.yaml": "b2e2e8eb037eb7b8cc670acdcc1cf737abc22f2e0c2a73b557a0be623c15eb21",
+    "data/papers/1978.yaml": "fe7fa417e3e7b6a4a14fa0fa7f73d688f1a78d7daf1f1ed98d7082990143b34b",
+    "data/papers/1979.yaml": "fbff132d2b27c6b7ba5c1f7a5a8ff7acc4c2461b7e50de4feb276e98ec7b2d8f",
+    "data/papers/1980.yaml": "1826403f43f1214690f6b59c158930bdab88023e39918e9d2c109ae847c5626d",
+    "data/papers/1981.yaml": "5201cd0db30c070a6ac818d767d2b26c561f1c48c55fcdfedea9234ad773dcd2",
+    "data/papers/1982.yaml": "85667ee10437abbf890b68ff391d2a294f47e437aaaf3331d8006d6816e37f68",
+    "data/papers/1983.yaml": "d86f32192b0392947ec4d711f6f850b44a52446627ed49191414bdb38728b213",
+    "data/papers/1984.yaml": "8fc9dfc879c4091c757018309e95674826b33d3eadb96228fecb04287f289280",
+    "data/papers/1985.yaml": "9dd51238bd85e4573d1bd0116a8e2fd9084ce7f8c23ad3d3601824e482121ddd",
+    "data/papers/1986.yaml": "75a57f6bcbcbd0a7edee810d3842c8a691b6f3888f3cdb57bb9c080ce7360075",
+    "data/papers/1987.yaml": "b662fd82471d5791f8f1850c3b1f965e3c4bce5e0d298d2f1312ad7369e68577",
+    "data/papers/1988.yaml": "2d06c9f829839bc5f6a1ba50ca9396203890bcf4c5fbd7c07f78bb87bbb2a53f",
+    "data/papers/1989.yaml": "ba4db651b0d18fda951ab16715f3351c5fa98655fda52cff562e2c1569979a00",
+    "data/papers/1990.yaml": "7cc125bbdf21c5ec89a1563a2c1f19a9326e6a701e01fa108530e06dfb4288fd",
+    "data/papers/1991.yaml": "b9b6a1d51df410c2525cea365864a07db8d0142b7c8b58586314ed09fe373f17",
+    "data/papers/1992.yaml": "c848841c62a8a709d9fe2d793f5bc031c9fa5b32607c0d7bead360ae7d86559c",
+    "data/papers/1993.yaml": "f1ecb196fe75643f3b57f8e097a65fe547039d1f406efb24f9780fc2446f7297",
+    "data/papers/1994.yaml": "5f7ddd7bc0585b976e857ae909dd80a21c624c56add3b21b301a2ed51ec65fa9",
+    "data/papers/1995.yaml": "29d2e07edac8ec8998c784b16cddfec3240ace71faea8b051efee6e6204b0d3d",
+    "data/papers/1996.yaml": "abe196f83d801c33f920a966592a3fa98608552886e8c0ebfb4f2d9133dce62a",
+    "data/papers/1997.yaml": "bb009eaa502978ac12e7ed29739f448713c2f60e7747c386ad2064a0119397b0",
+    "data/papers/1998.yaml": "48eeaebad0ade47ebf8ff4ea86750f7cc0a1ccd9ea18c666072ba339d67c39a4",
+    "data/papers/1999.yaml": "2803bdf94bd1823c1f345d5abcacd4e40b19da219dcb1126c6de631f01f81acd",
+    "data/papers/2000.yaml": "0e1836889c08b0933e008e3de425351036671914f916bd89001c7f9185afd8d9",
+    "data/papers/2001.yaml": "91eea2dfdfd20c2f9531ee2cf6931628540eaea56852b3ad4120a6bed2b17762",
+    "data/papers/2002.yaml": "739dd7bf62ceb819cbc6f51d7b8eb538ea7fad5909f937acf4f47596ecd618cb",
+    "data/papers/2003.yaml": "06ccbb8568a791d4d030e7d57fffa211752c09bb202ccce2d1548e3e1e680305",
+    "data/papers/2004.yaml": "7844eabbedd76a89511aa56eefe01e73e9564f92a29dad5f356ba44b3294a177",
+    "data/papers/2005.yaml": "1685c4e38a8d8b8f0f936766b2598538b86aa2e5e488a1cbc61cbc586c1d4cae",
+    "data/papers/2006.yaml": "8d93495928a9fd10086630fe00e297168ba378bca6bf6beee3901ff752943950",
+    "data/papers/2007.yaml": "4599a09016d9aee94e64dedf78bcb944df8c9047a4c5ef2aa17a631ee254b3bb",
+    "data/papers/2008.yaml": "5c801301b9a669b8f1a62e6af1dffa1fa99f7a9edbbd22476bbd6e438fe48c7c",
+    "data/papers/2009.yaml": "cb2b024222a7d49e0c38a724f15a979d384486886a098419998e9bff2c9d5e5f",
+    "data/papers/2010.yaml": "3b2730edac4a1fc2a02b12fe1cfa2d01ce5b9999b7eabded5e03d76c36aab730",
+    "data/papers/2011.yaml": "a2ff6e8bd2e705b22f1042e3522ea62fb797fc3fee300bffb536260cf413fc88",
+    "data/papers/2012.yaml": "ee446640e025ae2550f95b324644f251eacf817e439f86da1e31aba5413c1295",
+    "data/papers/2013.yaml": "4bc9c39d5f5cb29079015d4c4d1b6ade4b41e97a6a04b69a1d82000381d21db0",
+    "data/papers/2014.yaml": "f110d6a50c6c64b75fb01be9ee4cbd4f18102991071a7300391778946ac4117e",
+    "data/papers/2015.yaml": "9b9736041e955970d9eb51a0e1d16cfedea2e9a64ea5bccb29757ca3564dd67e",
+    "data/papers/2016.yaml": "531a7dd2f0065c56542259729ae2713c8049a64e279ab156b9f9b16e39c24552",
+    "data/papers/2017.yaml": "c5fbf25599738ddbf0fcffbc6b7edc314ed4bae7085d3ddb6374a477e7b3abf9",
+    "data/papers/2018.yaml": "c3f1e1efc022954d33a73b565c754c2bb6976c4d4eb7d8d2c47c781a8a88692c",
+    "data/papers/2019.yaml": "0b0f7f03a4d49aaf8a7ad9d67a1df865bc7a55771988b41fe39b3d364f60de5b",
+    "data/papers/2020.yaml": "3d2ba4c8c42c814962c449293213ac835ea3dff5748280b09e557c21a94a1410",
+    "data/papers/2021.yaml": "0db0c27eae8a38c584df8cf3514f5910dfa9809156ad551f03b54b14881b0ef2",
+    "data/papers/2022.yaml": "131be0d970e6ffd070f305a8cff7f2479b0d7d543fa2d70210c216075876e79f",
+    "data/papers/2023.yaml": "3946dd91ec04ad0e00f33c6f02de2c34a42a3cfe6c59a16b5acc301b41d2fa4e",
+    "data/papers/2024.yaml": "16222bba7ea290f8b1b6f9f022d77190fa490f1b16633d26fa9ddac85a1db554",
+    "data/papers/2025.yaml": "69fa86ac2259b6c54ce8bfa6eaf8c1ebb02f84bedea6a70b38267faeaf1e1b0d",
+    "data/papers/2026.yaml": "d45122f17545236ddae53de306cf9441ee3aa09d75ae3aa5a7e36ea60ceabb55",
+    "data/citations.csv": "2453635d875c3ed57f0868950dafa35c817cfc0bf45b3b214820d8bbc1c7d231",
+    "data/application_usages.json": "a02bb80d1cbd0d45a6c69c07ba6b04dbae76bdb55df957a1d537684b30bf7dcf",
+    "data/datasets.yaml": "b0699675080b06c1d856d51fa502f2b4d068182d2b8c0316a773c32f1093eefc",
+    "data/metrics.yaml": "f21b26843e9731b9f5d0e5954abcd52e5fcb8089b8c938b155af5090cb4cfcb3"
+  },
+  "collection": {
+    "snapshot_date": "2026-10-12",
+    "latest_record_added": "2026-10-03",
+    "years": [
+      1965,
+      2026
+    ],
+    "papers": 2690,
+    "generation": 619,
+    "theory": 1989,
+    "theses": 82,
+    "datasets": 69,
+    "metrics": 36,
+    "citations": 32161,
+    "with_code": 77,
+    "verified": 132,
+    "reading": {
+      "full-text": 219,
+      "abstract": 2120,
+      "metadata": 351
+    },
+    "audit_date": "2026-10-03",
+    "audit_coverage": {
+      "method_paper_records": 302,
+      "paper_identities": 275,
+      "method_records": 59,
+      "method_groups": 35
+    },
+    "usage": {
+      "methods": 17,
+      "groups": 13,
+      "papers": 57,
+      "online": 13,
+      "author_online": 3,
+      "application_methods": 28,
+      "application_groups": 22,
+      "application_papers": 77,
+      "repeated_methods": 10,
+      "repeated_groups": 8,
+      "repeated_method_ids": [
+        "ali2020rule",
+        "cassell2001beat",
+        "lee2006nonverbal",
+        "lhommet2015cerebella",
+        "marsella2013virtual",
+        "meena2012integration",
+        "pelachaud2009studies",
+        "tuyen2020conditional",
+        "yang2023qpgesture",
+        "yi2023talkshow"
+      ],
+      "used_methods_in_repeated_groups": 16
+    },
+    "usage_groups": [
+      {
+        "family": "Cassell / Vilhjalmsson / Bickmore: BEAT and REA",
+        "years": "1999–2008",
+        "functional": 32,
+        "online": 6,
+        "prepared": 6,
+        "timing_unknown": 20,
+        "author_online": 0,
+        "other_applications": 5,
+        "comparison": 1,
+        "candidates": 35,
+        "platform": 8,
+        "components": 4,
+        "unresolved": 9
+      },
+      {
+        "family": "Marsella / USC ICT: NVBG, Cerebella and learned gestures",
+        "years": "2006–2015",
+        "functional": 7,
+        "online": 0,
+        "prepared": 5,
+        "timing_unknown": 2,
+        "author_online": 0,
+        "other_applications": 3,
+        "comparison": 1,
+        "candidates": 6,
+        "platform": 5,
+        "components": 1,
+        "unresolved": 5
+      },
+      {
+        "family": "Meena / WikiTalk",
+        "years": "2012",
+        "functional": 6,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 6,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 0,
+        "unresolved": 2
+      },
+      {
+        "family": "Ali / Hwang and collaborators: rule-map lineage",
+        "years": "2020–2025",
+        "functional": 3,
+        "online": 3,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 3,
+        "other_applications": 2,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 0,
+        "unresolved": 0
+      },
+      {
+        "family": "Tuyen / Chong / Celiktutan: cGAN lineage",
+        "years": "2020",
+        "functional": 2,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 2,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 0,
+        "unresolved": 0
+      },
+      {
+        "family": "Pelachaud / Greta and collaborators",
+        "years": "2002–2023",
+        "functional": 1,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 1,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 3,
+        "candidates": 3,
+        "platform": 2,
+        "components": 1,
+        "unresolved": 6
+      },
+      {
+        "family": "Kopp / Wachsmuth and collaborators: Max, ACE, MURML and robot realization",
+        "years": "2002–2012",
+        "functional": 1,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 1,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 2,
+        "platform": 0,
+        "components": 14,
+        "unresolved": 3
+      },
+      {
+        "family": "Gesture controllers",
+        "years": "2010",
+        "functional": 1,
+        "online": 1,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 0,
+        "unresolved": 0
+      },
+      {
+        "family": "Kucherenko / Henter and collaborators: autoencoder and Gesticulator",
+        "years": "2019–2020",
+        "functional": 1,
+        "online": 1,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 1,
+        "unresolved": 1
+      },
+      {
+        "family": "The virtual guide: a direction giving embodied conversational agent",
+        "years": "2007",
+        "functional": 1,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 1,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 0,
+        "unresolved": 0
+      },
+      {
+        "family": "Wake / Microsoft Research: concept-to-gesture lineage",
+        "years": "2022",
+        "functional": 1,
+        "online": 1,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 0,
+        "unresolved": 0
+      },
+      {
+        "family": "Yoon / ETRI: trimodal gestures",
+        "years": "2020",
+        "functional": 1,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 1,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 0,
+        "unresolved": 0
+      },
+      {
+        "family": "Zabala / Rodriguez / Lazkano: storyteller lineage",
+        "years": "2022",
+        "functional": 1,
+        "online": 1,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 0,
+        "unresolved": 0
+      },
+      {
+        "family": "Nakano / CAST",
+        "years": "2004",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 1,
+        "platform": 6,
+        "components": 0,
+        "unresolved": 0
+      },
+      {
+        "family": "AMUSE",
+        "years": "2024",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 1,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 0,
+        "unresolved": 0
+      },
+      {
+        "family": "Accurate Synchronization of Gesture and Speech for Conversational Agents using Motion Graphs",
+        "years": "2014",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 1,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 0,
+        "unresolved": 0
+      },
+      {
+        "family": "Aly / Tapus and collaborators",
+        "years": "2013–2020",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 1,
+        "candidates": 0,
+        "platform": 0,
+        "components": 0,
+        "unresolved": 1
+      },
+      {
+        "family": "Automatic generation of gaze and gestures for dialogues between embodied conversational agents",
+        "years": "2008",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 1,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 0,
+        "unresolved": 0
+      },
+      {
+        "family": "BML / SAIBA infrastructure",
+        "years": "2006–2007",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 45,
+        "unresolved": 2
+      },
+      {
+        "family": "EMAGE",
+        "years": "2024",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 1,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 0,
+        "unresolved": 0
+      },
+      {
+        "family": "Easy development of communicative behaviors in social robots",
+        "years": "2010",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 3,
+        "unresolved": 2
+      },
+      {
+        "family": "EchoMimicV2: Towards Striking, Simplified, and Semi-Body Human Animation",
+        "years": "2025",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 0,
+        "unresolved": 1
+      },
+      {
+        "family": "Elckerlyc / Twente infrastructure",
+        "years": "2010",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 8,
+        "unresolved": 0
+      },
+      {
+        "family": "From Audio to Photoreal Embodiment: Synthesizing Humans in Conversations",
+        "years": "2024",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 1,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 0,
+        "unresolved": 0
+      },
+      {
+        "family": "GERT: Transformers for Co-speech Gesture Prediction in Social Robots",
+        "years": "2023",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 1,
+        "components": 0,
+        "unresolved": 0
+      },
+      {
+        "family": "Gesture modeling and animation based on a probabilistic re-creation of speaker style",
+        "years": "2008",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 1,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 0,
+        "unresolved": 0
+      },
+      {
+        "family": "Huang / Mutlu: narrative gestures",
+        "years": "2013",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 5,
+        "unresolved": 1
+      },
+      {
+        "family": "Providing route directions",
+        "years": "2009",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 1,
+        "unresolved": 1
+      },
+      {
+        "family": "QPGesture",
+        "years": "2023",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 1,
+        "comparison": 1,
+        "candidates": 0,
+        "platform": 0,
+        "components": 0,
+        "unresolved": 0
+      },
+      {
+        "family": "REAL-TIME ANIMATION OF INTERACTIVE AGENTS: SPECIFICATION AND REALIZATION",
+        "years": "2010",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 2,
+        "unresolved": 0
+      },
+      {
+        "family": "SmartBody animation infrastructure",
+        "years": "2008",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 30,
+        "unresolved": 3
+      },
+      {
+        "family": "TalkSHOW / MPI and collaborators",
+        "years": "2023",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 2,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 2,
+        "unresolved": 0
+      },
+      {
+        "family": "The TTS-driven affective embodied conversational agent EVA, based on a novel conversational-behavior generation algorithm",
+        "years": "2016",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 0,
+        "unresolved": 3
+      },
+      {
+        "family": "Towards a Framework for Social Robot Co-speech Gesture Generation with Semantic Expression",
+        "years": "2022",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 0,
+        "comparison": 0,
+        "candidates": 0,
+        "platform": 0,
+        "components": 1,
+        "unresolved": 1
+      },
+      {
+        "family": "ZeroEGGS and FrameCage streaming lineage",
+        "years": "2023–2024",
+        "functional": 0,
+        "online": 0,
+        "prepared": 0,
+        "timing_unknown": 0,
+        "author_online": 0,
+        "other_applications": 1,
+        "comparison": 1,
+        "candidates": 0,
+        "platform": 0,
+        "components": 0,
+        "unresolved": 0
+      }
+    ]
+  },
+  "citations": {
+    "snapshot_date": "2026-10-12",
+    "definition": "Citation concentration measures the share of recorded within-atlas citation edges received by the most-cited records. It does not measure author self-citation or a causal effect.",
+    "raw_edges": 32161,
+    "unique_edges": 32161,
+    "chronology_conflicts": 238,
+    "all": {
+      "records": 2690,
+      "incoming_edges": 32161,
+      "records_with_incoming": 2072,
+      "records_with_outgoing": 2120,
+      "top10_edges": 2497,
+      "top10_share_percent": 7.76,
+      "top10": [
+        {
+          "id": "mcneill2005gesture",
+          "title": "Gesture and Thought",
+          "year": 2005,
+          "venue": "Gesture and Thought",
+          "category": "theory",
+          "code_link": false,
+          "citations": 410
+        },
+        {
+          "id": "kita2003cross",
+          "title": "What does cross-linguistic variation in semantic coordination of speech and gesture reveal?: Evidence for an interface representation of spatial thinking and speaking",
+          "year": 2003,
+          "venue": "Journal of Memory and Language",
+          "category": "theory",
+          "code_link": false,
+          "citations": 326
+        },
+        {
+          "id": "kendon1980gesticulation",
+          "title": "Gesticulation and Speech: Two Aspects of the Process of Utterance",
+          "year": 1980,
+          "venue": "The Relationship of Verbal and Nonverbal Communication",
+          "category": "theory",
+          "code_link": false,
+          "citations": 282
+        },
+        {
+          "id": "yoon2020trimodal",
+          "title": "Speech Gesture Generation from the Trimodal Context of Text, Audio, and Speaker Identity",
+          "year": 2020,
+          "venue": "TOG",
+          "category": "method",
+          "code_link": true,
+          "citations": 234
+        },
+        {
+          "id": "ekman1969repertoire",
+          "title": "The Repertoire of Nonverbal Behavior: Categories, Origins, Usage, and Coding",
+          "year": 1969,
+          "venue": "Semiotica",
+          "category": "theory",
+          "code_link": false,
+          "citations": 216
+        },
+        {
+          "id": "kita2000representation",
+          "title": "How representational gestures help speaking",
+          "year": 2000,
+          "venue": "Language and Gesture",
+          "category": "theory",
+          "code_link": false,
+          "citations": 214
+        },
+        {
+          "id": "krauss2000lexical",
+          "title": "Lexical gestures and lexical access: a process model",
+          "year": 2000,
+          "venue": "Language and Gesture",
+          "category": "theory",
+          "code_link": false,
+          "citations": 210
+        },
+        {
+          "id": "feyereisen1993hand",
+          "title": "Hand and Mind: What Gestures Reveal About Thought.",
+          "year": 1993,
+          "venue": "Language and Speech",
+          "category": "theory",
+          "code_link": false,
+          "citations": 206
+        },
+        {
+          "id": "cassell2001beat",
+          "title": "BEAT",
+          "year": 2001,
+          "venue": "Life-like characters",
+          "category": "method",
+          "code_link": false,
+          "citations": 205
+        },
+        {
+          "id": "ruiter2000production",
+          "title": "The production of gesture and speech",
+          "year": 2000,
+          "venue": "Language and Gesture",
+          "category": "theory",
+          "code_link": false,
+          "citations": 194
+        }
+      ]
+    },
+    "generation": {
+      "records": 619,
+      "incoming_edges": 7325,
+      "records_with_incoming": 431,
+      "records_with_outgoing": 556,
+      "top10_edges": 1531,
+      "top10_share_percent": 20.9,
+      "top10": [
+        {
+          "id": "yoon2020trimodal",
+          "title": "Speech Gesture Generation from the Trimodal Context of Text, Audio, and Speaker Identity",
+          "year": 2020,
+          "venue": "TOG",
+          "category": "method",
+          "code_link": true,
+          "citations": 234
+        },
+        {
+          "id": "cassell2001beat",
+          "title": "BEAT",
+          "year": 2001,
+          "venue": "Life-like characters",
+          "category": "method",
+          "code_link": false,
+          "citations": 205
+        },
+        {
+          "id": "ginosar2019speech2gesture",
+          "title": "Learning Individual Styles of Conversational Gesture",
+          "year": 2019,
+          "venue": "CVPR",
+          "category": "method",
+          "code_link": true,
+          "citations": 183
+        },
+        {
+          "id": "yoon2019robots",
+          "title": "Robots Learn Social Skills: End-to-End Learning of Co-Speech Gesture Generation for Humanoid Robots",
+          "year": 2019,
+          "venue": "ICRA",
+          "category": "method",
+          "code_link": false,
+          "citations": 168
+        },
+        {
+          "id": "kucherenko2020gesticulator",
+          "title": "Gesticulator: A framework for semantically-aware speech-driven gesture generation",
+          "year": 2020,
+          "venue": "ICMI",
+          "category": "method",
+          "code_link": true,
+          "citations": 142
+        },
+        {
+          "id": "liu2022beat",
+          "title": "BEAT: A Large-Scale Semantic and Emotional Multi-Modal Dataset for Conversational Gestures Synthesis",
+          "year": 2022,
+          "venue": "ECCV",
+          "category": "dataset",
+          "code_link": true,
+          "citations": 131
+        },
+        {
+          "id": "alexanderson2020stylegestures",
+          "title": "Style-Controllable Speech-Driven Gesture Synthesis Using Normalising Flows",
+          "year": 2020,
+          "venue": "CGF",
+          "category": "method",
+          "code_link": false,
+          "citations": 129
+        },
+        {
+          "id": "cassell1994animated",
+          "title": "Animated conversation",
+          "year": 1994,
+          "venue": "SIGGRAPH",
+          "category": "system",
+          "code_link": false,
+          "citations": 117
+        },
+        {
+          "id": "kucherenko2019analyzing",
+          "title": "Analyzing Input and Output Representations for Speech-Driven Gesture Generation",
+          "year": 2019,
+          "venue": "IVA",
+          "category": "method",
+          "code_link": true,
+          "citations": 113
+        },
+        {
+          "id": "neff2008gesture",
+          "title": "Gesture modeling and animation based on a probabilistic re-creation of speaker style",
+          "year": 2008,
+          "venue": "TOG",
+          "category": "method",
+          "code_link": false,
+          "citations": 109
+        }
+      ]
+    },
+    "code_groups": {
+      "code_link": {
+        "records": 76,
+        "median": 10.0,
+        "mean": 29.21,
+        "with_outgoing": 67
+      },
+      "no_code_link_recorded": {
+        "records": 543,
+        "median": 2,
+        "mean": 9.4,
+        "with_outgoing": 489
+      }
+    },
+    "cohorts": [
+      {
+        "years": "1965-2009",
+        "code_link": {
+          "records": 0,
+          "median": null,
+          "mean": null,
+          "with_outgoing": 0
+        },
+        "no_code_link_recorded": {
+          "records": 88,
+          "median": 5.5,
+          "mean": 16.51,
+          "with_outgoing": 75
+        }
+      },
+      {
+        "years": "2010-2014",
+        "code_link": {
+          "records": 0,
+          "median": null,
+          "mean": null,
+          "with_outgoing": 0
+        },
+        "no_code_link_recorded": {
+          "records": 68,
+          "median": 4.0,
+          "mean": 9.81,
+          "with_outgoing": 65
+        }
+      },
+      {
+        "years": "2015-2019",
+        "code_link": {
+          "records": 4,
+          "median": 58.5,
+          "mean": 75,
+          "with_outgoing": 3
+        },
+        "no_code_link_recorded": {
+          "records": 58,
+          "median": 4.5,
+          "mean": 14.81,
+          "with_outgoing": 48
+        }
+      },
+      {
+        "years": "2020-2022",
+        "code_link": {
+          "records": 25,
+          "median": 22,
+          "mean": 46.8,
+          "with_outgoing": 24
+        },
+        "no_code_link_recorded": {
+          "records": 90,
+          "median": 5.0,
+          "mean": 13.77,
+          "with_outgoing": 85
+        }
+      },
+      {
+        "years": "2023-2026",
+        "code_link": {
+          "records": 47,
+          "median": 5,
+          "mean": 15.96,
+          "with_outgoing": 40
+        },
+        "no_code_link_recorded": {
+          "records": 239,
+          "median": 0,
+          "mean": 3.71,
+          "with_outgoing": 216
+        }
+      }
+    ],
+    "venues": [
+      {
+        "venue": "ICMI",
+        "records": 47,
+        "median": 6,
+        "mean": 14.15,
+        "with_outgoing": 46,
+        "years": [
+          2004,
+          2025
+        ],
+        "code_links": 10
+      },
+      {
+        "venue": "IVA",
+        "records": 38,
+        "median": 8.5,
+        "mean": 24.45,
+        "with_outgoing": 38,
+        "years": [
+          2006,
+          2025
+        ],
+        "code_links": 2
+      },
+      {
+        "venue": "CVPR",
+        "records": 31,
+        "median": 13,
+        "mean": 28.52,
+        "with_outgoing": 28,
+        "years": [
+          2019,
+          2026
+        ],
+        "code_links": 11
+      },
+      {
+        "venue": "LNCS",
+        "records": 20,
+        "median": 0.5,
+        "mean": 1.1,
+        "with_outgoing": 16,
+        "years": [
+          2006,
+          2026
+        ],
+        "code_links": 0
+      },
+      {
+        "venue": "ICASSP",
+        "records": 18,
+        "median": 0.5,
+        "mean": 3,
+        "with_outgoing": 17,
+        "years": [
+          2013,
+          2026
+        ],
+        "code_links": 2
+      },
+      {
+        "venue": "AAMAS",
+        "records": 15,
+        "median": 5,
+        "mean": 11.27,
+        "with_outgoing": 10,
+        "years": [
+          2004,
+          2025
+        ],
+        "code_links": 3
+      },
+      {
+        "venue": "ACM MM",
+        "records": 14,
+        "median": 6.0,
+        "mean": 12,
+        "with_outgoing": 14,
+        "years": [
+          2005,
+          2026
+        ],
+        "code_links": 4
+      },
+      {
+        "venue": "RO-MAN",
+        "records": 14,
+        "median": 4.0,
+        "mean": 6.07,
+        "with_outgoing": 14,
+        "years": [
+          2007,
+          2025
+        ],
+        "code_links": 1
+      },
+      {
+        "venue": "TOG",
+        "records": 13,
+        "median": 57,
+        "mean": 66.23,
+        "with_outgoing": 13,
+        "years": [
+          2004,
+          2024
+        ],
+        "code_links": 3
+      },
+      {
+        "venue": "ICCV",
+        "records": 11,
+        "median": 8,
+        "mean": 22.36,
+        "with_outgoing": 9,
+        "years": [
+          2019,
+          2025
+        ],
+        "code_links": 4
+      },
+      {
+        "venue": "IROS",
+        "records": 10,
+        "median": 3.5,
+        "mean": 9.8,
+        "with_outgoing": 9,
+        "years": [
+          2010,
+          2023
+        ],
+        "code_links": 1
+      }
+    ],
+    "author_visibility": {
+      "records_with_authors": 611,
+      "generation_records": 619,
+      "proxy": "Maximum number of strictly earlier generation-research publications in the atlas among a paper's listed authors, matched by exact recorded name.",
+      "spearman_rho": 0.192,
+      "cohorts": [
+        {
+          "years": "2015-2019",
+          "records": 59,
+          "spearman_rho": -0.111
+        },
+        {
+          "years": "2020-2022",
+          "records": 114,
+          "spearman_rho": -0.006
+        },
+        {
+          "years": "2023-2026",
+          "records": 285,
+          "spearman_rho": 0.178
+        }
+      ],
+      "corresponding_author_available": false,
+      "limitations": "Incomplete author lists and name variants are not disambiguated. This proxy measures recorded prior publication presence, not reputation, institutional status, corresponding-author responsibility, or causal influence."
+    },
+    "chronology_sensitivity": {
+      "generation_incoming_edges": 7295,
+      "top10_share_percent": 20.95
+    },
+    "limitations": [
+      "Internal graph counts are not global citation counts.",
+      "Reference harvesting and catalogue selection are incomplete; no recorded edge does not establish no citation.",
+      "A recorded code link is not evidence of working code; missing links are not proof of unavailability.",
+      "Year cohorts reduce one exposure difference but do not control topic, paper role, quality, or harvesting coverage.",
+      "Venue labels are used as recorded; variants and unequal publication ages limit comparison.",
+      "Citation concentration does not establish author self-citation or a reason for citation behavior."
+    ]
+  }
+}

@@ -2,7 +2,7 @@
 """Export the data for the filterable site in docs/ and draw the papers-per-year chart.
 
 Usage: python scripts/build_site.py
-Writes docs/data.json (read by docs/index.html) and docs/papers-per-year.svg (shown in the README).
+Writes explorer data, homepage summaries, citation findings, and the yearly chart.
 """
 
 import datetime
@@ -14,7 +14,8 @@ import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from validate import DATA, ROOT, Loader  # noqa: E402
-from build_applications import main as build_applications  # noqa: E402
+from build_applications import main as build_applications, load_audit, summarize  # noqa: E402
+from analyze_citations import write_public as build_citation_findings  # noqa: E402
 
 DOCS = ROOT / "docs"
 FIELDS = ["id", "title", "authors", "year", "venue", "type", "category", "area", "doi", "arxiv", "links", "weights", "input",
@@ -91,6 +92,28 @@ def main():
     }
     (DOCS / "data.json").write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     chart(papers)
+    groups, usage = summarize(load_audit())
+    overview = {
+        "snapshot_date": data["generated"],
+        "latest_record_added": max(p["added"] for p in papers),
+        "years": [min(p["year"] for p in papers), max(p["year"] for p in papers)],
+        "papers": len(papers),
+        "generation": sum(p["category"] != "theory" and p["type"] != "thesis" for p in papers),
+        "theory": sum(p["category"] == "theory" and p["type"] != "thesis" for p in papers),
+        "theses": sum(p["type"] == "thesis" for p in papers),
+        "datasets": sum(d["id"] != "custom" for d in datasets),
+        "metrics": sum(m["id"] != "other" for m in metrics),
+        "citations": edges,
+        "with_code": sum(bool(p.get("links", {}).get("code")) for p in papers),
+        "verified": sum(p["verified"] for p in papers),
+        "reading": {level: sum(p["checked"] == level for p in papers) for level in ("full-text", "abstract", "metadata")},
+        "audit_date": load_audit()["audit_date"],
+        "audit_coverage": load_audit()["coverage"],
+        "usage": usage,
+        "usage_groups": groups,
+    }
+    (DOCS / "overview.json").write_text(json.dumps(overview, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    build_citation_findings(rows)
     print(f"docs/data.json: {len(rows)} papers, {len(datasets)} datasets, {len(metrics)} metrics; chart written.")
     if build_applications():
         raise SystemExit(1)

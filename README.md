@@ -4,7 +4,7 @@
 Every paper as a comparison row, not a bare link. Every dataset and metric defined. The theory the field builds on, side by side with the methods. Sixty years of it, linked by who cites whom.</p>
 
 <p align="center">
-<a href="https://co-speech-gesture-atlas.github.io/"><b>Explore with filters</b></a> ·
+<a href="https://co-speech-gesture-atlas.github.io/explorer.html"><b>Explore with filters</b></a> ·
 <a href="https://co-speech-gesture-atlas.github.io/citations.html"><b>Citation graph</b></a> ·
 <a href="APPLICATIONS.md"><b>Application findings</b></a> ·
 <a href="THEORY.md"><b>Gesture theory</b></a> ·
@@ -53,7 +53,7 @@ Across the atlas’s **619 gesture-generation papers**, our audit identifies onl
 ## What you can do here
 
 - **Compare methods at a glance.** Each paper's row shows what it takes in (text, audio, speaker identity, a conversation partner), what it moves (upper body, hands, face, full body), how (diffusion, VQ tokens, rules, retrieval), in which setting, and whether code is out.
-- **Filter, don't scroll.** The [explorer](https://co-speech-gesture-atlas.github.io/) filters all of this by any field, with shareable links. The same data is in [`data/`](data/) as plain YAML, CC0, ready to load.
+- **Filter, don't scroll.** The [explorer](https://co-speech-gesture-atlas.github.io/explorer.html) filters all of this by any field, with shareable links. The same data is in [`data/`](data/) as plain YAML, CC0, ready to load.
 - **Follow the lineage.** The [citation graph](https://co-speech-gesture-atlas.github.io/citations.html) shows which papers cite which, from the 1990s rule-based agents to today's diffusion models, with the psychology and linguistics they draw on.
 - **Trust what you read, or see why not.** Only peer-reviewed work is listed. Each record says whether it was filled from the full text, the abstract or metadata only, and whether a second independent reading confirmed it.
 
@@ -71,9 +71,10 @@ Across the atlas’s **619 gesture-generation papers**, our audit identifies onl
 - [Contributing](#contributing)
 
 Elsewhere:
+- [Project manuscript](manuscript/co-speech-gesture-atlas.md) ([reading PDF](output/pdf/co-speech-gesture-atlas.pdf)): a five-page review draft describing the resource, application reuse and citation concentration.
 - [Website deployment setup](DEPLOYMENT.md): publish the explorer automatically to the organization's GitHub Pages site while keeping the data here.
 - [Gesture theory](THEORY.md): studies of human gesture (psychology, linguistics, neuroscience) that the generation work builds on.
-- [Explorer](https://co-speech-gesture-atlas.github.io/) and [citation graph](https://co-speech-gesture-atlas.github.io/citations.html) (GitHub Pages, from [`docs/`](docs/)). Edge list in [`data/citations.csv`](data/citations.csv).
+- [Explorer](https://co-speech-gesture-atlas.github.io/explorer.html) and [citation graph](https://co-speech-gesture-atlas.github.io/citations.html) (GitHub Pages, from [`docs/`](docs/)). Edge list in [`data/citations.csv`](data/citations.csv).
 
 ## Scope
 

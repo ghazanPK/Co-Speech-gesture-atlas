@@ -1,0 +1,469 @@
+{
+  "snapshot_date": "2026-10-12",
+  "definition": "Citation concentration measures the share of recorded within-atlas citation edges received by the most-cited records. It does not measure author self-citation or a causal effect.",
+  "raw_edges": 32161,
+  "unique_edges": 32161,
+  "chronology_conflicts": 238,
+  "all": {
+    "records": 2690,
+    "incoming_edges": 32161,
+    "records_with_incoming": 2072,
+    "records_with_outgoing": 2120,
+    "top10_edges": 2497,
+    "top10_share_percent": 7.76,
+    "top10": [
+      {
+        "id": "mcneill2005gesture",
+        "title": "Gesture and Thought",
+        "year": 2005,
+        "venue": "Gesture and Thought",
+        "category": "theory",
+        "code_link": false,
+        "citations": 410
+      },
+      {
+        "id": "kita2003cross",
+        "title": "What does cross-linguistic variation in semantic coordination of speech and gesture reveal?: Evidence for an interface representation of spatial thinking and speaking",
+        "year": 2003,
+        "venue": "Journal of Memory and Language",
+        "category": "theory",
+        "code_link": false,
+        "citations": 326
+      },
+      {
+        "id": "kendon1980gesticulation",
+        "title": "Gesticulation and Speech: Two Aspects of the Process of Utterance",
+        "year": 1980,
+        "venue": "The Relationship of Verbal and Nonverbal Communication",
+        "category": "theory",
+        "code_link": false,
+        "citations": 282
+      },
+      {
+        "id": "yoon2020trimodal",
+        "title": "Speech Gesture Generation from the Trimodal Context of Text, Audio, and Speaker Identity",
+        "year": 2020,
+        "venue": "TOG",
+        "category": "method",
+        "code_link": true,
+        "citations": 234
+      },
+      {
+        "id": "ekman1969repertoire",
+        "title": "The Repertoire of Nonverbal Behavior: Categories, Origins, Usage, and Coding",
+        "year": 1969,
+        "venue": "Semiotica",
+        "category": "theory",
+        "code_link": false,
+        "citations": 216
+      },
+      {
+        "id": "kita2000representation",
+        "title": "How representational gestures help speaking",
+        "year": 2000,
+        "venue": "Language and Gesture",
+        "category": "theory",
+        "code_link": false,
+        "citations": 214
+      },
+      {
+        "id": "krauss2000lexical",
+        "title": "Lexical gestures and lexical access: a process model",
+        "year": 2000,
+        "venue": "Language and Gesture",
+        "category": "theory",
+        "code_link": false,
+        "citations": 210
+      },
+      {
+        "id": "feyereisen1993hand",
+        "title": "Hand and Mind: What Gestures Reveal About Thought.",
+        "year": 1993,
+        "venue": "Language and Speech",
+        "category": "theory",
+        "code_link": false,
+        "citations": 206
+      },
+      {
+        "id": "cassell2001beat",
+        "title": "BEAT",
+        "year": 2001,
+        "venue": "Life-like characters",
+        "category": "method",
+        "code_link": false,
+        "citations": 205
+      },
+      {
+        "id": "ruiter2000production",
+        "title": "The production of gesture and speech",
+        "year": 2000,
+        "venue": "Language and Gesture",
+        "category": "theory",
+        "code_link": false,
+        "citations": 194
+      }
+    ]
+  },
+  "generation": {
+    "records": 619,
+    "incoming_edges": 7325,
+    "records_with_incoming": 431,
+    "records_with_outgoing": 556,
+    "top10_edges": 1531,
+    "top10_share_percent": 20.9,
+    "top10": [
+      {
+        "id": "yoon2020trimodal",
+        "title": "Speech Gesture Generation from the Trimodal Context of Text, Audio, and Speaker Identity",
+        "year": 2020,
+        "venue": "TOG",
+        "category": "method",
+        "code_link": true,
+        "citations": 234
+      },
+      {
+        "id": "cassell2001beat",
+        "title": "BEAT",
+        "year": 2001,
+        "venue": "Life-like characters",
+        "category": "method",
+        "code_link": false,
+        "citations": 205
+      },
+      {
+        "id": "ginosar2019speech2gesture",
+        "title": "Learning Individual Styles of Conversational Gesture",
+        "year": 2019,
+        "venue": "CVPR",
+        "category": "method",
+        "code_link": true,
+        "citations": 183
+      },
+      {
+        "id": "yoon2019robots",
+        "title": "Robots Learn Social Skills: End-to-End Learning of Co-Speech Gesture Generation for Humanoid Robots",
+        "year": 2019,
+        "venue": "ICRA",
+        "category": "method",
+        "code_link": false,
+        "citations": 168
+      },
+      {
+        "id": "kucherenko2020gesticulator",
+        "title": "Gesticulator: A framework for semantically-aware speech-driven gesture generation",
+        "year": 2020,
+        "venue": "ICMI",
+        "category": "method",
+        "code_link": true,
+        "citations": 142
+      },
+      {
+        "id": "liu2022beat",
+        "title": "BEAT: A Large-Scale Semantic and Emotional Multi-Modal Dataset for Conversational Gestures Synthesis",
+        "year": 2022,
+        "venue": "ECCV",
+        "category": "dataset",
+        "code_link": true,
+        "citations": 131
+      },
+      {
+        "id": "alexanderson2020stylegestures",
+        "title": "Style-Controllable Speech-Driven Gesture Synthesis Using Normalising Flows",
+        "year": 2020,
+        "venue": "CGF",
+        "category": "method",
+        "code_link": false,
+        "citations": 129
+      },
+      {
+        "id": "cassell1994animated",
+        "title": "Animated conversation",
+        "year": 1994,
+        "venue": "SIGGRAPH",
+        "category": "system",
+        "code_link": false,
+        "citations": 117
+      },
+      {
+        "id": "kucherenko2019analyzing",
+        "title": "Analyzing Input and Output Representations for Speech-Driven Gesture Generation",
+        "year": 2019,
+        "venue": "IVA",
+        "category": "method",
+        "code_link": true,
+        "citations": 113
+      },
+      {
+        "id": "neff2008gesture",
+        "title": "Gesture modeling and animation based on a probabilistic re-creation of speaker style",
+        "year": 2008,
+        "venue": "TOG",
+        "category": "method",
+        "code_link": false,
+        "citations": 109
+      }
+    ]
+  },
+  "code_groups": {
+    "code_link": {
+      "records": 76,
+      "median": 10.0,
+      "mean": 29.21,
+      "with_outgoing": 67
+    },
+    "no_code_link_recorded": {
+      "records": 543,
+      "median": 2,
+      "mean": 9.4,
+      "with_outgoing": 489
+    }
+  },
+  "cohorts": [
+    {
+      "years": "1965-2009",
+      "code_link": {
+        "records": 0,
+        "median": null,
+        "mean": null,
+        "with_outgoing": 0
+      },
+      "no_code_link_recorded": {
+        "records": 88,
+        "median": 5.5,
+        "mean": 16.51,
+        "with_outgoing": 75
+      }
+    },
+    {
+      "years": "2010-2014",
+      "code_link": {
+        "records": 0,
+        "median": null,
+        "mean": null,
+        "with_outgoing": 0
+      },
+      "no_code_link_recorded": {
+        "records": 68,
+        "median": 4.0,
+        "mean": 9.81,
+        "with_outgoing": 65
+      }
+    },
+    {
+      "years": "2015-2019",
+      "code_link": {
+        "records": 4,
+        "median": 58.5,
+        "mean": 75,
+        "with_outgoing": 3
+      },
+      "no_code_link_recorded": {
+        "records": 58,
+        "median": 4.5,
+        "mean": 14.81,
+        "with_outgoing": 48
+      }
+    },
+    {
+      "years": "2020-2022",
+      "code_link": {
+        "records": 25,
+        "median": 22,
+        "mean": 46.8,
+        "with_outgoing": 24
+      },
+      "no_code_link_recorded": {
+        "records": 90,
+        "median": 5.0,
+        "mean": 13.77,
+        "with_outgoing": 85
+      }
+    },
+    {
+      "years": "2023-2026",
+      "code_link": {
+        "records": 47,
+        "median": 5,
+        "mean": 15.96,
+        "with_outgoing": 40
+      },
+      "no_code_link_recorded": {
+        "records": 239,
+        "median": 0,
+        "mean": 3.71,
+        "with_outgoing": 216
+      }
+    }
+  ],
+  "venues": [
+    {
+      "venue": "ICMI",
+      "records": 47,
+      "median": 6,
+      "mean": 14.15,
+      "with_outgoing": 46,
+      "years": [
+        2004,
+        2025
+      ],
+      "code_links": 10
+    },
+    {
+      "venue": "IVA",
+      "records": 38,
+      "median": 8.5,
+      "mean": 24.45,
+      "with_outgoing": 38,
+      "years": [
+        2006,
+        2025
+      ],
+      "code_links": 2
+    },
+    {
+      "venue": "CVPR",
+      "records": 31,
+      "median": 13,
+      "mean": 28.52,
+      "with_outgoing": 28,
+      "years": [
+        2019,
+        2026
+      ],
+      "code_links": 11
+    },
+    {
+      "venue": "LNCS",
+      "records": 20,
+      "median": 0.5,
+      "mean": 1.1,
+      "with_outgoing": 16,
+      "years": [
+        2006,
+        2026
+      ],
+      "code_links": 0
+    },
+    {
+      "venue": "ICASSP",
+      "records": 18,
+      "median": 0.5,
+      "mean": 3,
+      "with_outgoing": 17,
+      "years": [
+        2013,
+        2026
+      ],
+      "code_links": 2
+    },
+    {
+      "venue": "AAMAS",
+      "records": 15,
+      "median": 5,
+      "mean": 11.27,
+      "with_outgoing": 10,
+      "years": [
+        2004,
+        2025
+      ],
+      "code_links": 3
+    },
+    {
+      "venue": "ACM MM",
+      "records": 14,
+      "median": 6.0,
+      "mean": 12,
+      "with_outgoing": 14,
+      "years": [
+        2005,
+        2026
+      ],
+      "code_links": 4
+    },
+    {
+      "venue": "RO-MAN",
+      "records": 14,
+      "median": 4.0,
+      "mean": 6.07,
+      "with_outgoing": 14,
+      "years": [
+        2007,
+        2025
+      ],
+      "code_links": 1
+    },
+    {
+      "venue": "TOG",
+      "records": 13,
+      "median": 57,
+      "mean": 66.23,
+      "with_outgoing": 13,
+      "years": [
+        2004,
+        2024
+      ],
+      "code_links": 3
+    },
+    {
+      "venue": "ICCV",
+      "records": 11,
+      "median": 8,
+      "mean": 22.36,
+      "with_outgoing": 9,
+      "years": [
+        2019,
+        2025
+      ],
+      "code_links": 4
+    },
+    {
+      "venue": "IROS",
+      "records": 10,
+      "median": 3.5,
+      "mean": 9.8,
+      "with_outgoing": 9,
+      "years": [
+        2010,
+        2023
+      ],
+      "code_links": 1
+    }
+  ],
+  "author_visibility": {
+    "records_with_authors": 611,
+    "generation_records": 619,
+    "proxy": "Maximum number of strictly earlier generation-research publications in the atlas among a paper's listed authors, matched by exact recorded name.",
+    "spearman_rho": 0.192,
+    "cohorts": [
+      {
+        "years": "2015-2019",
+        "records": 59,
+        "spearman_rho": -0.111
+      },
+      {
+        "years": "2020-2022",
+        "records": 114,
+        "spearman_rho": -0.006
+      },
+      {
+        "years": "2023-2026",
+        "records": 285,
+        "spearman_rho": 0.178
+      }
+    ],
+    "corresponding_author_available": false,
+    "limitations": "Incomplete author lists and name variants are not disambiguated. This proxy measures recorded prior publication presence, not reputation, institutional status, corresponding-author responsibility, or causal influence."
+  },
+  "chronology_sensitivity": {
+    "generation_incoming_edges": 7295,
+    "top10_share_percent": 20.95
+  },
+  "limitations": [
+    "Internal graph counts are not global citation counts.",
+    "Reference harvesting and catalogue selection are incomplete; no recorded edge does not establish no citation.",
+    "A recorded code link is not evidence of working code; missing links are not proof of unavailability.",
+    "Year cohorts reduce one exposure difference but do not control topic, paper role, quality, or harvesting coverage.",
+    "Venue labels are used as recorded; variants and unequal publication ages limit comparison.",
+    "Citation concentration does not establish author self-citation or a reason for citation behavior."
+  ]
+}

@@ -26,6 +26,7 @@ node_modules/
 
 # Generated site output
 /_site/
+/tmp/
 
 # OS noise
 Thumbs.db
