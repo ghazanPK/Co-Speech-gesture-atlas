@@ -71,6 +71,7 @@ Across the atlas’s **619 gesture-generation papers**, our audit identifies onl
 - [Contributing](#contributing)
 
 Elsewhere:
+- [Website deployment setup](DEPLOYMENT.md): publish the explorer automatically to the organization's GitHub Pages site while keeping the data here.
 - [Gesture theory](THEORY.md): studies of human gesture (psychology, linguistics, neuroscience) that the generation work builds on.
 - [Explorer](https://ghazanpk.github.io/Co-Speech-gesture-atlas/) and [citation graph](https://ghazanpk.github.io/Co-Speech-gesture-atlas/citations.html) (GitHub Pages, from [`docs/`](docs/)). Edge list in [`data/citations.csv`](data/citations.csv).
 
