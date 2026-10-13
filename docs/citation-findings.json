@@ -5,7 +5,7 @@
   "unique_edges": 32161,
   "chronology_conflicts": 238,
   "all": {
-    "records": 2690,
+    "records": 2689,
     "incoming_edges": 32161,
     "records_with_incoming": 2072,
     "records_with_outgoing": 2120,
@@ -105,7 +105,7 @@
     ]
   },
   "generation": {
-    "records": 619,
+    "records": 618,
     "incoming_edges": 7325,
     "records_with_incoming": 431,
     "records_with_outgoing": 556,
@@ -206,16 +206,16 @@
   },
   "code_groups": {
     "code_link": {
-      "records": 78,
-      "median": 10.0,
-      "mean": 30.12,
-      "with_outgoing": 69
+      "records": 79,
+      "median": 10,
+      "mean": 29.76,
+      "with_outgoing": 70
     },
     "no_code_link_recorded": {
-      "records": 541,
+      "records": 539,
       "median": 2,
-      "mean": 9.2,
-      "with_outgoing": 487
+      "mean": 9.23,
+      "with_outgoing": 486
     }
   },
   "cohorts": [
@@ -228,9 +228,9 @@
         "with_outgoing": 0
       },
       "no_code_link_recorded": {
-        "records": 88,
-        "median": 5.5,
-        "mean": 16.51,
+        "records": 87,
+        "median": 6,
+        "mean": 16.7,
         "with_outgoing": 75
       }
     },
@@ -282,16 +282,16 @@
     {
       "years": "2023-2026",
       "code_link": {
-        "records": 48,
-        "median": 5.0,
-        "mean": 15.62,
-        "with_outgoing": 41
+        "records": 49,
+        "median": 5,
+        "mean": 15.35,
+        "with_outgoing": 42
       },
       "no_code_link_recorded": {
-        "records": 238,
-        "median": 0.0,
+        "records": 237,
+        "median": 0,
         "mean": 3.73,
-        "with_outgoing": 215
+        "with_outgoing": 214
       }
     }
   ],
@@ -334,9 +334,9 @@
     },
     {
       "venue": "LNCS",
-      "records": 20,
-      "median": 0.5,
-      "mean": 1.1,
+      "records": 19,
+      "median": 1,
+      "mean": 1.16,
       "with_outgoing": 16,
       "years": [
         2006,
@@ -430,10 +430,10 @@
     }
   ],
   "author_visibility": {
-    "records_with_authors": 611,
-    "generation_records": 619,
+    "records_with_authors": 610,
+    "generation_records": 618,
     "proxy": "Maximum number of strictly earlier generation-research publications in the atlas among a paper's listed authors, matched by exact recorded name.",
-    "spearman_rho": 0.192,
+    "spearman_rho": 0.19,
     "cohorts": [
       {
         "years": "2015-2019",

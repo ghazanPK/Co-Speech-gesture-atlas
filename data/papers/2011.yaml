@@ -1451,8 +1451,10 @@
   category: system
   doi: 10.3990/1.9789036532334
   links: {paper: 'https://doi.org/10.3990/1.9789036532334', open: 'https://ris.utwente.nl/ws/files/6035043/thesis_H_van_Welbergen.pdf'}
+  realtime: unreported
+  summary: Presents BML Twente and the Elckerlyc BML realizer, which schedules and executes speech and gesture behaviour for virtual humans, combining procedural and physical animation for continuous interaction.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: wilkin2011chapter

@@ -1639,13 +1639,16 @@
   type: journal
   category: method
   doi: 10.1007/s12369-023-01051-8
-  links: {paper: 'https://doi.org/10.1007/s12369-023-01051-8', open: 'https://link.springer.com/content/pdf/10.1007/s12369-023-01051-8.pdf'}
+  links: {paper: 'https://doi.org/10.1007/s12369-023-01051-8', open: 'https://link.springer.com/content/pdf/10.1007/s12369-023-01051-8.pdf', code: 'https://github.com/wubowen416/Controlling-the-Impression-of-Robots-via-GAN-based-Gesture-Generation', video: 'https://youtu.be/H4So35mf9jw'}
+  input: [audio, style]
   output: [upper-body]
   approach: [gan]
+  realtime: unreported
+  datasets: [takeuchi-gesture-speech]
   user_study: true
   summary: GAN-based co-speech gesture generation conditioned on perceived extroversion, with a refined motion retargeting algorithm for a humanoid robot and a user study of extroversion aspects.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: xu2023icgn

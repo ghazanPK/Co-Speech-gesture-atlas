@@ -958,16 +958,3 @@
   checked: abstract
   verified: false
   area: psycholinguistics
-
-- id: zoric2006gesturing
-  title: Automated Gesturing for Embodied Agents
-  authors: [Goranka Zorić, Karlo Šmid, Igor Sunday Pandzic]
-  year: 2006
-  venue: LNCS
-  type: book
-  category: method
-  doi: 10.1007/11780496_42
-  links: {paper: 'https://doi.org/10.1007/11780496_42'}
-  added: '2026-10-03'
-  checked: metadata
-  verified: false

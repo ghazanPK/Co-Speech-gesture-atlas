@@ -944,8 +944,11 @@
   category: dataset
   doi: 10.1007/978-3-030-21507-1_16
   links: {paper: 'https://doi.org/10.1007/978-3-030-21507-1_16'}
+  output: [upper-body, hands, face]
+  datasets: [eva-corpus]
+  summary: A DAZ Studio and Unity pipeline that turns conversational gestures annotated in the EVA Corpus into expressively tunable 3D animation templates for the EVA embodied conversational agent.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: morett2019listeners

@@ -1381,10 +1381,12 @@
   category: evaluation
   doi: 10.1109/vr51125.2022.00018
   links: {paper: 'https://doi.org/10.1109/vr51125.2022.00018', open: 'https://arrow.tudublin.ie/creaart/155'}
+  realtime: unreported
+  datasets: [talking-with-hands, trinity2]
   user_study: true
   summary: A perceptual study comparing performance-captured characters with characters driven by generated gestures and synthesized speech on perceived Big Five personality.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: trujillo2022multi
@@ -1690,8 +1692,15 @@
   category: method
   doi: 10.1007/978-3-031-24667-8_10
   links: {paper: 'https://doi.org/10.1007/978-3-031-24667-8_10', open: 'https://ensta-paris.hal.science/hal-03832923'}
+  input: [audio, text]
+  output: [upper-body]
+  approach: [hybrid]
+  realtime: unreported
+  datasets: [swag]
+  user_study: true
+  summary: Generates baseline gestures from speech audio with a denoising-autoencoder encoder-decoder, then embeds gestures from a 67-gesture semantic dataset, chosen by BEAT rules, at word timestamps for the Pepper robot.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: zhang2022temporal

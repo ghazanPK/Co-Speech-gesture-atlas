@@ -1294,11 +1294,15 @@
   category: method
   doi: 10.1111/cgf.70261
   links: {paper: 'https://doi.org/10.1111/cgf.70261'}
-  output: [full-body]
-  approach: [diffusion]
+  input: [audio, text]
+  output: [full-body, face]
+  representation: [smpl-x]
+  approach: [vq, diffusion]
+  metrics: [fgd, beat-align, diversity, face-error, besa]
+  user_study: true
   summary: Diffusion framework that injects dynamic emotion cues through an emotion-alignment module and refines region-specific latent codes progressively while keeping full-body coordination.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: li2025implicit

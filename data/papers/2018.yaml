@@ -572,9 +572,11 @@
   category: dataset
   doi: 10.63317/3xbacabz879n
   links: {paper: 'http://www.lrec-conf.org/proceedings/lrec2018/pdf/296.pdf'}
+  datasets: [custom]
+  languages: [de]
   summary: A corpus of speech and hand-motion data from participants giving spatial scene descriptions with abstract deictic and iconic gestures, intended for modelling multimodal descriptions and generating them.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: harrison2018impulse

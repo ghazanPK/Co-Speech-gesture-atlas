@@ -928,9 +928,12 @@
   doi: 10.34413/dr.01107
   links: {paper: 'https://naist.repo.nii.ac.jp/records/10705'}
   approach: [retrieval]
+  realtime: unreported
+  datasets: [custom]
+  user_study: true
   summary: Generates an android's body gestures in real time by reconfiguring a large motion-capture database, classified by bag-of-words and dynamic programming matching.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: kopp2013automatic

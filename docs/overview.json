@@ -5,19 +5,19 @@
     1965,
     2026
   ],
-  "papers": 2690,
-  "generation": 619,
+  "papers": 2689,
+  "generation": 618,
   "theory": 1989,
   "theses": 82,
-  "datasets": 69,
-  "metrics": 36,
+  "datasets": 76,
+  "metrics": 40,
   "citations": 32161,
-  "with_code": 79,
+  "with_code": 80,
   "verified": 132,
   "reading": {
-    "full-text": 292,
-    "abstract": 2084,
-    "metadata": 314
+    "full-text": 309,
+    "abstract": 2073,
+    "metadata": 307
   },
   "audit_date": "2026-10-03",
   "audit_coverage": {

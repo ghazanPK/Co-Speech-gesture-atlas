@@ -382,9 +382,13 @@
   category: dataset
   doi: 10.63317/4wztgumferkm
   links: {paper: 'https://www.aclweb.org/anthology/L16-1550.pdf'}
+  setting: [dyadic]
+  realtime: unreported
+  datasets: [sdg]
+  user_study: true
   summary: Presents the Story Dialogue with Gestures corpus of 50 personal narratives regenerated as dialogues with annotated gesture placement and gesture forms, plus gesture video clips and story intention graph annotations.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: hubscher2016intonation

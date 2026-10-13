@@ -734,8 +734,13 @@
   category: method
   doi: 10.1007/978-3-642-34182-3_21
   links: {paper: 'https://doi.org/10.1007/978-3-642-34182-3_21', open: 'https://imt.hal.science/hal-01113951'}
+  output: [upper-body]
+  approach: [retrieval]
+  realtime: unreported
+  datasets: [storytelling-video-corpus]
+  summary: 'Extends the Greta SAIBA system to the NAO robot: BML descriptions select gestures from a robot-specific lexicon built from annotated storytelling videos, timed so strokes fall on stressed syllables.'
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: lis2012influencing

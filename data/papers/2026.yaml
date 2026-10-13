@@ -864,14 +864,19 @@
   type: conference
   category: method
   doi: 10.1609/aaai.v40i10.37725
-  links: {paper: 'https://ojs.aaai.org/index.php/AAAI/article/view/37725'}
+  links: {paper: 'https://ojs.aaai.org/index.php/AAAI/article/view/37725', project: 'https://playmate111.github.io/Playmate2/'}
   input: [audio]
+  output: [upper-body, face]
   representation: [video-pixels]
-  approach: [diffusion]
+  approach: [diffusion, flow-matching]
+  realtime: unreported
+  datasets: [avspeech, celebv-hq, hdtf, openhumanvid, custom]
+  metrics: [fid, fvd, lip-sync, nr-quality]
+  user_study: true
   summary: A diffusion-transformer framework for audio-driven talking video of arbitrary length, using LoRA training with position-shift inference, reward feedback for lip sync and body motion, and a training-free Mask CFG for multiple characters.
-  notes: Full-text PDF fetch timed out; fields read from the abstract on the AAAI page.
+  notes: Full text is titled Playmate2; built on Wan2.1 with LoRA training, DPO reward feedback and training-free Mask-CFG for multiple characters; OpenHuMan-Vid is also used for training.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: maeda2026gesturing
@@ -1509,8 +1514,14 @@
   category: method
   doi: 10.1007/978-3-032-37211-6_15
   links: {paper: 'https://doi.org/10.1007/978-3-032-37211-6_15'}
+  input: [audio, text]
+  approach: [vq, autoregressive]
+  realtime: unreported
+  datasets: [cohumo]
+  metrics: [fgd, joint-error, mm-dist, r-precision]
+  summary: Transformer decoder predicts coarse-to-fine Pyramid-VQ motion tokens from CLIP text and MFCC audio, separating co-speech gestures from text-driven actions and allowing gesture-intensity control through AdaLN.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: wang2026holodiff
@@ -1543,9 +1554,19 @@
   type: journal
   category: method
   doi: 10.1109/tcsvt.2026.3738661
-  links: {paper: 'https://doi.org/10.1109/tcsvt.2026.3738661'}
+  links: {paper: 'https://doi.org/10.1109/tcsvt.2026.3738661', project: 'https://aigc-explorer.github.io/PAGE/'}
+  input: [audio, image]
+  output: [upper-body, hands, face]
+  representation: [video-pixels]
+  approach: [diffusion, flow-matching]
+  realtime: unreported
+  datasets: [pats, cas]
+  languages: [en, zh]
+  metrics: [fvd, beat-align, fgd, diversity]
+  user_study: true
+  summary: Backbone-agnostic guidance for Wan2.1 video diffusion that reweights the loss on lips, eyes and hands in training and uses audio-conditioned face and non-face latent classifiers with differential guidance to generate gesture portrait video.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: wang2026robogesture

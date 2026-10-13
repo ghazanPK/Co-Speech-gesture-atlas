@@ -200,7 +200,10 @@
   aka: [GCA]
   better: higher
 
-- {id: other, added: '2026-10-02', verified: false, name: A metric not yet listed here; named in the paper record's notes}
+- id: other
+  added: '2026-10-02'
+  verified: false
+  name: A metric not yet listed here; named in the paper record's notes
 
 - id: workspace-violation
   links: {paper: 'https://arxiv.org/abs/2609.38400'}
@@ -232,9 +235,15 @@
   measures: synchrony
   better: higher
 
-- {id: sms, added: '2026-10-02', verified: false, name: Salient Motion Similarity (SMS)}
+- id: sms
+  added: '2026-10-02'
+  verified: false
+  name: Salient Motion Similarity (SMS)
 
-- {id: mvd, added: '2026-10-02', verified: false, name: Mean Velocity Difference (MVD)}
+- id: mvd
+  added: '2026-10-02'
+  verified: false
+  name: Mean Velocity Difference (MVD)
 
 - id: hkc
   added: '2026-10-03'
@@ -332,3 +341,23 @@
   aka: [IQA, ASE, Q-Align, VQAA, VQAT, aesthetic quality, imaging quality]
   measures: realism
   better: higher
+
+- id: besa
+  added: '2026-10-13'
+  verified: false
+  name: BESA (emotion and semantic alignment score)
+
+- id: ftd
+  added: '2026-10-13'
+  verified: false
+  name: Fréchet Template Distance (FTD)
+
+- id: mctc
+  added: '2026-10-13'
+  verified: false
+  name: Motion Change Trend Cosine similarity (MCTC)
+
+- id: mpd
+  added: '2026-10-13'
+  verified: false
+  name: MPD (gesture diversity)

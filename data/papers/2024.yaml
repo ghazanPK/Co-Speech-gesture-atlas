@@ -1372,11 +1372,14 @@
   doi: 10.1007/s10489-024-05769-4
   links: {paper: 'https://link.springer.com/article/10.1007/s10489-024-05769-4'}
   input: [audio]
-  approach: [vae]
+  representation: [keypoints-2d, other]
+  approach: [autoregressive, vae]
+  datasets: [ted-gesture, ted-expressive]
+  metrics: [joint-error, ftd, mctc, diversity]
   summary: Generates body motion from speech with a transformer network that combines an audio encoder, a motion encoder, a template VAE and a cross-modal transformer encoder.
   notes: Abstract also proposes a new metric describing motion change trends in terms of distance.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: lubis2024rulebased
@@ -1825,11 +1828,16 @@
   category: method
   doi: 10.1007/s12369-024-01136-y
   links: {paper: 'https://doi.org/10.1007/s12369-024-01136-y'}
+  input: [audio, text, speaker-id]
+  output: [upper-body]
+  representation: [joints-3d]
   approach: [gan]
+  datasets: [ted-gesture]
+  metrics: [fgd, mpd]
   user_study: true
   summary: Fuses gesture-related cues with parallel directional cross-modal transformers and a cascaded 2D attention module in an end-to-end GAN, and proposes metrics for gesture diversity and speech-gesture correspondence that need no 3D pose annotation.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: robrecht2024representational
@@ -2046,8 +2054,14 @@
   category: evaluation
   doi: 10.1007/978-3-031-68617-7_12
   links: {paper: 'https://doi.org/10.1007/978-3-031-68617-7_12'}
+  input: [audio]
+  representation: [joints-3d]
+  realtime: unreported
+  datasets: [takeuchi-gesture-speech]
+  metrics: [joint-error, accel-jerk]
+  summary: Compares GRU, bidirectional GRU and multi-head-attention variants of a speech encoder that maps MFCC features to a learned motion representation, decoded into 3D joint positions.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: urena2023characterizing

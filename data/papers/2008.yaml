@@ -1140,12 +1140,13 @@
   type: conference
   category: system
   doi: 10.5555/1402383.1402409
-  links: {paper: 'https://doi.org/10.5555/1402383.1402409', open: 'http://graphics.ucmerced.edu/publications/2008_AAMAS_Thiebaux.pdf'}
+  links: {paper: 'https://doi.org/10.5555/1402383.1402409', open: 'http://graphics.ucmerced.edu/publications/2008_AAMAS_Thiebaux.pdf', project: 'http://www.smartbody-anim.org/'}
   approach: [rule-based]
+  realtime: unreported
   summary: An open source modular framework that animates embodied conversational agents in real time using hierarchically connected controllers such as keyframe interpolation, motion capture and procedural animation.
   notes: Abstract does not state which gestures are generated; scope judged from the behaviour realizer description.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: tilsen2008evidence
