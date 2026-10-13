@@ -291,10 +291,13 @@
   category: method
   doi: 10.1002/cav.6
   links: {paper: 'https://doi.org/10.1002/cav.6'}
-  output: [hands, face]
+  input: [text]
+  output: [upper-body, hands, face]
+  representation: [joints-3d]
+  realtime: unreported
   summary: Produces synchronized gesture, speech and facial behaviour for a conversational agent from XML-based descriptions, using an incremental production model and a kinematic hand gesture animation.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: kranstedt2004deixis

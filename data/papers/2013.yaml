@@ -197,8 +197,11 @@
   category: method
   doi: 10.1007/978-3-642-40415-3_18
   links: {paper: 'https://doi.org/10.1007/978-3-642-40415-3_18', open: 'https://pub.uni-bielefeld.de/record/2610719'}
+  approach: [other]
+  realtime: unreported
+  summary: Cognitive model that simulates semantic coordination of speech and iconic gesture for virtual agents, using activation spreading over multimodal memory under linguistic and cognitive constraints.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: biau2013spontaneous
@@ -838,10 +841,12 @@
   category: method
   doi: 10.15607/rss.2013.ix.026
   links: {paper: 'https://doi.org/10.15607/rss.2013.ix.026'}
+  realtime: unreported
+  datasets: [custom]
   user_study: true
   summary: Presents a model of human gestures for robots and evaluates in a narration scenario how different gesture types affect user recall and perceptions of the robot.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: johnson2013spatial
@@ -1483,8 +1488,12 @@
   category: system
   doi: 10.1007/978-3-319-02675-6_38
   links: {paper: 'https://doi.org/10.1007/978-3-319-02675-6_38'}
+  approach: [other]
+  realtime: unreported
+  user_study: true
+  summary: Closed-loop multimodal scheduler for a humanoid robot that predicts gesture preparation time with a fitted forward model and uses robot sensor feedback to adapt speech timing to the gesture stroke.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: salem2013conceptual
@@ -1734,8 +1743,11 @@
   category: evaluation
   doi: 10.1007/978-3-642-40415-3_16
   links: {paper: 'https://doi.org/10.1007/978-3-642-40415-3_16'}
+  datasets: [custom]
+  user_study: true
+  summary: Perceptual study on Mechanical Turk testing how gesture type and prosodic emphasis affect sensitivity to gesture-speech misalignment of -0.6 to +0.6 s on a virtual character.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: wilkinson2013gestural

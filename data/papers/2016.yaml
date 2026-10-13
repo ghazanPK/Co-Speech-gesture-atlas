@@ -1201,10 +1201,11 @@
   input: [seed-motion]
   output: [full-body, locomotion]
   setting: [dyadic]
+  realtime: unreported
   datasets: [custom]
   summary: Splices a motion-captured standing gesture performance onto looped walking and jogging clips, with synchronization guided by metrics from captured conversing pairs.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: weisberg2016multimodal

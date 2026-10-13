@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-10-12",
+  "snapshot_date": "2026-10-13",
   "definition": "Citation concentration measures the share of recorded within-atlas citation edges received by the most-cited records. It does not measure author self-citation or a causal effect.",
   "raw_edges": 32161,
   "unique_edges": 32161,
@@ -172,7 +172,7 @@
         "year": 2020,
         "venue": "CGF",
         "category": "method",
-        "code_link": false,
+        "code_link": true,
         "citations": 129
       },
       {
@@ -206,16 +206,16 @@
   },
   "code_groups": {
     "code_link": {
-      "records": 76,
+      "records": 78,
       "median": 10.0,
-      "mean": 29.21,
-      "with_outgoing": 67
+      "mean": 30.12,
+      "with_outgoing": 69
     },
     "no_code_link_recorded": {
-      "records": 543,
+      "records": 541,
       "median": 2,
-      "mean": 9.4,
-      "with_outgoing": 489
+      "mean": 9.2,
+      "with_outgoing": 487
     }
   },
   "cohorts": [
@@ -267,31 +267,31 @@
     {
       "years": "2020-2022",
       "code_link": {
-        "records": 25,
-        "median": 22,
-        "mean": 46.8,
-        "with_outgoing": 24
+        "records": 26,
+        "median": 25.0,
+        "mean": 49.96,
+        "with_outgoing": 25
       },
       "no_code_link_recorded": {
-        "records": 90,
-        "median": 5.0,
-        "mean": 13.77,
-        "with_outgoing": 85
+        "records": 89,
+        "median": 5,
+        "mean": 12.47,
+        "with_outgoing": 84
       }
     },
     {
       "years": "2023-2026",
       "code_link": {
-        "records": 47,
-        "median": 5,
-        "mean": 15.96,
-        "with_outgoing": 40
+        "records": 48,
+        "median": 5.0,
+        "mean": 15.62,
+        "with_outgoing": 41
       },
       "no_code_link_recorded": {
-        "records": 239,
-        "median": 0,
-        "mean": 3.71,
-        "with_outgoing": 216
+        "records": 238,
+        "median": 0.0,
+        "mean": 3.73,
+        "with_outgoing": 215
       }
     }
   ],
@@ -342,7 +342,7 @@
         2006,
         2026
       ],
-      "code_links": 0
+      "code_links": 1
     },
     {
       "venue": "ICASSP",

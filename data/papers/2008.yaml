@@ -321,8 +321,12 @@
   category: method
   doi: 10.1007/978-3-540-79868-2_5
   links: {paper: 'https://doi.org/10.1007/978-3-540-79868-2_5'}
+  output: [upper-body]
+  realtime: unreported
+  user_study: true
+  summary: Presents a virtual human model that animates gesticulation as sequences of static and dynamic constraints, synchronized with synthesized speech and controlled through the Expression Markup Language.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: edwards2008gestures
@@ -458,9 +462,11 @@
   type: conference
   category: system
   links: {paper: 'https://research.utwente.nl/en/publications/33f29040-8b9f-4fd3-b5f3-89390f90d8f4', open: 'https://ris.utwente.nl/ws/files/5320053/bnaic08-Hofs-Theune-Akker.pdf'}
+  input: [text]
+  realtime: unreported
   summary: Demonstrates an embodied conversational agent that gives directions in a 3D environment, with multimodal dialogue management and language and gesture generation.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: holler2008communicating
@@ -711,10 +717,13 @@
   links: {paper: 'https://doi.org/10.1145/1330511.1330516'}
   input: [text]
   output: [full-body]
+  realtime: unreported
+  datasets: [custom]
+  languages: [de, en]
   user_study: true
   summary: Builds a statistical model of a performer's gesturing style from annotated video and uses it to generate a gesture script for input text, which an animation system turns into kinematic or physically simulated motion.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: nunez2008fresh

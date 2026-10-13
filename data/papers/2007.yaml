@@ -337,8 +337,14 @@
   category: method
   doi: 10.1007/978-3-540-74997-4_2
   links: {paper: 'https://doi.org/10.1007/978-3-540-74997-4_2'}
+  input: [text]
+  output: [upper-body]
+  realtime: unreported
+  datasets: [custom]
+  user_study: true
+  summary: Generates hand and arm gestures for marked-up input text in the style of a modeled TV host from statistics on annotated video, and chains them into gesture units animated procedurally.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: kita2007generation
@@ -392,8 +398,11 @@
   category: method
   doi: 10.1007/978-3-540-74997-4_53
   links: {paper: 'https://doi.org/10.1007/978-3-540-74997-4_53'}
+  output: [upper-body]
+  realtime: unreported
+  summary: Proposes an architecture in which a Communication Planner, Action Generator, Message Generator, Formulator and Gesture Planner iteratively build aligned speech and gesture.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: kopp2007trading
@@ -585,9 +594,10 @@
   doi: 10.1002/scj.20532
   links: {paper: 'https://doi.org/10.1002/scj.20532'}
   input: [text]
+  realtime: unreported
   summary: Generates composite conversational gestures for a sentence by expanding likely gesture combinations as a tree and planning a motion sequence using networks for gesture continuity and linkage.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: nicoladis2007bilingualism
@@ -845,10 +855,11 @@
   type: conference
   category: system
   doi: 10.1007/978-3-540-74997-4_10
-  links: {paper: 'https://doi.org/10.1007/978-3-540-74997-4_10', open: 'https://research.utwente.nl/en/publications/ad10f522-6273-4500-b758-0814e59540e6'}
+  links: {paper: 'https://doi.org/10.1007/978-3-540-74997-4_10', open: 'https://research.utwente.nl/en/publications/ad10f522-6273-4500-b758-0814e59540e6', project: 'http://wiki.mindmakers.org/projects:BML:main'}
+  realtime: unreported
   summary: Reports on the development of the Behavior Markup Language, part of the SAIBA framework for multimodal behavior generation, and reviews projects using it.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: vonbergmann2007coexpressivity

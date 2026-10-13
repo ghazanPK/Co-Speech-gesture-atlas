@@ -1464,8 +1464,14 @@
   category: dataset
   doi: 10.1007/978-3-319-58750-9_28
   links: {paper: 'https://doi.org/10.1007/978-3-319-58750-9_28'}
+  input: [audio]
+  output: [full-body]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [custom]
+  summary: Records 298 minutes (1049 sentences) of speech audio, BVH motion capture and video from two male participants explaining topics, with per-sentence tags for the gesture types that appeared.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: takeuchi2017speech

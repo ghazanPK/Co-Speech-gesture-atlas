@@ -27,11 +27,16 @@
   arxiv: '1910.02181'
   links: {paper: 'https://doi.org/10.1145/3340555.3353725', open: 'https://dl.acm.org/doi/pdf/10.1145/3340555.3353725'}
   input: [audio, interlocutor]
+  output: [upper-body]
+  representation: [joints-3d]
   setting: [dyadic]
+  realtime: unreported
+  datasets: [custom]
+  metrics: [joint-error, pck]
   user_study: true
   summary: Dyadic Residual-Attention Model generates avatar body pose from the operator's audio plus the interlocutor's audio and body pose using selective attention between monadic and dyadic dynamics.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: arachchige2019implication
@@ -1444,11 +1449,15 @@
   arxiv: '1810.12541'
   links: {paper: 'https://doi.org/10.1109/icra.2019.8793720', open: 'https://arxiv.org/abs/1810.12541', project: 'https://sites.google.com/view/youngwoo-yoon/projects/co-speech-gesture-generation'}
   input: [text]
+  output: [upper-body]
+  approach: [autoregressive]
+  setting: [monologue]
+  realtime: unreported
   datasets: [ted-gesture]
   user_study: true
   summary: An end-to-end neural network with a speech-text encoder and a gesture-sequence decoder is trained on 52 hours of TED talks and demonstrated on a NAO robot.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: yunus2019gesture

@@ -246,8 +246,15 @@
   category: method
   doi: 10.1007/978-3-642-23974-8_14
   links: {paper: 'https://doi.org/10.1007/978-3-642-23974-8_14'}
+  input: [audio]
+  output: [upper-body]
+  approach: [other]
+  realtime: unreported
+  datasets: [custom]
+  user_study: true
+  summary: Generates arm gesture motion frame by frame with a modified hierarchical factored conditional restricted Boltzmann machine conditioned on speech pitch and intensity, trained on motion capture and audio of conversations.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: chu2011nature
@@ -925,8 +932,11 @@
   category: method
   doi: 10.1007/978-3-642-24571-8_24
   links: {paper: 'https://doi.org/10.1007/978-3-642-24571-8_24'}
+  input: [text]
+  realtime: unreported
+  summary: Extends the GRETA agent platform to the Nao robot, selecting symbolic gestures from a robot lexicon, synchronising them with speech and instantiating them as joint values with expressivity parameters.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: lempert2011barack

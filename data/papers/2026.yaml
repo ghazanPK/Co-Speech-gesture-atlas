@@ -455,9 +455,19 @@
   type: book
   category: method
   doi: 10.1007/978-3-032-22267-1_33
-  links: {paper: 'https://doi.org/10.1007/978-3-032-22267-1_33'}
+  links: {paper: 'https://doi.org/10.1007/978-3-032-22267-1_33', code: 'https://github.com/IORGestureTeam/FaceCapGes'}
+  input: [audio]
+  representation: [joints-3d]
+  approach: [gan, autoregressive]
+  realtime: real-time
+  latency: 6.07 ms per frame on a single RTX 4090 (batch size 1)
+  datasets: [beat]
+  metrics: [fgd, l1-div, beat-align, srgr]
+  user_study: true
+  summary: Real-time frame-by-frame gesture generator built on CaMN that uses cascaded LSTM decoders with adversarial, sliding-window autoregressive training to map audio, ARKit facial blendweights and head pose to body motion.
+  notes: Besides audio, inputs are ARKit facial blendweights and head pose (no future context); evaluated with FGD, L1DIV, BA and SRGR on BEAT speakers 2, 4, 6, 8.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: he2026desformer
@@ -605,11 +615,18 @@
   category: method
   doi: 10.1111/cgf.70412
   links: {paper: 'https://doi.org/10.1111/cgf.70412'}
-  input: [audio, text, interlocutor]
+  input: [audio, text, interlocutor, speaker-id]
+  output: [full-body]
+  representation: [joints-3d]
+  approach: [diffusion]
   setting: [dyadic]
+  realtime: unreported
+  datasets: [beat2, talking-with-hands]
+  metrics: [fgd, beat-align, diversity, fid]
+  user_study: true
   summary: Cross-attention model that fuses interlocutor audio and text with the character's gesture encodings so one system generates both speaking and listening gestures.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: lee2026multitpc
@@ -1471,8 +1488,16 @@
   category: method
   doi: 10.1007/s42486-025-00213-z
   links: {paper: 'https://doi.org/10.1007/s42486-025-00213-z'}
+  input: [audio, text]
+  representation: [joints-3d]
+  approach: [gan]
+  realtime: unreported
+  datasets: [custom]
+  metrics: [fgd, joint-error]
+  user_study: true
+  summary: Two cascaded GRU generators with adversarial training produce body then hand gestures from speech audio and text, using a transformer VQ-VAE motion feature extractor and a self-built speech-gesture dataset made with LLM-written scripts, mocap and software synthesis.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: wang2026ctrlcomo
@@ -1497,13 +1522,17 @@
   category: method
   doi: 10.1002/cav.70173
   links: {paper: 'https://doi.org/10.1002/cav.70173'}
-  input: [audio]
+  input: [audio, speaker-id]
+  output: [upper-body, face]
   approach: [diffusion]
   setting: [monologue]
+  realtime: real-time
+  latency: 125 FPS on a single RTX 3090
   datasets: [show]
+  metrics: [fgd, diversity, joint-error, face-error]
   summary: Encodes facial and body motion into a structured latent space and applies a speech-conditioned diffusion process in that latent space to generate holistic talking human animation.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: wang2026page
@@ -1803,12 +1832,17 @@
   category: method
   doi: 10.1609/aaai.v40i16.38327
   links: {paper: 'https://ojs.aaai.org/index.php/AAAI/article/view/38327'}
-  input: [audio]
+  input: [audio, text, speaker-id, interlocutor]
   approach: [diffusion]
   setting: [dyadic]
+  realtime: unreported
+  datasets: [talking-with-hands]
+  metrics: [fgd, srgr, diversity, multimodality, other]
+  user_study: true
   summary: Generates gestures for both interlocutors of a dialog from conversational audio with an interactive dual-diffusion model and contrastive-learning-based identity-decoupled style guidance.
+  notes: Also reports DSRGR (dual-speaker SRGR) and FDk (Frechet distance on gesture velocities).
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: zhou2026exges

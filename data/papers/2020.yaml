@@ -97,14 +97,18 @@
   type: journal
   category: method
   doi: 10.1111/cgf.13946
-  links: {paper: 'https://doi.org/10.1111/cgf.13946', open: 'http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-279231'}
+  links: {paper: 'https://doi.org/10.1111/cgf.13946', open: 'http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-279231', code: 'https://github.com/simonalexanderson/StyleGestures'}
   input: [audio, style]
   output: [upper-body, full-body]
+  representation: [joints-3d]
   approach: [normalizing-flow]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [trinity]
   user_study: true
   summary: Adapts the MoGlow normalising-flow motion model to generate speech-driven gesticulation with controllable style such as gesture level, speed, symmetry and spatial extent.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: ali2020rule
@@ -118,10 +122,12 @@
   links: {paper: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/cav.1944', video: 'https://www.youtube.com/watch?v=GIxaI9yTmMc'}
   input: [text]
   approach: [rule-based]
+  realtime: unreported
+  datasets: [ted-gesture]
   user_study: true
   summary: Builds a rule-based mapping from words to co-speech gestures automatically from a large public video dataset and uses word embeddings at run time to find the matching rule for an embodied conversational agent.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: arachchige2020investigating
@@ -1630,10 +1636,12 @@
   input: [audio]
   approach: [retrieval]
   setting: [dyadic]
+  realtime: unreported
+  datasets: [custom]
   user_study: true
   summary: Builds a motion graph from recorded two-party conversations and searches it for gestures and body motion that follow phonemic clauses, listener responses and partner hesitation pauses in new audio.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: yoon2020trimodal

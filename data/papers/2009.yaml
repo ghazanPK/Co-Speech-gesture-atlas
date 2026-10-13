@@ -53,8 +53,13 @@
   category: method
   doi: 10.1007/978-3-642-04380-2_12
   links: {paper: 'https://doi.org/10.1007/978-3-642-04380-2_12'}
+  approach: [hybrid]
+  realtime: unreported
+  datasets: [custom]
+  metrics: [label-prediction]
+  summary: GNetIc models iconic gesture generation with Bayesian decision networks learned from annotated speaker data and supplemented with if-then rules, deciding gesture occurrence, technique, handedness and handshape.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: bergmann2009iconic
@@ -66,8 +71,13 @@
   category: method
   doi: 10.1007/978-3-642-12553-9_16
   links: {paper: 'https://doi.org/10.1007/978-3-642-12553-9_16'}
+  approach: [hybrid]
+  realtime: unreported
+  datasets: [custom]
+  metrics: [label-prediction]
+  summary: Analyses a corpus of 25 dyads for systematic and idiosyncratic influences on iconic gesture form, and builds a Bayesian decision network model that combines probabilistic and rule-based decisions to generate gestures.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: bergmann2009increasing
@@ -79,9 +89,12 @@
   category: method
   doi: 10.65109/vtam7538
   links: {paper: 'https://doi.org/10.65109/vtam7538', open: 'https://www.ifaamas.org/Proceedings/aamas09/pdf/01_Full%20Papers/05a_11_62_FP_0551.pdf'}
+  approach: [hybrid]
+  realtime: unreported
+  datasets: [custom]
   summary: A model for virtual agents that selects content and derives the form of coordinated language and iconic gestures for spatial descriptions, using a probabilistic gesture formulation from an empirical direction-giving study.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: breitfuss2009automatic
@@ -93,8 +106,12 @@
   category: system
   doi: 10.1007/978-3-642-02774-1_17
   links: {paper: 'https://doi.org/10.1007/978-3-642-02774-1_17'}
+  input: [text]
+  approach: [rule-based]
+  realtime: unreported
+  summary: Rule-based system that analyses linguistic and contextual information in input text to select beat, iconic and other gestures plus gaze for speaking and listening agents in Second Life, timed with TTS speech.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: bremner2009beat
@@ -134,8 +151,10 @@
   category: system
   doi: 10.1007/978-3-642-04380-2_55
   links: {paper: 'https://doi.org/10.1007/978-3-642-04380-2_55'}
+  realtime: unreported
+  summary: A BML-based behavior realizer that parses scripts and schedules annotated body and facial animations with synthesized speech, using neural networks to estimate word durations for alignment.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: chieffi2009deictic
@@ -708,8 +727,15 @@
   category: method
   doi: 10.1007/978-3-642-04380-2_44
   links: {paper: 'https://doi.org/10.1007/978-3-642-04380-2_44'}
+  output: [full-body]
+  approach: [hybrid]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [custom]
+  user_study: true
+  summary: Combines procedural arm gestures with motion-capture lower-body clips and procedural spine rotation aligned to gesture strokes, selected by a Markov model plus association rules.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: mittelberg2009chapter
@@ -872,8 +898,11 @@
   category: method
   doi: 10.1007/978-3-642-10403-9_18
   links: {paper: 'https://doi.org/10.1007/978-3-642-10403-9_18'}
+  output: [upper-body]
+  realtime: unreported
+  summary: Adapts the ACE speech-gesture production model, driven by MURML specifications, to the humanoid robot ASIMO so co-verbal arm gestures are planned and synchronized with speech at run-time using whole body motion control.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: shumway2009communicative

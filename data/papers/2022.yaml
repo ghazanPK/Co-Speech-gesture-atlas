@@ -562,14 +562,17 @@
   type: journal
   category: system
   doi: 10.1007/s12369-022-00893-y
-  links: {paper: 'https://doi.org/10.1007/s12369-022-00893-y', open: 'https://link.springer.com/content/pdf/10.1007/s12369-022-00893-y.pdf'}
+  links: {paper: 'https://doi.org/10.1007/s12369-022-00893-y', open: 'https://link.springer.com/content/pdf/10.1007/s12369-022-00893-y.pdf', video: 'https://youtu.be/iG2-DIz2dw0'}
   input: [audio]
+  representation: [keypoints-2d]
   approach: [gan]
+  realtime: unreported
   datasets: [custom]
+  metrics: [accel-jerk]
   user_study: true
   summary: 'An integrated pipeline for culture-dependent gestures on the Pepper robot: an adversarial generator driven by speech audio features, a voice conversion module for the multi-person dataset, and a 2D-to-3D mapping module.'
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: grose2022gestures
@@ -1469,10 +1472,13 @@
   arxiv: '2010.06194'
   links: {paper: 'https://doi.org/10.1109/sii52469.2022.9708605', open: 'https://arxiv.org/abs/2010.06194'}
   input: [text]
+  approach: [rule-based]
+  realtime: unreported
+  languages: [ja]
   user_study: true
   summary: Compares automatically and manually obtained concept clusters for mapping a conversational agent's personalized vocabulary to predefined robot gestures, and tests concept-based gesture selection against random selection.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: wilms2022iconic
@@ -1498,10 +1504,15 @@
   category: evaluation
   doi: 10.1016/j.specom.2022.08.001
   links: {paper: 'https://doi.org/10.1016/j.specom.2022.08.001', open: 'https://ueaeprints.uea.ac.uk/id/eprint/87977/1/1_s2.0_S0167639322001054_main.pdf'}
+  input: [audio, speaker-id]
+  representation: [joints-3d]
+  approach: [regression]
   setting: [dyadic]
+  realtime: unreported
+  datasets: [talking-with-hands]
   summary: Analyses left-right arm symmetry of 36 speakers in dyadic conversation and tests with a speech-to-gesture model whether mirroring is valid as data augmentation.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: windle2022uea
@@ -1619,8 +1630,16 @@
   category: method
   doi: 10.1007/978-3-031-20065-6_41
   links: {paper: 'https://doi.org/10.1007/978-3-031-20065-6_41'}
+  input: [audio, seed-motion, style]
+  output: [upper-body, full-body]
+  representation: [joints-3d]
+  approach: [normalizing-flow]
+  realtime: unreported
+  datasets: [ted-gesture, trinity]
+  metrics: [fgd, pck, diversity, beat-align, multimodality]
+  summary: A flow-based autoregressive model with a global encoder and a gesture perceptual loss that generates stylized gestures from audio and past poses without style labels.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: yoon2022genea

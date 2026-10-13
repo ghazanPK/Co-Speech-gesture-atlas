@@ -604,9 +604,9 @@
   approach: [rule-based]
   realtime: unreported
   summary: Renders gesture animations of an articulated virtual agent from representations of spatiotemporal gesture knowledge, with motion planning and control timed to a text-to-speech signal.
-  notes: Only the abstract was available; the abstract says gestures are rendered in real time but gives no figure. Candidate author list contained duplicates, so authors are omitted.
+  notes: Full text read. Abstract says gestures are rendered in real time but no speed figure is reported. Gesture stroke timing is driven by emphasis parameters of the text-to-speech signal.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: zhao2002gesticulation

@@ -1023,7 +1023,7 @@
   links: {paper: 'https://doi.org/10.1145/3609235', open: 'https://dl.acm.org/doi/pdf/10.1145/3609235'}
   summary: Survey of deep-learning-based co-speech behaviour generation models for human-agent and human-robot interaction, with an outlook on future research.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: osorio2023speech
@@ -1171,9 +1171,18 @@
   type: conference
   category: method
   doi: 10.1007/978-981-99-8715-3_8
-  links: {paper: 'https://doi.org/10.1007/978-981-99-8715-3_8'}
+  links: {paper: 'https://doi.org/10.1007/978-981-99-8715-3_8', video: 'https://youtu.be/lvQGwfu8J50'}
+  input: [text]
+  representation: [other]
+  approach: [other]
+  realtime: real-time
+  latency: 0.013-0.018 s model inference; 0.11-0.13 s including robot-server communication
+  datasets: [custom]
+  metrics: [label-prediction]
+  user_study: false
+  summary: Three fine-tuned BERT-based token-classification models (GERT) label each token of a robot's utterance text with one of a set of predefined gesture labels for execution on a social robot.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: sato2023electroencepha
@@ -1432,12 +1441,16 @@
   category: method
   doi: 10.1080/01691864.2023.2279595
   links: {paper: 'https://doi.org/10.1080/01691864.2023.2279595', open: 'https://eprints.soton.ac.uk/504497/1/It_takes_two_not_one_context-aware_nonverbal_behaviour_generation_in_dyadic_interactions.pdf'}
-  input: [interlocutor]
+  input: [audio, interlocutor, seed-motion]
+  output: [full-body]
   approach: [gan]
   setting: [dyadic]
+  realtime: unreported
+  datasets: [jestkod, lisi-hhi]
+  metrics: [joint-error, accel-jerk, fgd]
   summary: A context-aware GAN models the body gestures of a target person in dyadic interaction by encoding both the person's own and the interaction partner's social signals.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: voss2023aqgt

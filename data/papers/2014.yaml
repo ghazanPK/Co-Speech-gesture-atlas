@@ -1468,9 +1468,13 @@
   type: conference
   category: method
   doi: 10.1007/978-3-319-09767-1_58
-  links: {paper: 'https://doi.org/10.1007/978-3-319-09767-1_58'}
+  links: {paper: 'https://doi.org/10.1007/978-3-319-09767-1_58', video: 'http://youtu.be/A-3Ic-zCqnM'}
+  approach: [rule-based]
+  realtime: unreported
+  user_study: true
+  summary: Generates gesture sequences for virtual characters by structuring performance around ideational units, mapping FML descriptions to BML with rules, then selecting and blending motion-capture gestures in SmartBody.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: yang2014emotional

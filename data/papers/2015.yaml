@@ -25,8 +25,14 @@
   category: system
   doi: 10.1007/s10514-015-9444-1
   links: {paper: 'https://doi.org/10.1007/s10514-015-9444-1', open: 'https://hal.science/hal-01203658'}
+  input: [text, audio]
+  approach: [rule-based]
+  setting: [dyadic]
+  realtime: unreported
+  user_study: true
+  summary: A pipeline turns a user's speech into text, estimates extraversion, generates personality-adapted text with PERSONAGE and gestures with an extended BEAT toolkit, and runs the result on a NAO robot.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: aly2015multimodal
@@ -196,10 +202,15 @@
   doi: 10.1007/978-3-319-21996-7_17
   links: {paper: 'https://doi.org/10.1007/978-3-319-21996-7_17'}
   input: [text, audio]
+  representation: [other]
   approach: [other]
+  setting: [dyadic]
+  realtime: unreported
+  datasets: [custom]
+  metrics: [label-prediction]
   summary: Predicts co-verbal gestures from utterance content and speech signal with Deep Conditional Neural Fields, which jointly learn a deep network and second-order linear-chain temporal dependencies between gestures.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: chu2015thought
@@ -1354,8 +1365,13 @@
   category: system
   doi: 10.1007/978-3-319-27543-7_1
   links: {paper: 'https://doi.org/10.1007/978-3-319-27543-7_1'}
+  input: [text, audio]
+  approach: [other]
+  realtime: unreported
+  user_study: true
+  summary: Synchronizes database gesture motions with speech in two steps, a constrained motion-graph search followed by shifting and scaling, and wraps it in an authoring tool for educational agent animations.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: xu2015moody

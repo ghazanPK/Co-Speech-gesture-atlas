@@ -412,12 +412,14 @@
   doi: 10.1002/cav.2016
   links: {paper: 'https://onlinelibrary.wiley.com/doi/full/10.1002/cav.2016', video: 'https://www.youtube.com/watch?v=9opZK-usETY'}
   input: [audio]
+  output: [upper-body]
   approach: [retrieval]
-  datasets: [custom]
+  realtime: offline
+  datasets: [custom, trinity]
   user_study: true
   summary: Selects motion-captured gestures from a corpus of over 23,000 gestures by matching expressive parameters estimated from speech audio, then combines them into animated sequences.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: ferstl2021human
@@ -445,11 +447,15 @@
   doi: 10.2312/diss.20212633145
   links: {paper: 'https://doi.org/10.2312/diss.20212633145', open: 'http://hdl.handle.net/2262/96795'}
   input: [audio]
+  output: [upper-body]
   approach: [gan, retrieval, hybrid]
+  setting: [monologue]
+  realtime: offline
   datasets: [custom]
+  user_study: true
   summary: Thesis exploring transfer learning, adversarial training and expressive gesture parameters for speech-to-gesture learning, presenting two speech and motion datasets and a system combining machine learning with database sampling.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: ferstl2021match
@@ -461,14 +467,15 @@
   category: method
   doi: 10.65109/poxn8780
   arxiv: '2103.03130'
-  links: {paper: 'https://doi.org/10.65109/poxn8780', open: 'https://arxiv.org/abs/2103.03130'}
+  links: {paper: 'https://doi.org/10.65109/poxn8780', open: 'https://arxiv.org/abs/2103.03130', video: 'https://www.youtube.com/playlist?list=PLLrShDUC_FZwrW0Oc9GTTdrBeMGpsA4PB'}
   input: [audio]
   approach: [retrieval]
   setting: [monologue]
+  realtime: unreported
   user_study: true
   summary: Selects gestures from a motion database by matching expressive motion parameters, such as gesture velocity and finger extension, predicted from speech audio.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: flaherty2021structural
@@ -1873,14 +1880,16 @@
   category: method
   doi: 10.1007/s11042-021-11289-x
   links: {paper: 'https://doi.org/10.1007/s11042-021-11289-x', open: 'https://link.springer.com/content/pdf/10.1007/s11042-021-11289-x.pdf'}
+  output: [upper-body]
   approach: [gan]
+  realtime: unreported
   datasets: [custom]
   metrics: [fgd, accel-jerk]
   user_study: true
   summary: A GAN trained on motion-captured human talking recordings generates beat gestures that are run on a Pepper robot.
   notes: Also reports end-effector path length.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: zabala2021personality

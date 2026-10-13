@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-10-12",
+  "snapshot_date": "2026-10-13",
   "latest_record_added": "2026-10-03",
   "years": [
     1965,
@@ -12,12 +12,12 @@
   "datasets": 69,
   "metrics": 36,
   "citations": 32161,
-  "with_code": 77,
+  "with_code": 79,
   "verified": 132,
   "reading": {
-    "full-text": 219,
-    "abstract": 2120,
-    "metadata": 351
+    "full-text": 292,
+    "abstract": 2084,
+    "metadata": 314
   },
   "audit_date": "2026-10-03",
   "audit_coverage": {

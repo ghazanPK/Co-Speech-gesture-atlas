@@ -46,11 +46,12 @@
   links: {paper: 'https://doi.org/10.1109/access.2025.3596328', open: 'https://www.researchsquare.com/article/rs-3350470/latest.pdf'}
   input: [text]
   approach: [retrieval]
+  languages: [en, ko]
   user_study: true
   summary: Retrieves gesture units for input text from a rule base of about 210,000 rules built by matching 2D poses from video to 3D motion-capture gesture units with a contrastive pose-matching model, with translation for non-English text.
   notes: Preprint DOI 10.21203/rs.3.rs-3350470/v1 (Research Square, 2023). Title shown is the preprint title; the published IEEE Access title was not checked. Motion-capture gesture units come from Korean speakers.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: ali2025ridge
@@ -1096,8 +1097,17 @@
   category: method
   doi: 10.1007/978-981-96-4279-3_6
   links: {paper: 'https://doi.org/10.1007/978-981-96-4279-3_6'}
+  input: [audio, text, seed-motion]
+  output: [full-body]
+  representation: [smpl-x]
+  approach: [diffusion]
+  datasets: [beat]
+  languages: [en]
+  metrics: [fgd, beat-align, diversity]
+  user_study: true
+  summary: Transformer-based latent diffusion model conditioned on audio, speech text and the previously predicted gesture, sampled with a DPM-Solver++ fast ODE solver to need fewer denoising steps.
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
 
 - id: huang2025interdiffusion
@@ -1824,11 +1834,13 @@
   doi: 10.1002/cav.70077
   links: {paper: 'https://doi.org/10.1002/cav.70077'}
   input: [audio, style]
+  output: [full-body, hands]
   approach: [llm, vq, diffusion]
+  datasets: [zeggs, seg]
   metrics: [fgd, beat-align, diversity]
   summary: A language-model decoder maps speech and a style label to editable inverse-kinematics control points, and a diffusion denoiser then synthesises VQ latent motion for body and fingers conditioned on those points.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: pouw2025human
