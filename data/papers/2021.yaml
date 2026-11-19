@@ -1167,6 +1167,20 @@
   verified: false
   area: cognition
 
+- id: pouw2021semantically
+  title: 'Semantically related gestures move alike: Towards a distributional semantics of gesture kinematics'
+  authors: [Wim T. J. L. Pouw, Jan de Wit, Sara Bögels, Marlou Rasenberg, Branka Milivojevic, Asli]
+  year: 2021
+  venue: HCII 2021 (LNCS)
+  type: conference
+  category: theory
+  doi: 10.1007/978-3-030-77817-0_20
+  links: {paper: 'https://doi.org/10.1007/978-3-030-77817-0_20'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: pyers2021gesture
   title: 'Gesture Helps, Only If You Need It: Inhibiting Gesture Reduces Tip‐of‐the‐Tongue Resolution for Those With Weak Short‐Term Memory'
   authors: [Jennie E. Pyers, Rachel W. Magid, Tamar H. Gollan, Karen D. Emmorey]

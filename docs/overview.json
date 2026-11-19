@@ -1,23 +1,23 @@
 {
-  "snapshot_date": "2026-10-13",
-  "latest_record_added": "2026-10-03",
+  "snapshot_date": "2026-11-19",
+  "latest_record_added": "2026-11-19",
   "years": [
     1965,
     2026
   ],
-  "papers": 2689,
-  "generation": 618,
-  "theory": 1989,
-  "theses": 82,
-  "datasets": 76,
-  "metrics": 40,
-  "citations": 32161,
-  "with_code": 80,
+  "papers": 2730,
+  "generation": 636,
+  "theory": 2011,
+  "theses": 83,
+  "datasets": 77,
+  "metrics": 42,
+  "citations": 32890,
+  "with_code": 81,
   "verified": 132,
   "reading": {
-    "full-text": 309,
-    "abstract": 2073,
-    "metadata": 307
+    "full-text": 318,
+    "abstract": 2101,
+    "metadata": 311
   },
   "audit_date": "2026-10-03",
   "audit_coverage": {

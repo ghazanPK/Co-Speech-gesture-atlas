@@ -44,6 +44,19 @@
   verified: false
   area: linguistics
 
+- id: ashley2009musical
+  title: Musical structure and spatial cognition as revealed in gesture and talk
+  authors: [Richard D. Ashley]
+  year: 2009
+  venue: CogSci
+  type: conference
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/4qc258zr'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
 - id: bergmann2009gnetic
   title: GNetIc – Using Bayesian Decision Networks for Iconic Gesture Generation
   authors: [Kirsten Bergmann, Stefan Kopp]

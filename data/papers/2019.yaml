@@ -181,6 +181,19 @@
   checked: abstract
   verified: false
 
+- id: coulson2019working
+  title: Working Memory and Co-Speech Iconic Gestures.
+  authors: [Seana Coulson, Ying Choon Wu]
+  year: 2019
+  venue: CogSci
+  type: conference
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/2zr762d2'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
+
 - id: cravotta2019encouraging
   title: Effects of Encouraging the Use of Gestures on Speech
   authors: [Alice Cravotta, María Grazia Busà, Pilar Prieto]

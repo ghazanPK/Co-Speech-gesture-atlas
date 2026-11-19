@@ -260,6 +260,20 @@
   verified: false
   area: linguistics
 
+- id: cooperrider2020fifteen
+  title: Fifteen ways of looking at a pointing gesture
+  authors: [Kensy Cooperrider]
+  year: 2023
+  venue: Public Journal of Semiotics
+  type: journal
+  category: theory
+  doi: 10.37693/pjos.2023.10.25120
+  links: {paper: 'https://doi.org/10.37693/pjos.2023.10.25120'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: other
+
 - id: deichler2023gestclip
   title: Diffusion-Based Co-Speech Gesture Generation Using Joint Text and Audio Representation
   authors: [Anna Deichler, Shivam Mehta, Simon Alexanderson, Jonas Beskow]
@@ -823,6 +837,20 @@
   checked: abstract
   verified: false
   area: linguistics
+
+- id: lelandais2022prosody
+  title: The Role of Prosody and Gesture in the Perception of Boundaries in Speech
+  authors: [Manon Lelandais, Gabriel Thiberge]
+  year: 2023
+  venue: Speech Communication
+  type: journal
+  category: theory
+  doi: 10.1016/j.specom.2023.05.001
+  links: {paper: 'https://doi.org/10.1016/j.specom.2023.05.001'}
+  added: '2026-10-03'
+  checked: metadata
+  verified: false
+  area: perception
 
 - id: leonteva2023metaphoric
   title: Metaphoric gestures in simultaneous interpreting

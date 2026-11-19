@@ -1,16 +1,16 @@
 {
-  "snapshot_date": "2026-10-13",
+  "snapshot_date": "2026-11-19",
   "definition": "Citation concentration measures the share of recorded within-atlas citation edges received by the most-cited records. It does not measure author self-citation or a causal effect.",
-  "raw_edges": 32161,
-  "unique_edges": 32161,
-  "chronology_conflicts": 238,
+  "raw_edges": 32890,
+  "unique_edges": 32890,
+  "chronology_conflicts": 243,
   "all": {
-    "records": 2689,
-    "incoming_edges": 32161,
-    "records_with_incoming": 2072,
-    "records_with_outgoing": 2120,
-    "top10_edges": 2497,
-    "top10_share_percent": 7.76,
+    "records": 2730,
+    "incoming_edges": 32890,
+    "records_with_incoming": 2101,
+    "records_with_outgoing": 2159,
+    "top10_edges": 2522,
+    "top10_share_percent": 7.67,
     "top10": [
       {
         "id": "mcneill2005gesture",
@@ -19,7 +19,7 @@
         "venue": "Gesture and Thought",
         "category": "theory",
         "code_link": false,
-        "citations": 410
+        "citations": 411
       },
       {
         "id": "kita2003cross",
@@ -46,7 +46,7 @@
         "venue": "TOG",
         "category": "method",
         "code_link": true,
-        "citations": 234
+        "citations": 250
       },
       {
         "id": "ekman1969repertoire",
@@ -64,7 +64,7 @@
         "venue": "Language and Gesture",
         "category": "theory",
         "code_link": false,
-        "citations": 214
+        "citations": 216
       },
       {
         "id": "krauss2000lexical",
@@ -76,59 +76,22 @@
         "citations": 210
       },
       {
+        "id": "cassell2001beat",
+        "title": "BEAT",
+        "year": 2001,
+        "venue": "Life-like characters",
+        "category": "method",
+        "code_link": false,
+        "citations": 209
+      },
+      {
         "id": "feyereisen1993hand",
         "title": "Hand and Mind: What Gestures Reveal About Thought.",
         "year": 1993,
         "venue": "Language and Speech",
         "category": "theory",
         "code_link": false,
-        "citations": 206
-      },
-      {
-        "id": "cassell2001beat",
-        "title": "BEAT",
-        "year": 2001,
-        "venue": "Life-like characters",
-        "category": "method",
-        "code_link": false,
-        "citations": 205
-      },
-      {
-        "id": "ruiter2000production",
-        "title": "The production of gesture and speech",
-        "year": 2000,
-        "venue": "Language and Gesture",
-        "category": "theory",
-        "code_link": false,
-        "citations": 194
-      }
-    ]
-  },
-  "generation": {
-    "records": 618,
-    "incoming_edges": 7325,
-    "records_with_incoming": 431,
-    "records_with_outgoing": 556,
-    "top10_edges": 1531,
-    "top10_share_percent": 20.9,
-    "top10": [
-      {
-        "id": "yoon2020trimodal",
-        "title": "Speech Gesture Generation from the Trimodal Context of Text, Audio, and Speaker Identity",
-        "year": 2020,
-        "venue": "TOG",
-        "category": "method",
-        "code_link": true,
-        "citations": 234
-      },
-      {
-        "id": "cassell2001beat",
-        "title": "BEAT",
-        "year": 2001,
-        "venue": "Life-like characters",
-        "category": "method",
-        "code_link": false,
-        "citations": 205
+        "citations": 207
       },
       {
         "id": "ginosar2019speech2gesture",
@@ -137,7 +100,44 @@
         "venue": "CVPR",
         "category": "method",
         "code_link": true,
-        "citations": 183
+        "citations": 195
+      }
+    ]
+  },
+  "generation": {
+    "records": 636,
+    "incoming_edges": 7755,
+    "records_with_incoming": 444,
+    "records_with_outgoing": 578,
+    "top10_edges": 1604,
+    "top10_share_percent": 20.68,
+    "top10": [
+      {
+        "id": "yoon2020trimodal",
+        "title": "Speech Gesture Generation from the Trimodal Context of Text, Audio, and Speaker Identity",
+        "year": 2020,
+        "venue": "TOG",
+        "category": "method",
+        "code_link": true,
+        "citations": 250
+      },
+      {
+        "id": "cassell2001beat",
+        "title": "BEAT",
+        "year": 2001,
+        "venue": "Life-like characters",
+        "category": "method",
+        "code_link": false,
+        "citations": 209
+      },
+      {
+        "id": "ginosar2019speech2gesture",
+        "title": "Learning Individual Styles of Conversational Gesture",
+        "year": 2019,
+        "venue": "CVPR",
+        "category": "method",
+        "code_link": true,
+        "citations": 195
       },
       {
         "id": "yoon2019robots",
@@ -146,7 +146,7 @@
         "venue": "ICRA",
         "category": "method",
         "code_link": false,
-        "citations": 168
+        "citations": 175
       },
       {
         "id": "kucherenko2020gesticulator",
@@ -155,7 +155,7 @@
         "venue": "ICMI",
         "category": "method",
         "code_link": true,
-        "citations": 142
+        "citations": 150
       },
       {
         "id": "liu2022beat",
@@ -164,7 +164,7 @@
         "venue": "ECCV",
         "category": "dataset",
         "code_link": true,
-        "citations": 131
+        "citations": 143
       },
       {
         "id": "alexanderson2020stylegestures",
@@ -173,7 +173,7 @@
         "venue": "CGF",
         "category": "method",
         "code_link": true,
-        "citations": 129
+        "citations": 133
       },
       {
         "id": "cassell1994animated",
@@ -182,7 +182,7 @@
         "venue": "SIGGRAPH",
         "category": "system",
         "code_link": false,
-        "citations": 117
+        "citations": 121
       },
       {
         "id": "kucherenko2019analyzing",
@@ -191,31 +191,31 @@
         "venue": "IVA",
         "category": "method",
         "code_link": true,
-        "citations": 113
+        "citations": 114
       },
       {
-        "id": "neff2008gesture",
-        "title": "Gesture modeling and animation based on a probabilistic re-creation of speaker style",
-        "year": 2008,
-        "venue": "TOG",
+        "id": "li2021audio2gestures",
+        "title": "Audio2Gestures: Generating Diverse Gestures from Speech Audio with Conditional Variational Autoencoders",
+        "year": 2021,
+        "venue": "ICCV",
         "category": "method",
         "code_link": false,
-        "citations": 109
+        "citations": 114
       }
     ]
   },
   "code_groups": {
     "code_link": {
-      "records": 79,
-      "median": 10,
-      "mean": 29.76,
-      "with_outgoing": 70
+      "records": 80,
+      "median": 10.0,
+      "mean": 31.57,
+      "with_outgoing": 73
     },
     "no_code_link_recorded": {
-      "records": 539,
-      "median": 2,
-      "mean": 9.23,
-      "with_outgoing": 486
+      "records": 556,
+      "median": 2.0,
+      "mean": 9.4,
+      "with_outgoing": 505
     }
   },
   "cohorts": [
@@ -228,10 +228,10 @@
         "with_outgoing": 0
       },
       "no_code_link_recorded": {
-        "records": 87,
-        "median": 6,
-        "mean": 16.7,
-        "with_outgoing": 75
+        "records": 88,
+        "median": 6.0,
+        "mean": 16.74,
+        "with_outgoing": 76
       }
     },
     {
@@ -245,7 +245,7 @@
       "no_code_link_recorded": {
         "records": 68,
         "median": 4.0,
-        "mean": 9.81,
+        "mean": 9.93,
         "with_outgoing": 65
       }
     },
@@ -253,14 +253,14 @@
       "years": "2015-2019",
       "code_link": {
         "records": 4,
-        "median": 58.5,
-        "mean": 75,
+        "median": 59.0,
+        "mean": 78.25,
         "with_outgoing": 3
       },
       "no_code_link_recorded": {
         "records": 58,
-        "median": 4.5,
-        "mean": 14.81,
+        "median": 5.0,
+        "mean": 15.09,
         "with_outgoing": 48
       }
     },
@@ -268,43 +268,43 @@
       "years": "2020-2022",
       "code_link": {
         "records": 26,
-        "median": 25.0,
-        "mean": 49.96,
+        "median": 26.5,
+        "mean": 52.85,
         "with_outgoing": 25
       },
       "no_code_link_recorded": {
         "records": 89,
         "median": 5,
-        "mean": 12.47,
+        "mean": 12.93,
         "with_outgoing": 84
       }
     },
     {
       "years": "2023-2026",
       "code_link": {
-        "records": 49,
-        "median": 5,
-        "mean": 15.35,
-        "with_outgoing": 42
+        "records": 50,
+        "median": 5.5,
+        "mean": 16.78,
+        "with_outgoing": 45
       },
       "no_code_link_recorded": {
-        "records": 237,
-        "median": 0,
-        "mean": 3.73,
-        "with_outgoing": 214
+        "records": 253,
+        "median": 1,
+        "mean": 4.17,
+        "with_outgoing": 232
       }
     }
   ],
   "venues": [
     {
       "venue": "ICMI",
-      "records": 47,
-      "median": 6,
-      "mean": 14.15,
-      "with_outgoing": 46,
+      "records": 51,
+      "median": 5,
+      "mean": 13.47,
+      "with_outgoing": 50,
       "years": [
         2004,
-        2025
+        2026
       ],
       "code_links": 10
     },
@@ -312,7 +312,7 @@
       "venue": "IVA",
       "records": 38,
       "median": 8.5,
-      "mean": 24.45,
+      "mean": 24.95,
       "with_outgoing": 38,
       "years": [
         2006,
@@ -323,8 +323,8 @@
     {
       "venue": "CVPR",
       "records": 31,
-      "median": 13,
-      "mean": 28.52,
+      "median": 15,
+      "mean": 32.03,
       "with_outgoing": 28,
       "years": [
         2019,
@@ -337,7 +337,7 @@
       "records": 19,
       "median": 1,
       "mean": 1.16,
-      "with_outgoing": 16,
+      "with_outgoing": 18,
       "years": [
         2006,
         2026
@@ -347,8 +347,8 @@
     {
       "venue": "ICASSP",
       "records": 18,
-      "median": 0.5,
-      "mean": 3,
+      "median": 1.0,
+      "mean": 3.28,
       "with_outgoing": 17,
       "years": [
         2013,
@@ -357,10 +357,34 @@
       "code_links": 2
     },
     {
+      "venue": "ACM MM",
+      "records": 17,
+      "median": 3,
+      "mean": 10.82,
+      "with_outgoing": 17,
+      "years": [
+        2005,
+        2026
+      ],
+      "code_links": 4
+    },
+    {
+      "venue": "TOG",
+      "records": 15,
+      "median": 46,
+      "mean": 61.87,
+      "with_outgoing": 15,
+      "years": [
+        2004,
+        2026
+      ],
+      "code_links": 4
+    },
+    {
       "venue": "AAMAS",
       "records": 15,
       "median": 5,
-      "mean": 11.27,
+      "mean": 11.53,
       "with_outgoing": 10,
       "years": [
         2004,
@@ -369,22 +393,10 @@
       "code_links": 3
     },
     {
-      "venue": "ACM MM",
-      "records": 14,
-      "median": 6.0,
-      "mean": 12,
-      "with_outgoing": 14,
-      "years": [
-        2005,
-        2026
-      ],
-      "code_links": 4
-    },
-    {
       "venue": "RO-MAN",
       "records": 14,
       "median": 4.0,
-      "mean": 6.07,
+      "mean": 6.14,
       "with_outgoing": 14,
       "years": [
         2007,
@@ -393,22 +405,10 @@
       "code_links": 1
     },
     {
-      "venue": "TOG",
-      "records": 13,
-      "median": 57,
-      "mean": 66.23,
-      "with_outgoing": 13,
-      "years": [
-        2004,
-        2024
-      ],
-      "code_links": 3
-    },
-    {
       "venue": "ICCV",
       "records": 11,
-      "median": 8,
-      "mean": 22.36,
+      "median": 13,
+      "mean": 26,
       "with_outgoing": 9,
       "years": [
         2019,
@@ -420,7 +420,7 @@
       "venue": "IROS",
       "records": 10,
       "median": 3.5,
-      "mean": 9.8,
+      "mean": 10.3,
       "with_outgoing": 9,
       "years": [
         2010,
@@ -430,33 +430,33 @@
     }
   ],
   "author_visibility": {
-    "records_with_authors": 610,
-    "generation_records": 618,
+    "records_with_authors": 628,
+    "generation_records": 636,
     "proxy": "Maximum number of strictly earlier generation-research publications in the atlas among a paper's listed authors, matched by exact recorded name.",
-    "spearman_rho": 0.19,
+    "spearman_rho": 0.195,
     "cohorts": [
       {
         "years": "2015-2019",
         "records": 59,
-        "spearman_rho": -0.111
+        "spearman_rho": -0.116
       },
       {
         "years": "2020-2022",
         "records": 114,
-        "spearman_rho": -0.006
+        "spearman_rho": -0.002
       },
       {
         "years": "2023-2026",
-        "records": 285,
-        "spearman_rho": 0.178
+        "records": 302,
+        "spearman_rho": 0.194
       }
     ],
     "corresponding_author_available": false,
     "limitations": "Incomplete author lists and name variants are not disambiguated. This proxy measures recorded prior publication presence, not reputation, institutional status, corresponding-author responsibility, or causal influence."
   },
   "chronology_sensitivity": {
-    "generation_incoming_edges": 7295,
-    "top10_share_percent": 20.95
+    "generation_incoming_edges": 7725,
+    "top10_share_percent": 20.75
   },
   "limitations": [
     "Internal graph counts are not global citation counts.",

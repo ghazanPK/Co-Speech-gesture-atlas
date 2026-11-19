@@ -885,6 +885,19 @@
   verified: false
   area: social-interaction
 
+- id: ksa2020speech
+  title: 'Co-speech gestures reflect non-linguistic thinking: evidence from mental abacus.'
+  authors: [Yağmur Deniz Kısa, Neon Blue Brooks, Susan Goldin‐Meadow]
+  year: 2020
+  venue: CogSci
+  type: conference
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/5xp2j4kh'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
 - id: kucherenko2020gesticulator
   title: 'Gesticulator: A framework for semantically-aware speech-driven gesture generation'
   authors: [Taras Kucherenko, Patrik Jonell, Sanne van Waveren, Gustav Eje Henter, Simon Alexanderson, Iolanda Leite, Hedvig Kjellström]
@@ -1254,6 +1267,20 @@
   checked: abstract
   verified: false
   area: linguistics
+
+- id: pouw2020gesture
+  title: Gesture-speech physics in fluent speech and rhythmic upper limb movements
+  authors: [Wim T. J. L. Pouw, Lisette de Jonge‐Hoekstra, Steven A. Harrison, Alexandra Paxton, James A. Dixon]
+  year: 2020
+  venue: Annals of the New York Academy of Sciences
+  type: journal
+  category: theory
+  doi: 10.1111/nyas.14532
+  links: {paper: 'https://doi.org/10.1111/nyas.14532'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
 
 - id: prieto2020negation
   title: Negation, Prosody, and Gesture

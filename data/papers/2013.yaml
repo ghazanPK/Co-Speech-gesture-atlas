@@ -146,6 +146,19 @@
   verified: false
   area: neuroscience
 
+- id: argyriou2013left
+  title: The Effect of Left-Hand Gestures on Metaphor Explanation
+  authors: [Paraskevi Argyriou, Sotaro Kita]
+  year: 2013
+  venue: CogSci
+  type: conference
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/5jt143s0'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: cognition
+
 - id: bavelas2013reconciling
   title: Reconciling the effects of mutual visibility on gesturing
   authors: [Janet Beavin Bavelas, Sara Healing]
@@ -1704,6 +1717,19 @@
   type: journal
   category: theory
   links: {paper: 'https://research.tilburguniversity.edu/en/publications/6b407a13-30cd-4b26-b4fc-b2981e3db655'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: development
+
+- id: vogt2013rural
+  title: Rural and urban differences in language socialization and early vocabulary development in Mozambique
+  authors: [Paul Vogt, J.D. Mastin]
+  year: 2013
+  venue: CogSci
+  type: conference
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/5tn4654w'}
   added: '2026-10-03'
   checked: abstract
   verified: false

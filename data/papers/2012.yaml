@@ -476,6 +476,19 @@
   verified: false
   area: psycholinguistics
 
+- id: holler2012gestures
+  title: 'When gestures catch the eye: The influence of gaze direction on co-speech gesture comprehension in triadic communication'
+  authors: [Judith Holler, Spencer D. Kelly, Peter Hagoort, Aslı Özyürek]
+  year: 2012
+  venue: CogSci
+  type: conference
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/0vt435ns'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: perception
+
 - id: hostetter2012personality
   title: Effects of personality and social situation on representational gesture production
   authors: [Autumn B. Hostetter, Andrea L. Potthoff]

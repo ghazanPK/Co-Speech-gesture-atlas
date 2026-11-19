@@ -172,6 +172,19 @@
   verified: false
   area: linguistics
 
+- id: flechagarcia2007verbal
+  title: 'Non-verbal Communication in Dialogue: Alignment between Eyebrow Raises and Pitch Accents in English'
+  authors: [María Luisa Flecha-García]
+  year: 2007
+  venue: CogSci
+  type: conference
+  category: theory
+  links: {paper: 'https://escholarship.org/uc/item/1wg4x76b'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: linguistics
+
 - id: gentilucci2007motor
   title: The motor system and the relationships between speech and gesture
   authors: [Maurizio Gentilucci, Riccardo Dalla Volta]

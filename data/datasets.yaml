@@ -431,10 +431,7 @@
   access: open
   license: Research purposes only, under restricted licenses (as stated by the authors)
 
-- id: custom
-  added: '2026-10-02'
-  verified: false
-  name: Dataset collected by the authors and not named or released
+- {id: custom, added: '2026-10-02', verified: false, name: Dataset collected by the authors and not named or released}
 
 - id: streamer
   year: 2025
@@ -996,15 +993,9 @@
   access: open
   license: CC BY-SA 4.0
 
-- id: ges-x
-  added: '2026-10-02'
-  verified: false
-  name: GES-X
+- {id: ges-x, added: '2026-10-02', verified: false, name: GES-X}
 
-- id: lisi-hhi
-  added: '2026-10-02'
-  verified: false
-  name: LISI-HHI
+- {id: lisi-hhi, added: '2026-10-02', verified: false, name: LISI-HHI}
 
 - id: lecgesture
   links: {}
@@ -1030,37 +1021,22 @@
   verified: false
   name: MSP-AVATAR corpus
 
-- id: openhumanvid
-  added: '2026-10-13'
-  verified: false
-  name: OpenHumanVid
+- {id: openhumanvid, added: '2026-10-13', verified: false, name: OpenHumanVid}
 
-- id: cohumo
-  added: '2026-10-13'
-  verified: false
-  name: CoHuMo
+- {id: cohumo, added: '2026-10-13', verified: false, name: CoHuMo}
 
-- id: cas
-  added: '2026-10-13'
-  verified: false
-  name: Chinese Announcer Speech (CAS)
+- {id: cas, added: '2026-10-13', verified: false, name: Chinese Announcer Speech (CAS)}
 
-- id: takeuchi-gesture-speech
-  added: '2026-10-13'
-  verified: false
-  name: Takeuchi gesture-speech dataset
+- {id: takeuchi-gesture-speech, added: '2026-10-13', verified: false, name: Takeuchi gesture-speech dataset}
 
-- id: swag
-  added: '2026-10-13'
-  verified: false
-  name: SWAG (Semantic Word Associated Gesture)
+- {id: swag, added: '2026-10-13', verified: false, name: SWAG (Semantic Word Associated Gesture)}
 
-- id: sdg
-  added: '2026-10-13'
-  verified: false
-  name: Story Dialogue with Gestures (SDG)
+- {id: sdg, added: '2026-10-13', verified: false, name: Story Dialogue with Gestures (SDG)}
 
-- id: storytelling-video-corpus
-  added: '2026-10-13'
+- {id: storytelling-video-corpus, added: '2026-10-13', verified: false, name: Storytelling Video Corpus}
+
+- id: ted-gvd
+  links: {}
+  added: '2026-10-02'
   verified: false
-  name: Storytelling Video Corpus
+  name: TED-GVD (TED Gesture Video Dataset)

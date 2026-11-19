@@ -325,6 +325,25 @@
   verified: false
   area: psycholinguistics
 
+- id: wachsmuth2001timing
+  title: Timing and Rhythm in Multimodal Communication for Conversational Agents
+  authors: [Ipke Wachsmuth]
+  year: 2001
+  venue: CogSci
+  type: conference
+  category: system
+  links: {paper: 'https://escholarship.org/uc/item/91h8h0vn'}
+  input: [text]
+  output: [upper-body, hands]
+  representation: [joints-3d]
+  approach: [rule-based]
+  realtime: unreported
+  summary: Describes an articulated communicator that plans lifelike gesture animations from a gestuary and synchronizes gesture strokes with text-to-speech output.
+  notes: Venue is not stated in the text read; the paper is hosted on eScholarship.
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+
 - id: wang2001teachers
   title: Effects of Teachers' Verbal and Non-verbal Scaffolding on Everyday Classroom Performances of Students with Down Syndrome Effets du Soutien Verbal et Non Verbal des Enseignants sur les Performances Quotidiennes en Classe des E´le ¤ ves Trisomiques Efectos de 'Scaffolding' Verbal y No Verbal de los Profesores en las Actuaciones Cotidianas en las Clases de Estudiantes con el S´ L ndrome de Down
   authors: [Xiao-Lei Wang, Ronan S. Bernas, Philippe Eberhard]
