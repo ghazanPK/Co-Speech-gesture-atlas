@@ -5,17 +5,17 @@
     1965,
     2026
   ],
-  "papers": 2730,
-  "generation": 636,
+  "papers": 2729,
+  "generation": 635,
   "theory": 2011,
   "theses": 83,
   "datasets": 77,
   "metrics": 42,
-  "citations": 32890,
+  "citations": 32888,
   "with_code": 81,
   "verified": 132,
   "reading": {
-    "full-text": 318,
+    "full-text": 317,
     "abstract": 2101,
     "metadata": 311
   },

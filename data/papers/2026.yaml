@@ -888,28 +888,6 @@
   checked: metadata
   verified: false
 
-- id: li2026ghost
-  title: Can People Distinguish Human and AI Agency in Humanoid Teleoperation? A Preliminary Study of Agency Perception
-  authors: [Xiang Li, Koya Dendo, Keigo Minamida, Yuto Nakamura, Per Ola Kristensson, Jun Rekimoto]
-  year: 2026
-  venue: UIST
-  type: conference
-  category: system
-  doi: 10.1145/3830397.3841874
-  arxiv: '2609.06434'
-  links: {paper: 'https://doi.org/10.1145/3830397.3841874', open: 'https://arxiv.org/abs/2609.06434'}
-  input: [audio]
-  output: [hands, face]
-  representation: [joints-3d]
-  approach: [gan]
-  setting: [monologue]
-  realtime: unreported
-  user_study: true
-  summary: Ghost-in-the-Loop is a humanoid teleoperation framework with human or AI control of voice, face and a speech-driven hand-gesture model, used in an online study of whether people can tell the two apart.
-  added: '2026-11-19'
-  checked: full-text
-  verified: false
-
 - id: li2026globaldiff
   title: Mitigating Error Accumulation in Co-Speech Motion Generation via Global Rotation Diffusion and Multi-Level Constraints
   authors: [Jianfang Li, Jianqiang Ren, Xiangyue Zhang, Jiaxu Zhang]

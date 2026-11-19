@@ -1,14 +1,14 @@
 {
   "snapshot_date": "2026-11-19",
   "definition": "Citation concentration measures the share of recorded within-atlas citation edges received by the most-cited records. It does not measure author self-citation or a causal effect.",
-  "raw_edges": 32890,
-  "unique_edges": 32890,
+  "raw_edges": 32888,
+  "unique_edges": 32888,
   "chronology_conflicts": 243,
   "all": {
-    "records": 2730,
-    "incoming_edges": 32890,
+    "records": 2729,
+    "incoming_edges": 32888,
     "records_with_incoming": 2101,
-    "records_with_outgoing": 2159,
+    "records_with_outgoing": 2158,
     "top10_edges": 2522,
     "top10_share_percent": 7.67,
     "top10": [
@@ -94,22 +94,22 @@
         "citations": 207
       },
       {
-        "id": "ginosar2019speech2gesture",
-        "title": "Learning Individual Styles of Conversational Gesture",
-        "year": 2019,
-        "venue": "CVPR",
-        "category": "method",
-        "code_link": true,
+        "id": "ruiter2000production",
+        "title": "The production of gesture and speech",
+        "year": 2000,
+        "venue": "Language and Gesture",
+        "category": "theory",
+        "code_link": false,
         "citations": 195
       }
     ]
   },
   "generation": {
-    "records": 636,
-    "incoming_edges": 7755,
+    "records": 635,
+    "incoming_edges": 7753,
     "records_with_incoming": 444,
-    "records_with_outgoing": 578,
-    "top10_edges": 1604,
+    "records_with_outgoing": 577,
+    "top10_edges": 1603,
     "top10_share_percent": 20.68,
     "top10": [
       {
@@ -137,7 +137,7 @@
         "venue": "CVPR",
         "category": "method",
         "code_link": true,
-        "citations": 195
+        "citations": 194
       },
       {
         "id": "yoon2019robots",
@@ -208,14 +208,14 @@
     "code_link": {
       "records": 80,
       "median": 10.0,
-      "mean": 31.57,
+      "mean": 31.55,
       "with_outgoing": 73
     },
     "no_code_link_recorded": {
-      "records": 556,
-      "median": 2.0,
-      "mean": 9.4,
-      "with_outgoing": 505
+      "records": 555,
+      "median": 2,
+      "mean": 9.42,
+      "with_outgoing": 504
     }
   },
   "cohorts": [
@@ -254,7 +254,7 @@
       "code_link": {
         "records": 4,
         "median": 59.0,
-        "mean": 78.25,
+        "mean": 78,
         "with_outgoing": 3
       },
       "no_code_link_recorded": {
@@ -269,7 +269,7 @@
       "code_link": {
         "records": 26,
         "median": 26.5,
-        "mean": 52.85,
+        "mean": 52.81,
         "with_outgoing": 25
       },
       "no_code_link_recorded": {
@@ -288,10 +288,10 @@
         "with_outgoing": 45
       },
       "no_code_link_recorded": {
-        "records": 253,
-        "median": 1,
-        "mean": 4.17,
-        "with_outgoing": 232
+        "records": 252,
+        "median": 1.0,
+        "mean": 4.19,
+        "with_outgoing": 231
       }
     }
   ],
@@ -324,7 +324,7 @@
       "venue": "CVPR",
       "records": 31,
       "median": 15,
-      "mean": 32.03,
+      "mean": 32,
       "with_outgoing": 28,
       "years": [
         2019,
@@ -430,10 +430,10 @@
     }
   ],
   "author_visibility": {
-    "records_with_authors": 628,
-    "generation_records": 636,
+    "records_with_authors": 627,
+    "generation_records": 635,
     "proxy": "Maximum number of strictly earlier generation-research publications in the atlas among a paper's listed authors, matched by exact recorded name.",
-    "spearman_rho": 0.195,
+    "spearman_rho": 0.194,
     "cohorts": [
       {
         "years": "2015-2019",
@@ -443,20 +443,20 @@
       {
         "years": "2020-2022",
         "records": 114,
-        "spearman_rho": -0.002
+        "spearman_rho": -0.001
       },
       {
         "years": "2023-2026",
-        "records": 302,
-        "spearman_rho": 0.194
+        "records": 301,
+        "spearman_rho": 0.192
       }
     ],
     "corresponding_author_available": false,
     "limitations": "Incomplete author lists and name variants are not disambiguated. This proxy measures recorded prior publication presence, not reputation, institutional status, corresponding-author responsibility, or causal influence."
   },
   "chronology_sensitivity": {
-    "generation_incoming_edges": 7725,
-    "top10_share_percent": 20.75
+    "generation_incoming_edges": 7723,
+    "top10_share_percent": 20.74
   },
   "limitations": [
     "Internal graph counts are not global citation counts.",

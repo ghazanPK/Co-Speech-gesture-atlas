@@ -13,10 +13,10 @@ Every paper as a comparison row, not a bare link. Every dataset and metric defin
 
 <!-- BEGIN:stats -->
 <p align="center">
-<img alt="papers" src="https://img.shields.io/badge/papers-2%2C730-2a6f97">
+<img alt="papers" src="https://img.shields.io/badge/papers-2%2C729-2a6f97">
 <img alt="datasets" src="https://img.shields.io/badge/datasets-77-2a6f97">
 <img alt="metrics" src="https://img.shields.io/badge/metrics-42-2a6f97">
-<img alt="citation links" src="https://img.shields.io/badge/citation%20links-32%2C890-2a6f97">
+<img alt="citation links" src="https://img.shields.io/badge/citation%20links-32%2C888-2a6f97">
 <img alt="years" src="https://img.shields.io/badge/years-1965–2026-555">
 <img alt="data" src="https://img.shields.io/badge/data-CC0-c9a227">
 <img alt="scripts" src="https://img.shields.io/badge/scripts-MIT-c9a227">
@@ -24,7 +24,7 @@ Every paper as a comparison row, not a bare link. Every dataset and metric defin
 
 | Gesture generation | Gesture theory | Theses | With code | Read from full text | Verified twice |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **636** papers | **2011** papers | **83** | **81** | **318** | **132** |
+| **635** papers | **2011** papers | **83** | **81** | **317** | **132** |
 
 2101 records were filled from the abstract only (†) and 311 from bibliographic metadata only (‡), mostly where the full text is behind a paywall.
 <!-- END:stats -->
@@ -34,7 +34,7 @@ Every paper as a comparison row, not a bare link. Every dataset and metric defin
 ## Finding: methods used in applications
 
 <!-- BEGIN:applications -->
-Across the atlas’s **636 gesture-generation papers**, our audit identifies only **16 method papers across 8 groups**, with each group reused in **two or more applications or related studies**, including **museum guides, healthcare counselors and conversational robots**. The strongest documented interactive reuse remains concentrated in older **BEAT/REA** pipelines, showing why application uptake matters alongside the number of new methods published. [Where and how are they used? →](APPLICATIONS.md#method-group-counts)
+Across the atlas’s **635 gesture-generation papers**, our audit identifies only **16 method papers across 8 groups**, with each group reused in **two or more applications or related studies**, including **museum guides, healthcare counselors and conversational robots**. The strongest documented interactive reuse remains concentrated in older **BEAT/REA** pipelines, showing why application uptake matters alongside the number of new methods published. [Where and how are they used? →](APPLICATIONS.md#method-group-counts)
 
 | Method group / methods used | Method years | Functional interactive papers | Adjacent usage papers¹ |
 |---|---|---:|---:|
@@ -176,7 +176,6 @@ Methods and systems, newest first, ordered by venue within each year.
 | TOG | [DynaConTalk: Wavelet-Constrained Diffusion for Long-Form and Controllable Holistic Co-Speech 3D Motion](https://doi.org/10.1145/3842553) · [open copy](https://arxiv.org/abs/2610.09846) | audio, text, speaker-id | full-body, hands, face | diffusion | monologue | [code](https://github.com/zhuyifeiabcd1/DynaConTalk) + weights |
 | TOG | [ProAct: Harnessing Streaming Motion Generation and Agentic Reasoning for Realtime Embodied Social Interaction](https://doi.org/10.1145/3842576) · [open copy](https://arxiv.org/abs/2602.14048) · [project](https://proactrobot.github.io/) | audio, text, interlocutor, image | upper-body | flow-matching, llm, hybrid | dyadic |  |
 | TVCG | [ExGes: Expressive Human Motion Retrieval and Modulation for Audio-Driven Gesture Synthesis](https://doi.org/10.1109/tvcg.2026.3679469) · [open copy](https://arxiv.org/abs/2503.06499) | audio | full-body | retrieval, diffusion | monologue |  |
-| UIST | [Can People Distinguish Human and AI Agency in Humanoid Teleoperation? A Preliminary Study of Agency Perception](https://doi.org/10.1145/3830397.3841874) · [open copy](https://arxiv.org/abs/2609.06434) | audio | hands, face | gan | monologue |  |
 | WACV | [InteracTalker: Prompt-Based Human-Object Interaction with Co-Speech Gesture Generation](https://doi.org/10.1109/wacv61042.2026.00146) · [open copy](https://arxiv.org/abs/2512.12664) · [project](https://sreeharirajan.github.io/projects/InteracTalker/) | text, audio | full-body | diffusion | monologue |  |
 
 ### 2025
