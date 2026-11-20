@@ -448,7 +448,7 @@
   doi: 10.1075/gest.11.2.02dip
   links: {paper: 'https://doi.org/10.1075/gest.11.2.02dip'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: clinical
 
@@ -462,7 +462,7 @@
   doi: 10.1371/journal.pone.0025759
   links: {paper: 'https://doi.org/10.1371/journal.pone.0025759'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: social-interaction
 
@@ -545,7 +545,7 @@
   doi: 10.31390/gradschool_dissertations.78
   links: {paper: 'https://doi.org/10.31390/gradschool_dissertations.78'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: social-interaction
 
@@ -711,7 +711,7 @@
   doi: 10.23668/psycharchives.3960
   links: {paper: 'https://doi.org/10.23668/psycharchives.3960'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: social-interaction
 
@@ -863,7 +863,7 @@
   doi: 10.3390/info2040579
   links: {paper: 'https://doi.org/10.3390/info2040579'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: social-interaction
 
@@ -1357,7 +1357,7 @@
   category: theory
   links: {paper: 'http://etheses.whiterose.ac.uk/1778/1/ReinSikvelandPhDThesis_2011.pdf'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: social-interaction
 
@@ -1399,7 +1399,7 @@
   doi: 10.1515/9783110668568
   links: {paper: 'https://doi.org/10.1515/9783110668568'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: perception
 

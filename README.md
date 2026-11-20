@@ -24,9 +24,9 @@ Every paper as a comparison row, not a bare link. Every dataset and metric defin
 
 | Gesture generation | Gesture theory | Theses | With code | Read from full text | Verified twice |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **635** papers | **2011** papers | **83** | **83** | **531** | **132** |
+| **635** papers | **2011** papers | **83** | **83** | **581** | **132** |
 
-1891 records were filled from the abstract only (†) and 307 from bibliographic metadata only (‡), mostly where the full text is behind a paywall.
+1844 records were filled from the abstract only (†) and 304 from bibliographic metadata only (‡), mostly where the full text is behind a paywall.
 <!-- END:stats -->
 
 <p align="center"><img src="docs/papers-per-year.svg" alt="Papers in the atlas by publication year" width="960"></p>
@@ -988,10 +988,10 @@ Doctoral and master's theses on gesture generation and on gesture theory. They a
 | 2012 | [Modeling nonverbal behaviors for virtual agents](http://dl.acm.org/citation.cfm?id=2518573)† | Thesis | method | Derives models that generate virtual agent nonverbal behaviour such as head nods, eyebrow movements and arm gestures, using literature-based rules and probabilistic models learned from speaker behaviour. |
 | 2012 | [The Production of Co-Speech Iconic Gestures: Empirical Study and Computational Simulation with Virtual Agents](https://pub.uni-bielefeld.de/record/2460005)† | Bielefeld University | method | Develops GNetIc, a network model combining data-driven learning and rule-based decisions to generate speaker-specific iconic gestures for a virtual agent's speech. |
 | 2011 | [Behavior generation for interpersonal coordination with virtual humans : on specifying, scheduling and realizing multimodal virtual human behavior](https://doi.org/10.3990/1.9789036532334) · [open copy](https://ris.utwente.nl/ws/files/6035043/thesis_H_van_Welbergen.pdf) | Thesis | system | Presents BML Twente and the Elckerlyc BML realizer, which schedules and executes speech and gesture behaviour for virtual humans, combining procedural and physical animation for continuous interaction. |
-| 2011 | [Co-ordination of speech and gesture in sequence and time : phonetic and non-verbal detail in face-to-face interaction](http://etheses.whiterose.ac.uk/1778/1/ReinSikvelandPhDThesis_2011.pdf)† | White Rose eTheses Online (University of Leeds, The University of Sheffield, University of York) | theory |  |
+| 2011 | [Co-ordination of speech and gesture in sequence and time : phonetic and non-verbal detail in face-to-face interaction](http://etheses.whiterose.ac.uk/1778/1/ReinSikvelandPhDThesis_2011.pdf) | White Rose eTheses Online (University of Leeds, The University of Sheffield, University of York) | theory |  |
 | 2011 | [Co-Speech Gesture in Communication and Cognition](http://hdl.handle.net/1794/12145)† | Scholars' Bank (University of Oregon) | theory |  |
 | 2011 | [Generating Engagement Behaviors in Human-Robot Interaction](https://digitalcommons.wpi.edu/etd-theses/328)† | WPI | system | A ROS module adds gaze and pointing gestures to referring phrases and other connection events for a humanoid robot, plus an event-driven BML realizer for robots. |
-| 2011 | [Nonverbal communication among Pointe Coupee Creoles](https://doi.org/10.31390/gradschool_dissertations.78)† | Louisiana State University | theory |  |
+| 2011 | [Nonverbal communication among Pointe Coupee Creoles](https://doi.org/10.31390/gradschool_dissertations.78) | Louisiana State University | theory |  |
 | 2011 | [Prominence in gesture and speech in American English and Italian](https://docs.lib.purdue.edu/dissertations/AAI1510256)† | Purdue e-Pubs (Purdue University System) | theory |  |
 | 2011 | [Reference in action : links between pointing and language](https://escholarship.org/uc/item/52g063b5)† | eScholarship (California Digital Library) | theory |  |
 | 2011 | [Robotic gesture-speech synchronization](http://hdl.handle.net/10356/44964)† | DR-NTU | system | A text-to-speech-to-gesture engine that plans gestures, blends motions, generates beat gestures at run time and synchronises them with speech timings on the Olivia 2.1 robot. |

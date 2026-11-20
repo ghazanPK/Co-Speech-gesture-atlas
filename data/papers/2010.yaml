@@ -80,7 +80,7 @@
   doi: 10.3389/fnhum.2010.00214
   links: {paper: 'https://doi.org/10.3389/fnhum.2010.00214'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: psycholinguistics
 
@@ -226,7 +226,7 @@
   doi: 10.1371/journal.pone.0011805
   links: {paper: 'https://doi.org/10.1371/journal.pone.0011805'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: cognition
 
@@ -325,7 +325,7 @@
   doi: 10.3109/13682822.2010.520813
   links: {paper: 'https://doi.org/10.3109/13682822.2010.520813'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: clinical
 
@@ -394,7 +394,7 @@
   doi: 10.3765/bls.v36i1.3905
   links: {paper: 'https://doi.org/10.3765/bls.v36i1.3905'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: cognition
 
@@ -582,7 +582,7 @@
   doi: 10.4324/9780203837887-41
   links: {paper: 'https://doi.org/10.4324/9780203837887-41'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -735,7 +735,7 @@
   doi: 10.1080/01690961003752348
   links: {paper: 'https://doi.org/10.1080/01690961003752348'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: clinical
 
@@ -1063,7 +1063,7 @@
   doi: 10.1007/s10919-010-0089-7
   links: {paper: 'https://doi.org/10.1007/s10919-010-0089-7'}
   added: '2026-10-03'
-  checked: metadata
+  checked: full-text
   verified: false
   area: psycholinguistics
 
@@ -1219,7 +1219,7 @@
   doi: 10.21437/speechprosody.2010-133
   links: {paper: 'https://doi.org/10.21437/speechprosody.2010-133'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: psycholinguistics
 
@@ -1391,6 +1391,6 @@
   doi: 10.1017/s0305000909990328
   links: {paper: 'https://doi.org/10.1017/s0305000909990328'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: development
