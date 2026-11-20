@@ -26,7 +26,7 @@
   doi: 10.15398/jlm.v5i3.167
   links: {paper: 'https://doi.org/10.15398/jlm.v5i3.167'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -39,7 +39,7 @@
   category: theory
   links: {paper: 'https://orbi.umons.ac.be/handle/20.500.12907/9475'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: psycholinguistics
 
@@ -81,7 +81,7 @@
   doi: 10.1017/s0272263118000074
   links: {paper: 'https://doi.org/10.1017/s0272263118000074'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: education
 
@@ -193,7 +193,7 @@
   doi: 10.12775/3991-1.014
   links: {paper: 'https://doi.org/10.12775/3991-1.014'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -416,7 +416,7 @@
   doi: 10.1007/s00426-018-1065-9
   links: {paper: 'https://doi.org/10.1007/s00426-018-1065-9'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: cognition
 
@@ -430,7 +430,7 @@
   doi: 10.21248/zaspil.60.2018.473
   links: {paper: 'https://doi.org/10.21248/zaspil.60.2018.473'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -444,7 +444,7 @@
   doi: 10.3389/fpsyg.2018.00338
   links: {paper: 'https://doi.org/10.3389/fpsyg.2018.00338'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: development
 
@@ -473,7 +473,7 @@
   category: theory
   links: {paper: 'http://etheses.bham.ac.uk/8084/1/Fritz18PhD.pdf'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: psycholinguistics
 
@@ -487,7 +487,7 @@
   doi: 10.1016/j.jml.2018.09.002
   links: {paper: 'https://doi.org/10.1016/j.jml.2018.09.002'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: psycholinguistics
 
@@ -529,7 +529,7 @@
   doi: 10.3389/fpsyg.2018.00879
   links: {paper: 'https://doi.org/10.3389/fpsyg.2018.00879'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: psycholinguistics
 
@@ -543,7 +543,7 @@
   doi: 10.1017/s1366728918000652
   links: {paper: 'https://doi.org/10.1017/s1366728918000652'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -663,7 +663,7 @@
   doi: 10.3389/fpsyg.2018.01348
   links: {paper: 'https://doi.org/10.3389/fpsyg.2018.01348'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: neuroscience
 
@@ -1061,7 +1061,7 @@
   doi: 10.29007/wt5s
   links: {paper: 'https://doi.org/10.29007/wt5s'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -1108,7 +1108,7 @@
 
 - id: muller2018gesture
   title: 'Gesture and Sign: Cataclysmic Break or Dynamic Relations?'
-  authors: [F. Max Müller]
+  authors: [Cornelia Müller]
   year: 2018
   venue: Frontiers in Psychology
   type: journal
@@ -1116,7 +1116,7 @@
   doi: 10.3389/fpsyg.2018.01651
   links: {paper: 'https://doi.org/10.3389/fpsyg.2018.01651'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -1214,7 +1214,7 @@
   doi: 10.1017/langcog.2018.9
   links: {paper: 'https://doi.org/10.1017/langcog.2018.9'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: development
 
@@ -1284,7 +1284,7 @@
   doi: 10.1007/s00426-018-1128-y
   links: {paper: 'https://doi.org/10.1007/s00426-018-1128-y'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: cognition
 
@@ -1312,7 +1312,7 @@
   doi: 10.3758/s13428-019-01271-9
   links: {paper: 'https://doi.org/10.3758/s13428-019-01271-9'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: psycholinguistics
 
@@ -1326,7 +1326,7 @@
   doi: 10.3389/fnhum.2018.00200
   links: {paper: 'https://doi.org/10.3389/fnhum.2018.00200'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: clinical
 
@@ -1456,7 +1456,7 @@
   doi: 10.1017/s0142716418000061
   links: {paper: 'https://doi.org/10.1017/s0142716418000061'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -1470,7 +1470,7 @@
   doi: 10.1075/lia.15020.sek
   links: {paper: 'https://doi.org/10.1075/lia.15020.sek'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: development
 
@@ -1484,7 +1484,7 @@
   doi: 10.3389/fpsyg.2018.01514
   links: {paper: 'https://doi.org/10.3389/fpsyg.2018.01514'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -1669,7 +1669,7 @@
   doi: 10.1017/s0272263117000316
   links: {paper: 'https://doi.org/10.1017/s0272263117000316'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: education
 

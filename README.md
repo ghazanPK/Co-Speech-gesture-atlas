@@ -24,9 +24,9 @@ Every paper as a comparison row, not a bare link. Every dataset and metric defin
 
 | Gesture generation | Gesture theory | Theses | With code | Read from full text | Verified twice |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **635** papers | **2011** papers | **83** | **83** | **418** | **132** |
+| **635** papers | **2011** papers | **83** | **83** | **478** | **132** |
 
-2001 records were filled from the abstract only (†) and 310 from bibliographic metadata only (‡), mostly where the full text is behind a paywall.
+1943 records were filled from the abstract only (†) and 308 from bibliographic metadata only (‡), mostly where the full text is behind a paywall.
 <!-- END:stats -->
 
 <p align="center"><img src="docs/papers-per-year.svg" alt="Papers in the atlas by publication year" width="960"></p>
@@ -962,7 +962,7 @@ Doctoral and master's theses on gesture generation and on gesture theory. They a
 | 2019 | [Time gestures](https://doi.org/10.17635/lancaster/thesis/567)† | Lancaster EPrints (Lancaster University) | theory |  |
 | 2018 | [Co-speech gesture integration in hippocampal amnesia](https://doi.org/10.17077/etd.89r2mell)† | University of Iowa | theory |  |
 | 2018 | [Generating Audio-driven Emotional Gestures using Motion Graphs](https://dspace.library.uu.nl:8080/handle/1874/363578)† | Utrecht University | method | Builds a motion graph from segmented mocap and selects segments online using prosody features of live speech and a specified conversational attitude. |
-| 2018 | [How gesture and speech interact during production and comprehension](http://etheses.bham.ac.uk/8084/1/Fritz18PhD.pdf)† | University of Birmingham Institutional Research Archive (University of Birmingham) | theory |  |
+| 2018 | [How gesture and speech interact during production and comprehension](http://etheses.bham.ac.uk/8084/1/Fritz18PhD.pdf) | University of Birmingham Institutional Research Archive (University of Birmingham) | theory |  |
 | 2018 | [Preschoolers' pragmatic development: how prosody and gesture lend a helping hand](http://hdl.handle.net/10803/593503)† | LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas) | theory |  |
 | 2017 | [An exploration of the integration of speech with co-speech gesture with non-invasive brain stimulation](https://hull-repository.worktribe.com/file/4220574/1/Thesis)† | Repository@Hull (Worktribe) (University of Hull) | theory |  |
 | 2017 | [Cognition in action C-i-A: Rethinking gesture in neuro-atypical young people: A conceptual framework for embodied, embedded, extended and enacted intentionality](https://openaccess.city.ac.uk/id/eprint/15292/1/Panayi%2C%20Marilyn.pdf)† | City Research Online (City University London) | theory |  |

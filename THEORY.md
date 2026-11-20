@@ -1358,7 +1358,7 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2017 | cognition | [Hand matters: Left-hand gestures enhance metaphor explanation.](https://doi.org/10.1037/xlm0000337)† | Journal of Experimental Psychology Learning Memory and Cognition |
 | 2017 | neuroscience | [Handling or being the concept: An fMRI study on metonymy representations in coverbal gestures](https://doi.org/10.1016/j.neuropsychologia.2017.12.033)‡ | Neuropsychologia |
 | 2017 | cognition | [How do gestures influence thinking and speaking? The gesture-for-conceptualization hypothesis.](https://doi.org/10.1037/rev0000059)† | Psychological Review |
-| 2017 | social-interaction | [How eye gaze, speech and gesture synchronize to construe multimodal microphenomena](http://hdl.handle.net/1854/LU-8695784)† | Ghent University Academic Bibliography (Ghent University) |
+| 2017 | social-interaction | [How eye gaze, speech and gesture synchronize to construe multimodal microphenomena](http://hdl.handle.net/1854/LU-8695784) | Ghent University Academic Bibliography (Ghent University) |
 | 2017 | clinical | [How Much Information Do People With Aphasia Convey via Gesture?](https://doi.org/10.1044/2016_ajslp-15-0027)† | American Journal of Speech-Language Pathology |
 | 2017 | linguistics | [How recurrent gestures mean](https://doi.org/10.1075/gest.16.2.05mul)† | Gesture |
 | 2017 | linguistics | [How to distinguish gesture from sign: New technology is not the answer](https://doi.org/10.1017/s0140525x15002897)† | Behavioral and Brain Sciences |
@@ -1391,7 +1391,7 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2017 | psycholinguistics | [Referring to Actions and Objects in Co-Speech Gesture Production.](https://eric.ed.gov/?id=ED580576)‡ | ProQuest LLC eBooks |
 | 2017 | linguistics | [Rising tones and rustling noises: Metaphors in gestural depictions of sounds](https://doi.org/10.1371/journal.pone.0181786)† | PLoS ONE |
 | 2017 | social-interaction | [Self-Making Man](https://doi.org/10.1017/9781139149341)† | Cambridge University Press |
-| 2017 | linguistics | [Separating viewpoint from mode of representation in iconic co-speech gestures: insights from Danish narratives](https://doi.org/10.1017/langcog.2016.35)† | Language and Cognition |
+| 2017 | linguistics | [Separating viewpoint from mode of representation in iconic co-speech gestures: insights from Danish narratives](https://doi.org/10.1017/langcog.2016.35) | Language and Cognition |
 | 2017 | linguistics | [Spatial language and cognition among the last Ixcatec-Spanish bilinguals (Mexico)](https://doi.org/10.1075/ihll.13.08ada)† | Issues in Hispanic and Lusophone linguistics |
 | 2017 | development | [Talking to the beat: Six-year-olds’ use of stroke-defined non-referential gestures](https://doi.org/10.1177/0142723717734949)† | First Language |
 | 2017 | education | [Teachers’ gestures and students’ learning: sometimes “hands off” is better](https://doi.org/10.1186/s41235-017-0077-0)† | Cognitive Research Principles and Implications |
@@ -1424,13 +1424,13 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2018 | neuroscience | [Action-Related Speech Modulates Beta Oscillations During Observation of Tool-Use Gestures](https://doi.org/10.1007/s10548-018-0641-z)‡ | Brain Topography |
 | 2018 | development | [Actions speak louder than gestures when you are 2 years old.](https://doi.org/10.1037/dev0000553)† | Developmental Psychology |
 | 2018 | social-interaction | [Age-related differences in multimodal recipient design: younger, but not older adults, adapt speech and co-speech gestures to common ground](https://doi.org/10.1080/23273798.2018.1527377)† | Language Cognition and Neuroscience |
-| 2018 | linguistics | [Aligning speech and co-speech gesture in a constraint-based grammar](https://doi.org/10.15398/jlm.v5i3.167)† | Journal of Language Modelling |
+| 2018 | linguistics | [Aligning speech and co-speech gesture in a constraint-based grammar](https://doi.org/10.15398/jlm.v5i3.167) | Journal of Language Modelling |
 | 2018 | neuroscience | [Alpha and Beta Oscillations Index Semantic Congruency between Speech and Gestures in Clear and Degraded Speech](https://doi.org/10.1162/jocn_a_01301)† | Journal of Cognitive Neuroscience |
 | 2018 | development | [Beat gestures help preschoolers recall and comprehend discourse information](https://doi.org/10.1016/j.jecp.2018.02.004)† | Journal of Experimental Child Psychology |
 | 2018 | clinical | [Cantonese AphasiaBank: An annotated database of spoken discourse and co-verbal gestures by healthy and language-impaired native Cantonese speakers](https://doi.org/10.3758/s13428-018-1043-6)‡ | Behavior Research Methods |
 | 2018 | social-interaction | [CHARISMA-KORRELATE IN SPRACHE UND DISKURS: KANN EIN IDEALTYP EIN OBJEKT DER EXPERIMENTAL-PHONETISCHEN FORSCHUNG SEIN?](https://doi.org/10.32837/2312-3192/12/11)† | Odessa linguistic journal |
 | 2018 | linguistics | [Co-speech gesture projection: Evidence from inferential judgments](https://doi.org/10.5334/gjgl.580)† | Glossa a journal of general linguistics |
-| 2018 | cognition | [Co-thought gesturing supports more complex problem solving in subjects with lower visual working-memory capacity](https://doi.org/10.1007/s00426-018-1065-9)† | Psychological Research |
+| 2018 | cognition | [Co-thought gesturing supports more complex problem solving in subjects with lower visual working-memory capacity](https://doi.org/10.1007/s00426-018-1065-9) | Psychological Research |
 | 2018 | psycholinguistics | [Communicative intent modulates production and comprehension of actions and gestures: A Kinect study](https://doi.org/10.1016/j.cognition.2018.04.003)† | Cognition |
 | 2018 | clinical | [Comprehension of conventional gestures in typical children, children with autism spectrum disorders and children with language disorders](https://doi.org/10.1016/j.neurenf.2018.03.002)† | Neuropsychiatrie de l Enfance et de l Adolescence |
 | 2018 | cognition | [Co‐thought gestures in children's mental problem solving: Prevalence and effects on subsequent performance](https://doi.org/10.1002/acp.3380)† | Applied Cognitive Psychology |
@@ -1438,7 +1438,7 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2018 | linguistics | [Deconstructing beat gestures: a labelling proposal](https://doi.org/10.21437/speechprosody.2018-41)† | Proceedings of the International Conference on Speech Prosody |
 | 2018 | social-interaction | [Determining synchrony between behavioral time series: An application of surrogate data generation for establishing falsifiable null-hypotheses.](https://doi.org/10.1037/met0000172)† | Psychological Methods |
 | 2018 | psycholinguistics | [Differences in Gesticulation: A Mixed-Methods Approach to Gesture Differences Between First- and Second-Language Speech Output Among Advanced-Level Spanish/English Bilinguals](https://scholarsarchive.byu.edu/etd/7426)† | ScholarsArchive  (Brigham Young University) |
-| 2018 | cognition | [Does gesture strengthen sensorimotor knowledge of objects? The case of the size-weight illusion](https://doi.org/10.1007/s00426-018-1128-y)† | Psychological Research |
+| 2018 | cognition | [Does gesture strengthen sensorimotor knowledge of objects? The case of the size-weight illusion](https://doi.org/10.1007/s00426-018-1128-y) | Psychological Research |
 | 2018 | psycholinguistics | [Does seeing gesture lighten or increase the load?](https://doi.org/10.1075/gest.17017.hos)† | Gesture |
 | 2018 | psycholinguistics | [Does visual salience of action affect gesture production?](https://doi.org/10.1037/xlm0000458)† | Journal of Experimental Psychology Learning Memory and Cognition |
 | 2018 | development | [Donald Duck’s garden: The effects of observing iconic reinforcing and contradictory gestures on narrative comprehension](https://doi.org/10.1016/j.jecp.2018.06.004)† | Journal of Experimental Child Psychology |
@@ -1446,13 +1446,13 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2018 | clinical | [Evidence for gesture-speech mismatch detection impairments in schizophrenia](https://doi.org/10.1016/j.psychres.2018.12.107)† | Psychiatry Research |
 | 2018 | education | [Exploring the Effects of Imitating Hand Gestures and Head Nods on L1 and L2 Mandarin Tone Production](https://doi.org/10.1044/2018_jslhr-s-17-0481)† | Journal of Speech Language and Hearing Research |
 | 2018 | clinical | [Features of semantic content expressed via gesture by people with aphasia](https://doi.org/10.1080/02687038.2018.1486377)† | Aphasiology |
-| 2018 | linguistics | [Focus on what’s not at issue: gestures, presuppositions, appositives under contrastive focus](https://doi.org/10.21248/zaspil.60.2018.473)† | ZAS Papers in Linguistics |
+| 2018 | linguistics | [Focus on what’s not at issue: gestures, presuppositions, appositives under contrastive focus](https://doi.org/10.21248/zaspil.60.2018.473) | ZAS Papers in Linguistics |
 | 2018 | neuroscience | [Functional neuroanatomy of gesture–speech integration in children varies with individual differences in gesture processing](https://doi.org/10.1111/desc.12648)† | Developmental Science |
 | 2018 | linguistics | [General- and Language-Specific Factors Influence Reference Tracking in Speech and Gesture in Discourse](https://doi.org/10.1080/0163853x.2018.1519368)† | Discourse Processes |
 | 2018 | linguistics | [Gestural Cosuppositions within the Transparency Theory](https://doi.org/10.1162/ling_a_00331)† | Linguistic Inquiry |
 | 2018 | linguistics | [Gestural Cues to a Target](https://doi.org/10.7551/mitpress/9780262036979.003.0005)† | The Targeting System of Language |
-| 2018 | development | [Gestural depiction of motion events in narrative increases symbolic distance with age](https://doi.org/10.1075/lia.15020.sek)† | Language Interaction and Acquisition |
-| 2018 | linguistics | [Gesture and Sign: Cataclysmic Break or Dynamic Relations?](https://doi.org/10.3389/fpsyg.2018.01651)† | Frontiers in Psychology |
+| 2018 | development | [Gestural depiction of motion events in narrative increases symbolic distance with age](https://doi.org/10.1075/lia.15020.sek) | Language Interaction and Acquisition |
+| 2018 | linguistics | [Gesture and Sign: Cataclysmic Break or Dynamic Relations?](https://doi.org/10.3389/fpsyg.2018.01651) | Frontiers in Psychology |
 | 2018 | development | [Gesture and speech in adults’ and children’s narratives](https://doi.org/10.1075/tilar.22.08col)† | Trends in language acquisition research |
 | 2018 | education | [Gesture and Vocabulary Learning in a Second Language](https://doi.org/10.1111/lang.12326)† | Language Learning |
 | 2018 | cognition | [Gesture as a Window Onto Conceptualization in Second Language Acquisition](https://www.taylorfrancis.com/chapters/edit/10.4324/9781315624747-11/gesture-window-onto-conceptualization-second-language-acquisition-gale-stam)† | The Routledge Handbook of Sociocultural Theory and Second Language Development |
@@ -1462,19 +1462,19 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2018 | cognition | [Gestures as image schemas and force gestalts: A dynamic systems approach augmented with motion-capture data analyses](https://doi.org/10.1515/cogsem-2018-0002)† | Cognitive Semiotics |
 | 2018 | psycholinguistics | [Gesture–speech physics: The biomechanical basis for the emergence of gesture–speech synchrony.](https://doi.org/10.1037/xge0000646)† | Journal of Experimental Psychology General |
 | 2018 | cognition | [Hand gestures support word learning in patients with hippocampal amnesia](https://doi.org/10.1002/hipo.22840)† | Hippocampus |
-| 2018 | linguistics | [Having a different pointing of view about the future: The effect of signs on co-speech gestures about time in Mandarin–CSL bimodal bilinguals](https://doi.org/10.1017/s1366728918000652)† | Bilingualism Language and Cognition |
+| 2018 | linguistics | [Having a different pointing of view about the future: The effect of signs on co-speech gestures about time in Mandarin–CSL bimodal bilinguals](https://doi.org/10.1017/s1366728918000652) | Bilingualism Language and Cognition |
 | 2018 | neuroscience | [Hearing and seeing meaning in noise: Alpha, beta, and gamma oscillations predict gestural enhancement of degraded speech comprehension](https://doi.org/10.1002/hbm.23987)† | Human Brain Mapping |
 | 2018 | linguistics | [How event perspective influences speech and co-speech gestures about motion](https://doi.org/10.1016/j.pragma.2018.03.001)† | Journal of Pragmatics |
-| 2018 | linguistics | [Iconicity and convention in the manual modality: Pantomime in language origins](https://doi.org/10.12775/3991-1.014)† | Proceedings of the 12th International Conference on the Evolution of Language (Evolang12) |
+| 2018 | linguistics | [Iconicity and convention in the manual modality: Pantomime in language origins](https://doi.org/10.12775/3991-1.014) | Proceedings of the 12th International Conference on the Evolution of Language (Evolang12) |
 | 2018 | cognition | [In which direction to move? Facilitative and interference effects of gestures on problem solver's thinking](https://doi.org/10.1080/20445911.2018.1432628)† | Journal of Cognitive Psychology |
-| 2018 | psycholinguistics | [Information packaging in speech shapes information packaging in gesture: The role of speech planning units in the coordination of speech-gesture production](https://doi.org/10.1016/j.jml.2018.09.002)† | Journal of Memory and Language |
+| 2018 | psycholinguistics | [Information packaging in speech shapes information packaging in gesture: The role of speech planning units in the coordination of speech-gesture production](https://doi.org/10.1016/j.jml.2018.09.002) | Journal of Memory and Language |
 | 2018 | clinical | [Integration of speech and gesture in aphasia](https://doi.org/10.1111/1460-6984.12372)† | International Journal of Language & Communication Disorders |
 | 2018 | development | [Language, gesture, and judgment: Children’s paths to abstract geometry](https://doi.org/10.1016/j.jecp.2018.07.015)† | Journal of Experimental Child Psychology |
 | 2018 | education | [Learning nouns and verbs in a foreign language: The role of gestures](https://doi.org/10.1017/s0142716418000656)† | Applied Psycholinguistics |
 | 2018 | education | [Learning to measure through action and gesture: Children’s prior knowledge matters](https://doi.org/10.1016/j.cognition.2018.07.002)† | Cognition |
 | 2018 | social-interaction | [Making Meaning from Multimodality: Embodied Communication in a Business Pitch Setting](https://uk.sagepub.com/en-gb/eur/the-sage-handbook-of-qualitative-business-and-management-research-methods/book259056)† | The SAGE Handbook of Qualitative Business and Management Research Methods: Methods and Challenges |
 | 2018 | linguistics | [Modality and contextual salience in co-sign vs. co-speech gesture](https://doi.org/10.1515/tl-2018-0014)† | Theoretical Linguistics |
-| 2018 | clinical | [Multimodal Communication in Aphasia: Perception and Production of Co-speech Gestures During Face-to-Face Conversation](https://doi.org/10.3389/fnhum.2018.00200)† | Frontiers in Human Neuroscience |
+| 2018 | clinical | [Multimodal Communication in Aphasia: Perception and Production of Co-speech Gestures During Face-to-Face Conversation](https://doi.org/10.3389/fnhum.2018.00200) | Frontiers in Human Neuroscience |
 | 2018 | linguistics | [Multimodal positioning and reference in argumentative talk-in-interaction](https://doi.org/10.1163/18773109-01002004)† | International Review of Pragmatics |
 | 2018 | linguistics | [Multimodální konstrukce: jazyk a gestikulace jako vtělená kognice \|\| Multimodal constructions: language and gesture as embodied cognition](https://doaj.org/article/be47fa4822644bc99a6df836cfb35ebd)† | DOAJ (DOAJ: Directory of Open Access Journals) |
 | 2018 | social-interaction | [Multiple Temporalities of Language and Body in Interaction: Challenges for Transcribing Multimodality](https://doi.org/10.1080/08351813.2018.1413878)† | Research on Language and Social Interaction |
@@ -1482,21 +1482,21 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2018 | neuroscience | [Native language status of the listener modulates the neural integration of speech and gesture in clear and adverse listening conditions](https://www.sciencedirect.com/science/article/pii/S0093934X1730041X)† | Brain and Language |
 | 2018 | neuroscience | [Native language status of the listener modulates the neural integration of speech and iconic gestures in clear and adverse listening conditions](https://doi.org/10.1016/j.bandl.2018.01.003)† | Brain and Language |
 | 2018 | development | [Natural reference: A phylo‐ and ontogenetic perspective on the comprehension of iconic gestures and vocalizations](https://doi.org/10.1111/desc.12757)† | Developmental Science |
-| 2018 | education | [OBSERVING AND PRODUCING PITCH GESTURES FACILITATES THE LEARNING OF MANDARIN CHINESE TONES AND WORDS](https://doi.org/10.1017/s0272263118000074)† | Studies in Second Language Acquisition |
-| 2018 | education | [OBSERVING PITCH GESTURES FAVORS THE LEARNING OF SPANISH INTONATION BY MANDARIN SPEAKERS](https://doi.org/10.1017/s0272263117000316)† | Studies in Second Language Acquisition |
+| 2018 | education | [OBSERVING AND PRODUCING PITCH GESTURES FACILITATES THE LEARNING OF MANDARIN CHINESE TONES AND WORDS](https://doi.org/10.1017/s0272263118000074) | Studies in Second Language Acquisition |
+| 2018 | education | [OBSERVING PITCH GESTURES FAVORS THE LEARNING OF SPANISH INTONATION BY MANDARIN SPEAKERS](https://doi.org/10.1017/s0272263117000316) | Studies in Second Language Acquisition |
 | 2018 | linguistics | [On the Pragmatic Poetry of Pose: Gesture, Parallelism, Politics](https://doi.org/10.1086/695425)† | Signs and Society |
 | 2018 | neuroscience | [Patients with hippocampal amnesia successfully integrate gesture and speech](https://doi.org/10.1016/j.neuropsychologia.2018.06.012)† | Neuropsychologia |
 | 2018 | education | [Prominence in speech and gesture favour second language novel word learning](https://doi.org/10.1080/23273798.2018.1435894)† | Language Cognition and Neuroscience |
-| 2018 | development | [Prosody in the Auditory and Visual Domains: A Developmental Perspective](https://doi.org/10.3389/fpsyg.2018.00338)† | Frontiers in Psychology |
+| 2018 | development | [Prosody in the Auditory and Visual Domains: A Developmental Perspective](https://doi.org/10.3389/fpsyg.2018.00338) | Frontiers in Psychology |
 | 2018 | psycholinguistics | [Recurrent gestures](https://doi.org/10.1075/gest.18012.mcn)† | Gesture |
-| 2018 | linguistics | [Referring strategies in American Sign Language and English (with co-speech gesture): The role of modality in referring to non-nameable objects](https://doi.org/10.1017/s0142716418000061)† | Applied Psycholinguistics |
+| 2018 | linguistics | [Referring strategies in American Sign Language and English (with co-speech gesture): The role of modality in referring to non-nameable objects](https://doi.org/10.1017/s0142716418000061) | Applied Psycholinguistics |
 | 2018 | linguistics | [Relating gesture to speech: reflections on the role of conditional presuppositions](https://doi.org/10.1007/s10988-018-9244-0)‡ | Linguistics and Philosophy |
 | 2018 | psycholinguistics | [Restraining and encouraging the use of hand gestures: Effects on speech](https://www.isca-archive.org/speechprosody_2018/cravotta18_speechprosody.html)† | Speech Prosody 2018 |
 | 2018 | clinical | [Robot-based intervention may reduce delay in the production of intransitive gestures in Chinese-speaking preschoolers with autism spectrum disorder](https://doi.org/10.1186/s13229-018-0217-5)† | Molecular Autism |
 | 2018 | psycholinguistics | [Role of gesture in language processing: Towards a unified account for production and comprehension](https://academic.oup.com/edited-volume/34648/chapter-abstract/295226678?redirectedFrom=fulltext)† | The Oxford Handbook of Psycholinguistics (2nd ed.) |
 | 2018 | psycholinguistics | [Seeing first person changes gesture but saying first person does not](https://doi.org/10.1075/gest.00014.par)† | Gesture |
 | 2018 | neuroscience | [Semantic processing of self-adaptors, emblems, and iconic gestures: An ERP study](https://doi.org/10.1016/j.jneuroling.2018.04.004)† | Journal of Neurolinguistics |
-| 2018 | linguistics | [Semiotic Modes in the Organization of Lectures in English and in Spanish](https://doi.org/10.29007/wt5s)† | EPiC series in language and linguistics |
+| 2018 | linguistics | [Semiotic Modes in the Organization of Lectures in English and in Spanish](https://doi.org/10.29007/wt5s) | EPiC series in language and linguistics |
 | 2018 | development | [Set in time](https://doi.org/10.1075/tilar.23.06rus)† | Trends in language acquisition research |
 | 2018 | linguistics | [Some pragmatic functions of conversational facial gestures1](https://doi.org/10.1075/gest.00012.bav)† | Gesture |
 | 2018 | linguistics | [Spatial conceptualization of sequence time in language and gesture](https://doi.org/10.1075/gest.00015.chu)† | Gesture |
@@ -1507,37 +1507,37 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2018 | linguistics | [Temporal coordination between focus prosody and pointing gestures in Cantonese](https://doi.org/10.1016/j.wocn.2018.07.006)† | Journal of Phonetics |
 | 2018 | linguistics | [The Automatic Annotation of the Semiotic Type of Hand Gestures in Obama’ s Humorous Speeches](https://aclanthology.org/L18-1172.pdf)† | LREC 2018 |
 | 2018 | neuroscience | [The connectivity signature of co-speech gesture integration: The superior temporal sulcus modulates connectivity between areas related to visual gesture and auditory speech processing](https://doi.org/10.1016/j.neuroimage.2018.07.037)† | NeuroImage |
-| 2018 | psycholinguistics | [The effect of verbal working memory load in speech/gesture integration processing.](https://orbi.umons.ac.be/handle/20.500.12907/9475)† | ORBi UMONS |
+| 2018 | psycholinguistics | [The effect of verbal working memory load in speech/gesture integration processing.](https://orbi.umons.ac.be/handle/20.500.12907/9475) | ORBi UMONS |
 | 2018 | linguistics | [The Impulse to Gesture](https://doi.org/10.1017/9781108265065)† | Cambridge University Press |
 | 2018 | linguistics | [The Impulse to Gesture: Where Language, Minds, and Bodies Intersect](https://www.cambridge.org/us/universitypress/subjects/languages-linguistics/sign-language/impulse-gesture-where-language-minds-and-bodies-intersect)† | The Impulse to Gesture: Where Language, Minds, and Bodies Intersect |
 | 2018 | linguistics | [The multimodal CorpAGEst corpus: keeping an eye on pragmatic competence in later life](https://doi.org/10.3366/cor.2018.0151)† | Corpora |
 | 2018 | linguistics | [The multimodal marking of aspect: The case of five periphrastic auxiliary constructions in North American English](https://doi.org/10.1515/cog-2017-0009)† | Cognitive Linguistics |
-| 2018 | linguistics | [The Prosodic Characteristics of Non-referential Co-speech Gestures in a Sample of Academic-Lecture-Style Speech](https://doi.org/10.3389/fpsyg.2018.01514)† | Frontiers in Psychology |
-| 2018 | psycholinguistics | [The quantification of gesture–speech synchrony: A tutorial and validation of multimodal data acquisition using device-based and video-based motion tracking](https://doi.org/10.3758/s13428-019-01271-9)† | Behavior Research Methods |
-| 2018 | development | [The relationship between character viewpoint gesture and narrative structure in children](https://doi.org/10.1017/langcog.2018.9)† | Language and Cognition |
+| 2018 | linguistics | [The Prosodic Characteristics of Non-referential Co-speech Gestures in a Sample of Academic-Lecture-Style Speech](https://doi.org/10.3389/fpsyg.2018.01514) | Frontiers in Psychology |
+| 2018 | psycholinguistics | [The quantification of gesture–speech synchrony: A tutorial and validation of multimodal data acquisition using device-based and video-based motion tracking](https://doi.org/10.3758/s13428-019-01271-9) | Behavior Research Methods |
+| 2018 | development | [The relationship between character viewpoint gesture and narrative structure in children](https://doi.org/10.1017/langcog.2018.9) | Language and Cognition |
 | 2018 | clinical | [The relationship between co-speech gesture production and macrolinguistic discourse abilities in people with focal brain injury](https://doi.org/10.1016/j.neuropsychologia.2018.06.025)† | Neuropsychologia |
 | 2018 | perception | [The relationship between handedness and valence: A gesture study](https://doi.org/10.1177/1747021817750110)† | Quarterly Journal of Experimental Psychology |
-| 2018 | neuroscience | [The Role of Gamma Oscillations During Integration of Metaphoric Gestures and Abstract Speech](https://doi.org/10.3389/fpsyg.2018.01348)† | Frontiers in Psychology |
+| 2018 | neuroscience | [The Role of Gamma Oscillations During Integration of Metaphoric Gestures and Abstract Speech](https://doi.org/10.3389/fpsyg.2018.01348) | Frontiers in Psychology |
 | 2018 | linguistics | [THE SEMIOTICS OF GESTURES IN COGNITIVE LINGUISTICS: CONTRIBUTION AND CHALLENGES](https://doi.org/10.20916/1812-3228-2018-4-25-36)† | Вопросы когнитивной лингвистики |
 | 2018 | clinical | [The use and function of gestures in word-finding difficulties in aphasia](https://doi.org/10.1080/02687038.2018.1541343)† | Aphasiology |
 | 2018 | development | [TODDLERS’ USE OF GESTURE AND SPEECH IN SERVICE OF EMOTION REGULATION DURING DISTRESSING ROUTINES](https://doi.org/10.1002/imhj.21740)† | Infant Mental Health Journal |
 | 2018 | clinical | [Transcranial Direct Current Stimulation Improves Semantic Speech–Gesture Matching in Patients With Schizophrenia Spectrum Disorder](https://doi.org/10.1093/schbul/sby144)† | Schizophrenia Bulletin |
 | 2018 | neuroscience | [Transcranial Magnetic Stimulation over Left Inferior Frontal and Posterior Temporal Cortex Disrupts Gesture-Speech Integration](https://doi.org/10.1523/jneurosci.1748-17.2017)† | Journal of Neuroscience |
 | 2018 | clinical | [Use of co-verbal gestures during word-finding difficulty among Cantonese speakers with fluent aphasia and unimpaired controls](https://doi.org/10.1080/02687038.2018.1463085)† | Aphasiology |
-| 2018 | psycholinguistics | [When Speech Stops, Gesture Stops: Evidence From Developmental and Crosslinguistic Comparisons](https://doi.org/10.3389/fpsyg.2018.00879)† | Frontiers in Psychology |
+| 2018 | psycholinguistics | [When Speech Stops, Gesture Stops: Evidence From Developmental and Crosslinguistic Comparisons](https://doi.org/10.3389/fpsyg.2018.00879) | Frontiers in Psychology |
 | 2018 | psycholinguistics | [“My French is rusty”: Proficiency and bilingual gesture use in a majority English community](https://doi.org/10.1017/s1366728918000639)† | Bilingualism Language and Cognition |
 | 2019 | linguistics | [A Cognitive Model for the Representation and Processing of Shape-Related Gestures](https://www.taylorfrancis.com/books/9781317708292/chapters/10.4324/9781315782362-144)† | Taylor & Francis book (ISBN 9781315782362) |
 | 2019 | clinical | [A description of verbal and gestural communication during postictal aphasia](https://doi.org/10.1016/j.yebeh.2019.106646)‡ | Epilepsy & Behavior |
 | 2019 | linguistics | [A Synergy Study of Metaphoric Gestures on Rhetorical Behavior Construction: Based on the Corpus of “AI”-themed Public Speeches](https://dl.acm.org/doi/10.1145/3357160.3357669)† | ICMI 2019 workshop NeuroManagement and Intelligent Computing Method on Multimodal Interaction |
 | 2019 | linguistics | [Acceptability of at-issue co-speech gestures under contrastive focus](https://doi.org/10.5334/gjgl.635)† | Glossa a journal of general linguistics |
-| 2019 | cognition | [Actions as a Basis for Online Embodied Concepts](https://doi.org/10.3390/languages4010016)† | Languages |
+| 2019 | cognition | [Actions as a Basis for Online Embodied Concepts](https://doi.org/10.3390/languages4010016) | Languages |
 | 2019 | education | [Advice on the use of gestures in presentation skills manuals: alignment between theory, research and instruction](https://doi.org/10.17159/2617-3255/2018/n33a8)† | Image & Text |
-| 2019 | social-interaction | [Are You on My Wavelength? Interpersonal Coordination in Dyadic Conversations](https://doi.org/10.1007/s10919-019-00320-3)† | Journal of Nonverbal Behavior |
+| 2019 | social-interaction | [Are You on My Wavelength? Interpersonal Coordination in Dyadic Conversations](https://doi.org/10.1007/s10919-019-00320-3) | Journal of Nonverbal Behavior |
 | 2019 | cognition | [Breaking Down Gesture and Action in Mental Rotation: Understanding the Components of Movement That Promote Learning](https://doi.org/10.1037/dev0000697)† | Developmental Psychology |
 | 2019 | clinical | [Can gesture observation help people with aphasia name actions?](https://doi.org/10.1016/j.cortex.2019.10.005)† | Cortex |
 | 2019 | social-interaction | [Co-speech movement behavior in conversational turn-taking](https://doi.org/10.1121/1.5137700)† | The Journal of the Acoustical Society of America |
 | 2019 | linguistics | [Composition and Projection in Speech and Gesture.](https://eric.ed.gov/?id=ED601752)‡ | ProQuest LLC eBooks |
-| 2019 | linguistics | [Composition and projection of co-speech gestures](https://doi.org/10.3765/salt.v29i0.4600)† | Proceedings from Semantics and Linguistic Theory |
+| 2019 | linguistics | [Composition and projection of co-speech gestures](https://doi.org/10.3765/salt.v29i0.4600) | Proceedings from Semantics and Linguistic Theory |
 | 2019 | linguistics | [Covert negation in Israeli Hebrew: Evidence from co-speech gestures](https://doi.org/10.1016/j.pragma.2019.02.011)† | Journal of Pragmatics |
 | 2019 | perception | [Degree of Language Experience Modulates Visual Attention to Visible Speech and Iconic Gestures During Clear and Degraded Speech Comprehension](https://doi.org/10.1111/cogs.12789)† | Cognitive Science |
 | 2019 | clinical | [Differential roles of gestures on spatial language in neurotypical elderly adults and individuals with focal brain injury](https://doi.org/10.1080/02643294.2019.1618255)† | Cognitive Neuropsychology |
@@ -1552,7 +1552,7 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2019 | psycholinguistics | [Finding Phrases: The Interplay of Word Frequency, Phrasal Prosody and Co-speech Visual Information in Chunking Speech by Monolingual and Bilingual Adults](https://doi.org/10.1177/0023830919842353)† | Language and Speech |
 | 2019 | linguistics | [Form and Function of Hand Gestures for Interpretation and Generation](https://ieeexplore.ieee.org/document/9089929/)† | IEEE CogInfoCom 2019 |
 | 2019 | education | [Gestural training benefits L2 phoneme acquisition: Findings from a production and perception perspective](https://doi.org/10.17619/unipb/1-808)† | Habilitation Regulations of the Faculty of Mechanical Engineering (University of Paderborn) |
-| 2019 | development | [Gesture and Language Trajectories in Early Development: An Overview From the Autism Spectrum Disorder Perspective](https://doi.org/10.3389/fpsyg.2019.01211)† | Frontiers in Psychology |
+| 2019 | development | [Gesture and Language Trajectories in Early Development: An Overview From the Autism Spectrum Disorder Perspective](https://doi.org/10.3389/fpsyg.2019.01211) | Frontiers in Psychology |
 | 2019 | clinical | [Gesture height reflects common ground status even in patients with amnesia](https://doi.org/10.1016/j.bandl.2018.12.008)† | Brain and Language |
 | 2019 | linguistics | [Gesture meaning needs speech meaning to denote – A case of speech-gesture meaning interaction](http://libres.uncg.edu/ir/uncg/f/I_Lawler_Gesture_2017.pdf)† | NC Digital Online Collection of Knowledge and Scholarship (The University of North Carolina at Greensboro) |
 | 2019 | other | [Gesture Networks: Introducing Dynamic Time Warping and Network Analysis for the Kinematic Study of Gesture Ensembles](https://doi.org/10.1080/0163853x.2019.1678967)† | Discourse Processes |
@@ -1562,14 +1562,14 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2019 | development | [How does language proficiency affect children’s iconic gesture use?](https://doi.org/10.1017/s014271641800070x)† | Applied Psycholinguistics |
 | 2019 | psycholinguistics | [How Referential Gestures Align With Speech: Evidence From Monolingual and Bilingual Speakers](https://doi.org/10.1111/lang.12376)† | Language Learning |
 | 2019 | linguistics | [Iconicity in L2 Japanese speakers’ multi-modal language use](https://doi.org/10.1075/ill.16.12iwa)† | Iconicity in language and literature |
-| 2019 | social-interaction | [Language contact does not drive gesture transfer: Heritage speakers maintain language specific gesture patterns in each language](https://doi.org/10.1017/s136672891900018x)† | Bilingualism Language and Cognition |
-| 2019 | neuroscience | [Language, Gesture, and Emotional Communication: An Embodied View of Social Interaction](https://doi.org/10.3389/fpsyg.2019.02063)† | Frontiers in Psychology |
+| 2019 | social-interaction | [Language contact does not drive gesture transfer: Heritage speakers maintain language specific gesture patterns in each language](https://doi.org/10.1017/s136672891900018x) | Bilingualism Language and Cognition |
+| 2019 | neuroscience | [Language, Gesture, and Emotional Communication: An Embodied View of Social Interaction](https://doi.org/10.3389/fpsyg.2019.02063) | Frontiers in Psychology |
 | 2019 | development | [Learning Language from the Use of Gestures](https://doi.org/10.4324/9781315110622-12)‡ | International Handbook of Language Acquisition |
-| 2019 | education | [Learning math by hand: The neural effects of gesture-based instruction in 8-year-old children](https://doi.org/10.3758/s13414-019-01755-y)† | Attention Perception & Psychophysics |
+| 2019 | education | [Learning math by hand: The neural effects of gesture-based instruction in 8-year-old children](https://doi.org/10.3758/s13414-019-01755-y) | Attention Perception & Psychophysics |
 | 2019 | development | [Learning speech-internal cues to pronoun interpretation from co-speech gesture: a training study](https://doi.org/10.1017/s0305000918000557)† | Journal of Child Language |
-| 2019 | perception | [Listeners consider alternative speaker productions in discourse comprehension and memory: Evidence from beat gesture and pitch accenting](https://doi.org/10.3758/s13421-019-00945-1)‡ | Memory & Cognition |
-| 2019 | development | [Meaning-Making through Gesticulations in the Story-Telling Enterprise: An Exploratory Case Study of One Iranian Child](https://doi.org/10.29252/ieepj.1.3.162)† | Iranian Evolutionary Educational Psychology Journal |
-| 2019 | perception | [Motion capture-based animated characters for the study of speech–gesture integration](https://doi.org/10.3758/s13428-019-01319-w)† | Behavior Research Methods |
+| 2019 | perception | [Listeners consider alternative speaker productions in discourse comprehension and memory: Evidence from beat gesture and pitch accenting](https://doi.org/10.3758/s13421-019-00945-1) | Memory & Cognition |
+| 2019 | development | [Meaning-Making through Gesticulations in the Story-Telling Enterprise: An Exploratory Case Study of One Iranian Child](https://doi.org/10.29252/ieepj.1.3.162) | Iranian Evolutionary Educational Psychology Journal |
+| 2019 | perception | [Motion capture-based animated characters for the study of speech–gesture integration](https://doi.org/10.3758/s13428-019-01319-w) | Behavior Research Methods |
 | 2019 | linguistics | [Multiple metaphors in metaphoric gesturing](https://ieeexplore.ieee.org/document/8925435/)† | ACII |
 | 2019 | development | [Narrative development and gestures in different genres](https://doi.org/10.36505/exling-2019/10/0038/000400)† | ExLing Conferences |
 | 2019 | neuroscience | [Native and non-native listeners show similar yet distinct oscillatory dynamics when using gestures to access speech in noise](https://doi.org/10.1016/j.neuroimage.2019.03.032)† | NeuroImage |
@@ -1583,22 +1583,22 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2019 | neuroscience | [Speech-accompanying gestures are not processed by the language-processing mechanisms](https://doi.org/10.1016/j.neuropsychologia.2019.107132)† | Neuropsychologia |
 | 2019 | linguistics | [Speech-accompanying gestures in L1 and L2 conversational interaction by speakers of different proficiency levels](https://doi.org/10.1515/iral-2017-0043)† | IRAL - International Review of Applied Linguistics in Language Teaching |
 | 2019 | linguistics | [Structure of French expression of motion](https://doi.org/10.1075/hcp.66.08fib)† | Human cognitive processing |
-| 2019 | linguistics | [Systematic mappings between semantic categories and types of iconic representations in the manual modality: A normed database of silent gesture](https://doi.org/10.3758/s13428-019-01204-6)† | Behavior Research Methods |
-| 2019 | perception | [The communicative advantage: how kinematic signaling supports semantic comprehension](https://doi.org/10.1007/s00426-019-01198-y)† | Psychological Research |
+| 2019 | linguistics | [Systematic mappings between semantic categories and types of iconic representations in the manual modality: A normed database of silent gesture](https://doi.org/10.3758/s13428-019-01204-6) | Behavior Research Methods |
+| 2019 | perception | [The communicative advantage: how kinematic signaling supports semantic comprehension](https://doi.org/10.1007/s00426-019-01198-y) | Psychological Research |
 | 2019 | cognition | [The effects of observing different gestures during storytelling on the recall of path and event information in 5-year-olds and adults](https://doi.org/10.1016/j.jecp.2019.104725)† | Journal of Experimental Child Psychology |
 | 2019 | neuroscience | [The facilitative effect of gestures on the neural processing of semantic complexity in a continuous narrative](https://doi.org/10.1016/j.neuroimage.2019.03.054)† | NeuroImage |
 | 2019 | psycholinguistics | [The Impact of a Human Figure in a Scene on Spatial Descriptions in Speech, Gesture, and Gesture Alone](https://doi.org/10.1007/s10936-019-09672-9)‡ | Journal of Psycholinguistic Research |
-| 2019 | cognition | [The implication of working memory in gesture/speech integration: Validation study of iconic gesture videos among French speakers.](https://orbi.umons.ac.be/handle/20.500.12907/24423)† | ORBi UMONS |
+| 2019 | cognition | [The implication of working memory in gesture/speech integration: Validation study of iconic gesture videos among French speakers.](https://orbi.umons.ac.be/handle/20.500.12907/24423) | ORBi UMONS |
 | 2019 | clinical | [The Production of Gesture and Speech by People With Aphasia: Influence of Communicative Constraints](https://doi.org/10.1044/2019_jslhr-l-19-0020)† | Journal of Speech Language and Hearing Research |
-| 2019 | linguistics | [The role of gesture in the English ish-construction](https://doi.org/10.3765/plsa.v4i1.4462)† | Proceedings of the Linguistic Society of America |
-| 2019 | cognition | [The role of motor context in the beneficial effects of hand gesture on memory](https://doi.org/10.3758/s13414-019-01734-3)‡ | Attention Perception & Psychophysics |
-| 2019 | linguistics | [The Signs of Silence – An Overview of Systems of Sign Languages and Co-Speech Gestures](https://doi.org/10.4312/elope.16.1.123-144)† | ELOPE English Language Overseas Perspectives and Enquiries |
+| 2019 | linguistics | [The role of gesture in the English ish-construction](https://doi.org/10.3765/plsa.v4i1.4462) | Proceedings of the Linguistic Society of America |
+| 2019 | cognition | [The role of motor context in the beneficial effects of hand gesture on memory](https://doi.org/10.3758/s13414-019-01734-3) | Attention Perception & Psychophysics |
+| 2019 | linguistics | [The Signs of Silence – An Overview of Systems of Sign Languages and Co-Speech Gestures](https://doi.org/10.4312/elope.16.1.123-144) | ELOPE English Language Overseas Perspectives and Enquiries |
 | 2019 | development | [Time Points: A Gestural Study of the Development of Space–Time Mappings](https://doi.org/10.1111/cogs.12801)† | Cognitive Science |
 | 2019 | linguistics | [Toward an (even) more comprehensive model of speech production planning](https://doi.org/10.1080/23273798.2019.1650944)† | Language Cognition and Neuroscience |
 | 2019 | linguistics | [Types of iconicity and combinatorial strategies distinguish semantic categories in silent gesture across cultures](https://doi.org/10.1017/langcog.2019.28)† | Language and Cognition |
 | 2019 | perception | [Visual cues and perception of emotional intensity among L1 and LX users of English](https://doi.org/10.1080/14790718.2019.1612902)† | International Journal of Multilingualism |
 | 2019 | psycholinguistics | [Visual-spatial and verbal abilities differentially affect processing of gestural vs. spoken expressions](https://doi.org/10.1080/23273798.2019.1703016)† | Language Cognition and Neuroscience |
-| 2019 | linguistics | [Visuo-Kinetic Signs Are Inherently Metonymic: How Embodied Metonymy Motivates Forms, Functions, and Schematic Patterns in Gesture](https://doi.org/10.3389/fpsyg.2019.00254)† | Frontiers in Psychology |
+| 2019 | linguistics | [Visuo-Kinetic Signs Are Inherently Metonymic: How Embodied Metonymy Motivates Forms, Functions, and Schematic Patterns in Gesture](https://doi.org/10.3389/fpsyg.2019.00254) | Frontiers in Psychology |
 | 2019 | cognition | [When our hands help us understand: A meta-analysis into the effects of gesture on comprehension.](https://doi.org/10.1037/bul0000202)† | Psychological Bulletin |
 | 2019 | cognition | [Which Is in Front of Chinese People, Past or Future? The Effect of Language and Culture on Temporal Gestures and Spatial Conceptions of Time](https://doi.org/10.1111/cogs.12804)† | Cognitive Science |
 | 2019 | psycholinguistics | [Working Memory and Co-Speech Iconic Gestures.](https://escholarship.org/uc/item/2zr762d2)† | CogSci |
@@ -1608,15 +1608,15 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 
 | Year | Area | Paper | Venue |
 |---|---|---|---|
-| 2020 | cognition | ['Tiny numbers' are actually tiny: Evidence from gestures in the TV News Archive](https://doi.org/10.1371/journal.pone.0242142)† | PLoS ONE |
+| 2020 | cognition | ['Tiny numbers' are actually tiny: Evidence from gestures in the TV News Archive](https://doi.org/10.1371/journal.pone.0242142) | PLoS ONE |
 | 2020 | linguistics | [A Formal Analysis of Multimodal Referring Strategies Under Common Ground](https://aclanthology.org/2020.lrec-1.725/) · [open copy](https://arxiv.org/abs/2003.07385) | LREC 2020 |
 | 2020 | cognition | [A helping hand for thinking and speaking: Effects of gesturing and task planning on second language narrative discourse](https://doi.org/10.1016/j.system.2020.102243)‡ | System |
 | 2020 | cognition | [Ageing, working memory, and mental imagery: Understanding gestural communication in younger and older adults](https://doi.org/10.1177/1747021820944696)† | Quarterly Journal of Experimental Psychology |
-| 2020 | perception | [Aging and working memory modulate the ability to benefit from visible speech and iconic gestures during speech-in-noise comprehension](https://doi.org/10.1007/s00426-020-01363-8)† | Psychological Research |
-| 2020 | psycholinguistics | [An Inherent Bond: External Visual Aid Has a Minor Effect on the Rate of Co-Speech Gestures](https://doi.org/10.29038/eejpl.2020.7.2.jar)† | East European Journal of Psycholinguistics |
+| 2020 | perception | [Aging and working memory modulate the ability to benefit from visible speech and iconic gestures during speech-in-noise comprehension](https://doi.org/10.1007/s00426-020-01363-8) | Psychological Research |
+| 2020 | psycholinguistics | [An Inherent Bond: External Visual Aid Has a Minor Effect on the Rate of Co-Speech Gestures](https://doi.org/10.29038/eejpl.2020.7.2.jar) | East European Journal of Psycholinguistics |
 | 2020 | linguistics | [annotation of gesture and gesture / prosody synchronization in multimodal speech corpora](https://doi.org/10.20396/joss.v9i00.14956)† | Journal of Speech Sciences |
 | 2020 | education | [Asking, answering and assessing with hands: how co-speech hand gestures contribute to question-initiated interactions in Chinese kindergarten classroom](https://doi.org/10.1080/1350293x.2020.1836584)† | European Early Childhood Education Research Journal |
-| 2020 | perception | [Beat Gestures for Comprehension and Recall: Differential Effects of Language Learners and Native Listeners](https://doi.org/10.3389/fpsyg.2020.575929)† | Frontiers in Psychology |
+| 2020 | perception | [Beat Gestures for Comprehension and Recall: Differential Effects of Language Learners and Native Listeners](https://doi.org/10.3389/fpsyg.2020.575929) | Frontiers in Psychology |
 | 2020 | perception | [Beat gestures influence which speech sounds you hear](https://doi.org/10.1098/rspb.2020.2419)† | Proceedings of the Royal Society B Biological Sciences |
 | 2020 | cognition | [Can co-speech gestures alone carry the mental time line?](https://doi.org/10.1037/xlm0000836)† | Journal of Experimental Psychology Learning Memory and Cognition |
 | 2020 | social-interaction | [Chapter 13. “Are You Saying You Were Stabbed . . . ?”: Multimodality, Embodied Action, and Dramatized Formulations in “Fixing” the Facts in Police Interviews with Suspects](https://doi.org/10.7208/9780226647821-014)† | University of Chicago Press eBooks |
@@ -1624,10 +1624,10 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2020 | cognition | [Co-speech gestures reflect non-linguistic thinking: evidence from mental abacus.](https://escholarship.org/uc/item/5xp2j4kh)† | CogSci |
 | 2020 | other | [Commentary for “Sex Steroids as Modulators of Gestural Communication”](https://doi.org/10.1210/endocr/bqaa153)† | Endocrinology |
 | 2020 | social-interaction | [Conversational Movement Dynamics and Nonverbal Indicators of Second Language Development: A Microgenetic Approach](https://doi.org/10.34917/14279585)† | Digital Scholarship - UNLV (University of Nevada Reno) |
-| 2020 | social-interaction | [Creating a Corpus of Gestures and Predicting the Audience Response based on Gestures in Speeches of Donald Trump.](https://researchprofiles.ku.dk/da/publications/27ce696e-06b1-420c-b29b-5a612287908b)† | Research at the University of Copenhagen (University of Copenhagen) |
+| 2020 | social-interaction | [Creating a Corpus of Gestures and Predicting the Audience Response based on Gestures in Speeches of Donald Trump.](https://researchprofiles.ku.dk/da/publications/27ce696e-06b1-420c-b29b-5a612287908b) | Research at the University of Copenhagen (University of Copenhagen) |
 | 2020 | linguistics | [Demonstratives as dimension shifters](https://doi.org/10.18148/sub/2020.v24i1.859)† | Proceedings of Sinn und Bedeutung |
 | 2020 | development | [Do you understand what I want to tell you? Early sensitivity in bilinguals' iconic gesture perception and production](https://doi.org/10.1111/desc.12943)† | Developmental Science |
-| 2020 | cognition | [Does Gesture Lighten the Load? The Case of Verbal Analogies](https://doi.org/10.3389/fpsyg.2020.571109)† | Frontiers in Psychology |
+| 2020 | cognition | [Does Gesture Lighten the Load? The Case of Verbal Analogies](https://doi.org/10.3389/fpsyg.2020.571109) | Frontiers in Psychology |
 | 2020 | clinical | [Dysbalanced Resting-State Functional Connectivity Within the Praxis Network Is Linked to Gesture Deficits in Schizophrenia](https://doi.org/10.1093/schbul/sbaa008)† | Schizophrenia Bulletin |
 | 2020 | neuroscience | [Electrophysiological indicators of gesture perception](https://doi.org/10.1007/s00221-020-05724-y) · [open copy](https://arxiv.org/abs/1811.05058) | Experimental Brain Research |
 | 2020 | perception | [Emblem Gestures Improve Perception and Evaluation of Non-native Speech](https://doi.org/10.3389/fpsyg.2020.574418) | Frontiers in Psychology |
@@ -1639,21 +1639,21 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2020 | neuroscience | [Evidence for children’s online integration of simultaneous information from speech and iconic gestures: an ERP study](https://doi.org/10.1080/23273798.2020.1737719)† | Language Cognition and Neuroscience |
 | 2020 | linguistics | [Exploring meaning-making practices via co-speech gestures in TED Talks](https://doi.org/10.1080/1051144x.2020.1826223)† | Journal of Visual Literacy |
 | 2020 | linguistics | [Expressing manner and path in English and Turkish: Differences in speech, gesture, and conceptualization](https://doi.org/10.4324/9781410603494-94)† | Twenty First Annual Conference of the Cognitive Science Society |
-| 2020 | social-interaction | [Facial expressions contribute more than body movements to conversational outcomes in avatar-mediated virtual environments](https://doi.org/10.1038/s41598-020-76672-4)† | Scientific Reports |
+| 2020 | social-interaction | [Facial expressions contribute more than body movements to conversational outcomes in avatar-mediated virtual environments](https://doi.org/10.1038/s41598-020-76672-4) | Scientific Reports |
 | 2020 | clinical | [Feeling addressed! The neural processing of social communicative cues in patients with major depression](https://doi.org/10.1002/hbm.25027)† | Human Brain Mapping |
-| 2020 | clinical | [Figurative meaning in multimodal work by an autistic artist: a cognitive semantic approach](https://doi.org/10.1017/langcog.2020.20)† | Language and Cognition |
+| 2020 | clinical | [Figurative meaning in multimodal work by an autistic artist: a cognitive semantic approach](https://doi.org/10.1017/langcog.2020.20) | Language and Cognition |
 | 2020 | clinical | [Gesture deficits and apraxia in schizophrenia](https://doi.org/10.1016/j.cortex.2020.09.017)† | Cortex |
 | 2020 | education | [Gesture during math instruction specifically benefits learners with high visuospatial working memory capacity](https://doi.org/10.1186/s41235-020-00215-8) | Cognitive Research Principles and Implications |
-| 2020 | psycholinguistics | [Gesture Influences Resolution of Ambiguous Statements of Neutral and Moral Preferences](https://doi.org/10.3389/fpsyg.2020.587129)† | Frontiers in Psychology |
+| 2020 | psycholinguistics | [Gesture Influences Resolution of Ambiguous Statements of Neutral and Moral Preferences](https://doi.org/10.3389/fpsyg.2020.587129) | Frontiers in Psychology |
 | 2020 | clinical | [Gesture Production in Toddlers with Autism Spectrum Disorder](https://doi.org/10.1007/s10803-020-04647-5)‡ | Journal of Autism and Developmental Disorders |
-| 2020 | cognition | [Gesture Use and Processing: A Review on Individual Differences in Cognitive Resources](https://doi.org/10.3389/fpsyg.2020.573555)† | Frontiers in Psychology |
+| 2020 | cognition | [Gesture Use and Processing: A Review on Individual Differences in Cognitive Resources](https://doi.org/10.3389/fpsyg.2020.573555) | Frontiers in Psychology |
 | 2020 | neuroscience | [Gesture's body orientation modulates the N400 for visual sentences primed by gestures](https://doi.org/10.1002/hbm.25166)† | Human Brain Mapping |
 | 2020 | psycholinguistics | [Gesture-speech physics in fluent speech and rhythmic upper limb movements](https://doi.org/10.1111/nyas.14532)† | Annals of the New York Academy of Sciences |
 | 2020 | cognition | [Gesturing helps memory encoding in aMCI](https://doi.org/10.1111/jnp.12238)† | Journal of Neuropsychology |
 | 2020 | cognition | [Gesturing in the wild](https://doi.org/10.1075/rcl.00061.val)† | Review of Cognitive Linguistics |
 | 2020 | education | [Hand Gestures Facilitate the Acquisition of Novel Phonemic Contrasts When They Appropriately Mimic Target Phonetic Features](https://doi.org/10.1044/2020_jslhr-20-00084)† | Journal of Speech Language and Hearing Research |
 | 2020 | linguistics | [How Do Co-occurring Speech and Gestures Express Meaning in a Dyadic Face-to-Face ELF Interaction?](https://doi.org/10.1007/978-3-030-52225-4_5)‡ | Multilingual education |
-| 2020 | development | [Integrated Communication System: Gesture and Language Acquisition in Typically Developing Children and Children With LD and DLD](https://doi.org/10.3389/fpsyg.2020.00118)† | Frontiers in Psychology |
+| 2020 | development | [Integrated Communication System: Gesture and Language Acquisition in Typically Developing Children and Children With LD and DLD](https://doi.org/10.3389/fpsyg.2020.00118) | Frontiers in Psychology |
 | 2020 | social-interaction | [Intrapersonal dependencies in multimodal behavior](https://research.tilburguniversity.edu/en/publications/intrapersonal-dependencies-in-multimodal-behavior)† | IVA (ACM International Conference on Intelligent Virtual Agents) |
 | 2020 | neuroscience | [Investigating the temporality of gesture/speech integration with Transcranial Magnetic Stimulation: building of a study.](https://orbi.umons.ac.be/handle/20.500.12907/11218) | ORBi UMONS |
 | 2020 | linguistics | [It’s Time to Do News Again](https://doi.org/10.1515/zaa-2020-2016)† | Zeitschrift für Anglistik und Amerikanistik |
@@ -1670,18 +1670,18 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2020 | linguistics | [Negation, Prosody, and Gesture](https://doi.org/10.1093/oxfordhb/9780198830528.013.34)† | The Oxford Handbook of Negation |
 | 2020 | neuroscience | [Neural correlates of the processing of self-adaptors, emblems, and iconic gestures with speech: an fMRI study](https://doi.org/10.1080/23273798.2020.1853785)† | Language Cognition and Neuroscience |
 | 2020 | education | [OBSERVING AND PRODUCING DURATIONAL HAND GESTURES FACILITATES THE PRONUNCIATION OF NOVEL VOWEL-LENGTH CONTRASTS](https://doi.org/10.1017/s0272263120000054)† | Studies in Second Language Acquisition |
-| 2020 | development | [Pantomime (Not Silent Gesture) in Multimodal Communication: Evidence From Children’s Narratives](https://doi.org/10.3389/fpsyg.2020.575952)† | Frontiers in Psychology |
+| 2020 | development | [Pantomime (Not Silent Gesture) in Multimodal Communication: Evidence From Children’s Narratives](https://doi.org/10.3389/fpsyg.2020.575952) | Frontiers in Psychology |
 | 2020 | psycholinguistics | [PATTERNS OF MULTIMODAL BEHAVIOR UNDER COGNITIVE LOAD: AN ANALYSIS OF SIMULTANEOUS INTERPRETATION FROM L2 TO L1](https://doi.org/10.20916/1812-3228-2020-1-5-11)† | Вопросы когнитивной лингвистики |
-| 2020 | linguistics | [Probabilistic relation between co-speech gestures, pitch accents and information status](https://doi.org/10.3765/plsa.v5i1.4755)† | Proceedings of the Linguistic Society of America |
+| 2020 | linguistics | [Probabilistic relation between co-speech gestures, pitch accents and information status](https://doi.org/10.3765/plsa.v5i1.4755) | Proceedings of the Linguistic Society of America |
 | 2020 | linguistics | [Proposing a revised functional classification of pragmatic gestures](https://doi.org/10.1016/j.lingua.2020.102870)† | Lingua |
 | 2020 | linguistics | [Quantifying the speech-gesture relation with massive multimodal datasets: Informativity in time expressions](https://doi.org/10.1371/journal.pone.0233892) | PLoS ONE |
-| 2020 | psycholinguistics | [Semantic Relationships Between Representational Gestures and Their Lexical Affiliates Are Evaluated Similarly for Speech and Text](https://doi.org/10.3389/fpsyg.2020.575991)† | Frontiers in Psychology |
+| 2020 | psycholinguistics | [Semantic Relationships Between Representational Gestures and Their Lexical Affiliates Are Evaluated Similarly for Speech and Text](https://doi.org/10.3389/fpsyg.2020.575991) | Frontiers in Psychology |
 | 2020 | linguistics | [Space in Hand and Mind: Gesture and Spatial Frames of Reference in Bilingual Mexico](https://doi.org/10.1111/cogs.12920)† | Cognitive Science |
 | 2020 | other | [Speech Accompanying-Gesture](https://doi.org/10.4324/9781003059783)† | Psychology Press |
 | 2020 | neuroscience | [Structural organization of the praxis network predicts gesture production: Evidence from healthy subjects and patients with schizophrenia](https://doi.org/10.1016/j.cortex.2020.05.023)† | Cortex |
-| 2020 | psycholinguistics | [Syntactic Structure Influences Speech-Gesture Synchronization](https://doi.org/10.5178/lebs.2020.73)† | Letters on Evolutionary Behavioral Science |
-| 2020 | education | [Teacher gesture in a post-secondary English as a second language classroom: A sociocultural approach](https://doi.org/10.34917/2432927)† | Digital Scholarship - UNLV (University of Nevada Reno) |
-| 2020 | education | [Teaching Analogical Reasoning With Co-speech Gesture Shows Children Where to Look, but Only Boosts Learning for Some](https://doi.org/10.3389/fpsyg.2020.575628)† | Frontiers in Psychology |
+| 2020 | psycholinguistics | [Syntactic Structure Influences Speech-Gesture Synchronization](https://doi.org/10.5178/lebs.2020.73) | Letters on Evolutionary Behavioral Science |
+| 2020 | education | [Teacher gesture in a post-secondary English as a second language classroom: A sociocultural approach](https://doi.org/10.34917/2432927) | Digital Scholarship - UNLV (University of Nevada Reno) |
+| 2020 | education | [Teaching Analogical Reasoning With Co-speech Gesture Shows Children Where to Look, but Only Boosts Learning for Some](https://doi.org/10.3389/fpsyg.2020.575628) | Frontiers in Psychology |
 | 2020 | clinical | [The City Gesture Checklist: The development of a novel gesture assessment](https://doi.org/10.1111/1460-6984.12579)† | International Journal of Language & Communication Disorders |
 | 2020 | neuroscience | [The effect of interbrain synchronization in gesture observation: A fNIRS study](https://doi.org/10.1002/brb3.1663)† | Brain and Behavior |
 | 2020 | cognition | [The effects of observing and producing gestures on Japanese word learning](https://doi.org/10.1016/j.actpsy.2020.103079)† | Acta Psychologica |
@@ -1689,9 +1689,9 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2020 | clinical | [The Role of Gesture in Communication and Cognition: Implications for Understanding and Treating Neurogenic Communication Disorders](https://doi.org/10.3389/fnhum.2020.00323) | Frontiers in Human Neuroscience |
 | 2020 | linguistics | [The semantic content of gestures varies with definiteness, information status and clause structure](https://doi.org/10.1016/j.pragma.2020.06.005)† | Journal of Pragmatics |
 | 2020 | social-interaction | [The use of gesture, gesture hold, and gaze in trouble-in-talk among multilingual interlocutors in an English as a lingua franca context](https://doi.org/10.1016/j.pragma.2020.08.015)† | Journal of Pragmatics |
-| 2020 | linguistics | [Translating from monosemiotic to polysemiotic narratives: A study of Finnish speech and gestures](https://doi.org/10.12697/sss.2019.47.3-4.07)† | Sign Systems Studies |
+| 2020 | linguistics | [Translating from monosemiotic to polysemiotic narratives: A study of Finnish speech and gestures](https://doi.org/10.12697/sss.2019.47.3-4.07) | Sign Systems Studies |
 | 2020 | perception | [Two hands and a tale: When gestures benefit adult narrative comprehension](https://www.sciencedirect.com/science/article/abs/pii/S0959475219306905)† | Learning and Instruction |
-| 2020 | education | [Using Gesture to Facilitate L2 Phoneme Acquisition: The Importance of Gesture and Phoneme Complexity](https://doi.org/10.3389/fpsyg.2020.575032)† | Frontiers in Psychology |
+| 2020 | education | [Using Gesture to Facilitate L2 Phoneme Acquisition: The Importance of Gesture and Phoneme Complexity](https://doi.org/10.3389/fpsyg.2020.575032) | Frontiers in Psychology |
 | 2020 | social-interaction | [VERBAL AND PARAVERBAL CRITICISM: A DISCURSIVE STUDY OF GERMAN AND UKRAINIAN ELECTORAL SPEECHES](https://doi.org/10.32589/2311-0821.1.2020.207242)† | MESSENGER OF KYIV NATIONAL LINGUISTIC UNIVERSITY Series Philology |
 | 2020 | neuroscience | [Verbal working memory and co-speech gesture processing](https://doi.org/10.1016/j.bandc.2020.105640)† | Brain and Cognition |
 | 2020 | psycholinguistics | [Verbal working memory capacity affects gesture/speech integration: preliminary results.](https://orbi.umons.ac.be/handle/20.500.12907/25719) | ORBi UMONS |
