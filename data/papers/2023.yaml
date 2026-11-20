@@ -125,7 +125,7 @@
   doi: 10.1017/s1366728923000196
   links: {paper: 'https://doi.org/10.1017/s1366728923000196'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: development
 
@@ -139,7 +139,7 @@
   doi: 10.1371/journal.pone.0281748
   links: {paper: 'https://doi.org/10.1371/journal.pone.0281748'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: cognition
 
@@ -323,7 +323,7 @@
   doi: 10.1075/pc.00033.dyr
   links: {paper: 'https://doi.org/10.1075/pc.00033.dyr'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -466,7 +466,7 @@
   doi: 10.31743/lingbaw.17014
   links: {paper: 'https://doi.org/10.31743/lingbaw.17014'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -480,7 +480,7 @@
   doi: 10.19195/0301-7966.61.1.2
   links: {paper: 'https://doi.org/10.19195/0301-7966.61.1.2'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -648,7 +648,7 @@
   doi: 10.1098/rstb.2021.0473
   links: {paper: 'https://doi.org/10.1098/rstb.2021.0473'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: social-interaction
 
@@ -720,7 +720,7 @@
   doi: 10.1038/s44159-023-00186-9
   links: {paper: 'https://doi.org/10.1038/s44159-023-00186-9'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: cognition
 
@@ -862,7 +862,7 @@
   doi: 10.22363/2687-0088-36189
   links: {paper: 'https://doi.org/10.22363/2687-0088-36189'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -902,7 +902,7 @@
   doi: 10.59960/11.a2
   links: {paper: 'https://doi.org/10.59960/11.a2'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: education
 
@@ -1078,7 +1078,7 @@
   doi: 10.1017/langcog.2023.34
   links: {paper: 'https://doi.org/10.1017/langcog.2023.34'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: development
 
@@ -1223,7 +1223,7 @@
   doi: 10.3390/brainsci13010100
   links: {paper: 'https://doi.org/10.3390/brainsci13010100'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: neuroscience
 
@@ -1782,7 +1782,7 @@
   doi: 10.18653/v1/2023.findings-acl.600
   links: {paper: 'https://aclanthology.org/2023.findings-acl.600/'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -1963,7 +1963,7 @@
   doi: 10.3389/fpsyg.2023.1156087
   links: {paper: 'https://doi.org/10.3389/fpsyg.2023.1156087'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: neuroscience
 

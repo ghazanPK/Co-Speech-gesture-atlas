@@ -97,7 +97,7 @@
   doi: 10.1017/s136672892200058x
   links: {paper: 'https://doi.org/10.1017/s136672892200058x'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: psycholinguistics
 
@@ -226,7 +226,7 @@
   doi: 10.1017/langcog.2022.3
   links: {paper: 'https://doi.org/10.1017/langcog.2022.3'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: cognition
 
@@ -342,7 +342,7 @@
   doi: 10.3390/brainsci12081082
   links: {paper: 'https://doi.org/10.3390/brainsci12081082'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: neuroscience
 
@@ -472,7 +472,7 @@
   doi: 10.5296/ijl.v14i4.20035
   links: {paper: 'https://doi.org/10.5296/ijl.v14i4.20035'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: development
 
@@ -585,7 +585,7 @@
   doi: 10.31299/hrri.58.si.7
   links: {paper: 'https://doi.org/10.31299/hrri.58.si.7'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: other
 
@@ -785,7 +785,7 @@
   doi: 10.1017/s0305000922000642
   links: {paper: 'https://doi.org/10.1017/s0305000922000642'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: development
 
@@ -840,7 +840,7 @@
   doi: 10.1007/s10919-022-00396-4
   links: {paper: 'https://doi.org/10.1007/s10919-022-00396-4'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: clinical
 
@@ -1033,7 +1033,7 @@
   doi: 10.3389/fpsyg.2022.941114
   links: {paper: 'https://doi.org/10.3389/fpsyg.2022.941114'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: psycholinguistics
 
@@ -1159,7 +1159,7 @@
   doi: 10.1017/langcog.2021.20
   links: {paper: 'https://doi.org/10.1017/langcog.2021.20'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: perception
 
@@ -1187,7 +1187,7 @@
   doi: 10.1038/s41598-022-18300-x
   links: {paper: 'https://doi.org/10.1038/s41598-022-18300-x'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: neuroscience
 
@@ -1215,7 +1215,7 @@
   doi: 10.3389/fcomm.2022.869084
   links: {paper: 'https://doi.org/10.3389/fcomm.2022.869084'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: perception
 
@@ -1328,7 +1328,7 @@
   doi: 10.1075/avt.00071.ter
   links: {paper: 'https://doi.org/10.1075/avt.00071.ter'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -1795,6 +1795,6 @@
   doi: 10.1007/s11245-021-09791-w
   links: {paper: 'https://doi.org/10.1007/s11245-021-09791-w'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: other

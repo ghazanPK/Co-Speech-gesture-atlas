@@ -24,9 +24,9 @@ Every paper as a comparison row, not a bare link. Every dataset and metric defin
 
 | Gesture generation | Gesture theory | Theses | With code | Read from full text | Verified twice |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **635** papers | **2011** papers | **83** | **83** | **335** | **132** |
+| **635** papers | **2011** papers | **83** | **83** | **418** | **132** |
 
-2083 records were filled from the abstract only (†) and 311 from bibliographic metadata only (‡), mostly where the full text is behind a paywall.
+2001 records were filled from the abstract only (†) and 310 from bibliographic metadata only (‡), mostly where the full text is behind a paywall.
 <!-- END:stats -->
 
 <p align="center"><img src="docs/papers-per-year.svg" alt="Papers in the atlas by publication year" width="960"></p>

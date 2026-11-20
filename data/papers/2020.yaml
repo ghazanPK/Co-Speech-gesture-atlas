@@ -60,7 +60,7 @@
   doi: 10.1186/s41235-020-00215-8
   links: {paper: 'https://doi.org/10.1186/s41235-020-00215-8'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: education
 
@@ -141,7 +141,7 @@
   category: theory
   links: {paper: 'https://orbi.umons.ac.be/handle/20.500.12907/11218'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: neuroscience
 
@@ -154,7 +154,7 @@
   category: theory
   links: {paper: 'https://orbi.umons.ac.be/handle/20.500.12907/25719'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: psycholinguistics
 
@@ -196,7 +196,7 @@
   doi: 10.3389/fpsyg.2020.574418
   links: {paper: 'https://doi.org/10.3389/fpsyg.2020.574418'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: perception
 
@@ -288,7 +288,7 @@
   doi: 10.1371/journal.pone.0233892
   links: {paper: 'https://doi.org/10.1371/journal.pone.0233892'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -344,7 +344,7 @@
   doi: 10.5723/kjcs.2020.41.4.31
   links: {paper: 'https://doi.org/10.5723/kjcs.2020.41.4.31'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: clinical
 
@@ -386,7 +386,7 @@
   doi: 10.3389/fnhum.2020.00323
   links: {paper: 'https://doi.org/10.3389/fnhum.2020.00323'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: clinical
 
@@ -428,7 +428,7 @@
   doi: 10.3389/fpsyg.2020.01935
   links: {paper: 'https://doi.org/10.3389/fpsyg.2020.01935'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -527,7 +527,7 @@
   doi: 10.1016/j.jml.2020.104191
   links: {paper: 'https://doi.org/10.1016/j.jml.2020.104191'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: psycholinguistics
 
