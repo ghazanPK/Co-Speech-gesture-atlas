@@ -38,9 +38,11 @@
   category: method
   doi: 10.1109/cgi.2000.852314
   links: {paper: 'https://doi.org/10.1109/cgi.2000.852314', open: 'https://repository.upenn.edu/hms/5'}
+  output: [upper-body, full-body]
+  approach: [other]
   summary: EMOTE applies parameterized Laban Effort and Shape qualities to movements to produce more natural synthetic gestures for animated characters.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: bavelas2000visible

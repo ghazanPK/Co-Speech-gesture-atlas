@@ -2010,16 +2010,16 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2026 | psycholinguistics | [Body-Grounded Speech Rhythm: Ubiquitous Interactions between Speech, Breathing, and Limb Movements](https://doi.org/10.1017/9781009295888.003)† | Rhythms of Speech and Language |
 | 2026 | development | [Children Sustain Their Attention on Spatial Scenes When Planning to Describe Spatial Relations Multimodally in Speech and Gesture](https://doi.org/10.1111/desc.70128)† | Developmental Science |
 | 2026 | development | [Children's gesture production predicts analogical transfer](https://doi.org/10.1016/j.cogdev.2026.101799)‡ | Cognitive Development |
-| 2026 | neuroscience | [Co-speech gestures destabilize posture via shared motor-cognitive resources](https://doi.org/10.1038/s41598-026-73652-y)† | Scientific Reports |
+| 2026 | neuroscience | [Co-speech gestures destabilize posture via shared motor-cognitive resources](https://doi.org/10.1038/s41598-026-73652-y) | Scientific Reports |
 | 2026 | neuroscience | [Co-speech gestures disrupt balance through left-hemispheric motor-cognitive interference](https://doi.org/10.7910/dvn/yatjhp)† | Harvard Dataverse |
 | 2026 | clinical | [Communicative Adaptations After Laryngectomy: Syntactic Complexity and Gesture Use](https://doi.org/10.1111/1460-6984.70206)† | International Journal of Language & Communication Disorders |
 | 2026 | other | [Comparison of deep learning-based three-dimensional human pose estimation methods with motion capture for gesture research](https://doi.org/10.1371/journal.pone.0347288)† | PLoS ONE |
 | 2026 | linguistics | [Continuous wrist kinematics carry lexical cues for temporal deixis](https://doi.org/10.1145/3776591.3832506)† | Companion Publication of the International Conference on Multimodal Interaction (ICMI Companion) |
 | 2026 | education | [Developing a Framework of Teacher Noticing Indicators for Students’ Multimodal Spatial Reasoning: A Systematic Literature Review](https://doi.org/10.12973/eu-jer.15.4.1117)† | European Journal of Educational Research |
-| 2026 | development | [Developmental Shift in Multimodal Cue Usage in Early Mother‐Child Conversational Initiation](https://doi.org/10.1111/infa.70096)† | Infancy |
+| 2026 | development | [Developmental Shift in Multimodal Cue Usage in Early Mother‐Child Conversational Initiation](https://doi.org/10.1111/infa.70096) | Infancy |
 | 2026 | neuroscience | [Discourse Context and Co-Speech Gestures Jointly Shape Hierarchical Prediction During the Processing of a Multimodal Narrative](https://doi.org/10.1162/nol.a.276)† | Neurobiology of Language |
 | 2026 | clinical | [Dysfunctional neural processing of object-related speech with semantically unrelated vs related co-verbal gesture in schizophrenia spectrum disorders](https://doi.org/10.1016/j.neuropsychologia.2026.109586)† | Neuropsychologia |
-| 2026 | clinical | [Effects of Co-speech Gesture on the Acoustic Realization of Focus in Cantonese-speaking Children With and Without Autism Spectrum Disorder](https://doi.org/10.21437/interspeech.2026-1008)† | Interspeech (USB) |
+| 2026 | clinical | [Effects of Co-speech Gesture on the Acoustic Realization of Focus in Cantonese-speaking Children With and Without Autism Spectrum Disorder](https://doi.org/10.21437/interspeech.2026-1008) | Interspeech (USB) |
 | 2026 | development | [Embodying Language Complexity: Co-speech gestures between 3 and 4](https://doi.org/10.82270/language-complexity)‡ | Outils et Ressources pour un Traitement Optimisé de la LANGue |
 | 2026 | social-interaction | [Enabling AI to Find Multimodal Signals of Storytelling Cross-Culturally: A Multi-Step Approach](https://doi.org/10.1145/3776591.3836646)† | Companion Publication of the International Conference on Multimodal Interaction (ICMI Companion) |
 | 2026 | other | [Evaluation of Co-Speech Gesture Tracking Techniques in Naturalistic Interactions](https://aclanthology.org/2026.lrec-1.497/)‡ | LREC 2026 |
@@ -2043,13 +2043,13 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2026 | linguistics | [The Meaning and Grammar of Pure Gestures: Theoretical Insights](https://doi.org/10.1146/annurev-linguistics-041824-035453)† | Annual Review of Linguistics |
 | 2026 | perception | [The Role of Gestures in the Perception of Creative One-Word References Produced by Humans and Virtual Agents](https://doi.org/10.1145/3806774.3827974)† | ACM International Conference on Intelligent Virtual Agents (IVA) |
 | 2026 | psycholinguistics | [The role of semantically related co-speech gestures in English-to-Chinese consecutive interpreting: a behavioral and ERP study](https://doi.org/10.1016/j.actpsy.2026.108148)† | Acta Psychologica |
-| 2026 | social-interaction | [The role of Theory of Mind in understanding co-speech gestures](https://doi.org/10.48734/akofena.n019.vol.2.23.2026)† | Akofena revue scientifique des Sciences du Langage Lettres Langues & de la Communication |
+| 2026 | social-interaction | [The role of Theory of Mind in understanding co-speech gestures](https://doi.org/10.48734/akofena.n019.vol.2.23.2026) | Akofena revue scientifique des Sciences du Langage Lettres Langues & de la Communication |
 | 2026 | neuroscience | [The Sensorimotor Account of Multimodal Prosody](https://doi.org/10.1017/9781009295888.006)† | Rhythms of Speech and Language |
-| 2026 | psycholinguistics | [Theoretical Aspects of Multimodal Processing](https://link.springer.com/chapter/10.1007/978-981-96-5290-7_18)† | Social Explainable AI |
+| 2026 | psycholinguistics | [Theoretical Aspects of Multimodal Processing](https://link.springer.com/chapter/10.1007/978-981-96-5290-7_18) | Social Explainable AI |
 | 2026 | social-interaction | [Unified Functional Spectrum Analysis: A Framework for Understanding Nonverbal Multimodal Multifunctional Interactions in Multiparty Conversations](https://doi.org/10.1109/access.2026.3677436)† | IEEE Access |
 | 2026 | linguistics | [Variation in the Fine Timing of Co-Speech Gestures Among Bilingual Speakers](https://www.isca-archive.org/speechprosody_2026/franich26_speechprosody.html)† | Speech Prosody 2026 |
 | 2026 | psycholinguistics | [Visuospatial experience shapes the form of gestures: Blind speakers gesture with more precise spatial tracking of motion than sighted speakers](https://doi.org/10.3758/s13423-026-02957-w)† | Psychonomic Bulletin & Review |
 | 2026 | education | [When Less Is More: The Influence of Gesture Visibility on Attention and Learning](https://doi.org/10.1002/acp.70238)† | Applied Cognitive Psychology |
 | 2026 | psycholinguistics | [When words don't come easy - How speakers cope with communicatively challenging situations using verbal creativity and co-speech gesture](https://pub.uni-bielefeld.de/record/3018502)† | Publikationen an der Universität Bielefeld (Universität Bielefeld) |
-| 2026 | education | [Why Some Gestures Work Better than Others: Toward a Model of Gesture-Supported Vocabulary Learning](https://doi.org/10.1007/s10648-026-10222-8)† | Educational Psychology Review |
+| 2026 | education | [Why Some Gestures Work Better than Others: Toward a Model of Gesture-Supported Vocabulary Learning](https://doi.org/10.1007/s10648-026-10222-8) | Educational Psychology Review |
 <!-- END:theory -->

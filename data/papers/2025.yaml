@@ -533,13 +533,17 @@
   type: journal
   category: method
   doi: 10.3390/app15179467
-  links: {paper: 'https://doi.org/10.3390/app15179467', open: 'https://www.mdpi.com/2076-3417/15/17/9467/pdf?version=1756442434'}
+  links: {paper: 'https://doi.org/10.3390/app15179467', open: 'https://www.mdpi.com/2076-3417/15/17/9467/pdf?version=1756442434', code: 'https://github.com/kacr2/cont-gest'}
   input: [audio, emotion]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [genea-2023]
   metrics: [other]
+  user_study: false
   summary: Cont-Gest is a Transformer gesture generator with selectively activatable controls (velocity, hand height, emotion) via masked training and a control fusion strategy such as FiLM.
   notes: Objective evaluation uses the Kinetic-Hellinger distance; also proposes an evaluation-driven development workflow.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: deng2025stereotalker

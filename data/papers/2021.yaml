@@ -1746,11 +1746,17 @@
   links: {paper: 'https://www.mdpi.com/2079-9292/10/3/228', code: 'https://github.com/wubowen416/co-speech-gesture-generation-using-CGAN'}
   input: [audio]
   output: [upper-body]
+  representation: [joints-3d]
   approach: [gan]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [custom]
+  languages: [ja]
+  metrics: [other]
   user_study: true
   summary: Conditional GAN model that approximates the distribution of upper-body gestures conditioned on speech features rather than a deterministic speech-to-gesture mapping.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: wu2021wgan
@@ -1916,9 +1922,13 @@
   category: system
   doi: 10.3390/app11104639
   links: {paper: 'https://doi.org/10.3390/app11104639'}
+  input: [text]
+  output: [upper-body]
+  approach: [gan]
+  realtime: unreported
   summary: Humanoid robot system that adapts talking beat gestures, posture, eye lights and voice to the sentiment of its speech to express a chosen personality.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: zabala2021quantitative

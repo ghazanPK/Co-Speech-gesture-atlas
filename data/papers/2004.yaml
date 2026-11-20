@@ -559,6 +559,7 @@
   links: {paper: 'https://pub.uni-bielefeld.de/record/1857798', open: 'http://www.justinecassell.com/publications/AAMAS04.Tepper%20et%20al.pdf'}
   output: [hands]
   approach: [rule-based]
+  user_study: false
   summary: Proposes generating coordinated language and novel iconic gestures from a shared representation of context and domain knowledge, adding a gesture planner to the SPUD microplanner that composes gesture form features (handshape, trajectory, etc.) linked to imagistic semantic features.
   added: '2026-10-03'
   checked: full-text

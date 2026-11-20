@@ -122,13 +122,17 @@
   category: method
   doi: 10.3390/electronics13163315
   links: {paper: 'https://doi.org/10.3390/electronics13163315', open: 'https://www.mdpi.com/2079-9292/13/16/3315/pdf?version=1724294642'}
+  input: [audio]
   approach: [regression, vae]
+  realtime: unreported
   datasets: [custom]
   languages: [zh]
+  metrics: [fid, diversity, other]
+  user_study: true
   summary: Editable gesture synthesis that detects gesture occurrences in video, converts them to pose scripts predicted by regression models, and models rhythmic gestures with a VAE and a 1D convolutional network.
   notes: Introduces a large-scale Chinese co-speech gesture dataset with multimodal annotations, stated to be released publicly.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: bao2024musegesture
@@ -572,13 +576,16 @@
   type: journal
   category: method
   doi: 10.3390/electronics13173364
-  links: {paper: 'https://doi.org/10.3390/electronics13173364', open: 'https://www.mdpi.com/2079-9292/13/17/3364/pdf?version=1724486119'}
+  links: {paper: 'https://doi.org/10.3390/electronics13173364', open: 'https://www.mdpi.com/2079-9292/13/17/3364/pdf?version=1724486119', code: 'https://github.com/filippofavali/TAG2G/tree/dyadic'}
   input: [text, audio, seed-motion, interlocutor]
   approach: [vq, diffusion]
   setting: [dyadic]
+  realtime: unreported
+  datasets: [genea-2023]
+  user_study: false
   summary: A VQ-VAE gesture embedding combined with a diffusion model generates gestures from text, audio and previous gestures of both participants in a conversation.
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
 
 - id: floritpons2024evaluating
@@ -2289,6 +2296,7 @@
   setting: [monologue]
   realtime: unreported
   datasets: [ted-gesture, ted-expressive]
+  languages: [en]
   metrics: [fgd, beat-align, diversity]
   user_study: true
   summary: GesTran encodes gestures into discrete tokens with a transformer auto-encoder, then fine-tunes a pre-trained LLM (LLaMA, via LoRA) to translate speech audio and text into those gesture tokens.

@@ -1353,7 +1353,7 @@
   category: method
   doi: 10.3389/fpsyg.2018.01144
   links: {paper: 'https://doi.org/10.3389/fpsyg.2018.01144', open: 'https://www.frontiersin.org/articles/10.3389/fpsyg.2018.01144/pdf'}
-  input: [text]
+  input: [text, audio]
   approach: [rule-based]
   user_study: false
   summary: Extracts image schemas from speech text with WordNet, maps them to gesture invariants through a dictionary, and realizes metaphoric gestures for an embodied conversational agent.

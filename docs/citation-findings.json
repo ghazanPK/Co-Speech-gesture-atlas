@@ -206,16 +206,16 @@
   },
   "code_groups": {
     "code_link": {
-      "records": 80,
+      "records": 82,
       "median": 10.0,
-      "mean": 31.55,
-      "with_outgoing": 73
+      "mean": 30.79,
+      "with_outgoing": 75
     },
     "no_code_link_recorded": {
-      "records": 555,
+      "records": 553,
       "median": 2,
-      "mean": 9.42,
-      "with_outgoing": 504
+      "mean": 9.45,
+      "with_outgoing": 502
     }
   },
   "cohorts": [
@@ -282,16 +282,16 @@
     {
       "years": "2023-2026",
       "code_link": {
-        "records": 50,
-        "median": 5.5,
-        "mean": 16.78,
-        "with_outgoing": 45
+        "records": 52,
+        "median": 4.5,
+        "mean": 16.15,
+        "with_outgoing": 47
       },
       "no_code_link_recorded": {
-        "records": 252,
+        "records": 250,
         "median": 1.0,
-        "mean": 4.19,
-        "with_outgoing": 231
+        "mean": 4.22,
+        "with_outgoing": 229
       }
     }
   ],
