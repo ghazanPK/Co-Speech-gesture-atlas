@@ -45,7 +45,9 @@
   doi: 10.1109/access.2025.3596328
   links: {paper: 'https://doi.org/10.1109/access.2025.3596328', open: 'https://www.researchsquare.com/article/rs-3350470/latest.pdf'}
   input: [text]
+  output: [upper-body]
   approach: [retrieval]
+  datasets: [custom]
   languages: [en, ko]
   user_study: true
   summary: Retrieves gesture units for input text from a rule base of about 210,000 rules built by matching 2D poses from video to 3D motion-capture gesture units with a contrastive pose-matching model, with translation for non-English text.
@@ -374,6 +376,7 @@
   realtime: real-time
   latency: average runtime of 5 ms and 4.6 ms per frame (about 12x faster than DiffStyleGesture)
   datasets: [beat, zeggs]
+  languages: [en]
   metrics: [fgd, beat-align, diversity]
   user_study: true
   summary: Uses a conditional GAN inside the diffusion sampling step so that larger noise steps and fewer denoising steps can be used for audio-driven full-body gesture generation.
@@ -1202,7 +1205,7 @@
   year: 2025
   venue: ACL
   type: conference
-  category: method
+  category: dataset
   doi: 10.18653/v1/2025.acl-long.112
   arxiv: '2506.00958'
   links: {paper: 'https://aclanthology.org/2025.acl-long.112/', open: 'https://arxiv.org/abs/2506.00958', code: 'https://github.com/winston1214/nonverbal-conversation'}
@@ -1584,7 +1587,7 @@
   setting: [monologue]
   realtime: unreported
   datasets: [custom]
-  metrics: [fid, fvd, image-quality, lip-sync, other]
+  metrics: [fid, fvd, image-quality, e-fid, lip-sync, hkc, hkv, other]
   user_study: false
   summary: A latent video diffusion model animates a half-body reference image from audio and a hand pose sequence, using audio-pose harmonization during training.
   notes: Also trained on HumanVid; introduces the EMTD half-body benchmark built from TED videos.
@@ -1840,8 +1843,10 @@
   input: [audio, style]
   output: [full-body, hands]
   approach: [llm, vq, diffusion]
+  realtime: unreported
   datasets: [zeggs, seg]
   metrics: [fgd, beat-align, diversity]
+  user_study: false
   summary: A language-model decoder maps speech and a style label to editable inverse-kinematics control points, and a diffusion denoiser then synthesises VQ latent motion for body and fingers conditioned on those points.
   added: '2026-10-03'
   checked: full-text

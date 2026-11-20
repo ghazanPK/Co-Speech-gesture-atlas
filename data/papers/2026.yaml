@@ -508,6 +508,7 @@
   arxiv: '2610.24031'
   links: {paper: 'https://doi.org/10.1145/3767308.3836287', open: 'https://arxiv.org/abs/2610.24031'}
   input: [audio, interlocutor]
+  output: [full-body, face]
   approach: [flow-matching, vq]
   setting: [dyadic]
   realtime: unreported
@@ -546,6 +547,7 @@
   doi: 10.1007/978-3-032-22267-1_33
   links: {paper: 'https://doi.org/10.1007/978-3-032-22267-1_33', code: 'https://github.com/IORGestureTeam/FaceCapGes'}
   input: [audio]
+  output: [upper-body, hands]
   representation: [joints-3d]
   approach: [gan, autoregressive]
   realtime: real-time
@@ -786,7 +788,7 @@
   representation: [joints-3d]
   approach: [diffusion]
   setting: [dyadic]
-  realtime: unreported
+  realtime: offline
   datasets: [beat2, talking-with-hands]
   metrics: [fgd, beat-align, diversity, fid]
   user_study: true
@@ -1622,7 +1624,7 @@
   category: method
   arxiv: '2512.22065'
   links: {paper: 'https://arxiv.org/abs/2512.22065', project: 'https://streamavatar.github.io'}
-  input: [audio, image, text]
+  input: [audio, image, text, interlocutor]
   output: [full-body, hands, face]
   representation: [video-pixels]
   approach: [diffusion, autoregressive, gan]
@@ -1774,7 +1776,7 @@
   doi: 10.1145/3845992
   arxiv: '2510.17617'
   links: {paper: 'https://doi.org/10.1145/3845992', open: 'https://arxiv.org/abs/2510.17617', project: 'https://review-anon-io.github.io/ImaGGen.github.io/'}
-  input: [text, image]
+  input: [text, audio, image]
   output: [upper-body, hands]
   representation: [smpl-x]
   approach: [hybrid, llm]
@@ -1840,6 +1842,7 @@
   doi: 10.1007/s42486-025-00213-z
   links: {paper: 'https://doi.org/10.1007/s42486-025-00213-z'}
   input: [audio, text]
+  output: [hands]
   representation: [joints-3d]
   approach: [gan]
   realtime: unreported
@@ -1861,6 +1864,7 @@
   doi: 10.1007/978-3-032-37211-6_15
   links: {paper: 'https://doi.org/10.1007/978-3-032-37211-6_15'}
   input: [audio, text]
+  output: [hands]
   approach: [vq, autoregressive]
   realtime: unreported
   datasets: [cohumo]
@@ -1993,7 +1997,7 @@
   representation: [video-pixels]
   approach: [diffusion, other]
   setting: [monologue]
-  realtime: offline
+  realtime: unreported
   latency: 1.515 s to generate 1 s of 25 fps video
   datasets: [pats, custom]
   metrics: [fid, fvd, image-quality, diversity, lip-sync, other]
@@ -2283,7 +2287,7 @@
   setting: [dyadic]
   realtime: unreported
   datasets: [talking-with-hands]
-  metrics: [fgd, srgr, diversity, multimodality, other]
+  metrics: [fgd, srgr, diversity, other]
   user_study: true
   summary: Generates gestures for both interlocutors of a dialog from conversational audio with an interactive dual-diffusion model and contrastive-learning-based identity-decoupled style guidance.
   notes: Also reports DSRGR (dual-speaker SRGR) and FDk (Frechet distance on gesture velocities).
