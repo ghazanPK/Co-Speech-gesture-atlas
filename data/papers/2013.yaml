@@ -854,6 +854,7 @@
   category: method
   doi: 10.15607/rss.2013.ix.026
   links: {paper: 'https://doi.org/10.15607/rss.2013.ix.026'}
+  approach: [rule-based]
   realtime: unreported
   datasets: [custom]
   user_study: true

@@ -518,7 +518,7 @@
   realtime: unreported
   datasets: [custom]
   languages: [en]
-  metrics: [other, label-prediction]
+  metrics: [label-prediction, cosine-similarity]
   summary: Prompts ChatGPT and GPT-4 with few-shot examples to suggest context-specific gestures for utterances, tested against annotated gestures from a political speech.
   notes: Metric is cosine similarity between BERT embeddings of annotated and suggested gestures plus prediction accuracy; outputs are gesture descriptions, not motion. Judged by two gesture researchers, not a participant study. The OSF link holds code and data.
   added: '2026-10-03'
@@ -1845,7 +1845,7 @@
   arxiv: '2212.04420'
   links: {paper: 'https://doi.org/10.1109/cvpr52729.2023.00053', open: 'https://arxiv.org/abs/2212.04420', project: 'https://talkshow.is.tue.mpg.de/'}
   input: [audio, speaker-id]
-  output: [hands, face]
+  output: [full-body, hands, face]
   representation: [smpl-x]
   approach: [vq, autoregressive]
   setting: [monologue]

@@ -352,6 +352,7 @@
   links: {paper: 'https://doi.org/10.1007/978-3-540-74997-4_2'}
   input: [text]
   output: [upper-body]
+  approach: [hybrid]
   realtime: unreported
   datasets: [custom]
   user_study: true
@@ -607,6 +608,7 @@
   doi: 10.1002/scj.20532
   links: {paper: 'https://doi.org/10.1002/scj.20532'}
   input: [text]
+  approach: [other]
   realtime: unreported
   summary: Generates composite conversational gestures for a sentence by expanding likely gesture combinations as a tree and planning a motion sequence using networks for gesture continuity and linkage.
   added: '2026-10-03'

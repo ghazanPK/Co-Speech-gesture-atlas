@@ -66,10 +66,12 @@
   category: method
   doi: 10.1007/978-3-642-04380-2_12
   links: {paper: 'https://doi.org/10.1007/978-3-642-04380-2_12'}
+  output: [hands]
   approach: [hybrid]
   realtime: unreported
   datasets: [custom]
   metrics: [label-prediction]
+  user_study: false
   summary: GNetIc models iconic gesture generation with Bayesian decision networks learned from annotated speaker data and supplemented with if-then rules, deciding gesture occurrence, technique, handedness and handshape.
   added: '2026-10-03'
   checked: full-text
@@ -84,6 +86,7 @@
   category: method
   doi: 10.1007/978-3-642-12553-9_16
   links: {paper: 'https://doi.org/10.1007/978-3-642-12553-9_16'}
+  output: [hands]
   approach: [hybrid]
   realtime: unreported
   datasets: [custom]
@@ -102,6 +105,7 @@
   category: method
   doi: 10.65109/vtam7538
   links: {paper: 'https://doi.org/10.65109/vtam7538', open: 'https://www.ifaamas.org/Proceedings/aamas09/pdf/01_Full%20Papers/05a_11_62_FP_0551.pdf'}
+  output: [hands]
   approach: [hybrid]
   realtime: unreported
   datasets: [custom]
@@ -164,6 +168,7 @@
   category: system
   doi: 10.1007/978-3-642-04380-2_55
   links: {paper: 'https://doi.org/10.1007/978-3-642-04380-2_55'}
+  input: [text]
   realtime: unreported
   summary: A BML-based behavior realizer that parses scripts and schedules annotated body and facial animations with synthesized speech, using neural networks to estimate word durations for alignment.
   added: '2026-10-03'
@@ -739,7 +744,7 @@
   type: conference
   category: method
   doi: 10.1007/978-3-642-04380-2_44
-  links: {paper: 'https://doi.org/10.1007/978-3-642-04380-2_44'}
+  links: {paper: 'https://doi.org/10.1007/978-3-642-04380-2_44', project: 'http://www.cs.ucdavis.edu/~neff/pengcheng/'}
   output: [full-body]
   approach: [hybrid]
   setting: [monologue]
@@ -1081,7 +1086,7 @@
   arxiv: '0908.3362'
   links: {paper: 'https://inria.hal.science/inria-00410315', open: 'https://arxiv.org/abs/0908.3362'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: social-interaction
 

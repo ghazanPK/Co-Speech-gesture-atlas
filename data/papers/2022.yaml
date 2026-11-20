@@ -1639,6 +1639,7 @@
   realtime: unreported
   datasets: [ted-gesture, trinity]
   metrics: [fgd, pck, diversity, beat-align, multimodality]
+  user_study: true
   summary: A flow-based autoregressive model with a global encoder and a gesture perceptual loss that generates stylized gestures from audio and past poses without style labels.
   added: '2026-10-03'
   checked: full-text

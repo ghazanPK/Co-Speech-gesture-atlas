@@ -136,6 +136,7 @@
   category: evaluation
   doi: 10.1007/978-3-642-15892-6_11
   links: {paper: 'https://doi.org/10.1007/978-3-642-15892-6_11'}
+  input: [speaker-id]
   approach: [hybrid]
   realtime: unreported
   datasets: [saga]
@@ -251,6 +252,7 @@
   category: system
   doi: 10.1007/s11042-010-0530-2
   links: {paper: 'https://doi.org/10.1007/s11042-010-0530-2'}
+  input: [text]
   realtime: unreported
   user_study: true
   summary: RealActor is an open-source BML realizer that executes speech and nonverbal behaviors, using neural networks to estimate word durations for gesture-speech synchronisation, plus a FACS-based face animation model.
@@ -928,6 +930,7 @@
   category: evaluation
   doi: 10.1007/978-3-642-15892-6_24
   links: {paper: 'https://doi.org/10.1007/978-3-642-15892-6_24'}
+  input: [text]
   realtime: unreported
   user_study: true
   summary: Combines Personage-generated restaurant utterances with virtual agent gestures varied in rate and performance parameters, and measures perceived extraversion in a rated video study.

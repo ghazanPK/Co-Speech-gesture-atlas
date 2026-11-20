@@ -248,6 +248,7 @@
   links: {paper: 'https://doi.org/10.1007/978-3-642-23974-8_14'}
   input: [audio]
   output: [upper-body]
+  representation: [joints-3d]
   approach: [other]
   realtime: unreported
   datasets: [custom]
@@ -933,6 +934,8 @@
   doi: 10.1007/978-3-642-24571-8_24
   links: {paper: 'https://doi.org/10.1007/978-3-642-24571-8_24'}
   input: [text]
+  representation: [other]
+  approach: [rule-based]
   realtime: unreported
   summary: Extends the GRETA agent platform to the Nao robot, selecting symbolic gestures from a robot lexicon, synchronising them with speech and instantiating them as joint values with expressivity parameters.
   added: '2026-10-03'

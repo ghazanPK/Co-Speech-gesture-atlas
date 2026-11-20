@@ -29,6 +29,7 @@
   input: [audio, interlocutor]
   output: [upper-body]
   representation: [joints-3d]
+  approach: [autoregressive]
   setting: [dyadic]
   realtime: unreported
   datasets: [custom]
@@ -1466,9 +1467,11 @@
   links: {paper: 'https://doi.org/10.1109/icra.2019.8793720', open: 'https://arxiv.org/abs/1810.12541', project: 'https://sites.google.com/view/youngwoo-yoon/projects/co-speech-gesture-generation'}
   input: [text]
   output: [upper-body]
+  representation: [keypoints-2d, joints-3d]
   approach: [autoregressive]
   setting: [monologue]
-  realtime: unreported
+  realtime: real-time
+  latency: 0.14 s on a CPU for a 25-word sentence
   datasets: [ted-gesture]
   user_study: true
   summary: An end-to-end neural network with a speech-text encoder and a gesture-sequence decoder is trained on 52 hours of TED talks and demonstrated on a NAO robot.

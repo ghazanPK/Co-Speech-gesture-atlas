@@ -26,7 +26,7 @@
   doi: 10.1007/s10514-015-9444-1
   links: {paper: 'https://doi.org/10.1007/s10514-015-9444-1', open: 'https://hal.science/hal-01203658'}
   input: [text, audio]
-  approach: [rule-based]
+  approach: [hybrid]
   setting: [dyadic]
   realtime: unreported
   user_study: true

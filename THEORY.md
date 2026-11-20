@@ -688,7 +688,7 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2009 | development | [Symbolic Gesturing in Language Development](https://doi.org/10.1159/000272934)† | Human Development |
 | 2009 | linguistics | [The anatomy of meaning: Speech, gesture, and composite utterances](https://www.mpi.nl/publications/item66263/anatomy-meaning-speech-gesture-and-composite-utterances)† | The anatomy of meaning: Speech, gesture, and composite utterances (Cambridge University Press) |
 | 2009 | social-interaction | [The communicative import of gestures](https://doi.org/10.1075/gest.9.1.04mol)† | Gesture |
-| 2009 | social-interaction | [The Function of Gesture in an Architectural Design Meeting](https://inria.hal.science/inria-00410315)† · [open copy](https://arxiv.org/abs/0908.3362) | About: Designing. Analysing Design Meetings (Taylor & Francis) |
+| 2009 | social-interaction | [The Function of Gesture in an Architectural Design Meeting](https://inria.hal.science/inria-00410315) · [open copy](https://arxiv.org/abs/0908.3362) | About: Designing. Analysing Design Meetings (Taylor & Francis) |
 | 2009 | psycholinguistics | [The relationship between verbal and gestural contributions in conversation](https://doi.org/10.1075/gest.9.3.03ger)† | Gesture |
 | 2009 | perception | [The Rivalry of Nonverbal Cues on the Perception of Politicians by Television Viewers](https://doi.org/10.1080/08838150902907918)† | Journal of Broadcasting & Electronic Media |
 | 2009 | clinical | [Therapy to improve gestural expression in aphasia: a controlled clinical trial](https://doi.org/10.1177/0269215509343327)† | Clinical Rehabilitation |
@@ -1609,7 +1609,7 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | Year | Area | Paper | Venue |
 |---|---|---|---|
 | 2020 | cognition | ['Tiny numbers' are actually tiny: Evidence from gestures in the TV News Archive](https://doi.org/10.1371/journal.pone.0242142)† | PLoS ONE |
-| 2020 | linguistics | [A Formal Analysis of Multimodal Referring Strategies Under Common Ground](https://aclanthology.org/2020.lrec-1.725/)† · [open copy](https://arxiv.org/abs/2003.07385) | LREC 2020 |
+| 2020 | linguistics | [A Formal Analysis of Multimodal Referring Strategies Under Common Ground](https://aclanthology.org/2020.lrec-1.725/) · [open copy](https://arxiv.org/abs/2003.07385) | LREC 2020 |
 | 2020 | cognition | [A helping hand for thinking and speaking: Effects of gesturing and task planning on second language narrative discourse](https://doi.org/10.1016/j.system.2020.102243)‡ | System |
 | 2020 | cognition | [Ageing, working memory, and mental imagery: Understanding gestural communication in younger and older adults](https://doi.org/10.1177/1747021820944696)† | Quarterly Journal of Experimental Psychology |
 | 2020 | perception | [Aging and working memory modulate the ability to benefit from visible speech and iconic gestures during speech-in-noise comprehension](https://doi.org/10.1007/s00426-020-01363-8)† | Psychological Research |
@@ -1629,7 +1629,7 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2020 | development | [Do you understand what I want to tell you? Early sensitivity in bilinguals' iconic gesture perception and production](https://doi.org/10.1111/desc.12943)† | Developmental Science |
 | 2020 | cognition | [Does Gesture Lighten the Load? The Case of Verbal Analogies](https://doi.org/10.3389/fpsyg.2020.571109)† | Frontiers in Psychology |
 | 2020 | clinical | [Dysbalanced Resting-State Functional Connectivity Within the Praxis Network Is Linked to Gesture Deficits in Schizophrenia](https://doi.org/10.1093/schbul/sbaa008)† | Schizophrenia Bulletin |
-| 2020 | neuroscience | [Electrophysiological indicators of gesture perception](https://doi.org/10.1007/s00221-020-05724-y)† · [open copy](https://arxiv.org/abs/1811.05058) | Experimental Brain Research |
+| 2020 | neuroscience | [Electrophysiological indicators of gesture perception](https://doi.org/10.1007/s00221-020-05724-y) · [open copy](https://arxiv.org/abs/1811.05058) | Experimental Brain Research |
 | 2020 | perception | [Emblem Gestures Improve Perception and Evaluation of Non-native Speech](https://doi.org/10.3389/fpsyg.2020.574418)† | Frontiers in Psychology |
 | 2020 | cognition | [Emotion matters](https://doi.org/10.1075/gest.19029.lev)† | Gesture |
 | 2020 | linguistics | [Empirical Evidence for the Claim That the Vocal Theory of Language Origins and the Gestural Theory of Language Origins Are Not Incompatible with One Another](https://link.springer.com/book/10.1007/978-981-15-4250-3)‡ | The Origins of Language Revisited: Differentiation from Music and the Emergence of Neurodiversity and Autism |
@@ -1930,7 +1930,7 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2024 | neuroscience | [Multisensory integration of speech and gestures in a naturalistic paradigm](https://doi.org/10.1002/hbm.26797)† | Human Brain Mapping |
 | 2024 | other | [Pantomime within and beyond the evolution of language](https://doi.org/10.1075/ais.12.01arb)† | Advances in interaction studies |
 | 2024 | social-interaction | [Partner-directed gaze and co-speech hand gestures: effects of age, hearing loss and noise](https://doi.org/10.3389/fpsyg.2024.1324667)† | Frontiers in Psychology |
-| 2024 | linguistics | [Protocol for identifying shared articulatory features of gestures and LSF: application to epistemic gesture](https://doi.org/10.1163/19589514-53020005)† · [open copy](https://arxiv.org/abs/2409.10079) | Faits de langues |
+| 2024 | linguistics | [Protocol for identifying shared articulatory features of gestures and LSF: application to epistemic gesture](https://doi.org/10.1163/19589514-53020005) · [open copy](https://arxiv.org/abs/2409.10079) | Faits de langues |
 | 2024 | social-interaction | [Providing evidence for a well-worn stereotype: Italians and Swedes do gesture differently](https://doi.org/10.3389/fcomm.2024.1314120)† | Frontiers in Communication |
 | 2024 | linguistics | [Qualitative study of gesture annotation corpus : Challenges and perspectives](https://doi.org/10.1145/3686215.3688820)† | ICMI Companion |
 | 2024 | clinical | [Reduced on-line speech gesture integration during multimodal language processing in adults with moderate-severe traumatic brain injury: Evidence from eye-tracking](https://doi.org/10.1016/j.cortex.2024.08.008)† | Cortex |
@@ -2030,7 +2030,7 @@ Areas: `psycholinguistics`, `linguistics`, `cognition`, `development`, `neurosci
 | 2026 | linguistics | [From Detection to Mechanism Analysis: Interpretable Multimodal Concept Interactions in Gesture Pragmatics](https://doi.org/10.1145/3776574.3831183)† | INTERNATIONAL CONFERENCE ON MULTIMODAL INTERACTION |
 | 2026 | development | [Gesture in the eye of the beholder: Exploring how children interpret co-speech gesture instruction](https://doi.org/10.1016/j.cogdev.2026.101693)‡ | Cognitive Development |
 | 2026 | linguistics | [Gesture Use Across Different Concepts: Focusing on Cross‐Linguistic Diversity](https://doi.org/10.1111/tops.70050)† | Topics in Cognitive Science |
-| 2026 | social-interaction | [Gesturing Toward Abstraction: Multimodal Convention Formation in Collaborative Physical Tasks](https://dl.acm.org/doi/10.1145/3772318.3790618)† · [open copy](https://arxiv.org/abs/2602.08914) | CHI 2026 |
+| 2026 | social-interaction | [Gesturing Toward Abstraction: Multimodal Convention Formation in Collaborative Physical Tasks](https://dl.acm.org/doi/10.1145/3772318.3790618) · [open copy](https://arxiv.org/abs/2602.08914) | CHI 2026 |
 | 2026 | clinical | [Investigating the Effects of Adding Explicit Teaching and/or Signing to Story‐Based Vocabulary Intervention for School‐Aged Children With (Developmental) Language Disorder](https://doi.org/10.1111/1460-6984.70317)† | International Journal of Language & Communication Disorders |
 | 2026 | cognition | [Investigating the Role of Beat Gestures in Statistical Language Learning](http://hdl.handle.net/10138/634078)† | Työväentutkimus Vuosikirja |
 | 2026 | linguistics | [Multimodal discursive practices in narrative discourse production in a non-native language](https://doi.org/10.18384/2949-5075-2026-1-29-49)† | Key Issues of Contemporary Linguistics |

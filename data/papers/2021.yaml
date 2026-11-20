@@ -1238,7 +1238,7 @@
   setting: [monologue]
   realtime: unreported
   datasets: [custom]
-  metrics: []
+  metrics: [pck]
   user_study: true
   summary: Generates 3D upper-body gestures directly from speech audio with a GAN trained on 3D poses extracted from YouTube videos, evaluated in a Turing-test-style user study.
   added: '2026-10-03'
@@ -1894,7 +1894,8 @@
   category: method
   doi: 10.1007/s11042-021-11289-x
   links: {paper: 'https://doi.org/10.1007/s11042-021-11289-x', open: 'https://link.springer.com/content/pdf/10.1007/s11042-021-11289-x.pdf'}
-  output: [upper-body]
+  output: [upper-body, hands]
+  representation: [joints-3d]
   approach: [gan]
   realtime: unreported
   datasets: [custom]

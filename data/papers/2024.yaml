@@ -283,7 +283,7 @@
   arxiv: '2409.10079'
   links: {paper: 'https://doi.org/10.1163/19589514-53020005'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -943,7 +943,10 @@
   doi: 10.1007/978-3-031-53311-2_12
   links: {paper: 'https://doi.org/10.1007/978-3-031-53311-2_12'}
   input: [audio]
+  output: [upper-body]
+  representation: [joints-3d]
   approach: [vae]
+  realtime: unreported
   datasets: [ted-gesture]
   metrics: [fid, multimodality]
   summary: 'Speaker-aware Audio2Gesture: a VAE with ST-GCN motion and speaker encoders pre-trained on action and speaker labels, Gaussian noise on the speaker-aware features and a linear mapping network.'
@@ -1376,6 +1379,7 @@
   approach: [autoregressive, vae]
   datasets: [ted-gesture, ted-expressive]
   metrics: [joint-error, ftd, mctc, diversity]
+  user_study: false
   summary: Generates body motion from speech with a transformer network that combines an audio encoder, a motion encoder, a template VAE and a cross-modal transformer encoder.
   notes: Abstract also proposes a new metric describing motion change trends in terms of distance.
   added: '2026-10-03'
@@ -1415,6 +1419,7 @@
   output: [upper-body, hands, face]
   representation: [smpl-x, video-pixels]
   approach: [gan]
+  realtime: unreported
   datasets: [show]
   metrics: [image-quality]
   user_study: true
@@ -2120,6 +2125,8 @@
   input: [audio, text]
   output: [upper-body, hands]
   approach: [gan]
+  realtime: real-time
+  latency: 2 s to generate 1 min of gesture on RTX 3070 Ti
   datasets: [custom]
   languages: [zh]
   metrics: [fgd, joint-error, other]
@@ -2174,7 +2181,7 @@
   category: method
   doi: 10.1111/cgf.15167
   arxiv: '2405.08042'
-  links: {paper: 'https://doi.org/10.1111/cgf.15167', open: 'https://arxiv.org/abs/2405.08042'}
+  links: {paper: 'https://doi.org/10.1111/cgf.15167', open: 'https://arxiv.org/abs/2405.08042', video: 'https://youtu.be/jBXpWocXvZ8'}
   input: [text, audio, speaker-id, interlocutor]
   output: [full-body]
   representation: [joints-3d]
@@ -2426,6 +2433,8 @@
   doi: 10.1007/978-981-97-8508-7_22
   links: {paper: 'https://doi.org/10.1007/978-981-97-8508-7_22'}
   input: [text, audio, speaker-id, emotion]
+  output: [upper-body]
+  representation: [joints-3d]
   approach: [diffusion]
   realtime: unreported
   datasets: [beat]

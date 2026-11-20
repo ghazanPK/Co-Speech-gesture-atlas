@@ -750,7 +750,7 @@
   output: [upper-body]
   approach: [retrieval]
   realtime: unreported
-  datasets: [storytelling-video-corpus]
+  datasets: [custom]
   summary: 'Extends the Greta SAIBA system to the NAO robot: BML descriptions select gestures from a robot-specific lexicon built from annotated storytelling videos, timed so strokes fall on stressed syllables.'
   added: '2026-10-03'
   checked: full-text
@@ -1319,6 +1319,7 @@
   doi: 10.1109/roman.2012.6343739
   links: {paper: 'https://doi.org/10.1109/roman.2012.6343739'}
   input: [text]
+  approach: [rule-based]
   realtime: unreported
   summary: Composes gestures for a Nao robot from gesture primitives selected by analysing the input text, including spatially targeted primitives, and ranks the combinations by weighted criteria.
   added: '2026-10-03'
@@ -1335,6 +1336,7 @@
   doi: 10.1007/978-3-642-32326-3_6
   links: {paper: 'https://doi.org/10.1007/978-3-642-32326-3_6'}
   input: [text]
+  output: [upper-body]
   approach: [rule-based]
   realtime: unreported
   datasets: [custom]
