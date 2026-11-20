@@ -42,7 +42,7 @@
   category: theory
   links: {paper: 'http://journals.uc.edu/index.php/fogs/article/view/5'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: social-interaction
 
@@ -421,7 +421,7 @@
   doi: 10.1093/oxfordhb/9780199735471.013.027
   links: {paper: 'https://doi.org/10.1093/oxfordhb/9780199735471.013.027'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: psycholinguistics
 
@@ -449,7 +449,7 @@
   doi: 10.3389/fpsyg.2014.00700
   links: {paper: 'https://doi.org/10.3389/fpsyg.2014.00700'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -591,7 +591,7 @@
   doi: 10.3389/fpsyg.2014.00673
   links: {paper: 'https://doi.org/10.3389/fpsyg.2014.00673'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: cognition
 
@@ -741,7 +741,7 @@
   doi: 10.3389/fpsyg.2014.01467
   links: {paper: 'https://doi.org/10.3389/fpsyg.2014.01467'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: education
 
@@ -867,7 +867,7 @@
   doi: 10.1371/journal.pone.0111473
   links: {paper: 'https://doi.org/10.1371/journal.pone.0111473'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: neuroscience
 
@@ -1049,7 +1049,7 @@
   doi: 10.1017/s0305000913000512
   links: {paper: 'https://doi.org/10.1017/s0305000913000512'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: development
 
@@ -1094,7 +1094,7 @@
   doi: 10.3389/fpsyg.2014.00359
   links: {paper: 'https://doi.org/10.3389/fpsyg.2014.00359'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: cognition
 
@@ -1177,7 +1177,7 @@
   doi: 10.1080/10410236.2013.836070
   links: {paper: 'https://doi.org/10.1080/10410236.2013.836070'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: clinical
 
@@ -1191,7 +1191,7 @@
   doi: 10.1371/journal.pone.0110779
   links: {paper: 'https://doi.org/10.1371/journal.pone.0110779'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: clinical
 
@@ -1232,7 +1232,7 @@
   doi: 10.3389/fnhum.2014.00633
   links: {paper: 'https://doi.org/10.3389/fnhum.2014.00633'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: social-interaction
 
@@ -1329,7 +1329,7 @@
   doi: 10.1371/journal.pone.0112543
   links: {paper: 'https://doi.org/10.1371/journal.pone.0112543'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: cognition
 
@@ -1543,7 +1543,7 @@
   doi: 10.1515/cogsem-2014-0002
   links: {paper: 'https://doi.org/10.1515/cogsem-2014-0002'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: development
 

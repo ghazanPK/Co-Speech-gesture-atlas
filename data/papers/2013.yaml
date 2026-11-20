@@ -142,7 +142,7 @@
   doi: 10.3389/fnhum.2013.00057
   links: {paper: 'https://doi.org/10.3389/fnhum.2013.00057'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: neuroscience
 
@@ -305,20 +305,6 @@
   verified: false
   area: linguistics
 
-- id: chelioti2013individual
-  title: 'Individual differences in frequency and saliency of speech-accompanying gestures: The role of cognitive abilities and empathy.'
-  authors: [Christina Chelioti, D. Dhiman, Rachel C. Furness, A. Griffiths, Beatrice Hannah, S. Jilka, J. Lau, Z. Shao, Callie Steadman, L. Torney]
-  year: 2013
-  venue: Journal of Experimental Psychology General
-  type: journal
-  category: theory
-  doi: 10.1037/a0033861
-  links: {paper: 'https://doi.org/10.1037/a0033861'}
-  added: '2026-10-03'
-  checked: abstract
-  verified: false
-  area: psycholinguistics
-
 - id: chong2013producing
   title: Producing gestures facilitates encoding of spatial relation.
   authors: [Amy Lee Chong, Ben C. F. Choi, Elena Kwong, Jennifer Chan, Irina Chong, Mavis Ip, Christopher Yeung, Wing‐Chee So]
@@ -331,6 +317,20 @@
   checked: abstract
   verified: false
   area: cognition
+
+- id: chu2013individual
+  title: 'Individual differences in frequency and saliency of speech-accompanying gestures: The role of cognitive abilities and empathy.'
+  authors: [Mingyuan Chu, Antje Meyer, Lucy Foulkes, Sotaro Kita]
+  year: 2013
+  venue: Journal of Experimental Psychology General
+  type: journal
+  category: theory
+  doi: 10.1037/a0033861
+  links: {paper: 'https://doi.org/10.1037/a0033861'}
+  added: '2026-10-03'
+  checked: abstract
+  verified: false
+  area: psycholinguistics
 
 - id: chu2013synchronizatio
   title: 'Synchronization of speech and gesture: Evidence for interaction in action.'
@@ -496,7 +496,7 @@
   doi: 10.33015/dominican.edu/2013.ot.09
   links: {paper: 'https://doi.org/10.33015/dominican.edu/2013.ot.09'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: social-interaction
 
@@ -676,7 +676,7 @@
   doi: 10.3389/fpsyg.2013.00160
   links: {paper: 'https://doi.org/10.3389/fpsyg.2013.00160'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: development
 
@@ -744,7 +744,7 @@
   doi: 10.5406/amerjpsyc.126.3.0301
   links: {paper: 'https://doi.org/10.5406/amerjpsyc.126.3.0301'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: perception
 

@@ -161,7 +161,7 @@
   doi: 10.1111/cogs.12344
   links: {paper: 'https://doi.org/10.1111/cogs.12344'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: education
 
@@ -175,7 +175,7 @@
   doi: 10.1186/s41235-016-0024-5
   links: {paper: 'https://doi.org/10.1186/s41235-016-0024-5'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: cognition
 
@@ -245,7 +245,7 @@
   doi: 10.1371/journal.pone.0146583
   links: {paper: 'https://doi.org/10.1371/journal.pone.0146583'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: clinical
 
@@ -502,7 +502,7 @@
   doi: 10.3389/fpsyg.2016.00473
   links: {paper: 'https://doi.org/10.3389/fpsyg.2016.00473'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: development
 
@@ -532,7 +532,7 @@
   doi: 10.1186/s41235-016-0004-9
   links: {paper: 'https://doi.org/10.1186/s41235-016-0004-9'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: cognition
 
@@ -563,7 +563,7 @@
   doi: 10.3758/s13423-016-1117-3
   links: {paper: 'https://doi.org/10.3758/s13423-016-1117-3'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -577,7 +577,7 @@
   doi: 10.1177/0956797616679183
   links: {paper: 'https://doi.org/10.1177/0956797616679183'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: cognition
 
@@ -757,7 +757,7 @@
   doi: 10.20535/2410-8286.85314
   links: {paper: 'https://doi.org/10.20535/2410-8286.85314'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: cognition
 
@@ -852,7 +852,7 @@
   category: theory
   links: {paper: 'https://researchprofiles.ku.dk/da/publications/9a451b88-ab97-4b6b-ad55-ad4b1841a9e2'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 
@@ -894,7 +894,7 @@
   doi: 10.3758/s13423-016-1145-z
   links: {paper: 'https://doi.org/10.3758/s13423-016-1145-z'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: cognition
 
@@ -1074,7 +1074,7 @@
   doi: 10.21437/speechprosody.2016-171
   links: {paper: 'https://www.isca-archive.org/speechprosody_2016/shattuckhufnagel16_speechprosody.html'}
   added: '2026-10-03'
-  checked: abstract
+  checked: full-text
   verified: false
   area: linguistics
 

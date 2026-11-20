@@ -24,9 +24,9 @@ Every paper as a comparison row, not a bare link. Every dataset and metric defin
 
 | Gesture generation | Gesture theory | Theses | With code | Read from full text | Verified twice |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **635** papers | **2011** papers | **83** | **83** | **478** | **132** |
+| **635** papers | **2011** papers | **83** | **83** | **531** | **132** |
 
-1943 records were filled from the abstract only (†) and 308 from bibliographic metadata only (‡), mostly where the full text is behind a paywall.
+1891 records were filled from the abstract only (†) and 307 from bibliographic metadata only (‡), mostly where the full text is behind a paywall.
 <!-- END:stats -->
 
 <p align="center"><img src="docs/papers-per-year.svg" alt="Papers in the atlas by publication year" width="960"></p>
@@ -965,9 +965,9 @@ Doctoral and master's theses on gesture generation and on gesture theory. They a
 | 2018 | [How gesture and speech interact during production and comprehension](http://etheses.bham.ac.uk/8084/1/Fritz18PhD.pdf) | University of Birmingham Institutional Research Archive (University of Birmingham) | theory |  |
 | 2018 | [Preschoolers' pragmatic development: how prosody and gesture lend a helping hand](http://hdl.handle.net/10803/593503)† | LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas) | theory |  |
 | 2017 | [An exploration of the integration of speech with co-speech gesture with non-invasive brain stimulation](https://hull-repository.worktribe.com/file/4220574/1/Thesis)† | Repository@Hull (Worktribe) (University of Hull) | theory |  |
-| 2017 | [Cognition in action C-i-A: Rethinking gesture in neuro-atypical young people: A conceptual framework for embodied, embedded, extended and enacted intentionality](https://openaccess.city.ac.uk/id/eprint/15292/1/Panayi%2C%20Marilyn.pdf)† | City Research Online (City University London) | theory |  |
+| 2017 | [Cognition in action C-i-A: Rethinking gesture in neuro-atypical young people: A conceptual framework for embodied, embedded, extended and enacted intentionality](https://openaccess.city.ac.uk/id/eprint/15292/1/Panayi%2C%20Marilyn.pdf) | City Research Online (City University London) | theory |  |
 | 2017 | [O sistema de referenciação multimodal de crianças com síndrome de down em engajamento conjunto](https://repositorio.ufpb.br/jspui/handle/123456789/12051)† | Americanae (AECID Library) | theory |  |
-| 2017 | [The use of gestures in the conversations of people with aphasia](https://openaccess.city.ac.uk/id/eprint/18031/1/Kistner%2C%20Judith_Redacted.pdf)† | City Research Online (City University London) | theory |  |
+| 2017 | [The use of gestures in the conversations of people with aphasia](https://openaccess.city.ac.uk/id/eprint/18031/1/Kistner%2C%20Judith_Redacted.pdf) | City Research Online (City University London) | theory |  |
 | 2016 | [Aphasia and dialogue: What eye movements reveal about the processing of cospeech gestures and the prediction of turn transitions](https://doi.org/10.7892/boris.85149)† | BORIS (University Library Bern) | theory |  |
 | 2016 | [Autonomous animation of humanoid robots](https://doi.org/10.32657/10356/69279)† · [open copy](https://figshare.com/articles/thesis/Autonomous_Animation_of_Humanoid_Robots/6714932) | PhD thesis | method | Animates a NAO humanoid robot from a speech or music signal by labelling parameterized motions with meanings, selecting and synchronizing motion sequences, and checking their stability. |
 | 2016 | [What co-speech gestures do:investigating the communicative role ofvisual behaviour accompanyinglanguage use during reference ininteraction](https://etheses.whiterose.ac.uk/17319/)† | University of Leeds | theory |  |
@@ -979,7 +979,7 @@ Doctoral and master's theses on gesture generation and on gesture theory. They a
 | 2014 | [Generating gestures from speech for virtual humans using machine learning approaches](https://doi.org/10.25549/usctheses-c3-447274)† | USC | method | Learns a gesture generator from dyadic interview speech and motion capture by splitting the task into speech to gesture class and gesture class to gesture motion. |
 | 2014 | [Towards an Interactive Human-Robot Relationship: Developing a Customized Robot Behavior to Human Profile.](https://pastel.archives-ouvertes.fr/tel-01128923)† | HAL | method | Generates head-arm metaphoric gestures for a robot from prosodic cues of human speech using Coupled Hidden Markov Models, within a personality- and emotion-adaptive multimodal behaviour system. |
 | 2013 | [Alignment of Speech and Co-speech Gesture in a Constraint-based Grammar](https://era.ed.ac.uk/bitstream/1842/7623/1/Saint-Amand2013.pdf)† | University of Edinburgh | theory |  |
-| 2013 | [An Analysis of Occupational Therapists� Listening Behaviors During Treatment Sessions](https://doi.org/10.33015/dominican.edu/2013.ot.09)† | Dominican University of California | theory |  |
+| 2013 | [An Analysis of Occupational Therapists� Listening Behaviors During Treatment Sessions](https://doi.org/10.33015/dominican.edu/2013.ot.09) | Dominican University of California | theory |  |
 | 2013 | [Conceptual Motorics - Generation and Evaluation of Communicative Robot Gesture](https://pub.uni-bielefeld.de/record/2519214)† | Bielefeld University | method | A framework lets a humanoid robot produce synthetic speech and co-verbal hand and arm gestures at run-time, synchronised by a multimodal scheduler, and tests how humans evaluate such gestures in two studies. |
 | 2013 | [Construction of Reconfigurable Motion Database for Real-Time Human-Robot Interaction](https://naist.repo.nii.ac.jp/records/10705) | NAIST | method | Generates an android's body gestures in real time by reconfiguring a large motion-capture database, classified by bag-of-words and dynamic programming matching. |
 | 2013 | [Modèles de gestes expressifs](https://hal.science/tel-01181000v1)† · [open copy](https://pastel.hal.science/tel-01181000/document) | HAL (Le Centre pour la Communication Scientifique Directe) | method | Computational model that encodes communicative gestures by hand shape, wrist position and trajectory, schedules them to speech and renders them with expressivity parameters on the Greta agent and the Nao robot. |
