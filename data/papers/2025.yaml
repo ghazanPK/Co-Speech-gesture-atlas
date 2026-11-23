@@ -49,14 +49,16 @@
   representation: [joints-3d]
   approach: [retrieval]
   setting: [monologue]
-  datasets: [custom]
+  realtime: unreported
+  datasets: [custom, talking-with-hands]
   languages: [en, ko]
+  metrics: []
   user_study: true
   summary: Retrieves gesture units for input text from a rule base of about 210,000 rules built by matching 2D poses from video to 3D motion-capture gesture units with a contrastive pose-matching model, with translation for non-English text.
-  notes: Preprint DOI 10.21203/rs.3.rs-3350470/v1 (Research Square, 2023). Title shown is the preprint title; the published IEEE Access title was not checked. Motion-capture gesture units come from Korean speakers.
+  notes: Checked against the published IEEE Access full text (CC BY); its title matches the preprint (Research Square, 2023, DOI 10.21203/rs.3.rs-3350470/v1). The 2,035 gesture units, clustered into 100 groups, come from two hours of motion capture of Korean speakers; the contrastive matching model (GestureCLR) is trained on Talking With Hands. Objective evaluation is 2D-to-3D matching accuracy under noise and temporal shifts, with no metric from the shared list; the user study has 51 participants rating four conditions on 7-point scales.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: ali2025ridge
   title: 'RIDGE: Rule-Infused Deep Learning for Realistic Co-Speech Gesture Generation'

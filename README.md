@@ -24,7 +24,7 @@ Every paper as a comparison row, not a bare link. Every dataset and metric defin
 
 | Gesture generation | Gesture theory | Theses | With code | Read from full text | Verified twice |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **634** papers | **2011** papers | **83** | **83** | **580** | **192** |
+| **634** papers | **2011** papers | **83** | **83** | **580** | **193** |
 
 1844 records were filled from the abstract only (†) and 304 from bibliographic metadata only (‡), mostly where the full text is behind a paywall.
 <!-- END:stats -->
@@ -1027,7 +1027,7 @@ Doctoral and master's theses on gesture generation and on gesture theory. They a
 | [GENEA Challenge 2023 dataset](https://arxiv.org/abs/2308.12646) | 2023 | audio, text, body-motion, hand-motion | mocap | 18 | en | dyadic | open | 18 |
 | [PATS (Pose, Audio, Transcript, Style)](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123630239.pdf) | 2020 | audio, text, body-motion | pose-estimation | 251 |  | monologue | open | 15 |
 | [ZEGGS dataset (ZeroEGGS)](https://onlinelibrary.wiley.com/doi/10.1111/cgf.14734) | 2022 | audio, body-motion, hand-motion | mocap | 2.24 | en | monologue | open | 15 |
-| [Talking With Hands 16.2M](https://openaccess.thecvf.com/content_ICCV_2019/papers/Lee_Talking_With_Hands_16.2M_A_Large-Scale_Dataset_of_Synchronized_Body-Finger_ICCV_2019_paper.pdf) | 2019 | audio, body-motion, hand-motion | mocap | 50 |  | dyadic | open | 13 |
+| [Talking With Hands 16.2M](https://openaccess.thecvf.com/content_ICCV_2019/papers/Lee_Talking_With_Hands_16.2M_A_Large-Scale_Dataset_of_Synchronized_Body-Finger_ICCV_2019_paper.pdf) | 2019 | audio, body-motion, hand-motion | mocap | 50 |  | dyadic | open | 14 |
 | [GENEA Challenge 2022 dataset](https://arxiv.org/abs/2208.10441) | 2022 | audio, text, body-motion, hand-motion | mocap | 19.3 | en | dyadic | open | 11 |
 | [TED-Expressive](https://arxiv.org/abs/2203.13161) | 2022 | audio, text, video, body-motion, hand-motion | pose-estimation | 100.8 |  | monologue | open | 10 |
 | [Speech2Gesture dataset](https://arxiv.org/abs/1906.04160) | 2019 | audio, video, body-motion, hand-motion | pose-estimation | 144 |  | monologue | open | 8 |
