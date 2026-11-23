@@ -688,7 +688,9 @@
   category: method
   doi: 10.1007/978-3-642-25691-2_12
   links: {paper: 'https://doi.org/10.1007/978-3-642-25691-2_12'}
+  output: [upper-body, hands]
   approach: [hybrid]
+  setting: [monologue]
   realtime: unreported
   datasets: [custom]
   metrics: [label-prediction]
@@ -749,8 +751,11 @@
   links: {paper: 'https://doi.org/10.1007/978-3-642-34182-3_21', open: 'https://imt.hal.science/hal-01113951'}
   output: [upper-body]
   approach: [retrieval]
+  setting: [monologue]
   realtime: unreported
-  datasets: [custom]
+  datasets: [storytelling-video-corpus]
+  metrics: []
+  user_study: false
   summary: 'Extends the Greta SAIBA system to the NAO robot: BML descriptions select gestures from a robot-specific lexicon built from annotated storytelling videos, timed so strokes fall on stressed syllables.'
   added: '2026-10-03'
   checked: full-text
@@ -825,7 +830,7 @@
   summary: Describes the SaGA corpus of 25 route-and-landmark-description dialogues with annotated speech and gestures, its reliability assessment, and research projects built on it.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: macedonia2012gestures
   title: Gestures Enhance Foreign Language Learning
@@ -943,7 +948,7 @@
   summary: Presents a form-oriented annotation scheme for multi-speaker dialogue corpora that turns annotated movement into templates an embodied conversational agent can reproduce.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: mol2012gesture
   title: Gesture structure affects syntactic structure in speech
@@ -1177,7 +1182,11 @@
   doi: 10.1007/s12369-011-0124-9
   links: {paper: 'https://doi.org/10.1007/s12369-011-0124-9', open: 'https://pub.uni-bielefeld.de/record/2301142'}
   output: [upper-body]
+  approach: [rule-based]
+  setting: [monologue]
   realtime: unreported
+  datasets: []
+  metrics: []
   user_study: true
   summary: Extends a speech-gesture generation framework to the Honda humanoid robot, producing synthetic speech and co-verbal hand and arm gestures at run-time, and tests them in a between-subjects study.
   added: '2026-10-03'
@@ -1319,8 +1328,13 @@
   doi: 10.1109/roman.2012.6343739
   links: {paper: 'https://doi.org/10.1109/roman.2012.6343739'}
   input: [text]
+  output: [full-body]
   approach: [rule-based]
+  setting: [monologue]
   realtime: unreported
+  datasets: []
+  metrics: []
+  user_study: false
   summary: Composes gestures for a Nao robot from gesture primitives selected by analysing the input text, including spatially targeted primitives, and ranks the combinations by weighted criteria.
   added: '2026-10-03'
   checked: full-text
@@ -1344,7 +1358,7 @@
   summary: Collects direction-giving dialogues with motion capture, analyses gesture direction by proxemics, and implements a rule-based gesture selection mechanism for a Second Life avatar driven by Japanese text.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: vonbergmann2012gnetic
   title: 'The Production of Co-Speech Iconic Gestures: Empirical Study and Computational Simulation with Virtual Agents'

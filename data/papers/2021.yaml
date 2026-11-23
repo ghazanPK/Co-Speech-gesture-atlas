@@ -413,9 +413,11 @@
   links: {paper: 'https://onlinelibrary.wiley.com/doi/full/10.1002/cav.2016', video: 'https://www.youtube.com/watch?v=9opZK-usETY'}
   input: [audio]
   output: [upper-body]
-  approach: [retrieval]
+  approach: [retrieval, hybrid]
+  setting: [monologue]
   realtime: offline
   datasets: [custom, trinity]
+  metrics: []
   user_study: true
   summary: Selects motion-captured gestures from a corpus of over 23,000 gestures by matching expressive parameters estimated from speech audio, then combines them into animated sequences.
   added: '2026-10-03'
@@ -469,9 +471,11 @@
   arxiv: '2103.03130'
   links: {paper: 'https://doi.org/10.65109/poxn8780', open: 'https://arxiv.org/abs/2103.03130', video: 'https://www.youtube.com/playlist?list=PLLrShDUC_FZwrW0Oc9GTTdrBeMGpsA4PB'}
   input: [audio]
+  output: [upper-body, hands]
   approach: [retrieval]
   setting: [monologue]
   realtime: unreported
+  metrics: []
   user_study: true
   summary: Selects gestures from a motion database by matching expressive motion parameters, such as gesture velocity and finger extension, predicted from speech audio.
   added: '2026-10-03'
@@ -898,6 +902,7 @@
   datasets: [saga]
   languages: [de]
   metrics: [label-prediction]
+  user_study: false
   summary: Predicts whether to gesture and the gesture properties from speech, then conditions a normalizing-flow gesture model on those properties to generate representational gestures.
   notes: Reported metric is F1 of gesture-property prediction.
   added: '2026-10-03'
@@ -1232,7 +1237,7 @@
   arxiv: '2107.00712'
   links: {paper: 'https://doi.org/10.1109/vr50410.2021.00082', open: 'https://arxiv.org/abs/2107.00712', code: 'https://github.com/mrebol/Gestures-From-Speech'}
   input: [audio]
-  output: [upper-body]
+  output: [upper-body, hands]
   representation: [joints-3d]
   approach: [gan]
   setting: [monologue]
@@ -1243,7 +1248,7 @@
   summary: Generates 3D upper-body gestures directly from speech audio with a GAN trained on 3D poses extracted from YouTube videos, evaluated in a Turing-test-style user study.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: rebol2021realtime
   title: Real-time Gesture Animation Generation from Speech for Virtual Human Interaction
@@ -1287,12 +1292,13 @@
   setting: [monologue]
   realtime: unreported
   datasets: [custom]
+  metrics: []
   user_study: true
   summary: A TTS-driven system that selects arm and hand gestures from a gesture dictionary using semiotic grammar rules on text and prosodic features, aligns movement phases to the synthesised speech, and animates an ECA through EVA-SCRIPT.
   notes: Gesture dictionary of about 300 arm and hand configurations built from 35 minutes of annotated video. Evaluation was an informal rating by lab members.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: saund2021cmcf
   title: 'CMCF: An Architecture for Realtime Gesture Generation by Clustering Gestures by Motion and Communicative Function'
@@ -1755,6 +1761,7 @@
   metrics: [other]
   user_study: true
   summary: Conditional GAN model that approximates the distribution of upper-body gestures conditioned on speech features rather than a deterministic speech-to-gesture mapping.
+  notes: Objective metric is the KDE log-likelihood of ground-truth motion under the distribution fitted to generated motion; velocity histograms are also compared.
   added: '2026-10-03'
   checked: full-text
   verified: false
@@ -1903,6 +1910,7 @@
   output: [upper-body, hands]
   representation: [joints-3d]
   approach: [gan]
+  setting: [monologue]
   realtime: unreported
   datasets: [custom]
   metrics: [fgd, accel-jerk]
@@ -1929,7 +1937,7 @@
   summary: Humanoid robot system that adapts talking beat gestures, posture, eye lights and voice to the sentiment of its speech to express a chosen personality.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: zabala2021quantitative
   title: Quantitative analysis of robot gesticulation behavior

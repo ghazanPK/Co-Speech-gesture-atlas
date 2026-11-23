@@ -1472,7 +1472,10 @@
   input: [text]
   output: [upper-body]
   approach: [rule-based]
+  setting: [monologue]
   realtime: unreported
+  datasets: []
+  metrics: []
   user_study: true
   summary: Generates gesture sequences for virtual characters by structuring performance around ideational units, mapping FML descriptions to BML with rules, then selecting and blending motion-capture gestures in SmartBody.
   added: '2026-10-03'

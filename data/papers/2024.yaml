@@ -303,16 +303,16 @@
   links: {paper: 'https://doi.org/10.1109/cvpr52733.2024.00702', open: 'https://arxiv.org/abs/2401.04747', project: 'https://jeremycjm.github.io/proj/DiffSHEG'}
   input: [audio, speaker-id]
   output: [upper-body, hands, face]
-  representation: [joints-3d, other]
+  representation: [joints-3d, smpl-x, other]
   approach: [diffusion]
   setting: [monologue]
   realtime: real-time
   latency: about 31.5 FPS on a single RTX 3090 (28.6 s average runtime)
   datasets: [beat, show]
-  metrics: [fgd, fmd, beat-align, diversity, srgr, face-error]
+  metrics: [fgd, fmd, beat-align, diversity, srgr, other]
   user_study: true
   summary: A diffusion transformer that generates facial expression and body gesture jointly from speech, with one-way information flow from expression to gesture and outpainting-based sampling for arbitrary length.
-  notes: Expression is generated as blendshape weights and gesture as axis-angle joint rotations.
+  notes: 'Expression is generated as blendshape weights and gesture as axis-angle joint rotations (SMPL-X parameters on SHOW). Other metrics: Fréchet Expression Distance (FED) and PCM.'
   added: '2026-10-03'
   checked: full-text
   verified: false
@@ -577,13 +577,15 @@
   category: method
   doi: 10.3390/electronics13173364
   links: {paper: 'https://doi.org/10.3390/electronics13173364', open: 'https://www.mdpi.com/2079-9292/13/17/3364/pdf?version=1724486119', code: 'https://github.com/filippofavali/TAG2G/tree/dyadic'}
-  input: [text, audio, seed-motion, interlocutor]
+  input: [text, audio, speaker-id, seed-motion, interlocutor]
   approach: [vq, diffusion]
   setting: [dyadic]
   realtime: unreported
   datasets: [genea-2023]
+  metrics: [accel-jerk, fgd, other]
   user_study: false
   summary: A VQ-VAE gesture embedding combined with a diffusion model generates gestures from text, audio and previous gestures of both participants in a conversation.
+  notes: 'Other metrics: DTW-based and covariance-based similarity to the interlocutor''s gesture (S_DTW, S_COV).'
   added: '2026-10-03'
   checked: full-text
   verified: false
@@ -720,11 +722,12 @@
   links: {paper: 'https://doi.org/10.1109/ro-man60168.2024.10731402', open: 'https://arxiv.org/abs/2407.02151', code: 'https://github.com/arielgj95/Gestures_labeling.git'}
   input: [text]
   approach: [rule-based]
+  setting: [monologue]
   realtime: unreported
   datasets: [custom]
   languages: [en]
   metrics: [other]
-  user_study: true
+  user_study: false
   summary: Rule-based algorithms use RoBERTa semantic similarity to label sub-sentences with symbolic and deictic gestures that humanoid robots can perform.
   notes: Outputs gesture labels for sentences, not motion. Metrics are Average Precision, IoU and computation time against labels from 30 participants.
   added: '2026-10-03'
@@ -811,7 +814,7 @@
   notes: Trimodal is an RNN encoder-decoder.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: guichoux2024gesture2d
   title: Investigating the impact of 2D gesture representation on co-speech gesture generation
@@ -953,13 +956,15 @@
   output: [upper-body]
   representation: [joints-3d]
   approach: [vae]
+  setting: [monologue]
   realtime: unreported
   datasets: [ted-gesture]
   metrics: [fid, multimodality]
+  user_study: false
   summary: 'Speaker-aware Audio2Gesture: a VAE with ST-GCN motion and speaker encoders pre-trained on action and speaker labels, Gaussian noise on the speaker-aware features and a linear mapping network.'
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: karkowska2024gesture
   title: 'Gesture and Bilingualism: evidence from Polish-English preschoolers.'
@@ -1382,8 +1387,10 @@
   doi: 10.1007/s10489-024-05769-4
   links: {paper: 'https://link.springer.com/article/10.1007/s10489-024-05769-4'}
   input: [audio]
-  representation: [keypoints-2d, other]
+  representation: [keypoints-2d, joints-3d]
   approach: [autoregressive, vae]
+  setting: [monologue]
+  realtime: unreported
   datasets: [ted-gesture, ted-expressive]
   metrics: [joint-error, ftd, mctc, diversity]
   user_study: false
@@ -1422,11 +1429,13 @@
   category: method
   doi: 10.1007/978-3-031-73024-5_11
   links: {paper: 'https://doi.org/10.1007/978-3-031-73024-5_11', open: 'https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/12483.pdf', project: 'https://cospeech-gesture-3d.github.io/website'}
-  input: [audio]
+  input: [audio, speaker-id]
   output: [upper-body, hands, face]
   representation: [smpl-x, video-pixels]
-  approach: [gan]
-  realtime: unreported
+  approach: [vq, autoregressive, gan]
+  setting: [monologue]
+  realtime: real-time
+  latency: 0.013 s per frame at inference, 9GB VRAM
   datasets: [show]
   metrics: [image-quality]
   user_study: true
@@ -1793,7 +1802,8 @@
   links: {paper: 'https://doi.org/10.1109/tmm.2024.3407692', open: 'https://arxiv.org/abs/2305.18891', code: 'https://github.com/XingqunQi-lab/EmotionGestures', project: 'https://xingqunqi-lab.github.io/Emotion-Gesture-Web/'}
   input: [audio, text, emotion, seed-motion]
   output: [upper-body, hands]
-  approach: [vae]
+  representation: [joints-3d]
+  approach: [vae, gan]
   setting: [monologue]
   realtime: unreported
   datasets: [beat, ted-emotion]
@@ -1804,7 +1814,7 @@
   notes: Also reports emotion accuracy (EA). Introduces a TED Emotion dataset.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: qi2024emotiontransition
   title: Weakly-Supervised Emotion Transition Learning for Diverse 3D Co-speech Gesture Generation
@@ -1844,13 +1854,15 @@
   output: [upper-body]
   representation: [joints-3d]
   approach: [gan]
+  setting: [monologue]
+  realtime: unreported
   datasets: [ted-gesture]
   metrics: [fgd, mpd]
   user_study: true
   summary: Fuses gesture-related cues with parallel directional cross-modal transformers and a cascaded 2D attention module in an end-to-end GAN, and proposes metrics for gesture diversity and speech-gesture correspondence that need no 3D pose annotation.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: robrecht2024representational
   title: A Study on Integrating Representational Gestures into Automatically Generated Embodied Explanations
@@ -1925,16 +1937,18 @@
   links: {paper: 'https://doi.org/10.1007/978-3-031-72356-8_2'}
   input: [audio, interlocutor]
   output: [upper-body]
+  representation: [keypoints-2d]
   approach: [diffusion]
   setting: [dyadic]
   realtime: unreported
   datasets: [custom]
   metrics: [fid, multimodality]
+  user_study: false
   summary: A DDIM-based diffusion model with a transformer encoder generates both participants' upper-body pose features in a dyadic conversation from masked pose and voice features and Big Five personality scores.
   notes: Conditioned on Big Five personality scores (extraversion varied); pose from MediaPipe, 11 points, 5 fps.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: sonlu2024personality
   title: Personality Expression Using Co-Speech Gesture
@@ -2004,11 +2018,12 @@
   input: [audio, text, speaker-id]
   output: [upper-body]
   representation: [joints-3d]
+  setting: [monologue]
   realtime: unreported
   metrics: [fgd, other]
   user_study: true
   summary: Reproduces a trimodal (audio, text, speaker identity) gesture generation model and maps its 3D poses to joint angles on a Pepper robot.
-  notes: Motion variance is reported alongside FGD. A DOI for a published version is listed in the candidate metadata, but the venue could not be read, so the record stays as the preprint.
+  notes: Motion variance is reported alongside FGD.
   added: '2026-10-03'
   checked: full-text
   verified: false
@@ -2074,7 +2089,7 @@
   summary: Compares GRU, bidirectional GRU and multi-head-attention variants of a speech encoder that maps MFCC features to a learned motion representation, decoded into 3D joint positions.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: urena2023characterizing
   title: Characterizing iconic gesture during storytelling in chronic TBI recovery
@@ -2131,7 +2146,9 @@
   links: {paper: 'https://doi.org/10.1007/978-981-97-9437-9_29'}
   input: [audio, text]
   output: [upper-body, hands]
+  representation: [joints-3d]
   approach: [gan]
+  setting: [monologue]
   realtime: real-time
   latency: 2 s to generate 1 min of gesture on RTX 3070 Ti
   datasets: [custom]
@@ -2142,7 +2159,7 @@
   notes: Also reports MAE of movement speed.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: werner2024gesture
   title: Gesture Evaluation in Virtual Reality
@@ -2192,6 +2209,7 @@
   input: [text, audio, speaker-id, interlocutor]
   output: [full-body]
   representation: [joints-3d]
+  approach: [regression]
   setting: [dyadic]
   realtime: unreported
   datasets: [genea-2023]
@@ -2220,7 +2238,7 @@
   summary: Compares two direct rating methods and a new questionnaire for evaluating generated gesturing and listening motion in six user studies, using output of two generative models and recorded human motion.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: wu2024diffusion
   title: Speech-Driven Gesture Generation Using Transformer-Based Denoising Diffusion Probabilistic Models
@@ -2289,10 +2307,10 @@
   category: method
   doi: 10.18653/v1/2024.acl-long.273
   links: {paper: 'https://aclanthology.org/2024.acl-long.273/', open: 'https://aclanthology.org/2024.acl-long.273.pdf'}
-  input: [audio, text]
+  input: [audio, text, seed-motion]
   output: [upper-body, hands]
   representation: [joints-3d]
-  approach: [vq, llm]
+  approach: [vq, llm, autoregressive]
   setting: [monologue]
   realtime: unreported
   datasets: [ted-gesture, ted-expressive]
@@ -2302,7 +2320,7 @@
   summary: GesTran encodes gestures into discrete tokens with a transformer auto-encoder, then fine-tunes a pre-trained LLM (LLaMA, via LoRA) to translate speech audio and text into those gesture tokens.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: xu2024mambatalk
   title: 'MambaTalk: Efficient Holistic Gesture Synthesis with Selective State Space Models'
@@ -2444,14 +2462,16 @@
   output: [upper-body]
   representation: [joints-3d]
   approach: [diffusion]
+  setting: [monologue]
   realtime: unreported
   datasets: [beat]
   metrics: [fgd, srgr, beat-align]
+  user_study: false
   summary: A DDPM with transformer blocks generates 3D gestures conditioned on text, audio, speaker ID, emotion and facial expression, fused by a cross-attention mixture-of-experts network, with the timestep embedding injected into every block.
   notes: Facial expression is also an input condition (52-dim BEAT blendshapes).
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: yoon2024genea
   title: 'GENEA Workshop 2024: The 5th Workshop on Generation and Evaluation of Non-verbal Behaviour for Embodied Agents'

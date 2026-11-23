@@ -353,13 +353,15 @@
   input: [text]
   output: [upper-body]
   approach: [hybrid]
+  setting: [monologue]
   realtime: unreported
   datasets: [custom]
+  metrics: []
   user_study: true
   summary: Generates hand and arm gestures for marked-up input text in the style of a modeled TV host from statistics on annotated video, and chains them into gesture units animated procedurally.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: kita2007generation
   title: 'Generation of co-speech gestures based on spatial imagery from the right-hemisphere: Evidence from split-brain patients'
@@ -608,6 +610,7 @@
   doi: 10.1002/scj.20532
   links: {paper: 'https://doi.org/10.1002/scj.20532'}
   input: [text]
+  output: [full-body]
   approach: [other]
   realtime: unreported
   summary: Generates composite conversational gestures for a sentence by expanding likely gesture combinations as a tree and planning a motion sequence using networks for gesture continuity and linkage.

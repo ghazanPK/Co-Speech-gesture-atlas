@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-11-20",
+  "snapshot_date": "2026-11-23",
   "definition": "Citation concentration measures the share of recorded within-atlas citation edges received by the most-cited records. It does not measure author self-citation or a causal effect.",
   "raw_edges": 32888,
   "unique_edges": 32888,

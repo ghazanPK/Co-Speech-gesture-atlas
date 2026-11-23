@@ -17,12 +17,12 @@
   approach: [flow-matching]
   setting: [monologue]
   realtime: unreported
-  datasets: [beat2]
+  datasets: [beat2, tfhp]
   languages: [en]
   metrics: [fgd, beat-align, diversity, face-error]
   user_study: false
   summary: Flow-matching DiT generators for SMPL-X body pose and FLAME expressions, conditioned on audio embeddings from a frozen Qwen-3 Omni model and an emotion label, with an auxiliary emotion classifier during training.
-  notes: The paper is formatted for the JAV-CG '26 workshop; acceptance was not confirmed in the text read, so it is kept as a preprint. Zero-shot facial evaluation on TFHP.
+  notes: Formatted for the JAV-CG '26 workshop at ACM Multimedia 2026. Zero-shot facial evaluation on TFHP (LVE, MOD, FDD).
   added: '2026-10-03'
   checked: full-text
   verified: false
@@ -265,7 +265,7 @@
   notes: Generated motion from HoloGest, Semantic Gesticulator and GestureLSM; three experiments with 131, 180 and 164 participants.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: fang2025coordspeaker
   title: 'CoordSpeaker: Exploiting Gesture Captioning for Coordinated Caption-Empowered Co-Speech Gesture Generation'
@@ -287,7 +287,7 @@
   metrics: [fgd, beat-align, accel-jerk, fid, diversity, l1-div, r-precision, mm-dist]
   user_study: true
   summary: Generates gestures with a latent diffusion model conditioned on speech and text captions, using a motion-language model to caption gestures at several granularities and a shared 55-joint representation across datasets.
-  notes: 'Reports 0.842 s average inference time per sentence on an RTX 3090. Other metric: MM-Dist.'
+  notes: Reports 0.842 s average inference time per sentence on an RTX 3090.
   added: '2026-10-03'
   checked: full-text
   verified: false
@@ -509,7 +509,7 @@
   links: {paper: 'https://doi.org/10.1145/3767308.3836287', open: 'https://arxiv.org/abs/2610.24031'}
   input: [audio, interlocutor]
   output: [full-body, face]
-  approach: [flow-matching, vq]
+  approach: [flow-matching, vq, autoregressive]
   setting: [dyadic]
   realtime: unreported
   latency: 0.127 s per sample on Audio2Photoreal and 0.231 s on Seamless Interaction
@@ -519,7 +519,7 @@
   summary: Generates dyadic conversational gesture with contrastive flow matching and an attention module that models speech-driven rhythmic impulses separately from continuous motion trends.
   added: '2026-11-19'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: han2026llm
   title: A Preliminary Analysis of Situation and Personality in LLM-Generated Gesture Representations for Virtual Agents
@@ -550,6 +550,7 @@
   output: [upper-body, hands]
   representation: [joints-3d]
   approach: [gan, autoregressive]
+  setting: [monologue]
   realtime: real-time
   latency: 6.07 ms per frame on a single RTX 4090 (batch size 1)
   datasets: [beat]
@@ -559,7 +560,7 @@
   notes: Besides audio, inputs are ARKit facial blendweights and head pose (no future context); evaluated with FGD, L1DIV, BA and SRGR on BEAT speakers 2, 4, 6, 8.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: he2026desformer
   title: 'DESformer: Disentangling emotion and style for co-speech body-motion synthesis'
@@ -783,16 +784,17 @@
   category: method
   doi: 10.1111/cgf.70412
   links: {paper: 'https://doi.org/10.1111/cgf.70412'}
-  input: [audio, text, interlocutor, speaker-id]
+  input: [audio, text, interlocutor, seed-motion]
   output: [full-body]
-  representation: [joints-3d]
+  representation: [smpl-x]
   approach: [diffusion]
   setting: [dyadic]
   realtime: offline
   datasets: [beat2, talking-with-hands]
-  metrics: [fgd, beat-align, diversity, fid]
+  metrics: [fgd, beat-align, diversity, other]
   user_study: true
   summary: Cross-attention model that fuses interlocutor audio and text with the character's gesture encodings so one system generates both speaking and listening gestures.
+  notes: 'Other metric: head alignment score between character head motion and interlocutor audio. One model is trained per BEAT2 identity.'
   added: '2026-10-03'
   checked: full-text
   verified: false
@@ -993,7 +995,7 @@
   summary: Generates long co-speech motion block by block with flow matching, summarising past motion in a persistent inter-block state and modelling the current block with bidirectional self-attention.
   added: '2026-11-19'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: liu2026semconflow
   title: 'SemConFlow: Semantic Grounding of Holistic Co-Speech Gesture Generation with Contrastive Flow-Matching'
@@ -1018,7 +1020,7 @@
   notes: Venue given only as a Springer LNCS volume (conference name not seen).
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: lu2026dsfusion
   title: Style-Disentangled Diffusion for Controllable and Identity-Generalized Speech-Driven Body Motion Generation
@@ -1080,8 +1082,8 @@
   approach: [diffusion, flow-matching]
   setting: [monologue, multi-party]
   realtime: unreported
-  datasets: [celebv-hq, hdtf, avspeech, custom]
-  metrics: [fid, fvd, image-quality, lip-sync]
+  datasets: [celebv-hq, hdtf, avspeech, openhumanvid, custom]
+  metrics: [fid, fvd, nr-quality, lip-sync]
   user_study: true
   summary: A diffusion transformer fine-tuned with LoRA and preference optimisation that generates audio-driven videos with lip sync and body gestures, with a training-free mask guidance for several characters.
   added: '2026-10-03'
@@ -1097,10 +1099,11 @@
   category: method
   doi: 10.1609/aaai.v40i10.37725
   links: {paper: 'https://ojs.aaai.org/index.php/AAAI/article/view/37725', project: 'https://playmate111.github.io/Playmate2/'}
-  input: [audio]
+  input: [text, audio, image]
   output: [upper-body, face]
   representation: [video-pixels]
   approach: [diffusion, flow-matching]
+  setting: [monologue, multi-party]
   realtime: unreported
   datasets: [avspeech, celebv-hq, hdtf, openhumanvid, custom]
   metrics: [fid, fvd, lip-sync, nr-quality]
@@ -1335,7 +1338,7 @@
   approach: [vae, flow-matching]
   setting: [dyadic]
   realtime: real-time
-  latency: over 300 FPS inference; 60 fps in live VR deployment with 4-frame chunks
+  latency: over 300 FPS on an A100 GPU
   datasets: [embody-3d]
   metrics: [fgd, other, foot-sliding]
   user_study: false
@@ -1468,7 +1471,7 @@
   category: method
   arxiv: '2602.23165'
   links: {paper: 'https://openaccess.thecvf.com/content/CVPR2026/html/Peng_DyaDiT_A_Multi-Modal_Diffusion_Transformer_for_Socially_Favorable_Dyadic_Gesture_CVPR_2026_paper.html', open: 'https://arxiv.org/abs/2602.23165', project: 'https://puckikk1202.github.io/dyadit_hp/'}
-  input: [audio, interlocutor]
+  input: [audio, interlocutor, seed-motion]
   output: [upper-body, hands]
   representation: [joints-3d]
   approach: [vq, diffusion]
@@ -1781,7 +1784,7 @@
   representation: [smpl-x]
   approach: [hybrid, llm]
   setting: [monologue]
-  realtime: unreported
+  realtime: offline
   datasets: []
   languages: [en]
   metrics: []
@@ -1790,7 +1793,7 @@
   notes: Uses no training dataset. Project page link is the anonymised review URL given in the paper.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: vu2026streaming
   title: Streaming Generation of Co-Speech Gestures via Accelerated Rolling Diffusion
@@ -1842,11 +1845,13 @@
   doi: 10.1007/s42486-025-00213-z
   links: {paper: 'https://doi.org/10.1007/s42486-025-00213-z'}
   input: [audio, text]
-  output: [hands]
+  output: [full-body, hands]
   representation: [joints-3d]
   approach: [gan]
+  setting: [monologue]
   realtime: unreported
   datasets: [custom]
+  languages: [zh]
   metrics: [fgd, joint-error]
   user_study: true
   summary: Two cascaded GRU generators with adversarial training produce body then hand gestures from speech audio and text, using a transformer VQ-VAE motion feature extractor and a self-built speech-gesture dataset made with LLM-written scripts, mocap and software synthesis.
@@ -1864,8 +1869,10 @@
   doi: 10.1007/978-3-032-37211-6_15
   links: {paper: 'https://doi.org/10.1007/978-3-032-37211-6_15'}
   input: [audio, text]
-  output: [hands]
+  output: [upper-body, hands]
+  representation: [smpl-x]
   approach: [vq, autoregressive]
+  setting: [monologue]
   realtime: unreported
   datasets: [cohumo]
   metrics: [fgd, joint-error, mm-dist, r-precision]
@@ -1885,16 +1892,18 @@
   links: {paper: 'https://doi.org/10.1002/cav.70173'}
   input: [audio, speaker-id]
   output: [upper-body, face]
+  representation: [smpl-x]
   approach: [diffusion]
   setting: [monologue]
   realtime: real-time
   latency: 125 FPS on a single RTX 3090
   datasets: [show]
   metrics: [fgd, diversity, joint-error, face-error]
+  user_study: false
   summary: Encodes facial and body motion into a structured latent space and applies a speech-conditioned diffusion process in that latent space to generate holistic talking human animation.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: wang2026page
   title: 'PAGE: Parts-Aware GuidancE for Co-Speech Gesture Portrait Video Generation'
@@ -1909,7 +1918,8 @@
   output: [upper-body, hands, face]
   representation: [video-pixels]
   approach: [diffusion, flow-matching]
-  realtime: unreported
+  setting: [monologue]
+  realtime: offline
   datasets: [pats, cas]
   languages: [en, zh]
   metrics: [fvd, beat-align, fgd, diversity]
@@ -1976,12 +1986,12 @@
   realtime: real-time
   latency: 0.006 s per frame with 50 Euler steps on one RTX 4070 Ti SUPER, with pre-extracted speech features
   datasets: [beat2]
-  metrics: [fgd, beat-align, diversity, face-error]
+  metrics: [fgd, beat-align, l1-div, face-error]
   user_study: true
   summary: Learns a three-stream latent space for upper-body, lower-body and facial motion and generates it from speech and text features by speech-conditioned latent flow matching.
   added: '2026-11-19'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: wei2026mamba
   title: Mamba-Enhanced Implicit Motion Learning for Audio-Driven Portrait Animation
@@ -2204,17 +2214,17 @@
   input: [audio, speaker-id]
   output: [full-body, hands]
   representation: [smpl-x]
-  approach: [diffusion, retrieval]
+  approach: [flow-matching, retrieval]
   setting: [monologue]
   realtime: real-time
   latency: 76 FPS on an NVIDIA V100
   datasets: [beat2]
-  metrics: [fgd, beat-align, diversity]
+  metrics: [fgd, beat-align, l1-div, velocity-hist]
   user_study: true
   summary: Closed-loop streaming generator that predicts a clip, retrieves a key tail pose from a speaker-specific database and refines the clip with it, using a part-aware DiT.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: zhang2026style
   title: Co-Speech Holistic 3D Motion Generation with Style from Video
@@ -2283,6 +2293,8 @@
   doi: 10.1609/aaai.v40i16.38327
   links: {paper: 'https://ojs.aaai.org/index.php/AAAI/article/view/38327'}
   input: [audio, text, speaker-id, interlocutor]
+  output: [full-body, hands]
+  representation: [joints-3d]
   approach: [diffusion]
   setting: [dyadic]
   realtime: unreported
@@ -2341,7 +2353,7 @@
   summary: Runs diffusion in stationary wavelet coefficient space with gated fusion of HuBERT, rhythm, mel and transcript features to generate holistic body, hand and face motion, with history continuation and keypose editing.
   added: '2026-11-19'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: zhu2026realtime
   title: Real-Time Co-Speech Gesture Video Generation

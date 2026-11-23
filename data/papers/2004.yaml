@@ -294,7 +294,12 @@
   input: [text]
   output: [upper-body, hands, face]
   representation: [joints-3d]
+  approach: [rule-based]
+  setting: [monologue]
   realtime: unreported
+  datasets: []
+  metrics: []
+  user_study: false
   summary: Produces synchronized gesture, speech and facial behaviour for a conversational agent from XML-based descriptions, using an incremental production model and a kinematic hand gesture animation.
   added: '2026-10-03'
   checked: full-text
@@ -516,6 +521,11 @@
   input: [text]
   output: [hands]
   approach: [rule-based]
+  setting: [monologue]
+  realtime: unreported
+  datasets: []
+  metrics: []
+  user_study: false
   summary: Discusses and implements in the GESTYLE gesture markup language how an embodied conversational agent degrades the timing of hand gestures when they cannot be performed in full detail alongside speech.
   added: '2026-10-03'
   checked: full-text
@@ -559,6 +569,10 @@
   links: {paper: 'https://pub.uni-bielefeld.de/record/1857798', open: 'http://www.justinecassell.com/publications/AAMAS04.Tepper%20et%20al.pdf'}
   output: [hands]
   approach: [rule-based]
+  setting: [monologue]
+  realtime: unreported
+  datasets: []
+  metrics: []
   user_study: false
   summary: Proposes generating coordinated language and novel iconic gestures from a shared representation of context and domain knowledge, adding a gesture planner to the SPUD microplanner that composes gesture form features (handshape, trajectory, etc.) linked to imagistic semantic features.
   added: '2026-10-03'

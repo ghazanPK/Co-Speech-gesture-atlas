@@ -250,13 +250,15 @@
   output: [upper-body]
   representation: [joints-3d]
   approach: [other]
+  setting: [monologue]
   realtime: unreported
   datasets: [custom]
+  metrics: []
   user_study: true
   summary: Generates arm gesture motion frame by frame with a modified hierarchical factored conditional restricted Boltzmann machine conditioned on speech pitch and intensity, trained on motion capture and audio of conversations.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: chu2011nature
   title: The nature of gestures' beneficial role in spatial problem solving.
@@ -934,9 +936,14 @@
   doi: 10.1007/978-3-642-24571-8_24
   links: {paper: 'https://doi.org/10.1007/978-3-642-24571-8_24'}
   input: [text]
+  output: [upper-body]
   representation: [other]
   approach: [rule-based]
+  setting: [monologue]
   realtime: unreported
+  datasets: []
+  metrics: []
+  user_study: false
   summary: Extends the GRETA agent platform to the Nao robot, selecting symbolic gestures from a robot lexicon, synchronising them with speech and instantiating them as joint values with expressivity parameters.
   added: '2026-10-03'
   checked: full-text

@@ -1466,14 +1466,14 @@
   links: {paper: 'https://doi.org/10.1007/978-3-319-58750-9_28'}
   input: [audio]
   output: [full-body]
-  representation: [other]
+  representation: [joints-3d]
   setting: [monologue]
   realtime: unreported
   datasets: [custom]
   summary: Records 298 minutes (1049 sentences) of speech audio, BVH motion capture and video from two male participants explaining topics, with per-sentence tags for the gesture types that appeared.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: takeuchi2017speech
   title: Speech-to-Gesture Generation

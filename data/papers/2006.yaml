@@ -95,9 +95,11 @@
   doi: 10.1007/11821830_15
   links: {paper: 'https://doi.org/10.1007/11821830_15'}
   input: [text]
+  output: [upper-body]
   approach: [rule-based]
   realtime: unreported
   datasets: [custom]
+  metrics: []
   user_study: true
   summary: Analyses how co-verbal gesture expressivity varies over time in a corpus of 2D animations and proposes a model of two types of modulation to animate an embodied conversational agent.
   added: '2026-10-03'
@@ -270,7 +272,10 @@
   input: [text]
   output: [upper-body]
   approach: [rule-based]
+  setting: [monologue]
   realtime: unreported
+  datasets: []
+  metrics: []
   user_study: true
   summary: Presents a model of gesture expressivity with six parameters, such as spatial extent, temporal extent, fluidity and power, that modulate gestures in the Greta agent's animation pipeline.
   added: '2026-10-03'
@@ -429,10 +434,12 @@
   doi: 10.1007/11821830_19
   links: {paper: 'https://doi.org/10.1007/11821830_19', project: 'http://vc.dfki.de'}
   input: [text]
+  output: [upper-body, face]
   approach: [hybrid]
   realtime: unreported
   datasets: [custom]
   metrics: [label-prediction]
+  user_study: false
   summary: Lets authors script gestures for two virtual characters, generates further gestures from keyword-spotting if-then rules, and learns new rules from annotated scripts.
   added: '2026-10-03'
   checked: full-text
@@ -465,7 +472,7 @@
   summary: Proposes the SAIBA framework with FML and BML, an XML language for specifying speech, gesture, gaze and other behaviours of embodied conversational agents and their synchronisation.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: lascarides2006formal
   title: Formal Semantics for Iconic Gesture
@@ -492,7 +499,11 @@
   input: [text, emotion]
   output: [upper-body, face]
   approach: [rule-based]
+  setting: [monologue]
   realtime: unreported
+  datasets: []
+  metrics: []
+  user_study: false
   summary: Analyses the syntactic and semantic structure of the surface text and the agent's affective state and annotates the text with nonverbal behaviours using rules extracted from video clips of conversing people.
   notes: Abstract states the system works in real time but gives no figure. Rules are user extensible.
   added: '2026-10-03'

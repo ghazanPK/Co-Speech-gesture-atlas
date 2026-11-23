@@ -464,6 +464,7 @@
   links: {paper: 'https://research.utwente.nl/en/publications/33f29040-8b9f-4fd3-b5f3-89390f90d8f4', open: 'https://ris.utwente.nl/ws/files/5320053/bnaic08-Hofs-Theune-Akker.pdf'}
   input: [text]
   realtime: unreported
+  languages: [nl]
   summary: Demonstrates an embodied conversational agent that gives directions in a 3D environment, with multimodal dialogue management and language and gesture generation.
   added: '2026-10-03'
   checked: full-text
@@ -717,6 +718,8 @@
   links: {paper: 'https://doi.org/10.1145/1330511.1330516'}
   input: [text]
   output: [full-body]
+  approach: [hybrid]
+  setting: [monologue]
   realtime: unreported
   datasets: [custom]
   languages: [de, en]

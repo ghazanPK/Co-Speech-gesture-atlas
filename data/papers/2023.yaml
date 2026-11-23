@@ -519,11 +519,12 @@
   datasets: [custom]
   languages: [en]
   metrics: [label-prediction, cosine-similarity]
+  user_study: false
   summary: Prompts ChatGPT and GPT-4 with few-shot examples to suggest context-specific gestures for utterances, tested against annotated gestures from a political speech.
   notes: Metric is cosine similarity between BERT embeddings of annotated and suggested gestures plus prediction accuracy; outputs are gesture descriptions, not motion. Judged by two gesture researchers, not a participant study. The OSF link holds code and data.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: hordemann2023reaching
   title: 'Reaching Across the Communication Gap: Evaluating How Augmented Reality Shared Gestural Spaces Impact Gesture and Language Usage'
@@ -1052,7 +1053,7 @@
   summary: Survey of deep-learning-based co-speech behaviour generation models for human-agent and human-robot interaction, with an outlook on future research.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: osorio2023speech
   title: The role of co-speech gestures in retrieval and prediction during naturalistic multimodal narrative processing
@@ -1203,6 +1204,7 @@
   input: [text]
   representation: [other]
   approach: [other]
+  setting: [monologue]
   realtime: real-time
   latency: 0.013-0.018 s model inference; 0.11-0.13 s including robot-server communication
   datasets: [custom]
@@ -1476,10 +1478,11 @@
   realtime: unreported
   datasets: [jestkod, lisi-hhi]
   metrics: [joint-error, accel-jerk, fgd]
+  user_study: false
   summary: A context-aware GAN models the body gestures of a target person in dyadic interaction by encoding both the person's own and the interaction partner's social signals.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: voss2023aqgt
   title: 'AQ-GT: a Temporally Aligned and Quantized GRU-Transformer for Co-Speech Gesture Synthesis'
@@ -1671,13 +1674,15 @@
   input: [audio, style]
   output: [upper-body]
   approach: [gan]
+  setting: [monologue]
   realtime: unreported
   datasets: [takeuchi-gesture-speech]
+  metrics: []
   user_study: true
   summary: GAN-based co-speech gesture generation conditioned on perceived extroversion, with a refined motion retargeting algorithm for a humanoid robot and a user study of extroversion aspects.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: xu2023icgn
   title: Implicit Compositional Generative Network for Length-Variable Co-Speech Gesture Synthesis
@@ -1857,7 +1862,7 @@
   notes: 'Also introduces the SHOW dataset (26.9 hours, four speakers). Face metrics L2 and LVD; other: realism score classifier. Paper states code and dataset are released at the project page.'
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: yoon2023geneaworkshop
   title: 'GENEA Workshop 2023: The 4th Workshop on Generation and Evaluation of Non-verbal Behaviour for Embodied Agents'

@@ -68,6 +68,7 @@
   links: {paper: 'https://doi.org/10.1007/978-3-642-04380-2_12'}
   output: [hands]
   approach: [hybrid]
+  setting: [monologue]
   realtime: unreported
   datasets: [custom]
   metrics: [label-prediction]
@@ -91,6 +92,7 @@
   realtime: unreported
   datasets: [custom]
   metrics: [label-prediction]
+  user_study: false
   summary: Analyses a corpus of 25 dyads for systematic and idiosyncratic influences on iconic gesture form, and builds a Bayesian decision network model that combines probabilistic and rule-based decisions to generate gestures.
   added: '2026-10-03'
   checked: full-text
@@ -109,6 +111,8 @@
   approach: [hybrid]
   realtime: unreported
   datasets: [custom]
+  metrics: []
+  user_study: false
   summary: A model for virtual agents that selects content and derives the form of coordinated language and iconic gestures for spatial descriptions, using a probabilistic gesture formulation from an empirical direction-giving study.
   added: '2026-10-03'
   checked: full-text
@@ -129,7 +133,7 @@
   summary: Rule-based system that analyses linguistic and contextual information in input text to select beat, iconic and other gestures plus gaze for speaking and listening agents in Second Life, timed with TTS speech.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: bremner2009beat
   title: Beat gesture generation rules for human-robot interaction
@@ -173,7 +177,7 @@
   summary: A BML-based behavior realizer that parses scripts and schedules annotated body and facial animations with synthesized speech, using neural networks to estimate word durations for alignment.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: chieffi2009deictic
   title: 'Deictic word and gesture production: Their interaction'
@@ -750,6 +754,7 @@
   setting: [monologue]
   realtime: unreported
   datasets: [custom]
+  metrics: []
   user_study: true
   summary: Combines procedural arm gestures with motion-capture lower-body clips and procedural spine rotation aligned to gesture strokes, selected by a Markov model plus association rules.
   added: '2026-10-03'
@@ -918,6 +923,9 @@
   links: {paper: 'https://doi.org/10.1007/978-3-642-10403-9_18'}
   output: [upper-body]
   realtime: unreported
+  datasets: []
+  metrics: []
+  user_study: false
   summary: Adapts the ACE speech-gesture production model, driven by MURML specifications, to the humanoid robot ASIMO so co-verbal arm gestures are planned and synchronized with speech at run-time using whole body motion control.
   added: '2026-10-03'
   checked: full-text

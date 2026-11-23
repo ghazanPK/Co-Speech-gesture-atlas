@@ -389,7 +389,7 @@
   summary: Presents the Story Dialogue with Gestures corpus of 50 personal narratives regenerated as dialogues with annotated gesture placement and gesture forms, plus gesture video clips and story intention graph annotations.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: hubscher2016intonation
   title: Intonation and gesture as bootstrapping devices in speaker uncertainty
@@ -1204,9 +1204,12 @@
   links: {paper: 'https://doi.org/10.1002/cav.1703'}
   input: [seed-motion]
   output: [full-body, locomotion]
-  setting: [dyadic]
+  approach: [other]
+  setting: [dyadic, multi-party]
   realtime: unreported
   datasets: [custom]
+  metrics: []
+  user_study: false
   summary: Splices a motion-captured standing gesture performance onto looped walking and jogging clips, with synchronization guided by metrics from captured conversing pairs.
   added: '2026-10-03'
   checked: full-text

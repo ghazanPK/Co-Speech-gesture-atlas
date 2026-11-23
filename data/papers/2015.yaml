@@ -26,6 +26,7 @@
   doi: 10.1007/s10514-015-9444-1
   links: {paper: 'https://doi.org/10.1007/s10514-015-9444-1', open: 'https://hal.science/hal-01203658'}
   input: [text, audio]
+  output: [upper-body]
   approach: [hybrid]
   setting: [dyadic]
   realtime: unreported
@@ -33,7 +34,7 @@
   summary: A pipeline turns a user's speech into text, estimates extraversion, generates personality-adapted text with PERSONAGE and gestures with an extended BEAT toolkit, and runs the result on a NAO robot.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: aly2015multimodal
   title: Multimodal adapted robot behavior synthesis within a narrative human-robot interaction
@@ -202,12 +203,14 @@
   doi: 10.1007/978-3-319-21996-7_17
   links: {paper: 'https://doi.org/10.1007/978-3-319-21996-7_17'}
   input: [text, audio]
+  output: [upper-body]
   representation: [other]
   approach: [other]
-  setting: [dyadic]
+  setting: [monologue]
   realtime: unreported
   datasets: [custom]
   metrics: [label-prediction]
+  user_study: false
   summary: Predicts co-verbal gestures from utterance content and speech signal with Deep Conditional Neural Fields, which jointly learn a deep network and second-order linear-chain temporal dependencies between gestures.
   added: '2026-10-03'
   checked: full-text

@@ -38,7 +38,7 @@
   summary: Dyadic Residual-Attention Model generates avatar body pose from the operator's audio plus the interlocutor's audio and body pose using selective attention between monadic and dyadic dynamics.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: arachchige2019implication
   title: 'The implication of working memory in gesture/speech integration: Validation study of iconic gesture videos among French speakers.'
@@ -438,13 +438,12 @@
   setting: [monologue]
   realtime: unreported
   datasets: [custom]
-  languages: [en]
   metrics: []
   user_study: true
   summary: A NAO robot maps speech to one of nine arm and hand gesture clusters mined from TED speakers with a random forest and adapts its speech using audience attention estimated from head pose.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: ginosar2019speech2gesture
   title: Learning Individual Styles of Conversational Gesture
@@ -660,6 +659,7 @@
   arxiv: '1906.04158'
   links: {paper: 'https://doi.org/10.1109/cvpr.2019.01113', open: 'https://arxiv.org/abs/1906.04158', project: 'http://domedb.perception.cs.cmu.edu/ssp'}
   input: [interlocutor]
+  output: [full-body]
   representation: [joints-3d]
   approach: [regression]
   setting: [multi-party]
@@ -671,7 +671,7 @@
   notes: Inputs are the other people's body motion, face, position and speaking status; no speech audio is a model input. Networks are convolutional and autoencoder based (approach recorded as regression).
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: jouravlev2019speech
   title: Speech-accompanying gestures are not processed by the language-processing mechanisms
@@ -963,7 +963,7 @@
   summary: A DAZ Studio and Unity pipeline that turns conversational gestures annotated in the EVA Corpus into expressively tunable 3D animation templates for the EVA embodied conversational agent.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: morett2019listeners
   title: 'Listeners consider alternative speaker productions in discourse comprehension and memory: Evidence from beat gesture and pitch accenting'
@@ -1473,11 +1473,12 @@
   realtime: real-time
   latency: 0.14 s on a CPU for a 25-word sentence
   datasets: [ted-gesture]
+  metrics: []
   user_study: true
   summary: An end-to-end neural network with a speech-text encoder and a gesture-sequence decoder is trained on 52 hours of TED talks and demonstrated on a NAO robot.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: yunus2019gesture
   title: Gesture Class Prediction by Recurrent Neural Network and Attention Mechanism
@@ -1507,6 +1508,7 @@
   output: [upper-body, hands]
   representation: [joints-3d]
   approach: [gan]
+  setting: [monologue]
   realtime: unreported
   datasets: [custom]
   metrics: []

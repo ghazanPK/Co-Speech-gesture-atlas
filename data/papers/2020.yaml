@@ -18,12 +18,13 @@
   setting: [monologue]
   realtime: unreported
   datasets: [pats]
-  metrics: [fid, pck]
+  metrics: [fid, pck, other]
   user_study: true
   summary: Learns speech-and-text-driven gesture generation by combining adversarial learning with importance sampling and a multimodal multiscale attention block for subword alignment.
+  notes: 'Other metrics: mode classification F1 and Wasserstein-1 distance on average velocity and acceleration.'
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: ahuja2020style
   title: 'Style Transfer for Co-Speech Gesture Animation: A Multi-Speaker Conditional-Mixture Approach'
@@ -124,10 +125,13 @@
   input: [text]
   output: [upper-body]
   approach: [rule-based]
+  setting: [monologue]
   realtime: unreported
   datasets: [ted-gesture]
+  metrics: [other]
   user_study: true
   summary: Builds a rule-based mapping from words to co-speech gestures automatically from a large public video dataset and uses word embeddings at run time to find the matching rule for an embodied conversational agent.
+  notes: 'Other metric: frequency distribution of retrieved gesture animations over a long text.'
   added: '2026-10-03'
   checked: full-text
   verified: false
@@ -969,7 +973,7 @@
   representation: [smpl-x, video-pixels]
   approach: [regression, gan]
   setting: [monologue]
-  realtime: unreported
+  realtime: offline
   latency: 0.5 seconds per frame on a single GPU
   datasets: [custom]
   languages: [en, zh]
@@ -979,7 +983,7 @@
   notes: Objective metrics are Inception Score and mouth pixel distance.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: lin2020helping
   title: 'A helping hand for thinking and speaking: Effects of gesturing and task planning on second language narrative discourse'
@@ -1462,7 +1466,13 @@
   links: {paper: 'https://doi.org/10.1109/ro-man47096.2020.9223498', open: 'https://dspace.jaist.ac.jp/dspace/bitstream/10119/16930/1/3336.pdf'}
   input: [text]
   output: [upper-body]
+  representation: [joints-3d]
   approach: [gan]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [msr-vtt-text2action, kit-motion-language]
+  metrics: [cosine-similarity]
+  user_study: false
   summary: A conditional GAN with CNN action encoder and decoder learns to synthesize human actions from text descriptions, which are then converted to joint angles of a target robot.
   added: '2026-10-03'
   checked: full-text
@@ -1479,7 +1489,13 @@
   links: {paper: 'https://doi.org/10.1109/ur49135.2020.9144985', open: 'https://dspace.jaist.ac.jp/dspace/bitstream/10119/16711/1/C1_UR20_0013_FI.pdf'}
   input: [text]
   output: [upper-body]
+  representation: [joints-3d]
   approach: [gan]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [kit-motion-language]
+  metrics: [cosine-similarity]
+  user_study: false
   summary: A conditional GAN learns the relation between human behaviors and natural language sentences to generate gestures, which are transformed into the motion of a target robot.
   added: '2026-10-03'
   checked: full-text
@@ -1662,11 +1678,15 @@
   category: method
   doi: 10.1111/cgf.14114
   links: {paper: 'https://doi.org/10.1111/cgf.14114'}
-  input: [audio, text]
+  input: [audio, text, interlocutor]
+  output: [upper-body]
+  representation: [joints-3d]
   approach: [retrieval]
   setting: [dyadic]
-  realtime: unreported
+  realtime: real-time
+  latency: 1.16 s to search a 15 s motion clip for one character
   datasets: [custom]
+  metrics: []
   user_study: true
   summary: Builds a motion graph from recorded two-party conversations and searches it for gestures and body motion that follow phonemic clauses, listener responses and partner hesitation pauses in new audio.
   added: '2026-10-03'

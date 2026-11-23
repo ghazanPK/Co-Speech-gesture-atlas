@@ -564,8 +564,10 @@
   doi: 10.1007/s12369-022-00893-y
   links: {paper: 'https://doi.org/10.1007/s12369-022-00893-y', open: 'https://link.springer.com/content/pdf/10.1007/s12369-022-00893-y.pdf', video: 'https://youtu.be/iG2-DIz2dw0'}
   input: [audio]
+  output: [upper-body]
   representation: [keypoints-2d]
   approach: [gan]
+  setting: [monologue]
   realtime: unreported
   datasets: [custom]
   metrics: [accel-jerk]
@@ -648,7 +650,7 @@
   notes: Gestures were pre-generated to avoid latency. 28 participants. Objective data is eye-gaze duration.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: holler2022embodied
   title: Embodied Space‐pitch Associations are Shaped by Language
@@ -980,7 +982,7 @@
   input: [audio, speaker-id]
   output: [upper-body, hands]
   representation: [joints-3d]
-  approach: [regression]
+  approach: [regression, gan]
   setting: [monologue]
   realtime: unreported
   datasets: [ted-gesture, ted-expressive]
@@ -991,7 +993,7 @@
   notes: Transcripts are used in training only, not at inference. Speaker identity comes from a reference video. 43 keypoints (13 upper body, 30 finger).
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: lozanogoupil2022gesture
   title: 'Gesture-speech synchrony in schizophrenia: A pilot study using a kinematic-acoustic analysis'
@@ -1361,9 +1363,9 @@
   output: [upper-body]
   representation: [joints-3d]
   approach: [hybrid, retrieval]
+  setting: [monologue]
   realtime: unreported
   datasets: [ted-gesture, trinity]
-  languages: [en]
   metrics: [other, diversity]
   user_study: true
   summary: Classifies each word as imagistic, beat or no gesture with a BERT classifier, then retrieves and blends gestures from type-specific libraries built on TED data for avatars and humanoid robots.
@@ -1387,7 +1389,7 @@
   summary: A perceptual study comparing performance-captured characters with characters driven by generated gestures and synthesized speech on perceived Big Five personality.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: trujillo2022multi
   title: A multi-scale investigation of the human communication system's response to visual disruption
@@ -1481,7 +1483,7 @@
   summary: Compares automatically and manually obtained concept clusters for mapping a conversational agent's personalized vocabulary to predefined robot gestures, and tests concept-based gesture selection against random selection.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: wilms2022iconic
   title: The Effects of Iconic Gestures and Babble Language on Word Intelligibility in Sentence Context
@@ -1515,7 +1517,7 @@
   summary: Analyses left-right arm symmetry of 36 speakers in dyadic conversation and tests with a speech-to-gesture model whether mirroring is valid as data augmentation.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: windle2022uea
   title: UEA Digital Humans entry to the GENEA Challenge 2022
@@ -1636,6 +1638,7 @@
   output: [upper-body, full-body]
   representation: [joints-3d]
   approach: [normalizing-flow]
+  setting: [monologue]
   realtime: unreported
   datasets: [ted-gesture, trinity]
   metrics: [fgd, pck, diversity, beat-align, multimodality]
@@ -1643,7 +1646,7 @@
   summary: A flow-based autoregressive model with a global encoder and a gesture perceptual loss that generates stylized gestures from audio and past poses without style labels.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: yoon2022genea
   title: 'The GENEA Challenge 2022: A large evaluation of data-driven co-speech gesture generation'
@@ -1696,8 +1699,10 @@
   input: [audio, text]
   output: [upper-body]
   approach: [hybrid]
+  setting: [monologue]
   realtime: unreported
-  datasets: [swag]
+  datasets: [swag, trinity]
+  metrics: []
   user_study: true
   summary: Generates baseline gestures from speech audio with a denoising-autoencoder encoder-decoder, then embeds gestures from a 67-gesture semantic dataset, chosen by BEAT rules, at word timestamps for the Pepper robot.
   added: '2026-10-03'
@@ -1783,7 +1788,7 @@
   notes: Face is learned (transformer on speech and phonemes); body is a graph-based retrieval over a mocap database with 24 semantic action types. No quantitative evaluation reported.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: zywiczynski2022body
   title: 'From Body to Language: Gestural and Pantomimic Scenarios of Language Origin in the Enlightenment'

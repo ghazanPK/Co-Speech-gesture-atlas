@@ -46,7 +46,9 @@
   links: {paper: 'https://doi.org/10.1109/access.2025.3596328', open: 'https://www.researchsquare.com/article/rs-3350470/latest.pdf'}
   input: [text]
   output: [upper-body]
+  representation: [joints-3d]
   approach: [retrieval]
+  setting: [monologue]
   datasets: [custom]
   languages: [en, ko]
   user_study: true
@@ -535,6 +537,8 @@
   doi: 10.3390/app15179467
   links: {paper: 'https://doi.org/10.3390/app15179467', open: 'https://www.mdpi.com/2076-3417/15/17/9467/pdf?version=1756442434', code: 'https://github.com/kacr2/cont-gest'}
   input: [audio, emotion]
+  representation: [joints-3d]
+  approach: [regression]
   setting: [monologue]
   realtime: unreported
   datasets: [genea-2023]
@@ -1108,6 +1112,9 @@
   output: [full-body]
   representation: [smpl-x]
   approach: [diffusion]
+  setting: [monologue]
+  realtime: real-time
+  latency: 1.52 s sampling time with 50 steps for 5 s clips on an RTX 4090
   datasets: [beat]
   languages: [en]
   metrics: [fgd, beat-align, diversity]
@@ -1213,7 +1220,7 @@
   doi: 10.18653/v1/2025.acl-long.112
   arxiv: '2506.00958'
   links: {paper: 'https://aclanthology.org/2025.acl-long.112/', open: 'https://arxiv.org/abs/2506.00958', code: 'https://github.com/winston1214/nonverbal-conversation'}
-  input: [text]
+  input: [text, interlocutor]
   output: [upper-body, hands, face]
   representation: [smpl-x]
   approach: [vq, autoregressive, llm]
@@ -1257,7 +1264,8 @@
   approach: [diffusion]
   setting: [multi-party]
   realtime: unreported
-  metrics: [fid, fvd, lip-sync, other]
+  datasets: [custom]
+  metrics: [fid, fvd, lip-sync, e-fid, other]
   user_study: false
   summary: Generates multi-person conversational video from multiple audio streams with a video diffusion transformer, binding each audio stream to its person via label rotary position embeddings.
   added: '2026-10-03'
@@ -1305,6 +1313,8 @@
   output: [full-body, face]
   representation: [smpl-x]
   approach: [vq, diffusion]
+  setting: [monologue]
+  realtime: unreported
   metrics: [fgd, beat-align, diversity, face-error, besa]
   user_study: true
   summary: Diffusion framework that injects dynamic emotion cues through an emotion-alignment module and refines region-specific latent codes progressively while keeping full-body coordination.
@@ -1505,7 +1515,7 @@
   input: [audio, image]
   output: [upper-body, face]
   representation: [other]
-  approach: [other]
+  approach: [vae, other]
   setting: [monologue]
   realtime: real-time
   latency: 41 FPS inference on an NVIDIA RTX 4090 GPU
@@ -1551,14 +1561,13 @@
   realtime: real-time
   latency: 25.31 FPS on an NVIDIA H100
   datasets: [show, custom]
-  languages: [en]
   metrics: [fid, fvd, image-quality, lip-sync, other, e-fid, hkc]
   user_study: true
   summary: Distills a many-step diffusion video model into a few-step student for co-speech video, using pose-keypoint-guided sparse attention and distillation losses, with poses generated from audio by EMAGE.
-  notes: Other metrics are E-FID, HKC and HKD.
+  notes: Other metric is HKD (hand keypoint diversity).
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: mazzini2023autistic
   title: Autistic individuals benefit from gestures during degraded speech comprehension
@@ -1820,7 +1829,7 @@
   doi: 10.1117/12.3060395
   arxiv: '2410.10851'
   links: {paper: 'https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13557/3060395/LLM-Gesticulator--leveraging-large-language-models-for-scalable-and/10.1117/12.3060395.full', open: 'https://arxiv.org/abs/2410.10851'}
-  input: [audio, text, speaker-id]
+  input: [audio, text]
   output: [full-body, hands]
   representation: [joints-3d]
   approach: [vq, llm, autoregressive]
@@ -1847,6 +1856,7 @@
   input: [audio, style]
   output: [full-body, hands]
   approach: [llm, vq, diffusion]
+  setting: [monologue]
   realtime: unreported
   datasets: [zeggs, seg]
   metrics: [fgd, beat-align, diversity]
@@ -1949,11 +1959,12 @@
   representation: [smpl-x, video-pixels]
   approach: [vq, diffusion]
   setting: [monologue]
+  realtime: unreported
   datasets: [custom, humanml3d]
   metrics: [fid, fvd, image-quality, lip-sync, r-precision, multimodality, e-fid, identity-similarity, mm-dist]
   user_study: true
   summary: A two-stage framework in which a dual-branch transformer generates whole-body SMPL motion tokens from audio and text prompts, and a pose- and audio-controlled video diffusion model renders the talking human video.
-  notes: 'Training data is about 40 hours of news broadcast videos plus HumanML3D for text control. Other metrics: E-FID, CSIM, MM-Dist. arXiv lists the fourth author as Tianqi Li.'
+  notes: Training data is about 40 hours of talking human videos plus HumanML3D for text control.
   added: '2026-10-03'
   checked: full-text
   verified: false
