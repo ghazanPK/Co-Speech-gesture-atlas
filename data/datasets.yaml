@@ -1040,3 +1040,41 @@
   added: '2026-10-02'
   verified: false
   name: TED-GVD (TED Gesture Video Dataset)
+
+- {id: susuinteracts, summary: 'Dialogue corpus captured with optical motion capture around a single character, with synchronized speech; 21K clips, 37 hours.', notes: Introduced with SentiAvatar (jin2026sentiavatar). Entry made from that paper only., added: '2026-11-23', verified: false, name: SuSuInterActs}
+
+- {id: speakervid-5m, summary: Large-scale audio-visual dataset for dyadic interactive human generation., notes: Used by sun2025streamavatar for training and for interactive-avatar evaluation. Entry made from the citing paper only., added: '2026-11-23', verified: false, name: SpeakerVid-5M}
+
+- {id: talkcuts, summary: Large-scale dataset for multi-shot human speech video generation., notes: Introduced with chen2025talkcuts. Entry made from that paper only., added: '2026-11-23', verified: false, name: TalkCuts}
+
+- {id: hdav, summary: 'High-definition audio-visual human dataset of 2,203 identities from online videos, with 3D human template parameter annotations and detail property labels.', notes: Introduced with StereoTalker (deng2025stereotalker). Entry made from that paper only., added: '2026-11-23', verified: false, name: HDAV (High-definition Audio-Visual dataset)}
+
+- {id: mvhumannet, notes: Supplementary data in a gesture system; part of it trains the render model of StereoTalker (deng2025stereotalker). Entry made from the citing paper only., added: '2026-11-23', verified: false, name: MVHumanNet}
+
+- {id: tiktok, notes: Supplementary data in a gesture system; trains the render model of StereoTalker (deng2025stereotalker). Entry made from the citing paper only., added: '2026-11-23', verified: false, name: TikTok dataset}
+
+- {id: ges-qa, summary: '1,400 audio-to-3D gesture samples with multidimensional human scores for gesture quality and audio-gesture consistency.', notes: Introduced with gao2025gesqa. Entry made from that paper only., added: '2026-11-23', verified: false, name: Ges-QA}
+
+- {id: youtube-business, summary: Small background-clean co-speech video dataset of 12 speakers., notes: Released with TANGO (liu2024tango). Entry made from that paper only., added: '2026-11-23', verified: false, name: YouTube Business}
+
+- {id: humanvid, summary: 'About 20,000 high-quality human-centric videos with 2D pose annotations.', notes: Used by EchoMimicV2 (meng2025echomimicv2) as its fully pose-driven training set. Entry made from the citing paper only., added: '2026-11-23', verified: false, name: HumanVid}
+
+- {id: emtd, summary: Test benchmark for half-body human animation; 65 high-definition (1080p) TED videos from YouTube., notes: Introduced with EchoMimicV2 (meng2025echomimicv2). Entry made from that paper only., added: '2026-11-23', verified: false, name: EMTD (EchoMimicV2 Testing Dataset)}
+
+- {id: crema-d, notes: 'Supplementary data in a gesture system; used for the talking-head task of wei2026mamba, whose gestures come from PATS. Entry made from the citing paper only.', added: '2026-11-23', verified: false, name: CREMA-D}
+
+- {id: ravdess, notes: 'Supplementary data in a gesture system; used for the talking-head task of wei2026mamba, whose gestures come from PATS. Entry made from the citing paper only.', added: '2026-11-23', verified: false, name: RAVDESS}
+
+- {id: mead, summary: 'Audio-visual dataset for emotional talking-face generation, with utterances and speech recordings in eight emotions.', notes: Supplementary data in gesture systems; used for the talking-head task of wei2026mamba and as speech samples in the user study of omine2025nonphotorealistic. Entry made from the citing papers only., added: '2026-11-23', verified: false, name: MEAD}
+
+- {id: cmlr, notes: 'Supplementary data in a gesture system; used for the talking-head task of wei2026mamba, whose gestures come from PATS. Entry made from the citing paper only.', added: '2026-11-23', verified: false, name: CMLR}
+
+- {id: f2td, summary: 'Paired fMRI recordings and text from seven subjects, collected by Tang et al.', notes: Supplementary data in a gesture system; trains the fMRI-to-text stage of fMRI2GES (zhu2025fmri2ges). Entry made from the citing paper only., added: '2026-11-23', verified: false, name: fMRI-to-Text Dataset (F2TD)}
+
+- {id: zhubo, summary: 'Videos of Chinese news anchors collected from the internet, with audio, text and gesture annotations; described as the first dataset dedicated to Chinese co-speech gestures.', notes: Introduced with bao2024editable and also used by gao2024gesgpt. Release given in the paper as github.com/sunny123gaoao/ZHUBO-gesture. Entry made from those papers only., added: '2026-11-23', verified: false, name: ZHUBO}
+
+- {id: gesture400, summary: 'About 393 hours of pseudo-ground-truth 3D gesture rotations from internet videos, collected for pre-training.', notes: Introduced with cheng2024siggesture. Entry made from that paper only., added: '2026-11-23', verified: false, name: Gesture400}
+
+- {id: ted-talks, notes: 'TED talk videos from Siarohin et al., ''Motion representations for articulated animation'' (CVPR 2021); not the TED Gesture Dataset (ted-gesture). Used to train DiffTED (hogue2024diffted). Entry made from the citing paper only.', added: '2026-11-23', verified: false, name: TED-talks (articulated-animation videos)}
+
+- {id: cube-g, summary: Video corpus recorded for the CUBE-G project with more than 40 students from Germany and Japan., notes: Analysed by endrass2010generating to find which gesture types accompany which dialogue utterances. Entry made from the citing paper only., added: '2026-11-23', verified: false, name: CUBE-G video corpus}

@@ -1335,7 +1335,7 @@
   summary: Maps text and gesture features into a shared latent space by attention-weighted contrastive learning, then retrieves gestures from a library of VAE-clustered gesture types for the input text.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: tetnowski2023looking
   title: 'Looking at gesture: The reciprocal influence between gesture and conversation'

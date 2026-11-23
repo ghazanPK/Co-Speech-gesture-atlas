@@ -412,14 +412,15 @@
   approach: [rule-based]
   setting: [dyadic]
   realtime: unreported
-  datasets: []
+  datasets: [cube-g]
+  languages: [de, ja]
   metrics: []
   user_study: false
   summary: Gestures for virtual agent dialogs are chosen per speech act from German and Japanese corpus statistics on gesture frequency, type and expressivity, then played from a culture-specific animation knowledge base.
   notes: Gesture statistics come from the CUBE-G video corpus (German and Japanese small talk); integrated into the Virtual Beergarden demonstrator.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: enrici2010intention
   title: 'Intention Processing in Communication: A Common Brain Network for Language and Gestures'

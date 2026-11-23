@@ -122,10 +122,13 @@
   category: method
   doi: 10.3390/electronics13163315
   links: {paper: 'https://doi.org/10.3390/electronics13163315', open: 'https://www.mdpi.com/2079-9292/13/16/3315/pdf?version=1724294642'}
-  input: [audio]
+  input: [audio, text]
+  output: [upper-body, hands]
+  representation: [keypoints-2d]
   approach: [regression, vae]
+  setting: [monologue]
   realtime: unreported
-  datasets: [custom]
+  datasets: [zhubo]
   languages: [zh]
   metrics: [fid, diversity, other]
   user_study: true
@@ -399,7 +402,7 @@
   approach: [vq, diffusion, llm]
   setting: [monologue]
   realtime: unreported
-  datasets: [beat, custom]
+  datasets: [beat, gesture400]
   languages: [en, zh, ja]
   metrics: [fgd, beat-align, diversity, srgr]
   user_study: true
@@ -686,12 +689,12 @@
   approach: [hybrid, llm, retrieval, regression]
   setting: [monologue]
   realtime: unreported
-  datasets: [beat, custom]
+  datasets: [beat, zhubo]
   languages: [en, zh]
   metrics: [beat-align, fgd]
   user_study: true
   summary: ChatGPT parses text into intent, emphasis and semantic words to pick gestures from a lexicon, which are merged with rhythmic base gestures from a U-Net by interpolation.
-  notes: Chinese data is a collection of internet videos of professional speakers (ZHUBO), not released as a named dataset in the text read.
+  notes: Chinese data is the ZHUBO dataset of internet videos of professional speakers, with poses from video pose estimation.
   added: '2026-10-03'
   checked: full-text
   verified: false
@@ -935,13 +938,14 @@
   approach: [diffusion]
   setting: [monologue]
   realtime: unreported
+  datasets: [ted-talks]
   metrics: [fvd, fid, image-quality, diversity, beat-align]
   user_study: true
   summary: A diffusion model generates sequences of Thin-Plate Spline keypoints from speech audio with classifier-free guidance, which animate a single source image into a TED-style talking video with co-speech gestures.
-  notes: Trained and evaluated on the TED-talks video dataset (384x384, 25 fps) used by Thin-Plate Spline motion models; no matching dataset id.
+  notes: Trained and evaluated on the TED-talks video dataset (384x384, 25 fps) used by Thin-Plate Spline motion models.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: ka2024vae
   title: Co-speech Gesture Generation with Variational Auto Encoder
@@ -2018,14 +2022,15 @@
   input: [audio, text, speaker-id]
   output: [upper-body]
   representation: [joints-3d]
+  setting: [monologue]
   realtime: unreported
   metrics: [fgd, other]
   user_study: true
   summary: Reproduces a trimodal (audio, text, speaker identity) gesture generation model and maps its 3D poses to joint angles on a Pepper robot.
-  notes: Motion variance is reported alongside FGD. A DOI for a published version is listed in the candidate metadata, but the venue could not be read, so the record stays as the preprint.
+  notes: Motion variance is reported alongside FGD.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: tian2024cognitive
   title: 'The cognitive-emotional dialectics in second language development: speech and co-speech gestures of Chinese learners of English'
@@ -2594,7 +2599,7 @@
   notes: Built on DiffuseStyleGesture+. A published version exists under the DOI; its venue was not confirmed.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: zhao2024memory
   title: Improving diversity of speech‐driven gesture generation with memory networks as dynamic dictionaries

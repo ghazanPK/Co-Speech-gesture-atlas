@@ -17,15 +17,15 @@
   approach: [flow-matching]
   setting: [monologue]
   realtime: unreported
-  datasets: [beat2]
+  datasets: [beat2, tfhp]
   languages: [en]
   metrics: [fgd, beat-align, diversity, face-error]
   user_study: false
   summary: Flow-matching DiT generators for SMPL-X body pose and FLAME expressions, conditioned on audio embeddings from a frozen Qwen-3 Omni model and an emotion label, with an auxiliary emotion classifier during training.
-  notes: The paper is formatted for the JAV-CG '26 workshop; acceptance was not confirmed in the text read, so it is kept as a preprint. Zero-shot facial evaluation on TFHP.
+  notes: Formatted for the JAV-CG '26 workshop at ACM Multimedia 2026. Zero-shot facial evaluation on TFHP (LVE, MOD, FDD).
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: alon2026words
   title: When words don't come easy - How speakers cope with communicatively challenging situations using verbal creativity and co-speech gesture
@@ -287,10 +287,10 @@
   metrics: [fgd, beat-align, accel-jerk, fid, diversity, l1-div, r-precision, mm-dist]
   user_study: true
   summary: Generates gestures with a latent diffusion model conditioned on speech and text captions, using a motion-language model to caption gestures at several granularities and a shared 55-joint representation across datasets.
-  notes: 'Reports 0.842 s average inference time per sentence on an RTX 3090. Other metric: MM-Dist.'
+  notes: Reports 0.842 s average inference time per sentence on an RTX 3090.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: franich2026variation
   title: Variation in the Fine Timing of Co-Speech Gestures Among Bilingual Speakers
@@ -687,11 +687,11 @@
   input: [text, audio]
   output: [full-body, hands, face]
   representation: [joints-3d]
-  approach: [vq, llm]
+  approach: [vq, llm, masked-modeling]
   setting: [monologue]
   realtime: real-time
   latency: 0.3 s for about 6 s of output, with unlimited multi-turn streaming
-  datasets: [custom, beat2]
+  datasets: [susuinteracts, beat2]
   languages: [zh, en]
   metrics: [fgd, fid, beat-align, diversity, other, retrieval-recall]
   user_study: true
@@ -699,7 +699,7 @@
   notes: 'Also introduces SuSuInterActs (21K clips, 37 hours, optical mocap, Chinese dialogue, single character). Other metrics: R@K recall, Event Sync Distance. English evaluation on BEATv2.'
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: kang2026propgesture
   title: 'PropGesture: Few‐shot Co‐speech Gesture Synthesis for Handheld Props'
@@ -1315,7 +1315,7 @@
   approach: [vae, flow-matching]
   setting: [dyadic]
   realtime: real-time
-  latency: over 300 FPS inference; 60 fps in live VR deployment with 4-frame chunks
+  latency: over 300 FPS on an A100 GPU
   datasets: [embody-3d]
   metrics: [fgd, other, foot-sliding]
   user_study: false
@@ -1323,7 +1323,7 @@
   notes: 'Other metrics: FGD acceleration, foot sliding, wrist velocity variance, head angle alignment.'
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: nichols2026holistic
   title: Holistic LLM-Based Expressive Behavior Generation for Robots
@@ -1448,7 +1448,7 @@
   category: method
   arxiv: '2602.23165'
   links: {paper: 'https://openaccess.thecvf.com/content/CVPR2026/html/Peng_DyaDiT_A_Multi-Modal_Diffusion_Transformer_for_Socially_Favorable_Dyadic_Gesture_CVPR_2026_paper.html', open: 'https://arxiv.org/abs/2602.23165', project: 'https://puckikk1202.github.io/dyadit_hp/'}
-  input: [audio, interlocutor]
+  input: [audio, interlocutor, seed-motion]
   output: [upper-body, hands]
   representation: [joints-3d]
   approach: [vq, diffusion]
@@ -1461,7 +1461,7 @@
   notes: Social context tokens are relationship type and personality scores.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: pinyoanuntapong2026interactgesture
   title: 'InteractGesture: Progressive Chunk Guidance for Continuous Streaming Co-Speech Gesture Control'
@@ -1485,7 +1485,7 @@
   notes: Wraps a pretrained GestureLSM generator. The arXiv comment reads ECCV 2026 Workshop - Interactive Social Avatars. Spatial control errors (average control, location, trajectory error) are reported as additional metrics.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: qi2026coherent
   title: 'Towards Coherent Co-speech Gesture Generation: Multimodal Approaches for Emotional, Generalized, and Interactive Modeling'
@@ -1608,16 +1608,17 @@
   output: [full-body, hands, face]
   representation: [video-pixels]
   approach: [diffusion, autoregressive, gan]
+  setting: [dyadic]
   realtime: real-time
   latency: 25 FPS with about 1.20 s end-to-end latency on dual H800 GPUs
-  datasets: [custom]
+  datasets: [speakervid-5m, custom]
   metrics: [fid, fvd, lip-sync, hkv, nr-quality]
   user_study: true
   summary: Distils a human video diffusion model into a causal streaming generator with adversarial refinement to produce talking and listening avatar video with gestures from an image and audio.
   notes: Trained on about 200 hours of SpeakerVid-5M and self-collected video; other metrics include hand keypoint variance and Q-Align.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: sun2026coshdit
   title: 'Cosh-DiT: Co-Speech Gesture Video Synthesis via Hybrid Audio-Visual Diffusion Transformers'
@@ -1984,16 +1985,16 @@
   representation: [video-pixels]
   approach: [diffusion, other]
   setting: [monologue]
-  realtime: unreported
+  realtime: offline
   latency: 1.515 s to generate 1 s of 25 fps video
-  datasets: [pats, custom]
+  datasets: [pats, custom, hdtf, crema-d, ravdess, mead, cmlr]
   metrics: [fid, fvd, image-quality, diversity, lip-sync, other]
   user_study: false
   summary: A two-stage method predicts implicit motion features from audio and a source image with a Mamba-enhanced diffusion model and then renders talking-head and co-speech gesture video.
   notes: 'Also evaluated on CREMA-D, RAVDESS, HDTF, MEAD and CMLR; trained on a collected 380-hour dataset (DiverseHeads); other metrics: head pose error, temporal gesture distance.'
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: wright2026perceiving
   title: 'Perceiving an Avatar''s Epistemic Stance: A Parametric Reverse-Correlation Study of Visual Gestures'

@@ -335,7 +335,7 @@
   approach: [llm, diffusion]
   setting: [monologue]
   realtime: unreported
-  datasets: [custom]
+  datasets: [talkcuts]
   metrics: [fid, fvd, image-quality, lip-sync]
   user_study: false
   summary: Dataset of 164k speech video clips (over 500 hours) with text descriptions, 2D keypoints and SMPL-X annotations, with an LLM-directed multi-shot video generation baseline (Orator).
@@ -568,14 +568,14 @@
   approach: [vq, diffusion, llm]
   setting: [monologue]
   realtime: unreported
-  datasets: [custom, show]
+  datasets: [hdav, show, hdtf, mvhumannet, tiktok]
   metrics: [fid, fgd, diversity, face-error, lip-sync, image-quality]
   user_study: true
   summary: Two-stage audio-driven human video synthesis that maps audio to upper-body and facial motion with an LLM-prior diffusion model, then renders video with a mixture-of-experts diffusion model.
   notes: Introduces a 2,203-identity video dataset (HDAV); authors state code, data and weights will be released.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: dogan2025early
   title: Early parental multimodal input is differentially associated with later vocabulary knowledge for preterm and full-term infants
@@ -783,7 +783,7 @@
   arxiv: '2508.12020'
   links: {paper: 'https://doi.org/10.1109/vcip67698.2025.11396818', open: 'https://arxiv.org/abs/2508.12020'}
   representation: [smpl-x]
-  datasets: [beat2]
+  datasets: [beat2, ges-qa]
   languages: [en]
   metrics: [other]
   user_study: true
@@ -791,7 +791,7 @@
   notes: Ges-QA samples come from six existing audio-to-gesture generators on BEAT2; quality-prediction metrics are SRCC, PLCC, KRCC and RMSE.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: gao2025sarges
   title: 'SARGes: Semantically Aligned Reliable Gesture Generation via Intent Chain'
@@ -1401,15 +1401,16 @@
   arxiv: '2410.04221'
   links: {paper: 'https://proceedings.iclr.cc/paper_files/paper/2025/file/81a0a519bf7ef7757ff46df2065e7051-Paper-Conference.pdf', open: 'https://arxiv.org/abs/2410.04221', project: 'https://pantomatrix.github.io/TANGO/'}
   input: [audio, video]
+  output: [upper-body]
   representation: [video-pixels]
   approach: [retrieval, diffusion]
   setting: [monologue]
   realtime: unreported
-  datasets: [show, custom]
+  datasets: [show, youtube-business]
   metrics: [fvd, fgd, beat-align, diversity, image-quality]
   user_study: true
   summary: Retrieves reference video clips from a motion graph using a joint audio-motion embedding and fills transitions with a diffusion-based frame interpolation model to produce speech-synchronized body gesture videos.
-  notes: Also trained and evaluated on a new YouTube Business set (12 speakers, about 1 hour) collected by the authors. Candidate metadata from one source lists ICLR; not confirmed in the text read, so recorded as preprint.
+  notes: Also introduces and releases the YouTube Business set (12 speakers, under one hour).
   added: '2026-10-03'
   checked: full-text
   verified: false
@@ -1601,14 +1602,14 @@
   approach: [diffusion]
   setting: [monologue]
   realtime: unreported
-  datasets: [custom]
-  metrics: [fid, fvd, image-quality, e-fid, lip-sync, hkc, hkv, other]
+  datasets: [custom, humanvid, emtd]
+  metrics: [fid, fvd, image-quality, e-fid, lip-sync, hkc, hkv, identity-similarity]
   user_study: false
   summary: A latent video diffusion model animates a half-body reference image from audio and a hand pose sequence, using audio-pose harmonization during training.
   notes: Also trained on HumanVid; introduces the EMTD half-body benchmark built from TED videos.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: meng2025varges
   title: 'VarGes: Improving Variation in Co-Speech 3D Gesture Generation via StyleCLIPS'
@@ -1768,8 +1769,9 @@
   input: [text, audio]
   output: [face]
   approach: [retrieval]
+  setting: [monologue]
   realtime: unreported
-  datasets: [custom]
+  datasets: [custom, mead]
   languages: [ja]
   metrics: []
   user_study: true
@@ -1844,7 +1846,7 @@
   notes: A 2025 conference version exists under DOI 10.1117/12.3060395; venue not confirmed.
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: peng2025twostage
   title: A Two‐Stage Controllable Co‐Speech Gesture Generation Method
@@ -2365,7 +2367,7 @@
   notes: 'Other metrics: E-FID, CSIM and general video-quality scores (subject and background consistency, motion smoothness, dynamic degree, aesthetic and imaging quality).'
   added: '2026-10-03'
   checked: full-text
-  verified: false
+  verified: true
 
 - id: wolfer2025speech
   title: Co-speech gesture comprehension in autistic children
@@ -2756,6 +2758,7 @@
   representation: [keypoints-2d]
   approach: [diffusion]
   realtime: unreported
+  datasets: [speech2gesture, f2td]
   metrics: [joint-error, pck, fgd, beat-align, diversity]
   user_study: true
   summary: Reconstructs 2D gesture keypoints from fMRI recordings of speech stimuli using conditional diffusion models trained on unpaired data by aligning fMRI-to-text-to-gesture and fMRI-to-gesture outputs.
