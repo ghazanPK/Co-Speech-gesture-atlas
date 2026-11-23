@@ -26,7 +26,7 @@
 <rect x="317.9" y="225.8" width="18.1" height="28.2" class="t"><title>1997: 18 theory</title></rect>
 <rect x="317.9" y="221.1" width="18.1" height="4.7" class="g"><title>1997: 3 generation</title></rect>
 <rect x="339.0" y="211.8" width="18.1" height="42.2" class="t"><title>1998: 27 theory</title></rect>
-<rect x="339.0" y="205.5" width="18.1" height="6.3" class="g"><title>1998: 4 generation</title></rect>
+<rect x="339.0" y="203.9" width="18.1" height="7.8" class="g"><title>1998: 5 generation</title></rect>
 <rect x="360.0" y="214.9" width="18.1" height="39.1" class="t"><title>1999: 25 theory</title></rect>
 <rect x="360.0" y="207.1" width="18.1" height="7.8" class="g"><title>1999: 5 generation</title></rect>
 <rect x="381.1" y="203.9" width="18.1" height="50.1" class="t"><title>2000: 32 theory</title></rect>
@@ -35,7 +35,7 @@
 <rect x="402.2" y="221.1" width="18.1" height="32.9" class="t"><title>2001: 21 theory</title></rect>
 <rect x="402.2" y="211.8" width="18.1" height="9.4" class="g"><title>2001: 6 generation</title></rect>
 <rect x="423.3" y="197.7" width="18.1" height="56.3" class="t"><title>2002: 36 theory</title></rect>
-<rect x="423.3" y="185.2" width="18.1" height="12.5" class="g"><title>2002: 8 generation</title></rect>
+<rect x="423.3" y="186.7" width="18.1" height="11.0" class="g"><title>2002: 7 generation</title></rect>
 <rect x="444.3" y="218.0" width="18.1" height="36.0" class="t"><title>2003: 23 theory</title></rect>
 <rect x="444.3" y="211.8" width="18.1" height="6.3" class="g"><title>2003: 4 generation</title></rect>
 <rect x="465.4" y="203.9" width="18.1" height="50.1" class="t"><title>2004: 32 theory</title></rect>
@@ -83,12 +83,12 @@
 <rect x="865.7" y="164.8" width="18.1" height="89.2" class="t"><title>2023: 57 theory</title></rect>
 <rect x="865.7" y="72.5" width="18.1" height="92.3" class="g"><title>2023: 59 generation</title></rect>
 <rect x="886.8" y="149.2" width="18.1" height="104.8" class="t"><title>2024: 67 theory</title></rect>
-<rect x="886.8" y="24.0" width="18.1" height="125.2" class="g"><title>2024: 80 generation</title></rect>
+<rect x="886.8" y="27.1" width="18.1" height="122.0" class="g"><title>2024: 78 generation</title></rect>
 <rect x="907.9" y="172.6" width="18.1" height="81.4" class="t"><title>2025: 52 theory</title></rect>
-<rect x="907.9" y="27.1" width="18.1" height="145.5" class="g"><title>2025: 93 generation</title></rect>
+<rect x="907.9" y="24.0" width="18.1" height="148.6" class="g"><title>2025: 95 generation</title></rect>
 <text x="916.9" y="270" text-anchor="middle">2025</text>
 <rect x="928.9" y="178.9" width="18.1" height="75.1" class="t"><title>2026: 48 theory</title></rect>
-<rect x="928.9" y="49.0" width="18.1" height="129.9" class="g"><title>2026: 83 generation</title></rect>
+<rect x="928.9" y="50.6" width="18.1" height="128.3" class="g"><title>2026: 82 generation</title></rect>
 <text x="38" y="258.0" text-anchor="end">0</text>
 <line x1="44" y1="254.0" x2="950" y2="254.0" stroke="#9ca3af" stroke-opacity="0.25"/>
 <text x="38" y="226.7" text-anchor="end">20</text>

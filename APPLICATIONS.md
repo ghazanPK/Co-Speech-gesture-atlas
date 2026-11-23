@@ -1,6 +1,6 @@
 # From Methods to Applications
 
-Across the atlas’s **635 gesture-generation papers**, our audit identifies only **16 method papers across 8 groups**, with each group reused in **two or more applications or related studies**, including **museum guides, healthcare counselors and conversational robots**. The strongest documented interactive reuse remains concentrated in older **BEAT/REA** pipelines, showing why application uptake matters alongside the number of new methods published. [Where and how are they used? →](APPLICATIONS.md#method-group-counts)
+Across the atlas’s **634 gesture-generation papers**, our audit identifies only **16 method papers across 8 groups**, with each group reused in **two or more applications or related studies**, including **museum guides, healthcare counselors and conversational robots**. The strongest documented interactive reuse remains concentrated in older **BEAT/REA** pipelines, showing why application uptake matters alongside the number of new methods published. [Where and how are they used? →](APPLICATIONS.md#method-group-counts)
 
 | Method group / methods used | Method years | Functional interactive papers | Adjacent usage papers¹ |
 |---|---|---:|---:|

@@ -13,10 +13,10 @@ Every paper as a comparison row, not a bare link. Every dataset and metric defin
 
 <!-- BEGIN:stats -->
 <p align="center">
-<img alt="papers" src="https://img.shields.io/badge/papers-2%2C729-2a6f97">
+<img alt="papers" src="https://img.shields.io/badge/papers-2%2C728-2a6f97">
 <img alt="datasets" src="https://img.shields.io/badge/datasets-77-2a6f97">
 <img alt="metrics" src="https://img.shields.io/badge/metrics-42-2a6f97">
-<img alt="citation links" src="https://img.shields.io/badge/citation%20links-32%2C888-2a6f97">
+<img alt="citation links" src="https://img.shields.io/badge/citation%20links-32%2C886-2a6f97">
 <img alt="years" src="https://img.shields.io/badge/years-1965–2026-555">
 <img alt="data" src="https://img.shields.io/badge/data-CC0-c9a227">
 <img alt="scripts" src="https://img.shields.io/badge/scripts-MIT-c9a227">
@@ -24,7 +24,7 @@ Every paper as a comparison row, not a bare link. Every dataset and metric defin
 
 | Gesture generation | Gesture theory | Theses | With code | Read from full text | Verified twice |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **635** papers | **2011** papers | **83** | **83** | **581** | **192** |
+| **634** papers | **2011** papers | **83** | **83** | **580** | **192** |
 
 1844 records were filled from the abstract only (†) and 304 from bibliographic metadata only (‡), mostly where the full text is behind a paywall.
 <!-- END:stats -->
@@ -34,7 +34,7 @@ Every paper as a comparison row, not a bare link. Every dataset and metric defin
 ## Finding: methods used in applications
 
 <!-- BEGIN:applications -->
-Across the atlas’s **635 gesture-generation papers**, our audit identifies only **16 method papers across 8 groups**, with each group reused in **two or more applications or related studies**, including **museum guides, healthcare counselors and conversational robots**. The strongest documented interactive reuse remains concentrated in older **BEAT/REA** pipelines, showing why application uptake matters alongside the number of new methods published. [Where and how are they used? →](APPLICATIONS.md#method-group-counts)
+Across the atlas’s **634 gesture-generation papers**, our audit identifies only **16 method papers across 8 groups**, with each group reused in **two or more applications or related studies**, including **museum guides, healthcare counselors and conversational robots**. The strongest documented interactive reuse remains concentrated in older **BEAT/REA** pipelines, showing why application uptake matters alongside the number of new methods published. [Where and how are they used? →](APPLICATIONS.md#method-group-counts)
 
 | Method group / methods used | Method years | Functional interactive papers | Adjacent usage papers¹ |
 |---|---|---:|---:|
@@ -113,7 +113,6 @@ Methods and systems, newest first, ordered by venue within each year.
 | 2026 International Conference on Multimedia Retrieval | [NeRAG: Neuro-Explicit Retrieval-Augmented Generation for Real-Time Interaction in Digital Humans](https://doi.org/10.1145/3805622.3810842)† |  |  | retrieval, hybrid |  |  |
 | AAAI | [DialoGen: Towards Dialog Gesture Generation via Identity-Decoupled Style Guidance in Interactive Diffusion Model](https://ojs.aaai.org/index.php/AAAI/article/view/38327) | audio, text, speaker-id, interlocutor | full-body, hands | diffusion | dyadic |  |
 | AAAI | [Mitigating Error Accumulation in Co-Speech Motion Generation via Global Rotation Diffusion and Multi-Level Constraints](https://ojs.aaai.org/index.php/AAAI/article/view/38281) · [open copy](https://arxiv.org/abs/2511.10076) · [project](https://xiangyuezhang.com/GlobalDiff/) | audio, speaker-id, seed-motion | upper-body, hands, face | diffusion, flow-matching | monologue | [code](https://github.com/Xiangyue-Zhang/GlobalDiff) + weights |
-| AAAI | [Playmate2: Training-Free Multi-Character Audio-Driven Animation via Diffusion Transformer with Reward Feedback](https://arxiv.org/abs/2510.12089) · [project](https://playmate111.github.io/Playmate2/) | text, audio, image | upper-body, face | diffusion, flow-matching | monologue, multi-party |  |
 | AAAI | [Streaming Generation of Co-Speech Gestures via Accelerated Rolling Diffusion](https://doi.org/10.1609/aaai.v40i31.39807) · [open copy](https://ojs.aaai.org/index.php/AAAI/article/download/39807/43768) | audio, style, speaker-id | full-body | diffusion | monologue | [code](https://github.com/andrewbo29/co-speech-gestures-rolling-diffusion) |
 | AAAI | [Training-Free Multi-Character Audio-Driven Animation via Diffusion Transformer with Reward Feedback](https://ojs.aaai.org/index.php/AAAI/article/view/37725) · [project](https://playmate111.github.io/Playmate2/) | text, audio, image | upper-body, face | diffusion, flow-matching | monologue, multi-party |  |
 | ACM MM | [Real-Time Co-Speech Gesture Video Generation](https://doi.org/10.1145/3767308.3834918)† | audio, image | upper-body |  |  |  |
@@ -129,10 +128,11 @@ Methods and systems, newest first, ordered by venue within each year.
 | Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction | [An Interaction Motion Generation Model Based on A Diffusion Model and Graph Attention for Back-Channel Behavior Synthesis](https://doi.org/10.1145/3776734.3794490)† | interlocutor |  | diffusion | dyadic |  |
 | Companion Proceedings of the 21st ACM/IEEE International Conference on Human-Robot Interaction | [Holistic LLM-Based Expressive Behavior Generation for Robots](https://doi.org/10.1145/3776734.3794507)† | text |  | llm |  |  |
 | CVPR | [CoordSpeaker: Exploiting Gesture Captioning for Coordinated Caption-Empowered Co-Speech Gesture Generation](https://youngseng.github.io/publications/) · [open copy](https://arxiv.org/abs/2511.22863) | audio, text | full-body, hands | vae, diffusion | monologue |  |
-| CVPR | [DyaDiT: A Multi-Modal Diffusion Transformer for Socially Favorable Dyadic Gesture Generation](https://openaccess.thecvf.com/content/CVPR2026/html/Peng_DyaDiT_A_Multi-Modal_Diffusion_Transformer_for_Socially_Favorable_Dyadic_Gesture_CVPR_2026_paper.html) · [open copy](https://arxiv.org/abs/2602.23165) · [project](https://puckikk1202.github.io/dyadit_hp/) | audio, interlocutor, seed-motion | upper-body, hands | vq, diffusion | dyadic |  |
+| CVPR | [DyaDiT: A Multi-Modal Diffusion Transformer for Socially Favorable Dyadic Gesture Generation](https://openaccess.thecvf.com/content/CVPR2026/html/Peng_DyaDiT_A_Multi-Modal_Diffusion_Transformer_for_Socially_Favorable_Dyadic_Gesture_CVPR_2026_paper.html) · [open copy](https://arxiv.org/abs/2602.23165) · [project](https://puckikk1202.github.io/dyadit_hp/) | audio, interlocutor | upper-body, hands | vq, diffusion | dyadic |  |
 | CVPR | [MIBURI: Towards Expressive Interactive Gesture Synthesis](https://arxiv.org/abs/2603.03282) · [project](https://vcai.mpi-inf.mpg.de/projects/MIBURI/) | audio, text, speaker-id | full-body, hands, face | vq, autoregressive | monologue |  |
 | CVPR | [StreamAvatar: Streaming Diffusion Models for Real-Time Interactive Human Avatars](https://arxiv.org/abs/2512.22065) · [project](https://streamavatar.github.io) | audio, image, text, interlocutor | full-body, hands, face | diffusion, autoregressive, gan |  |  |
 | CVPR | [ViBES: A Conversational Agent with Behaviorally-Intelligent 3D Virtual Body](https://arxiv.org/abs/2512.14234) · [project](https://ai.stanford.edu/~juze/ViBES/) | text, audio, seed-motion | full-body, hands, face | autoregressive | dyadic |  |
+| ECCV | [CtrlCoMo: Controllable Co-speech Motion Generation with Gesture–Action Disentanglement](https://doi.org/10.1007/978-3-032-37211-6_15) | audio, text | upper-body, hands | vq, autoregressive | monologue |  |
 | ECCV | [SICAGE: Speaker-Independent Culture-Aware Gesture Generation using TED4C-L Dataset](https://doi.org/10.1007/978-3-032-37225-3_22) · [open copy](https://arxiv.org/abs/2606.30001) · [project](https://arielgjaci.com/sicage) | audio, text, seed-motion | upper-body | vq, diffusion | monologue | [code](https://arielgjaci.com/sicage) |
 | ECCV | [StreamTalk: Streaming Co-Speech Gesture Generation with Key-Pose Anchoring](https://doi.org/10.1007/978-3-032-37595-7_32) · [open copy](https://arxiv.org/abs/2608.01643) · [project](https://xiangyue-zhang.github.io/StreamTalk/) | audio, speaker-id | full-body, hands | flow-matching, retrieval | monologue |  |
 | ECCV 2026 Workshop on Interactive Social Avatars | [InteractGesture: Progressive Chunk Guidance for Continuous Streaming Co-Speech Gesture Control](https://www.ekkasit.com/interactgesture-page/) · [open copy](https://arxiv.org/abs/2608.25734) · [project](https://exitudio.github.io/interactgesture-page) | audio | full-body | vq, diffusion | monologue |  |
@@ -156,7 +156,6 @@ Methods and systems, newest first, ordered by venue within each year.
 | IJCV | [Cosh-DiT: Co-Speech Gesture Video Synthesis via Hybrid Audio-Visual Diffusion Transformers](https://doi.org/10.1007/s11263-026-02752-z) · [open copy](https://arxiv.org/abs/2503.09942) · [project](https://sunyasheng.github.io/projects/COSH-DIT) | audio, image | upper-body, hands, face | vq, diffusion | monologue |  |
 | JAV-CG @ ACM Multimedia 2026 | [EMODY Flow: Emotion-Aware Audio-Driven Full-Body Motion Generation](https://arxiv.org/abs/2609.16011) | audio, emotion | full-body, face | flow-matching | monologue | [code](https://github.com/krag-harsh/EMODY-Flow) |
 | LNCS | [AsynFusion: Towards Asynchronous Latent Consistency Models for Decoupled Whole-Body Audio-Driven Avatars](https://doi.org/10.1007/978-981-95-5676-2_35) · [open copy](https://arxiv.org/abs/2505.15058) | audio, speaker-id | upper-body, face | diffusion | monologue |  |
-| LNCS | [CtrlCoMo: Controllable Co-speech Motion Generation with Gesture–Action Disentanglement](https://doi.org/10.1007/978-3-032-37211-6_15) | audio, text | upper-body, hands | vq, autoregressive | monologue |  |
 | LNCS | [FaceCapGes: Real-Time Frame-by-Frame Gesture Generation from Audio, Facial Capture, and Head Pose](https://doi.org/10.1007/978-3-032-22267-1_33) | audio | upper-body, hands | gan, autoregressive | monologue | [code](https://github.com/IORGestureTeam/FaceCapGes) |
 | LNCS | [RoboGesture: Real-Time Semantic-Aligned Co-speech Gestures Generation for Humanoid Interaction](https://doi.org/10.1007/978-3-032-37429-5_8) · [open copy](https://arxiv.org/abs/2608.28693) · [project](https://RoboGesture.github.io) | audio, seed-motion | upper-body, hands | diffusion, flow-matching | monologue |  |
 | LNCS | [SemConFlow: Semantic Grounding of Holistic Co-Speech Gesture Generation with Contrastive Flow-Matching](https://doi.org/10.1007/978-3-032-37232-1_29) · [open copy](https://arxiv.org/abs/2603.26553) · [project](https://marcos452.github.io/HoliticSemGes/) | audio, text | full-body, hands, face | vq, flow-matching | monologue |  |
@@ -174,7 +173,7 @@ Methods and systems, newest first, ordered by venue within each year.
 | TIP | [Generation in Generation: Fluid Co-Speech Gesture Synthesis With Generative Continuous Quantization](https://doi.org/10.1109/tip.2026.3715321)† | audio |  | other |  |  |
 | TMM | [MambaGesture2: Co-Speech Gesture Generation via Hierarchical Fusion and Spatiotemporal Aggregation](https://doi.org/10.1109/tmm.2026.3668541)† · [project](https://fcchit.github.io/mambagesture2) |  |  | diffusion |  |  |
 | TOG | [DynaConTalk: Wavelet-Constrained Diffusion for Long-Form and Controllable Holistic Co-Speech 3D Motion](https://doi.org/10.1145/3842553) · [open copy](https://arxiv.org/abs/2610.09846) | audio, text, speaker-id | full-body, hands, face | diffusion | monologue | [code](https://github.com/zhuyifeiabcd1/DynaConTalk) + weights |
-| TOG | [ProAct: Harnessing Streaming Motion Generation and Agentic Reasoning for Realtime Embodied Social Interaction](https://doi.org/10.1145/3842576) · [open copy](https://arxiv.org/abs/2602.14048) · [project](https://proactrobot.github.io/) | audio, text, interlocutor, image | upper-body | flow-matching, llm, hybrid | dyadic |  |
+| TOG | [ProAct: Harnessing Streaming Motion Generation and Agentic Reasoning for Real-Time Embodied Social Interaction](https://doi.org/10.1145/3842576) · [open copy](https://arxiv.org/abs/2602.14048) · [project](https://proactrobot.github.io/) | audio, text, interlocutor, image | upper-body | flow-matching, llm, hybrid | dyadic |  |
 | TVCG | [ExGes: Expressive Human Motion Retrieval and Modulation for Audio-Driven Gesture Synthesis](https://doi.org/10.1109/tvcg.2026.3679469) · [open copy](https://arxiv.org/abs/2503.06499) | audio | full-body | retrieval, diffusion | monologue |  |
 | WACV | [InteracTalker: Prompt-Based Human-Object Interaction with Co-Speech Gesture Generation](https://doi.org/10.1109/wacv61042.2026.00146) · [open copy](https://arxiv.org/abs/2512.12664) · [project](https://sreeharirajan.github.io/projects/InteracTalker/) | text, audio | full-body | diffusion | monologue |  |
 
@@ -198,7 +197,6 @@ Methods and systems, newest first, ordered by venue within each year.
 | CAVW | [A Two‐Stage Controllable Co‐Speech Gesture Generation Method](https://doi.org/10.1002/cav.70077) | audio, style | full-body, hands | llm, vq, diffusion | monologue |  |
 | CAVW | [RIDGE: Rule-Infused Deep Learning for Realistic Co-Speech Gesture Generation](https://doi.org/10.1002/cav.70034) · [project](https://www.mrlab.co.kr/research/ridge) | text | upper-body | hybrid, rule-based, retrieval | monologue |  |
 | CGF | [EmoDiffGes: Emotion‐Aware Co‐Speech Holistic Gesture Generation with Progressive Synergistic Diffusion](https://doi.org/10.1111/cgf.70261) | audio, text | full-body, face | vq, diffusion | monologue |  |
-| Communications in Computer and Information Science | [FastTalker: Co-Speech Gesture Generation via Fast-Order Diffusion ODE Solver](https://doi.org/10.1007/978-981-96-4279-3_6) | audio, text, seed-motion | full-body | diffusion | monologue |  |
 | CVM | [VarGes: Improving Variation in Co-Speech 3D Gesture Generation via StyleCLIPS](https://doi.org/10.26599/cvm.2025.9450477) · [open copy](https://arxiv.org/abs/2502.10729) | audio, video, speaker-id | full-body, hands, face | vq, autoregressive | monologue | [code](https://github.com/mookerr/VarGES/) |
 | CVPR | [AudCast: Audio-Driven Human Video Generation by Cascaded Diffusion Transformers](https://doi.org/10.1109/cvpr52734.2025.00998) · [open copy](https://arxiv.org/abs/2503.19824) · [project](https://guanjz20.github.io/projects/AudCast) | audio, image | hands, face | diffusion | monologue |  |
 | CVPR | [Co-Speech Gesture Video Generation with Implicit Motion-Audio Entanglement](https://doi.org/10.1109/cvpr52734.2025.01063)† | audio |  | diffusion |  |  |
@@ -224,12 +222,13 @@ Methods and systems, newest first, ordered by venue within each year.
 | ICCV | [SemGes: Semantics-aware Co-Speech Gesture Generation using Semantic Coherence and Relevance Learning](https://doi.org/10.1109/iccv51701.2025.01296) · [open copy](https://arxiv.org/abs/2507.19359) · [project](https://semgesture.github.io/) | audio, text, speaker-id | upper-body, hands | vq | monologue |  |
 | ICCV | [SemTalk: Holistic Co-speech Motion Generation with Frame-level Semantic Emphasis](https://doi.org/10.1109/iccv51701.2025.01277) · [open copy](https://arxiv.org/abs/2412.16563) · [project](https://xiangyuezhang.com/SemTalk/) | text, audio, seed-motion, speaker-id | full-body, hands, face | vq | monologue | [code](https://github.com/Xiangyue-Zhang/SemTalk) + weights |
 | ICLR | [Co$^{3}$Gesture: Towards Coherent Concurrent Co-speech 3D Gesture Generation with Interactive Diffusion](https://arxiv.org/abs/2505.01746) · [project](https://mattie-e.github.io/Co3/) | audio, interlocutor | upper-body, hands | diffusion | dyadic |  |
-| ICLR | [CyberHost: Taming Audio-driven Avatar Diffusion Model with Region Codebook Attention](https://arxiv.org/abs/2409.01876) · [project](https://cyberhost.github.io/) | audio, image | upper-body, hands, face | diffusion | monologue |  |
+| ICLR | [CyberHost: A One-stage Diffusion Framework for Audio-driven Talking Body Generation](https://arxiv.org/abs/2409.01876) · [project](https://cyberhost.github.io/) | audio, image | upper-body, hands, face | diffusion | monologue |  |
 | ICLR | [TANGO: Co-Speech Gesture Video Reenactment with Hierarchical Audio Motion Embedding and Diffusion Interpolation](https://proceedings.iclr.cc/paper_files/paper/2025/file/81a0a519bf7ef7757ff46df2065e7051-Paper-Conference.pdf) · [open copy](https://arxiv.org/abs/2410.04221) · [project](https://pantomatrix.github.io/TANGO/) | audio, video |  | retrieval, diffusion | monologue |  |
 | ICME | [Audio-driven Gesture Generation via Deviation Feature in the Latent Space](https://doi.org/10.1109/icme59968.2025.11209432) · [open copy](https://arxiv.org/abs/2503.21616) | audio, image | hands, face | diffusion | monologue |  |
 | ICMR | [Inter-Diffusion Generation Model of Speakers and Listeners for Effective Communication](https://doi.org/10.1145/3731715.3733366) · [open copy](https://arxiv.org/abs/2505.04996) | audio, interlocutor | full-body | diffusion, gan | dyadic |  |
 | IEEE Access | <a id="paper-ali2025multilingual"></a>[Expanding Multilingual Co-Speech Interaction: The Impact of Enhanced Gesture Units in Text-to-Gesture Synthesis for Digital Humans](https://doi.org/10.1109/access.2025.3596328) · [open copy](https://www.researchsquare.com/article/rs-3350470/latest.pdf) | text | upper-body | retrieval | monologue |  |
 | IEEE CG&A | [SSGesture: Multimodal Gesture Generation Framework for Human Animation Synthesis](https://doi.org/10.1109/mcg.2025.3577477)† |  |  | diffusion |  |  |
+| IFTC | [FastTalker: Co-Speech Gesture Generation via Fast-Order Diffusion ODE Solver](https://doi.org/10.1007/978-981-96-4279-3_6) | audio, text, seed-motion | full-body | diffusion | monologue |  |
 | IJCAI | [SyncAnimation: A Real-Time End-to-End Framework for Audio-Driven Human Pose and Talking Head Animation](https://doi.org/10.24963/ijcai.2025/185) · [open copy](https://arxiv.org/abs/2501.14646) · [project](https://syncanimation.github.io) | audio, image | upper-body, face | vae, other | monologue |  |
 | IJCB | [Hierarchical Emotion-Guided Masked Transformer for Long-Sequence Co-Speech Gestures with Partial Supervision](https://doi.org/10.1109/ijcb65343.2025.11411217)† | audio, emotion |  | masked-modeling, vq |  |  |
 | IJHCS | [Evaluating the effect of co-speech gesture prediction on Human–Robot Interaction](https://doi.org/10.1016/j.ijhcs.2025.103674)† |  |  |  |  |  |
@@ -240,8 +239,10 @@ Methods and systems, newest first, ordered by venue within each year.
 | NeurIPS | [Let Them Talk: Audio-Driven Multi-Person Conversational Video Generation](https://doi.org/10.52202/085713-2387) · [open copy](https://arxiv.org/abs/2505.22647) · [project](https://meigen-ai.github.io/multi-talk/) | audio, image, text | upper-body, face | diffusion | multi-party |  |
 | NeurIPS | [PyraMotion: Attentional Pyramid-Structured Motion Integration for Co-Speech 3D Gesture Synthesis](https://doi.org/10.52202/085713-4634)† | audio | full-body, hands, face, locomotion | vq |  |  |
 | Neurocomputing | [Co-speech video generation via motion transfer based on diffusion models](https://doi.org/10.1016/j.neucom.2025.130833)‡ |  |  |  |  |  |
+| NLPCC | [Optimized Conversational Gesture Generation with Enhanced Motion Feature Extraction and Cascaded Generator](https://doi.org/10.1007/978-981-97-9437-9_29) | audio, text | upper-body, hands | gan | monologue |  |
 | Pattern Recognition | [MMoFusion: Multi-modal Co-Speech Motion Generation with Diffusion Model](https://doi.org/10.1016/j.patcog.2025.111774) · [open copy](https://arxiv.org/abs/2403.02905) · [project](https://mmofusion.github.io/) | audio, text, speaker-id, emotion | upper-body, full-body | diffusion | monologue |  |
 | PLoS ONE | [Generating interaction gestures in dyadic conversations using a diffusion model](https://doi.org/10.1371/journal.pone.0339579) | audio, interlocutor | upper-body | diffusion | dyadic | [code](https://github.com/animawer/idm/tree/main) |
+| PRCV | [MMIDM: Generating 3D Gesture from Multimodal Inputs with Diffusion Models](https://doi.org/10.1007/978-981-97-8508-7_22) | text, audio, speaker-id, emotion | upper-body | diffusion | monologue |  |
 | RO-MAN | [LLM-Driven Approach for Motion Control in Human-Robot Dialogue for Elevating Engagement](https://doi.org/10.1109/ro-man63969.2025.11217871)† · [open copy](https://naist.repo.nii.ac.jp/record/2001286/files/ROMAN_FinalVersion.pdf) |  |  | llm |  |  |
 | SIGGRAPH | [Co-Speech Gesture and Facial Expression Generation for Non-Photorealistic 3D Characters](https://doi.org/10.1145/3721250.3742976) · [open copy](https://arxiv.org/abs/2506.16159) | text, audio | face | retrieval |  |  |
 | SIGGRAPH | [Motion-example-controlled Co-speech Gesture Generation Leveraging Large Language Models](https://doi.org/10.1145/3721238.3730611) · [open copy](https://arxiv.org/abs/2507.20220) · [project](https://robinwitch.github.io/MECo-Page) | audio, seed-motion | full-body, hands | llm, vq | monologue |  |
@@ -296,7 +297,7 @@ Methods and systems, newest first, ordered by venue within each year.
 | Electronics | [TAG2G: A Diffusion-Based Approach to Interlocutor-Aware Co-Speech Gesture Generation](https://doi.org/10.3390/electronics13173364) · [open copy](https://www.mdpi.com/2079-9292/13/17/3364/pdf?version=1724486119) | text, audio, speaker-id, seed-motion, interlocutor |  | vq, diffusion | dyadic | [code](https://github.com/filippofavali/TAG2G/tree/dyadic) |
 | ELKOMIKA | [Pengembangan dan Evaluasi Agen Virtual dengan Model Generasi Gestur berbasis Aturan Sederhana](https://doi.org/10.26760/elkomika.v12i4.953) · [open copy](https://ejurnal.itenas.ac.id/index.php/elkomika/article/download/12524/3786) | text |  | rule-based |  |  |
 | Frontiers in Robotics and AI | [Evaluation of co-speech gestures grounded in word-distributed representation](https://doi.org/10.3389/frobt.2024.1362463) · [open copy](https://www.frontiersin.org/articles/10.3389/frobt.2024.1362463/pdf?isPublishedV2=False) | text | upper-body | rule-based | monologue |  |
-| HAI | [Gesture Generation from Trimodal Context for Humanoid Robots](https://doi.org/10.1145/3687272.3690905) · [open copy](https://arxiv.org/abs/2409.05010) | audio, text, speaker-id | upper-body |  | monologue |  |
+| HAI | [Gesture Generation from Trimodal Context for Humanoid Robots](https://doi.org/10.1145/3687272.3690905) · [open copy](https://arxiv.org/abs/2409.05010) | audio, text, speaker-id | upper-body |  |  |  |
 | IALP | [MDG:Multilingual Co-speech Gesture Generation with Low-level Audio Representation and Diffusion Models](https://doi.org/10.1109/ialp63756.2024.10661182)† | audio |  | diffusion |  |  |
 | ICASSP | [Conversational Co-Speech Gesture Generation via Modeling Dialog Intention, Emotion, and Context with Diffusion Models](https://doi.org/10.1109/icassp48485.2024.10448208) · [open copy](https://arxiv.org/abs/2312.15567) · [video](https://youtu.be/JHkyoI0qFNA) | audio, text, emotion, interlocutor | hands | diffusion | dyadic |  |
 | ICASSP | [Freetalker: Controllable Speech and Text-Driven Gesture Generation Based on Diffusion Models for Enhanced Speaker Naturalness](https://doi.org/10.1109/icassp48485.2024.10447978) · [open copy](https://arxiv.org/abs/2401.03476) · [project](https://youngseng.github.io/FreeTalker/) | audio, text | full-body, hands | diffusion | monologue |  |
@@ -316,8 +317,6 @@ Methods and systems, newest first, ordered by venue within each year.
 | IVA | [Modifying Gesture Style with Impression Words](https://doi.org/10.1145/3652988.3673931)† | style |  | gan, llm |  |  |
 | Lecture Notes in Bioengineering | [Design and Implementation of a Storytelling Robot: Preliminary Evaluation of a GAN-Based Model for Co-Speech Gesture Generation](https://link.springer.com/chapter/10.1007/978-3-031-77318-1_25)† | text, audio |  | gan |  |  |
 | LNCS | [Co-speech Gesture Generation with Variational Auto Encoder](https://doi.org/10.1007/978-3-031-53311-2_12) | audio | upper-body | vae | monologue |  |
-| LNCS | [MMIDM: Generating 3D Gesture from Multimodal Inputs with Diffusion Models](https://doi.org/10.1007/978-981-97-8508-7_22) | text, audio, speaker-id, emotion | upper-body | diffusion | monologue |  |
-| LNCS | [Optimized Conversational Gesture Generation with Enhanced Motion Feature Extraction and Cascaded Generator](https://doi.org/10.1007/978-981-97-9437-9_29) | audio, text | upper-body, hands | gan | monologue |  |
 | LNCS | [PIDM: Personality-Aware Interaction Diffusion Model for Gesture Generation](https://doi.org/10.1007/978-3-031-72356-8_2) | audio, interlocutor | upper-body | diffusion | dyadic |  |
 | NeurIPS | [MambaTalk: Efficient Holistic Gesture Synthesis with Selective State Space Models](https://doi.org/10.52202/079017-0633) · [open copy](https://arxiv.org/abs/2403.09471) · [project](https://kkakkkka.github.io/MambaTalk/) | audio, text, speaker-id | face, hands, upper-body, full-body | vq, other | monologue | [code](https://github.com/kkakkkka/MambaTalk) |
 | Neurocomputing | [Learning hierarchical discrete prior for co-speech gesture generation](https://doi.org/10.1016/j.neucom.2024.127831)† | audio, text |  | vq |  |  |
@@ -748,7 +747,6 @@ Methods and systems, newest first, ordered by venue within each year.
 | Eurographics Workshop on Virtual Environments | [Avatar Markup Language](https://diglib.eg.org/items/73cc35d6-df6a-401e-8703-c466a6ecf7e0)† |  |  |  |  |  |
 | GW | [Lifelike Gesture Synthesis and Timing for Conversational Agents](https://doi.org/10.1007/3-540-47873-6_13) | text | upper-body, hands | rule-based | monologue |  |
 | KONVENS | [Generation of multi-modal dialogue for a net environment](https://oro.open.ac.uk/3189/1/konvens2002_final.pdf)† |  |  |  |  |  |
-| PCCGA | [Gesticulation behaviors for virtual humans](https://doi.org/10.1109/pccga.1998.732100) · [open copy](https://repository.upenn.edu/hms/21) | text | upper-body, hands, locomotion | rule-based | monologue |  |
 
 ### 2001
 
@@ -786,6 +784,7 @@ Methods and systems, newest first, ordered by venue within each year.
 | AAAI Workshop | [Task-Oriented Dialogs with Animated Agents in Virtual Reality](https://www.aaai.org/Papers/Workshops/1998/WS-98-09/WS98-09-014.pdf)† |  |  |  |  |  |
 | Computer Vision for Human-Machine Interaction | [A Framework for Gesture Generation and Interpretation](https://doi.org/10.1017/cbo9780511569937.013)† |  | hands, face | rule-based |  |  |
 | MIT Media Lab | [Embodied Conversation: Integrating Face and Gesture into Automatic Spoken Dialogue Systems](https://www.media.mit.edu/gnl/discint99/papers/cassell_toappear.pdf)† |  | hands, face |  |  |  |
+| PCCGA | [Gesticulation behaviors for virtual humans](https://doi.org/10.1109/pccga.1998.732100) · [open copy](https://repository.upenn.edu/hms/21) | text | upper-body, hands, locomotion | rule-based | monologue |  |
 
 ### 1997
 
@@ -1037,23 +1036,21 @@ Doctoral and master's theses on gesture generation and on gesture theory. They a
 | [SaGA (Bielefeld Speech and Gesture Alignment Corpus)](https://link.springer.com/article/10.1007/s12193-012-0106-8) | 2014 | audio, video, annotations |  | 1.13 | de | dyadic | on-request | 5 |
 | [Audio2Photoreal conversations dataset](https://arxiv.org/abs/2401.01885) | 2024 | audio, video, body-motion, face-motion | mocap | 8 |  | dyadic | open | 4 |
 | [GENEA Challenge 2020 dataset](https://arxiv.org/abs/2102.11617) | 2020 | audio, text, body-motion | mocap | 4.07 | en | monologue | on-request | 4 |
-| [HDTF (High-Definition Talking Face)](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Flow-Guided_One-Shot_Talking_Face_Generation_With_a_High-Resolution_Audio-Visual_Dataset_CVPR_2021_paper.pdf) | 2021 | audio, video |  | 15.8 |  | monologue | open | 4 |
 | Trinity Speech-Gesture Dataset II (TSGD2) |  | audio, body-motion, hand-motion, annotations | mocap | 6 | en | monologue | open | 4 |
 | [EVA Corpus (Multimodal corpus EVA 1.0)](https://doi.org/10.1007/s10579-022-09627-y) | 2020 | audio, video, text, annotations |  | 0.95 | sl | multi-party | open | 3 |
+| [HDTF (High-Definition Talking Face)](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Flow-Guided_One-Shot_Talking_Face_Generation_With_a_High-Resolution_Audio-Visual_Dataset_CVPR_2021_paper.pdf) | 2021 | audio, video |  | 15.8 |  | monologue | open | 3 |
 | KIT Motion-Language Dataset |  |  |  |  |  |  |  | 3 |
 | [SeG (Semantic Gesture dataset)](https://arxiv.org/abs/2405.09814) | 2024 | body-motion, hand-motion, annotations | mocap |  |  |  | open | 3 |
-| [AVSpeech](https://arxiv.org/abs/1804.03619) | 2018 | audio, video |  | 4700 |  | monologue | open | 2 |
-| [CelebV-HQ](https://arxiv.org/abs/2207.12393) | 2022 | video, annotations |  | 65 |  |  | open | 2 |
 | [DnD Group Gesture Dataset](https://openaccess.thecvf.com/content/CVPR2024/html/Mughal_ConvoFusion_Multi-Modal_Conversational_Diffusion_for_Co-Speech_Gesture_Synthesis_CVPR_2024_paper.html) | 2024 | audio, text, video, body-motion, hand-motion, annotations | mocap | 6 | en | multi-party | open | 2 |
 | [JESTKOD database](https://doi.org/10.1007/s10579-016-9377-0) | 2015 | audio, video, body-motion, annotations | mocap |  | tr | dyadic |  | 2 |
 | LISI-HHI |  |  |  |  |  |  |  | 2 |
 | MSR-VTT subset with 3D upper-body actions and text descriptions (as used in the paper) |  |  |  |  |  |  |  | 2 |
-| OpenHumanVid |  |  |  |  |  |  |  | 2 |
 | [Seamless Interaction Dataset](https://arxiv.org/abs/2506.22554) | 2025 | audio, text, video, body-motion, hand-motion, face-motion, annotations | pose-estimation | 4000 |  | dyadic | open | 2 |
 | Takeuchi gesture-speech dataset |  |  |  |  |  |  |  | 2 |
-| [TFHP (Talking Face with Head Poses)](https://arxiv.org/abs/2310.00434) | 2024 | video, audio, face-motion | pose-estimation | 26.5 |  |  | on-request | 2 |
 | [AIST++](https://arxiv.org/abs/2101.08779) | 2021 | video, audio, body-motion | pose-estimation | 5.2 |  |  | open | 1 |
+| [AVSpeech](https://arxiv.org/abs/1804.03619) | 2018 | audio, video |  | 4700 |  | monologue | open | 1 |
 | [BiGe](https://dl.acm.org/doi/pdf/10.1145/3577190.3614135) | 2023 | audio, text, body-motion, hand-motion | pose-estimation | 260.6 |  | monologue | open | 1 |
+| [CelebV-HQ](https://arxiv.org/abs/2207.12393) | 2022 | video, annotations |  | 65 |  |  | open | 1 |
 | Chinese Announcer Speech (CAS) |  |  |  |  |  |  |  | 1 |
 | [CMU Panoptic Studio Haggling dataset](https://arxiv.org/abs/1906.04158) | 2019 | audio, video, body-motion, hand-motion, face-motion, annotations | mocap | 3 |  | multi-party | open | 1 |
 | CoHuMo |  |  |  |  |  |  |  | 1 |
@@ -1070,6 +1067,7 @@ Doctoral and master's theses on gesture generation and on gesture theory. They a
 | MSP-AVATAR corpus |  |  |  |  |  |  |  | 1 |
 | [Multi-TPC](https://www.nature.com/articles/s41597-026-06819-x) | 2025 | audio, text, body-motion, annotations | mocap | 5.3 |  | multi-party | open | 1 |
 | [Multiple Culture Gesture Dataset (MCGD)](https://dl.acm.org/doi/10.1145/3581783.3611705) | 2023 |  |  |  |  | monologue |  | 1 |
+| OpenHumanVid |  |  |  |  |  |  |  | 1 |
 | [RoboGesture dataset](https://arxiv.org/abs/2608.28693) | 2026 | audio, text, body-motion, hand-motion, annotations | mixed | 1000 |  |  |  | 1 |
 | [SAMP dataset](https://openaccess.thecvf.com/content/ICCV2021/html/Hassan_Stochastic_Scene-Aware_Motion_Prediction_ICCV_2021_paper.html) | 2021 | body-motion | mocap | 1.7 |  |  | on-request | 1 |
 | Story Dialogue with Gestures (SDG) |  |  |  |  |  |  |  | 1 |
@@ -1080,6 +1078,7 @@ Doctoral and master's theses on gesture generation and on gesture theory. They a
 | [TED-Culture Dataset](https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1546765/full) | 2024 | audio, text, body-motion, hand-motion | pose-estimation | 17.5 | id, ja, de, it, fr, tr | monologue | open | 1 |
 | TED-GVD (TED Gesture Video Dataset) |  |  |  |  |  |  |  | 1 |
 | [TED4C-L](https://arxiv.org/abs/2606.30001) | 2026 | audio, text, body-motion | pose-estimation | 106.45 | hi, it, ja, tr | monologue | open | 1 |
+| [TFHP (Talking Face with Head Poses)](https://arxiv.org/abs/2310.00434) | 2024 | video, audio, face-motion | pose-estimation | 26.5 |  |  | on-request | 1 |
 | [USC CreativeIT database](https://sail.usc.edu/publications/files/creativeit_database_mmc2010.pdf) | 2010 | audio, text, video, body-motion, annotations | mocap |  |  | dyadic | on-request | 1 |
 | [VENUS](https://aclanthology.org/2025.acl-long.112/) | 2025 | text, body-motion, hand-motion, face-motion | pose-estimation | 14910 | en | dyadic | open | 1 |
 | [WB-DH (Whole Body Digital Human Bench)](https://arxiv.org/abs/2508.08891) | 2025 | video, text, annotations |  |  |  |  | on-request | 1 |
@@ -1110,13 +1109,13 @@ Objective metrics reported by the papers above. Human evaluation is recorded per
 | Beat Alignment / Beat Consistency | BeatAlign, BA, BC, Beat Consistency Score, Beat Alignment Score | synchrony | higher | Detects motion beats (kinematic or bone-angle-change extrema) and audio beats (onsets) and averages a Gaussian-weighted distance between each beat and its nearest beat in the other stream. | 97 |
 | Diversity (average feature or pose distance between generated clips) | Div | diversity | higher | Encodes generated gesture clips with the same feature extractor used for FGD and averages the feature distance over randomly paired clips. | 93 |
 | Joint position or rotation error against ground truth | MAE, APE, MPJPE, L1, MSE | accuracy | lower | Averages the distance (L1, L2 or squared) between generated and ground-truth joint positions or rotations over joints and frames. | 41 |
-| Fréchet Inception Distance (on motion or image features) | FID | realism | lower | Fits Gaussians to deep features of real and generated samples and computes the Fréchet distance between them from their means and covariances. | 36 |
+| Fréchet Inception Distance (on motion or image features) | FID | realism | lower | Fits Gaussians to deep features of real and generated samples and computes the Fréchet distance between them from their means and covariances. | 35 |
 | Acceleration and jerk statistics | MAJE, MAD, Jerk, Average jerk, Average acceleration | smoothness | closer-to-reference | Averages the magnitude of the second and third time derivatives of joint positions (acceleration and jerk) over generated motion, for comparison with the same statistics of natural motion. | 31 |
 | Face vertex or blendshape error | LVD, LVE, Lip Vertex Error, MSE (face), vertex MSE | accuracy | lower | Measures geometric error of generated face meshes against ground truth, typically the maximal L2 error over lip vertices per frame averaged over all test frames. | 23 |
-| Fréchet Video Distance | FVD | realism | lower | Computes the Fréchet distance between distributions of real and generated videos embedded with an I3D network pretrained on action recognition. | 23 |
+| Fréchet Video Distance | FVD | realism | lower | Computes the Fréchet distance between distributions of real and generated videos embedded with an I3D network pretrained on action recognition. | 22 |
 | Frame-level image quality | PSNR, SSIM, LPIPS | accuracy |  | Compares generated video frames to ground-truth frames with pixel error (PSNR), structural similarity (SSIM) or distance between deep network features (LPIPS). | 21 |
 | L1 Diversity | L1div, L1 Div. | diversity | higher | Splits generated motion into equal-length clips and averages the L1 distance between joint positions of every pair of clips. | 18 |
-| Lip synchronisation confidence or distance | Sync-C, Sync-D, LSE-C, LSE-D | synchrony |  | Feeds generated mouth crops and audio to a pretrained SyncNet and reports the average audio-visual embedding distance (LSE-D, lower is better) and the average sync confidence (LSE-C, higher is better). | 18 |
+| Lip synchronisation confidence or distance | Sync-C, Sync-D, LSE-C, LSE-D | synchrony |  | Feeds generated mouth crops and audio to a pretrained SyncNet and reports the average audio-visual embedding distance (LSE-D, lower is better) and the average sync confidence (LSE-C, higher is better). | 17 |
 | Semantic-Relevant Gesture Recall | SRGR, Semantic Relevance Gesture Recall | semantics | higher | Computes PCK against ground truth with each frame weighted by its annotated semantic-relevance score, so semantically relevant gestures count more. | 16 |
 | Gesture label prediction F1, precision, recall or accuracy | F1, macro F1, F-measure, F-score, precision, recall, classification accuracy, label accuracy, prediction accuracy | accuracy | higher | Compares predicted gesture labels (such as gesture type, property or timing) with annotated reference labels and reports F1, precision, recall or accuracy. | 15 |
 | Percentage of Correct Keypoints | PCK | accuracy | higher | Counts a predicted keypoint as correct when it lies within alpha times the larger side of the person bounding box from the ground-truth keypoint and reports the fraction of correct keypoints. | 11 |
@@ -1126,9 +1125,9 @@ Objective metrics reported by the papers above. Human evaluation is recorded per
 | Canonical Correlation Analysis against ground truth | CCA | accuracy | higher | Projects generated and reference poses onto a joint subspace with linear transformations chosen to maximise the Pearson correlation between them, and reports that correlation. | 6 |
 | Facial identity similarity | CSIM, identity similarity, identity cosine similarity, facial identity similarity | accuracy | higher |  | 6 |
 | Hand Keypoint Variance | HKV, Hand-V, hand keypoint variance | diversity | higher |  | 6 |
-| No-reference image or video quality and aesthetic scores | IQA, ASE, Q-Align, VQAA, VQAT, aesthetic quality, imaging quality | realism | higher |  | 6 |
 | Cosine similarity to ground-truth motion | cosine similarity | accuracy | higher |  | 5 |
 | Expression FID | E-FID, EFID | realism | lower |  | 5 |
+| No-reference image or video quality and aesthetic scores | IQA, ASE, Q-Align, VQAA, VQAT, aesthetic quality, imaging quality | realism | higher |  | 5 |
 | Retrieval precision of motion from text or speech | R-Precision, R-Prec, Top-1, Top-2, Top-3 | semantics | higher | Ranks the true condition among 31 mismatched ones by feature distance to each generated motion and reports how often it lands in the top 1, 2 or 3. | 5 |
 | Fréchet Motion Distance | FMD | realism | lower | Computes the Fréchet distance between latent feature distributions of real and generated holistic motion (expression plus gesture), extending FGD from body gestures to the whole motion. | 4 |
 | Multimodal Distance | MM-Dist, MM-Distance, multi-modal distance | semantics | lower |  | 4 |

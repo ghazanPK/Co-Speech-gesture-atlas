@@ -1103,7 +1103,7 @@
   title: 'FastTalker: Co-Speech Gesture Generation via Fast-Order Diffusion ODE Solver'
   authors: [Xiaoying Huang, Sanyi Zhang, Binjie Liu, Xiaoxuan Guo, Long Ye]
   year: 2025
-  venue: Communications in Computer and Information Science
+  venue: IFTC
   type: conference
   category: method
   doi: 10.1007/978-981-96-4279-3_6
@@ -1250,7 +1250,7 @@
 
 - id: kong2025multitalk
   title: 'Let Them Talk: Audio-Driven Multi-Person Conversational Video Generation'
-  authors: [Zining Kong, Feng Gao, Yong Zhang, Zhuoliang Kang, Xiaoming Wei, Xunliang Cai, Guanying Chen, Wenhan Luo]
+  authors: [Zhe Kong, Feng Gao, Yong Zhang, Zhuoliang Kang, Xiaoming Wei, Xunliang Cai, Guanying Chen, Wenhan Luo]
   year: 2025
   venue: NeurIPS
   type: conference
@@ -1340,8 +1340,8 @@
   verified: false
 
 - id: lin2024cyberhost
-  title: 'CyberHost: Taming Audio-driven Avatar Diffusion Model with Region Codebook Attention'
-  authors: [Gaojie Lin, Jianwen Jiang, Chao Liang, Tianyun Zhong, Jiaqi Yang, Yan-Bo Zheng]
+  title: 'CyberHost: A One-stage Diffusion Framework for Audio-driven Talking Body Generation'
+  authors: [Gaojie Lin, Jianwen Jiang, Chao Liang, Tianyun Zhong, Jiaqi Yang, Yanbo Zheng]
   year: 2025
   venue: ICLR
   type: conference
@@ -1504,7 +1504,7 @@
 
 - id: liu2025syncanimation
   title: 'SyncAnimation: A Real-Time End-to-End Framework for Audio-Driven Human Pose and Talking Head Animation'
-  authors: [Yujian Liu, Shidang Xu, Jing Hong Guo, Daosheng WANG, Zairan Wang, Xianfeng Tan, Xiaoli Liu]
+  authors: [Yujian Liu, Shidang Xu, Jing Guo, Dingbin Wang, Zairan Wang, Xianfeng Tan, Xiaoli Liu]
   year: 2025
   venue: IJCAI
   type: conference
@@ -1946,7 +1946,7 @@
 
 - id: qin2025versaanimator
   title: Versatile Multimodal Controls for Expressive Talking Human Animation
-  authors: [Zheng Qin, Ruobing Zheng, Yabing Wang, Tongle Li, Zixin Zhu, Sanping Zhou, Ming Yang, Le Wang]
+  authors: [Zheng Qin, Ruobing Zheng, Yabing Wang, Tianqi Li, Zixin Zhu, Sanping Zhou, Ming Yang, Le Wang]
   year: 2025
   venue: ACM MM
   type: conference
@@ -2302,6 +2302,32 @@
   checked: full-text
   verified: true
 
+- id: wang2025optimized
+  title: Optimized Conversational Gesture Generation with Enhanced Motion Feature Extraction and Cascaded Generator
+  authors: [Xiang Wang, Yifeng Peng, Zhaoxiang Liu, Shijie Dong, Ruitao Liu, Kai Wang, Shiguo Lian]
+  year: 2025
+  venue: NLPCC
+  type: conference
+  category: method
+  doi: 10.1007/978-981-97-9437-9_29
+  links: {paper: 'https://doi.org/10.1007/978-981-97-9437-9_29'}
+  input: [audio, text]
+  output: [upper-body, hands]
+  representation: [joints-3d]
+  approach: [gan]
+  setting: [monologue]
+  realtime: real-time
+  latency: 2 s to generate 1 min of gesture on RTX 3070 Ti
+  datasets: [custom]
+  languages: [zh]
+  metrics: [fgd, joint-error, other]
+  user_study: true
+  summary: A two-level cascaded GRU generator first produces arm motion then hand motion from HuBERT audio and RoBERTa text features, trained adversarially with a transformer VQ-VAE motion encoder used for a perceptual loss.
+  notes: Also reports MAE of movement speed.
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
+
 - id: wang2025ssgesture
   title: 'SSGesture: Multimodal Gesture Generation Framework for Human Animation Synthesis'
   authors: [Xinyi Wang, Shiguang Liu, Xu Yang]
@@ -2459,6 +2485,30 @@
   checked: full-text
   verified: false
   area: perception
+
+- id: ye2025mmidm
+  title: 'MMIDM: Generating 3D Gesture from Multimodal Inputs with Diffusion Models'
+  authors: [Ji Ye, Changhong Liu, Haocong Wan, Aiwen Jiang, Zhenchun Lei]
+  year: 2025
+  venue: PRCV
+  type: conference
+  category: method
+  doi: 10.1007/978-981-97-8508-7_22
+  links: {paper: 'https://doi.org/10.1007/978-981-97-8508-7_22'}
+  input: [text, audio, speaker-id, emotion]
+  output: [upper-body]
+  representation: [joints-3d]
+  approach: [diffusion]
+  setting: [monologue]
+  realtime: unreported
+  datasets: [beat]
+  metrics: [fgd, srgr, beat-align]
+  user_study: false
+  summary: A DDPM with transformer blocks generates 3D gestures conditioned on text, audio, speaker ID, emotion and facial expression, fused by a cross-attention mixture-of-experts network, with the timestep embedding injected into every block.
+  notes: Facial expression is also an input condition (52-dim BEAT blendshapes).
+  added: '2026-10-03'
+  checked: full-text
+  verified: true
 
 - id: yin2025pyramotion
   title: 'PyraMotion: Attentional Pyramid-Structured Motion Integration for Co-Speech 3D Gesture Synthesis'

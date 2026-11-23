@@ -432,3 +432,26 @@
   checked: abstract
   verified: false
   area: clinical
+
+- id: zhao1998gesticulation
+  title: Gesticulation behaviors for virtual humans
+  authors: [Liwei Zhao, Norman I. Badler]
+  year: 1998
+  venue: PCCGA
+  type: conference
+  category: method
+  doi: 10.1109/pccga.1998.732100
+  links: {paper: 'https://doi.org/10.1109/pccga.1998.732100', open: 'https://repository.upenn.edu/hms/21'}
+  input: [text]
+  output: [upper-body, hands, locomotion]
+  approach: [rule-based]
+  setting: [monologue]
+  realtime: real-time
+  latency: 30 frames per second
+  datasets: []
+  metrics: []
+  user_study: false
+  summary: Selects and produces gesticulation online for speaking virtual humans from textual elements, coordinating gesture and speech with a PaT-Net parallel finite state machine.
+  added: '2026-10-03'
+  checked: full-text
+  verified: false

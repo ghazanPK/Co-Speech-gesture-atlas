@@ -1379,7 +1379,7 @@
 
 - id: lu2024transformer
   title: Cospeech body motion generation using a transformer
-  authors: [Zixiang Lu, Zhitong He, Jiale Hong, Gao Ping]
+  authors: [Zixiang Lu, Zhitong He, Jiale Hong, Ping Gao]
   year: 2024
   venue: Applied Intelligence
   type: journal
@@ -1422,7 +1422,7 @@
 
 - id: mahapatra2024meshes
   title: Co-speech Gesture Video Generation with 3D Human Meshes
-  authors: [Aniruddha Mahapatra, Richa Mishra, Ziyi Chen, Boyang Ding, Renda Li, Shoulei Wang, Jun-Yan Zhu, Peng Chang, Mei Han, Jing Xiao]
+  authors: [Aniruddha Mahapatra, Richa Mishra, Renda Li, Ziyi Chen, Boyang Ding, Shoulei Wang, Jun-Yan Zhu, Peng Chang, Mei Han, Jing Xiao]
   year: 2024
   venue: ECCV
   type: conference
@@ -2018,12 +2018,11 @@
   input: [audio, text, speaker-id]
   output: [upper-body]
   representation: [joints-3d]
-  setting: [monologue]
   realtime: unreported
   metrics: [fgd, other]
   user_study: true
   summary: Reproduces a trimodal (audio, text, speaker identity) gesture generation model and maps its 3D poses to joint angles on a Pepper robot.
-  notes: Motion variance is reported alongside FGD.
+  notes: Motion variance is reported alongside FGD. A DOI for a published version is listed in the candidate metadata, but the venue could not be read, so the record stays as the preprint.
   added: '2026-10-03'
   checked: full-text
   verified: false
@@ -2134,32 +2133,6 @@
   added: '2026-10-03'
   checked: abstract
   verified: false
-
-- id: wang2024optimized
-  title: Optimized Conversational Gesture Generation with Enhanced Motion Feature Extraction and Cascaded Generator
-  authors: [Xiang Wang, Yifeng Peng, Zhaoxiang Liu, Shijie Dong, Ruitao Liu, Kai Wang, Shiguo Lian]
-  year: 2024
-  venue: LNCS
-  type: book
-  category: method
-  doi: 10.1007/978-981-97-9437-9_29
-  links: {paper: 'https://doi.org/10.1007/978-981-97-9437-9_29'}
-  input: [audio, text]
-  output: [upper-body, hands]
-  representation: [joints-3d]
-  approach: [gan]
-  setting: [monologue]
-  realtime: real-time
-  latency: 2 s to generate 1 min of gesture on RTX 3070 Ti
-  datasets: [custom]
-  languages: [zh]
-  metrics: [fgd, joint-error, other]
-  user_study: true
-  summary: A two-level cascaded GRU generator first produces arm motion then hand motion from HuBERT audio and RoBERTa text features, trained adversarially with a transformer VQ-VAE motion encoder used for a perceptual loss.
-  notes: Also reports MAE of movement speed.
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
 
 - id: werner2024gesture
   title: Gesture Evaluation in Virtual Reality
@@ -2300,7 +2273,7 @@
 
 - id: xu2024gestran
   title: 'LLM Knows Body Language, Too: Translating Speech Voices into Human Gestures'
-  authors: [Chenghao Xu, Guangtao Lyu, Jiexi Yan, Muli Yang, Cheng Dan Deng]
+  authors: [Chenghao Xu, Guangtao Lyu, Jiexi Yan, Muli Yang, Cheng Deng]
   year: 2024
   venue: ACL
   type: conference
@@ -2448,30 +2421,6 @@
   added: '2026-10-03'
   checked: full-text
   verified: false
-
-- id: ye2024mmidm
-  title: 'MMIDM: Generating 3D Gesture from Multimodal Inputs with Diffusion Models'
-  authors: [Ji Ye, Changhong Liu, Haocong Wan, Aiwen Jiang, Zhenchun Lei]
-  year: 2024
-  venue: LNCS
-  type: conference
-  category: method
-  doi: 10.1007/978-981-97-8508-7_22
-  links: {paper: 'https://doi.org/10.1007/978-981-97-8508-7_22'}
-  input: [text, audio, speaker-id, emotion]
-  output: [upper-body]
-  representation: [joints-3d]
-  approach: [diffusion]
-  setting: [monologue]
-  realtime: unreported
-  datasets: [beat]
-  metrics: [fgd, srgr, beat-align]
-  user_study: false
-  summary: A DDPM with transformer blocks generates 3D gestures conditioned on text, audio, speaker ID, emotion and facial expression, fused by a cross-attention mixture-of-experts network, with the timestep embedding injected into every block.
-  notes: Facial expression is also an input condition (52-dim BEAT blendshapes).
-  added: '2026-10-03'
-  checked: full-text
-  verified: true
 
 - id: yoon2024genea
   title: 'GENEA Workshop 2024: The 5th Workshop on Generation and Evaluation of Non-verbal Behaviour for Embodied Agents'

@@ -1,14 +1,14 @@
 {
   "snapshot_date": "2026-11-23",
   "definition": "Citation concentration measures the share of recorded within-atlas citation edges received by the most-cited records. It does not measure author self-citation or a causal effect.",
-  "raw_edges": 32888,
-  "unique_edges": 32888,
-  "chronology_conflicts": 243,
+  "raw_edges": 32886,
+  "unique_edges": 32886,
+  "chronology_conflicts": 242,
   "all": {
-    "records": 2729,
-    "incoming_edges": 32888,
+    "records": 2728,
+    "incoming_edges": 32886,
     "records_with_incoming": 2101,
-    "records_with_outgoing": 2158,
+    "records_with_outgoing": 2157,
     "top10_edges": 2522,
     "top10_share_percent": 7.67,
     "top10": [
@@ -105,10 +105,10 @@
     ]
   },
   "generation": {
-    "records": 635,
-    "incoming_edges": 7753,
+    "records": 634,
+    "incoming_edges": 7751,
     "records_with_incoming": 444,
-    "records_with_outgoing": 577,
+    "records_with_outgoing": 576,
     "top10_edges": 1603,
     "top10_share_percent": 20.68,
     "top10": [
@@ -212,10 +212,10 @@
       "with_outgoing": 75
     },
     "no_code_link_recorded": {
-      "records": 553,
-      "median": 2,
-      "mean": 9.45,
-      "with_outgoing": 502
+      "records": 552,
+      "median": 2.0,
+      "mean": 9.47,
+      "with_outgoing": 501
     }
   },
   "cohorts": [
@@ -288,10 +288,10 @@
         "with_outgoing": 47
       },
       "no_code_link_recorded": {
-        "records": 250,
-        "median": 1.0,
+        "records": 249,
+        "median": 1,
         "mean": 4.22,
-        "with_outgoing": 229
+        "with_outgoing": 228
       }
     }
   ],
@@ -333,18 +333,6 @@
       "code_links": 11
     },
     {
-      "venue": "LNCS",
-      "records": 19,
-      "median": 1,
-      "mean": 1.16,
-      "with_outgoing": 18,
-      "years": [
-        2006,
-        2026
-      ],
-      "code_links": 1
-    },
-    {
       "venue": "ICASSP",
       "records": 18,
       "median": 1.0,
@@ -367,6 +355,18 @@
         2026
       ],
       "code_links": 4
+    },
+    {
+      "venue": "LNCS",
+      "records": 16,
+      "median": 1.0,
+      "mean": 1.38,
+      "with_outgoing": 15,
+      "years": [
+        2006,
+        2026
+      ],
+      "code_links": 1
     },
     {
       "venue": "TOG",
@@ -408,7 +408,7 @@
       "venue": "ICCV",
       "records": 11,
       "median": 13,
-      "mean": 26,
+      "mean": 25.91,
       "with_outgoing": 9,
       "years": [
         2019,
@@ -431,7 +431,7 @@
   ],
   "author_visibility": {
     "records_with_authors": 627,
-    "generation_records": 635,
+    "generation_records": 634,
     "proxy": "Maximum number of strictly earlier generation-research publications in the atlas among a paper's listed authors, matched by exact recorded name.",
     "spearman_rho": 0.194,
     "cohorts": [
@@ -447,16 +447,16 @@
       },
       {
         "years": "2023-2026",
-        "records": 301,
-        "spearman_rho": 0.192
+        "records": 300,
+        "spearman_rho": 0.19
       }
     ],
     "corresponding_author_available": false,
     "limitations": "Incomplete author lists and name variants are not disambiguated. This proxy measures recorded prior publication presence, not reputation, institutional status, corresponding-author responsibility, or causal influence."
   },
   "chronology_sensitivity": {
-    "generation_incoming_edges": 7723,
-    "top10_share_percent": 20.74
+    "generation_incoming_edges": 7722,
+    "top10_share_percent": 20.75
   },
   "limitations": [
     "Internal graph counts are not global citation counts.",

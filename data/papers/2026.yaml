@@ -17,12 +17,12 @@
   approach: [flow-matching]
   setting: [monologue]
   realtime: unreported
-  datasets: [beat2, tfhp]
+  datasets: [beat2]
   languages: [en]
   metrics: [fgd, beat-align, diversity, face-error]
   user_study: false
   summary: Flow-matching DiT generators for SMPL-X body pose and FLAME expressions, conditioned on audio embeddings from a frozen Qwen-3 Omni model and an emotion label, with an auxiliary emotion classifier during training.
-  notes: Formatted for the JAV-CG '26 workshop at ACM Multimedia 2026. Zero-shot facial evaluation on TFHP (LVE, MOD, FDD).
+  notes: The paper is formatted for the JAV-CG '26 workshop; acceptance was not confirmed in the text read, so it is kept as a preprint. Zero-shot facial evaluation on TFHP.
   added: '2026-10-03'
   checked: full-text
   verified: false
@@ -287,7 +287,7 @@
   metrics: [fgd, beat-align, accel-jerk, fid, diversity, l1-div, r-precision, mm-dist]
   user_study: true
   summary: Generates gestures with a latent diffusion model conditioned on speech and text captions, using a motion-language model to caption gestures at several granularities and a shared 55-joint representation across datasets.
-  notes: Reports 0.842 s average inference time per sentence on an RTX 3090.
+  notes: 'Reports 0.842 s average inference time per sentence on an RTX 3090. Other metric: MM-Dist.'
   added: '2026-10-03'
   checked: full-text
   verified: false
@@ -1067,29 +1067,6 @@
   checked: abstract
   verified: false
 
-- id: ma2025playmate2
-  title: 'Playmate2: Training-Free Multi-Character Audio-Driven Animation via Diffusion Transformer with Reward Feedback'
-  authors: ['Ma, Xingpei', 'Huang, Shenneng', 'Cai, Jiaran', Yuansheng Guan, 'Zheng, Shen', Haiyun Zhao, Qiang Matthew Zhang, 'Zhang, Shunsi']
-  year: 2026
-  venue: AAAI
-  type: conference
-  category: method
-  arxiv: '2510.12089'
-  links: {paper: 'https://arxiv.org/abs/2510.12089', project: 'https://playmate111.github.io/Playmate2/'}
-  input: [text, audio, image]
-  output: [upper-body, face]
-  representation: [video-pixels]
-  approach: [diffusion, flow-matching]
-  setting: [monologue, multi-party]
-  realtime: unreported
-  datasets: [celebv-hq, hdtf, avspeech, openhumanvid, custom]
-  metrics: [fid, fvd, nr-quality, lip-sync]
-  user_study: true
-  summary: A diffusion transformer fine-tuned with LoRA and preference optimisation that generates audio-driven videos with lip sync and body gestures, with a training-free mask guidance for several characters.
-  added: '2026-10-03'
-  checked: full-text
-  verified: false
-
 - id: ma2026multicharacter
   title: Training-Free Multi-Character Audio-Driven Animation via Diffusion Transformer with Reward Feedback
   authors: [Xingpei Ma, Shenneng Huang, Jiaran Cai, Yuansheng Guan, Shen Zheng, Hanfeng Zhao, Qiang Zhang, Shunsi Zhang]
@@ -1338,7 +1315,7 @@
   approach: [vae, flow-matching]
   setting: [dyadic]
   realtime: real-time
-  latency: over 300 FPS on an A100 GPU
+  latency: over 300 FPS inference; 60 fps in live VR deployment with 4-frame chunks
   datasets: [embody-3d]
   metrics: [fgd, other, foot-sliding]
   user_study: false
@@ -1471,7 +1448,7 @@
   category: method
   arxiv: '2602.23165'
   links: {paper: 'https://openaccess.thecvf.com/content/CVPR2026/html/Peng_DyaDiT_A_Multi-Modal_Diffusion_Transformer_for_Socially_Favorable_Dyadic_Gesture_CVPR_2026_paper.html', open: 'https://arxiv.org/abs/2602.23165', project: 'https://puckikk1202.github.io/dyadit_hp/'}
-  input: [audio, interlocutor, seed-motion]
+  input: [audio, interlocutor]
   output: [upper-body, hands]
   representation: [joints-3d]
   approach: [vq, diffusion]
@@ -1863,8 +1840,8 @@
   title: 'CtrlCoMo: Controllable Co-speech Motion Generation with Gesture–Action Disentanglement'
   authors: [Xinghan Wang, Ming Zhou, Yanbo Zheng, Youjiang Xu, Yuan Zhang, Mingyuan Gao, Nan Zhuang, Yadong Mu]
   year: 2026
-  venue: LNCS
-  type: book
+  venue: ECCV
+  type: conference
   category: method
   doi: 10.1007/978-3-032-37211-6_15
   links: {paper: 'https://doi.org/10.1007/978-3-032-37211-6_15'}
@@ -1907,7 +1884,7 @@
 
 - id: wang2026page
   title: 'PAGE: Parts-Aware GuidancE for Co-Speech Gesture Portrait Video Generation'
-  authors: [Yabiao Wang, Jiafu Wu, Yicheng Xu, Teng Hu, Shengzhe Zhou, Yanxiao Sun, Jiangning Zhang, Ying Yu Tai, Yong Liu, Ming–Hsuan Yang]
+  authors: [Yabiao Wang, Jiafu Wu, Yicheng Xu, Teng Hu, Shengzhe Zhou, Yanxiao Sun, Jiangning Zhang, Ying Tai, Yong Liu, Ming-Hsuan Yang]
   year: 2026
   venue: TCSVT
   type: journal
@@ -2162,7 +2139,7 @@
   verified: false
 
 - id: zhang2026proact
-  title: 'ProAct: Harnessing Streaming Motion Generation and Agentic Reasoning for Realtime Embodied Social Interaction'
+  title: 'ProAct: Harnessing Streaming Motion Generation and Agentic Reasoning for Real-Time Embodied Social Interaction'
   authors: [Zeyi Zhang, Zixi Kang, Ruijie Zhao, Yusen Feng, Biao Jiang, Hanyu Ji, Libin Liu]
   year: 2026
   venue: TOG
