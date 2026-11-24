@@ -1259,7 +1259,7 @@
   category: method
   doi: 10.1145/3411763.3451554
   arxiv: '2208.03244'
-  links: {paper: 'https://doi.org/10.1145/3411763.3451554', open: 'https://arxiv.org/abs/2208.03244'}
+  links: {paper: 'https://doi.org/10.1145/3411763.3451554', open: 'https://arxiv.org/abs/2208.03244', code: 'https://github.com/mrebol/Gestures-From-Speech'}
   input: [audio]
   output: [upper-body, hands]
   representation: [joints-3d]

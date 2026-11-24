@@ -24,7 +24,7 @@ Every paper as a comparison row, not a bare link. Every dataset and metric defin
 
 | Gesture generation | Gesture theory | Theses | With code | Read from full text | Verified twice |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| **634** papers | **2011** papers | **83** | **150** | **580** | **211** |
+| **634** papers | **2011** papers | **83** | **151** | **580** | **211** |
 
 1844 records were filled from the abstract only (†) and 304 from bibliographic metadata only (‡), mostly where the full text is behind a paywall.
 <!-- END:stats -->
@@ -442,7 +442,7 @@ Methods and systems, newest first, ordered by venue within each year.
 | Applied Sciences | [Expressing Robot Personality through Talking Body Language](https://doi.org/10.3390/app11104639) | text | upper-body | gan |  |  |
 | ARSO | [A GAN-based Approach to Communicative Gesture Generation for Social Robots](https://doi.org/10.1109/arso51874.2021.9542828) · [open copy](https://dspace.jaist.ac.jp/dspace/bitstream/10119/17573/1/ARSO21_0048_FI.pdf) | text | upper-body | gan | monologue |  |
 | CAVW | [ExpressGesture: Expressive gesture generation from speech through database matching](https://onlinelibrary.wiley.com/doi/full/10.1002/cav.2016) · [video](https://www.youtube.com/watch?v=9opZK-usETY) | audio | upper-body | retrieval, hybrid | monologue |  |
-| CHI | [Real-time Gesture Animation Generation from Speech for Virtual Human Interaction](https://doi.org/10.1145/3411763.3451554) · [open copy](https://arxiv.org/abs/2208.03244) | audio | upper-body, hands | gan | monologue |  |
+| CHI | [Real-time Gesture Animation Generation from Speech for Virtual Human Interaction](https://doi.org/10.1145/3411763.3451554) · [open copy](https://arxiv.org/abs/2208.03244) | audio | upper-body, hands | gan | monologue | [code](https://github.com/mrebol/Gestures-From-Speech) |
 | CVMP | [Speech-Driven Conversational Agents using Conditional Flow-VAEs](https://doi.org/10.1145/3485441.3485647)† | audio | upper-body | vae, normalizing-flow |  |  |
 | Dialogue | [Audio and Text-Driven approach for Conversational Gestures Generation](https://doi.org/10.28995/2075-7182-2021-20-425-432)† | text, audio |  |  |  |  |
 | ECTI-CON | [Speech Gesture Generation from Acoustic and Textual Information using LSTMs](https://doi.org/10.1109/ecti-con51831.2021.9454931)† | audio, text | upper-body | regression | monologue |  |
