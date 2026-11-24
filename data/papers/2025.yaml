@@ -43,7 +43,7 @@
   type: journal
   category: method
   doi: 10.1109/access.2025.3596328
-  links: {paper: 'https://doi.org/10.1109/access.2025.3596328', open: 'https://www.researchsquare.com/article/rs-3350470/latest.pdf'}
+  links: {paper: 'https://doi.org/10.1109/access.2025.3596328', open: 'https://www.researchsquare.com/article/rs-3350470/latest.pdf', code: 'https://github.com/ghazanPK/multilingual-gesture'}
   input: [text]
   output: [upper-body]
   representation: [joints-3d]
@@ -537,7 +537,7 @@
   type: journal
   category: method
   doi: 10.3390/app15179467
-  links: {paper: 'https://doi.org/10.3390/app15179467', open: 'https://www.mdpi.com/2076-3417/15/17/9467/pdf?version=1756442434', code: 'https://github.com/kacr2/cont-gest'}
+  links: {paper: 'https://doi.org/10.3390/app15179467', open: 'https://www.mdpi.com/2076-3417/15/17/9467/pdf?version=1756442434'}
   input: [audio, emotion]
   representation: [joints-3d]
   approach: [regression]
@@ -802,7 +802,7 @@
   category: method
   doi: 10.1145/3746268.3759436
   arxiv: '2503.20202'
-  links: {paper: 'https://dl.acm.org/doi/10.1145/3746268.3759436', open: 'https://arxiv.org/abs/2503.20202', code: 'https://github.com/gesture-label/ethogram'}
+  links: {paper: 'https://dl.acm.org/doi/10.1145/3746268.3759436', open: 'https://arxiv.org/abs/2503.20202'}
   input: [text]
   approach: [llm]
   realtime: unreported
@@ -838,7 +838,7 @@
   category: method
   doi: 10.65109/fnip6998
   arxiv: '2503.14408'
-  links: {paper: 'https://doi.org/10.65109/fnip6998', open: 'https://arxiv.org/abs/2503.14408', code: 'https://github.com/pariesque/SIMA'}
+  links: {paper: 'https://doi.org/10.65109/fnip6998', open: 'https://arxiv.org/abs/2503.14408', code: 'https://github.com/parisatorshizi/SIMA'}
   input: [text]
   output: [hands]
   representation: [other]
@@ -1514,7 +1514,7 @@
   category: method
   doi: 10.24963/ijcai.2025/185
   arxiv: '2501.14646'
-  links: {paper: 'https://doi.org/10.24963/ijcai.2025/185', open: 'https://arxiv.org/abs/2501.14646', project: 'https://syncanimation.github.io'}
+  links: {paper: 'https://doi.org/10.24963/ijcai.2025/185', open: 'https://arxiv.org/abs/2501.14646', code: 'https://github.com/AISHIWEILAI/syncanimation', project: 'https://aishiweilai.github.io/syncanimation.github.io/'}
   input: [audio, image]
   output: [upper-body, face]
   representation: [other]
@@ -2705,7 +2705,7 @@
   type: thesis
   category: method
   doi: 10.82419/173
-  links: {paper: 'https://doi.org/10.82419/173', code: 'https://github.com/zjt000125/zjt000125.github.io'}
+  links: {paper: 'https://doi.org/10.82419/173'}
   input: [audio, image]
   output: [upper-body, face]
   representation: [video-pixels]

@@ -1259,7 +1259,7 @@
   category: method
   doi: 10.1145/3411763.3451554
   arxiv: '2208.03244'
-  links: {paper: 'https://doi.org/10.1145/3411763.3451554', open: 'https://arxiv.org/abs/2208.03244', code: 'https://github.com/mrebol/Gestures-From-Speech'}
+  links: {paper: 'https://doi.org/10.1145/3411763.3451554', open: 'https://arxiv.org/abs/2208.03244'}
   input: [audio]
   output: [upper-body, hands]
   representation: [joints-3d]
@@ -1774,7 +1774,7 @@
   type: conference
   category: method
   doi: 10.1145/3461615.3485407
-  links: {paper: 'https://dl.acm.org/doi/abs/10.1145/3461615.3485407', code: 'https://github.com/wubowen416/gesture-generation', video: 'https://www.youtube.com/watch?v=PMhjX6cdIPE'}
+  links: {paper: 'https://dl.acm.org/doi/abs/10.1145/3461615.3485407', code: 'https://github.com/wubowen416/gesture-generation-using-WGAN', video: 'https://www.youtube.com/watch?v=PMhjX6cdIPE'}
   input: [audio]
   output: [upper-body]
   approach: [autoregressive, gan]

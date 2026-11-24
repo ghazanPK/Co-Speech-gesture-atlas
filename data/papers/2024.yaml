@@ -220,7 +220,7 @@
   category: method
   doi: 10.1109/cvprw63382.2024.00194
   arxiv: '2406.18068'
-  links: {paper: 'https://doi.org/10.1109/cvprw63382.2024.00194', open: 'https://arxiv.org/abs/2406.18068', code: 'https://github.com/UttaranB127/speech2unified_expressions'}
+  links: {paper: 'https://doi.org/10.1109/cvprw63382.2024.00194', open: 'https://arxiv.org/abs/2406.18068'}
   input: [audio, text, speaker-id, seed-motion]
   output: [upper-body, face]
   representation: [joints-3d]
@@ -369,7 +369,7 @@
   category: method
   doi: 10.1109/icme57554.2024.10687922
   arxiv: '2410.09396'
-  links: {paper: 'https://doi.org/10.1109/icme57554.2024.10687922', open: 'https://arxiv.org/abs/2410.09396', code: 'https://github.com/cyk990422/ExpGest/'}
+  links: {paper: 'https://doi.org/10.1109/icme57554.2024.10687922', open: 'https://arxiv.org/abs/2410.09396'}
   input: [text, audio, emotion]
   output: [full-body, hands, locomotion]
   representation: [smpl-x]
@@ -1268,7 +1268,7 @@
   category: method
   doi: 10.1109/cvpr52733.2024.00115
   arxiv: '2401.00374'
-  links: {paper: 'https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_EMAGE_Towards_Unified_Holistic_Co-Speech_Gesture_Generation_via_Expressive_Masked_CVPR_2024_paper.pdf', code: 'https://github.com/PantoMatrix/PantoMatrix', project: 'https://pantomatrix.github.io/EMAGE/'}
+  links: {paper: 'https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_EMAGE_Towards_Unified_Holistic_Co-Speech_Gesture_Generation_via_Expressive_Masked_CVPR_2024_paper.pdf', code: 'https://github.com/haiyangliu0/character-policy', project: 'https://pantomatrix.github.io/EMAGE/'}
   input: [audio, seed-motion]
   output: [full-body, upper-body, hands, face, locomotion]
   representation: [smpl-x]
@@ -1552,7 +1552,7 @@
   category: method
   doi: 10.1109/cvprw63382.2024.00201
   arxiv: '2404.19622'
-  links: {paper: 'https://doi.org/10.1109/cvprw63382.2024.00201', open: 'https://arxiv.org/abs/2404.19622', code: 'https://github.com/shivammehta25/MAGI', project: 'https://shivammehta25.github.io/MAGI/'}
+  links: {paper: 'https://doi.org/10.1109/cvprw63382.2024.00201', open: 'https://arxiv.org/abs/2404.19622', project: 'https://shivammehta25.github.io/MAGI/'}
   input: [text, speaker-id]
   output: [upper-body]
   representation: [joints-3d]

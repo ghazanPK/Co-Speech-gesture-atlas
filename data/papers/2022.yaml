@@ -815,7 +815,7 @@
   category: method
   doi: 10.65109/habv5810
   arxiv: '2108.05762'
-  links: {paper: 'https://doi.org/10.65109/habv5810', open: 'https://arxiv.org/abs/2108.05762', project: 'https://svito-zar.github.io/speech2properties2gestures'}
+  links: {paper: 'https://doi.org/10.65109/habv5810', open: 'https://arxiv.org/abs/2108.05762', code: 'https://github.com/Svito-zar/speech2properties2gestures', project: 'https://svito-zar.github.io/speech2properties2gestures'}
   input: [text, audio]
   output: [hands]
   representation: [other]
@@ -911,7 +911,7 @@
   category: method
   doi: 10.52202/068431-1554
   arxiv: '2212.02350'
-  links: {paper: 'https://doi.org/10.52202/068431-1554', open: 'https://arxiv.org/abs/2212.02350', code: 'https://github.com/alvinliu0/ANGIE', project: 'https://alvinliu0.github.io/projects/ANGIE'}
+  links: {paper: 'https://doi.org/10.52202/068431-1554', open: 'https://arxiv.org/abs/2212.02350', project: 'https://alvinliu0.github.io/projects/ANGIE'}
   input: [audio, image]
   output: [upper-body]
   representation: [video-pixels]
@@ -960,7 +960,7 @@
   type: conference
   category: method
   doi: 10.1145/3503161.3548400
-  links: {paper: 'https://doi.org/10.1145/3503161.3548400', open: 'https://dl.acm.org/doi/pdf/10.1145/3503161.3548400', code: 'https://github.com/PantoMatrix/PantoMatrix/blob/main/train_disco_audio.py', project: 'https://pantomatrix.github.io/DisCo/'}
+  links: {paper: 'https://doi.org/10.1145/3503161.3548400', open: 'https://dl.acm.org/doi/pdf/10.1145/3503161.3548400', code: 'https://github.com/haiyangliu0/character-policy/blob/main/train_disco_audio.py', project: 'https://pantomatrix.github.io/DisCo/'}
   input: [audio, seed-motion]
   setting: [monologue]
   datasets: [trinity, speech2gesture]
@@ -1747,7 +1747,7 @@
   category: method
   doi: 10.1109/cvpr52688.2022.00341
   arxiv: '2207.11524'
-  links: {paper: 'https://openaccess.thecvf.com/content/CVPR2022/html/Zhou_Audio-Driven_Neural_Gesture_Reenactment_With_Video_Motion_Graphs_CVPR_2022_paper.html', open: 'https://arxiv.org/abs/2207.11524', code: 'https://github.com/yzhou359/vid-reenact', project: 'https://yzhou359.github.io/video_reenact'}
+  links: {paper: 'https://openaccess.thecvf.com/content/CVPR2022/html/Zhou_Audio-Driven_Neural_Gesture_Reenactment_With_Video_Motion_Graphs_CVPR_2022_paper.html', open: 'https://arxiv.org/abs/2207.11524', project: 'https://yzhou359.github.io/video_reenact'}
   input: [audio, video]
   output: [upper-body, hands]
   representation: [video-pixels]

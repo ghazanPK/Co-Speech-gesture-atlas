@@ -206,16 +206,16 @@
   },
   "code_groups": {
     "code_link": {
-      "records": 154,
-      "median": 6.0,
-      "mean": 22.68,
-      "with_outgoing": 141
+      "records": 150,
+      "median": 6.5,
+      "mean": 23.05,
+      "with_outgoing": 136
     },
     "no_code_link_recorded": {
-      "records": 480,
+      "records": 484,
       "median": 2.0,
       "mean": 8.87,
-      "with_outgoing": 435
+      "with_outgoing": 440
     }
   },
   "cohorts": [
@@ -267,31 +267,31 @@
     {
       "years": "2020-2022",
       "code_link": {
-        "records": 38,
+        "records": 36,
         "median": 23.0,
-        "mean": 44.58,
-        "with_outgoing": 35
+        "mean": 46.19,
+        "with_outgoing": 34
       },
       "no_code_link_recorded": {
-        "records": 77,
+        "records": 79,
         "median": 4,
-        "mean": 10.78,
-        "with_outgoing": 74
+        "mean": 10.9,
+        "with_outgoing": 75
       }
     },
     {
       "years": "2023-2026",
       "code_link": {
-        "records": 110,
+        "records": 108,
         "median": 3.0,
-        "mean": 11.79,
-        "with_outgoing": 101
+        "mean": 11.97,
+        "with_outgoing": 97
       },
       "no_code_link_recorded": {
-        "records": 191,
+        "records": 193,
         "median": 0,
-        "mean": 3.12,
-        "with_outgoing": 174
+        "mean": 3.1,
+        "with_outgoing": 178
       }
     }
   ],
@@ -306,7 +306,7 @@
         2004,
         2026
       ],
-      "code_links": 16
+      "code_links": 17
     },
     {
       "venue": "IVA",
@@ -330,7 +330,7 @@
         2019,
         2026
       ],
-      "code_links": 24
+      "code_links": 23
     },
     {
       "venue": "ICASSP",
@@ -390,7 +390,7 @@
         2004,
         2025
       ],
-      "code_links": 3
+      "code_links": 4
     },
     {
       "venue": "RO-MAN",
@@ -414,7 +414,7 @@
         2019,
         2025
       ],
-      "code_links": 9
+      "code_links": 10
     },
     {
       "venue": "IROS",

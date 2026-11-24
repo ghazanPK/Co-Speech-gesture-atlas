@@ -379,7 +379,7 @@
   category: method
   doi: 10.1007/978-3-032-37225-3_22
   arxiv: '2606.30001'
-  links: {paper: 'https://doi.org/10.1007/978-3-032-37225-3_22', open: 'https://arxiv.org/abs/2606.30001', code: 'https://arielgjaci.com/sicage', project: 'https://arielgjaci.com/sicage'}
+  links: {paper: 'https://doi.org/10.1007/978-3-032-37225-3_22', open: 'https://arxiv.org/abs/2606.30001', code: 'https://github.com/arielgj95/SICAGE', project: 'https://arielgjaci.com/sicage'}
   input: [audio, text, seed-motion]
   output: [upper-body]
   representation: [joints-3d]
@@ -1629,7 +1629,7 @@
   category: method
   doi: 10.1007/s11263-026-02752-z
   arxiv: '2503.09942'
-  links: {paper: 'https://doi.org/10.1007/s11263-026-02752-z', open: 'https://arxiv.org/abs/2503.09942', code: 'https://github.com/sunyasheng/Cosh-DiT', project: 'https://sunyasheng.github.io/projects/COSH-DIT'}
+  links: {paper: 'https://doi.org/10.1007/s11263-026-02752-z', open: 'https://arxiv.org/abs/2503.09942', project: 'https://sunyasheng.github.io/projects/COSH-DIT'}
   input: [audio, image]
   output: [upper-body, hands, face]
   representation: [keypoints-2d, smpl-x, video-pixels]
@@ -2035,7 +2035,7 @@
   category: method
   doi: 10.1109/icassp55912.2026.11464361
   arxiv: '2503.21847'
-  links: {paper: 'https://doi.org/10.1109/icassp55912.2026.11464361', open: 'https://arxiv.org/abs/2503.21847', project: 'https://yong-xie-xy.github.io/ReCoM/'}
+  links: {paper: 'https://doi.org/10.1109/icassp55912.2026.11464361', open: 'https://arxiv.org/abs/2503.21847', code: 'https://github.com/Yong-Xie-XY/ReCoM/tree/master/Code', project: 'https://yong-xie-xy.github.io/ReCoM/'}
   input: [audio, speaker-id]
   output: [upper-body, hands, face]
   representation: [smpl-x]
@@ -2059,7 +2059,7 @@
   type: conference
   category: method
   doi: 10.1109/icassp55912.2026.11463428
-  links: {paper: 'https://doi.org/10.1109/icassp55912.2026.11463428', code: 'https://github.com/evanxuanzz/AdaptiveDiffuseMotion', project: 'https://symbolzzz.github.io/AdaptiveDiffuseMotion/'}
+  links: {paper: 'https://doi.org/10.1109/icassp55912.2026.11463428', code: 'https://github.com/evanxuanzz/AdaptiveDiffuseMotion', project: 'https://evanxuanzz.github.io/AdaptiveDiffuseMotion/'}
   input: [audio]
   output: [face]
   approach: [diffusion]

@@ -10,7 +10,7 @@
   type: conference
   category: method
   doi: 10.1109/iccv51070.2023.01910
-  links: {paper: 'https://doi.org/10.1109/iccv51070.2023.01910', project: 'https://chahuja.com/cdiffgan/'}
+  links: {paper: 'https://doi.org/10.1109/iccv51070.2023.01910', code: 'https://github.com/pratikmjoshi/cdiffgan', project: 'https://chahuja.com/cdiffgan/'}
   user_study: true
   summary: C-DiffGAN continually learns new speaker gesture styles from a few minutes of data each by generating reminiscences of earlier speakers and cross-modally aligning to them to limit forgetting.
   added: '2026-10-03'
@@ -695,7 +695,7 @@
   category: method
   doi: 10.1109/icassp49357.2023.10095344
   arxiv: '2305.15740'
-  links: {paper: 'https://doi.org/10.1109/icassp49357.2023.10095344', open: 'https://arxiv.org/abs/2305.15740', code: 'https://github.com/GT-KIM/Co-speech_gesture_generation'}
+  links: {paper: 'https://doi.org/10.1109/icassp49357.2023.10095344', open: 'https://arxiv.org/abs/2305.15740'}
   input: [text, audio]
   output: [full-body, hands]
   representation: [smpl-x]
@@ -747,7 +747,7 @@
   type: conference
   category: method
   doi: 10.1145/3577190.3616119
-  links: {paper: 'https://doi.org/10.1145/3577190.3616119'}
+  links: {paper: 'https://doi.org/10.1145/3577190.3616119', code: 'https://github.com/FineMotion/GENEA_2023'}
   input: [text, audio, interlocutor]
   approach: [vq]
   setting: [dyadic]
@@ -1670,7 +1670,7 @@
   type: journal
   category: method
   doi: 10.1007/s12369-023-01051-8
-  links: {paper: 'https://doi.org/10.1007/s12369-023-01051-8', open: 'https://link.springer.com/content/pdf/10.1007/s12369-023-01051-8.pdf', code: 'https://github.com/wubowen416/Controlling-the-Impression-of-Robots-via-GAN-based-Gesture-Generation', video: 'https://youtu.be/H4So35mf9jw'}
+  links: {paper: 'https://doi.org/10.1007/s12369-023-01051-8', open: 'https://link.springer.com/content/pdf/10.1007/s12369-023-01051-8.pdf', code: 'https://github.com/wubowen416/control-robot-impression-via-gesture-generation', video: 'https://youtu.be/H4So35mf9jw'}
   input: [audio, style]
   output: [upper-body]
   approach: [gan]
