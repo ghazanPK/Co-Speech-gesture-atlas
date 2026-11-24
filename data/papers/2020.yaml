@@ -121,7 +121,7 @@
   type: journal
   category: method
   doi: 10.1002/cav.1944
-  links: {paper: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/cav.1944', video: 'https://www.youtube.com/watch?v=GIxaI9yTmMc'}
+  links: {paper: 'https://onlinelibrary.wiley.com/doi/abs/10.1002/cav.1944', code: 'https://github.com/ghazanPK/automatic-text-to-gesture', video: 'https://www.youtube.com/watch?v=GIxaI9yTmMc'}
   input: [text]
   output: [upper-body]
   approach: [rule-based]

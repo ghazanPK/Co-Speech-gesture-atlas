@@ -768,7 +768,7 @@
   type: conference
   category: system
   doi: 10.1109/ismar-adjunct54149.2021.00071
-  links: {paper: 'https://doi.org/10.1109/ismar-adjunct54149.2021.00071'}
+  links: {paper: 'https://doi.org/10.1109/ismar-adjunct54149.2021.00071', code: 'https://github.com/ghazanPK/asap-ismar'}
   input: [text]
   approach: [hybrid]
   summary: Tool that parses a screenplay into action, character and dialogue and generates virtual-human motions and co-speech gestures with deep learning, data-driven and rule-based methods to produce previz scenes.
@@ -894,7 +894,7 @@
   category: method
   doi: 10.1145/3472306.3478333
   arxiv: '2106.14736'
-  links: {paper: 'https://doi.org/10.1145/3472306.3478333', open: 'https://arxiv.org/abs/2106.14736', project: 'https://svito-zar.github.io/speech2properties2gestures/'}
+  links: {paper: 'https://doi.org/10.1145/3472306.3478333', open: 'https://arxiv.org/abs/2106.14736', code: 'https://github.com/Svito-zar/speech2properties2gestures', project: 'https://svito-zar.github.io/speech2properties2gestures/'}
   input: [text, audio]
   approach: [normalizing-flow]
   setting: [monologue]
@@ -961,7 +961,7 @@
   category: method
   doi: 10.1109/iccv48922.2021.01110
   arxiv: '2108.06720'
-  links: {paper: 'https://doi.org/10.1109/iccv48922.2021.01110', open: 'https://arxiv.org/abs/2108.06720', project: 'https://jingli513.github.io/audio2gestures'}
+  links: {paper: 'https://doi.org/10.1109/iccv48922.2021.01110', open: 'https://arxiv.org/abs/2108.06720', code: 'https://github.com/JingLi513/Audio2Gestures', project: 'https://jingli513.github.io/audio2gestures'}
   input: [audio]
   output: [upper-body, hands]
   representation: [joints-3d, keypoints-2d]
@@ -1664,7 +1664,7 @@
   category: method
   doi: 10.1145/3462244.3479914
   arxiv: '2108.11436'
-  links: {paper: 'https://doi.org/10.1145/3462244.3479914', open: 'https://arxiv.org/abs/2108.11436', project: 'https://swatsw.github.io/isg_icmi21/'}
+  links: {paper: 'https://doi.org/10.1145/3462244.3479914', open: 'https://arxiv.org/abs/2108.11436', code: 'https://github.com/swatsw/isg_official', project: 'https://swatsw.github.io/isg_icmi21/'}
   input: [text]
   output: [upper-body]
   representation: [joints-3d]

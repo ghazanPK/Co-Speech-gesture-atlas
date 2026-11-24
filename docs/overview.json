@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-11-23",
+  "snapshot_date": "2026-11-24",
   "latest_record_added": "2026-11-19",
   "years": [
     1965,
@@ -12,7 +12,7 @@
   "datasets": 96,
   "metrics": 42,
   "citations": 32886,
-  "with_code": 83,
+  "with_code": 155,
   "verified": 211,
   "reading": {
     "full-text": 580,

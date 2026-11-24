@@ -657,7 +657,7 @@
   category: dataset
   doi: 10.1109/cvpr.2019.01113
   arxiv: '1906.04158'
-  links: {paper: 'https://doi.org/10.1109/cvpr.2019.01113', open: 'https://arxiv.org/abs/1906.04158', project: 'http://domedb.perception.cs.cmu.edu/ssp'}
+  links: {paper: 'https://doi.org/10.1109/cvpr.2019.01113', open: 'https://arxiv.org/abs/1906.04158', code: 'https://github.com/CMU-Perceptual-Computing-Lab/ssp', project: 'http://domedb.perception.cs.cmu.edu/ssp'}
   input: [interlocutor]
   output: [full-body]
   representation: [joints-3d]
@@ -1464,7 +1464,7 @@
   category: method
   doi: 10.1109/icra.2019.8793720
   arxiv: '1810.12541'
-  links: {paper: 'https://doi.org/10.1109/icra.2019.8793720', open: 'https://arxiv.org/abs/1810.12541', project: 'https://sites.google.com/view/youngwoo-yoon/projects/co-speech-gesture-generation'}
+  links: {paper: 'https://doi.org/10.1109/icra.2019.8793720', open: 'https://arxiv.org/abs/1810.12541', code: 'https://github.com/youngwoo-yoon/Co-Speech_Gesture_Generation', project: 'https://sites.google.com/view/youngwoo-yoon/projects/co-speech-gesture-generation'}
   input: [text]
   output: [upper-body]
   representation: [keypoints-2d, joints-3d]

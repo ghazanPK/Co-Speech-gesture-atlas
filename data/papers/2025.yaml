@@ -277,7 +277,7 @@
   category: method
   doi: 10.1109/cvpr52734.2025.00581
   arxiv: '2412.10523'
-  links: {paper: 'https://doi.org/10.1109/cvpr52734.2025.00581', open: 'https://arxiv.org/abs/2412.10523', project: 'https://languageofmotion.github.io'}
+  links: {paper: 'https://doi.org/10.1109/cvpr52734.2025.00581', open: 'https://arxiv.org/abs/2412.10523', code: 'https://github.com/Juzezhang/language_of_motion', project: 'https://languageofmotion.github.io'}
   input: [text, audio, seed-motion]
   output: [full-body, hands, face]
   representation: [smpl-x]
@@ -302,7 +302,7 @@
   category: method
   doi: 10.1145/3721238.3730611
   arxiv: '2507.20220'
-  links: {paper: 'https://doi.org/10.1145/3721238.3730611', project: 'https://robinwitch.github.io/MECo-Page'}
+  links: {paper: 'https://doi.org/10.1145/3721238.3730611', code: 'https://github.com/RobinWitch/MECo', project: 'https://robinwitch.github.io/MECo-Page'}
   input: [audio, seed-motion]
   output: [full-body, hands]
   approach: [llm, vq]
@@ -328,7 +328,7 @@
   category: dataset
   doi: 10.52202/085713-0646
   arxiv: '2510.07249'
-  links: {paper: 'https://openreview.net/forum?id=4a0w7AkrY7', open: 'https://arxiv.org/abs/2510.07249', project: 'https://talkcuts.github.io/'}
+  links: {paper: 'https://openreview.net/forum?id=4a0w7AkrY7', open: 'https://arxiv.org/abs/2510.07249', code: 'https://github.com/UMass-Embodied-AGI/TalkCuts', project: 'https://talkcuts.github.io/'}
   input: [text, audio, image]
   output: [upper-body, full-body, hands, face]
   representation: [video-pixels, keypoints-2d, smpl-x]
@@ -397,7 +397,7 @@
   category: method
   doi: 10.1609/aaai.v39i3.32248
   arxiv: '2503.17059'
-  links: {paper: 'https://doi.org/10.1609/aaai.v39i3.32248', open: 'https://ojs.aaai.org/index.php/AAAI/article/download/32248/34403', project: 'https://cyk990422.github.io/DIDiffGes'}
+  links: {paper: 'https://doi.org/10.1609/aaai.v39i3.32248', open: 'https://ojs.aaai.org/index.php/AAAI/article/download/32248/34403', code: 'https://github.com/whuhxb/Efficient-Audio-Gesture', project: 'https://cyk990422.github.io/DIDiffGes'}
   input: [audio, style, seed-motion]
   output: [full-body, hands]
   representation: [joints-3d]
@@ -423,7 +423,7 @@
   category: method
   doi: 10.1109/3dv66043.2025.00074
   arxiv: '2503.13229'
-  links: {paper: 'https://doi.org/10.1109/3dv66043.2025.00074', open: 'https://arxiv.org/abs/2503.13229', project: 'https://cyk990422.github.io/HoloGest.github.io/'}
+  links: {paper: 'https://doi.org/10.1109/3dv66043.2025.00074', open: 'https://arxiv.org/abs/2503.13229', code: 'https://github.com/whuhxb/Efficient-Audio-Gesture', project: 'https://cyk990422.github.io/HoloGest.github.io/'}
   input: [audio, text]
   output: [full-body, hands, locomotion]
   representation: [smpl-x]
@@ -450,7 +450,7 @@
   category: method
   doi: 10.1109/cvpr52734.2025.00093
   arxiv: '2503.01175'
-  links: {paper: 'https://doi.org/10.1109/cvpr52734.2025.00093', open: 'https://arxiv.org/abs/2503.01175', project: 'https://star-uu-wang.github.io/HOP/'}
+  links: {paper: 'https://doi.org/10.1109/cvpr52734.2025.00093', open: 'https://arxiv.org/abs/2503.01175', code: 'https://github.com/Chenghyyy/HOP-Heterogeneous-Topology-based-Multimodal-Entanglement-for-Co-Speech-Gesture-Generation', project: 'https://star-uu-wang.github.io/HOP/'}
   input: [text, audio, speaker-id]
   output: [upper-body, hands]
   representation: [joints-3d]
@@ -892,7 +892,7 @@
   type: workshop
   category: evaluation
   doi: 10.1145/3746268.3759431
-  links: {paper: 'https://doi.org/10.1145/3746268.3759431'}
+  links: {paper: 'https://doi.org/10.1145/3746268.3759431', code: 'https://github.com/AI-Unicamp/LLM-Gesture-Pipelines'}
   input: [text, audio]
   approach: [diffusion, llm]
   summary: Compares seven diffusion-based gesture generation pipelines that use different audio (WavLM, Whisper) and text (Word2Vec, Llama-3.2-3B-Instruct) feature extractors.
@@ -1259,7 +1259,7 @@
   category: method
   doi: 10.52202/085713-2387
   arxiv: '2505.22647'
-  links: {paper: 'https://doi.org/10.52202/085713-2387', open: 'https://arxiv.org/abs/2505.22647', project: 'https://meigen-ai.github.io/multi-talk/'}
+  links: {paper: 'https://doi.org/10.52202/085713-2387', open: 'https://arxiv.org/abs/2505.22647', code: 'https://github.com/MeiGen-AI/MultiTalk', project: 'https://meigen-ai.github.io/multi-talk/'}
   input: [audio, image, text]
   output: [upper-body, face]
   representation: [video-pixels]
@@ -1310,7 +1310,7 @@
   type: journal
   category: method
   doi: 10.1111/cgf.70261
-  links: {paper: 'https://doi.org/10.1111/cgf.70261'}
+  links: {paper: 'https://doi.org/10.1111/cgf.70261', code: 'https://github.com/HellAngel18/EmoDiffGes'}
   input: [audio, text]
   output: [full-body, face]
   representation: [smpl-x]
@@ -1332,7 +1332,7 @@
   type: conference
   category: method
   doi: 10.1109/cvpr52734.2025.01063
-  links: {paper: 'https://doi.org/10.1109/cvpr52734.2025.01063'}
+  links: {paper: 'https://doi.org/10.1109/cvpr52734.2025.01063', code: 'https://github.com/abcdvzz/imae-open-source'}
   input: [audio]
   representation: [video-pixels]
   approach: [diffusion]
@@ -1399,7 +1399,7 @@
   type: conference
   category: method
   arxiv: '2410.04221'
-  links: {paper: 'https://proceedings.iclr.cc/paper_files/paper/2025/file/81a0a519bf7ef7757ff46df2065e7051-Paper-Conference.pdf', open: 'https://arxiv.org/abs/2410.04221', project: 'https://pantomatrix.github.io/TANGO/'}
+  links: {paper: 'https://proceedings.iclr.cc/paper_files/paper/2025/file/81a0a519bf7ef7757ff46df2065e7051-Paper-Conference.pdf', open: 'https://arxiv.org/abs/2410.04221', code: 'https://github.com/CyberAgentAILab/TANGO', project: 'https://pantomatrix.github.io/TANGO/'}
   input: [audio, video]
   output: [upper-body]
   representation: [video-pixels]
@@ -1450,7 +1450,7 @@
   category: method
   doi: 10.1109/iccv51701.2025.01017
   arxiv: '2501.18898'
-  links: {paper: 'https://doi.org/10.1109/iccv51701.2025.01017', open: 'https://arxiv.org/abs/2501.18898', project: 'https://andypinxinliu.github.io/GestureLSM'}
+  links: {paper: 'https://doi.org/10.1109/iccv51701.2025.01017', open: 'https://arxiv.org/abs/2501.18898', code: 'https://github.com/andypinxinliu/GestureLSM', project: 'https://andypinxinliu.github.io/GestureLSM'}
   input: [audio, text]
   output: [full-body, hands, face]
   representation: [smpl-x]
@@ -1475,7 +1475,7 @@
   category: method
   doi: 10.1109/iccv51701.2025.01296
   arxiv: '2507.19359'
-  links: {paper: 'https://doi.org/10.1109/iccv51701.2025.01296', open: 'https://arxiv.org/abs/2507.19359', project: 'https://semgesture.github.io/'}
+  links: {paper: 'https://doi.org/10.1109/iccv51701.2025.01296', open: 'https://arxiv.org/abs/2507.19359', code: 'https://github.com/marcos452/SemGes', project: 'https://semgesture.github.io/'}
   input: [audio, text, speaker-id]
   output: [upper-body, hands]
   representation: [joints-3d]
@@ -1555,7 +1555,7 @@
   category: method
   doi: 10.1145/3757377.3763831
   arxiv: '2510.02617'
-  links: {paper: 'https://doi.org/10.1145/3757377.3763831', open: 'https://arxiv.org/abs/2510.02617', project: 'https://beijia11.github.io/IASA'}
+  links: {paper: 'https://doi.org/10.1145/3757377.3763831', open: 'https://arxiv.org/abs/2510.02617', code: 'https://github.com/Beijia11/IASA', project: 'https://beijia11.github.io/IASA'}
   input: [audio, image]
   output: [upper-body, hands, face]
   representation: [video-pixels, keypoints-2d]
@@ -1702,7 +1702,7 @@
   category: method
   doi: 10.1109/cvpr52734.2025.01545
   arxiv: '2412.06786'
-  links: {paper: 'https://doi.org/10.1109/cvpr52734.2025.01545', open: 'https://arxiv.org/abs/2412.06786', project: 'https://vcai.mpi-inf.mpg.de/projects/RAG-Gesture/'}
+  links: {paper: 'https://doi.org/10.1109/cvpr52734.2025.01545', open: 'https://arxiv.org/abs/2412.06786', code: 'https://github.com/m-hamza-mughal/RAG-Gesture', project: 'https://vcai.mpi-inf.mpg.de/projects/RAG-Gesture/'}
   input: [audio, text, speaker-id]
   output: [full-body, hands, face]
   representation: [joints-3d, smpl-x]
@@ -2290,7 +2290,7 @@
   category: method
   doi: 10.1016/j.patcog.2025.111774
   arxiv: '2403.02905'
-  links: {paper: 'https://doi.org/10.1016/j.patcog.2025.111774', open: 'https://arxiv.org/abs/2403.02905', project: 'https://mmofusion.github.io/'}
+  links: {paper: 'https://doi.org/10.1016/j.patcog.2025.111774', open: 'https://arxiv.org/abs/2403.02905', code: 'https://github.com/wangsen99/MMoFusion', project: 'https://mmofusion.github.io/'}
   input: [audio, text, speaker-id, emotion]
   output: [upper-body, full-body]
   representation: [joints-3d]
@@ -2434,7 +2434,7 @@
   category: method
   doi: 10.1109/iccv51701.2025.01325
   arxiv: '2507.06812'
-  links: {paper: 'https://doi.org/10.1109/iccv51701.2025.01325', open: 'https://arxiv.org/abs/2507.06812', project: 'https://mpi-lab.github.io/Democratizing-CSG/'}
+  links: {paper: 'https://doi.org/10.1109/iccv51701.2025.01325', open: 'https://arxiv.org/abs/2507.06812', code: 'https://github.com/MPI-Lab/Democratizing-CSG', project: 'https://mpi-lab.github.io/Democratizing-CSG/'}
   input: [audio, image]
   output: [full-body, hands, face]
   representation: [keypoints-2d, video-pixels]
@@ -2459,7 +2459,7 @@
   category: method
   doi: 10.1109/iccv51701.2025.01172
   arxiv: '2507.22731'
-  links: {paper: 'https://doi.org/10.1109/iccv51701.2025.01172', open: 'https://arxiv.org/abs/2507.22731', project: 'https://mumuwei.github.io/GestureHYDRA/'}
+  links: {paper: 'https://doi.org/10.1109/iccv51701.2025.01172', open: 'https://arxiv.org/abs/2507.22731', code: 'https://github.com/hlyyyyy/GestureHydra', project: 'https://mumuwei.github.io/GestureHYDRA/'}
   input: [audio, style, text]
   output: [full-body, hands]
   representation: [smpl-x]
@@ -2522,7 +2522,7 @@
   type: conference
   category: method
   doi: 10.52202/085713-4634
-  links: {paper: 'https://doi.org/10.52202/085713-4634'}
+  links: {paper: 'https://doi.org/10.52202/085713-4634', code: 'https://github.com/Williamy946/PyraMotion'}
   input: [audio]
   output: [full-body, hands, face, locomotion]
   approach: [vq]

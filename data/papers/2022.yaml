@@ -39,7 +39,7 @@
   type: poster
   category: method
   doi: 10.1145/3550082.3564185
-  links: {paper: 'https://doi.org/10.1145/3550082.3564185', video: 'https://youtu.be/QBtGdGE1Wgk'}
+  links: {paper: 'https://doi.org/10.1145/3550082.3564185', code: 'https://github.com/ghazanPK/wild-pose-matching', video: 'https://youtu.be/QBtGdGE1Wgk'}
   input: [text]
   approach: [hybrid]
   summary: Text-to-gesture rules for 3D digital humans are built by matching 2D poses from monologue videos to 3D mocap gesture units with a contrastively trained model, with gesture units clustered for runtime diversity.
@@ -70,7 +70,7 @@
   category: method
   doi: 10.1145/3550454.3555435
   arxiv: '2210.01448'
-  links: {paper: 'https://doi.org/10.1145/3550454.3555435', open: 'https://arxiv.org/abs/2210.01448', project: 'https://pku-mocca.github.io/Rhythmic-Gesticulator-Page/'}
+  links: {paper: 'https://doi.org/10.1145/3550454.3555435', open: 'https://arxiv.org/abs/2210.01448', code: 'https://github.com/Aubrey-ao/HumanBehaviorAnimation', project: 'https://pku-mocca.github.io/Rhythmic-Gesticulator-Page/'}
   input: [audio, text, speaker-id]
   output: [upper-body, hands]
   representation: [joints-3d]
@@ -123,7 +123,7 @@
   type: journal
   category: method
   doi: 10.1016/j.neunet.2022.03.041
-  links: {paper: 'https://doi.org/10.1016/j.neunet.2022.03.041'}
+  links: {paper: 'https://doi.org/10.1016/j.neunet.2022.03.041', code: 'https://github.com/GestureGeneration/text2gesture_cnn'}
   input: [text]
   representation: [keypoints-2d]
   user_study: true
@@ -729,7 +729,7 @@
   type: conference
   category: method
   doi: 10.1145/3536221.3558060
-  links: {paper: 'https://doi.org/10.1145/3536221.3558060'}
+  links: {paper: 'https://doi.org/10.1145/3536221.3558060', code: 'https://github.com/cjerry1243/Tacotron2-SpeechGesture'}
   input: [text, audio, speaker-id]
   output: [full-body, upper-body]
   datasets: [genea-2022]
@@ -799,7 +799,7 @@
   type: poster
   category: system
   doi: 10.1145/3550453.3570124
-  links: {paper: 'https://doi.org/10.1145/3550453.3570124', open: 'https://dl.acm.org/doi/pdf/10.1145/3550453.3570124'}
+  links: {paper: 'https://doi.org/10.1145/3550453.3570124', open: 'https://dl.acm.org/doi/pdf/10.1145/3550453.3570124', code: 'https://github.com/ghazanPK/asap-live'}
   input: [text]
   summary: A system that turns movie scripts into pre-visualized scenes with virtual humans, generating co-speech gestures from dialogue with a text-to-gesture model, plus facial expressions and body movements.
   added: '2026-10-03'
@@ -911,7 +911,7 @@
   category: method
   doi: 10.52202/068431-1554
   arxiv: '2212.02350'
-  links: {paper: 'https://doi.org/10.52202/068431-1554', open: 'https://arxiv.org/abs/2212.02350', project: 'https://alvinliu0.github.io/projects/ANGIE'}
+  links: {paper: 'https://doi.org/10.52202/068431-1554', open: 'https://arxiv.org/abs/2212.02350', code: 'https://github.com/alvinliu0/ANGIE', project: 'https://alvinliu0.github.io/projects/ANGIE'}
   input: [audio, image]
   output: [upper-body]
   representation: [video-pixels]
@@ -1633,7 +1633,7 @@
   type: conference
   category: method
   doi: 10.1007/978-3-031-20065-6_41
-  links: {paper: 'https://doi.org/10.1007/978-3-031-20065-6_41'}
+  links: {paper: 'https://doi.org/10.1007/978-3-031-20065-6_41', code: 'https://github.com/yesheng-THU/GFGE'}
   input: [audio, seed-motion, style]
   output: [upper-body, full-body]
   representation: [joints-3d]

@@ -676,7 +676,7 @@
   type: conference
   category: method
   doi: 10.1145/3610661.3616551
-  links: {paper: 'https://doi.org/10.1145/3610661.3616551'}
+  links: {paper: 'https://doi.org/10.1145/3610661.3616551', code: 'https://github.com/GT-KIM/GENEA2023-KU-ISPL'}
   input: [text, audio, seed-motion]
   approach: [diffusion]
   datasets: [genea-2023]
@@ -994,7 +994,7 @@
   category: method
   doi: 10.21437/ssw.2023-24
   arxiv: '2306.09417'
-  links: {paper: 'https://doi.org/10.21437/ssw.2023-24', open: 'https://arxiv.org/abs/2306.09417', project: 'https://shivammehta25.github.io/Diff-TTSG/'}
+  links: {paper: 'https://doi.org/10.21437/ssw.2023-24', open: 'https://arxiv.org/abs/2306.09417', code: 'https://github.com/shivammehta25/Diff-TTSG', project: 'https://shivammehta25.github.io/Diff-TTSG/'}
   input: [text]
   output: [upper-body, hands]
   representation: [joints-3d]
@@ -1321,7 +1321,7 @@
   category: method
   doi: 10.1145/3606940
   arxiv: '2309.16162'
-  links: {paper: 'https://dl.acm.org/doi/10.1145/3606940', open: 'https://arxiv.org/abs/2309.16162'}
+  links: {paper: 'https://dl.acm.org/doi/10.1145/3606940', open: 'https://arxiv.org/abs/2309.16162', code: 'https://github.com/teshima058/ACT2G'}
   input: [text]
   output: [upper-body]
   representation: [joints-3d]
@@ -1359,7 +1359,7 @@
   type: workshop
   category: method
   doi: 10.1145/3610661.3616554
-  links: {paper: 'https://doi.org/10.1145/3610661.3616554'}
+  links: {paper: 'https://doi.org/10.1145/3610661.3616554', code: 'https://github.com/AI-Unicamp/ggvad-genea2023'}
   input: [audio]
   approach: [diffusion]
   datasets: [genea-2023]
@@ -1434,7 +1434,7 @@
   type: conference
   category: dataset
   doi: 10.1145/3568294.3580080
-  links: {paper: 'https://doi.org/10.1145/3568294.3580080', open: 'https://kclpure.kcl.ac.uk/ws/files/196446512/LISI_HHI_Dataset_LBR_Camera_Ready_.pdf'}
+  links: {paper: 'https://doi.org/10.1145/3568294.3580080', open: 'https://kclpure.kcl.ac.uk/ws/files/196446512/LISI_HHI_Dataset_LBR_Camera_Ready_.pdf', code: 'https://github.com/d4rkspir1t/LISI-HHI_baseline'}
   representation: [joints-3d]
   setting: [dyadic]
   datasets: [lisi-hhi]
@@ -1619,7 +1619,7 @@
   type: conference
   category: method
   doi: 10.1145/3577190.3616116
-  links: {paper: 'https://doi.org/10.1145/3577190.3616116', open: 'https://dl.acm.org/doi/pdf/10.1145/3577190.3616116'}
+  links: {paper: 'https://doi.org/10.1145/3577190.3616116', open: 'https://dl.acm.org/doi/pdf/10.1145/3577190.3616116', code: 'https://github.com/JonathanPWindle/UEA-DH-GENEA23'}
   input: [text, audio, speaker-id, interlocutor]
   setting: [dyadic]
   user_study: true
@@ -1824,7 +1824,7 @@
   type: conference
   category: method
   doi: 10.1109/icassp49357.2023.10095304
-  links: {paper: 'https://doi.org/10.1109/icassp49357.2023.10095304', open: 'https://hcsi.cs.tsinghua.edu.cn/Paper/Paper23/ICASSP23_YEZIJIE.pdf'}
+  links: {paper: 'https://doi.org/10.1109/icassp49357.2023.10095304', open: 'https://hcsi.cs.tsinghua.edu.cn/Paper/Paper23/ICASSP23_YEZIJIE.pdf', code: 'https://github.com/abcyzj/CrossGesture'}
   input: [text, audio, seed-motion]
   representation: [joints-3d]
   approach: [vq]
@@ -1848,7 +1848,7 @@
   category: method
   doi: 10.1109/cvpr52729.2023.00053
   arxiv: '2212.04420'
-  links: {paper: 'https://doi.org/10.1109/cvpr52729.2023.00053', open: 'https://arxiv.org/abs/2212.04420', project: 'https://talkshow.is.tue.mpg.de/'}
+  links: {paper: 'https://doi.org/10.1109/cvpr52729.2023.00053', open: 'https://arxiv.org/abs/2212.04420', code: 'https://github.com/yhw-yhw/TalkSHOW', project: 'https://talkshow.is.tue.mpg.de/'}
   input: [audio, speaker-id]
   output: [full-body, hands, face]
   representation: [smpl-x]
@@ -1904,7 +1904,7 @@
   category: method
   doi: 10.1007/978-3-031-27077-2_18
   arxiv: '2301.10047'
-  links: {paper: 'https://doi.org/10.1007/978-3-031-27077-2_18', open: 'https://arxiv.org/abs/2301.10047', project: 'https://zf223669.github.io/DiffMotionWebsite/'}
+  links: {paper: 'https://doi.org/10.1007/978-3-031-27077-2_18', open: 'https://arxiv.org/abs/2301.10047', code: 'https://github.com/zf223669/DiffmotionGG-beta', project: 'https://zf223669.github.io/DiffMotionWebsite/'}
   input: [audio, seed-motion]
   output: [upper-body]
   representation: [joints-3d]

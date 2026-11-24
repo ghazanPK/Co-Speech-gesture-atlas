@@ -303,7 +303,7 @@
   category: method
   doi: 10.1109/cvpr52733.2024.00702
   arxiv: '2401.04747'
-  links: {paper: 'https://doi.org/10.1109/cvpr52733.2024.00702', open: 'https://arxiv.org/abs/2401.04747', project: 'https://jeremycjm.github.io/proj/DiffSHEG'}
+  links: {paper: 'https://doi.org/10.1109/cvpr52733.2024.00702', open: 'https://arxiv.org/abs/2401.04747', code: 'https://github.com/JeremyCJM/DiffSHEG', project: 'https://jeremycjm.github.io/proj/DiffSHEG'}
   input: [audio, speaker-id]
   output: [upper-body, hands, face]
   representation: [joints-3d, smpl-x, other]
@@ -745,7 +745,7 @@
   type: conference
   category: evaluation
   doi: 10.1145/3686215.3688823
-  links: {paper: 'https://doi.org/10.1145/3686215.3688823'}
+  links: {paper: 'https://doi.org/10.1145/3686215.3688823', code: 'https://github.com/AI-Unicamp/Benchmarking-SDGG-Models'}
   input: [audio]
   summary: Evaluates speech-driven gesture models on unseen voices produced by voice conversion and on synthetic noisy audio, applied to DiffuseStyleGesture+.
   added: '2026-10-03'
@@ -803,7 +803,7 @@
   category: evaluation
   doi: 10.1145/3652988.3673934
   arxiv: '2409.10357'
-  links: {paper: 'https://doi.org/10.1145/3652988.3673934', open: 'https://arxiv.org/abs/2409.10357', project: 'https://sites.google.com/view/iva-2d-or-not-2d'}
+  links: {paper: 'https://doi.org/10.1145/3652988.3673934', open: 'https://arxiv.org/abs/2409.10357', code: 'https://github.com/TGuichoux/2D-or-not-2D', project: 'https://sites.google.com/view/iva-2d-or-not-2d'}
   input: [audio, text, speaker-id]
   output: [upper-body]
   representation: [keypoints-2d, joints-3d]
@@ -1335,7 +1335,7 @@
   category: method
   doi: 10.1109/cvpr52733.2024.00155
   arxiv: '2404.00368'
-  links: {paper: 'https://doi.org/10.1109/cvpr52733.2024.00155', open: 'https://arxiv.org/abs/2404.00368', project: 'https://feifeifeiliu.github.io/probtalk/'}
+  links: {paper: 'https://doi.org/10.1109/cvpr52733.2024.00155', open: 'https://arxiv.org/abs/2404.00368', code: 'https://github.com/MPI-Lab/probtalk', project: 'https://feifeifeiliu.github.io/probtalk/'}
   input: [audio, speaker-id, seed-motion]
   output: [full-body, face, hands]
   representation: [smpl-x]
@@ -1552,7 +1552,7 @@
   category: method
   doi: 10.1109/cvprw63382.2024.00201
   arxiv: '2404.19622'
-  links: {paper: 'https://doi.org/10.1109/cvprw63382.2024.00201', open: 'https://arxiv.org/abs/2404.19622', project: 'https://shivammehta25.github.io/MAGI/'}
+  links: {paper: 'https://doi.org/10.1109/cvprw63382.2024.00201', open: 'https://arxiv.org/abs/2404.19622', code: 'https://github.com/shivammehta25/MAGI', project: 'https://shivammehta25.github.io/MAGI/'}
   input: [text, speaker-id]
   output: [upper-body]
   representation: [joints-3d]
@@ -1578,7 +1578,7 @@
   category: method
   doi: 10.1109/icassp48485.2024.10445998
   arxiv: '2310.05181'
-  links: {paper: 'https://doi.org/10.1109/icassp48485.2024.10445998', open: 'https://arxiv.org/abs/2310.05181', project: 'https://shivammehta25.github.io/Match-TTSG/'}
+  links: {paper: 'https://doi.org/10.1109/icassp48485.2024.10445998', open: 'https://arxiv.org/abs/2310.05181', code: 'https://github.com/shivammehta25/Match-TTSG', project: 'https://shivammehta25.github.io/Match-TTSG/'}
   input: [text]
   output: [upper-body]
   approach: [flow-matching]
@@ -1632,7 +1632,7 @@
   category: method
   doi: 10.1109/cvpr52733.2024.00138
   arxiv: '2403.17936'
-  links: {paper: 'https://doi.org/10.1109/cvpr52733.2024.00138', open: 'https://arxiv.org/abs/2403.17936', project: 'https://vcai.mpi-inf.mpg.de/projects/ConvoFusion/'}
+  links: {paper: 'https://doi.org/10.1109/cvpr52733.2024.00138', open: 'https://arxiv.org/abs/2403.17936', code: 'https://github.com/m-hamza-mughal/convofusion', project: 'https://vcai.mpi-inf.mpg.de/projects/ConvoFusion/'}
   input: [audio, text, speaker-id, interlocutor]
   output: [full-body, hands]
   representation: [joints-3d]
@@ -1670,7 +1670,7 @@
   category: method
   doi: 10.1109/cvpr52733.2024.00101
   arxiv: '2401.01885'
-  links: {paper: 'https://doi.org/10.1109/cvpr52733.2024.00101', open: 'https://arxiv.org/abs/2401.01885', project: 'https://people.eecs.berkeley.edu/~evonne_ng/projects/audio2photoreal/'}
+  links: {paper: 'https://doi.org/10.1109/cvpr52733.2024.00101', open: 'https://arxiv.org/abs/2401.01885', code: 'https://github.com/facebookresearch/audio2photoreal', project: 'https://people.eecs.berkeley.edu/~evonne_ng/projects/audio2photoreal/'}
   input: [audio, interlocutor]
   output: [full-body, hands, face]
   representation: [joints-3d]
@@ -2226,7 +2226,7 @@
   type: journal
   category: method
   doi: 10.1109/thms.2024.3456085
-  links: {paper: 'https://doi.org/10.1109/thms.2024.3456085'}
+  links: {paper: 'https://doi.org/10.1109/thms.2024.3456085', code: 'https://github.com/wubowen416/Speech-driven-Gesture-Generation-using-Transformer-based-Denoising-Diffusion-Probabilistic-Models'}
   approach: [diffusion]
   user_study: true
   summary: A transformer-based denoising diffusion model generates co-speech gestures including finger movements for short speech segments, with a sampling trick to keep consecutive segments continuous.
@@ -2259,7 +2259,7 @@
   category: method
   doi: 10.1609/aaai.v38i6.28458
   arxiv: '2312.15900'
-  links: {paper: 'https://ojs.aaai.org/index.php/AAAI/article/view/28458', open: 'https://arxiv.org/abs/2312.15900'}
+  links: {paper: 'https://ojs.aaai.org/index.php/AAAI/article/view/28458', open: 'https://arxiv.org/abs/2312.15900', code: 'https://github.com/kkakkkka/CoG'}
   input: [audio, text, seed-motion]
   output: [upper-body, hands, face]
   representation: [joints-3d]
@@ -2360,7 +2360,7 @@
   category: method
   doi: 10.1109/icassp48485.2024.10447978
   arxiv: '2401.03476'
-  links: {paper: 'https://doi.org/10.1109/icassp48485.2024.10447978', open: 'https://arxiv.org/abs/2401.03476', project: 'https://youngseng.github.io/FreeTalker/'}
+  links: {paper: 'https://doi.org/10.1109/icassp48485.2024.10447978', open: 'https://arxiv.org/abs/2401.03476', code: 'https://github.com/YoungSeng/FreeTalker', project: 'https://youngseng.github.io/FreeTalker/'}
   input: [audio, text]
   output: [full-body, hands]
   representation: [smpl-x]
@@ -2535,7 +2535,7 @@
   type: journal
   category: method
   arxiv: '2403.10805'
-  links: {paper: 'https://arxiv.org/abs/2403.10805', project: 'https://zf223669.github.io/Diffmotion-v2-website/'}
+  links: {paper: 'https://arxiv.org/abs/2403.10805', code: 'https://github.com/zf223669/Persona_Gestor', project: 'https://zf223669.github.io/Diffmotion-v2-website/'}
   input: [audio]
   output: [full-body, hands, locomotion]
   representation: [joints-3d]

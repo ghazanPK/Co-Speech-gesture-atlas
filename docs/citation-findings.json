@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-11-23",
+  "snapshot_date": "2026-11-24",
   "definition": "Citation concentration measures the share of recorded within-atlas citation edges received by the most-cited records. It does not measure author self-citation or a causal effect.",
   "raw_edges": 32886,
   "unique_edges": 32886,
@@ -145,7 +145,7 @@
         "year": 2019,
         "venue": "ICRA",
         "category": "method",
-        "code_link": false,
+        "code_link": true,
         "citations": 175
       },
       {
@@ -199,23 +199,23 @@
         "year": 2021,
         "venue": "ICCV",
         "category": "method",
-        "code_link": false,
+        "code_link": true,
         "citations": 114
       }
     ]
   },
   "code_groups": {
     "code_link": {
-      "records": 82,
-      "median": 10.0,
-      "mean": 30.79,
-      "with_outgoing": 75
+      "records": 154,
+      "median": 6.0,
+      "mean": 22.68,
+      "with_outgoing": 141
     },
     "no_code_link_recorded": {
-      "records": 552,
+      "records": 480,
       "median": 2.0,
-      "mean": 9.47,
-      "with_outgoing": 501
+      "mean": 8.87,
+      "with_outgoing": 435
     }
   },
   "cohorts": [
@@ -252,46 +252,46 @@
     {
       "years": "2015-2019",
       "code_link": {
-        "records": 4,
-        "median": 59.0,
-        "mean": 78,
-        "with_outgoing": 3
+        "records": 6,
+        "median": 64.5,
+        "mean": 83.67,
+        "with_outgoing": 5
       },
       "no_code_link_recorded": {
-        "records": 58,
-        "median": 5.0,
-        "mean": 15.09,
-        "with_outgoing": 48
+        "records": 56,
+        "median": 4.5,
+        "mean": 12.23,
+        "with_outgoing": 46
       }
     },
     {
       "years": "2020-2022",
       "code_link": {
-        "records": 26,
-        "median": 26.5,
-        "mean": 52.81,
-        "with_outgoing": 25
+        "records": 38,
+        "median": 23.0,
+        "mean": 44.58,
+        "with_outgoing": 35
       },
       "no_code_link_recorded": {
-        "records": 89,
-        "median": 5,
-        "mean": 12.93,
-        "with_outgoing": 84
+        "records": 77,
+        "median": 4,
+        "mean": 10.78,
+        "with_outgoing": 74
       }
     },
     {
       "years": "2023-2026",
       "code_link": {
-        "records": 52,
-        "median": 4.5,
-        "mean": 16.15,
-        "with_outgoing": 47
+        "records": 110,
+        "median": 3.0,
+        "mean": 11.79,
+        "with_outgoing": 101
       },
       "no_code_link_recorded": {
-        "records": 249,
-        "median": 1,
-        "mean": 4.22,
-        "with_outgoing": 228
+        "records": 191,
+        "median": 0,
+        "mean": 3.12,
+        "with_outgoing": 174
       }
     }
   ],
@@ -306,7 +306,7 @@
         2004,
         2026
       ],
-      "code_links": 10
+      "code_links": 16
     },
     {
       "venue": "IVA",
@@ -318,7 +318,7 @@
         2006,
         2025
       ],
-      "code_links": 2
+      "code_links": 4
     },
     {
       "venue": "CVPR",
@@ -330,7 +330,7 @@
         2019,
         2026
       ],
-      "code_links": 11
+      "code_links": 24
     },
     {
       "venue": "ICASSP",
@@ -342,7 +342,7 @@
         2013,
         2026
       ],
-      "code_links": 2
+      "code_links": 7
     },
     {
       "venue": "ACM MM",
@@ -354,7 +354,7 @@
         2005,
         2026
       ],
-      "code_links": 4
+      "code_links": 6
     },
     {
       "venue": "LNCS",
@@ -366,7 +366,7 @@
         2006,
         2026
       ],
-      "code_links": 1
+      "code_links": 2
     },
     {
       "venue": "TOG",
@@ -378,7 +378,7 @@
         2004,
         2026
       ],
-      "code_links": 4
+      "code_links": 6
     },
     {
       "venue": "AAMAS",
@@ -414,7 +414,7 @@
         2019,
         2025
       ],
-      "code_links": 4
+      "code_links": 9
     },
     {
       "venue": "IROS",
